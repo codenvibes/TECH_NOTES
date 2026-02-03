@@ -225,7 +225,30 @@ Nmap done: 1 IP address (1 host up) scanned in 2.40 seconds
 
 When this command runs successfully, it should identify shares. If your scan results look empty like mine try this using `smbclient`
 
+Sometimes, a general scanner like Nmap doesn't get the information we need. This is common in real-world scenarios. When that happens, we use a tool specifically designed for that service. For SMB, that tool is **smbclient**.
+
 Command: `smbclient -L //10.65.147.145/`
+
+(When it asks for a password, just press **Enter**—we are trying to log in as a "Guest" with no password.)
+
+Output:
+
+```shell
+                                                                                                                    
+┌──(kali㉿kali)-[~]
+└─$ smbclient -L //10.65.147.145/
+Password for [WORKGROUP\kali]:
+
+        Sharename       Type      Comment
+        ---------       ----      -------
+        print$          Disk      Printer Drivers
+        anonymous       Disk      
+        IPC$            IPC       IPC Service (kenobi server (Samba, Ubuntu))
+Reconnecting with SMB1 for workgroup listing.
+smbXcli_negprot_smb1_done: No compatible protocol selected by server.
+Protocol negotiation to server 10.65.147.145 (for a protocol between LANMAN1 and NT1) failed: NT_STATUS_INVALID_NETWORK_RESPONSE
+Unable to connect with SMB1 -- no workgroup available
+```
 
 
 
