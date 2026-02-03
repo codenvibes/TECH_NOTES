@@ -191,7 +191,7 @@ SMB has two ports, 445 and 139.
 ![](https://assets.tryhackme.com/additional/imgur/bkgVNy3.png)
 
 #### Using the nmap command above, how many shares have been found?
-==Answer==
+==3==
 
 Now that we know the "door" for file sharing (Port 445) is open, we need to see what "folders" are inside.
 
@@ -263,6 +263,8 @@ Total Shares Found: 3
 <br>
 </div>
 
+#### Using the nmap command above, how many shares have been found?
+==3==
 <div align="center">
 <br>
 <br>
