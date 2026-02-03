@@ -55,6 +55,32 @@ Once the VPN initialized successfully, confirm the connection by checking for th
 <br>
 <br>
 </div>
+###### ## 1.2. Verifying the Target is Reachable
+
+After connecting to the VPN, verify that the target machine is up and reachable by performing an ICMP ping test.
+
+Command: `ping -c 4 <TARGET_IP>`
+
+Breakdown:
+- `-c 4` → sends 4 packets only (clean output, fast)
+
+Output:
+
+```shell
+┌──(kali㉿kali)-[~]
+└─$ ping -c 4 10.64.165.146
+PING 10.64.165.146 (10.64.165.146) 56(84) bytes of data.
+64 bytes from 10.64.165.146: icmp_seq=1 ttl=62 time=203 ms
+64 bytes from 10.64.165.146: icmp_seq=2 ttl=62 time=202 ms
+64 bytes from 10.64.165.146: icmp_seq=3 ttl=62 time=204 ms
+64 bytes from 10.64.165.146: icmp_seq=4 ttl=62 time=202 ms
+
+--- 10.64.165.146 ping statistics ---
+4 packets transmitted, 4 received, 0% packet loss, time 3056ms
+rtt min/avg/max/mdev = 202.132/202.809/203.644/0.571 ms
+```
+
+A successful response confirms that the machine is active and accessible on the TryHackMe network, allowing us to proceed with the enumeration phase.
 
 #### Scan the machine with nmap, how many ports are open?
 ==7==
