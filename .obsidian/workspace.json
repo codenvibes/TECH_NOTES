@@ -63,18 +63,20 @@
                   {
                     "id": "61cb0fa6208d953e",
                     "type": "leaf",
+                    "pinned": true,
                     "state": {
                       "type": "bases",
                       "state": {
                         "file": "CYBER/13 CTFS & LABS/CTFS & LABS.base",
                         "viewName": "THM"
                       },
+                      "pinned": true,
                       "icon": "lucide-layout-grid",
                       "title": "CTFS & LABS"
                     }
                   }
                 ],
-                "currentTab": 3
+                "currentTab": 2
               },
               {
                 "id": "eb7c5c7906b2a9d3",
@@ -84,6 +86,7 @@
                   {
                     "id": "1ed32a33f41cf25f",
                     "type": "leaf",
+                    "pinned": true,
                     "state": {
                       "type": "markdown",
                       "state": {
@@ -91,6 +94,7 @@
                         "mode": "source",
                         "source": false
                       },
+                      "pinned": true,
                       "icon": "lucide-file",
                       "title": "JUNIOR CYBERSECURITY ANALYST"
                     }
@@ -98,6 +102,7 @@
                   {
                     "id": "208b62d6bd0b3ab0",
                     "type": "leaf",
+                    "pinned": true,
                     "state": {
                       "type": "markdown",
                       "state": {
@@ -105,6 +110,7 @@
                         "mode": "source",
                         "source": false
                       },
+                      "pinned": true,
                       "icon": "lucide-file",
                       "title": "SECURITY ANALYST"
                     }
@@ -112,6 +118,7 @@
                   {
                     "id": "6613dbf2ab63638d",
                     "type": "leaf",
+                    "pinned": true,
                     "state": {
                       "type": "markdown",
                       "state": {
@@ -119,12 +126,12 @@
                         "mode": "source",
                         "source": false
                       },
+                      "pinned": true,
                       "icon": "lucide-file",
                       "title": "CLOUD AND NETWORK SECURITY"
                     }
                   }
-                ],
-                "currentTab": 1
+                ]
               }
             ],
             "direction": "horizontal"
@@ -272,13 +279,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "COURSES/CYBER SHUJAA/SECURITY ANALYST.md",
+                "file": "QUICK NOTES/WHITE-BOARD.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of SECURITY ANALYST"
+              "title": "Outline of WHITE-BOARD"
             }
           },
           {
@@ -340,17 +347,18 @@
       "iconic:Open rulebook": false
     }
   },
-  "active": "208b62d6bd0b3ab0",
+  "active": "21fce08000a30866",
   "lastOpenFiles": [
-    "QUICK NOTES/TODO.md",
     "CYBER/13 CTFS & LABS/CTFS & LABS.base",
+    "COURSES/COURSES.base",
+    "COURSES/HTB/JUNIOR CYBERSECURITY ANALYST.md",
+    "COURSES/CYBER SHUJAA/CLOUD AND NETWORK SECURITY.md",
+    "COURSES/CYBER SHUJAA/SECURITY ANALYST.md",
+    "CYBER/03 RECONNAISSANCE & ENUMERATION/00 ENUMERATION.md",
+    "QUICK NOTES/TODO.md",
     "CYBER/13 CTFS & LABS/THM/AOC 2025/AOC DAY01 - LINUX CLI - SHELLS BELLS.md",
     "QUICK NOTES/WHITE-BOARD.md",
-    "COURSES/CYBER SHUJAA/SECURITY ANALYST.md",
-    "COURSES/CYBER SHUJAA/CLOUD AND NETWORK SECURITY.md",
-    "COURSES/HTB/JUNIOR CYBERSECURITY ANALYST.md",
     "SOFT SKILLS & CAREER/CAREERS IN CS/JUNIOR SECURITY ANALYST.md",
-    "COURSES/COURSES.base",
     "ASSETS/Pasted image 20260125172017.png",
     "ASSETS/Pasted image 20260125171441.png",
     "ASSETS/Pasted image 20260125170257.png",
@@ -386,7 +394,6 @@
     "CYBER/README.md",
     "DEVOPS/CONTAINERIZATION",
     "DEVOPS/13 MONITORING & OBSERVABILITY",
-    "DEVOPS/12 CLOUD/OCI/OCI FOUNDATIONS/7. SECURITY.md",
     "Untitled.canvas"
   ]
 }
