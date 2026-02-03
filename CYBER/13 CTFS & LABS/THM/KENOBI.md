@@ -295,6 +295,10 @@ smb: \>
 ```
 
 Inside the SMB prompt, we use the `ls` (list) command: `smb: \> ls`
+
+#### Once you're connected, list the files on the share. What is the file can you see?
+==log.txt==
+
 <div align="center">
 <br>
 <br>
