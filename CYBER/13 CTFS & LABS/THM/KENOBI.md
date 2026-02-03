@@ -81,6 +81,12 @@ rtt min/avg/max/mdev = 202.132/202.809/203.644/0.571 ms
 ```
 
 A successful response confirms that the machine is active and accessible on the TryHackMe network, allowing us to proceed with the enumeration phase.
+<div align="center">
+<br>
+※※※※※※※※※※※※※※※※※※※※※※※※
+<br>
+<br>
+</div>
 
 #### Scan the machine with nmap, how many ports are open?
 ==7==
