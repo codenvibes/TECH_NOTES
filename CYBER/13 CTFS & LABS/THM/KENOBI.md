@@ -68,16 +68,16 @@ Output:
 
 ```shell
 ┌──(kali㉿kali)-[~]
-└─$ ping -c 4 10.64.165.146
-PING 10.64.165.146 (10.64.165.146) 56(84) bytes of data.
-64 bytes from 10.64.165.146: icmp_seq=1 ttl=62 time=203 ms
-64 bytes from 10.64.165.146: icmp_seq=2 ttl=62 time=202 ms
-64 bytes from 10.64.165.146: icmp_seq=3 ttl=62 time=204 ms
-64 bytes from 10.64.165.146: icmp_seq=4 ttl=62 time=202 ms
+└─$ ping -c 4 10.65.147.145
+PING 10.65.147.145 (10.65.147.145) 56(84) bytes of data.
+64 bytes from 10.65.147.145: icmp_seq=1 ttl=62 time=212 ms
+64 bytes from 10.65.147.145: icmp_seq=2 ttl=62 time=211 ms
+64 bytes from 10.65.147.145: icmp_seq=3 ttl=62 time=210 ms
+64 bytes from 10.65.147.145: icmp_seq=4 ttl=62 time=209 ms
 
---- 10.64.165.146 ping statistics ---
-4 packets transmitted, 4 received, 0% packet loss, time 3056ms
-rtt min/avg/max/mdev = 202.132/202.809/203.644/0.571 ms
+--- 10.65.147.145 ping statistics ---
+4 packets transmitted, 4 received, 0% packet loss, time 3007ms
+rtt min/avg/max/mdev = 208.865/210.433/212.204/1.198 ms
 ```
 
 A successful response confirms that the machine is active and accessible on the TryHackMe network, allowing us to proceed with the enumeration phase.
