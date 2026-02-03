@@ -89,7 +89,9 @@ A successful response confirms that the machine is active and accessible on the 
 #### Scan the machine with nmap, how many ports are open?
 ==7==
 
-Before we can attack a system, we need to find out what "doors" are open.
+Before we can attack a system, we need to find out what "doors" are open. Doors in this context are ports. We use a tool called **Nmap** (Network Mapper) to scan the target's IP address and see what services are running.
+
+Command: 
 <div align="center">
 <br>
 <br>
