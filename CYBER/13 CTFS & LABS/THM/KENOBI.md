@@ -97,9 +97,30 @@ Breakdown:
 - **`nmap`**
     - **Description:** The utility itself.
     - **Purpose:** Starts the network scanning application.
-- **`10.65.152.254`**
+- **`10.65.147.145`**
     - **Description:** Target Specification.
     - **Purpose:** The IP address of the host being scanned.
+
+Output:
+
+```shell
+┌──(kali㉿kali)-[~]
+└─$ nmap 10.65.147.145                  
+Starting Nmap 7.95 ( https://nmap.org ) at 2026-02-03 09:05 EST
+Nmap scan report for 10.65.147.145
+Host is up (0.21s latency).
+Not shown: 993 closed tcp ports (reset)
+PORT     STATE SERVICE
+21/tcp   open  ftp
+22/tcp   open  ssh
+80/tcp   open  http
+111/tcp  open  rpcbind
+139/tcp  open  netbios-ssn
+445/tcp  open  microsoft-ds
+2049/tcp open  nfs
+
+Nmap done: 1 IP address (1 host up) scanned in 4.27 seconds
+```
 <div align="center">
 <br>
 <br>
