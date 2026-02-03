@@ -205,8 +205,12 @@ Breakdown:
     1. `smb-enum-shares.nse`: Lists all the shared folders.
     2. `smb-enum-users.nse`: Lists any users the system recognizes.
 
-Expected Output:
+Output:
 
+```shell
+
+```
+When this command runs successfully, it should identify shares
 <div align="center">
 <br>
 <br>
