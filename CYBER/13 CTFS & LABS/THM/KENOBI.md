@@ -35,13 +35,17 @@ This room will cover accessing a Samba share, manipulating a vulnerable version 
 
 ### Questions
 
-##### Make sure you're connected to our network and deploy the machine
+#### Make sure you're connected to our network and deploy the machine
 ==No answer needed==
+
+##### Stage 1: Recon (Information Gathering)
+
+###### 1.1 Connecting to the TryHackMe VPN
 <div align="center">
 <br>
 </div>
 
-##### Scan the machine with nmap, how many ports are open?
+#### Scan the machine with nmap, how many ports are open?
 ==7==
 <div align="center">
 <br>
