@@ -255,6 +255,14 @@ Breakdown:
 - **`-L`**: Stands for "List." It asks the server to show us all available shares.
 - **`//IP/`**: The address of the machine we are looking at.
 
+Total Shares Found: 3
+<div align="center">
+<br>
+※※※※※※※※※※※※※※※※※※※※※※※※
+<br>
+<br>
+</div>
+
 <div align="center">
 <br>
 <br>
