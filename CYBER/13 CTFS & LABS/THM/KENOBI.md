@@ -26,6 +26,8 @@ image: https://tryhackme-images.s3.amazonaws.com/room-icons/46f437a95b1de43238c2
 ## Task 1. Deploy the vulnerable machine
 
 This room will cover accessing a Samba share, manipulating a vulnerable version of proftpd to gain initial access and escalate your privileges to root via an SUID binary.
+
+> **ProFTPD** is an open-source **FTP server** for Unix/Linux systems. Think of it as the software that lets other computers upload/download files from your machine using the FTP protocol.
 <div>
 <br>
 <br>
