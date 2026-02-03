@@ -163,12 +163,12 @@
                 "state": {
                   "type": "markdown",
                   "state": {
-                    "file": "CYBER/13 CTFS & LABS/THM/OVERPASS.md",
+                    "file": "CYBER/13 CTFS & LABS/THM/KENOBI.md",
                     "mode": "source",
                     "source": false
                   },
                   "icon": "lucide-file",
-                  "title": "OVERPASS"
+                  "title": "KENOBI"
                 }
               }
             ],
@@ -295,13 +295,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "CYBER/13 CTFS & LABS/THM/OVERPASS.md",
+                "file": "CYBER/13 CTFS & LABS/THM/KENOBI.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of OVERPASS"
+              "title": "Outline of KENOBI"
             }
           },
           {
@@ -365,6 +365,8 @@
   },
   "active": "76fda0f47a1730fe",
   "lastOpenFiles": [
+    "CYBER/13 CTFS & LABS/THM/OVERPASS.md",
+    "CYBER/13 CTFS & LABS/THM/KENOBI.md",
     "CYBER/13 CTFS & LABS/CTFS & LABS.base",
     "CYBER/03 RECONNAISSANCE & ENUMERATION/00 ENUMERATION.md",
     "COURSES/CYBER SHUJAA/SECURITY ANALYST.md",
@@ -403,7 +405,6 @@
     "ASSETS/Pasted image 20260125164756.png",
     "DEVOPS/12 CLOUD/GCP/GCP CLOUD ACCOUNT REGISTRATION.md",
     "ASSETS/Pasted image 20260125163436.png",
-    "DEVOPS/12 CLOUD/AZURE/AZURE CLOUD ACCOUNT REGISTRATION.md",
     "DEVOPS/12 CLOUD/GCP",
     "DEVOPS/12 CLOUD/AWS",
     "DEVOPS/12 CLOUD/AZURE",
