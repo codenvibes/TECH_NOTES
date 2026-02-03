@@ -180,6 +180,14 @@ In many environments, Samba is used to host "Shares"—folders that multiple peo
 
 ### Questions
 
+Using nmap we can enumerate a machine for SMB shares.
+
+Nmap has the ability to run to automate a wide variety of networking tasks. There is a script to enumerate shares!
+
+nmap -p 445 --script=smb-enum-shares.nse,smb-enum-users.nse MACHINE_IP
+
+SMB has two ports, 445 and 139.
+
 #### 
 ==Answer==
 <div align="center">
