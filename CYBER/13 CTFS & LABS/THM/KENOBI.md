@@ -295,9 +295,22 @@ smb: \>
 ```
 
 Inside the SMB prompt, we use the `ls` (list) command: `smb: \> ls`
+<div align="center">
+<br>
+※※※※※※※※※※※※※※※※※※※※※※※※
+<br>
+<br>
+</div>
+You can recursively download the SMB share too. Submit the username and password as nothing.
 
-#### Once you're connected, list the files on the share. What is the file can you see?
-==log.txt==
+smbget -R smb://10.65.147.145/anonymous
+
+Open the file on the share. There is a few interesting things found.
+
+- Information generated for Kenobi when generating an SSH key for the user
+- Information about the ProFTPD server.
+#### What port is FTP running on?
+==21==
 
 <div align="center">
 <br>
