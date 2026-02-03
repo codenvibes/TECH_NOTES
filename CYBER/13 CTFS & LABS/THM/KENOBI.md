@@ -143,6 +143,16 @@ Based on my output, Nmap found **7 open ports**.
 <div style="page-break-after: always;"></div>
 
 ## Task 2. Enumerating Samba for shares
+
+<div>
+<br>
+<br>
+</div>
+
+### Questions
+
+#### 
+==Answer==
 <div align="center">
 <br>
 <br>
