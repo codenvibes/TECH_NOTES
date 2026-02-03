@@ -24,6 +24,17 @@ image: https://tryhackme-images.s3.amazonaws.com/room-icons/46f437a95b1de43238c2
 <div style="page-break-after: always;"></div>
 
 ## Task 1. Deploy the vulnerable machine
+
+This room will cover accessing a Samba share, manipulating a vulnerable version of proftpd to gain initial access and escalate your privileges to root via an SUID binary.
+<div>
+<br>
+<br>
+</div>
+
+### Questions
+
+##### 
+==Answer==
 <div align="center">
 <br>
 <br>
