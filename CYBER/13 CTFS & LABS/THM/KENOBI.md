@@ -35,7 +35,10 @@ This room will cover accessing a Samba share, manipulating a vulnerable version 
 
 ### Questions
 
-##### 
+##### Make sure you're connected to our network and deploy the machine
+==Answer==
+
+##### Scan the machine with nmap, how many ports are open?
 ==Answer==
 <div align="center">
 <br>
