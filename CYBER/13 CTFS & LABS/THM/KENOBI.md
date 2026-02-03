@@ -38,8 +38,6 @@ This room will cover accessing a Samba share, manipulating a vulnerable version 
 #### Make sure you're connected to our network and deploy the machine
 ==No answer needed==
 
-##### Stage 1: Recon (Information Gathering)
-
 ###### 1.1 Connecting to the TryHackMe VPN
 
 Before interacting with the target machine, connect to the TryHackMe VPN using my `.ovpn` configuration file. This establishes a secure tunnel that allows access to the target machine’s internal network.
