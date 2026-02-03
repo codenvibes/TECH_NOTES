@@ -271,6 +271,26 @@ Using your machine, connect to the machines network share.
 ![](https://assets.tryhackme.com/additional/imgur/B1FXBt8.png)
 #### Once you're connected, list the files on the share. What is the file can you see?
 ==log.txt==
+
+Now that we know a share called `anonymous` exists, we want to see what is inside it.
+
+Output:
+
+```shell
+┌──(kali㉿kali)-[~]
+└─$ smbclient //10.65.147.145/anonymous
+
+
+Password for [WORKGROUP\kali]:
+Try "help" to get a list of possible commands.
+smb: \> ls
+  .                                   D        0  Wed Sep  4 06:49:09 2019
+  ..                                  D        0  Sat Aug  9 09:03:22 2025
+  log.txt                             N    12237  Wed Sep  4 06:49:09 2019
+
+                9183416 blocks of size 1024. 2993084 blocks available
+smb: \> 
+```
 <div align="center">
 <br>
 <br>
