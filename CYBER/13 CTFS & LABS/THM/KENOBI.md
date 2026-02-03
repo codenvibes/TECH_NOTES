@@ -262,9 +262,15 @@ Total Shares Found: 3
 <br>
 <br>
 </div>
+On most distributions of Linux smbclient is already installed. Lets inspect one of the shares.
 
-#### Using the nmap command above, how many shares have been found?
-==3==
+`smbclient //10.65.147.145/anonymous`
+
+Using your machine, connect to the machines network share.
+
+![](https://assets.tryhackme.com/additional/imgur/B1FXBt8.png)
+#### Once you're connected, list the files on the share. What is the file can you see?
+==log.txt==
 <div align="center">
 <br>
 <br>
