@@ -208,9 +208,24 @@ Breakdown:
 Output:
 
 ```shell
+┌──(kali㉿kali)-[~]
+└─$ nmap -p 445 --script=smb-enum-shares.nse,smb-enum-users.nse 10.65.147.145
+
+
+Starting Nmap 7.95 ( https://nmap.org ) at 2026-02-03 09:21 EST
+Nmap scan report for 10.65.147.145
+Host is up (0.21s latency).
+
+PORT    STATE SERVICE
+445/tcp open  microsoft-ds
+
+Nmap done: 1 IP address (1 host up) scanned in 2.40 seconds
 
 ```
-When this command runs successfully, it should identify shares
+
+When this command runs successfully, it should identify shares. If your scan results look empty like mine try this:
+
+
 <div align="center">
 <br>
 <br>
