@@ -121,6 +121,18 @@ PORT     STATE SERVICE
 
 Nmap done: 1 IP address (1 host up) scanned in 4.27 seconds
 ```
+
+Based on my output, Nmap found **7 open ports**.
+
+| **Port** | **Service** | **What it usually does**                                                                 |
+| -------- | ----------- | ---------------------------------------------------------------------------------------- |
+| **21**   | **FTP**     | File Transfer Protocol: Used for sending files between computers.                        |
+| **22**   | **SSH**     | Secure Shell: Used for remote terminal access (logging into the command line).           |
+| **80**   | **HTTP**    | Web Server: This means the machine is likely hosting a website.                          |
+| **111**  | **RPCBind** | Converts RPC program numbers into universal addresses (often used with NFS).             |
+| **139**  | **NetBIOS** | Used for file sharing and communication on older Windows-based networks.                 |
+| **445**  | **SMB**     | Server Message Block: A modern way to share files and printers over a network.           |
+| **2049** | **NFS**     | Network File System: Allows a user to access files over a network as if they were local. |
 <div align="center">
 <br>
 <br>
