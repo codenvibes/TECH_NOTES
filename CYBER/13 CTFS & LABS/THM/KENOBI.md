@@ -223,7 +223,10 @@ Nmap done: 1 IP address (1 host up) scanned in 2.40 seconds
 
 ```
 
-When this command runs successfully, it should identify shares. If your scan results look empty like mine try this:
+When this command runs successfully, it should identify shares. If your scan results look empty like mine try this using `smbclient`
+
+Command: `smbclient -L //10.65.147.145/`
+
 
 
 <div align="center">
