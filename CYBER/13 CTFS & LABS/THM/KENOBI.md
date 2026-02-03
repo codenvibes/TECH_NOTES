@@ -234,7 +234,6 @@ Command: `smbclient -L //10.65.147.145/`
 Output:
 
 ```shell
-                                                                                                                    
 ┌──(kali㉿kali)-[~]
 └─$ smbclient -L //10.65.147.145/
 Password for [WORKGROUP\kali]:
@@ -250,7 +249,11 @@ Protocol negotiation to server 10.65.147.145 (for a protocol between LANMAN1 and
 Unable to connect with SMB1 -- no workgroup available
 ```
 
+Breakdown:
 
+- **`smbclient`**: The tool used to talk to SMB shares.
+- **`-L`**: Stands for "List." It asks the server to show us all available shares.
+- **`//IP/`**: The address of the machine we are looking at.
 
 <div align="center">
 <br>
