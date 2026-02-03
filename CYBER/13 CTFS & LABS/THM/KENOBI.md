@@ -204,6 +204,9 @@ Breakdown:
 - **`--script=...`**: Tells Nmap to run two specific scripts:
     1. `smb-enum-shares.nse`: Lists all the shared folders.
     2. `smb-enum-users.nse`: Lists any users the system recognizes.
+
+Expected Output:
+
 <div align="center">
 <br>
 <br>
