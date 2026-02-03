@@ -149,7 +149,29 @@ Based on my output, Nmap found **7 open ports**.
 Samba is the standard Windows interoperability suite of programs for Linux and Unix. It allows end users to access and use files, printers and other commonly shared resources on a companies intranet or internet. Its often referred to as a network file system.
 
 Samba is based on the common client/server protocol of Server Message Block (SMB). SMB is developed only for Windows, without Samba, other computer platforms would be isolated from Windows machines, even if they were part of the same network.
+<div align="center">
+<br>
+※※※※※※※※※※※※※※※※※※※※※※※※
+<br>
+<br>
+</div>
+### Understanding Samba & SMB
 
+To understand how we are going to get into this machine, we need to understand how it shares files.
+
+#### What is SMB?
+
+**SMB (Server Message Block)** is a protocol used by Windows computers to share things like files and printers. Imagine it as a "delivery service" for data within a network.
+
+#### What is Samba?
+
+Since our target machine (Kenobi) is running Linux, it shouldn't naturally be able to talk to Windows machines using SMB. **Samba** is the software that allows Linux to "speak" the Windows language.
+
+> **Analogy:** If SMB is the "English language," Windows is a native speaker. Linux is a native "French speaker." **Samba** is the translator that allows the Linux machine to speak English so it can share files with everyone else on the network.
+
+#### Why is this a target?
+
+In many environments, Samba is used to host "Shares"—folders that multiple people can access. If these shares are misconfigured (for example, if they allow "Anonymous" access), a hacker can look inside those folders and find sensitive information like passwords, keys, or private documents.
 
 <div>
 <br>
