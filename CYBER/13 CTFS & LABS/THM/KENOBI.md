@@ -88,6 +88,8 @@ A successful response confirms that the machine is active and accessible on the 
 
 #### Scan the machine with nmap, how many ports are open?
 ==7==
+
+Before we can attack a system, we need to find out what "doors" are open.
 <div align="center">
 <br>
 <br>
