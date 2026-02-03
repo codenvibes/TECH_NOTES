@@ -194,6 +194,16 @@ SMB has two ports, 445 and 139.
 ==Answer==
 
 Now that we know the "door" for file sharing (Port 445) is open, we need to see what "folders" are inside.
+
+Nmap isn't just for finding open ports; it has built-in "mini-programs" called **Scripts**. These scripts can automatically try to log in, check for common bugs, or, in our case, ask the server: _"Hey, what folders are you sharing?"_
+
+Command: `nmap -p 445 --script=smb-enum-shares.nse,smb-enum-users.nse 10.65.147.145`
+
+Breakdown:
+- **`-p 445`**: Tells Nmap to only look at the SMB port.
+- **`--script=...`**: Tells Nmap to run two specific scripts:
+    1. `smb-enum-shares.nse`: Lists all the shared folders.
+    2. `smb-enum-users.nse`: Lists any users the system recognizes.
 <div align="center">
 <br>
 <br>
