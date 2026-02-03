@@ -45,6 +45,21 @@
                     }
                   },
                   {
+                    "id": "61cb0fa6208d953e",
+                    "type": "leaf",
+                    "pinned": true,
+                    "state": {
+                      "type": "bases",
+                      "state": {
+                        "file": "CYBER/13 CTFS & LABS/CTFS & LABS.base",
+                        "viewName": "THM"
+                      },
+                      "pinned": true,
+                      "icon": "lucide-layout-grid",
+                      "title": "CTFS & LABS"
+                    }
+                  },
+                  {
                     "id": "21fce08000a30866",
                     "type": "leaf",
                     "pinned": true,
@@ -59,24 +74,9 @@
                       "icon": "lucide-file",
                       "title": "WHITE-BOARD"
                     }
-                  },
-                  {
-                    "id": "61cb0fa6208d953e",
-                    "type": "leaf",
-                    "pinned": true,
-                    "state": {
-                      "type": "bases",
-                      "state": {
-                        "file": "CYBER/13 CTFS & LABS/CTFS & LABS.base",
-                        "viewName": "THM"
-                      },
-                      "pinned": true,
-                      "icon": "lucide-layout-grid",
-                      "title": "CTFS & LABS"
-                    }
                   }
                 ],
-                "currentTab": 2
+                "currentTab": 3
               },
               {
                 "id": "eb7c5c7906b2a9d3",
