@@ -76,7 +76,7 @@
                     }
                   }
                 ],
-                "currentTab": 3
+                "currentTab": 2
               },
               {
                 "id": "eb7c5c7906b2a9d3",
@@ -131,7 +131,8 @@
                       "title": "CLOUD AND NETWORK SECURITY"
                     }
                   }
-                ]
+                ],
+                "currentTab": 1
               }
             ],
             "direction": "horizontal"
@@ -294,13 +295,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "CYBER/03 RECONNAISSANCE & ENUMERATION/00 ENUMERATION.md",
+                "file": "CYBER/13 CTFS & LABS/CTFS & LABS.base",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of 00 ENUMERATION"
+              "title": "Outline of CTFS & LABS"
             }
           },
           {
@@ -362,18 +363,18 @@
       "iconic:Open rulebook": false
     }
   },
-  "active": "76fda0f47a1730fe",
+  "active": "61cb0fa6208d953e",
   "lastOpenFiles": [
+    "COURSES/CYBER SHUJAA/SECURITY ANALYST.md",
+    "CYBER/03 RECONNAISSANCE & ENUMERATION/00 ENUMERATION.md",
     "CYBER/03 RECONNAISSANCE & ENUMERATION/RECONNAISSANCE/ACTIVE RECONNAISSANCE.md",
     "CYBER/03 RECONNAISSANCE & ENUMERATION/RECONNAISSANCE/PASSIVE RECONNAISSANCE.md",
-    "CYBER/03 RECONNAISSANCE & ENUMERATION/00 ENUMERATION.md",
     "QUICK NOTES/TODO.md",
     "QUICK NOTES/WHITE-BOARD.md",
     "CYBER/13 CTFS & LABS/CTFS & LABS.base",
     "COURSES/COURSES.base",
     "COURSES/HTB/JUNIOR CYBERSECURITY ANALYST.md",
     "COURSES/CYBER SHUJAA/CLOUD AND NETWORK SECURITY.md",
-    "COURSES/CYBER SHUJAA/SECURITY ANALYST.md",
     "CYBER/13 CTFS & LABS/THM/AOC 2025/AOC DAY01 - LINUX CLI - SHELLS BELLS.md",
     "SOFT SKILLS & CAREER/CAREERS IN CS/JUNIOR SECURITY ANALYST.md",
     "ASSETS/Pasted image 20260125172017.png",
