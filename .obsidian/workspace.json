@@ -272,13 +272,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "QUICK NOTES/TODO.md",
+                "file": "COURSES/CYBER SHUJAA/SECURITY ANALYST.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of TODO"
+              "title": "Outline of SECURITY ANALYST"
             }
           },
           {
@@ -340,8 +340,9 @@
       "iconic:Open rulebook": false
     }
   },
-  "active": "10dd2c9178155b52",
+  "active": "208b62d6bd0b3ab0",
   "lastOpenFiles": [
+    "QUICK NOTES/TODO.md",
     "CYBER/13 CTFS & LABS/CTFS & LABS.base",
     "CYBER/13 CTFS & LABS/THM/AOC 2025/AOC DAY01 - LINUX CLI - SHELLS BELLS.md",
     "QUICK NOTES/WHITE-BOARD.md",
@@ -380,7 +381,6 @@
     "DEVOPS/README.md",
     "DEVOPS/12 CLOUD/GCP",
     "DEVOPS/12 CLOUD/AWS",
-    "QUICK NOTES/TODO.md",
     "DEVOPS/12 CLOUD/AZURE",
     "ASSETS/Pasted image 20260107115449.png",
     "CYBER/README.md",
