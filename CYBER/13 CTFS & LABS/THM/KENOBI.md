@@ -23,12 +23,45 @@ image: https://tryhackme-images.s3.amazonaws.com/room-icons/46f437a95b1de43238c2
 <!-- PAGE BREAK -->
 <div style="page-break-after: always;"></div>
 
-Task 1. Deploy the vulnerable machine
+## Task 1. Deploy the vulnerable machine
+<div align="center">
+<br>
+<br>
+※※※※※※※※※※※※※※※※※※※※※※※※
+<br>
+</div>
+<!-- PAGE BREAK -->
+<div style="page-break-after: always;"></div>
 
-Task 2. Enumerating Samba for shares
+## Task 2. Enumerating Samba for shares
+<div align="center">
+<br>
+<br>
+※※※※※※※※※※※※※※※※※※※※※※※※
+<br>
+</div>
+<!-- PAGE BREAK -->
+<div style="page-break-after: always;"></div>
 
-Task 3. Gain initial access with ProFtpd
+## Task 3. Gain initial access with ProFtpd
+<div align="center">
+<br>
+<br>
+※※※※※※※※※※※※※※※※※※※※※※※※
+<br>
+</div>
+<!-- PAGE BREAK -->
+<div style="page-break-after: always;"></div>
 
-Task 4. Privilege Escalation with Path Variable Manipulation
+## Task 4. Privilege Escalation with Path Variable Manipulation
+<div align="center">
+<br>
+<br>
+※※※※※※※※※※※※※※※※※※※※※※※※
+<br>
+</div>
+<!-- PAGE BREAK -->
+<div style="page-break-after: always;"></div>
+
 ## References
 
