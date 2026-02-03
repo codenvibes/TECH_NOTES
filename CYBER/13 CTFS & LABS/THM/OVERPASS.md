@@ -565,7 +565,7 @@ thm{65c1aaf000506e56996822c6281e6bf7}
 #### Escalate your privileges and get the flag in root.txt
 ==thm{7f336f8c359dbac18d54fdd64ea753bb}==
 
-##### Stage 5: Privilege Escalation (Enumeration)
+##### Stage 4: Privilege Escalation (Enumeration)
 
 With user access established as `James`, the goal is to find a path to the root user.
 
