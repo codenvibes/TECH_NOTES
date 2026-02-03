@@ -7,9 +7,12 @@ image: https://tryhackme-images.s3.amazonaws.com/room-icons/46f437a95b1de43238c2
 ---
 ## Summary
 
-| SECTION/TASK | FLAG |
-| ------------ | ---- |
-|              |      |
+| SECTION/TASK                                                 | FLAG                       |
+| ------------------------------------------------------------ | -------------------------- |
+| Task 1. Deploy the vulnerable machine                        | 7                          |
+| Task 2. Enumerating Samba for shares                         | 3<br>log.txt<br>21<br>/var |
+| Task 3. Gain initial access with ProFtpd                     |                            |
+| Task 4. Privilege Escalation with Path Variable Manipulation |                            |
 
 <div align="center">
 <br>
