@@ -273,6 +273,8 @@ Using your machine, connect to the machines network share.
 ==log.txt==
 
 Now that we know a share called `anonymous` exists, we want to see what is inside it.
+When prompted for a password, we simply press **Enter**. This works because "Anonymous" shares are designed to let people in without credentials.
+Once successful, your terminal changes to `smb: \>`. You are now interacting directly with the remote computer's folder.
 
 Output:
 
@@ -291,6 +293,8 @@ smb: \> ls
                 9183416 blocks of size 1024. 2993084 blocks available
 smb: \> 
 ```
+
+Inside the SMB prompt, we use the `ls` (list) command: `smb: \> ls`
 <div align="center">
 <br>
 <br>
