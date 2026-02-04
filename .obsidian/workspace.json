@@ -308,13 +308,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "COURSES/THM/ATTACKING AND DEFENDING AWS.md",
+                "file": "COURSES/THM/SOC LEVEL 1.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of ATTACKING AND DEFENDING AWS"
+              "title": "Outline of SOC LEVEL 1"
             }
           },
           {
@@ -556,7 +556,7 @@
                 }
               }
             ],
-            "currentTab": 10
+            "currentTab": 4
           }
         ],
         "direction": "vertical",
@@ -569,21 +569,21 @@
       }
     ]
   },
-  "active": "35e79cb2ffa66b8e",
+  "active": "601831f8bf45c3fb",
   "lastOpenFiles": [
+    "COURSES/THM/SOC LEVEL 2.md",
+    "COURSES/THM/ATTACKING AND DEFENDING AWS.md",
     "COURSES/THM/CYBER SECURITY 101.md",
     "COURSES/THM/JR PENETRATION TESTER.md",
     "COURSES/THM/PRE SECURITY.md",
     "COURSES/THM/RED TEAMING.md",
     "COURSES/THM/SECURITY ENGINEER.md",
     "COURSES/THM/SOC LEVEL 1.md",
-    "COURSES/THM/SOC LEVEL 2.md",
     "COURSES/THM/WEB APPLICATION PENTESTING.md",
     "COURSES/THM/WEB FUNDAMENTALS.md",
     "COURSES/COURSES.base",
     "COURSES/THM/DEVSECOPS.md",
     "COURSES/THM/DEFENDING AZURE.md",
-    "COURSES/THM/ATTACKING AND DEFENDING AWS.md",
     "COURSES/THM/ADVANCED ENDPOINT INVESTIGATIONS.md",
     "CYBER/13 CTFS & LABS/THM/OVERPASS.md",
     "CYBER/13 CTFS & LABS/THM/KENOBI.md",
