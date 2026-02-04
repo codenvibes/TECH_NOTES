@@ -1,6 +1,6 @@
 ---
 tags:
-  - "#THM-PRE_SECURITY"
+  - THM-PRE_SECURITY
 number: "1"
 image: https://assets.tryhackme.com/img/paths/presecurity.svg
 ---
