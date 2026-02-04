@@ -308,13 +308,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "COURSES/THM/WEB APPLICATION PENTESTING.md",
+                "file": "COURSES/THM/ATTACKING AND DEFENDING AWS.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of WEB APPLICATION PENTESTING"
+              "title": "Outline of ATTACKING AND DEFENDING AWS"
             }
           },
           {
@@ -402,34 +402,6 @@
                 }
               },
               {
-                "id": "68161f6e81dd5286",
-                "type": "leaf",
-                "state": {
-                  "type": "markdown",
-                  "state": {
-                    "file": "COURSES/THM/WEB APPLICATION PENTESTING.md",
-                    "mode": "source",
-                    "source": false
-                  },
-                  "icon": "lucide-file",
-                  "title": "WEB APPLICATION PENTESTING"
-                }
-              },
-              {
-                "id": "601831f8bf45c3fb",
-                "type": "leaf",
-                "state": {
-                  "type": "markdown",
-                  "state": {
-                    "file": "COURSES/THM/SOC LEVEL 1.md",
-                    "mode": "source",
-                    "source": false
-                  },
-                  "icon": "lucide-file",
-                  "title": "SOC LEVEL 1"
-                }
-              },
-              {
                 "id": "ec0741c1c7527c9a",
                 "type": "leaf",
                 "state": {
@@ -472,7 +444,7 @@
                 }
               }
             ],
-            "currentTab": 1
+            "currentTab": 3
           }
         ],
         "direction": "vertical",
@@ -485,17 +457,17 @@
       }
     ]
   },
-  "active": "68161f6e81dd5286",
+  "active": "35e79cb2ffa66b8e",
   "lastOpenFiles": [
+    "COURSES/THM/RED TEAMING.md",
+    "COURSES/THM/SOC LEVEL 1.md",
+    "COURSES/THM/WEB APPLICATION PENTESTING.md",
     "COURSES/THM/ATTACKING AND DEFENDING AWS.md",
     "COURSES/THM/ADVANCED ENDPOINT INVESTIGATIONS.md",
     "COURSES/THM/DEFENDING AZURE.md",
     "COURSES/THM/DEVSECOPS.md",
-    "COURSES/THM/WEB APPLICATION PENTESTING.md",
     "COURSES/THM/WEB FUNDAMENTALS.md",
-    "COURSES/THM/SOC LEVEL 1.md",
     "COURSES/THM/SOC LEVEL 2.md",
-    "COURSES/THM/RED TEAMING.md",
     "COURSES/THM/SECURITY ENGINEER.md",
     "COURSES/THM/JR PENETRATION TESTER.md",
     "COURSES/THM/CYBER SECURITY 101.md",
