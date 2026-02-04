@@ -308,13 +308,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "COURSES/COURSES.base",
+                "file": "COURSES/THM/SECURITY ENGINEER.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of COURSES"
+              "title": "Outline of SECURITY ENGINEER"
             }
           },
           {
@@ -400,8 +400,191 @@
                   "icon": "lucide-layout-grid",
                   "title": "COURSES"
                 }
+              },
+              {
+                "id": "a4bd45d630c655a0",
+                "type": "leaf",
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "COURSES/THM/WEB FUNDAMENTALS.md",
+                    "mode": "source",
+                    "source": false
+                  },
+                  "icon": "lucide-file",
+                  "title": "WEB FUNDAMENTALS"
+                }
+              },
+              {
+                "id": "68161f6e81dd5286",
+                "type": "leaf",
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "COURSES/THM/WEB APPLICATION PENTESTING.md",
+                    "mode": "source",
+                    "source": false
+                  },
+                  "icon": "lucide-file",
+                  "title": "WEB APPLICATION PENTESTING"
+                }
+              },
+              {
+                "id": "5011bdbb229b3986",
+                "type": "leaf",
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "COURSES/THM/SOC LEVEL 2.md",
+                    "mode": "source",
+                    "source": false
+                  },
+                  "icon": "lucide-file",
+                  "title": "SOC LEVEL 2"
+                }
+              },
+              {
+                "id": "601831f8bf45c3fb",
+                "type": "leaf",
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "COURSES/THM/SOC LEVEL 1.md",
+                    "mode": "source",
+                    "source": false
+                  },
+                  "icon": "lucide-file",
+                  "title": "SOC LEVEL 1"
+                }
+              },
+              {
+                "id": "09732e1833917b93",
+                "type": "leaf",
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "COURSES/THM/SECURITY ENGINEER.md",
+                    "mode": "source",
+                    "source": false
+                  },
+                  "icon": "lucide-file",
+                  "title": "SECURITY ENGINEER"
+                }
+              },
+              {
+                "id": "ec0741c1c7527c9a",
+                "type": "leaf",
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "COURSES/THM/RED TEAMING.md",
+                    "mode": "source",
+                    "source": false
+                  },
+                  "icon": "lucide-file",
+                  "title": "RED TEAMING"
+                }
+              },
+              {
+                "id": "3e521314ed07e2cf",
+                "type": "leaf",
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "COURSES/THM/PRE SECURITY.md",
+                    "mode": "source",
+                    "source": false
+                  },
+                  "icon": "lucide-file",
+                  "title": "PRE SECURITY"
+                }
+              },
+              {
+                "id": "972ba0455a573656",
+                "type": "leaf",
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "COURSES/THM/JR PENETRATION TESTER.md",
+                    "mode": "source",
+                    "source": false
+                  },
+                  "icon": "lucide-file",
+                  "title": "JR PENETRATION TESTER"
+                }
+              },
+              {
+                "id": "3fc598a2f4ab0d84",
+                "type": "leaf",
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "COURSES/THM/DEVSECOPS.md",
+                    "mode": "source",
+                    "source": false
+                  },
+                  "icon": "lucide-file",
+                  "title": "DEVSECOPS"
+                }
+              },
+              {
+                "id": "479b5a52c9d72e85",
+                "type": "leaf",
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "COURSES/THM/DEFENDING AZURE.md",
+                    "mode": "source",
+                    "source": false
+                  },
+                  "icon": "lucide-file",
+                  "title": "DEFENDING AZURE"
+                }
+              },
+              {
+                "id": "3cfa996ba142ca34",
+                "type": "leaf",
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "COURSES/THM/CYBER SECURITY 101.md",
+                    "mode": "source",
+                    "source": false
+                  },
+                  "icon": "lucide-file",
+                  "title": "CYBER SECURITY 101"
+                }
+              },
+              {
+                "id": "35e79cb2ffa66b8e",
+                "type": "leaf",
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "COURSES/THM/ATTACKING AND DEFENDING AWS.md",
+                    "mode": "source",
+                    "source": false
+                  },
+                  "icon": "lucide-file",
+                  "title": "ATTACKING AND DEFENDING AWS"
+                }
+              },
+              {
+                "id": "ef744db45cddfb21",
+                "type": "leaf",
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "COURSES/THM/ADVANCED ENDPOINT INVESTIGATIONS.md",
+                    "mode": "source",
+                    "source": false
+                  },
+                  "icon": "lucide-file",
+                  "title": "ADVANCED ENDPOINT INVESTIGATIONS"
+                }
               }
-            ]
+            ],
+            "currentTab": 5
           }
         ],
         "direction": "vertical",
@@ -414,10 +597,22 @@
       }
     ]
   },
-  "active": "a8199f503262a4c9",
+  "active": "09732e1833917b93",
   "lastOpenFiles": [
-    "COURSES/THM/ADVANCED ENDPOINT INVESTIGATIONS.md",
+    "COURSES/THM/SOC LEVEL 1.md",
+    "COURSES/THM/SECURITY ENGINEER.md",
+    "COURSES/THM/SOC LEVEL 2.md",
+    "COURSES/THM/WEB APPLICATION PENTESTING.md",
+    "COURSES/THM/WEB FUNDAMENTALS.md",
     "COURSES/COURSES.base",
+    "COURSES/THM/RED TEAMING.md",
+    "COURSES/THM/PRE SECURITY.md",
+    "COURSES/THM/JR PENETRATION TESTER.md",
+    "COURSES/THM/DEVSECOPS.md",
+    "COURSES/THM/DEFENDING AZURE.md",
+    "COURSES/THM/CYBER SECURITY 101.md",
+    "COURSES/THM/ATTACKING AND DEFENDING AWS.md",
+    "COURSES/THM/ADVANCED ENDPOINT INVESTIGATIONS.md",
     "CYBER/13 CTFS & LABS/THM/OVERPASS.md",
     "CYBER/13 CTFS & LABS/THM/KENOBI.md",
     "TEMPLATES/QUESTIONS.md",
@@ -431,29 +626,16 @@
     "QUICK NOTES/WHITE-BOARD.md",
     "COURSES/HTB/JUNIOR CYBERSECURITY ANALYST.md",
     "CYBER/13 CTFS & LABS/THM/AOC 2025/AOC DAY01 - LINUX CLI - SHELLS BELLS.md",
-    "SOFT SKILLS & CAREER/CAREERS IN CS/JUNIOR SECURITY ANALYST.md",
     "ASSETS/Pasted image 20260125172017.png",
     "ASSETS/Pasted image 20260125171441.png",
     "ASSETS/Pasted image 20260125170257.png",
-    "DEVOPS/12 CLOUD/AWS/AWS S3 ENUMERATION BASICS.md",
-    "DEVOPS/12 CLOUD/AWS/FLAWS AWS.md",
-    "DEVOPS/12 CLOUD/AZURE/MICROSOFT SENTINEL.md",
-    "DEVOPS/12 CLOUD/AZURE/AZURE MONITOR, MICROSOFT DEFENDER FOR CLOUD, ENABLE JUST IN TIME ACCESS IN VMS, MICROSOFT SENTINEL.md",
     "SOFT SKILLS & CAREER/PIRP.base",
     "SOFT SKILLS & CAREER/PREP",
-    "DEVOPS/12 CLOUD/AZURE/AZURE MONITOR.md",
-    "DEVOPS/12 CLOUD/AWS/CLOUDGOAT VULNERABLE_LAMBDA.md",
-    "DEVOPS/12 CLOUD/AWS/AWS CLOUD ACCOUNT REGISTRATION.md",
-    "DEVOPS/12 CLOUD/AZURE/AZURE MONITOR, MICROSOFT DEFENDER FOR CLOUD, ENABLE JUST-IN TIME ACCESS IN VMS, MICROSOFT SENTINEL.md",
     "DEVOPS/12 CLOUD/AWS/Untitled",
     "Pasted image 20260125172017.png",
-    "DEVOPS/12 CLOUD/AZURE/KEY VAULT AND ENCRYPTION.md",
     "Pasted image 20260125171441.png",
-    "DEVOPS/12 CLOUD/AZURE/NETWORK SECURITY GROUPS AND APPLICATION SECURITY GROUPS.md",
     "Pasted image 20260125170257.png",
-    "DEVOPS/12 CLOUD/AZURE/AZURE FIREWALL.md",
     "ASSETS/Pasted image 20260125165838.png",
-    "DEVOPS/12 CLOUD/AWS/CLOUDGOAT IAM PRIVILEGE ESCALATION BY ROLLBACK SCENARIO.md",
     "ASSETS/Pasted image 20260125164756.png",
     "ASSETS/Pasted image 20260125163436.png",
     "DEVOPS/12 CLOUD/GCP",
