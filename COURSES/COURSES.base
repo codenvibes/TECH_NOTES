@@ -11,7 +11,7 @@ views:
         direction: ASC
     image: note.image
     imageAspectRatio: 0.95
-    cardSize: 170
+    cardSize: 190
   - type: cards
     name: HACKVISER
     filters:
