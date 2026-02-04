@@ -308,13 +308,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "COURSES/THM/ADVANCED ENDPOINT INVESTIGATIONS.md",
+                "file": "COURSES/THM/WEB APPLICATION PENTESTING.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of ADVANCED ENDPOINT INVESTIGATIONS"
+              "title": "Outline of WEB APPLICATION PENTESTING"
             }
           },
           {
@@ -470,23 +470,9 @@
                   "icon": "lucide-file",
                   "title": "ATTACKING AND DEFENDING AWS"
                 }
-              },
-              {
-                "id": "ef744db45cddfb21",
-                "type": "leaf",
-                "state": {
-                  "type": "markdown",
-                  "state": {
-                    "file": "COURSES/THM/ADVANCED ENDPOINT INVESTIGATIONS.md",
-                    "mode": "source",
-                    "source": false
-                  },
-                  "icon": "lucide-file",
-                  "title": "ADVANCED ENDPOINT INVESTIGATIONS"
-                }
               }
             ],
-            "currentTab": 6
+            "currentTab": 1
           }
         ],
         "direction": "vertical",
@@ -499,8 +485,10 @@
       }
     ]
   },
-  "active": "ef744db45cddfb21",
+  "active": "68161f6e81dd5286",
   "lastOpenFiles": [
+    "COURSES/THM/ATTACKING AND DEFENDING AWS.md",
+    "COURSES/THM/ADVANCED ENDPOINT INVESTIGATIONS.md",
     "COURSES/THM/DEFENDING AZURE.md",
     "COURSES/THM/DEVSECOPS.md",
     "COURSES/THM/WEB APPLICATION PENTESTING.md",
@@ -510,11 +498,9 @@
     "COURSES/THM/RED TEAMING.md",
     "COURSES/THM/SECURITY ENGINEER.md",
     "COURSES/THM/JR PENETRATION TESTER.md",
-    "COURSES/THM/ATTACKING AND DEFENDING AWS.md",
     "COURSES/THM/CYBER SECURITY 101.md",
     "COURSES/THM/PRE SECURITY.md",
     "COURSES/COURSES.base",
-    "COURSES/THM/ADVANCED ENDPOINT INVESTIGATIONS.md",
     "CYBER/13 CTFS & LABS/THM/OVERPASS.md",
     "CYBER/13 CTFS & LABS/THM/KENOBI.md",
     "TEMPLATES/QUESTIONS.md",
