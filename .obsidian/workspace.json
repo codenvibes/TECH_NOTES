@@ -75,8 +75,7 @@
                       "title": "WHITE-BOARD"
                     }
                   }
-                ],
-                "currentTab": 2
+                ]
               },
               {
                 "id": "eb7c5c7906b2a9d3",
@@ -309,13 +308,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "CYBER/13 CTFS & LABS/THM/KENOBI.md",
+                "file": "COURSES/COURSES.base",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of KENOBI"
+              "title": "Outline of COURSES"
             }
           },
           {
@@ -377,10 +376,10 @@
       "iconic:Open rulebook": false
     }
   },
-  "active": "76fda0f47a1730fe",
+  "active": "d6e3d74256db3bbc",
   "lastOpenFiles": [
-    "CYBER/13 CTFS & LABS/THM/OVERPASS.md",
     "CYBER/13 CTFS & LABS/THM/KENOBI.md",
+    "CYBER/13 CTFS & LABS/THM/OVERPASS.md",
     "TEMPLATES/QUESTIONS.md",
     "COURSES/CYBER SHUJAA/CLOUD AND NETWORK SECURITY.md",
     "COURSES/CYBER SHUJAA/SECURITY ANALYST.md",
