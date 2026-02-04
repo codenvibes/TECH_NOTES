@@ -308,13 +308,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "COURSES/COURSES.base",
+                "file": "CYBER/13 CTFS & LABS/THM/OVERPASS.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of COURSES"
+              "title": "Outline of OVERPASS"
             }
           },
           {
@@ -376,8 +376,9 @@
       "iconic:Open rulebook": false
     }
   },
-  "active": "d6e3d74256db3bbc",
+  "active": "bb390028d5aa1c86",
   "lastOpenFiles": [
+    "COURSES/COURSES.base",
     "CYBER/13 CTFS & LABS/THM/KENOBI.md",
     "CYBER/13 CTFS & LABS/THM/OVERPASS.md",
     "TEMPLATES/QUESTIONS.md",
@@ -389,7 +390,6 @@
     "CYBER/03 RECONNAISSANCE & ENUMERATION/RECONNAISSANCE/PASSIVE RECONNAISSANCE.md",
     "QUICK NOTES/TODO.md",
     "QUICK NOTES/WHITE-BOARD.md",
-    "COURSES/COURSES.base",
     "COURSES/HTB/JUNIOR CYBERSECURITY ANALYST.md",
     "CYBER/13 CTFS & LABS/THM/AOC 2025/AOC DAY01 - LINUX CLI - SHELLS BELLS.md",
     "SOFT SKILLS & CAREER/CAREERS IN CS/JUNIOR SECURITY ANALYST.md",
@@ -415,7 +415,6 @@
     "DEVOPS/12 CLOUD/AZURE/AZURE FIREWALL.md",
     "ASSETS/Pasted image 20260125165838.png",
     "DEVOPS/12 CLOUD/AWS/CLOUDGOAT IAM PRIVILEGE ESCALATION BY ROLLBACK SCENARIO.md",
-    "DEVOPS/12 CLOUD/AZURE/ROLE-BASED ACCESS CONTROL.md",
     "ASSETS/Pasted image 20260125164756.png",
     "ASSETS/Pasted image 20260125163436.png",
     "DEVOPS/12 CLOUD/GCP",
