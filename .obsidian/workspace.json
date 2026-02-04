@@ -308,13 +308,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "COURSES/THM/SECURITY ENGINEER.md",
+                "file": "COURSES/THM/PRE SECURITY.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of SECURITY ENGINEER"
+              "title": "Outline of PRE SECURITY"
             }
           },
           {
@@ -584,7 +584,7 @@
                 }
               }
             ],
-            "currentTab": 5
+            "currentTab": 7
           }
         ],
         "direction": "vertical",
@@ -597,15 +597,15 @@
       }
     ]
   },
-  "active": "09732e1833917b93",
+  "active": "3e521314ed07e2cf",
   "lastOpenFiles": [
-    "COURSES/THM/SOC LEVEL 1.md",
+    "COURSES/THM/RED TEAMING.md",
     "COURSES/THM/SECURITY ENGINEER.md",
+    "COURSES/THM/SOC LEVEL 1.md",
     "COURSES/THM/SOC LEVEL 2.md",
     "COURSES/THM/WEB APPLICATION PENTESTING.md",
     "COURSES/THM/WEB FUNDAMENTALS.md",
     "COURSES/COURSES.base",
-    "COURSES/THM/RED TEAMING.md",
     "COURSES/THM/PRE SECURITY.md",
     "COURSES/THM/JR PENETRATION TESTER.md",
     "COURSES/THM/DEVSECOPS.md",
