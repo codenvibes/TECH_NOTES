@@ -308,13 +308,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "COURSES/THM/SOC LEVEL 1.md",
+                "file": "COURSES/THM/JR PENETRATION TESTER.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of SOC LEVEL 1"
+              "title": "Outline of JR PENETRATION TESTER"
             }
           },
           {
@@ -556,7 +556,7 @@
                 }
               }
             ],
-            "currentTab": 4
+            "currentTab": 7
           }
         ],
         "direction": "vertical",
@@ -569,8 +569,9 @@
       }
     ]
   },
-  "active": "601831f8bf45c3fb",
+  "active": "972ba0455a573656",
   "lastOpenFiles": [
+    "COURSES/THM/SOC LEVEL 1.md",
     "COURSES/THM/SOC LEVEL 2.md",
     "COURSES/THM/ATTACKING AND DEFENDING AWS.md",
     "COURSES/THM/CYBER SECURITY 101.md",
@@ -578,7 +579,6 @@
     "COURSES/THM/PRE SECURITY.md",
     "COURSES/THM/RED TEAMING.md",
     "COURSES/THM/SECURITY ENGINEER.md",
-    "COURSES/THM/SOC LEVEL 1.md",
     "COURSES/THM/WEB APPLICATION PENTESTING.md",
     "COURSES/THM/WEB FUNDAMENTALS.md",
     "COURSES/COURSES.base",
