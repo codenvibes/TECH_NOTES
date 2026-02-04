@@ -376,45 +376,7 @@
       "iconic:Open rulebook": false
     }
   },
-  "floating": {
-    "id": "0e708c3dfa5d9a2c",
-    "type": "floating",
-    "children": [
-      {
-        "id": "f80d7c350e456566",
-        "type": "window",
-        "children": [
-          {
-            "id": "6dcf58ddc39dd77a",
-            "type": "tabs",
-            "children": [
-              {
-                "id": "a8199f503262a4c9",
-                "type": "leaf",
-                "state": {
-                  "type": "bases",
-                  "state": {
-                    "file": "COURSES/COURSES.base",
-                    "viewName": "THM"
-                  },
-                  "icon": "lucide-layout-grid",
-                  "title": "COURSES"
-                }
-              }
-            ]
-          }
-        ],
-        "direction": "vertical",
-        "x": 0,
-        "y": 0,
-        "width": 960,
-        "height": 1080,
-        "maximize": false,
-        "zoom": 0
-      }
-    ]
-  },
-  "active": "a8199f503262a4c9",
+  "active": "d6e3d74256db3bbc",
   "lastOpenFiles": [
     "COURSES/THM/DEFENDING AZURE.md",
     "COURSES/THM/RED TEAMING.md",
