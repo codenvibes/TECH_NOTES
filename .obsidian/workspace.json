@@ -308,13 +308,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "CYBER/13 CTFS & LABS/THM/OVERPASS.md",
+                "file": "COURSES/COURSES.base",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of OVERPASS"
+              "title": "Outline of COURSES"
             }
           },
           {
@@ -376,11 +376,49 @@
       "iconic:Open rulebook": false
     }
   },
-  "active": "bb390028d5aa1c86",
+  "floating": {
+    "id": "0e708c3dfa5d9a2c",
+    "type": "floating",
+    "children": [
+      {
+        "id": "f80d7c350e456566",
+        "type": "window",
+        "children": [
+          {
+            "id": "6dcf58ddc39dd77a",
+            "type": "tabs",
+            "children": [
+              {
+                "id": "a8199f503262a4c9",
+                "type": "leaf",
+                "state": {
+                  "type": "bases",
+                  "state": {
+                    "file": "COURSES/COURSES.base",
+                    "viewName": "THM"
+                  },
+                  "icon": "lucide-layout-grid",
+                  "title": "COURSES"
+                }
+              }
+            ]
+          }
+        ],
+        "direction": "vertical",
+        "x": 0,
+        "y": 0,
+        "width": 960,
+        "height": 1080,
+        "maximize": false,
+        "zoom": 0
+      }
+    ]
+  },
+  "active": "a8199f503262a4c9",
   "lastOpenFiles": [
+    "CYBER/13 CTFS & LABS/THM/OVERPASS.md",
     "COURSES/COURSES.base",
     "CYBER/13 CTFS & LABS/THM/KENOBI.md",
-    "CYBER/13 CTFS & LABS/THM/OVERPASS.md",
     "TEMPLATES/QUESTIONS.md",
     "COURSES/CYBER SHUJAA/CLOUD AND NETWORK SECURITY.md",
     "COURSES/CYBER SHUJAA/SECURITY ANALYST.md",
