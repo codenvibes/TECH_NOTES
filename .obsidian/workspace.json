@@ -308,13 +308,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "COURSES/COURSES.base",
+                "file": "COURSES/THM/RED TEAMING.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of COURSES"
+              "title": "Outline of RED TEAMING"
             }
           },
           {
@@ -429,7 +429,8 @@
                   "title": "DEFENDING AZURE"
                 }
               }
-            ]
+            ],
+            "currentTab": 1
           }
         ],
         "direction": "vertical",
@@ -442,9 +443,10 @@
       }
     ]
   },
-  "active": "a8199f503262a4c9",
+  "active": "ec0741c1c7527c9a",
   "lastOpenFiles": [
     "COURSES/THM/DEFENDING AZURE.md",
+    "COURSES/COURSES.base",
     "COURSES/THM/ATTACKING AND DEFENDING AWS.md",
     "COURSES/THM/RED TEAMING.md",
     "COURSES/THM/SOC LEVEL 1.md",
@@ -457,7 +459,6 @@
     "COURSES/THM/JR PENETRATION TESTER.md",
     "COURSES/THM/CYBER SECURITY 101.md",
     "COURSES/THM/PRE SECURITY.md",
-    "COURSES/COURSES.base",
     "CYBER/13 CTFS & LABS/THM/OVERPASS.md",
     "CYBER/13 CTFS & LABS/THM/KENOBI.md",
     "TEMPLATES/QUESTIONS.md",
