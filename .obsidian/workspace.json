@@ -308,13 +308,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "COURSES/THM/WEB APPLICATION PENTESTING.md",
+                "file": "COURSES/THM/WEB FUNDAMENTALS.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of WEB APPLICATION PENTESTING"
+              "title": "Outline of WEB FUNDAMENTALS"
             }
           },
           {
@@ -514,7 +514,7 @@
                 }
               }
             ],
-            "currentTab": 2
+            "currentTab": 1
           }
         ],
         "direction": "vertical",
@@ -527,8 +527,10 @@
       }
     ]
   },
-  "active": "68161f6e81dd5286",
+  "active": "a4bd45d630c655a0",
   "lastOpenFiles": [
+    "COURSES/THM/WEB APPLICATION PENTESTING.md",
+    "COURSES/THM/WEB FUNDAMENTALS.md",
     "COURSES/THM/SOC LEVEL 1.md",
     "COURSES/THM/SOC LEVEL 2.md",
     "COURSES/THM/RED TEAMING.md",
@@ -538,8 +540,6 @@
     "COURSES/THM/ATTACKING AND DEFENDING AWS.md",
     "COURSES/THM/CYBER SECURITY 101.md",
     "COURSES/THM/PRE SECURITY.md",
-    "COURSES/THM/WEB APPLICATION PENTESTING.md",
-    "COURSES/THM/WEB FUNDAMENTALS.md",
     "COURSES/COURSES.base",
     "COURSES/THM/DEFENDING AZURE.md",
     "COURSES/THM/ADVANCED ENDPOINT INVESTIGATIONS.md",
