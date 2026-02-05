@@ -176,12 +176,12 @@
                 "state": {
                   "type": "markdown",
                   "state": {
-                    "file": "CYBER/13 CTFS & LABS/THM/KENOBI.md",
+                    "file": "CYBER/01 CORE CONCEPTS/OPERATING SYSTEMS/LINUX/LINUX FUNDAMENTALS.md",
                     "mode": "source",
                     "source": false
                   },
                   "icon": "lucide-file",
-                  "title": "KENOBI"
+                  "title": "LINUX FUNDAMENTALS"
                 }
               }
             ],
@@ -308,13 +308,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "COURSES/COURSES.base",
+                "file": "CYBER/01 CORE CONCEPTS/OPERATING SYSTEMS/LINUX/LINUX FUNDAMENTALS.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of COURSES"
+              "title": "Outline of LINUX FUNDAMENTALS"
             }
           },
           {
@@ -376,11 +376,12 @@
       "iconic:Open rulebook": false
     }
   },
-  "active": "d6e3d74256db3bbc",
+  "active": "76fda0f47a1730fe",
   "lastOpenFiles": [
+    "CYBER/13 CTFS & LABS/THM/KENOBI.md",
+    "COURSES/COURSES.base",
     "COURSES/THM/DEFENDING AZURE.md",
     "COURSES/THM/RED TEAMING.md",
-    "COURSES/COURSES.base",
     "COURSES/THM/ATTACKING AND DEFENDING AWS.md",
     "COURSES/THM/SOC LEVEL 1.md",
     "COURSES/THM/WEB APPLICATION PENTESTING.md",
@@ -393,7 +394,6 @@
     "COURSES/THM/CYBER SECURITY 101.md",
     "COURSES/THM/PRE SECURITY.md",
     "CYBER/13 CTFS & LABS/THM/OVERPASS.md",
-    "CYBER/13 CTFS & LABS/THM/KENOBI.md",
     "TEMPLATES/QUESTIONS.md",
     "COURSES/CYBER SHUJAA/CLOUD AND NETWORK SECURITY.md",
     "COURSES/CYBER SHUJAA/SECURITY ANALYST.md",
