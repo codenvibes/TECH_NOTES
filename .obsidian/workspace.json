@@ -146,13 +146,16 @@
                     }
                   },
                   {
-                    "id": "ca8e939e0d7baa17",
+                    "id": "b94ef1e337889959",
                     "type": "leaf",
                     "state": {
-                      "type": "empty",
-                      "state": {},
-                      "icon": "lucide-file",
-                      "title": "New tab"
+                      "type": "webviewer",
+                      "state": {
+                        "url": "about:blank",
+                        "mode": "blank"
+                      },
+                      "icon": "globe-2",
+                      "title": "New web viewer"
                     }
                   }
                 ],
@@ -400,8 +403,9 @@
       "iconic:Open rulebook": false
     }
   },
-  "active": "ca8e939e0d7baa17",
+  "active": "b94ef1e337889959",
   "lastOpenFiles": [
+    "CYBER/13 CTFS & LABS/THM/OVERPASS.md",
     "CYBER/13 CTFS & LABS/HTB/FACTS.md",
     "CYBER/13 CTFS & LABS/CTFS & LABS.base",
     "CYBER/13 CTFS & LABS/HTB/SOULMATE.md",
@@ -423,7 +427,6 @@
     "COURSES/THM/JR PENETRATION TESTER.md",
     "COURSES/THM/CYBER SECURITY 101.md",
     "COURSES/THM/PRE SECURITY.md",
-    "CYBER/13 CTFS & LABS/THM/OVERPASS.md",
     "TEMPLATES/QUESTIONS.md",
     "COURSES/CYBER SHUJAA/CLOUD AND NETWORK SECURITY.md",
     "COURSES/CYBER SHUJAA/SECURITY ANALYST.md",
