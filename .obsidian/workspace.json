@@ -90,13 +90,13 @@
                     "state": {
                       "type": "webviewer",
                       "state": {
-                        "url": "https://app.hackthebox.com/home",
-                        "title": "Hack The Box :: Home",
+                        "url": "https://app.hackthebox.com/seasonal?tab=overview&season_id=13",
+                        "title": "Hack The Box :: Seasonal",
                         "mode": "webview"
                       },
                       "pinned": true,
                       "icon": "globe-2",
-                      "title": "Hack The Box :: Home"
+                      "title": "Hack The Box :: Seasonal"
                     }
                   },
                   {
@@ -175,20 +175,6 @@
                       },
                       "icon": "lucide-file",
                       "title": "OVERPASS"
-                    }
-                  },
-                  {
-                    "id": "b94ef1e337889959",
-                    "type": "leaf",
-                    "state": {
-                      "type": "webviewer",
-                      "state": {
-                        "url": "https://account.hackthebox.com/dashboard",
-                        "title": "HTB Account",
-                        "mode": "webview"
-                      },
-                      "icon": "globe-2",
-                      "title": "HTB Account"
                     }
                   }
                 ]
@@ -305,7 +291,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 288.703125
+    "width": 288.703125,
+    "collapsed": true
   },
   "right": {
     "id": "26820c7e22c27caf",
@@ -419,7 +406,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -437,9 +425,9 @@
   },
   "active": "1829a2d1d4c98997",
   "lastOpenFiles": [
-    "CYBER/13 CTFS & LABS/HTB/FACTS.md",
     "CYBER/13 CTFS & LABS/THM/OVERPASS.md",
     "CYBER/13 CTFS & LABS/CTFS & LABS.base",
+    "CYBER/13 CTFS & LABS/HTB/FACTS.md",
     "CYBER/13 CTFS & LABS/HTB/SOULMATE.md",
     "SOFT SKILLS & CAREER/PIRP.base",
     "QUICK NOTES/WHITE-BOARD.md",
