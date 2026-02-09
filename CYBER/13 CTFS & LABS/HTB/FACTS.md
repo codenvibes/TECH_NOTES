@@ -7,9 +7,10 @@ image: https://htb-mp-prod-public-storage.s3.eu-central-1.amazonaws.com/avatars/
 ---
 ## Summary
 
-| SECTION/TASK | FLAG |
-| ------------ | ---- |
-|              |      |
+| SECTION/TASK     | FLAG |
+| ---------------- | ---- |
+| Submit User Flag |      |
+| Submit Root Flag |      |
 
 <div align="center">
 <br>

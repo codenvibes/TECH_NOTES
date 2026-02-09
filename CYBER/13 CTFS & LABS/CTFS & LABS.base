@@ -7,7 +7,7 @@ views:
     order:
       - file.name
       - file.tags
-    image: note.aliases
+    image: note.image
   - type: cards
     name: THM
     filters:
