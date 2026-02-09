@@ -1,5 +1,6 @@
 ---
 tags:
+  - HTB_SN_10
 link:
 description:
 ---

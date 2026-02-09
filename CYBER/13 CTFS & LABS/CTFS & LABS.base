@@ -4,6 +4,9 @@ views:
     filters:
       and:
         - file.folder == "CYBER/13 CTFS & LABS/HTB"
+    order:
+      - file.name
+      - file.tags
     image: note.aliases
   - type: cards
     name: THM
