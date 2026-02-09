@@ -24,7 +24,7 @@
                       "type": "bases",
                       "state": {
                         "file": "COURSES/COURSES.base",
-                        "viewName": "THM"
+                        "viewName": "HTB"
                       },
                       "pinned": true,
                       "icon": "lucide-layout-grid",
@@ -52,7 +52,7 @@
                       "type": "bases",
                       "state": {
                         "file": "CYBER/13 CTFS & LABS/CTFS & LABS.base",
-                        "viewName": "THM"
+                        "viewName": "HTB"
                       },
                       "pinned": true,
                       "icon": "lucide-layout-grid",
@@ -75,7 +75,8 @@
                       "title": "WHITE-BOARD"
                     }
                   }
-                ]
+                ],
+                "currentTab": 2
               },
               {
                 "id": "eb7c5c7906b2a9d3",
@@ -308,13 +309,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "CYBER/13 CTFS & LABS/THM/KENOBI.md",
+                "file": "CYBER/13 CTFS & LABS/CTFS & LABS.base",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of KENOBI"
+              "title": "Outline of CTFS & LABS"
             }
           },
           {
@@ -376,11 +377,11 @@
       "iconic:Open rulebook": false
     }
   },
-  "active": "76fda0f47a1730fe",
+  "active": "61cb0fa6208d953e",
   "lastOpenFiles": [
-    "CYBER/01 CORE CONCEPTS/OPERATING SYSTEMS/LINUX/LINUX FUNDAMENTALS.md",
-    "CYBER/13 CTFS & LABS/THM/KENOBI.md",
     "COURSES/COURSES.base",
+    "CYBER/13 CTFS & LABS/THM/KENOBI.md",
+    "CYBER/01 CORE CONCEPTS/OPERATING SYSTEMS/LINUX/LINUX FUNDAMENTALS.md",
     "COURSES/THM/DEFENDING AZURE.md",
     "COURSES/THM/RED TEAMING.md",
     "COURSES/THM/ATTACKING AND DEFENDING AWS.md",
@@ -405,7 +406,6 @@
     "QUICK NOTES/TODO.md",
     "QUICK NOTES/WHITE-BOARD.md",
     "COURSES/HTB/JUNIOR CYBERSECURITY ANALYST.md",
-    "CYBER/13 CTFS & LABS/THM/AOC 2025/AOC DAY01 - LINUX CLI - SHELLS BELLS.md",
     "ASSETS/Pasted image 20260125172017.png",
     "ASSETS/Pasted image 20260125171441.png",
     "ASSETS/Pasted image 20260125170257.png",
