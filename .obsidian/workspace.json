@@ -355,12 +355,13 @@
             "state": {
               "type": "outline",
               "state": {
+                "file": "CYBER/13 CTFS & LABS/CTFS & LABS.base",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline"
+              "title": "Outline of CTFS & LABS"
             }
           },
           {
@@ -423,11 +424,11 @@
       "iconic:Open rulebook": false
     }
   },
-  "active": "1829a2d1d4c98997",
+  "active": "c70fde05d4631946",
   "lastOpenFiles": [
+    "CYBER/13 CTFS & LABS/HTB/FACTS.md",
     "CYBER/13 CTFS & LABS/THM/OVERPASS.md",
     "CYBER/13 CTFS & LABS/CTFS & LABS.base",
-    "CYBER/13 CTFS & LABS/HTB/FACTS.md",
     "CYBER/13 CTFS & LABS/HTB/SOULMATE.md",
     "SOFT SKILLS & CAREER/PIRP.base",
     "QUICK NOTES/WHITE-BOARD.md",
