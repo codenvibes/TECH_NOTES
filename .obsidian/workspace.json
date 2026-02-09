@@ -45,6 +45,19 @@
                     }
                   },
                   {
+                    "id": "c70fde05d4631946",
+                    "type": "leaf",
+                    "state": {
+                      "type": "bases",
+                      "state": {
+                        "file": "CYBER/13 CTFS & LABS/CTFS & LABS.base",
+                        "viewName": "HTB"
+                      },
+                      "icon": "lucide-layout-grid",
+                      "title": "CTFS & LABS"
+                    }
+                  },
+                  {
                     "id": "21fce08000a30866",
                     "type": "leaf",
                     "pinned": true,
@@ -308,13 +321,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "QUICK NOTES/WHITE-BOARD.md",
+                "file": "CYBER/13 CTFS & LABS/CTFS & LABS.base",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of WHITE-BOARD"
+              "title": "Outline of CTFS & LABS"
             }
           },
           {
@@ -376,9 +389,11 @@
       "iconic:Open rulebook": false
     }
   },
-  "active": "21fce08000a30866",
+  "active": "c70fde05d4631946",
   "lastOpenFiles": [
+    "SOFT SKILLS & CAREER/PIRP.base",
     "CYBER/13 CTFS & LABS/CTFS & LABS.base",
+    "QUICK NOTES/WHITE-BOARD.md",
     "CYBER/13 CTFS & LABS/HTB/Untitled.md",
     "CYBER/13 CTFS & LABS/HTB/SOULMATE.md",
     "COURSES/COURSES.base",
@@ -404,11 +419,9 @@
     "CYBER/03 RECONNAISSANCE & ENUMERATION/00 ENUMERATION.md",
     "CYBER/03 RECONNAISSANCE & ENUMERATION/RECONNAISSANCE/ACTIVE RECONNAISSANCE.md",
     "CYBER/03 RECONNAISSANCE & ENUMERATION/RECONNAISSANCE/PASSIVE RECONNAISSANCE.md",
-    "QUICK NOTES/TODO.md",
     "ASSETS/Pasted image 20260125172017.png",
     "ASSETS/Pasted image 20260125171441.png",
     "ASSETS/Pasted image 20260125170257.png",
-    "SOFT SKILLS & CAREER/PIRP.base",
     "SOFT SKILLS & CAREER/PREP",
     "DEVOPS/12 CLOUD/AWS/Untitled",
     "Pasted image 20260125172017.png",
