@@ -14,7 +14,7 @@
               {
                 "id": "5fba8451e3d9bb96",
                 "type": "tabs",
-                "dimension": 39.02597402597402,
+                "dimension": 38.246753246753244,
                 "children": [
                   {
                     "id": "d6e3d74256db3bbc",
@@ -81,7 +81,7 @@
               {
                 "id": "eb7c5c7906b2a9d3",
                 "type": "tabs",
-                "dimension": 60.97402597402597,
+                "dimension": 61.75324675324675,
                 "children": [
                   {
                     "id": "1829a2d1d4c98997",
@@ -90,13 +90,13 @@
                     "state": {
                       "type": "webviewer",
                       "state": {
-                        "url": "https://app.hackthebox.com/seasonal?tab=overview&season_id=13",
-                        "title": "Hack The Box :: Seasonal",
+                        "url": "https://app.hackthebox.com/machines/Facts?tab=play_machine",
+                        "title": "Hack The Box :: Facts Machine",
                         "mode": "webview"
                       },
                       "pinned": true,
                       "icon": "globe-2",
-                      "title": "Hack The Box :: Seasonal"
+                      "title": "Hack The Box :: Facts Machine"
                     }
                   },
                   {
