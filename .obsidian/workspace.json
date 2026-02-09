@@ -84,6 +84,38 @@
                 "dimension": 60.97402597402597,
                 "children": [
                   {
+                    "id": "1829a2d1d4c98997",
+                    "type": "leaf",
+                    "pinned": true,
+                    "state": {
+                      "type": "webviewer",
+                      "state": {
+                        "url": "https://app.hackthebox.com/home",
+                        "title": "Hack The Box :: Home",
+                        "mode": "webview"
+                      },
+                      "pinned": true,
+                      "icon": "globe-2",
+                      "title": "Hack The Box :: Home"
+                    }
+                  },
+                  {
+                    "id": "e7c511dac942f49a",
+                    "type": "leaf",
+                    "pinned": true,
+                    "state": {
+                      "type": "webviewer",
+                      "state": {
+                        "url": "https://tryhackme.com/dashboard",
+                        "title": "TryHackMe | Dashboard",
+                        "mode": "webview"
+                      },
+                      "pinned": true,
+                      "icon": "globe-2",
+                      "title": "TryHackMe | Dashboard"
+                    }
+                  },
+                  {
                     "id": "1ed32a33f41cf25f",
                     "type": "leaf",
                     "pinned": true,
@@ -158,23 +190,8 @@
                       "icon": "globe-2",
                       "title": "HTB Account"
                     }
-                  },
-                  {
-                    "id": "e7c511dac942f49a",
-                    "type": "leaf",
-                    "state": {
-                      "type": "webviewer",
-                      "state": {
-                        "url": "https://tryhackme.com/dashboard",
-                        "title": "TryHackMe | Dashboard",
-                        "mode": "webview"
-                      },
-                      "icon": "globe-2",
-                      "title": "TryHackMe | Dashboard"
-                    }
                   }
-                ],
-                "currentTab": 4
+                ]
               }
             ],
             "direction": "horizontal"
@@ -418,7 +435,7 @@
       "iconic:Open rulebook": false
     }
   },
-  "active": "b94ef1e337889959",
+  "active": "1829a2d1d4c98997",
   "lastOpenFiles": [
     "CYBER/13 CTFS & LABS/HTB/FACTS.md",
     "CYBER/13 CTFS & LABS/THM/OVERPASS.md",
