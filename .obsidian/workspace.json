@@ -47,12 +47,14 @@
                   {
                     "id": "c70fde05d4631946",
                     "type": "leaf",
+                    "pinned": true,
                     "state": {
                       "type": "bases",
                       "state": {
                         "file": "CYBER/13 CTFS & LABS/CTFS & LABS.base",
                         "viewName": "HTB"
                       },
+                      "pinned": true,
                       "icon": "lucide-layout-grid",
                       "title": "CTFS & LABS"
                     }
@@ -391,11 +393,11 @@
   },
   "active": "c70fde05d4631946",
   "lastOpenFiles": [
-    "SOFT SKILLS & CAREER/PIRP.base",
-    "CYBER/13 CTFS & LABS/CTFS & LABS.base",
-    "QUICK NOTES/WHITE-BOARD.md",
-    "CYBER/13 CTFS & LABS/HTB/Untitled.md",
     "CYBER/13 CTFS & LABS/HTB/SOULMATE.md",
+    "CYBER/13 CTFS & LABS/HTB/Untitled.md",
+    "CYBER/13 CTFS & LABS/CTFS & LABS.base",
+    "SOFT SKILLS & CAREER/PIRP.base",
+    "QUICK NOTES/WHITE-BOARD.md",
     "COURSES/COURSES.base",
     "CYBER/13 CTFS & LABS/THM/KENOBI.md",
     "CYBER/01 CORE CONCEPTS/OPERATING SYSTEMS/LINUX/LINUX FUNDAMENTALS.md",
