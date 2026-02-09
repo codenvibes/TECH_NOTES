@@ -45,21 +45,6 @@
                     }
                   },
                   {
-                    "id": "61cb0fa6208d953e",
-                    "type": "leaf",
-                    "pinned": true,
-                    "state": {
-                      "type": "bases",
-                      "state": {
-                        "file": "CYBER/13 CTFS & LABS/CTFS & LABS.base",
-                        "viewName": "HTB"
-                      },
-                      "pinned": true,
-                      "icon": "lucide-layout-grid",
-                      "title": "CTFS & LABS"
-                    }
-                  },
-                  {
                     "id": "21fce08000a30866",
                     "type": "leaf",
                     "pinned": true,
@@ -323,13 +308,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "CYBER/13 CTFS & LABS/HTB/SOULMATE.md",
+                "file": "QUICK NOTES/WHITE-BOARD.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of SOULMATE"
+              "title": "Outline of WHITE-BOARD"
             }
           },
           {
@@ -391,9 +376,11 @@
       "iconic:Open rulebook": false
     }
   },
-  "active": "00bc5b978594dd0c",
+  "active": "21fce08000a30866",
   "lastOpenFiles": [
     "CYBER/13 CTFS & LABS/CTFS & LABS.base",
+    "CYBER/13 CTFS & LABS/HTB/Untitled.md",
+    "CYBER/13 CTFS & LABS/HTB/SOULMATE.md",
     "COURSES/COURSES.base",
     "CYBER/13 CTFS & LABS/THM/KENOBI.md",
     "CYBER/01 CORE CONCEPTS/OPERATING SYSTEMS/LINUX/LINUX FUNDAMENTALS.md",
@@ -418,8 +405,6 @@
     "CYBER/03 RECONNAISSANCE & ENUMERATION/RECONNAISSANCE/ACTIVE RECONNAISSANCE.md",
     "CYBER/03 RECONNAISSANCE & ENUMERATION/RECONNAISSANCE/PASSIVE RECONNAISSANCE.md",
     "QUICK NOTES/TODO.md",
-    "QUICK NOTES/WHITE-BOARD.md",
-    "COURSES/HTB/JUNIOR CYBERSECURITY ANALYST.md",
     "ASSETS/Pasted image 20260125172017.png",
     "ASSETS/Pasted image 20260125171441.png",
     "ASSETS/Pasted image 20260125170257.png",
