@@ -151,7 +151,7 @@
                     "state": {
                       "type": "webviewer",
                       "state": {
-                        "url": "https://account.hackthebox.com/login",
+                        "url": "https://account.hackthebox.com/dashboard",
                         "title": "HTB Account",
                         "mode": "webview"
                       },
