@@ -3,6 +3,7 @@ tags:
   - HTB_SN_10
 link:
 description:
+image: https://htb-mp-prod-public-storage.s3.eu-central-1.amazonaws.com/avatars/bdcd209c32f156fbfb2268f099971f75.png
 ---
 ## Summary
 
