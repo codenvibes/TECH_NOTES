@@ -14,7 +14,7 @@
               {
                 "id": "5fba8451e3d9bb96",
                 "type": "tabs",
-                "dimension": 67.2279792746114,
+                "dimension": 39.02597402597402,
                 "children": [
                   {
                     "id": "d6e3d74256db3bbc",
@@ -81,7 +81,7 @@
               {
                 "id": "eb7c5c7906b2a9d3",
                 "type": "tabs",
-                "dimension": 32.7720207253886,
+                "dimension": 60.97402597402597,
                 "children": [
                   {
                     "id": "1ed32a33f41cf25f",
@@ -144,9 +144,19 @@
                       "icon": "lucide-file",
                       "title": "OVERPASS"
                     }
+                  },
+                  {
+                    "id": "ca8e939e0d7baa17",
+                    "type": "leaf",
+                    "state": {
+                      "type": "empty",
+                      "state": {},
+                      "icon": "lucide-file",
+                      "title": "New tab"
+                    }
                   }
                 ],
-                "currentTab": 3
+                "currentTab": 4
               }
             ],
             "direction": "horizontal"
@@ -323,13 +333,12 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "CYBER/13 CTFS & LABS/HTB/FACTS.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of FACTS"
+              "title": "Outline"
             }
           },
           {
@@ -391,10 +400,10 @@
       "iconic:Open rulebook": false
     }
   },
-  "active": "00bc5b978594dd0c",
+  "active": "ca8e939e0d7baa17",
   "lastOpenFiles": [
-    "CYBER/13 CTFS & LABS/CTFS & LABS.base",
     "CYBER/13 CTFS & LABS/HTB/FACTS.md",
+    "CYBER/13 CTFS & LABS/CTFS & LABS.base",
     "CYBER/13 CTFS & LABS/HTB/SOULMATE.md",
     "SOFT SKILLS & CAREER/PIRP.base",
     "QUICK NOTES/WHITE-BOARD.md",
