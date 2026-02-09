@@ -158,9 +158,23 @@
                       "icon": "globe-2",
                       "title": "HTB Account"
                     }
+                  },
+                  {
+                    "id": "e7c511dac942f49a",
+                    "type": "leaf",
+                    "state": {
+                      "type": "webviewer",
+                      "state": {
+                        "url": "https://tryhackme.com/dashboard",
+                        "title": "TryHackMe | Dashboard",
+                        "mode": "webview"
+                      },
+                      "icon": "globe-2",
+                      "title": "TryHackMe | Dashboard"
+                    }
                   }
                 ],
-                "currentTab": 4
+                "currentTab": 5
               }
             ],
             "direction": "horizontal"
@@ -404,7 +418,7 @@
       "iconic:Open rulebook": false
     }
   },
-  "active": "b94ef1e337889959",
+  "active": "e7c511dac942f49a",
   "lastOpenFiles": [
     "CYBER/13 CTFS & LABS/HTB/FACTS.md",
     "CYBER/13 CTFS & LABS/THM/OVERPASS.md",
