@@ -9,6 +9,8 @@ views:
       - file.tags
       - description
     image: note.image
+    cardSize: 190
+    imageAspectRatio: 1
   - type: cards
     name: THM
     filters:
