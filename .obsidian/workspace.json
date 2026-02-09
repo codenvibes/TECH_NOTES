@@ -151,11 +151,12 @@
                     "state": {
                       "type": "webviewer",
                       "state": {
-                        "url": "about:blank",
-                        "mode": "blank"
+                        "url": "https://accounts.google.com/v3/signin/identifier?opparams=%253F&dsh=S35919573%3A1770653245818963&client_id=285994658757-atm5vrnt5dbuvr82im0q6kik8ovq8sfv.apps.googleusercontent.com&o2v=1&redirect_uri=https%3A%2F%2Faccount.hackthebox.com%2Fsocial-network%2Fgoogle%2Fcallback&response_type=code&scope=openid+profile+email&service=lso&state=YiSsIF2N5xD2n4bCUKhT6uqjWIoRe0lhtbk89Smn&flowName=GeneralOAuthLite&continue=https%3A%2F%2Faccounts.google.com%2Fsignin%2Foauth%2Flegacy%2Fconsent%3Fauthuser%3Dunknown%26part%3DAJi8hAN-cNoLUh9RdeIJV5Ob_vLaCEvd5qug68qUaO2-XTzzFLnb5HsHG9MAIZjOS4ddW0WO9ziKAD6qi5f03fX9DmKgDb5jnSKx999ifDSVJollx3ytgkP-L0Zw1_PwJSTJMOEPdpSd_dhugvm_e2WvnwxRmM_jx2vp7F7YkzRSnOTYqNYtmyVpBxcM3GC6ObEP26dv9P9rIAB7ANEz1TMTONs_5KkpiVn4jU6hxvi0E0fx28RWWM6s3W-cXI6FhG1MPGgDP2QaVXWo1XjhmxOQ0kVc7yc-Lg3aFBxqq0ye1KvG5CbMqlYmatk6IPwwXOQkDFHWSyCQ8hlJIN1kA6SI4HP3E6Q3lj2pup_ldawVQ5qE_OGRUkZnlPgiPMfqzIvAgvKeec1P0yp6MmFaBS13oJ8d9pKnDUCyZD3Q4yGl-ZKolkCekTxOuT2fZoGVWQMtxz_uVTmZPo_YGw8GCks4GHgoXAb58g%26flowName%3DGeneralOAuthFlow%26as%3DS35919573%253A1770653245818963%26client_id%3D285994658757-atm5vrnt5dbuvr82im0q6kik8ovq8sfv.apps.googleusercontent.com%23&app_domain=https%3A%2F%2Faccount.hackthebox.com&rart=ANgoxcd9y3HarVmSaxPOKsBZepbBq722K6URpQz7eJC3QvD2j6iAsA5aYXxGiCYcFF0XLnjoBDW6LbQsuFN27Kd0gC2qK0g5FKVsWiTR_ZwO8gbjGBYFQww",
+                        "title": "Sign in - Google Accounts",
+                        "mode": "webview"
                       },
                       "icon": "globe-2",
-                      "title": "New web viewer"
+                      "title": "Sign in - Google Accounts"
                     }
                   }
                 ],
