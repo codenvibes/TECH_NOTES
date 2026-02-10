@@ -91,12 +91,12 @@
                       "type": "webviewer",
                       "state": {
                         "url": "https://app.hackthebox.com/machines/Facts?tab=play_machine",
-                        "title": "Hack The Box :: Facts Machine",
+                        "title": "Hack The Box",
                         "mode": "webview"
                       },
                       "pinned": true,
                       "icon": "globe-2",
-                      "title": "Hack The Box :: Facts Machine"
+                      "title": "Hack The Box"
                     }
                   },
                   {
