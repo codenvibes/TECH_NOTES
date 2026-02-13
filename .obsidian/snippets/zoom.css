@@ -2,3 +2,8 @@ body {
   zoom: 70%; /* Change this to your preferred zoom level */
 }
 
+/* Set default canvas zoom level */
+.canvas-viewport {
+  transform: scale(1); /* Change this value (1 = 100%) */
+  transform-origin: 0 0;
+}
