@@ -1,7 +1,8 @@
 {
   "enabledCssSnippets": [
     "zoom",
-    "font"
+    "font",
+    "no-checkbox-strikethrough"
   ],
   "cssTheme": "GitHub Theme",
   "showRibbon": true
