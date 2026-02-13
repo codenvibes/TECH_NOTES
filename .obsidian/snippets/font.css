@@ -1,6 +1,6 @@
 body {
-    --font-interface: "Source Code Pro", monospace !important;
-    --font-text: "Source Code Pro", monospace !important;
+    --font-interface: "Roboto Mono", monospace !important;
+    --font-text: "Roboto Mono", monospace !important;
     /* --font-monospace: "Source Code Pro", monospace !important; */
 }
 

@@ -107,12 +107,12 @@
                       "type": "webviewer",
                       "state": {
                         "url": "https://tryhackme.com/dashboard",
-                        "title": "TryHackMe | Dashboard",
-                        "mode": "webview"
+                        "title": "data:text/plain,",
+                        "mode": "blank"
                       },
                       "pinned": true,
                       "icon": "globe-2",
-                      "title": "TryHackMe | Dashboard"
+                      "title": "data:text/plain,"
                     }
                   },
                   {
