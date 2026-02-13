@@ -41,16 +41,16 @@ Plan → Code → Build → Test → Release → Deploy → Operate → Monitor 
 
 ## 02 SOURCE CODE MANAGEMENT (SCM)
 
-**Purpose**
+- **Purpose**
 	- Version control
 	- Code collaboration
 	- Branching strategies
-**Tools**
-	- Git (core technology)
-	- GitHub
-	- GitLab
-	- Bitbucket
-	- Azure Repos
+- **Tools**
+	- [ ] Git (core technology)
+	- [x] GitHub
+	- [ ] GitLab
+	- [ ] Bitbucket
+	- [ ] Azure Repos
 
 ## 03 BUILD AUTOMATION
 
