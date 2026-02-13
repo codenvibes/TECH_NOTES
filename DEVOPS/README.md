@@ -46,7 +46,7 @@ Plan → Code → Build → Test → Release → Deploy → Operate → Monitor 
 	- Code collaboration
 	- Branching strategies
 - **Tools**
-	- [ ] Git (core technology)
+	- [x] Git (core technology)
 	- [x] GitHub
 	- [ ] GitLab
 	- [ ] Bitbucket
@@ -54,11 +54,11 @@ Plan → Code → Build → Test → Release → Deploy → Operate → Monitor 
 
 ## 03 BUILD AUTOMATION
 
-**Purpose**
+- **Purpose**
 	- Compile code
 	- Manage dependencies
 	- Create build artifacts
-**Tools**
+- **Tools**
 	- Maven
 	- Gradle
 	- Ant
