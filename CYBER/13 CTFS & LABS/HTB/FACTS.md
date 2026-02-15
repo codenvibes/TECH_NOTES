@@ -43,10 +43,7 @@ Start the Machine.
 
 Verify that the target machine is up and reachable by performing an ICMP ping test.
 
-Command:
-
-```
-```
+Command: `ping -c 4 <TARGET_IP>`
 <div align="center">
 <br>
 <br>
