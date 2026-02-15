@@ -54,14 +54,14 @@ Output:
 ┌──(kali㉿kali)-[~]
 └─$ ping -c 4 10.129.4.179
 PING 10.129.4.179 (10.129.4.179) 56(84) bytes of data.
-From 10.10.16.1 icmp_seq=1 Destination Host Unreachable
-From 10.10.16.1 icmp_seq=2 Destination Host Unreachable
-From 10.10.16.1 icmp_seq=3 Destination Host Unreachable
-From 10.10.16.1 icmp_seq=4 Destination Host Unreachable
+64 bytes from 10.129.4.179: icmp_seq=1 ttl=63 time=276 ms
+64 bytes from 10.129.4.179: icmp_seq=2 ttl=63 time=279 ms
+64 bytes from 10.129.4.179: icmp_seq=3 ttl=63 time=277 ms
+64 bytes from 10.129.4.179: icmp_seq=4 ttl=63 time=283 ms
 
 --- 10.129.4.179 ping statistics ---
-4 packets transmitted, 0 received, +4 errors, 100% packet loss, time 3083ms
-pipe 4
+4 packets transmitted, 4 received, 0% packet loss, time 3015ms
+rtt min/avg/max/mdev = 276.453/278.758/282.843/2.585 ms
 ```
 
 A successful response confirms that the machine is active and accessible on the HTB network, allowing us to proceed with the enumeration phase.
