@@ -51,6 +51,17 @@ Breakdown:
 Output:
 
 ```shell
+┌──(kali㉿kali)-[~]
+└─$ ping -c 4 10.129.4.179
+PING 10.129.4.179 (10.129.4.179) 56(84) bytes of data.
+From 10.10.16.1 icmp_seq=1 Destination Host Unreachable
+From 10.10.16.1 icmp_seq=2 Destination Host Unreachable
+From 10.10.16.1 icmp_seq=3 Destination Host Unreachable
+From 10.10.16.1 icmp_seq=4 Destination Host Unreachable
+
+--- 10.129.4.179 ping statistics ---
+4 packets transmitted, 0 received, +4 errors, 100% packet loss, time 3083ms
+pipe 4
 
 ```
 
