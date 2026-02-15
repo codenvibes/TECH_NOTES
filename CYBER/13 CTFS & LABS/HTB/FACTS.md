@@ -25,6 +25,14 @@ date: 2026-02-15
 ## 1. Reconnaissance & Discovery
 
 ### 1.1 Connecting to the HTB VPN
+
+Before interacting with the target machine, connect to the HTB VPN using my `.ovpn` configuration file. This establishes a secure tunnel that allows access to the target machine’s internal network.
+
+Command:
+
+```
+
+```
 <div align="center">
 <br>
 <br>
