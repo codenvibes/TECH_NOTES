@@ -183,12 +183,12 @@
                     "state": {
                       "type": "markdown",
                       "state": {
-                        "file": "CYBER/03 RECONNAISSANCE & ENUMERATION/00 ENUMERATION.md",
+                        "file": "CYBER/03 RECONNAISSANCE & ENUMERATION/RECONNAISSANCE/ACTIVE RECONNAISSANCE.md",
                         "mode": "source",
                         "source": false
                       },
                       "icon": "lucide-file",
-                      "title": "00 ENUMERATION"
+                      "title": "ACTIVE RECONNAISSANCE"
                     }
                   }
                 ],
@@ -440,6 +440,8 @@
   },
   "active": "09bcb134bd9cf9e8",
   "lastOpenFiles": [
+    "CYBER/03 RECONNAISSANCE & ENUMERATION/RECONNAISSANCE/ACTIVE RECONNAISSANCE.md",
+    "CYBER/03 RECONNAISSANCE & ENUMERATION/00 ENUMERATION.md",
     "CYBER/13 CTFS & LABS/THM/KENOBI.md",
     "CYBER/13 CTFS & LABS/HTB/FACTS.md",
     "TEMPLATES/CTF WRITEUP.md",
@@ -467,8 +469,6 @@
     "COURSES/THM/PRE SECURITY.md",
     "TEMPLATES/QUESTIONS.md",
     "COURSES/CYBER SHUJAA/SECURITY ANALYST.md",
-    "CYBER/03 RECONNAISSANCE & ENUMERATION/00 ENUMERATION.md",
-    "CYBER/03 RECONNAISSANCE & ENUMERATION/RECONNAISSANCE/ACTIVE RECONNAISSANCE.md",
     "ASSETS/Pasted image 20260125172017.png",
     "ASSETS/Pasted image 20260125171441.png",
     "ASSETS/Pasted image 20260125170257.png",
