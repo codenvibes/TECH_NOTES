@@ -1,8 +1,7 @@
 ---
 tags:
-  - HTB_SN_10
-link: https://app.hackthebox.com/machines/Facts
-description: "Easy\r·\rLinux"
+link:
+description:
 image:
 date:
 ---
