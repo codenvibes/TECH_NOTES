@@ -80,19 +80,19 @@ A successful response confirms that the machine is active and accessible on the 
 
 Before we can attack a system, we need to find out what "doors" are open. Doors in this context are ports. We use a tool called **Nmap** (Network Mapper) to scan the target's IP address and see what services are running.
 
-Command: `nmap <TARGET_IP>`
+Command: `nmap TARGET_IP`
 
 Breakdown:
 - **`nmap`**
     - **Description:** The utility itself.
     - **Purpose:** Starts the network scanning application.
-- **`<TARGET_IP>`**
+- **`TARGET_IP`**
     - **Description:** Target Specification.
     - **Purpose:** The IP address of the host being scanned.
 
 ```shell
 ┌──(kali㉿kali)-[~]
-└─$ nmap -A -T4 -p- <TARGET_IP>
+└─$ nmap -A -T4 -p- TARGET_IP
 Starting Nmap 7.95 ( https://nmap.org ) at 2026-02-15 08:59 EST
 Warning: 10.129.4.179 giving up on port because retransmission cap hit (6).
 Nmap scan report for 10.129.4.179
