@@ -22,6 +22,9 @@ date: 2026-02-15
 <!-- PAGE BREAK -->
 <div style="page-break-after: always;"></div>
 
-Overview
+Reconnaissance & Discovery
+Enumeration
+Exploitation
+Post-Exploitation
 ## References
 
