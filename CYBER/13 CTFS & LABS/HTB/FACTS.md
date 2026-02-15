@@ -77,6 +77,23 @@ A successful response confirms that the machine is active and accessible on the 
 ## 2. Enumeration
 
 ### 2.1. Port Scan with Nmap
+
+C
+
+```shell
+┌──(kali㉿kali)-[~]
+└─$ nmap 10.129.4.179                   
+Starting Nmap 7.95 ( https://nmap.org ) at 2026-02-15 07:55 EST
+Note: Host seems down. If it is really up, but blocking our ping probes, try -Pn
+Nmap done: 1 IP address (0 hosts up) scanned in 3.16 seconds
+
+┌──(kali㉿kali)-[~]
+└─$ nmap -A -T4 -p- 10.129.4.179                  
+Starting Nmap 7.95 ( https://nmap.org ) at 2026-02-15 08:01 EST
+Note: Host seems down. If it is really up, but blocking our ping probes, try -Pn
+Nmap done: 1 IP address (0 hosts up) scanned in 4.62 seconds
+```
+
 <div align="center">
 <br>
 <br>
