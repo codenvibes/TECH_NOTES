@@ -35,6 +35,15 @@ Command:
 ```
 sudo openvpn your_file.ovpn
 ```
+
+Start the Machine.
+<div align="center">
+<br>
+※※※※※※※※※※※※※※※※※※※※※※※※
+<br>
+<br>
+</div>
+
 <div align="center">
 <br>
 <br>
