@@ -190,9 +190,23 @@
                       "icon": "lucide-file",
                       "title": "OVERPASS"
                     }
+                  },
+                  {
+                    "id": "3b8b4b24d88a173c",
+                    "type": "leaf",
+                    "state": {
+                      "type": "webviewer",
+                      "state": {
+                        "url": "https://gemini.google.com/app/f7fa38889a9c8382",
+                        "title": "Google Gemini",
+                        "mode": "webview"
+                      },
+                      "icon": "globe-2",
+                      "title": "Google Gemini"
+                    }
                   }
                 ],
-                "currentTab": 5
+                "currentTab": 7
               }
             ],
             "direction": "horizontal"
@@ -438,7 +452,7 @@
       "iconic:Open rulebook": false
     }
   },
-  "active": "92aabadb907a937e",
+  "active": "3b8b4b24d88a173c",
   "lastOpenFiles": [
     "CYBER/13 CTFS & LABS/HTB/FACTS.md",
     "CYBER/13 CTFS & LABS/THM/OVERPASS.md",
