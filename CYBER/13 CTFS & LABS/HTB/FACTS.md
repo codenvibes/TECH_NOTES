@@ -75,6 +75,8 @@ A successful response confirms that the machine is active and accessible on the 
 <div style="page-break-after: always;"></div>
 
 ## 2. Enumeration
+
+### 2.1. Port Scan with Nmap
 <div align="center">
 <br>
 <br>
