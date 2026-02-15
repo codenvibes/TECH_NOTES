@@ -96,6 +96,7 @@ Note: Host seems down. If it is really up, but blocking our ping probes, try -Pn
 Nmap done: 1 IP address (0 hosts up) scanned in 4.62 seconds
 ```
 
+Breakdown:
 <div align="center">
 <br>
 <br>
