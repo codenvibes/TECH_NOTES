@@ -249,6 +249,17 @@ Browse to `http://facts.htb`.
 ![[Pasted image 20260215184146.png]]
 <div align="center">
 <br>
+※※※※※※※※※※※※※※※※※※※※※※※※
+<br>
+<br>
+</div>
+#### Directory Fuzzing
+
+Command: ``
+
+Outpu
+<div align="center">
+<br>
 <br>
 ※※※※※※※※※※※※※※※※※※※※※※※※
 <br>
