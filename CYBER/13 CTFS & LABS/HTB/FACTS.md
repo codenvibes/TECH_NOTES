@@ -364,7 +364,7 @@ http://facts.htb/admin/login
 
 ![[Pasted image 20260215192125.png]]
 
-
+Look at the footer. It explicitly says **"Camaleon CMS"** version **2.9.0**.
 
 <div align="center">
 <br>
