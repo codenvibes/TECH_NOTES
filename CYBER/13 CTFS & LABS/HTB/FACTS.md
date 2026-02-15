@@ -23,6 +23,8 @@ date: 2026-02-15
 <div style="page-break-after: always;"></div>
 
 ## 1. Reconnaissance & Discovery
+
+### 1.1 Connecting to the HTB VPN
 <div align="center">
 <br>
 <br>
