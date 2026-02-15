@@ -62,7 +62,6 @@ From 10.10.16.1 icmp_seq=4 Destination Host Unreachable
 --- 10.129.4.179 ping statistics ---
 4 packets transmitted, 0 received, +4 errors, 100% packet loss, time 3083ms
 pipe 4
-
 ```
 
 A successful response confirms that the machine is active and accessible on the HTB network, allowing us to proceed with the enumeration phase.
