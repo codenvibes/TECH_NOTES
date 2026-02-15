@@ -30,11 +30,7 @@ First, download your personalized `.ovpn` file from Hack The Box.
 
 Connect to the HTB VPN using the `.ovpn` configuration file. This establishes a secure tunnel that allows access to the target machine’s internal network.
 
-Command:
-
-```
-sudo openvpn your_file.ovpn
-```
+Command: `sudo openvpn your_file.ovpn`
 
 Start the Machine.
 <div align="center">
@@ -47,7 +43,10 @@ Start the Machine.
 
 Verify that the target machine is up and reachable by performing an ICMP ping test.
 
-Command
+Command:
+
+```
+```
 <div align="center">
 <br>
 <br>
