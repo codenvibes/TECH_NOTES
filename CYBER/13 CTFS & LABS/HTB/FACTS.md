@@ -44,6 +44,17 @@ Start the Machine.
 Verify that the target machine is up and reachable by performing an ICMP ping test.
 
 Command: `ping -c 4 <TARGET_IP>`
+
+Breakdown:
+- `-c 4` → sends 4 packets only (clean output, fast)
+
+Output:
+
+```shell
+
+```
+
+A successful response confirms that the machine is active and accessible on the HTB network, allowing us to proceed with the enumeration phase.
 <div align="center">
 <br>
 <br>
