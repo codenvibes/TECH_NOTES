@@ -90,13 +90,13 @@
                     "state": {
                       "type": "webviewer",
                       "state": {
-                        "url": "https://account.hackthebox.com/login",
-                        "title": "HTB Account",
+                        "url": "https://app.hackthebox.com/home",
+                        "title": "Hack The Box :: Home",
                         "mode": "webview"
                       },
                       "pinned": true,
                       "icon": "globe-2",
-                      "title": "HTB Account"
+                      "title": "Hack The Box :: Home"
                     }
                   },
                   {
@@ -291,7 +291,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 288.703125
+    "width": 288.703125,
+    "collapsed": true
   },
   "right": {
     "id": "26820c7e22c27caf",
