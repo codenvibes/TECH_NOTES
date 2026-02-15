@@ -206,7 +206,7 @@
                     }
                   }
                 ],
-                "currentTab": 7
+                "currentTab": 5
               }
             ],
             "direction": "horizontal"
@@ -452,7 +452,7 @@
       "iconic:Open rulebook": false
     }
   },
-  "active": "3b8b4b24d88a173c",
+  "active": "92aabadb907a937e",
   "lastOpenFiles": [
     "CYBER/13 CTFS & LABS/HTB/FACTS.md",
     "ASSETS/Pasted image 20260215184146.png",
