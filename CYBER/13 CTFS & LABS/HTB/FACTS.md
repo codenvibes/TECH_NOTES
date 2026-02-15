@@ -361,6 +361,8 @@ http://facts.htb/admin/login
 ![[Pasted image 20260215190524.png]]
 
 ![[Pasted image 20260215190702.png]]
+
+![[Pasted image 20260215192125.png]]
 <div align="center">
 <br>
 <br>
