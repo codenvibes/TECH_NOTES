@@ -216,7 +216,7 @@ Breakdown:
 - **`-p-`**
     - **Description:** All Ports Scan. 
     - **Purpose:** Scans all 65,535 ports. Slower but thorough.
-- **`<TARGET_IP>`**
+- **`TARGET_IP`**
     - **Description:** Target Specification.
     - **Purpose:** The IP address of the host being scanned.
 <div align="center">
@@ -229,7 +229,7 @@ Breakdown:
 
 #### Update Hosts File
 
-Command: ``
+Command: `sudo sh -c 'echo "TARGET_IP facts.htb" >> /etc/hosts'`
 <div align="center">
 <br>
 <br>
