@@ -232,7 +232,7 @@
                 }
               }
             ],
-            "currentTab": 1
+            "currentTab": 2
           }
         ],
         "direction": "vertical"
@@ -423,10 +423,11 @@
       "iconic:Open rulebook": false
     }
   },
-  "active": "76fda0f47a1730fe",
+  "active": "00bc5b978594dd0c",
   "lastOpenFiles": [
-    "TEMPLATES/CTF WRITEUP.md",
     "CYBER/13 CTFS & LABS/HTB/FACTS.md",
+    "TEMPLATES/CTF WRITEUP.md",
+    "CYBER/13 CTFS & LABS/THM/KENOBI.md",
     "COURSES/CYBER SHUJAA/CLOUD AND NETWORK SECURITY.md",
     "CYBER/13 CTFS & LABS/THM/OVERPASS.md",
     "CYBER/13 CTFS & LABS/HTB/SOULMATE.md",
@@ -435,7 +436,6 @@
     "SOFT SKILLS & CAREER/PIRP.base",
     "QUICK NOTES/WHITE-BOARD.md",
     "COURSES/COURSES.base",
-    "CYBER/13 CTFS & LABS/THM/KENOBI.md",
     "CYBER/01 CORE CONCEPTS/OPERATING SYSTEMS/LINUX/LINUX FUNDAMENTALS.md",
     "COURSES/THM/DEFENDING AZURE.md",
     "COURSES/THM/RED TEAMING.md",
