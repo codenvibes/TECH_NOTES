@@ -80,23 +80,31 @@ A successful response confirms that the machine is active and accessible on the 
 
 Before we can attack a system, we need to find out what "doors" are open. Doors in this context are ports. We use a tool called **Nmap** (Network Mapper) to scan the target's IP address and see what services are running.
 
-Command: 
+Command: ``nmap <
+
+
+Breakdown:
+- **`nmap`**
+    - **Description:** The utility itself.
+    - **Purpose:** Starts the network scanning application.
+- **`10.65.147.145`**
+    - **Description:** Target Specification.
+    - **Purpose:** The IP address of the host being scanned.
 
 ```shell
 ┌──(kali㉿kali)-[~]
-└─$ nmap 10.129.4.179                   
-Starting Nmap 7.95 ( https://nmap.org ) at 2026-02-15 07:55 EST
-Note: Host seems down. If it is really up, but blocking our ping probes, try -Pn
-Nmap done: 1 IP address (0 hosts up) scanned in 3.16 seconds
+└─$ nmap 10.129.4.179    
+Starting Nmap 7.95 ( https://nmap.org ) at 2026-02-15 08:52 EST
+Nmap scan report for 10.129.4.179
+Host is up (0.29s latency).
+Not shown: 998 closed tcp ports (reset)
+PORT   STATE SERVICE
+22/tcp open  ssh
+80/tcp open  http
 
-┌──(kali㉿kali)-[~]
-└─$ nmap -A -T4 -p- 10.129.4.179                  
-Starting Nmap 7.95 ( https://nmap.org ) at 2026-02-15 08:01 EST
-Note: Host seems down. If it is really up, but blocking our ping probes, try -Pn
-Nmap done: 1 IP address (0 hosts up) scanned in 4.62 seconds
+Nmap done: 1 IP address (1 host up) scanned in 30.88 seconds
 ```
 
-Breakdown:
 <div align="center">
 <br>
 <br>
