@@ -237,6 +237,8 @@ Command: `sudo sh -c 'echo "TARGET_IP facts.htb" >> /etc/hosts'`
 <br>
 </div>
 #### Web Enumeration
+
+Browse to `http://facts.htb`.
 <div align="center">
 <br>
 <br>
