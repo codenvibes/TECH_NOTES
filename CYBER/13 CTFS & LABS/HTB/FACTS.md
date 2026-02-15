@@ -87,13 +87,13 @@ Breakdown:
 - **`nmap`**
     - **Description:** The utility itself.
     - **Purpose:** Starts the network scanning application.
-- **`10.65.147.145`**
+- **`<TARGET_IP>`**
     - **Description:** Target Specification.
     - **Purpose:** The IP address of the host being scanned.
 
 ```shell
 ┌──(kali㉿kali)-[~]
-└─$ nmap -A -T4 -p- 10.129.4.179
+└─$ nmap -A -T4 -p- <TARGET_IP>
 Starting Nmap 7.95 ( https://nmap.org ) at 2026-02-15 08:59 EST
 Warning: 10.129.4.179 giving up on port because retransmission cap hit (6).
 Nmap scan report for 10.129.4.179
@@ -217,13 +217,7 @@ Breakdown:
 - **`-p-`**
     - **Description:** All Ports Scan. 
     - **Purpose:** Scans all 65,535 ports. Slower but thorough.
-- **`--min-rate 1000`**
-    - **Description:** Packet Rate Limit.
-    - **Purpose:** Ensures at least 1,000 packets per second, speeding up large scans.
-- **`-oN nmap.txt`**
-    - **Description:** Output to Normal format. 
-    - **Purpose:** Saves scan results to `nmap.txt` in human-readable format.
-- **`10.65.152.254`**
+- **`<TARGET_IP>`**
     - **Description:** Target Specification.
     - **Purpose:** The IP address of the host being scanned.
 <div align="center">
