@@ -90,13 +90,13 @@
                     "state": {
                       "type": "webviewer",
                       "state": {
-                        "url": "https://app.hackthebox.com/machines/Facts?tab=play_machine",
-                        "title": "Hack The Box :: Facts Machine",
+                        "url": "https://account.hackthebox.com/login",
+                        "title": "HTB Account",
                         "mode": "webview"
                       },
                       "pinned": true,
                       "icon": "globe-2",
-                      "title": "Hack The Box :: Facts Machine"
+                      "title": "HTB Account"
                     }
                   },
                   {
@@ -177,8 +177,7 @@
                       "title": "OVERPASS"
                     }
                   }
-                ],
-                "currentTab": 1
+                ]
               }
             ],
             "direction": "horizontal"
@@ -423,10 +422,10 @@
       "iconic:Open rulebook": false
     }
   },
-  "active": "00bc5b978594dd0c",
+  "active": "1829a2d1d4c98997",
   "lastOpenFiles": [
-    "DEVOPS/README.md",
     "CYBER/13 CTFS & LABS/HTB/FACTS.md",
+    "DEVOPS/README.md",
     "CYBER/13 CTFS & LABS/CTFS & LABS.base",
     "CYBER/13 CTFS & LABS/THM/OVERPASS.md",
     "CYBER/13 CTFS & LABS/HTB/SOULMATE.md",
