@@ -206,7 +206,7 @@
                     }
                   }
                 ],
-                "currentTab": 5
+                "currentTab": 7
               }
             ],
             "direction": "horizontal"
@@ -452,12 +452,12 @@
       "iconic:Open rulebook": false
     }
   },
-  "active": "00bc5b978594dd0c",
+  "active": "3b8b4b24d88a173c",
   "lastOpenFiles": [
+    "CYBER/13 CTFS & LABS/HTB/FACTS.md",
     "ASSETS/Pasted image 20260215190815.png",
     "ASSETS/Pasted image 20260215190702.png",
     "ASSETS/Pasted image 20260215190524.png",
-    "CYBER/13 CTFS & LABS/HTB/FACTS.md",
     "ASSETS/Pasted image 20260215184146.png",
     "CYBER/13 CTFS & LABS/THM/OVERPASS.md",
     "CYBER/13 CTFS & LABS/THM/KENOBI.md",
@@ -494,7 +494,6 @@
     "Pasted image 20260125172017.png",
     "Pasted image 20260125171441.png",
     "Pasted image 20260125170257.png",
-    "ASSETS/Pasted image 20260125165838.png",
     "DEVOPS/12 CLOUD/GCP",
     "DEVOPS/12 CLOUD/AWS",
     "DEVOPS/12 CLOUD/AZURE",
