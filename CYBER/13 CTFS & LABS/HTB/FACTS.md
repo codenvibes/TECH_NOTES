@@ -204,6 +204,28 @@ OS and Service detection performed. Please report any incorrect results at https
 Nmap done: 1 IP address (1 host up) scanned in 1682.44 seconds
 ```
 
+Breakdown:
+- **`nmap`**
+    - **Description:** The utility itself.
+    - **Purpose:** Starts the network scanning application.
+- **`-A`**
+    - **Description:** Aggressive Scan.
+    - **Purpose:** Enables OS detection, version detection, script scanning, and traceroute. Comprehensive but noisier.
+- **`-T4`**
+    - **Description:** Timing Template 4 (Aggressive).
+    - **Purpose:** Speeds up the scan with more aggressive timing. Faster but may be less accurate or trigger IDS/IPS.
+- **`-p-`**
+    - **Description:** All Ports Scan. 
+    - **Purpose:** Scans all 65,535 ports. Slower but thorough.
+- **`--min-rate 1000`**
+    - **Description:** Packet Rate Limit.
+    - **Purpose:** Ensures at least 1,000 packets per second, speeding up large scans.
+- **`-oN nmap.txt`**
+    - **Description:** Output to Normal format. 
+    - **Purpose:** Saves scan results to `nmap.txt` in human-readable format.
+- **`10.65.152.254`**
+    - **Description:** Target Specification.
+    - **Purpose:** The IP address of the host being scanned.
 <div align="center">
 <br>
 <br>
