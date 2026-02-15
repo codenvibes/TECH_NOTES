@@ -28,7 +28,7 @@ date: 2026-02-15
 
 First, download your personalized `.ovpn` file from Hack The Box.
 
-Connect to the HTB VPN using my `.ovpn` configuration file. This establishes a secure tunnel that allows access to the target machine’s internal network.
+Connect to the HTB VPN using the `.ovpn` configuration file. This establishes a secure tunnel that allows access to the target machine’s internal network.
 
 Command:
 
