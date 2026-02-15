@@ -26,5 +26,6 @@ Reconnaissance & Discovery
 Enumeration
 Exploitation
 Post-Exploitation
+Conclusion & Remediation
 ## References
 
