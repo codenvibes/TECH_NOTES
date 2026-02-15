@@ -357,6 +357,8 @@ welcome                 [Status: 200, Size: 11966, Words: 1481, Lines: 130, Dura
 
 
 ![[Pasted image 20260215190524.png]]
+
+![[Pasted image 20260215190702.png]]
 <div align="center">
 <br>
 <br>
