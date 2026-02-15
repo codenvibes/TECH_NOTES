@@ -355,6 +355,7 @@ welcome                 [Status: 200, Size: 11966, Words: 1481, Lines: 130, Dura
 :: Progress: [4614/4614] :: Job [1/1] :: 15 req/sec :: Duration: [0:04:52] :: Errors: 0 ::
 ```
 
+http://facts.htb/admin/login
 ![[Pasted image 20260215190815.png]]
 
 ![[Pasted image 20260215190524.png]]
