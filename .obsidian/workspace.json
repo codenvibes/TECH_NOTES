@@ -169,12 +169,12 @@
                     "state": {
                       "type": "webviewer",
                       "state": {
-                        "url": "https://thecybersecguru.com/ctf-walkthroughs/mastering-soulmate-beginners-guide-from-hackthebox/",
-                        "title": "Mastering Soulmate: Beginner's Guide from HackTheBox | The CyberSec Guru",
+                        "url": "https://thecybersecguru.com/ctf-walkthroughs/mastering-facts-beginners-guide-from-hackthebox/",
+                        "title": "Mastering Facts: Beginner's Guide from HackTheBox | The CyberSec Guru",
                         "mode": "webview"
                       },
                       "icon": "globe-2",
-                      "title": "Mastering Soulmate: Beginner's Guide from HackTheBox | The CyberSec Guru"
+                      "title": "Mastering Facts: Beginner's Guide from HackTheBox | The CyberSec Guru"
                     }
                   }
                 ],
