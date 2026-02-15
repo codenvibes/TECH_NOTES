@@ -21,7 +21,7 @@ date:
 <!-- PAGE BREAK -->
 <div style="page-break-after: always;"></div>
 
-## Reconnaissance & Discovery
+## 1. Reconnaissance & Discovery
 <div align="center">
 <br>
 <br>
@@ -31,7 +31,7 @@ date:
 <!-- PAGE BREAK -->
 <div style="page-break-after: always;"></div>
 
-## Enumeration
+## 2. Enumeration
 <div align="center">
 <br>
 <br>
@@ -41,7 +41,7 @@ date:
 <!-- PAGE BREAK -->
 <div style="page-break-after: always;"></div>
 
-## Exploitation
+## 3. Exploitation
 <div align="center">
 <br>
 <br>
@@ -51,7 +51,7 @@ date:
 <!-- PAGE BREAK -->
 <div style="page-break-after: always;"></div>
 
-## Post-Exploitation
+## 4. Post-Exploitation
 <div align="center">
 <br>
 <br>
@@ -61,7 +61,7 @@ date:
 <!-- PAGE BREAK -->
 <div style="page-break-after: always;"></div>
 
-## Conclusion & Remediation
+## 5. Conclusion & Remediation
 <div align="center">
 <br>
 <br>
