@@ -162,9 +162,23 @@
                       "icon": "lucide-file",
                       "title": "CLOUD AND NETWORK SECURITY"
                     }
+                  },
+                  {
+                    "id": "92aabadb907a937e",
+                    "type": "leaf",
+                    "state": {
+                      "type": "webviewer",
+                      "state": {
+                        "url": "https://thecybersecguru.com/ctf-walkthroughs/mastering-soulmate-beginners-guide-from-hackthebox/",
+                        "title": "Mastering Soulmate: Beginner's Guide from HackTheBox | The CyberSec Guru",
+                        "mode": "webview"
+                      },
+                      "icon": "globe-2",
+                      "title": "Mastering Soulmate: Beginner's Guide from HackTheBox | The CyberSec Guru"
+                    }
                   }
                 ],
-                "currentTab": 4
+                "currentTab": 5
               }
             ],
             "direction": "horizontal"
@@ -410,13 +424,13 @@
       "iconic:Open rulebook": false
     }
   },
-  "active": "00bc5b978594dd0c",
+  "active": "92aabadb907a937e",
   "lastOpenFiles": [
+    "CYBER/13 CTFS & LABS/HTB/FACTS.md",
     "COURSES/CYBER SHUJAA/CLOUD AND NETWORK SECURITY.md",
     "CYBER/13 CTFS & LABS/THM/OVERPASS.md",
     "CYBER/13 CTFS & LABS/HTB/SOULMATE.md",
     "CYBER/13 CTFS & LABS/CTFS & LABS.base",
-    "CYBER/13 CTFS & LABS/HTB/FACTS.md",
     "DEVOPS/README.md",
     "SOFT SKILLS & CAREER/PIRP.base",
     "QUICK NOTES/WHITE-BOARD.md",
