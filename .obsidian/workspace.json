@@ -107,12 +107,12 @@
                       "type": "webviewer",
                       "state": {
                         "url": "https://tryhackme.com/dashboard",
-                        "title": "data:text/plain,",
-                        "mode": "blank"
+                        "title": "TryHackMe | Cyber Security Training",
+                        "mode": "webview"
                       },
                       "pinned": true,
                       "icon": "globe-2",
-                      "title": "data:text/plain,"
+                      "title": "TryHackMe | Cyber Security Training"
                     }
                   },
                   {
