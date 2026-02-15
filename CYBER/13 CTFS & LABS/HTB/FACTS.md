@@ -232,6 +232,13 @@ Breakdown:
 Command: `sudo sh -c 'echo "TARGET_IP facts.htb" >> /etc/hosts'`
 <div align="center">
 <br>
+※※※※※※※※※※※※※※※※※※※※※※※※
+<br>
+<br>
+</div>
+#### Web Enumeration
+<div align="center">
+<br>
 <br>
 ※※※※※※※※※※※※※※※※※※※※※※※※
 <br>
