@@ -82,7 +82,6 @@ Before we can attack a system, we need to find out what "doors" are open. Doors 
 
 Command: `nmap <TARGET_IP>`
 
-
 Breakdown:
 - **`nmap`**
     - **Description:** The utility itself.
@@ -228,7 +227,9 @@ Breakdown:
 </div>
 ### 2.2. Enumeration of Web Services (Port 80)
 
+#### Update Hosts File
 
+Command: ``
 <div align="center">
 <br>
 <br>
