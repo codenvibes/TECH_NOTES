@@ -31,7 +31,7 @@ Before interacting with the target machine, connect to the HTB VPN using my `.ov
 Command:
 
 ```
-sudo openvpn <>.ovpn
+sudo openvpn your_file.ovpn
 ```
 <div align="center">
 <br>
