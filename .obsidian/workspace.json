@@ -223,16 +223,16 @@
                 "state": {
                   "type": "markdown",
                   "state": {
-                    "file": "CYBER/13 CTFS & LABS/HTB/FACTS.md",
+                    "file": "TEMPLATES/CTF WRITEUP.md",
                     "mode": "source",
                     "source": false
                   },
                   "icon": "lucide-file",
-                  "title": "FACTS"
+                  "title": "CTF WRITEUP"
                 }
               }
             ],
-            "currentTab": 2
+            "currentTab": 1
           }
         ],
         "direction": "vertical"
@@ -292,8 +292,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 288.703125,
-    "collapsed": true
+    "width": 288.703125
   },
   "right": {
     "id": "26820c7e22c27caf",
@@ -424,8 +423,9 @@
       "iconic:Open rulebook": false
     }
   },
-  "active": "92aabadb907a937e",
+  "active": "76fda0f47a1730fe",
   "lastOpenFiles": [
+    "TEMPLATES/CTF WRITEUP.md",
     "CYBER/13 CTFS & LABS/HTB/FACTS.md",
     "COURSES/CYBER SHUJAA/CLOUD AND NETWORK SECURITY.md",
     "CYBER/13 CTFS & LABS/THM/OVERPASS.md",
