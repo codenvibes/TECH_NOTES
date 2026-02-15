@@ -246,7 +246,7 @@ Command: `sudo sh -c 'echo "TARGET_IP facts.htb" >> /etc/hosts'`
 
 Browse to `http://facts.htb`.
 
-
+![[Pasted image 20260215184146.png]]
 <div align="center">
 <br>
 <br>
