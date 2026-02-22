@@ -14,7 +14,7 @@
               {
                 "id": "5fba8451e3d9bb96",
                 "type": "tabs",
-                "dimension": 52.40259740259741,
+                "dimension": 31.68831168831169,
                 "children": [
                   {
                     "id": "d6e3d74256db3bbc",
@@ -81,7 +81,7 @@
               {
                 "id": "eb7c5c7906b2a9d3",
                 "type": "tabs",
-                "dimension": 47.5974025974026,
+                "dimension": 68.31168831168831,
                 "children": [
                   {
                     "id": "1829a2d1d4c98997",
@@ -169,12 +169,12 @@
                     "state": {
                       "type": "webviewer",
                       "state": {
-                        "url": "https://thecybersecguru.com/ctf-walkthroughs/mastering-facts-beginners-guide-from-hackthebox/",
-                        "title": "Mastering Facts: Beginner's Guide from HackTheBox | The CyberSec Guru",
+                        "url": "https://thecybersecguru.com/?s=Interpreter",
+                        "title": "Interpreter | The CyberSec Guru",
                         "mode": "webview"
                       },
                       "icon": "globe-2",
-                      "title": "Mastering Facts: Beginner's Guide from HackTheBox | The CyberSec Guru"
+                      "title": "Interpreter | The CyberSec Guru"
                     }
                   },
                   {
@@ -205,7 +205,8 @@
                       "title": "Google Gemini"
                     }
                   }
-                ]
+                ],
+                "currentTab": 5
               }
             ],
             "direction": "horizontal"
@@ -319,7 +320,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 288.703125
+    "width": 288.703125,
+    "collapsed": true
   },
   "right": {
     "id": "26820c7e22c27caf",
@@ -450,8 +452,9 @@
       "iconic:Open rulebook": false
     }
   },
-  "active": "21fce08000a30866",
+  "active": "92aabadb907a937e",
   "lastOpenFiles": [
+    "QUICK NOTES/WHITE-BOARD.md",
     "COURSES/CYBER SHUJAA/CLOUD AND NETWORK SECURITY.md",
     "CYBER/13 CTFS & LABS/HTB/FACTS.md",
     "ASSETS/Pasted image 20260215193205.png",
@@ -471,7 +474,6 @@
     "CYBER/13 CTFS & LABS/HTB/SOULMATE.md",
     "DEVOPS/README.md",
     "SOFT SKILLS & CAREER/PIRP.base",
-    "QUICK NOTES/WHITE-BOARD.md",
     "COURSES/COURSES.base",
     "CYBER/01 CORE CONCEPTS/OPERATING SYSTEMS/LINUX/LINUX FUNDAMENTALS.md",
     "COURSES/THM/DEFENDING AZURE.md",
