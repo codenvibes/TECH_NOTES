@@ -374,6 +374,10 @@ ERROR: ResolutionImpossible: for help visit https://pip.pypa.io/en/latest/topics
 The script I cloned has a very strict `requirements.txt` that forces `packaging==24.0`, but `pwncat-cs` is an older tool that specifically demands an older version of that same library (`<21.0`). They are fighting, and `pip` is giving up.
 
 **The good news:** You don't actually need the complex `pwncat-cs` or the "fancy" progress bars to run this exploit. You just need `requests` to send the payload and `rich` to see the script's output.
+
+The Fix: 
+1. Install the core essentials (ignoring the conflict): `pip install requests rich alive-progress`
+2. Forget `pwncat-cs` for now: The script wants to use `pwncat` as a listener, but you can use the standard **Netcat** (`nc`) which is already installed on your Kali system and never has dependency issues.
 <div align="center">
 <br>
 <br>
