@@ -277,7 +277,6 @@ Repository found: https://github.com/K3ysTr0K3R/CVE-2023-43208-EXPLOIT [^2]
 #### 3.1. Clone and Prepare the Workspace
 
 ```shell
-
 ┌──(kali㉿kali)-[~/CS/HTB/Interpreter]
 └─$ git clone https://github.com/K3ysTr0K3R/CVE-2023-43208-EXPLOIT                                             
 Cloning into 'CVE-2023-43208-EXPLOIT'...
@@ -357,7 +356,7 @@ Collecting netifaces<0.12.0,>=0.11.0 (from pwncat-cs==0.5.4->-r requirements.txt
   Preparing metadata (pyproject.toml) ... done
 INFO: pip is looking at multiple versions of pwncat-cs to determine which version is compatible with other requirements. This could take a while.
 ERROR: Cannot install -r requirements.txt (line 3) and packaging==24.0 because these package versions have conflicting dependencies.                                                                                                    
-                                                                                                                    
+
 The conflict is caused by:
     The user requested packaging==24.0
     pwncat-cs 0.5.4 depends on packaging<21.0 and >=20.9
@@ -369,8 +368,7 @@ To fix this you could try to:
 1. loosen the range of package versions you've specified
 2. remove package versions to allow pip to attempt to solve the dependency conflict
 
-ERROR: ResolutionImpossible: for help visit https://pip.pypa.io/en/latest/topics/dependency-resolution/#dealing-with-dependency-conflicts                                                                                               
-                                           
+ERROR: ResolutionImpossible: for help visit https://pip.pypa.io/en/latest/topics/dependency-resolution/#dealing-with-dependency-conflicts
 ```
 
 <div align="center">
