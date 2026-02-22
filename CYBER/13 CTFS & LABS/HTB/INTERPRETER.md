@@ -211,7 +211,10 @@ Browse to `TARGET_IP`.
 <br>
 <br>
 </div>
+
 #### Fingerprinting (The "What")
+
+My Nmap scan found the page title "Mirth Connect Administrator."
 <div align="center">
 <br>
 <br>
