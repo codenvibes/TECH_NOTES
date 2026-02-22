@@ -54,10 +54,10 @@ Output:
 ┌──(kali㉿kali)-[~]
 └─$ ping -c 4 TARGET_IP
 PING TARGET_IP (TARGET_IP) 56(84) bytes of data.
-64 bytes from 10.129.1.153: icmp_seq=1 ttl=63 time=190 ms
-64 bytes from 10.129.1.153: icmp_seq=2 ttl=63 time=190 ms
-64 bytes from 10.129.1.153: icmp_seq=3 ttl=63 time=191 ms
-64 bytes from 10.129.1.153: icmp_seq=4 ttl=63 time=194 ms
+64 bytes from TARGET_IP: icmp_seq=1 ttl=63 time=190 ms
+64 bytes from TARGET_IP: icmp_seq=2 ttl=63 time=190 ms
+64 bytes from TARGET_IP: icmp_seq=3 ttl=63 time=191 ms
+64 bytes from TARGET_IP: icmp_seq=4 ttl=63 time=194 ms
 
 --- TARGET_IP ping statistics ---
 4 packets transmitted, 4 received, 0% packet loss, time 3006ms
@@ -82,7 +82,7 @@ Before we can attack a system, we need to find out what "doors" are open. Doors 
 
 #### Phase 1: The "Spearfishing" Scan (All Ports, High Speed)
 
-Command: `nmap -p- --min-rate 5000 -Pn 10.129.1.153`
+Command: `nmap -p- --min-rate 5000 -Pn TARGET_IP`
 
 Breakdown:
 - **`nmap`**
@@ -107,7 +107,7 @@ Output:
 └─$ nmap -p- --min-rate 5000 -Pn TARGET_IP       
 Starting Nmap 7.98 ( https://nmap.org ) at 2026-02-22 01:57 -0500
 Warning: TARGET_IP giving up on port because retransmission cap hit (10).
-Nmap scan report for 10.129.1.153
+Nmap scan report for TARGET_IP
 Host is up (0.32s latency).
 Not shown: 64926 closed tcp ports (reset), 605 filtered tcp ports (no-response)
 PORT     STATE SERVICE
@@ -140,9 +140,9 @@ Output:
 
 ```shell
 ┌──(kali㉿kali)-[~]
-└─$ nmap -A -p 22,80,443,6661 10.129.1.153         
+└─$ nmap -A -p 22,80,443,6661 TARGET_IP         
 Starting Nmap 7.98 ( https://nmap.org ) at 2026-02-22 02:04 -0500
-Nmap scan report for 10.129.1.153
+Nmap scan report for TARGET_IP
 Host is up (0.19s latency).
 
 PORT     STATE SERVICE  VERSION
@@ -174,7 +174,7 @@ Service Info: OS: Linux; CPE: cpe:/o:linux:linux_kernel
 TRACEROUTE (using port 22/tcp)
 HOP RTT       ADDRESS
 1   194.09 ms 10.10.14.1
-2   194.91 ms 10.129.1.153
+2   194.91 ms TARGET_IP
 
 OS and Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
 Nmap done: 1 IP address (1 host up) scanned in 197.90 seconds
