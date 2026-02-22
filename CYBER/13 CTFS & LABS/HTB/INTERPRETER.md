@@ -82,7 +82,7 @@ Before we can attack a system, we need to find out what "doors" are open. Doors 
 
 #### Phase 1: The "Spearfishing" Scan (All Ports, High Speed)
 
-Command: `nmap TARGET_IP`
+Command: `nmap -p- --min-rate 5000 -Pn 10.129.1.153`
 
 Breakdown:
 - **`nmap`**
@@ -96,9 +96,9 @@ Output:
 
 ```shell
 ┌──(kali㉿kali)-[~]
-└─$ nmap -p- --min-rate 5000 -Pn 10.129.1.153        
+└─$ nmap -p- --min-rate 5000 -Pn TARGET_IP       
 Starting Nmap 7.98 ( https://nmap.org ) at 2026-02-22 01:57 -0500
-Warning: 10.129.1.153 giving up on port because retransmission cap hit (10).
+Warning: TARGET_IP giving up on port because retransmission cap hit (10).
 Nmap scan report for 10.129.1.153
 Host is up (0.32s latency).
 Not shown: 64926 closed tcp ports (reset), 605 filtered tcp ports (no-response)
