@@ -139,7 +139,7 @@ Output:
 
 #### Comparison: Basic vs. Aggressive
 
-| **Feature**          | **Basic (nmap)**        | **Aggressive (nmap -A -p-)**         |
+| Feature              | Basic                   | Aggressive                           |
 | -------------------- | ----------------------- | ------------------------------------ |
 | **Port Count**       | 1,000 most common       | All 65,535                           |
 | **Speed**            | Very Fast (Seconds)     | Slow (Minutes/Hours)                 |
