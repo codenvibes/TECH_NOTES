@@ -274,7 +274,7 @@
                 }
               }
             ],
-            "currentTab": 2
+            "currentTab": 3
           }
         ],
         "direction": "vertical"
@@ -398,13 +398,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "CYBER/13 CTFS & LABS/HTB/FACTS.md",
+                "file": "CYBER/13 CTFS & LABS/HTB/INTERPRETER.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of FACTS"
+              "title": "Outline of INTERPRETER"
             }
           },
           {
@@ -467,10 +467,10 @@
       "iconic:Open rulebook": false
     }
   },
-  "active": "00bc5b978594dd0c",
+  "active": "e4b465f8c5c0b958",
   "lastOpenFiles": [
-    "CYBER/13 CTFS & LABS/HTB/INTERPRETER.md",
     "CYBER/13 CTFS & LABS/HTB/FACTS.md",
+    "CYBER/13 CTFS & LABS/HTB/INTERPRETER.md",
     "CYBER/13 CTFS & LABS/THM/OVERPASS.md",
     "COURSES/CYBER SHUJAA/CLOUD AND NETWORK SECURITY.md",
     "TEMPLATES/CTF WRITEUP.md",

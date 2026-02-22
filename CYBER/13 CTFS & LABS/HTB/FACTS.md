@@ -86,12 +86,6 @@ Breakdown:
 - **`nmap`**
     - **Description:** The utility itself.
     - **Purpose:** Starts the network scanning application.
-- **`-sV`**
-    - **Description:** Service Version Detection.
-    - **Purpose:** Attempts to determine the version of the service running on open ports (e.g., Apache 2.4.41, OpenSSH 7.2p2).
-- **`-sC`**
-    - **Description:** Default Script Scan.
-    - **Purpose:** Runs default, safe Nmap scripts to check for common vulnerabilities, weak passwords, or gather more details.
 - **`-A`**
     - **Description:** Aggressive Scan.
     - **Purpose:** Enables OS detection, version detection, script scanning, and traceroute. Comprehensive but noisier.
@@ -101,12 +95,11 @@ Breakdown:
 - **`-p-`**
     - **Description:** All Ports Scan. 
     - **Purpose:** Scans all 65,535 ports. Slower but thorough.
-- **`--min-rate 1000`**
-    - **Description:** Packet Rate Limit.
-    - **Purpose:** Ensures at least 1,000 packets per second, speeding up large scans.
 - **`TARGET_IP`**
     - **Description:** Target Specification.
     - **Purpose:** The IP address of the host being scanned.
+
+Output:
 
 ```shell
 ┌──(kali㉿kali)-[~]
@@ -220,23 +213,6 @@ HOP RTT       ADDRESS
 OS and Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
 Nmap done: 1 IP address (1 host up) scanned in 1682.44 seconds
 ```
-
-Breakdown:
-- **`nmap`**
-    - **Description:** The utility itself.
-    - **Purpose:** Starts the network scanning application.
-- **`-A`**
-    - **Description:** Aggressive Scan.
-    - **Purpose:** Enables OS detection, version detection, script scanning, and traceroute. Comprehensive but noisier.
-- **`-T4`**
-    - **Description:** Timing Template 4 (Aggressive).
-    - **Purpose:** Speeds up the scan with more aggressive timing. Faster but may be less accurate or trigger IDS/IPS.
-- **`-p-`**
-    - **Description:** All Ports Scan. 
-    - **Purpose:** Scans all 65,535 ports. Slower but thorough.
-- **`TARGET_IP`**
-    - **Description:** Target Specification.
-    - **Purpose:** The IP address of the host being scanned.
 
 When you see `Did not follow redirect to http://facts.htb/` in Nmap, the server is essentially saying:
 

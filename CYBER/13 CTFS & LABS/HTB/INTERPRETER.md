@@ -104,11 +104,6 @@ Output:
 ```shell
 ```
 
-When you see `Did not follow redirect to http://facts.htb/` in Nmap, the server is essentially saying:
-
-"I know you're at `TARGET_IP`, but I am configured to only talk to people who call me `facts.htb`."
-
-This is a **301 (Permanent)** or **302 (Found)** redirect. Browsers follow this automatically, but Nmap just reports it. If the name isn't in your `/etc/hosts`, the browser follows the redirect into a "Dead End."
 <div align="center">
 <br>
 ※※※※※※※※※※※※※※※※※※※※※※※※
