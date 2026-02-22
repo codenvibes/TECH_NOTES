@@ -200,6 +200,7 @@ Nmap done: 1 IP address (1 host up) scanned in 197.90 seconds
 <br>
 <br>
 </div>
+
 ### 2.2. Enumeration of Web Services (Port 80)
 #### 2.2.1. Web Enumeration
 
@@ -210,8 +211,13 @@ Browse to `TARGET_IP`.
 <br>
 <br>
 </div>
-
 #### Fingerprinting (The "What")
+<div align="center">
+<br>
+<br>
+</div>
+
+#### Fuzzing the Root (HTTP/HTTPS)
 
 Command: `ffuf -u https://TARGET_IP/FUZZ -w /usr/share/wordlists/dirb/common.txt`
 
