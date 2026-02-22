@@ -132,17 +132,17 @@
                     }
                   },
                   {
-                    "id": "5772349d09118304",
+                    "id": "bea647b1dd44387e",
                     "type": "leaf",
                     "state": {
                       "type": "webviewer",
                       "state": {
-                        "url": "https://docs.nextgen.com/en-US/publications/mirth%C2%AE-connect-by-nextgen-healthcare?release=product-release-undefined",
-                        "title": "Mirth® Connect by NextGen Healthcare",
+                        "url": "https://horizon3.ai/attack-research/disclosures/writeup-for-cve-2023-43208-nextgen-mirth-connect-pre-auth-rce/",
+                        "title": "Writeup for CVE-2023-43208: NextGen Mirth Connect Pre-Auth RCE | Horizon3.ai",
                         "mode": "webview"
                       },
                       "icon": "globe-2",
-                      "title": "Mirth® Connect by NextGen Healthcare"
+                      "title": "Writeup for CVE-2023-43208: NextGen Mirth Connect Pre-Auth RCE | Horizon3.ai"
                     }
                   },
                   {
@@ -493,7 +493,7 @@
       "iconic:Open rulebook": false
     }
   },
-  "active": "5772349d09118304",
+  "active": "bea647b1dd44387e",
   "lastOpenFiles": [
     "CYBER/13 CTFS & LABS/HTB/INTERPRETER.md",
     "CYBER/13 CTFS & LABS/THM/OVERPASS.md",
