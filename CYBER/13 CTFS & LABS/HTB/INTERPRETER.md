@@ -268,7 +268,8 @@ Once you've confirmed the version as 4.4.0, conduct a targeted search for a func
 
 Search Query: `CVE-2023-43208`
 
-Repository found: https://github.com/K3ysTr0K3R/CVE-2023-43208-EXPLOIT[^2]
+Repository found: https://github.com/K3ysTr0K3R/CVE-2023-43208-EXPLOIT [^2]
+
 <div align="center">
 <br>
 <br>
@@ -312,5 +313,4 @@ Command: `nc -lvnp 4444`
 
 
 [^1]: [NextGen Mirth Connect Remote Code Execution Vulnerability (CVE-2023-43208)](https://horizon3.ai/attack-research/disclosures/nextgen-mirth-connect-remote-code-execution/)
-
-[^2]: 
+[^2]: [CVE-2023-43208 - Mirth Connect Remote Code Execution (RCE) Exploit 🚨](https://github.com/K3ysTr0K3)
