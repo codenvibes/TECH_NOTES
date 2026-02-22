@@ -182,6 +182,12 @@ HOP RTT       ADDRESS
 OS and Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
 Nmap done: 1 IP address (1 host up) scanned in 197.90 seconds
 ```
+<div align="center">
+<br>
+<br>
+</div>
+
+#### 2.1.3. Scan Results Analysis
 
 <div align="center">
 <br>
