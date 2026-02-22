@@ -99,6 +99,8 @@ Breakdown:
     - **Description:** Target Specification.
     - **Purpose:** The IP address of the host being scanned.
 
+Output:
+
 ```shell
 ```
 
