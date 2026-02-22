@@ -231,17 +231,17 @@ Command: `curl -Lk -H 'X-Requested-With: OpenAPI' https://TARGET_IP/api/server/v
 
 Breakdown: 
 
-- **`curl`
+- `curl`
     - **Description:** Client URL Utility. 
     - **Purpose:** The tool used to interact with the web API.
-- **`-Lk`
+- `-Lk`
     -escription:** Follow Links (`L`) and Insecure (`k`).
         
     - **Purpose:** The Horizon3 post notes that Mirth often redirects to HTTPS. `-L` follows that redirect, and `-k` ignores the self-signed certificate warning common on HTB. 
-- **`-H 'X-Requested-With: OpenAPI'`
+- `-H 'X-Requested-With: OpenAPI'`
     - **Description:** Custom HTTP Header.
     - **Purpose:** The Horizon3 research explains that Mirth’s Java servlet filter checks for this specific header to prevent CSRF. Without this header, the server would reject your request even if the path is correct.
-- **`/api/server/version`
+- `/api/server/version`
     - **Description:** Target API Endpoint. 
     - **Purpose:** As documented in the research, this is the specific URI that returns the software version string without requiring a login.
 <div align="center">
