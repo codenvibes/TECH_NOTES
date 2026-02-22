@@ -90,13 +90,13 @@
                     "state": {
                       "type": "webviewer",
                       "state": {
-                        "url": "https://app.hackthebox.com/seasonal?tab=overview&season_id=13",
-                        "title": "Hack The Box :: Seasonal",
+                        "url": "https://app.hackthebox.com/home",
+                        "title": "Hack The Box :: Home",
                         "mode": "webview"
                       },
                       "pinned": true,
                       "icon": "globe-2",
-                      "title": "Hack The Box :: Seasonal"
+                      "title": "Hack The Box :: Home"
                     }
                   },
                   {
@@ -170,11 +170,11 @@
                       "type": "webviewer",
                       "state": {
                         "url": "https://thecybersecguru.com/ctf-walkthroughs/mastering-facts-beginners-guide-from-hackthebox/",
-                        "title": "data:text/plain,",
-                        "mode": "blank"
+                        "title": "Mastering Facts: Beginner's Guide from HackTheBox | The CyberSec Guru",
+                        "mode": "webview"
                       },
                       "icon": "globe-2",
-                      "title": "data:text/plain,"
+                      "title": "Mastering Facts: Beginner's Guide from HackTheBox | The CyberSec Guru"
                     }
                   },
                   {
@@ -205,8 +205,7 @@
                       "title": "Google Gemini"
                     }
                   }
-                ],
-                "currentTab": 5
+                ]
               }
             ],
             "direction": "horizontal"
@@ -452,7 +451,7 @@
       "iconic:Open rulebook": false
     }
   },
-  "active": "92aabadb907a937e",
+  "active": "1829a2d1d4c98997",
   "lastOpenFiles": [
     "CYBER/13 CTFS & LABS/HTB/FACTS.md",
     "ASSETS/Pasted image 20260215193205.png",
