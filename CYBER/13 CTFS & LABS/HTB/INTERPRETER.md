@@ -215,11 +215,9 @@ This also confirms Mirth Connect is running.
 
 #### 2.2.2. Fingerprinting (The "What")
 
-My Nmap scan and browsing `TARGET_IP` page found the page title "Mirth Connect Administrator." 
+I consulted the **Horizon3.ai** technical disclosure for **CVE-2023-43208**.
 
-A quick Google search for "CVE-2023-43208" revels:
 
-> [[NextGen Mirth Connect Remote Code Execution Vulnerability (CVE-2023-43208) _ Horizon3.ai.html]]
 
 
 <div align="center">
