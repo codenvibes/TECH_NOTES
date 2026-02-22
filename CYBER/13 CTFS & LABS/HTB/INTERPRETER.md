@@ -270,6 +270,7 @@ Search Query: `CVE-2023-43208`
 
 Repository found: https://github.com/K3ysTr0K3R/CVE-2023-43208-EXPLOIT [^2]
 
+Before running the Python script, you need to install the dependencies it requires and prepare your listener.
 <div align="center">
 <br>
 <br>
