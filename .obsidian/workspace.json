@@ -116,6 +116,22 @@
                     }
                   },
                   {
+                    "id": "3b8b4b24d88a173c",
+                    "type": "leaf",
+                    "pinned": true,
+                    "state": {
+                      "type": "webviewer",
+                      "state": {
+                        "url": "https://gemini.google.com/app/a173122040a10aad",
+                        "title": "Google Gemini",
+                        "mode": "webview"
+                      },
+                      "pinned": true,
+                      "icon": "globe-2",
+                      "title": "Google Gemini"
+                    }
+                  },
+                  {
                     "id": "1ed32a33f41cf25f",
                     "type": "leaf",
                     "pinned": true,
@@ -190,23 +206,9 @@
                       "icon": "lucide-file",
                       "title": "OVERPASS"
                     }
-                  },
-                  {
-                    "id": "3b8b4b24d88a173c",
-                    "type": "leaf",
-                    "state": {
-                      "type": "webviewer",
-                      "state": {
-                        "url": "https://gemini.google.com/app/a173122040a10aad",
-                        "title": "Google Gemini",
-                        "mode": "webview"
-                      },
-                      "icon": "globe-2",
-                      "title": "Google Gemini"
-                    }
                   }
                 ],
-                "currentTab": 7
+                "currentTab": 2
               }
             ],
             "direction": "horizontal"
