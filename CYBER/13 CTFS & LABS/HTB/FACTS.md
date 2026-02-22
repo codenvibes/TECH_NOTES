@@ -52,7 +52,7 @@ Output:
 
 ```shell
 ┌──(kali㉿kali)-[~]
-└─$ ping -c 4 10.129.4.179
+└─$ ping -c 4 TARGET_IP
 PING 10.129.4.179 (10.129.4.179) 56(84) bytes of data.
 64 bytes from 10.129.4.179: icmp_seq=1 ttl=63 time=276 ms
 64 bytes from 10.129.4.179: icmp_seq=2 ttl=63 time=279 ms
