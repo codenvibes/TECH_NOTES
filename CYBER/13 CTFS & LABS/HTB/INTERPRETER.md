@@ -235,7 +235,7 @@ Breakdown:
     - Description: Client URL Utility. 
     - Purpose: The tool used to interact with the web API.
 - `-Lk`
-    -Description: Follow Links (`L`) and Insecure (`k`).
+    - Description: Follow Links (`L`) and Insecure (`k`).
     - Purpose: The Horizon3 post notes that Mirth often redirects to HTTPS. `-L` follows that redirect, and `-k` ignores the self-signed certificate warning common on HTB. 
 - `-H 'X-Requested-With: OpenAPI'`
     - Description: Custom HTTP Header.
