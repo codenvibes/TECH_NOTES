@@ -189,6 +189,9 @@ Nmap done: 1 IP address (1 host up) scanned in 197.90 seconds
 
 #### 2.1.3. Scan Results Analysis
 
+1. **Port 22 (SSH):** Running `OpenSSH 9.2p1`. This is very recent and almost never has a direct exploit. It's usually for "post-exploitation" (logging in after you find a password).
+
+2. **Port 80/443 (Mirth):** Running an outdated version (`4.4.0`). Software-specific management panels are the "weakest link" in network security because they are complex and often run with high privileges.
 <div align="center">
 <br>
 ※※※※※※※※※※※※※※※※※※※※※※※※
