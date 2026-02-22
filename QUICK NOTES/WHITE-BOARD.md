@@ -19,5 +19,28 @@ Topics:
 #CloudComputing
 
 
-creating an AI app on a cloud platform
 
+Facts
+Easy
+·
+Linux
+WEEK 1
+
+
+Pterodactyl
+Medium
+·
+Linux
+WEEK 2
+
+WingData
+Easy
+·
+Linux
+20
+25
+3.6
+(348)
+WEEK 3
+avatar
+Interpreter
