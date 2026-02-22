@@ -369,7 +369,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "CYBER/13 CTFS & LABS/HTB/INTERPRETER.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -379,7 +378,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for INTERPRETER"
+              "title": "Backlinks"
             }
           },
           {
@@ -388,12 +387,11 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "CYBER/13 CTFS & LABS/HTB/INTERPRETER.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from INTERPRETER"
+              "title": "Outgoing links"
             }
           },
           {
@@ -417,13 +415,12 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "CYBER/13 CTFS & LABS/HTB/INTERPRETER.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of INTERPRETER"
+              "title": "Outline"
             }
           },
           {
@@ -482,7 +479,7 @@
       "iconic:Open rulebook": false
     }
   },
-  "active": "e4b465f8c5c0b958",
+  "active": "3b8b4b24d88a173c",
   "lastOpenFiles": [
     "CYBER/13 CTFS & LABS/HTB/INTERPRETER.md",
     "CYBER/13 CTFS & LABS/THM/OVERPASS.md",
