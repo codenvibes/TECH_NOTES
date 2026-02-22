@@ -80,6 +80,9 @@ A successful response confirms that the machine is active and accessible on the 
 
 Before we can attack a system, we need to find out what "doors" are open. Doors in this context are ports. We use a tool called **Nmap** (Network Mapper) to scan the target's IP address and see what services are running.
 
+Basic Scan
+Aggressive Scan
+
 Command: `nmap -A -T4 -p- TARGET_IP`
 
 Breakdown:
