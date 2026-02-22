@@ -257,19 +257,9 @@
                   "icon": "lucide-file",
                   "title": "FACTS"
                 }
-              },
-              {
-                "id": "60a14ece235f4871",
-                "type": "leaf",
-                "state": {
-                  "type": "empty",
-                  "state": {},
-                  "icon": "lucide-file",
-                  "title": "New tab"
-                }
               }
             ],
-            "currentTab": 3
+            "currentTab": 2
           }
         ],
         "direction": "vertical"
@@ -329,8 +319,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 288.703125,
-    "collapsed": true
+    "width": 288.703125
   },
   "right": {
     "id": "26820c7e22c27caf",
@@ -461,7 +450,7 @@
       "iconic:Open rulebook": false
     }
   },
-  "active": "60a14ece235f4871",
+  "active": "00bc5b978594dd0c",
   "lastOpenFiles": [
     "CYBER/13 CTFS & LABS/HTB/FACTS.md",
     "ASSETS/Pasted image 20260215193205.png",
