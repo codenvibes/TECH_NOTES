@@ -263,6 +263,15 @@ This **`4.4.0`** result is exactly what we were looking for. Any Mirth Connect v
 <div style="page-break-after: always;"></div>
 
 ## 3. Exploitation
+
+To set up your reverse shell use a **Netcat listener** on your machine and a **Python exploit script** to trigger the connection from the target.
+<div align="center">
+<br>
+<br>
+</div>
+### Step 1: Start your Listener (The "Catcher")
+
+Open a **new terminal tab** on your Kali machine. This needs to be running _before_ you launch the exploit so it's ready to catch the incoming connection.
 <div align="center">
 <br>
 <br>
