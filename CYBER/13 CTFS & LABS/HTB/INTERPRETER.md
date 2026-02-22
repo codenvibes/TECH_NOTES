@@ -52,16 +52,16 @@ Output:
 
 ```shell
 ┌──(kali㉿kali)-[~]
-└─$ ping -c 4 TARGET_IP
-PING 10.129.4.179 (10.129.4.179) 56(84) bytes of data.
-64 bytes from 10.129.4.179: icmp_seq=1 ttl=63 time=276 ms
-64 bytes from 10.129.4.179: icmp_seq=2 ttl=63 time=279 ms
-64 bytes from 10.129.4.179: icmp_seq=3 ttl=63 time=277 ms
-64 bytes from 10.129.4.179: icmp_seq=4 ttl=63 time=283 ms
+└─$ ping -c 4 10.129.1.153
+PING 10.129.1.153 (10.129.1.153) 56(84) bytes of data.
+64 bytes from 10.129.1.153: icmp_seq=1 ttl=63 time=190 ms
+64 bytes from 10.129.1.153: icmp_seq=2 ttl=63 time=190 ms
+64 bytes from 10.129.1.153: icmp_seq=3 ttl=63 time=191 ms
+64 bytes from 10.129.1.153: icmp_seq=4 ttl=63 time=194 ms
 
---- 10.129.4.179 ping statistics ---
-4 packets transmitted, 4 received, 0% packet loss, time 3015ms
-rtt min/avg/max/mdev = 276.453/278.758/282.843/2.585 ms
+--- 10.129.1.153 ping statistics ---
+4 packets transmitted, 4 received, 0% packet loss, time 3006ms
+rtt min/avg/max/mdev = 189.991/191.283/193.771/1.479 ms
 ```
 
 A successful response confirms that the machine is active and accessible on the HTB network, allowing us to proceed with the enumeration phase.
