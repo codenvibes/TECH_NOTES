@@ -128,12 +128,15 @@ Nmap done: 1 IP address (1 host up) scanned in 46.08 s
 Command: `nmap -A -T4 -p- TARGET_IP`
 
 Breakdown:
-- **`-A`**
-    - **Description:** Aggressive Scan.
-    - **Purpose:** Enables OS detection(`-O`), version detection(`-sV`), script scanning(Running the default suite of Nmap scripts (NSE) against found ports `-sC`), and traceroute. Comprehensive but noisier.
-- **`-T4`**
-    - **Description:** Timing Template 4 (Aggressive).
-    - **Purpose:** Speeds up the scan with more aggressive timing. Faster but may be less accurate or trigger IDS/IPS.
+- **`-sC`**
+    - **Description:** Default Script Scan.
+    - **Purpose:** Runs a collection of safe, built-in Nmap Scripting Engine (NSE) scripts to find common vulnerabilities, metadata, or hidden info.
+- **`-sV`**
+    - **Description:** Version Detection.
+    - **Purpose:** Probes open ports to determine what software and version are actually running (e.g., identifying "Jetty" or "OpenSSH 9.2").
+- **`-p 22,80,443,6661`**
+    - **Description:** Targeted Port List.
+    - **Purpose:** Restricts the heavy scanning to only the ports you confirmed are open, saving significant time and processing power.
 
 
 Output:
@@ -179,20 +182,7 @@ HOP RTT       ADDRESS
 OS and Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
 Nmap done: 1 IP address (1 host up) scanned in 197.90 seconds
 ```
-<div align="center">
-<br>
-<br>
-</div>
 
-#### Comparison: Basic vs. Aggressive
-
-| Feature              | Basic                   | Aggressive                           |
-| -------------------- | ----------------------- | ------------------------------------ |
-| **Port Count**       | 1,000 most common       | All 65,535                           |
-| **Speed**            | Very Fast (Seconds)     | Slow (Minutes/Hours)                 |
-| **OS Info**          | None                    | Detailed Guess                       |
-| **Service Versions** | None (just says "open") | Exact versions (e.g., Apache 2.4.41) |
-| **Scripts**          | None                    | Automatic vulnerability/info scripts |
 <div align="center">
 <br>
 ※※※※※※※※※※※※※※※※※※※※※※※※
