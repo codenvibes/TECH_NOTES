@@ -286,6 +286,8 @@ Repository found: https://github.com/K3ysTr0K3R/CVE-2023-43208-EXPLOIT [^2]
 Open a **new terminal tab** on your Kali machine. This needs to be running _before_ you launch the exploit so it's ready to catch the incoming connection.
 
 Command: `nc -lvnp 4444`
+
+
 <div align="center">
 <br>
 <br>
