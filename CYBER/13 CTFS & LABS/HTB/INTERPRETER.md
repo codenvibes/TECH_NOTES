@@ -224,7 +224,7 @@ A quick Google search for "*what is mirth connect and what is it's architecture?
 <br>
 </div>
 
-#### 2.2.2. Fuzzing the Root (HTTP/HTTPS)
+#### 2.2.3. Fuzzing the Root (HTTP/HTTPS)
 
 Command: `ffuf -u https://TARGET_IP/FUZZ -w /usr/share/wordlists/dirb/common.txt`
 
@@ -275,6 +275,14 @@ js                      [Status: 302, Size: 0, Words: 1, Lines: 1, Duration: 188
 webadmin                [Status: 302, Size: 0, Words: 1, Lines: 1, Duration: 194ms]
 :: Progress: [4614/4614] :: Job [1/1] :: 206 req/sec :: Duration: [0:00:22] :: Errors: 0 ::
 ```
+
+Most modern applications use a standard structure for their APIs. Even without documentation, a pentester's first instinct is to check for common "Base Paths":
+
+- `/api`
+- `/v1`
+- `/rest`
+
+My ffuf
 
 <div align="center">
 <br>
