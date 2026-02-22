@@ -80,7 +80,7 @@ A successful response confirms that the machine is active and accessible on the 
 
 Before we can attack a system, we need to find out what "doors" are open. Doors in this context are ports. We use a tool called **Nmap** (Network Mapper) to scan the target's IP address and see what services are running.
 
-#### 2.1.1 The "Spearfishing" Scan (All Ports, High Speed)
+#### 2.1.1. The "Spearfishing" Scan (All Ports, High Speed)
 
 Command: `nmap -p- --min-rate 5000 -Pn TARGET_IP`
 
@@ -123,7 +123,7 @@ Nmap done: 1 IP address (1 host up) scanned in 46.08 s
 <br>
 </div>
 
-#### 2.1.2 The "Deep Dive" Scan (Targeted Aggression)
+#### 2.1.2. The "Deep Dive" Scan (Targeted Aggression)
 
 Command: `nmap -A -p 22,80,443,6661 TARGET_IP  `
 
@@ -190,7 +190,7 @@ Nmap done: 1 IP address (1 host up) scanned in 197.90 seconds
 <br>
 </div>
 ### 2.2. Enumeration of Web Services (Port 80)
-#### Web Enumeration
+#### 2.2.1. Web Enumeration
 
 Browse to ` `.
 
