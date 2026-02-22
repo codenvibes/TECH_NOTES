@@ -189,11 +189,11 @@ Nmap done: 1 IP address (1 host up) scanned in 197.90 seconds
 
 #### 2.1.3. Scan Results Analysis
 
-| **Service**       | **Version**             | **Analysis**                                                                                                                                                 |
-| ----------------- | ----------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------ |
-| **OpenSSH**       | `9.2p1`                 | **Secure.** This is a modern, patched version of SSH. Unless you find a password or an SSH key elsewhere, this is a dead end for now.                        |
-| **Jetty**         | `(Web Server)`          | **Supporting Tech.** Jetty itself is usually secure, but it’s the "engine" for the real target (Mirth).                                                      |
-| **Mirth Connect** | `Unknown` (* To Verify) | **HIGH PRIORITY.** This software has several high-severity RCE bugs (like CVE-2023-43208). **Priority 1:** Find the specific version number via API fuzzing. |
+| **Service**       | **Version**             | **Analysis**                                                                                                                                                                                    |
+| ----------------- | ----------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| **OpenSSH**       | `9.2p1`                 | **Low Priority.** This is a modern, patched version of SSH on Debian. Direct exploits are extremely rare. I will keep this as a potential "lateral movement" point if I find credentials later. |
+| **Jetty**         | `(Web Server)`          | **Supporting Tech.** Jetty itself is usually secure, but it’s the "engine" for the real target (Mirth).                                                                                         |
+| **Mirth Connect** | `Unknown` (* To Verify) | **HIGH PRIORITY.** This software has several high-severity RCE bugs (like CVE-2023-43208). **Priority 1:** Find the specific version number via API fuzzing.                                    |
 <div align="center">
 <br>
 ※※※※※※※※※※※※※※※※※※※※※※※※
