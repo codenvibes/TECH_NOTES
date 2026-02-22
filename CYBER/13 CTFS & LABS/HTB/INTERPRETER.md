@@ -80,8 +80,37 @@ A successful response confirms that the machine is active and accessible on the 
 
 Before we can attack a system, we need to find out what "doors" are open. Doors in this context are ports. We use a tool called **Nmap** (Network Mapper) to scan the target's IP address and see what services are running.
 
-Basic Scan
-Aggressive Scan
+#### Basic Scan
+
+Command: `nmap -A -T4 -p- TARGET_IP`
+
+Breakdown:
+- **`nmap`**
+    - **Description:** The utility itself.
+    - **Purpose:** Starts the network scanning application.
+- **`-A`**
+    - **Description:** Aggressive Scan.
+    - **Purpose:** Enables OS detection(`-O`), version detection(`-sV`), script scanning(Running the default suite of Nmap scripts (NSE) against found ports `-sC`), and traceroute. Comprehensive but noisier.
+- **`-T4`**
+    - **Description:** Timing Template 4 (Aggressive).
+    - **Purpose:** Speeds up the scan with more aggressive timing. Faster but may be less accurate or trigger IDS/IPS.
+- **`-p-`**
+    - **Description:** All Ports Scan. 
+    - **Purpose:** Scans all 65,535 ports. Slower but thorough.
+- **`TARGET_IP`**
+    - **Description:** Target Specification.
+    - **Purpose:** The IP address of the host being scanned.
+
+Output:
+
+```shell
+```
+<div align="center">
+<br>
+<br>
+</div>
+
+#### Aggressive Scan
 
 Command: `nmap -A -T4 -p- TARGET_IP`
 
