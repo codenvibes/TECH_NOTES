@@ -231,7 +231,7 @@ Output:
 
 ```shell
 ┌──(kali㉿kali)-[~]
-└─$ ffuf -u https://TARGET_IP/api/FUZZ -w /usr/share/wordlists/dirb/common.txt  
+└─$ ffuf -u https://TARGET_IP/FUZZ -w /usr/share/wordlists/dirb/common.txt 
 
         /'___\  /'___\           /'___\       
        /\ \__/ /\ \__/  __  __  /\ \__/       
@@ -244,7 +244,7 @@ Output:
 ________________________________________________
 
  :: Method           : GET
- :: URL              : https://TARGET_IP/api/FUZZ
+ :: URL              : https://TARGET_IP/FUZZ
  :: Wordlist         : FUZZ: /usr/share/wordlists/dirb/common.txt
  :: Follow redirects : false
  :: Calibration      : false
@@ -253,14 +253,14 @@ ________________________________________________
  :: Matcher          : Response status: 200-299,301,302,307,401,403,405,500
 ________________________________________________
 
-                        [Status: 200, Size: 8883, Words: 753, Lines: 247, Duration: 207ms]
-css                     [Status: 302, Size: 0, Words: 1, Lines: 1, Duration: 189ms]
-fonts                   [Status: 302, Size: 0, Words: 1, Lines: 1, Duration: 189ms]
-images                  [Status: 302, Size: 0, Words: 1, Lines: 1, Duration: 188ms]
-index.html              [Status: 200, Size: 8883, Words: 753, Lines: 247, Duration: 194ms]
-lang                    [Status: 302, Size: 0, Words: 1, Lines: 1, Duration: 189ms]
-lib                     [Status: 302, Size: 0, Words: 1, Lines: 1, Duration: 189ms]
-:: Progress: [4614/4614] :: Job [1/1] :: 210 req/sec :: Duration: [0:00:23] :: Errors: 0 ::
+                        [Status: 200, Size: 2532, Words: 174, Lines: 82, Duration: 196ms]
+api                     [Status: 302, Size: 0, Words: 1, Lines: 1, Duration: 190ms]
+css                     [Status: 302, Size: 0, Words: 1, Lines: 1, Duration: 188ms]
+images                  [Status: 302, Size: 0, Words: 1, Lines: 1, Duration: 187ms]
+index.html              [Status: 200, Size: 2532, Words: 174, Lines: 82, Duration: 191ms]
+js                      [Status: 302, Size: 0, Words: 1, Lines: 1, Duration: 188ms]
+webadmin                [Status: 302, Size: 0, Words: 1, Lines: 1, Duration: 194ms]
+:: Progress: [4614/4614] :: Job [1/1] :: 206 req/sec :: Duration: [0:00:22] :: Errors: 0 ::
 ```
 
 <div align="center">
