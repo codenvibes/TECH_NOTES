@@ -125,7 +125,7 @@ Nmap done: 1 IP address (1 host up) scanned in 46.08 s
 
 #### Phase 2: The "Deep Dive" Scan (Targeted Aggression)
 
-Command: `nmap -A -T4 -p- TARGET_IP`
+Command: `nmap -A -p 22,80,443,6661 TARGET_IP  `
 
 Breakdown:
 - `-sC`
