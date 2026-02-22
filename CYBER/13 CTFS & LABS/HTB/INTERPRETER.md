@@ -87,12 +87,12 @@ Command: `nmap -p- --min-rate 5000 -Pn 10.129.1.153`
 Breakdown:
 - **`nmap`**
     - **Description:** The utility itself.
-    - **Purpose:** Starts the network scanning application.
 - **`-p-`**
     - **Description:** All Ports Scan. 
     - **Purpose:** Scans all 65,535 ports. Slower but thorough.
 - `--min-rate 5000`
-	- This forces Nmap to send at least 5,000 packets per second. On the HTB VPN, this usually finishes a full scan in **under 1 minute**.
+	- **Description:** Minimum Packet Rate.
+	- **Purpose:** Forces Nmap to send at least 5,000 packets per second. This drastically reduces scan time on stable networks like the HTB VPN.
 - **`TARGET_IP`**
     - **Description:** Target Specification.
     - **Purpose:** The IP address of the host being scanned.
