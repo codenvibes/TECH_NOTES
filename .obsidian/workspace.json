@@ -137,12 +137,12 @@
                     "state": {
                       "type": "webviewer",
                       "state": {
-                        "url": "https://duckduckgo.com/?q=+CVE-2023-43208&ia=web",
-                        "title": "CVE-2023-43208 at DuckDuckGo",
+                        "url": "https://github.com/kyakei/CVE-2023-43208",
+                        "title": "GitHub - kyakei/CVE-2023-43208: CVE-2023-43208: Mirth Connect Pre-Auth RCE PoC",
                         "mode": "webview"
                       },
                       "icon": "globe-2",
-                      "title": "CVE-2023-43208 at DuckDuckGo"
+                      "title": "GitHub - kyakei/CVE-2023-43208: CVE-2023-43208: Mirth Connect Pre-Auth RCE PoC"
                     }
                   },
                   {
