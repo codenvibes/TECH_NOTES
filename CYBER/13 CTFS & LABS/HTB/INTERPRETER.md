@@ -189,9 +189,11 @@ Nmap done: 1 IP address (1 host up) scanned in 197.90 seconds
 
 #### 2.1.3. Scan Results Analysis
 
-1. **Port 22 (SSH):** Running `OpenSSH 9.2p1`. This is very recent and almost never has a direct exploit. It's usually for "post-exploitation" (logging in after you find a password).
-
-2. **Port 80/443 (Mirth):** Running an outdated version (`4.4.0`). Software-specific management panels are the "weakest link" in network security because they are complex and often run with high privileges.
+|**Service**|**Version**|**Analysis**|
+|---|---|---|
+|**OpenSSH**|`9.2p1`|**Secure.** This is a modern, patched version of SSH. Unless you find a password or an SSH key elsewhere, this is a dead end for now.|
+|**Jetty**|`(Web Server)`|**Supporting Tech.** Jetty itself is usually secure, but it’s the "engine" for the real target (Mirth).|
+|**Mirth Connect**|`4.4.0` (Verified via curl)|**CRITICAL VULNERABILITY.** This version is susceptible to **CVE-2023-43208**. This is a pre-authentication Remote Code Execution (RCE) bug.|
 <div align="center">
 <br>
 ※※※※※※※※※※※※※※※※※※※※※※※※
