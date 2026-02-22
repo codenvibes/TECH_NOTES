@@ -371,6 +371,9 @@ To fix this you could try to:
 ERROR: ResolutionImpossible: for help visit https://pip.pypa.io/en/latest/topics/dependency-resolution/#dealing-with-dependency-conflicts
 ```
 
+The script I cloned has a very strict `requirements.txt` that forces `packaging==24.0`, but `pwncat-cs` is an older tool that specifically demands an older version of that same library (`<21.0`). They are fighting, and `pip` is giving up.
+
+**The good news:** You don't actually need the complex `pwncat-cs` or the "fancy" progress bars to run this exploit. You just need `requests` to send the payload and `rich` to see the script's output.
 <div align="center">
 <br>
 <br>
