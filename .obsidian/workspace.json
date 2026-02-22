@@ -160,7 +160,7 @@
                     }
                   }
                 ],
-                "currentTab": 4
+                "currentTab": 3
               }
             ],
             "direction": "horizontal"
@@ -493,7 +493,7 @@
       "iconic:Open rulebook": false
     }
   },
-  "active": "92aabadb907a937e",
+  "active": "bea647b1dd44387e",
   "lastOpenFiles": [
     "CYBER/13 CTFS & LABS/HTB/INTERPRETER.md",
     "ASSETS/horizon3-ai-attack-research-disclosures-nextgen-mirth-connect-remote-code-execution-2026-02-22-13_33_19.png",
