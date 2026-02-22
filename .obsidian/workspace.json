@@ -160,7 +160,7 @@
                     }
                   }
                 ],
-                "currentTab": 2
+                "currentTab": 4
               }
             ],
             "direction": "horizontal"
@@ -172,7 +172,7 @@
               {
                 "id": "96c424c4653196ac",
                 "type": "tabs",
-                "dimension": 87.01298701298701,
+                "dimension": 38.311688311688314,
                 "children": [
                   {
                     "id": "10dd2c9178155b52",
@@ -238,7 +238,7 @@
               {
                 "id": "ebc3d89584b2ffd8",
                 "type": "tabs",
-                "dimension": 12.987012987012985,
+                "dimension": 61.68831168831169,
                 "children": [
                   {
                     "id": "1ed32a33f41cf25f",
@@ -383,6 +383,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "CYBER/13 CTFS & LABS/HTB/INTERPRETER.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -392,7 +393,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks"
+              "title": "Backlinks for INTERPRETER"
             }
           },
           {
@@ -401,11 +402,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "CYBER/13 CTFS & LABS/HTB/INTERPRETER.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links"
+              "title": "Outgoing links from INTERPRETER"
             }
           },
           {
@@ -429,12 +431,13 @@
             "state": {
               "type": "outline",
               "state": {
+                "file": "CYBER/13 CTFS & LABS/HTB/INTERPRETER.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline"
+              "title": "Outline of INTERPRETER"
             }
           },
           {
@@ -492,7 +495,7 @@
       "iconic:Open rulebook": false
     }
   },
-  "active": "3b8b4b24d88a173c",
+  "active": "e4b465f8c5c0b958",
   "lastOpenFiles": [
     "CYBER/13 CTFS & LABS/HTB/INTERPRETER.md",
     "ASSETS/horizon3-ai-attack-research-disclosures-nextgen-mirth-connect-remote-code-execution-2026-02-22-13_33_19.png",
