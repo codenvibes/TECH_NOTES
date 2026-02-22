@@ -269,13 +269,12 @@ Once you've confirmed the version as 4.4.0, conduct a targeted search for a func
 Search Query: `CVE-2023-43208`
 
 Repository found: https://github.com/K3ysTr0K3R/CVE-2023-43208-EXPLOIT [^2]
-
 <div align="center">
 <br>
 <br>
 </div>
 
-#### 3.1. Clone the repo
+#### 3.1. Clone and Prepare the Workspace
 
 <div align="center">
 <br>
