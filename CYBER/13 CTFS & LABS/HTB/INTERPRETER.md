@@ -269,9 +269,12 @@ To set up your reverse shell use a **Netcat listener** on your machine and a **P
 <br>
 <br>
 </div>
-### Step 1: Start your Listener (The "Catcher")
+
+#### 3.1. Start your Listener (The "Catcher")
 
 Open a **new terminal tab** on your Kali machine. This needs to be running _before_ you launch the exploit so it's ready to catch the incoming connection.
+
+Command: `nc -lvnp 4444`
 <div align="center">
 <br>
 <br>
