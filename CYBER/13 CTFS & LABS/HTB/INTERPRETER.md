@@ -210,6 +210,8 @@ Browse to `TARGET_IP`.
 
 Command: ``
 
+Breakdown: 
+
 Output:
 
 ```shell
