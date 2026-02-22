@@ -95,6 +95,18 @@ Breakdown:
 Output:
 
 ```shell
+┌──(kali㉿kali)-[~]
+└─$ nmap TARGET_IP                  
+Starting Nmap 7.98 ( https://nmap.org ) at 2026-02-22 01:30 -0500
+Nmap scan report for 10.129.1.153
+Host is up (0.26s latency).
+Not shown: 997 closed tcp ports (reset)
+PORT    STATE SERVICE
+22/tcp  open  ssh
+80/tcp  open  http
+443/tcp open  https
+
+Nmap done: 1 IP address (1 host up) scanned in 6.10 seconds
 ```
 <div align="center">
 <br>
