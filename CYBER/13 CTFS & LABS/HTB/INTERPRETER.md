@@ -219,7 +219,9 @@ My Nmap scan and browsing `TARGET_IP` page found the page title "Mirth Connect A
 
 A quick Google search for "CVE-2023-43208" revels:
 
-> Mirth Connect is ==an open-source, cross-platform healthcare integration engine designed to facilitate bi-directional, real-time data exchange (HL7, FHIR, DICOM, X12) between disparate systems like EHRs and labs==. It acts as a central hub using a flexible channel-based architecture for filtering, transforming, and routing healthcare messages.[^1]
+> [NextGen Mirth Connect Remote Code Execution Vulnerability (CVE-2023-43208)](https://horizon3.ai/attack-research/disclosures/nextgen-mirth-connect-remote-code-execution/)
+
+
 <div align="center">
 <br>
 <br>
@@ -326,4 +328,4 @@ My `ffuf` scan confirmed `/api` exists and this might be the "Base Path."
 
 ## References
 
-[^1]: [Mirth Connect Explained: Architecture & HL7 Standards](https://intuitionlabs.ai/articles/mirth-connect-architecture-integration-engine-guide)
+
