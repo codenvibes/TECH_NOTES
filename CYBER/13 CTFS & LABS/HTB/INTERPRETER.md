@@ -212,11 +212,11 @@ Browse to `TARGET_IP`.
 <br>
 </div>
 
-#### Fingerprinting (The "What")
+#### 2.2.2. Fingerprinting (The "What")
 
 My Nmap scan found the page title "Mirth Connect Administrator." 
 
-A quick Google search for "what is mirth connect and what is it's architecture?" revels:
+A quick Google search for "*what is mirth connect and what is it's architecture?*" revels:
 
 > Mirth Connect is ==an open-source, cross-platform healthcare integration engine designed to facilitate bi-directional, real-time data exchange (HL7, FHIR, DICOM, X12) between disparate systems like EHRs and labs==. It acts as a central hub using a flexible channel-based architecture for filtering, transforming, and routing healthcare messages.[^1]
 <div align="center">
