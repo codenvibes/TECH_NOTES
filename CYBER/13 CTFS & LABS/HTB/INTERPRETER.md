@@ -82,21 +82,12 @@ Before we can attack a system, we need to find out what "doors" are open. Doors 
 
 #### Basic Scan
 
-Command: `nmap -A -T4 -p- TARGET_IP`
+Command: `nmap TARGET_IP`
 
 Breakdown:
 - **`nmap`**
     - **Description:** The utility itself.
     - **Purpose:** Starts the network scanning application.
-- **`-A`**
-    - **Description:** Aggressive Scan.
-    - **Purpose:** Enables OS detection(`-O`), version detection(`-sV`), script scanning(Running the default suite of Nmap scripts (NSE) against found ports `-sC`), and traceroute. Comprehensive but noisier.
-- **`-T4`**
-    - **Description:** Timing Template 4 (Aggressive).
-    - **Purpose:** Speeds up the scan with more aggressive timing. Faster but may be less accurate or trigger IDS/IPS.
-- **`-p-`**
-    - **Description:** All Ports Scan. 
-    - **Purpose:** Scans all 65,535 ports. Slower but thorough.
 - **`TARGET_IP`**
     - **Description:** Target Specification.
     - **Purpose:** The IP address of the host being scanned.
@@ -115,9 +106,6 @@ Output:
 Command: `nmap -A -T4 -p- TARGET_IP`
 
 Breakdown:
-- **`nmap`**
-    - **Description:** The utility itself.
-    - **Purpose:** Starts the network scanning application.
 - **`-A`**
     - **Description:** Aggressive Scan.
     - **Purpose:** Enables OS detection(`-O`), version detection(`-sV`), script scanning(Running the default suite of Nmap scripts (NSE) against found ports `-sC`), and traceroute. Comprehensive but noisier.
@@ -127,9 +115,6 @@ Breakdown:
 - **`-p-`**
     - **Description:** All Ports Scan. 
     - **Purpose:** Scans all 65,535 ports. Slower but thorough.
-- **`TARGET_IP`**
-    - **Description:** Target Specification.
-    - **Purpose:** The IP address of the host being scanned.
 
 Output:
 
