@@ -132,7 +132,20 @@ Output:
 
 ```shell
 ```
+<div align="center">
+<br>
+<br>
+</div>
 
+#### Comparison: Basic vs. Aggressive
+
+| **Feature**          | **Basic (nmap)**        | **Aggressive (nmap -A -p-)**         |
+| -------------------- | ----------------------- | ------------------------------------ |
+| **Port Count**       | 1,000 most common       | All 65,535                           |
+| **Speed**            | Very Fast (Seconds)     | Slow (Minutes/Hours)                 |
+| **OS Info**          | None                    | Detailed Guess                       |
+| **Service Versions** | None (just says "open") | Exact versions (e.g., Apache 2.4.41) |
+| **Scripts**          | None                    | Automatic vulnerability/info scripts |
 <div align="center">
 <br>
 ※※※※※※※※※※※※※※※※※※※※※※※※
