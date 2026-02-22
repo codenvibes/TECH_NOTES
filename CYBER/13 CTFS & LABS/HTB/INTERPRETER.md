@@ -217,9 +217,8 @@ Browse to `TARGET_IP`.
 My Nmap scan found the page title "Mirth Connect Administrator." 
 
 A quick Google search for "what is mirth connect and what is it's architecture?" revels:
-> Mirth Connect is ==an open-source, cross-platform healthcare integration engine designed to facilitate bi-directional, real-time data exchange (HL7, FHIR, DICOM, X12) between disparate systems like EHRs and labs==. It acts as a central hub using a flexible channel-based architecture for filtering, transforming, and routing healthcare messages.
 
-Mirth Connect is a widely adopted **open-source healthcare integration engine** that acts as a central hub for routing, transforming, and exchanging clinical data across disparate systems.
+> Mirth Connect is ==an open-source, cross-platform healthcare integration engine designed to facilitate bi-directional, real-time data exchange (HL7, FHIR, DICOM, X12) between disparate systems like EHRs and labs==. It acts as a central hub using a flexible channel-based architecture for filtering, transforming, and routing healthcare messages.
 <div align="center">
 <br>
 <br>
@@ -318,3 +317,4 @@ webadmin                [Status: 302, Size: 0, Words: 1, Lines: 1, Duration: 194
 
 ## References
 
+- 
