@@ -169,12 +169,12 @@
                     "state": {
                       "type": "webviewer",
                       "state": {
-                        "url": "https://thecybersecguru.com/?s=Interpreter",
-                        "title": "Interpreter | The CyberSec Guru",
+                        "url": "https://thecybersecguru.com/ctf-walkthroughs/mastering-interpreter-beginners-guide-from-hackthebox/",
+                        "title": "Mastering Interpreter: Beginner's Guide from HackTheBox | The CyberSec Guru",
                         "mode": "webview"
                       },
                       "icon": "globe-2",
-                      "title": "Interpreter | The CyberSec Guru"
+                      "title": "Mastering Interpreter: Beginner's Guide from HackTheBox | The CyberSec Guru"
                     }
                   },
                   {
