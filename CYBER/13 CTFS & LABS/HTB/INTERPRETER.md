@@ -224,7 +224,7 @@ A quick Google search for "*what is mirth connect and what is it's architecture?
 <br>
 </div>
 
-#### Fuzzing the Root (HTTP/HTTPS)
+#### 2.2.2. Fuzzing the Root (HTTP/HTTPS)
 
 Command: `ffuf -u https://TARGET_IP/FUZZ -w /usr/share/wordlists/dirb/common.txt`
 
