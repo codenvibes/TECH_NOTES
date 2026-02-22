@@ -275,7 +275,8 @@ Repository found: https://github.com/K3ysTr0K3R/CVE-2023-43208-EXPLOIT [^2]
 <br>
 </div>
 
-#### 3.1. Start your Listener (The "Catcher")
+#### 3.1. Clone the repo
+
 <div align="center">
 <br>
 <br>
