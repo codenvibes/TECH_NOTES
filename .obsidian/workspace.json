@@ -14,7 +14,7 @@
               {
                 "id": "5fba8451e3d9bb96",
                 "type": "tabs",
-                "dimension": 38.246753246753244,
+                "dimension": 19.22077922077922,
                 "children": [
                   {
                     "id": "d6e3d74256db3bbc",
@@ -81,7 +81,7 @@
               {
                 "id": "eb7c5c7906b2a9d3",
                 "type": "tabs",
-                "dimension": 61.75324675324675,
+                "dimension": 80.77922077922078,
                 "children": [
                   {
                     "id": "1829a2d1d4c98997",
@@ -90,13 +90,13 @@
                     "state": {
                       "type": "webviewer",
                       "state": {
-                        "url": "https://app.hackthebox.com/home",
-                        "title": "Hack The Box :: Home",
+                        "url": "https://app.hackthebox.com/seasonal?tab=overview&season_id=13",
+                        "title": "Hack The Box :: Seasonal",
                         "mode": "webview"
                       },
                       "pinned": true,
                       "icon": "globe-2",
-                      "title": "Hack The Box :: Home"
+                      "title": "Hack The Box :: Seasonal"
                     }
                   },
                   {
@@ -257,9 +257,19 @@
                   "icon": "lucide-file",
                   "title": "FACTS"
                 }
+              },
+              {
+                "id": "60a14ece235f4871",
+                "type": "leaf",
+                "state": {
+                  "type": "empty",
+                  "state": {},
+                  "icon": "lucide-file",
+                  "title": "New tab"
+                }
               }
             ],
-            "currentTab": 2
+            "currentTab": 3
           }
         ],
         "direction": "vertical"
@@ -451,7 +461,7 @@
       "iconic:Open rulebook": false
     }
   },
-  "active": "1829a2d1d4c98997",
+  "active": "60a14ece235f4871",
   "lastOpenFiles": [
     "CYBER/13 CTFS & LABS/HTB/FACTS.md",
     "ASSETS/Pasted image 20260215193205.png",
