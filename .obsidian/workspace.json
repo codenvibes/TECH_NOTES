@@ -132,6 +132,20 @@
                     }
                   },
                   {
+                    "id": "5772349d09118304",
+                    "type": "leaf",
+                    "state": {
+                      "type": "webviewer",
+                      "state": {
+                        "url": "https://docs.nextgen.com/en-US/publications/mirth%C2%AE-connect-by-nextgen-healthcare?release=product-release-undefined",
+                        "title": "Mirth® Connect by NextGen Healthcare",
+                        "mode": "webview"
+                      },
+                      "icon": "globe-2",
+                      "title": "Mirth® Connect by NextGen Healthcare"
+                    }
+                  },
+                  {
                     "id": "92aabadb907a937e",
                     "type": "leaf",
                     "state": {
@@ -146,7 +160,7 @@
                     }
                   }
                 ],
-                "currentTab": 2
+                "currentTab": 3
               }
             ],
             "direction": "horizontal"
@@ -479,7 +493,7 @@
       "iconic:Open rulebook": false
     }
   },
-  "active": "3b8b4b24d88a173c",
+  "active": "5772349d09118304",
   "lastOpenFiles": [
     "CYBER/13 CTFS & LABS/HTB/INTERPRETER.md",
     "CYBER/13 CTFS & LABS/THM/OVERPASS.md",
