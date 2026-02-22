@@ -214,7 +214,7 @@ Browse to `TARGET_IP`.
 
 #### 2.2.2. Fingerprinting (The "What")
 
-My Nmap scan and opening the root page found the page title "Mirth Connect Administrator." 
+My Nmap scan and browsing `TARGET_IP` page found the page title "Mirth Connect Administrator." 
 
 A quick Google search for "*what is mirth connect and what is it's architecture?*" revels:
 
