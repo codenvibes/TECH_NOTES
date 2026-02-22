@@ -389,6 +389,13 @@ Open a **new terminal tab** on your Kali machine. This needs to be running _befo
 
 Command: `nc -lvnp 4444`
 
+Output:
+
+```shell
+┌──(kali㉿kali)-[~/CS/HTB/Interpreter]
+└─$ nc -lvnp 4444                
+listening on [any] 4444 ...
+```
 
 <div align="center">
 <br>
