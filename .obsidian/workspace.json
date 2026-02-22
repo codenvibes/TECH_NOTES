@@ -384,12 +384,13 @@
             "state": {
               "type": "outline",
               "state": {
+                "file": "CYBER/13 CTFS & LABS/HTB/FACTS.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline"
+              "title": "Outline of FACTS"
             }
           },
           {
@@ -452,11 +453,12 @@
       "iconic:Open rulebook": false
     }
   },
-  "active": "92aabadb907a937e",
+  "active": "00bc5b978594dd0c",
   "lastOpenFiles": [
+    "CYBER/04 EXPLOITATION/METASPLOIT FRAMEWORK/10 METERPRETER.md",
+    "CYBER/13 CTFS & LABS/HTB/FACTS.md",
     "QUICK NOTES/WHITE-BOARD.md",
     "COURSES/CYBER SHUJAA/CLOUD AND NETWORK SECURITY.md",
-    "CYBER/13 CTFS & LABS/HTB/FACTS.md",
     "ASSETS/Pasted image 20260215193205.png",
     "ASSETS/Pasted image 20260215192907.png",
     "ASSETS/Pasted image 20260215192125.png",
