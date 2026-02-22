@@ -208,9 +208,19 @@ Browse to `TARGET_IP`.
 
 #### Fuzzing the Root (HTTP/HTTPS)
 
-Command: ``
+Command: `ffuf -u https://TARGET_IP/FUZZ -w /usr/share/wordlists/dirb/common.txt`
 
 Breakdown: 
+
+- **`ffuf`**
+    - **Description:** Fuzz Faster U Fool.
+    - **Purpose:** A high-speed web fuzzer used for directory and parameter discovery.
+- **`-u`**
+    - **Description:** Target URL. 
+    - **Purpose:** Defines the base address. The keyword `FUZZ` tells the tool exactly where to insert the words from your list.
+- **`-w`**
+    - **Description:** Wordlist.
+    - **Purpose:** Points to the dictionary of common folder names (e.g., `admin`, `api`, `backup`).
 
 Output:
 
