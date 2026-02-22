@@ -211,7 +211,7 @@ Browse to `TARGET_IP`.
 <br>
 </div>
 
-#### Fuzzing the Root (HTTP/HTTPS)
+#### Fingerprinting (The "What")
 
 Command: `ffuf -u https://TARGET_IP/FUZZ -w /usr/share/wordlists/dirb/common.txt`
 
