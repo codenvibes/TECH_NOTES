@@ -243,6 +243,14 @@ Breakdown:
 - `/api/server/version`
     - Description: Target API Endpoint. 
     - Purpose: As documented in the research, this is the specific URI that returns the software version string without requiring a login.
+
+Output:
+
+```shell
+┌──(kali㉿kali)-[~]
+└─$ curl -Lk -H 'X-Requested-With: OpenAPI' https://10.129.1.153/api/server/version
+4.4.0    
+```
 <div align="center">
 <br>
 <br>
