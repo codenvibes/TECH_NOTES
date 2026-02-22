@@ -219,7 +219,7 @@ My Nmap scan and browsing `TARGET_IP` page found the page title "Mirth Connect A
 
 A quick Google search for "CVE-2023-43208" revels:
 
-> [NextGen Mirth Connect Remote Code Execution Vulnerability (CVE-2023-43208)](https://horizon3.ai/attack-research/disclosures/nextgen-mirth-connect-remote-code-execution/)
+> [[NextGen Mirth Connect Remote Code Execution Vulnerability (CVE-2023-43208) _ Horizon3.ai.html]]
 
 
 <div align="center">
