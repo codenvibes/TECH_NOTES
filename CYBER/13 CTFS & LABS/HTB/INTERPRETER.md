@@ -267,6 +267,8 @@ This **`4.4.0`** result is exactly what we were looking for. Any Mirth Connect v
 Once you've confirmed the version as 4.4.0, conduct a targeted search for a functional Proof-of-Concept (PoC).
 
 Search Query: `CVE-2023-43208`
+
+Repository found: https://github.com/K3ysTr0K3R/CVE-2023-43208-EXPLOIT[^2]
 <div align="center">
 <br>
 <br>
@@ -310,3 +312,5 @@ Command: `nc -lvnp 4444`
 
 
 [^1]: [NextGen Mirth Connect Remote Code Execution Vulnerability (CVE-2023-43208)](https://horizon3.ai/attack-research/disclosures/nextgen-mirth-connect-remote-code-execution/)
+
+[^2]: 
