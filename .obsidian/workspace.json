@@ -14,7 +14,7 @@
               {
                 "id": "5fba8451e3d9bb96",
                 "type": "tabs",
-                "dimension": 19.22077922077922,
+                "dimension": 52.40259740259741,
                 "children": [
                   {
                     "id": "d6e3d74256db3bbc",
@@ -76,12 +76,12 @@
                     }
                   }
                 ],
-                "currentTab": 2
+                "currentTab": 3
               },
               {
                 "id": "eb7c5c7906b2a9d3",
                 "type": "tabs",
-                "dimension": 80.77922077922078,
+                "dimension": 47.5974025974026,
                 "children": [
                   {
                     "id": "1829a2d1d4c98997",
@@ -450,8 +450,9 @@
       "iconic:Open rulebook": false
     }
   },
-  "active": "00bc5b978594dd0c",
+  "active": "21fce08000a30866",
   "lastOpenFiles": [
+    "COURSES/CYBER SHUJAA/CLOUD AND NETWORK SECURITY.md",
     "CYBER/13 CTFS & LABS/HTB/FACTS.md",
     "ASSETS/Pasted image 20260215193205.png",
     "ASSETS/Pasted image 20260215192907.png",
@@ -467,7 +468,6 @@
     "CYBER/03 RECONNAISSANCE & ENUMERATION/RECONNAISSANCE/ACTIVE RECONNAISSANCE.md",
     "CYBER/03 RECONNAISSANCE & ENUMERATION/RECONNAISSANCE/PASSIVE RECONNAISSANCE.md",
     "TEMPLATES/CTF WRITEUP.md",
-    "COURSES/CYBER SHUJAA/CLOUD AND NETWORK SECURITY.md",
     "CYBER/13 CTFS & LABS/HTB/SOULMATE.md",
     "DEVOPS/README.md",
     "SOFT SKILLS & CAREER/PIRP.base",
