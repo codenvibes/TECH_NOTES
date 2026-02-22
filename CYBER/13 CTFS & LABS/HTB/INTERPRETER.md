@@ -214,7 +214,11 @@ Browse to `TARGET_IP`.
 
 #### Fingerprinting (The "What")
 
-My Nmap scan found the page title "Mirth Connect Administrator."
+My Nmap scan found the page title "Mirth Connect Administrator." 
+
+A quick Google search for "what is mirth connect and what is it's architecture?" 
+
+Mirth Connect is a widely adopted **open-source healthcare integration engine** that acts as a central hub for routing, transforming, and exchanging clinical data across disparate systems.
 <div align="center">
 <br>
 <br>
