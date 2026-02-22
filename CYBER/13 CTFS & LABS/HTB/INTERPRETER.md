@@ -206,7 +206,7 @@ Browse to `TARGET_IP`.
 <br>
 </div>
 
-#### Directory Fuzzing
+#### Fuzzing the Root (HTTP/HTTPS)
 
 Command: ``
 
