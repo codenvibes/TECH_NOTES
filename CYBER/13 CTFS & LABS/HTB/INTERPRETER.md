@@ -251,6 +251,8 @@ Output:
 └─$ curl -Lk -H 'X-Requested-With: OpenAPI' https://10.129.1.153/api/server/version
 4.4.0    
 ```
+
+This **`4.4.0`** result is exactly what we were looking for. Any Mirth Connect version **less than 4.4.1** is confirmed vulnerable to **CVE-2023-43208**, which is a critical, **unauthenticated** Remote Code Execution (RCE) vulnerability.
 <div align="center">
 <br>
 <br>
