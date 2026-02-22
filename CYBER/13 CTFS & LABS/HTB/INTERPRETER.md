@@ -88,7 +88,7 @@ Breakdown:
     - **Purpose:** Starts the network scanning application.
 - **`-A`**
     - **Description:** Aggressive Scan.
-    - **Purpose:** Enables OS detection, version detection(`-sV`), script scanning(Running the default suite of Nmap scripts (NSE) against found ports `-sC`), and traceroute. Comprehensive but noisier.
+    - **Purpose:** Enables OS detection(`-O`), version detection(`-sV`), script scanning(Running the default suite of Nmap scripts (NSE) against found ports `-sC`), and traceroute. Comprehensive but noisier.
 - **`-T4`**
     - **Description:** Timing Template 4 (Aggressive).
     - **Purpose:** Speeds up the scan with more aggressive timing. Faster but may be less accurate or trigger IDS/IPS.
