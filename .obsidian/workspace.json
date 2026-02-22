@@ -170,11 +170,11 @@
                       "type": "webviewer",
                       "state": {
                         "url": "https://thecybersecguru.com/ctf-walkthroughs/mastering-facts-beginners-guide-from-hackthebox/",
-                        "title": "Mastering Facts: Beginner's Guide from HackTheBox | The CyberSec Guru",
-                        "mode": "webview"
+                        "title": "data:text/plain,",
+                        "mode": "blank"
                       },
                       "icon": "globe-2",
-                      "title": "Mastering Facts: Beginner's Guide from HackTheBox | The CyberSec Guru"
+                      "title": "data:text/plain,"
                     }
                   },
                   {

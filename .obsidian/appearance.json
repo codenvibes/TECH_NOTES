@@ -5,5 +5,5 @@
     "no-checkbox-strikethrough"
   ],
   "cssTheme": "GitHub Theme",
-  "showRibbon": true
+  "showRibbon": false
 }
