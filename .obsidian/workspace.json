@@ -137,12 +137,12 @@
                     "state": {
                       "type": "webviewer",
                       "state": {
-                        "url": "https://horizon3.ai/attack-research/disclosures/writeup-for-cve-2023-43208-nextgen-mirth-connect-pre-auth-rce/",
-                        "title": "Writeup for CVE-2023-43208: NextGen Mirth Connect Pre-Auth RCE | Horizon3.ai",
+                        "url": "https://github.com/K3ysTr0K3R/CVE-2023-43208-EXPLOIT",
+                        "title": "GitHub - K3ysTr0K3R/CVE-2023-43208-EXPLOIT: A PoC exploit for CVE-2023-43208 - Mirth Connect Remote Code Execution (RCE)",
                         "mode": "webview"
                       },
                       "icon": "globe-2",
-                      "title": "Writeup for CVE-2023-43208: NextGen Mirth Connect Pre-Auth RCE | Horizon3.ai"
+                      "title": "GitHub - K3ysTr0K3R/CVE-2023-43208-EXPLOIT: A PoC exploit for CVE-2023-43208 - Mirth Connect Remote Code Execution (RCE)"
                     }
                   },
                   {
@@ -160,7 +160,7 @@
                     }
                   }
                 ],
-                "currentTab": 3
+                "currentTab": 2
               }
             ],
             "direction": "horizontal"
@@ -492,7 +492,7 @@
       "iconic:Open rulebook": false
     }
   },
-  "active": "bea647b1dd44387e",
+  "active": "3b8b4b24d88a173c",
   "lastOpenFiles": [
     "CYBER/13 CTFS & LABS/HTB/INTERPRETER.md",
     "ASSETS/horizon3-ai-attack-research-disclosures-nextgen-mirth-connect-remote-code-execution-2026-02-22-13_33_19.png",
