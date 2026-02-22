@@ -264,7 +264,7 @@ This **`4.4.0`** result is exactly what we were looking for. Any Mirth Connect v
 
 ## 3. Exploitation
 
-To set up your reverse shell use a **Netcat listener** on your machine and a **Python exploit script** to trigger the connection from the target.
+Once you've confirmed the version as 4.4.0, conduct a targeted search for a functional Proof-of-Concept (PoC).
 <div align="center">
 <br>
 <br>
