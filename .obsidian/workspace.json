@@ -205,7 +205,8 @@
                       "title": "Google Gemini"
                     }
                   }
-                ]
+                ],
+                "currentTab": 6
               }
             ],
             "direction": "horizontal"
@@ -468,10 +469,11 @@
   },
   "active": "e4b465f8c5c0b958",
   "lastOpenFiles": [
+    "CYBER/13 CTFS & LABS/THM/OVERPASS.md",
+    "CYBER/13 CTFS & LABS/HTB/INTERPRETER.md",
     "CYBER/13 CTFS & LABS/HTB/FACTS.md",
     "CYBER/13 CTFS & LABS/CTFS & LABS.base",
     "SOFT SKILLS & CAREER/PIRP.base",
-    "CYBER/13 CTFS & LABS/HTB/INTERPRETER.md",
     "CYBER/04 EXPLOITATION/METASPLOIT FRAMEWORK/10 METERPRETER.md",
     "QUICK NOTES/WHITE-BOARD.md",
     "COURSES/CYBER SHUJAA/CLOUD AND NETWORK SECURITY.md",
@@ -482,7 +484,6 @@
     "ASSETS/Pasted image 20260215190702.png",
     "ASSETS/Pasted image 20260215190524.png",
     "ASSETS/Pasted image 20260215184146.png",
-    "CYBER/13 CTFS & LABS/THM/OVERPASS.md",
     "CYBER/13 CTFS & LABS/THM/KENOBI.md",
     "CYBER/03 RECONNAISSANCE & ENUMERATION/00 ENUMERATION.md",
     "CYBER/03 RECONNAISSANCE & ENUMERATION/RECONNAISSANCE/ACTIVE RECONNAISSANCE.md",
