@@ -160,7 +160,7 @@
                     }
                   }
                 ],
-                "currentTab": 2
+                "currentTab": 4
               }
             ],
             "direction": "horizontal"
@@ -172,7 +172,7 @@
               {
                 "id": "96c424c4653196ac",
                 "type": "tabs",
-                "dimension": 38.311688311688314,
+                "dimension": 81.62337662337661,
                 "children": [
                   {
                     "id": "10dd2c9178155b52",
@@ -238,7 +238,7 @@
               {
                 "id": "ebc3d89584b2ffd8",
                 "type": "tabs",
-                "dimension": 61.68831168831169,
+                "dimension": 18.376623376623378,
                 "children": [
                   {
                     "id": "1ed32a33f41cf25f",
@@ -492,7 +492,7 @@
       "iconic:Open rulebook": false
     }
   },
-  "active": "3b8b4b24d88a173c",
+  "active": "92aabadb907a937e",
   "lastOpenFiles": [
     "CYBER/13 CTFS & LABS/HTB/INTERPRETER.md",
     "ASSETS/horizon3-ai-attack-research-disclosures-nextgen-mirth-connect-remote-code-execution-2026-02-22-13_33_19.png",
