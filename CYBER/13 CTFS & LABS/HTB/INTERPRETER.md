@@ -219,7 +219,7 @@ I consulted the **Horizon3.ai** technical disclosure for **CVE-2023-43208**.
 
 [NextGen Mirth Connect Remote Code Execution Vulnerability (CVE-2023-43208)](https://horizon3.ai/attack-research/disclosures/nextgen-mirth-connect-remote-code-execution/)
 
-[[Pasted image 20260222104946.png]]
+![[horizon3-ai-attack-research-disclosures-nextgen-mirth-connect-remote-code-execution-2026-02-22-13_33_19.png]]
 
 <div align="center">
 <br>
