@@ -258,9 +258,19 @@
                   "icon": "lucide-file",
                   "title": "FACTS"
                 }
+              },
+              {
+                "id": "e4b465f8c5c0b958",
+                "type": "leaf",
+                "state": {
+                  "type": "empty",
+                  "state": {},
+                  "icon": "lucide-file",
+                  "title": "New tab"
+                }
               }
             ],
-            "currentTab": 2
+            "currentTab": 3
           }
         ],
         "direction": "vertical"
@@ -384,13 +394,12 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "CYBER/13 CTFS & LABS/HTB/FACTS.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of FACTS"
+              "title": "Outline"
             }
           },
           {
@@ -453,10 +462,11 @@
       "iconic:Open rulebook": false
     }
   },
-  "active": "00bc5b978594dd0c",
+  "active": "e4b465f8c5c0b958",
   "lastOpenFiles": [
-    "CYBER/04 EXPLOITATION/METASPLOIT FRAMEWORK/10 METERPRETER.md",
     "CYBER/13 CTFS & LABS/HTB/FACTS.md",
+    "CYBER/13 CTFS & LABS/HTB/INTERPRETER.md",
+    "CYBER/04 EXPLOITATION/METASPLOIT FRAMEWORK/10 METERPRETER.md",
     "QUICK NOTES/WHITE-BOARD.md",
     "COURSES/CYBER SHUJAA/CLOUD AND NETWORK SECURITY.md",
     "ASSETS/Pasted image 20260215193205.png",
@@ -490,7 +500,6 @@
     "COURSES/THM/SECURITY ENGINEER.md",
     "COURSES/THM/JR PENETRATION TESTER.md",
     "COURSES/THM/CYBER SECURITY 101.md",
-    "COURSES/THM/PRE SECURITY.md",
     "ASSETS/Pasted image 20260125172017.png",
     "ASSETS/Pasted image 20260125171441.png",
     "ASSETS/Pasted image 20260125170257.png",
