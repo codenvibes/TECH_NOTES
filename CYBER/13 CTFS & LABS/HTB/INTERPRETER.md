@@ -190,16 +190,6 @@ Nmap done: 1 IP address (1 host up) scanned in 197.90 seconds
 <br>
 </div>
 ### 2.2. Enumeration of Web Services (Port 80)
-
-#### Update Hosts File
-
-Command: ` `
-<div align="center">
-<br>
-※※※※※※※※※※※※※※※※※※※※※※※※
-<br>
-<br>
-</div>
 #### Web Enumeration
 
 Browse to ` `.
