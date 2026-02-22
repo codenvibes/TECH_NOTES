@@ -369,7 +369,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "05_DEFENSIVE_SECURITY/LOG ANALYSIS/INTRO TO LOG ANALYSIS.md",
+                "file": "CYBER/13 CTFS & LABS/HTB/INTERPRETER.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -379,7 +379,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for INTRO TO LOG ANALYSIS"
+              "title": "Backlinks for INTERPRETER"
             }
           },
           {
@@ -388,11 +388,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "CYBER/13 CTFS & LABS/HTB/INTERPRETER.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links"
+              "title": "Outgoing links from INTERPRETER"
             }
           },
           {
@@ -453,14 +454,10 @@
             "id": "753fe11880dc7593",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "03 RECONNAISSANCE & ENUMERATION/WEB_ENUMERATION/HTB - ATTACKING WEB APPLICATIONS WITH FFUF.md",
-                "mode": "source",
-                "source": false
-              },
+              "type": "empty",
+              "state": {},
               "icon": "lucide-file",
-              "title": "HTB - ATTACKING WEB APPLICATIONS WITH FFUF"
+              "title": "New tab"
             }
           }
         ],
@@ -468,8 +465,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "left-ribbon": {
     "hiddenItems": {
