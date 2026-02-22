@@ -53,13 +53,13 @@ Output:
 ```shell
 ┌──(kali㉿kali)-[~]
 └─$ ping -c 4 TARGET_IP
-PING 10.129.4.179 (10.129.4.179) 56(84) bytes of data.
+PING TARGET_IP (TARGET_IP) 56(84) bytes of data.
 64 bytes from 10.129.4.179: icmp_seq=1 ttl=63 time=276 ms
 64 bytes from 10.129.4.179: icmp_seq=2 ttl=63 time=279 ms
 64 bytes from 10.129.4.179: icmp_seq=3 ttl=63 time=277 ms
 64 bytes from 10.129.4.179: icmp_seq=4 ttl=63 time=283 ms
 
---- 10.129.4.179 ping statistics ---
+--- TARGET_IP ping statistics ---
 4 packets transmitted, 4 received, 0% packet loss, time 3015ms
 rtt min/avg/max/mdev = 276.453/278.758/282.843/2.585 ms
 ```

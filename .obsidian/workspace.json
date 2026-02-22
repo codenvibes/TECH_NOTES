@@ -274,7 +274,7 @@
                 }
               }
             ],
-            "currentTab": 3
+            "currentTab": 2
           }
         ],
         "direction": "vertical"
@@ -398,13 +398,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "CYBER/13 CTFS & LABS/HTB/INTERPRETER.md",
+                "file": "CYBER/13 CTFS & LABS/HTB/FACTS.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of INTERPRETER"
+              "title": "Outline of FACTS"
             }
           },
           {
@@ -467,10 +467,10 @@
       "iconic:Open rulebook": false
     }
   },
-  "active": "e4b465f8c5c0b958",
+  "active": "00bc5b978594dd0c",
   "lastOpenFiles": [
-    "CYBER/13 CTFS & LABS/HTB/FACTS.md",
     "CYBER/13 CTFS & LABS/HTB/INTERPRETER.md",
+    "CYBER/13 CTFS & LABS/HTB/FACTS.md",
     "TEMPLATES/CTF WRITEUP.md",
     "CYBER/13 CTFS & LABS/THM/OVERPASS.md",
     "CYBER/13 CTFS & LABS/CTFS & LABS.base",
