@@ -137,12 +137,12 @@
                     "state": {
                       "type": "webviewer",
                       "state": {
-                        "url": "https://github.com/K3ysTr0K3R/CVE-2023-43208-EXPLOIT",
-                        "title": "GitHub - K3ysTr0K3R/CVE-2023-43208-EXPLOIT: A PoC exploit for CVE-2023-43208 - Mirth Connect Remote Code Execution (RCE)",
+                        "url": "https://duckduckgo.com/?q=CVE-2023-43208&ia=web",
+                        "title": "CVE-2023-43208 at DuckDuckGo",
                         "mode": "webview"
                       },
                       "icon": "globe-2",
-                      "title": "GitHub - K3ysTr0K3R/CVE-2023-43208-EXPLOIT: A PoC exploit for CVE-2023-43208 - Mirth Connect Remote Code Execution (RCE)"
+                      "title": "CVE-2023-43208 at DuckDuckGo"
                     }
                   },
                   {

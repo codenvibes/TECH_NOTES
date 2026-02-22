@@ -265,6 +265,8 @@ This **`4.4.0`** result is exactly what we were looking for. Any Mirth Connect v
 ## 3. Exploitation
 
 Once you've confirmed the version as 4.4.0, conduct a targeted search for a functional Proof-of-Concept (PoC).
+
+Search Query: `CVE-2023-43208`
 <div align="center">
 <br>
 <br>
