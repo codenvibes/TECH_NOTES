@@ -193,7 +193,7 @@ Nmap done: 1 IP address (1 host up) scanned in 197.90 seconds
 | ----------------- | ----------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | **OpenSSH**       | `9.2p1`                 | **Low Priority.** This is a modern, patched version of SSH on Debian. Direct exploits are extremely rare. I will keep this as a potential "lateral movement" point if I find credentials later. |
 | **Jetty**         | `(Web Server)`          | **Supporting Tech.** Jetty itself is usually secure, but it’s the "engine" for the real target (Mirth).                                                                                         |
-| **Mirth Connect** | `Unknown` (* To Verify) | **HIGH PRIORITY.** This software has several high-severity RCE bugs (like CVE-2023-43208). **Priority 1:** Find the specific version number via API fuzzing.                                    |
+| **Mirth Connect** | `Unknown` (* To Verify) | **HIGH PRIORITY.** This software has several high-severity RCE bugs (like CVE-2023-43208). <br>**Priority 1:** Find the specific version number.                                                |
 <div align="center">
 <br>
 ※※※※※※※※※※※※※※※※※※※※※※※※
