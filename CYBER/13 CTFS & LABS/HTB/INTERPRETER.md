@@ -227,6 +227,8 @@ NextGen Mirth Connect Remote Code Execution Vulnerability (CVE-2023-43208)[^1]
 
 #### 2.2.3. Detection
 
+Command: `curl -Lk -H 'X-Requested-With: OpenAPI' https://10.129.1.153/api/server/version`
+
 
 <div align="center">
 <br>
