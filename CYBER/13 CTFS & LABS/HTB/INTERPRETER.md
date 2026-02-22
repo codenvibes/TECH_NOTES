@@ -291,7 +291,86 @@ Resolving deltas: 100% (6/6), done.
 ┌──(kali㉿kali)-[~/CS/HTB/Interpreter]
 └─$ cd CVE-2023-43208-EXPLOIT 
 
+┌──(kali㉿kali)-[~/CS/HTB/Interpreter/CVE-2023-43208-EXPLOIT]
+└─$ pip install -r requirements.txt
+error: externally-managed-environment
 
+× This environment is externally managed
+╰─> To install Python packages system-wide, try apt install
+    python3-xyz, where xyz is the package you are trying to
+    install.
+    
+    If you wish to install a non-Kali-packaged Python package,
+    create a virtual environment using python3 -m venv path/to/venv.
+    Then use path/to/venv/bin/python and path/to/venv/bin/pip. Make
+    sure you have pypy3-venv installed.
+    
+    If you wish to install a non-Kali-packaged Python application,
+    it may be easiest to use pipx install xyz, which will manage a
+    virtual environment for you. Make sure you have pipx installed.
+    
+    For more information, refer to the following:
+    * https://www.kali.org/docs/general-use/python3-external-packages/
+    * /usr/share/doc/python3.13/README.venv
+
+note: If you believe this is a mistake, please contact your Python installation or OS distribution provider. You can override this, at the risk of breaking your Python installation or OS, by passing --break-system-packages.
+hint: See PEP 668 for the detailed specification.
+
+┌──(kali㉿kali)-[~/CS/HTB/Interpreter/CVE-2023-43208-EXPLOIT]
+└─$ python3 -m venv venv                                                                      
+
+┌──(kali㉿kali)-[~/CS/HTB/Interpreter/CVE-2023-43208-EXPLOIT]
+└─$ source venv/bin/activate  
+
+┌──(venv)─(kali㉿kali)-[~/CS/HTB/Interpreter/CVE-2023-43208-EXPLOIT]
+└─$ pip install -r requirements.txt
+Collecting alive_progress==3.1.4 (from -r requirements.txt (line 1))
+  Downloading alive_progress-3.1.4-py3-none-any.whl.metadata (68 kB)
+Collecting packaging==24.0 (from -r requirements.txt (line 2))
+  Downloading packaging-24.0-py3-none-any.whl.metadata (3.2 kB)
+Collecting pwncat-cs==0.5.4 (from -r requirements.txt (line 3))
+  Downloading pwncat_cs-0.5.4-py3-none-any.whl.metadata (12 kB)
+Collecting requests==2.31.0 (from -r requirements.txt (line 4))
+  Downloading requests-2.31.0-py3-none-any.whl.metadata (4.6 kB)
+Collecting rich==13.7.1 (from -r requirements.txt (line 5))
+  Downloading rich-13.7.1-py3-none-any.whl.metadata (18 kB)
+Collecting about-time==4.2.1 (from alive_progress==3.1.4->-r requirements.txt (line 1))
+  Downloading about_time-4.2.1-py3-none-any.whl.metadata (13 kB)
+Collecting grapheme==0.6.0 (from alive_progress==3.1.4->-r requirements.txt (line 1))
+  Downloading grapheme-0.6.0.tar.gz (207 kB)
+  Installing build dependencies ... done
+  Getting requirements to build wheel ... done
+  Preparing metadata (pyproject.toml) ... done
+Collecting Jinja2<4.0.0,>=3.0.1 (from pwncat-cs==0.5.4->-r requirements.txt (line 3))
+  Downloading jinja2-3.1.6-py3-none-any.whl.metadata (2.9 kB)
+Collecting PyNaCl<2.0.0,>=1.4.0 (from pwncat-cs==0.5.4->-r requirements.txt (line 3))
+  Downloading pynacl-1.6.2-cp38-abi3-manylinux_2_34_x86_64.whl.metadata (10.0 kB)
+Collecting ZODB3<4.0.0,>=3.11.0 (from pwncat-cs==0.5.4->-r requirements.txt (line 3))
+  Downloading ZODB3-3.11.0.tar.gz (55 kB)
+  Installing build dependencies ... done
+  Getting requirements to build wheel ... done
+  Preparing metadata (pyproject.toml) ... done
+Collecting netifaces<0.12.0,>=0.11.0 (from pwncat-cs==0.5.4->-r requirements.txt (line 3))
+  Downloading netifaces-0.11.0.tar.gz (30 kB)
+  Installing build dependencies ... done
+  Getting requirements to build wheel ... done
+  Preparing metadata (pyproject.toml) ... done
+INFO: pip is looking at multiple versions of pwncat-cs to determine which version is compatible with other requirements. This could take a while.
+ERROR: Cannot install -r requirements.txt (line 3) and packaging==24.0 because these package versions have conflicting dependencies.                                                                                                    
+                                                                                                                    
+The conflict is caused by:
+    The user requested packaging==24.0
+    pwncat-cs 0.5.4 depends on packaging<21.0 and >=20.9
+
+Additionally, some packages in these conflicts have no matching distributions available for your environment:
+    packaging
+
+To fix this you could try to:
+1. loosen the range of package versions you've specified
+2. remove package versions to allow pip to attempt to solve the dependency conflict
+
+ERROR: ResolutionImpossible: for help visit https://pip.pypa.io/en/latest/topics/dependency-resolution/#dealing-with-dependency-conflicts                                                                                               
+                                           
 ```
 
 <div align="center">
