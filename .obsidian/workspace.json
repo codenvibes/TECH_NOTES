@@ -137,12 +137,12 @@
                     "state": {
                       "type": "webviewer",
                       "state": {
-                        "url": "https://github.com/K3ysTr0K3R/CVE-2023-43208-EXPLOIT",
-                        "title": "GitHub - K3ysTr0K3R/CVE-2023-43208-EXPLOIT: A PoC exploit for CVE-2023-43208 - Mirth Connect Remote Code Execution (RCE)",
+                        "url": "https://duckduckgo.com/?q=+CVE-2023-43208&ia=web",
+                        "title": "CVE-2023-43208 at DuckDuckGo",
                         "mode": "webview"
                       },
                       "icon": "globe-2",
-                      "title": "GitHub - K3ysTr0K3R/CVE-2023-43208-EXPLOIT: A PoC exploit for CVE-2023-43208 - Mirth Connect Remote Code Execution (RCE)"
+                      "title": "CVE-2023-43208 at DuckDuckGo"
                     }
                   },
                   {
@@ -160,7 +160,7 @@
                     }
                   }
                 ],
-                "currentTab": 2
+                "currentTab": 3
               }
             ],
             "direction": "horizontal"
@@ -492,7 +492,7 @@
       "iconic:Open rulebook": false
     }
   },
-  "active": "3b8b4b24d88a173c",
+  "active": "bea647b1dd44387e",
   "lastOpenFiles": [
     "CYBER/13 CTFS & LABS/HTB/INTERPRETER.md",
     "ASSETS/horizon3-ai-attack-research-disclosures-nextgen-mirth-connect-remote-code-execution-2026-02-22-13_33_19.png",
