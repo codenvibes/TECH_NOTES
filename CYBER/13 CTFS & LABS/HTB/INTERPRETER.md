@@ -128,13 +128,13 @@ Nmap done: 1 IP address (1 host up) scanned in 46.08 s
 Command: `nmap -A -T4 -p- TARGET_IP`
 
 Breakdown:
-- **`-sC`**
+- `-sC`
     - **Description:** Default Script Scan.
-    - **Purpose:** Runs a collection of safe, built-in Nmap Scripting Engine (NSE) scripts to find common vulnerabilities, metadata, or hidden info.
-- **`-sV`**
+    - **Purpose:** Runs a collection built-in Nmap Scripting Engine (NSE) scripts to find common vulnerabilities, metadata, or hidden info.
+- `-sV`
     - **Description:** Version Detection.
     - **Purpose:** Probes open ports to determine what software and version are actually running (e.g., identifying "Jetty" or "OpenSSH 9.2").
-- **`-p 22,80,443,6661`**
+- `-p 22,80,443,6661`
     - **Description:** Targeted Port List.
     - **Purpose:** Restricts the heavy scanning to only the ports you confirmed are open, saving significant time and processing power.
 
