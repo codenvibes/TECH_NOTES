@@ -319,4 +319,4 @@ webadmin                [Status: 302, Size: 0, Words: 1, Lines: 1, Duration: 194
 
 - [Mirth Connect Explained: Architecture & HL7 Standards](https://intuitionlabs.ai/articles/mirth-connect-architecture-integration-engine-guide)
 
-[^1]: 
+[^1]: https://intuitionlabs.ai/articles/mirth-connect-architecture-integration-engine-guide
