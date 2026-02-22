@@ -93,6 +93,9 @@ Breakdown:
 - `--min-rate 5000`
 	- **Description:** Minimum Packet Rate.
 	- **Purpose:** Forces Nmap to send at least 5,000 packets per second. This drastically reduces scan time on stable networks like the HTB VPN.
+- `-Pn`
+    - **Description:** Skip Host Discovery.
+    - **Purpose:** Treats the host as "online" even if it doesn't respond to pings (ICMP). Many HTB boxes have firewalls that block pings.
 - **`TARGET_IP`**
     - **Description:** Target Specification.
     - **Purpose:** The IP address of the host being scanned.
@@ -136,6 +139,47 @@ Breakdown:
 Output:
 
 ```shell
+                                                                                                                    
+┌──(kali㉿kali)-[~]
+└─$ nmap -A -p 22,80,443,6661 10.129.1.153         
+Starting Nmap 7.98 ( https://nmap.org ) at 2026-02-22 02:04 -0500
+Nmap scan report for 10.129.1.153
+Host is up (0.19s latency).
+
+PORT     STATE SERVICE  VERSION
+22/tcp   open  ssh      OpenSSH 9.2p1 Debian 2+deb12u7 (protocol 2.0)
+| ssh-hostkey: 
+|   256 07:eb:d1:b1:61:9a:6f:38:08:e0:1e:3e:5b:61:03:b9 (ECDSA)
+|_  256 fc:d5:7a:ca:8c:4f:c1:bd:c7:2f:3a:ef:e1:5e:99:0f (ED25519)
+80/tcp   open  http     Jetty
+| http-methods: 
+|_  Potentially risky methods: TRACE
+|_http-title: Mirth Connect Administrator
+443/tcp  open  ssl/http Jetty
+| ssl-cert: Subject: commonName=mirth-connect
+| Not valid before: 2025-09-19T12:50:05
+|_Not valid after:  2075-09-19T12:50:05
+|_http-title: Mirth Connect Administrator
+| http-methods: 
+|_  Potentially risky methods: TRACE
+|_ssl-date: TLS randomness does not represent time
+6661/tcp open  unknown
+Warning: OSScan results may be unreliable because we could not find at least 1 open and 1 closed port
+Device type: general purpose
+Running: Linux 4.X|5.X
+OS CPE: cpe:/o:linux:linux_kernel:4 cpe:/o:linux:linux_kernel:5
+OS details: Linux 4.15 - 5.19, Linux 5.0 - 5.14
+Network Distance: 2 hops
+Service Info: OS: Linux; CPE: cpe:/o:linux:linux_kernel
+
+TRACEROUTE (using port 22/tcp)
+HOP RTT       ADDRESS
+1   194.09 ms 10.10.14.1
+2   194.91 ms 10.129.1.153
+
+OS and Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+Nmap done: 1 IP address (1 host up) scanned in 197.90 seconds
+                                                            
 ```
 <div align="center">
 <br>
