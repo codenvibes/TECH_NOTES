@@ -276,6 +276,24 @@ Repository found: https://github.com/K3ysTr0K3R/CVE-2023-43208-EXPLOIT [^2]
 
 #### 3.1. Clone and Prepare the Workspace
 
+```shell
+
+┌──(kali㉿kali)-[~/CS/HTB/Interpreter]
+└─$ git clone https://github.com/K3ysTr0K3R/CVE-2023-43208-EXPLOIT                                             
+Cloning into 'CVE-2023-43208-EXPLOIT'...
+remote: Enumerating objects: 36, done.
+remote: Counting objects: 100% (36/36), done.
+remote: Compressing objects: 100% (28/28), done.
+remote: Total 36 (delta 6), reused 21 (delta 4), pack-reused 0 (from 0)
+Receiving objects: 100% (36/36), 15.28 KiB | 237.00 KiB/s, done.
+Resolving deltas: 100% (6/6), done.
+
+┌──(kali㉿kali)-[~/CS/HTB/Interpreter]
+└─$ cd CVE-2023-43208-EXPLOIT 
+
+
+```
+
 <div align="center">
 <br>
 <br>
