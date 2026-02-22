@@ -158,9 +158,23 @@
                       "icon": "globe-2",
                       "title": "Mastering Interpreter: Beginner's Guide from HackTheBox | The CyberSec Guru"
                     }
+                  },
+                  {
+                    "id": "891cccac67ec3b9d",
+                    "type": "leaf",
+                    "state": {
+                      "type": "webviewer",
+                      "state": {
+                        "url": "https://horizon3.ai/attack-research/disclosures/nextgen-mirth-connect-remote-code-execution/",
+                        "title": "NextGen Mirth Connect Remote Code Execution Vulnerability (CVE-2023-43208) | Horizon3.ai",
+                        "mode": "webview"
+                      },
+                      "icon": "globe-2",
+                      "title": "NextGen Mirth Connect Remote Code Execution Vulnerability (CVE-2023-43208) | Horizon3.ai"
+                    }
                   }
                 ],
-                "currentTab": 2
+                "currentTab": 5
               }
             ],
             "direction": "horizontal"
@@ -493,7 +507,7 @@
       "iconic:Open rulebook": false
     }
   },
-  "active": "3b8b4b24d88a173c",
+  "active": "891cccac67ec3b9d",
   "lastOpenFiles": [
     "CYBER/13 CTFS & LABS/HTB/INTERPRETER.md",
     "ASSETS/horizon3-ai-attack-research-disclosures-nextgen-mirth-connect-remote-code-execution-2026-02-22-13_33_19.png",
