@@ -383,7 +383,7 @@ The Fix:
 <br>
 </div>
 
-#### 3.1. Start your Listener (The "Catcher")
+#### 3.2. Start your Listener (The "Catcher")
 
 Open a **new terminal tab** on your Kali machine. This needs to be running _before_ you launch the exploit so it's ready to catch the incoming connection.
 
