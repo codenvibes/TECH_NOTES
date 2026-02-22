@@ -282,7 +282,7 @@ Most modern applications use a standard structure for their APIs. Even without d
 - `/v1`
 - `/rest`
 
-My ffuf
+My `ffuf` scan confirmed `/api` exists and this is the "Base Path."
 
 <div align="center">
 <br>
