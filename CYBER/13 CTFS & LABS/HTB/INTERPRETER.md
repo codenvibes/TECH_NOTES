@@ -207,7 +207,7 @@ Nmap done: 1 IP address (1 host up) scanned in 197.90 seconds
 Browse to `TARGET_IP`.
 <div align="center"><br><img width="" src="Pasted image 20260222104946.png" alt=""></div>
 
-The version isn't shown here.
+This also confirm.
 <div align="center">
 <br>
 <br>
