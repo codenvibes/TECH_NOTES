@@ -92,7 +92,7 @@ Breakdown:
     - **Description:** All Ports Scan. 
     - **Purpose:** Scans all 65,535 ports. Slower but thorough.
 - `--min-rate 5000`
-	- This is the "Pro" secret. It forces Nmap to send at least 5,000 packets per second. On the HTB VPN, this usually finishes a full scan in **under 1 minute**.
+	- This forces Nmap to send at least 5,000 packets per second. On the HTB VPN, this usually finishes a full scan in **under 1 minute**.
 - **`TARGET_IP`**
     - **Description:** Target Specification.
     - **Purpose:** The IP address of the host being scanned.
