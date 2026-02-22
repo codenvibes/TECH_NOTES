@@ -80,7 +80,7 @@ A successful response confirms that the machine is active and accessible on the 
 
 Before we can attack a system, we need to find out what "doors" are open. Doors in this context are ports. We use a tool called **Nmap** (Network Mapper) to scan the target's IP address and see what services are running.
 
-#### "Spearfishing" Scan (All Ports, High Speed)
+#### Phase 1: The "Spearfishing" Scan (All Ports, High Speed)
 
 Command: `nmap TARGET_IP`
 
@@ -96,24 +96,26 @@ Output:
 
 ```shell
 ┌──(kali㉿kali)-[~]
-└─$ nmap TARGET_IP                  
-Starting Nmap 7.98 ( https://nmap.org ) at 2026-02-22 01:30 -0500
+└─$ nmap -p- --min-rate 5000 -Pn 10.129.1.153        
+Starting Nmap 7.98 ( https://nmap.org ) at 2026-02-22 01:57 -0500
+Warning: 10.129.1.153 giving up on port because retransmission cap hit (10).
 Nmap scan report for 10.129.1.153
-Host is up (0.26s latency).
-Not shown: 997 closed tcp ports (reset)
-PORT    STATE SERVICE
-22/tcp  open  ssh
-80/tcp  open  http
-443/tcp open  https
+Host is up (0.32s latency).
+Not shown: 64926 closed tcp ports (reset), 605 filtered tcp ports (no-response)
+PORT     STATE SERVICE
+22/tcp   open  ssh
+80/tcp   open  http
+443/tcp  open  https
+6661/tcp open  unknown
 
-Nmap done: 1 IP address (1 host up) scanned in 6.10 seconds
+Nmap done: 1 IP address (1 host up) scanned in 46.08 s
 ```
 <div align="center">
 <br>
 <br>
 </div>
 
-#### Aggressive Scan
+#### Phase 2: The "Deep Dive" Scan (Targeted Aggression)
 
 Command: `nmap -A -T4 -p- TARGET_IP`
 
