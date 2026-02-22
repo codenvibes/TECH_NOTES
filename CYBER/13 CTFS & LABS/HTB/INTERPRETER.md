@@ -226,7 +226,7 @@ Output:
 
 ```shell
 ┌──(kali㉿kali)-[~]
-└─$ ffuf -u https://10.129.1.153/api/FUZZ -w /usr/share/wordlists/dirb/common.txt  
+└─$ ffuf -u https://TARGET_IP/api/FUZZ -w /usr/share/wordlists/dirb/common.txt  
 
         /'___\  /'___\           /'___\       
        /\ \__/ /\ \__/  __  __  /\ \__/       
@@ -239,7 +239,7 @@ Output:
 ________________________________________________
 
  :: Method           : GET
- :: URL              : https://10.129.1.153/api/FUZZ
+ :: URL              : https://TARGET_IP/api/FUZZ
  :: Wordlist         : FUZZ: /usr/share/wordlists/dirb/common.txt
  :: Follow redirects : false
  :: Calibration      : false
