@@ -139,7 +139,6 @@ Breakdown:
 Output:
 
 ```shell
-                                                                                                                    
 ┌──(kali㉿kali)-[~]
 └─$ nmap -A -p 22,80,443,6661 10.129.1.153         
 Starting Nmap 7.98 ( https://nmap.org ) at 2026-02-22 02:04 -0500
@@ -179,7 +178,6 @@ HOP RTT       ADDRESS
 
 OS and Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
 Nmap done: 1 IP address (1 host up) scanned in 197.90 seconds
-                                                            
 ```
 <div align="center">
 <br>
