@@ -10,6 +10,7 @@
           {
             "id": "559effcae33b9ff6",
             "type": "split",
+            "dimension": 49.83619983619983,
             "children": [
               {
                 "id": "5fba8451e3d9bb96",
@@ -160,7 +161,7 @@
                     }
                   }
                 ],
-                "currentTab": 2
+                "currentTab": 3
               }
             ],
             "direction": "horizontal"
@@ -168,6 +169,7 @@
           {
             "id": "2bd76ffd9b9717f6",
             "type": "split",
+            "dimension": 50.16380016380017,
             "children": [
               {
                 "id": "96c424c4653196ac",
@@ -506,7 +508,7 @@
       "iconic:Open rulebook": false
     }
   },
-  "active": "99bb3220546c762c",
+  "active": "bea647b1dd44387e",
   "lastOpenFiles": [
     "CYBER/13 CTFS & LABS/THM/OVERPASS.md",
     "CYBER/13 CTFS & LABS/HTB/INTERPRETER.md",
