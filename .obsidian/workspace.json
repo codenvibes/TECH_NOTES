@@ -161,7 +161,7 @@
                     }
                   }
                 ],
-                "currentTab": 3
+                "currentTab": 2
               }
             ],
             "direction": "horizontal"
@@ -508,7 +508,7 @@
       "iconic:Open rulebook": false
     }
   },
-  "active": "bea647b1dd44387e",
+  "active": "3b8b4b24d88a173c",
   "lastOpenFiles": [
     "CYBER/13 CTFS & LABS/THM/OVERPASS.md",
     "CYBER/13 CTFS & LABS/HTB/INTERPRETER.md",
