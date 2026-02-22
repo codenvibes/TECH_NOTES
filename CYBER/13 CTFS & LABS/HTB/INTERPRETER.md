@@ -199,7 +199,7 @@ Nmap done: 1 IP address (1 host up) scanned in 197.90 seconds
 #### 2.2.1. Web Enumeration
 
 Browse to `TARGET_IP`.
-
+<div align="center"><br><img width="" src="Pasted image 20260222104946.png" alt=""></div>
 
 <div align="center">
 <br>
