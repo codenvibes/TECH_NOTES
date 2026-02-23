@@ -91,13 +91,13 @@
                     "state": {
                       "type": "webviewer",
                       "state": {
-                        "url": "https://app.hackthebox.com/seasonal?tab=overview&season_id=13",
-                        "title": "Hack The Box :: Seasonal",
+                        "url": "https://app.hackthebox.com/machines/Facts",
+                        "title": "Hack The Box :: Facts Machine",
                         "mode": "webview"
                       },
                       "pinned": true,
                       "icon": "globe-2",
-                      "title": "Hack The Box :: Seasonal"
+                      "title": "Hack The Box :: Facts Machine"
                     }
                   },
                   {
@@ -174,8 +174,7 @@
                       "title": "Facts (S10)— HTB Writeup. First, this machine is an easy machine… | by wahyudnWis | Feb, 2026 | Medium"
                     }
                   }
-                ],
-                "currentTab": 2
+                ]
               }
             ],
             "direction": "horizontal"
@@ -459,13 +458,12 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "QUICK NOTES/WHITE-BOARD.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of WHITE-BOARD"
+              "title": "Outline"
             }
           },
           {
@@ -523,7 +521,7 @@
       "iconic:Open rulebook": false
     }
   },
-  "active": "21fce08000a30866",
+  "active": "1829a2d1d4c98997",
   "lastOpenFiles": [
     "QUICK NOTES/WHITE-BOARD.md",
     "CYBER/13 CTFS & LABS/HTB/FACTS.md",
