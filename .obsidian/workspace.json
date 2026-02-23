@@ -174,7 +174,8 @@
                       "title": "Facts (S10)— HTB Writeup. First, this machine is an easy machine… | by wahyudnWis | Feb, 2026 | Medium"
                     }
                   }
-                ]
+                ],
+                "currentTab": 2
               }
             ],
             "direction": "horizontal"
@@ -521,7 +522,7 @@
       "iconic:Open rulebook": false
     }
   },
-  "active": "1829a2d1d4c98997",
+  "active": "3b8b4b24d88a173c",
   "lastOpenFiles": [
     "QUICK NOTES/WHITE-BOARD.md",
     "CYBER/13 CTFS & LABS/HTB/FACTS.md",
