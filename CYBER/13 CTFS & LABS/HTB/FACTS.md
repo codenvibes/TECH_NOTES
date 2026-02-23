@@ -76,7 +76,6 @@ A successful response confirms that the machine is active and accessible on the 
 
 ## 2. Enumeration
 
-
 #### 2.1.1. The "Spearfishing" Scan (All Ports, High Speed)
 
 Command: `nmap -p- --min-rate 5000 -Pn TARGET_IP`
@@ -139,9 +138,6 @@ Breakdown:
 Output:
 
 ```shell
-┌──(kali㉿kali)-[~]
-└─$ nmap -A -p 22,80,443,6661 TARGET_IP         
-
 ```
 <div align="center">
 <br>
