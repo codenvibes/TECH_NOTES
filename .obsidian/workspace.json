@@ -35,12 +35,14 @@
                   {
                     "id": "6b2536b183f7f9a6",
                     "type": "leaf",
+                    "pinned": true,
                     "state": {
                       "type": "bases",
                       "state": {
                         "file": "SOFT SKILLS & CAREER/PIRP.base",
                         "viewName": "INTERVIEWS"
                       },
+                      "pinned": true,
                       "icon": "lucide-layout-grid",
                       "title": "PIRP"
                     }
@@ -77,7 +79,7 @@
                     }
                   }
                 ],
-                "currentTab": 3
+                "currentTab": 1
               },
               {
                 "id": "eb7c5c7906b2a9d3",
@@ -395,8 +397,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 288.703125,
-    "collapsed": true
+    "width": 288.703125
   },
   "right": {
     "id": "26820c7e22c27caf",
@@ -458,12 +459,13 @@
             "state": {
               "type": "outline",
               "state": {
+                "file": "SOFT SKILLS & CAREER/PIRP.base",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline"
+              "title": "Outline of PIRP"
             }
           },
           {
@@ -521,10 +523,12 @@
       "iconic:Open rulebook": false
     }
   },
-  "active": "1829a2d1d4c98997",
+  "active": "6b2536b183f7f9a6",
   "lastOpenFiles": [
-    "QUICK NOTES/WHITE-BOARD.md",
     "CYBER/13 CTFS & LABS/HTB/FACTS.md",
+    "SOFT SKILLS & CAREER/INTERVIEWS/CYBERSHUJAA TRAINER.md",
+    "SOFT SKILLS & CAREER/PIRP.base",
+    "QUICK NOTES/WHITE-BOARD.md",
     "CYBER/13 CTFS & LABS/HTB/INTERPRETER.md",
     "CYBER/13 CTFS & LABS/THM/OVERPASS.md",
     "ASSETS/horizon3-ai-attack-research-disclosures-nextgen-mirth-connect-remote-code-execution-2026-02-22-13_33_19.png",
@@ -546,7 +550,6 @@
     "ASSETS/NextGen Mirth Connect Remote Code Execution Vulnerability (CVE-2023-43208) _ Horizon3.ai_files/fontfaceobserver.min.js.download",
     "ASSETS/NextGen Mirth Connect Remote Code Execution Vulnerability (CVE-2023-43208) _ Horizon3.ai_files/frontend.js.download",
     "ASSETS/NextGen Mirth Connect Remote Code Execution Vulnerability (CVE-2023-43208) _ Horizon3.ai_files/aiwp-public.js.download",
-    "ASSETS/NextGen Mirth Connect Remote Code Execution Vulnerability (CVE-2023-43208) _ Horizon3.ai_files/jquery-migrate.min.js.download",
     "COURSES/CYBER SHUJAA/CLOUD AND NETWORK SECURITY.md",
     "TEMPLATES/CTF WRITEUP.md",
     "CYBER/04 EXPLOITATION/METASPLOIT FRAMEWORK/10 METERPRETER.md",
@@ -567,7 +570,6 @@
     "COURSES/THM/WEB FUNDAMENTALS.md",
     "COURSES/THM/SOC LEVEL 2.md",
     "COURSES/THM/SECURITY ENGINEER.md",
-    "COURSES/THM/JR PENETRATION TESTER.md",
     "Untitled.canvas"
   ]
 }
