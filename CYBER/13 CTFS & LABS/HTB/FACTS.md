@@ -99,20 +99,6 @@ Breakdown:
 Output:
 
 ```shell
-┌──(kali㉿kali)-[~]
-└─$ nmap -p- --min-rate 5000 -Pn TARGET_IP       
-Starting Nmap 7.98 ( https://nmap.org ) at 2026-02-22 01:57 -0500
-Warning: TARGET_IP giving up on port because retransmission cap hit (10).
-Nmap scan report for TARGET_IP
-Host is up (0.32s latency).
-Not shown: 64926 closed tcp ports (reset), 605 filtered tcp ports (no-response)
-PORT     STATE SERVICE
-22/tcp   open  ssh
-80/tcp   open  http
-443/tcp  open  https
-6661/tcp open  unknown
-
-Nmap done: 1 IP address (1 host up) scanned in 46.08 s
 ```
 <div align="center">
 <br>
@@ -130,7 +116,7 @@ Breakdown:
 - `-sV`
     - **Description:** Version Detection.
     - **Purpose:** Probes open ports to determine what software and version are actually running (e.g., identifying "Jetty" or "OpenSSH 9.2").
-- `-p 22,80,443,6661`
+- `-p`
     - **Description:** Targeted Port List.
     - **Purpose:** Restricts the heavy scanning to only the ports you confirmed are open, saving significant time and processing power.
 
