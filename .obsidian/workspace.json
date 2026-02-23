@@ -123,7 +123,7 @@
                     "state": {
                       "type": "webviewer",
                       "state": {
-                        "url": "https://gemini.google.com/app/a173122040a10aad",
+                        "url": "https://gemini.google.com/app",
                         "title": "Google Gemini",
                         "mode": "webview"
                       },
