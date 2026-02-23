@@ -397,7 +397,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 288.703125
+    "width": 288.703125,
+    "collapsed": true
   },
   "right": {
     "id": "26820c7e22c27caf",
@@ -526,8 +527,9 @@
   "active": "6b2536b183f7f9a6",
   "lastOpenFiles": [
     "CYBER/13 CTFS & LABS/HTB/FACTS.md",
-    "SOFT SKILLS & CAREER/INTERVIEWS/CYBERSHUJAA TRAINER.md",
+    "SOFT SKILLS & CAREER/PRESENTATIONS/CYBER SHUJAA TRAINER PRESENTATION.pdf",
     "SOFT SKILLS & CAREER/PIRP.base",
+    "SOFT SKILLS & CAREER/INTERVIEWS/CYBERSHUJAA TRAINER.md",
     "QUICK NOTES/WHITE-BOARD.md",
     "CYBER/13 CTFS & LABS/HTB/INTERPRETER.md",
     "CYBER/13 CTFS & LABS/THM/OVERPASS.md",
@@ -549,7 +551,6 @@
     "ASSETS/NextGen Mirth Connect Remote Code Execution Vulnerability (CVE-2023-43208) _ Horizon3.ai_files/wp-emoji-release.min.js.download",
     "ASSETS/NextGen Mirth Connect Remote Code Execution Vulnerability (CVE-2023-43208) _ Horizon3.ai_files/fontfaceobserver.min.js.download",
     "ASSETS/NextGen Mirth Connect Remote Code Execution Vulnerability (CVE-2023-43208) _ Horizon3.ai_files/frontend.js.download",
-    "ASSETS/NextGen Mirth Connect Remote Code Execution Vulnerability (CVE-2023-43208) _ Horizon3.ai_files/aiwp-public.js.download",
     "COURSES/CYBER SHUJAA/CLOUD AND NETWORK SECURITY.md",
     "TEMPLATES/CTF WRITEUP.md",
     "CYBER/04 EXPLOITATION/METASPLOIT FRAMEWORK/10 METERPRETER.md",
