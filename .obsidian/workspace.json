@@ -15,7 +15,7 @@
               {
                 "id": "5fba8451e3d9bb96",
                 "type": "tabs",
-                "dimension": 20.38961038961039,
+                "dimension": 46.81818181818182,
                 "children": [
                   {
                     "id": "d6e3d74256db3bbc",
@@ -77,12 +77,12 @@
                     }
                   }
                 ],
-                "currentTab": 2
+                "currentTab": 3
               },
               {
                 "id": "eb7c5c7906b2a9d3",
                 "type": "tabs",
-                "dimension": 79.6103896103896,
+                "dimension": 53.18181818181819,
                 "children": [
                   {
                     "id": "1829a2d1d4c98997",
@@ -459,12 +459,13 @@
             "state": {
               "type": "outline",
               "state": {
+                "file": "QUICK NOTES/WHITE-BOARD.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline"
+              "title": "Outline of WHITE-BOARD"
             }
           },
           {
@@ -522,7 +523,7 @@
       "iconic:Open rulebook": false
     }
   },
-  "active": "eb8e3593f0be0e87",
+  "active": "21fce08000a30866",
   "lastOpenFiles": [
     "CYBER/13 CTFS & LABS/HTB/FACTS.md",
     "CYBER/13 CTFS & LABS/HTB/INTERPRETER.md",
