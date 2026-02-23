@@ -159,9 +159,23 @@
                       "icon": "globe-2",
                       "title": "Mastering Interpreter: Beginner's Guide from HackTheBox | The CyberSec Guru"
                     }
+                  },
+                  {
+                    "id": "eb8e3593f0be0e87",
+                    "type": "leaf",
+                    "state": {
+                      "type": "webviewer",
+                      "state": {
+                        "url": "https://medium.com/@mwahyudinwisesar/facts-s10-htb-writeup-3f6369768e57",
+                        "title": "Facts (S10)— HTB Writeup. First, this machine is an easy machine… | by wahyudnWis | Feb, 2026 | Medium",
+                        "mode": "blank"
+                      },
+                      "icon": "globe-2",
+                      "title": "Facts (S10)— HTB Writeup. First, this machine is an easy machine… | by wahyudnWis | Feb, 2026 | Medium"
+                    }
                   }
                 ],
-                "currentTab": 3
+                "currentTab": 5
               }
             ],
             "direction": "horizontal"
@@ -174,7 +188,7 @@
               {
                 "id": "96c424c4653196ac",
                 "type": "tabs",
-                "dimension": 67.46753246753246,
+                "dimension": 87.01298701298701,
                 "children": [
                   {
                     "id": "10dd2c9178155b52",
@@ -235,12 +249,12 @@
                     }
                   }
                 ],
-                "currentTab": 3
+                "currentTab": 2
               },
               {
                 "id": "ebc3d89584b2ffd8",
                 "type": "tabs",
-                "dimension": 32.532467532467535,
+                "dimension": 12.987012987012985,
                 "children": [
                   {
                     "id": "1ed32a33f41cf25f",
@@ -445,12 +459,13 @@
             "state": {
               "type": "outline",
               "state": {
+                "file": "CYBER/13 CTFS & LABS/HTB/FACTS.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline"
+              "title": "Outline of FACTS"
             }
           },
           {
@@ -508,7 +523,7 @@
       "iconic:Open rulebook": false
     }
   },
-  "active": "bea647b1dd44387e",
+  "active": "00bc5b978594dd0c",
   "lastOpenFiles": [
     "CYBER/13 CTFS & LABS/THM/OVERPASS.md",
     "CYBER/13 CTFS & LABS/HTB/INTERPRETER.md",
