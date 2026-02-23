@@ -91,13 +91,13 @@
                     "state": {
                       "type": "webviewer",
                       "state": {
-                        "url": "https://app.hackthebox.com/machines/Interpreter?sort_by=created_at&sort_type=desc",
-                        "title": "Hack The Box :: Interpreter Machine",
+                        "url": "https://app.hackthebox.com/machines/Facts?sort_by=created_at&sort_type=desc",
+                        "title": "Hack The Box :: Facts Machine",
                         "mode": "webview"
                       },
                       "pinned": true,
                       "icon": "globe-2",
-                      "title": "Hack The Box :: Interpreter Machine"
+                      "title": "Hack The Box :: Facts Machine"
                     }
                   },
                   {
@@ -174,7 +174,8 @@
                       "title": "Facts (S10)— HTB Writeup. First, this machine is an easy machine… | by wahyudnWis | Feb, 2026 | Medium"
                     }
                   }
-                ]
+                ],
+                "currentTab": 5
               }
             ],
             "direction": "horizontal"
@@ -521,7 +522,7 @@
       "iconic:Open rulebook": false
     }
   },
-  "active": "1829a2d1d4c98997",
+  "active": "eb8e3593f0be0e87",
   "lastOpenFiles": [
     "CYBER/13 CTFS & LABS/HTB/FACTS.md",
     "CYBER/13 CTFS & LABS/HTB/INTERPRETER.md",
