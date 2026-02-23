@@ -76,22 +76,25 @@ A successful response confirms that the machine is active and accessible on the 
 
 ## 2. Enumeration
 
-#### 2.1.1. The "Spearfishing" Scan (All Ports, High Speed)
+### 2.1. Port Scan with Nmap
 
-Command: `nmap -p- --min-rate 5000 -Pn TARGET_IP`
+Before we can attack a system, we need to find out what "doors" are open. Doors in this context are ports. We use a tool called **Nmap** (Network Mapper) to scan the target's IP address and see what services are running.
+
+Command: `nmap -A -T4 -p- TARGET_IP`
 
 Breakdown:
 - **`nmap`**
     - **Description:** The utility itself.
+    - **Purpose:** Starts the network scanning application.
+- **`-A`**
+    - **Description:** Aggressive Scan.
+    - **Purpose:** Enables OS detection, version detection, script scanning, and traceroute. Comprehensive but noisier.
+- **`-T4`**
+    - **Description:** Timing Template 4 (Aggressive).
+    - **Purpose:** Speeds up the scan with more aggressive timing. Faster but may be less accurate or trigger IDS/IPS.
 - **`-p-`**
     - **Description:** All Ports Scan. 
     - **Purpose:** Scans all 65,535 ports. Slower but thorough.
-- `--min-rate 5000`
-	- **Description:** Minimum Packet Rate.
-	- **Purpose:** Forces Nmap to send at least 5,000 packets per second. This drastically reduces scan time on stable networks like the HTB VPN.
-- `-Pn`
-    - **Description:** Skip Host Discovery.
-    - **Purpose:** Treats the host as "online" even if it doesn't respond to pings (ICMP). Many HTB boxes have firewalls that block pings.
 - **`TARGET_IP`**
     - **Description:** Target Specification.
     - **Purpose:** The IP address of the host being scanned.
@@ -100,68 +103,12 @@ Output:
 
 ```shell
 ┌──(kali㉿kali)-[~]
-└─$ nmap -p- --min-rate 5000 -Pn 10.129.4.3  
-Starting Nmap 7.98 ( https://nmap.org ) at 2026-02-23 08:46 -0500
-Warning: 10.129.4.3 giving up on port because retransmission cap hit (10).
-Nmap scan report for 10.129.4.3
+└─$ nmap -A -T4 -p- TARGET_IP
+Starting Nmap 7.95 ( https://nmap.org ) at 2026-02-15 08:59 EST
+Warning: 10.129.4.179 giving up on port because retransmission cap hit (6).
+Nmap scan report for 10.129.4.179
 Host is up (0.28s latency).
-Not shown: 65513 closed tcp ports (reset)
-PORT      STATE    SERVICE
-22/tcp    open     ssh
-80/tcp    open     http
-217/tcp   filtered dbase
-3615/tcp  filtered start-network
-7949/tcp  filtered unknown
-9950/tcp  filtered apc-9950
-12724/tcp filtered unknown
-13122/tcp filtered unknown
-17541/tcp filtered unknown
-18737/tcp filtered unknown
-18903/tcp filtered unknown
-34584/tcp filtered unknown
-34618/tcp filtered unknown
-36754/tcp filtered unknown
-38375/tcp filtered unknown
-42612/tcp filtered unknown
-42776/tcp filtered unknown
-43615/tcp filtered unknown
-54321/tcp open     unknown
-59307/tcp filtered unknown
-61782/tcp filtered unknown
-64434/tcp filtered unknown
-
-Nmap done: 1 IP address (1 host up) scanned in 34.82 seconds
-```
-<div align="center">
-<br>
-<br>
-</div>
-
-#### 2.1.2. The "Deep Dive" Scan (Targeted Aggression)
-
-Command: `nmap -A -p p1,p2,p3,p4 TARGET_IP`
-
-Breakdown:
-- `-sC`
-    - **Description:** Default Script Scan.
-    - **Purpose:** Runs a collection built-in Nmap Scripting Engine (NSE) scripts to find common vulnerabilities, metadata, or hidden info.
-- `-sV`
-    - **Description:** Version Detection.
-    - **Purpose:** Probes open ports to determine what software and version are actually running (e.g., identifying "Jetty" or "OpenSSH 9.2").
-- `-p`
-    - **Description:** Targeted Port List.
-    - **Purpose:** Restricts the heavy scanning to only the ports you confirmed are open, saving significant time and processing power.
-
-
-Output:
-
-```shell
-┌──(kali㉿kali)-[~]
-└─$ nmap -A -p 22,80,54321 10.129.4.3      
-Starting Nmap 7.98 ( https://nmap.org ) at 2026-02-23 08:48 -0500
-Nmap scan report for 10.129.4.3
-Host is up (0.26s latency).
-
+Not shown: 65473 closed tcp ports (reset), 59 filtered tcp ports (no-response)
 PORT      STATE SERVICE VERSION
 22/tcp    open  ssh     OpenSSH 9.9p1 Ubuntu 3ubuntu3.2 (Ubuntu Linux; protocol 2.0)
 | ssh-hostkey: 
@@ -181,12 +128,12 @@ PORT      STATE SERVICE VERSION
 |     Strict-Transport-Security: max-age=31536000; includeSubDomains
 |     Vary: Origin
 |     X-Amz-Id-2: dd9025bab4ad464b049177c95eb6ebf374d3b3fd1af9251148b658df7ac2e3e8
-|     X-Amz-Request-Id: 1896E4521768128A
+|     X-Amz-Request-Id: 189471BBB1E5B88E
 |     X-Content-Type-Options: nosniff
 |     X-Xss-Protection: 1; mode=block
-|     Date: Mon, 23 Feb 2026 13:49:04 GMT
+|     Date: Sun, 15 Feb 2026 14:26:44 GMT
 |     <?xml version="1.0" encoding="UTF-8"?>
-|     <Error><Code>InvalidRequest</Code><Message>Invalid Request (invalid argument)</Message><Resource>/nice ports,/Trinity.txt.bak</Resource><RequestId>1896E4521768128A</RequestId><HostId>dd9025bab4ad464b049177c95eb6ebf374d3b3fd1af9251148b658df7ac2e3e8</HostId></Error>
+|     <Error><Code>InvalidRequest</Code><Message>Invalid Request (invalid argument)</Message><Resource>/nice ports,/Trinity.txt.bak</Resource><RequestId>189471BBB1E5B88E</RequestId><HostId>dd9025bab4ad464b049177c95eb6ebf374d3b3fd1af9251148b658df7ac2e3e8</HostId></Error>
 |   GenericLines, Help, RTSPRequest, SSLSessionReq: 
 |     HTTP/1.1 400 Bad Request
 |     Content-Type: text/plain; charset=utf-8
@@ -201,21 +148,21 @@ PORT      STATE SERVICE VERSION
 |     Strict-Transport-Security: max-age=31536000; includeSubDomains
 |     Vary: Origin
 |     X-Amz-Id-2: dd9025bab4ad464b049177c95eb6ebf374d3b3fd1af9251148b658df7ac2e3e8
-|     X-Amz-Request-Id: 1896E44CFEA01D99
+|     X-Amz-Request-Id: 189471B75224E8CB
 |     X-Content-Type-Options: nosniff
 |     X-Xss-Protection: 1; mode=block
-|     Date: Mon, 23 Feb 2026 13:48:42 GMT
+|     Date: Sun, 15 Feb 2026 14:26:25 GMT
 |     <?xml version="1.0" encoding="UTF-8"?>
-|     <Error><Code>InvalidRequest</Code><Message>Invalid Request (invalid argument)</Message><Resource>/</Resource><RequestId>1896E44CFEA01D99</RequestId><HostId>dd9025bab4ad464b049177c95eb6ebf374d3b3fd1af9251148b658df7ac2e3e8</HostId></Error>
+|     <Error><Code>InvalidRequest</Code><Message>Invalid Request (invalid argument)</Message><Resource>/</Resource><RequestId>189471B75224E8CB</RequestId><HostId>dd9025bab4ad464b049177c95eb6ebf374d3b3fd1af9251148b658df7ac2e3e8</HostId></Error>
 |   HTTPOptions: 
 |     HTTP/1.0 200 OK
 |     Vary: Origin
-|     Date: Mon, 23 Feb 2026 13:48:43 GMT
+|     Date: Sun, 15 Feb 2026 14:26:26 GMT
 |_    Content-Length: 0
 |_http-server-header: MinIO
-|_http-title: Did not follow redirect to http://10.129.4.3:9001
+|_http-title: Did not follow redirect to http://10.129.4.179:9001
 1 service unrecognized despite returning data. If you know the service/version, please submit the following fingerprint at https://nmap.org/cgi-bin/submit.cgi?new-service :
-SF-Port54321-TCP:V=7.98%I=7%D=2/23%Time=699C5ABA%P=x86_64-pc-linux-gnu%r(G
+SF-Port54321-TCP:V=7.95%I=7%D=2/15%Time=6991D790%P=x86_64-pc-linux-gnu%r(G
 SF:enericLines,67,"HTTP/1\.1\x20400\x20Bad\x20Request\r\nContent-Type:\x20
 SF:text/plain;\x20charset=utf-8\r\nConnection:\x20close\r\n\r\n400\x20Bad\
 SF:x20Request")%r(GetRequest,2B0,"HTTP/1\.0\x20400\x20Bad\x20Request\r\nAc
@@ -223,15 +170,15 @@ SF:cept-Ranges:\x20bytes\r\nContent-Length:\x20276\r\nContent-Type:\x20app
 SF:lication/xml\r\nServer:\x20MinIO\r\nStrict-Transport-Security:\x20max-a
 SF:ge=31536000;\x20includeSubDomains\r\nVary:\x20Origin\r\nX-Amz-Id-2:\x20
 SF:dd9025bab4ad464b049177c95eb6ebf374d3b3fd1af9251148b658df7ac2e3e8\r\nX-A
-SF:mz-Request-Id:\x201896E44CFEA01D99\r\nX-Content-Type-Options:\x20nosnif
-SF:f\r\nX-Xss-Protection:\x201;\x20mode=block\r\nDate:\x20Mon,\x2023\x20Fe
-SF:b\x202026\x2013:48:42\x20GMT\r\n\r\n<\?xml\x20version=\"1\.0\"\x20encod
+SF:mz-Request-Id:\x20189471B75224E8CB\r\nX-Content-Type-Options:\x20nosnif
+SF:f\r\nX-Xss-Protection:\x201;\x20mode=block\r\nDate:\x20Sun,\x2015\x20Fe
+SF:b\x202026\x2014:26:25\x20GMT\r\n\r\n<\?xml\x20version=\"1\.0\"\x20encod
 SF:ing=\"UTF-8\"\?>\n<Error><Code>InvalidRequest</Code><Message>Invalid\x2
 SF:0Request\x20\(invalid\x20argument\)</Message><Resource>/</Resource><Req
-SF:uestId>1896E44CFEA01D99</RequestId><HostId>dd9025bab4ad464b049177c95eb6
+SF:uestId>189471B75224E8CB</RequestId><HostId>dd9025bab4ad464b049177c95eb6
 SF:ebf374d3b3fd1af9251148b658df7ac2e3e8</HostId></Error>")%r(HTTPOptions,5
-SF:9,"HTTP/1\.0\x20200\x20OK\r\nVary:\x20Origin\r\nDate:\x20Mon,\x2023\x20
-SF:Feb\x202026\x2013:48:43\x20GMT\r\nContent-Length:\x200\r\n\r\n")%r(RTSP
+SF:9,"HTTP/1\.0\x20200\x20OK\r\nVary:\x20Origin\r\nDate:\x20Sun,\x2015\x20
+SF:Feb\x202026\x2014:26:26\x20GMT\r\nContent-Length:\x200\r\n\r\n")%r(RTSP
 SF:Request,67,"HTTP/1\.1\x20400\x20Bad\x20Request\r\nContent-Type:\x20text
 SF:/plain;\x20charset=utf-8\r\nConnection:\x20close\r\n\r\n400\x20Bad\x20R
 SF:equest")%r(Help,67,"HTTP/1\.1\x20400\x20Bad\x20Request\r\nContent-Type:
@@ -243,15 +190,14 @@ SF:0400\x20Bad\x20Request\r\nAccept-Ranges:\x20bytes\r\nContent-Length:\x2
 SF:0303\r\nContent-Type:\x20application/xml\r\nServer:\x20MinIO\r\nStrict-
 SF:Transport-Security:\x20max-age=31536000;\x20includeSubDomains\r\nVary:\
 SF:x20Origin\r\nX-Amz-Id-2:\x20dd9025bab4ad464b049177c95eb6ebf374d3b3fd1af
-SF:9251148b658df7ac2e3e8\r\nX-Amz-Request-Id:\x201896E4521768128A\r\nX-Con
+SF:9251148b658df7ac2e3e8\r\nX-Amz-Request-Id:\x20189471BBB1E5B88E\r\nX-Con
 SF:tent-Type-Options:\x20nosniff\r\nX-Xss-Protection:\x201;\x20mode=block\
-SF:r\nDate:\x20Mon,\x2023\x20Feb\x202026\x2013:49:04\x20GMT\r\n\r\n<\?xml\
+SF:r\nDate:\x20Sun,\x2015\x20Feb\x202026\x2014:26:44\x20GMT\r\n\r\n<\?xml\
 SF:x20version=\"1\.0\"\x20encoding=\"UTF-8\"\?>\n<Error><Code>InvalidReque
 SF:st</Code><Message>Invalid\x20Request\x20\(invalid\x20argument\)</Messag
-SF:e><Resource>/nice\x20ports,/Trinity\.txt\.bak</Resource><RequestId>1896
-SF:E4521768128A</RequestId><HostId>dd9025bab4ad464b049177c95eb6ebf374d3b3f
+SF:e><Resource>/nice\x20ports,/Trinity\.txt\.bak</Resource><RequestId>1894
+SF:71BBB1E5B88E</RequestId><HostId>dd9025bab4ad464b049177c95eb6ebf374d3b3f
 SF:d1af9251148b658df7ac2e3e8</HostId></Error>");
-Warning: OSScan results may be unreliable because we could not find at least 1 open and 1 closed port
 Device type: general purpose|router
 Running: Linux 4.X|5.X, MikroTik RouterOS 7.X
 OS CPE: cpe:/o:linux:linux_kernel:4 cpe:/o:linux:linux_kernel:5 cpe:/o:mikrotik:routeros:7 cpe:/o:linux:linux_kernel:5.6.3
@@ -261,30 +207,35 @@ Service Info: OS: Linux; CPE: cpe:/o:linux:linux_kernel
 
 TRACEROUTE (using port 80/tcp)
 HOP RTT       ADDRESS
-1   261.62 ms 10.10.14.1
-2   261.63 ms 10.129.4.3
+1   274.81 ms 10.10.14.1
+2   277.47 ms 10.129.4.179
 
 OS and Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
-Nmap done: 1 IP address (1 host up) scanned in 56.28 seconds
+Nmap done: 1 IP address (1 host up) scanned in 1682.44 seconds
 ```
-<div align="center">
-<br>
-<br>
-</div>
 
-#### 2.1.3. Scan Results Analysis
+When you see `Did not follow redirect to http://facts.htb/` in Nmap, the server is essentially saying:
 
-| **Service** | **Version** | **Analysis** |
-| ----------- | ----------- | ------------ |
-|             |             |              |
+"I know you're at `TARGET_IP`, but I am configured to only talk to people who call me `facts.htb`."
 
+This is a **301 (Permanent)** or **302 (Found)** redirect. Browsers follow this automatically, but Nmap just reports it. If the name isn't in your `/etc/hosts`, the browser follows the redirect into a "Dead End."
 <div align="center">
 <br>
 ※※※※※※※※※※※※※※※※※※※※※※※※
 <br>
 <br>
 </div>
+### 2.2. Enumeration of Web Services (Port 80)
 
+#### Update Hosts File
+
+Command: `sudo sh -c 'echo "TARGET_IP facts.htb" >> /etc/hosts'`
+<div align="center">
+<br>
+※※※※※※※※※※※※※※※※※※※※※※※※
+<br>
+<br>
+</div>
 #### Web Enumeration
 
 Browse to `http://facts.htb`.
