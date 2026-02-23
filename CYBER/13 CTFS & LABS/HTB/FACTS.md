@@ -107,7 +107,7 @@ Output:
 
 #### 2.1.2. The "Deep Dive" Scan (Targeted Aggression)
 
-Command: `nmap -A -p 22,80,443,6661 TARGET_IP  `
+Command: `nmap -A -p p1,p2,p3,p4 TARGET_IP`
 
 Breakdown:
 - `-sC`

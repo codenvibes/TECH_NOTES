@@ -125,7 +125,7 @@ Nmap done: 1 IP address (1 host up) scanned in 46.08 s
 
 #### 2.1.2. The "Deep Dive" Scan (Targeted Aggression)
 
-Command: `nmap -A -p 22,80,443,6661 TARGET_IP  `
+Command: `nmap -A -p p1,p2,p3,p4 TARGET_IP`
 
 Breakdown:
 - `-sC`
@@ -134,7 +134,7 @@ Breakdown:
 - `-sV`
     - **Description:** Version Detection.
     - **Purpose:** Probes open ports to determine what software and version are actually running (e.g., identifying "Jetty" or "OpenSSH 9.2").
-- `-p 22,80,443,6661`
+- `-p`
     - **Description:** Targeted Port List.
     - **Purpose:** Restricts the heavy scanning to only the ports you confirmed are open, saving significant time and processing power.
 
