@@ -489,7 +489,7 @@ Create an account and login:
 
 #### 2.2.5 Vulnerability Research & Exploit Identification
 
-The dashboard footer explicitly identifies the site as running **Camaleon CMS version 2.9.0**. With this information,  for known weaknesses that could lead to a compromise.
+The dashboard footer explicitly identifies the site as running **Camaleon CMS version 2.9.0**. With this information, we can search for known weaknesses that could lead to a compromise.
 
 **CMS Detection**: 
 Search online for "Camaleon CMS 2.9.0 exploit."
