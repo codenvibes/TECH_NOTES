@@ -473,6 +473,7 @@ The most interesting hit is `/admin`
 <br>
 </div>
 
+#### 2.2.4. Visit the Admin Page
 
 <div align="center">
 <br>
