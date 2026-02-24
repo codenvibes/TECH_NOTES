@@ -475,12 +475,13 @@
             "state": {
               "type": "outline",
               "state": {
+                "file": "SOFT SKILLS & CAREER/PIRP.base",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline"
+              "title": "Outline of PIRP"
             }
           },
           {
@@ -538,7 +539,7 @@
       "iconic:Open rulebook": false
     }
   },
-  "active": "3b8b4b24d88a173c",
+  "active": "6b2536b183f7f9a6",
   "lastOpenFiles": [
     "CYBER/13 CTFS & LABS/HTB/FACTS.md",
     "CYBER/13 CTFS & LABS/HTB/INTERPRETER.md",
