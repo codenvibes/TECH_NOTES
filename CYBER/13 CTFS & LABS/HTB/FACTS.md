@@ -338,18 +338,15 @@ When you type a URL like `google.com` or `facts.htb` into your browser, your com
 - **HTB Sites:** `facts.htb` is a **private domain** inside the HTB lab environment. Public DNS servers have no idea it exists. Because your computer can't find an "official" record, it gives you a "Server Not Found" error—unless you write the address into your private address book (`/etc/hosts`) yourself.
 <div align="center">
 <br>
-※※※※※※※※※※※※※※※※※※※※※※※※
-<br>
 <br>
 </div>
+
 #### 2.2.2. Web Enumeration
 
 Browse to `http://facts.htb`.
 
 ![[Pasted image 20260215184146.png]]
 <div align="center">
-<br>
-※※※※※※※※※※※※※※※※※※※※※※※※
 <br>
 <br>
 </div>
@@ -468,8 +465,6 @@ welcome                 [Status: 200, Size: 11966, Words: 1481, Lines: 130, Dura
 The most interesting hit is `/admin`
 <div align="center">
 <br>
-※※※※※※※※※※※※※※※※※※※※※※※※
-<br>
 <br>
 </div>
 
@@ -481,8 +476,6 @@ Create an account and login:
 
 ![[Pasted image 20260224153439.png]]
 <div align="center">
-<br>
-※※※※※※※※※※※※※※※※※※※※※※※※
 <br>
 <br>
 </div>
