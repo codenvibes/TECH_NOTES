@@ -502,7 +502,7 @@ Repository found: CVE-2023-43208 — Mirth Connect Pre-Auth RCE.[^1]
 
 ### 3.1. Exploit Acquisition and Preparation
 
-Cloned the repository from GitHub to my local attack machine
+Clone the repository from GitHub to your local attack machine.
 
 ```shell
 ┌──(kali㉿kali)-[~/CS/HTB/Facts]
