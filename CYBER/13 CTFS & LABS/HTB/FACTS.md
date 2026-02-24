@@ -475,7 +475,9 @@ The most interesting hit is `/admin`
 
 #### 2.2.4. Visit the Admin Page
 
+![[Pasted image 20260224152519.png]]
 
+Create an account and login
 
 <div align="center">
 <br>
