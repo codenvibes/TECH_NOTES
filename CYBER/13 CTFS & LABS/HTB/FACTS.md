@@ -76,6 +76,10 @@ A successful response confirms that the machine is active and accessible on the 
 
 ## 2. Enumeration
 
+### 2.1. Port Scan with Nmap
+
+Before we can attack a system, we need to find out what "doors" are open. Doors in this context are ports. We use a tool called **Nmap** (Network Mapper) to scan the target's IP address and see what services are running.
+
 #### 2.1.1. The "Spearfishing" Scan (All Ports, High Speed)
 
 Command: `nmap -p- --min-rate 5000 -Pn TARGET_IP`
