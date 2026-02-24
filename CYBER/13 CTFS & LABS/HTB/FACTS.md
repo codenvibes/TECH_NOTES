@@ -534,17 +534,19 @@ CVE-2023-43208
 
 Poc Audit:
 
-```
-                                                                                                                    
+```shell
 ┌──(kali㉿kali)-[~/CS/HTB/Facts]
 └─$ cd CVE-2023-43208 
-                                                                                                                    
+
 ┌──(kali㉿kali)-[~/CS/HTB/Facts/CVE-2023-43208]
 └─$ ls
 exploit.py  README.md
-                                                                                                                    
+
 ┌──(kali㉿kali)-[~/CS/HTB/Facts/CVE-2023-43208]
-└─$ cat exploit.py   
+└─$ cat exploit.py
+```
+
+```python
 #!/usr/bin/env python3
 """
 CVE-2023-43208 — Mirth Connect Pre-Authenticated Remote Code Execution
@@ -1059,7 +1061,6 @@ def main():
 
 if __name__ == "__main__":
     main()
-
 ```
 
 
