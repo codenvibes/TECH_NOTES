@@ -255,12 +255,12 @@
                     "state": {
                       "type": "markdown",
                       "state": {
-                        "file": "CYBER/01 CORE CONCEPTS/WEB BASICS/DNS IN DETAIL.md",
+                        "file": "CYBER/01 CORE CONCEPTS/WEB BASICS/WEB REQUESTS.md",
                         "mode": "source",
                         "source": false
                       },
                       "icon": "lucide-file",
-                      "title": "DNS IN DETAIL"
+                      "title": "WEB REQUESTS"
                     }
                   }
                 ],
@@ -407,12 +407,12 @@
               "title": "Bookmarks"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
-    "width": 288.703125
+    "width": 288.703125,
+    "collapsed": true
   },
   "right": {
     "id": "26820c7e22c27caf",
@@ -474,13 +474,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "CYBER/01 CORE CONCEPTS/WEB BASICS/DNS IN DETAIL.md",
+                "file": "CYBER/01 CORE CONCEPTS/WEB BASICS/WEB REQUESTS.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of DNS IN DETAIL"
+              "title": "Outline of WEB REQUESTS"
             }
           },
           {
@@ -538,8 +538,11 @@
       "iconic:Open rulebook": false
     }
   },
-  "active": "8089db5984bed9f9",
+  "active": "a63a3f01ebb65ff6",
   "lastOpenFiles": [
+    "CYBER/01 CORE CONCEPTS/NETWORKING FUNDAMENTALS/14 COMMON PROTOCOLS.md",
+    "CYBER/13 CTFS & LABS/THM/AOC 2025/AOC DAY01 - LINUX CLI - SHELLS BELLS.md",
+    "CYBER/01 CORE CONCEPTS/WEB BASICS/DNS IN DETAIL.md",
     "CYBER/01 CORE CONCEPTS/WEB BASICS/INTRODUCTION TO WEB APPLICATIONS.md",
     "CYBER/01 CORE CONCEPTS/WEB BASICS/HOW WEBSITES WORK.md",
     "COURSES/THM/WEB FUNDAMENTALS.md",
@@ -583,9 +586,6 @@
     "COURSES/THM/RED TEAMING.md",
     "COURSES/THM/ATTACKING AND DEFENDING AWS.md",
     "COURSES/THM/SOC LEVEL 1.md",
-    "COURSES/THM/WEB APPLICATION PENTESTING.md",
-    "COURSES/THM/ADVANCED ENDPOINT INVESTIGATIONS.md",
-    "COURSES/THM/DEVSECOPS.md",
     "Untitled.canvas"
   ]
 }
