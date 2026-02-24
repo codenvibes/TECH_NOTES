@@ -274,11 +274,11 @@ Nmap done: 1 IP address (1 host up) scanned in 56.28 seconds
 
 #### 2.1.3. Scan Results Analysis
 
-| **Service**       | **Version**             | **Analysis**                                                                                                                                                             |
-| ----------------- | ----------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
-| **SSH** (22)      | OpenSSH 9.9p1           | Standard SSH service running on **Ubuntu Linux**. The version is quite recent, suggesting the OS is likely Ubuntu 24.04 or similar. No immediate low-hanging fruit here. |
-| **HTTP** (80)     | nginx 1.26.3            | Web server that forces a redirect to `http://facts.htb/`. This confirms we need to perform **Virtual Host mapping** in our `/etc/hosts` file to access the site content. |
-| **MinIO** (54321) | Golang net/http (MinIO) |                                                                                                                                                                          |
+| **Service**       | **Version**             | **Analysis**                                                                                                                                                                                                        |
+| ----------------- | ----------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| **SSH** (22)      | OpenSSH 9.9p1           | Low Priority. Standard SSH service running on **Ubuntu Linux**. The version is quite recent, suggesting the OS is likely Ubuntu 24.04 or similar. No immediate low-hanging fruit here.                              |
+| **HTTP** (80)     | nginx 1.26.3            | Web server that forces a redirect to `http://facts.htb/`. This confirms we need to perform **Virtual Host mapping** in our `/etc/hosts` file to access the site content.                                            |
+| **MinIO** (54321) | Golang net/http (MinIO) | An object storage service (S3-compatible). Nmap detected a redirect to port **9001**, which is typically the **MinIO Console (GUI)**. The 400 error leak mentioned a resource path: `/nice ports,/Trinity.txt.bak`. |
 
 When you see `Did not follow redirect to http://facts.htb/` in Nmap, the server is essentially saying:
 
