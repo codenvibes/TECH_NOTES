@@ -696,26 +696,18 @@ if args.revert:
 
 ### 3.2 Execution
 
-Command: `python3 exploit.py -u http://facts.htb -U attacker -P hello1234 --newpass hello1234 -e -r`
+Command: `python3 exploit.py -u http://facts.htb -U username -P password --newpass password -e -r`
 
 Breakdown:
 
 - **`--newpass hello1234`**
-    
     - **Description:** Password Synchronization.
-        
     - **Purpose:** Ensures that during the profile update (which is part of the escalation exploit), the password remains `hello1234`. This prevents the script from defaulting to `test` and potentially locking me out of my own account.
-        
 - **`-e`**
-    
     - **Description:** Configuration Extraction Flag.
-        
     - **Purpose:** Triggers the post-exploitation module to navigate to the Camaleon CMS settings page and harvest the S3 access keys.
-        
 - **`-r`**
-    
     - **Description:** Role Reversion Flag.
-        
     - **Purpose:** Automatically downgrades the user from "admin" back to "client" after the keys are stolen, reducing the "noise" left in the application's audit logs.
 
 ```shell
