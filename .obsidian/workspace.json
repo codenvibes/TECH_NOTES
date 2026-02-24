@@ -474,13 +474,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "CYBER/04 EXPLOITATION/WEB_EXPLOITATION/OWASP TOP 10 - 2021.md",
+                "file": "SOFT SKILLS & CAREER/PIRP.base",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of OWASP TOP 10 - 2021"
+              "title": "Outline of PIRP"
             }
           },
           {
@@ -538,10 +538,10 @@
       "iconic:Open rulebook": false
     }
   },
-  "active": "8e98bbcc15dfff8c",
+  "active": "6b2536b183f7f9a6",
   "lastOpenFiles": [
-    "CYBER/13 CTFS & LABS/HTB/INTERPRETER.md",
     "CYBER/04 EXPLOITATION/WEB_EXPLOITATION/OWASP TOP 10 - 2021.md",
+    "CYBER/13 CTFS & LABS/HTB/INTERPRETER.md",
     "COURSES/THM/WEB FUNDAMENTALS.md",
     "CYBER/01 CORE CONCEPTS/WEB BASICS/HOW WEBSITES WORK.md",
     "CYBER/01 CORE CONCEPTS/WEB BASICS/INTRODUCTION TO WEB APPLICATIONS.md",
