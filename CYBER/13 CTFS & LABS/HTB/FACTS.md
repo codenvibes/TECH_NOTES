@@ -423,15 +423,6 @@ Finished
 ```
 
 http://facts.htb/admin/login
-![[Pasted image 20260215190815.png]]
-
-![[Pasted image 20260215190524.png]]
-
-![[Pasted image 20260215190702.png]]
-
-![[Pasted image 20260215192125.png]]
-
-![[Pasted image 20260215193205.png]]
 
 <div align="center">
 <br>
