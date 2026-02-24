@@ -474,13 +474,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "SOFT SKILLS & CAREER/PIRP.base",
+                "file": "CYBER/04 EXPLOITATION/WEB_EXPLOITATION/OWASP TOP 10 - 2021.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of PIRP"
+              "title": "Outline of OWASP TOP 10 - 2021"
             }
           },
           {
@@ -538,10 +538,10 @@
       "iconic:Open rulebook": false
     }
   },
-  "active": "6b2536b183f7f9a6",
+  "active": "a63a3f01ebb65ff6",
   "lastOpenFiles": [
-    "CYBER/04 EXPLOITATION/WEB_EXPLOITATION/OWASP TOP 10 - 2021.md",
     "SOFT SKILLS & CAREER/PIRP.base",
+    "CYBER/04 EXPLOITATION/WEB_EXPLOITATION/OWASP TOP 10 - 2021.md",
     "CYBER/13 CTFS & LABS/HTB/FACTS.md",
     "SOFT SKILLS & CAREER/PRESENTATIONS/CYBER SHUJAA TRAINER PRESENTATION.pdf",
     "SOFT SKILLS & CAREER/INTERVIEWS/CYBERSHUJAA TRAINER.md",
@@ -585,7 +585,6 @@
     "COURSES/THM/DEVSECOPS.md",
     "COURSES/THM/WEB FUNDAMENTALS.md",
     "COURSES/THM/SOC LEVEL 2.md",
-    "COURSES/THM/SECURITY ENGINEER.md",
     "Untitled.canvas"
   ]
 }
