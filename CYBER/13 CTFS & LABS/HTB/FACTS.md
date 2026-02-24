@@ -477,7 +477,9 @@ The most interesting hit is `/admin`
 
 ![[Pasted image 20260224152519.png]]
 
-Create an account and login
+Create an account and login:
+
+
 
 <div align="center">
 <br>
