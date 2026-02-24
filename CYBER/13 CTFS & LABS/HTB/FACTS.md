@@ -293,7 +293,7 @@ This is a **301 (Permanent)** or **302 (Found)** redirect. Browsers follow this 
 </div>
 ### 2.2. Enumeration of Web Services (Port 80)
 
-#### Update Hosts File
+#### 2.2.1. Update Hosts File
 
 Command: `sudo sh -c 'echo "TARGET_IP facts.htb" >> /etc/hosts'`
 
@@ -338,7 +338,7 @@ When you type a URL like `google.com` or `facts.htb` into your browser, your com
 <br>
 <br>
 </div>
-#### Web Enumeration
+#### 2.2.2. Web Enumeration
 
 Browse to `http://facts.htb`.
 
@@ -349,7 +349,8 @@ Browse to `http://facts.htb`.
 <br>
 <br>
 </div>
-#### Directory Fuzzing
+
+#### 2.2.1. Directory Fuzzing
 
 Command: `ffuf -w /usr/share/wordlists/dirb/common.txt -u http://facts.htb/FUZZ`
 
