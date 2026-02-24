@@ -502,7 +502,20 @@ Repository found: CVE-2023-43208 — Mirth Connect Pre-Auth RCE.[^1]
 
 ### 3.1. Clone and Prepare the Workspace
 
+```shell
+┌──(kali㉿kali)-[~/CS/HTB/Facts]
+└─$ git clone https://github.com/kyakei/CVE-2023-43208.git
+Cloning into 'CVE-2023-43208'...
+remote: Enumerating objects: 4, done.
+remote: Counting objects: 100% (4/4), done.
+remote: Compressing objects: 100% (4/4), done.
+remote: Total 4 (delta 0), reused 4 (delta 0), pack-reused 0 (from 0)
+Receiving objects: 100% (4/4), 6.85 KiB | 6.85 MiB/s, done.
 
+┌──(kali㉿kali)-[~/CS/HTB/Facts]
+└─$ ls
+CVE-2023-43208
+```
 <div align="center">
 <br>
 <br>
