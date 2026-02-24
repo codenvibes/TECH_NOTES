@@ -255,12 +255,12 @@
                     "state": {
                       "type": "markdown",
                       "state": {
-                        "file": "CYBER/04 EXPLOITATION/WEB_EXPLOITATION/OWASP TOP 10 - 2021.md",
+                        "file": "CYBER/01 CORE CONCEPTS/WEB BASICS/DNS IN DETAIL.md",
                         "mode": "source",
                         "source": false
                       },
                       "icon": "lucide-file",
-                      "title": "OWASP TOP 10 - 2021"
+                      "title": "DNS IN DETAIL"
                     }
                   }
                 ],
@@ -474,13 +474,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "CYBER/04 EXPLOITATION/WEB_EXPLOITATION/OWASP TOP 10 - 2021.md",
+                "file": "CYBER/01 CORE CONCEPTS/WEB BASICS/DNS IN DETAIL.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of OWASP TOP 10 - 2021"
+              "title": "Outline of DNS IN DETAIL"
             }
           },
           {
@@ -540,8 +540,11 @@
   },
   "active": "a63a3f01ebb65ff6",
   "lastOpenFiles": [
-    "SOFT SKILLS & CAREER/PIRP.base",
+    "CYBER/01 CORE CONCEPTS/WEB BASICS/INTRODUCTION TO WEB APPLICATIONS.md",
+    "CYBER/01 CORE CONCEPTS/WEB BASICS/HOW WEBSITES WORK.md",
+    "COURSES/THM/WEB FUNDAMENTALS.md",
     "CYBER/04 EXPLOITATION/WEB_EXPLOITATION/OWASP TOP 10 - 2021.md",
+    "SOFT SKILLS & CAREER/PIRP.base",
     "CYBER/13 CTFS & LABS/HTB/FACTS.md",
     "SOFT SKILLS & CAREER/PRESENTATIONS/CYBER SHUJAA TRAINER PRESENTATION.pdf",
     "SOFT SKILLS & CAREER/INTERVIEWS/CYBERSHUJAA TRAINER.md",
@@ -583,8 +586,6 @@
     "COURSES/THM/WEB APPLICATION PENTESTING.md",
     "COURSES/THM/ADVANCED ENDPOINT INVESTIGATIONS.md",
     "COURSES/THM/DEVSECOPS.md",
-    "COURSES/THM/WEB FUNDAMENTALS.md",
-    "COURSES/THM/SOC LEVEL 2.md",
     "Untitled.canvas"
   ]
 }
