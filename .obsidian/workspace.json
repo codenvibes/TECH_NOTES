@@ -248,23 +248,9 @@
                       "icon": "lucide-file",
                       "title": "INTERPRETER"
                     }
-                  },
-                  {
-                    "id": "8e98bbcc15dfff8c",
-                    "type": "leaf",
-                    "state": {
-                      "type": "markdown",
-                      "state": {
-                        "file": "CYBER/04 EXPLOITATION/WEB_EXPLOITATION/OWASP TOP 10 - 2021.md",
-                        "mode": "source",
-                        "source": false
-                      },
-                      "icon": "lucide-file",
-                      "title": "OWASP TOP 10 - 2021"
-                    }
                   }
                 ],
-                "currentTab": 4
+                "currentTab": 2
               },
               {
                 "id": "ebc3d89584b2ffd8",
@@ -474,12 +460,13 @@
             "state": {
               "type": "outline",
               "state": {
+                "file": "CYBER/13 CTFS & LABS/HTB/FACTS.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline"
+              "title": "Outline of FACTS"
             }
           },
           {
@@ -537,7 +524,7 @@
       "iconic:Open rulebook": false
     }
   },
-  "active": "1829a2d1d4c98997",
+  "active": "00bc5b978594dd0c",
   "lastOpenFiles": [
     "SOFT SKILLS & CAREER/PIRP.base",
     "CYBER/04 EXPLOITATION/WEB_EXPLOITATION/OWASP TOP 10 - 2021.md",
