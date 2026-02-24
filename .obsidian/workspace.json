@@ -251,7 +251,7 @@
                     }
                   }
                 ],
-                "currentTab": 2
+                "currentTab": 3
               },
               {
                 "id": "ebc3d89584b2ffd8",
@@ -461,12 +461,13 @@
             "state": {
               "type": "outline",
               "state": {
+                "file": "CYBER/13 CTFS & LABS/HTB/INTERPRETER.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline"
+              "title": "Outline of INTERPRETER"
             }
           },
           {
@@ -524,7 +525,7 @@
       "iconic:Open rulebook": false
     }
   },
-  "active": "3b8b4b24d88a173c",
+  "active": "e4b465f8c5c0b958",
   "lastOpenFiles": [
     "CYBER/13 CTFS & LABS/HTB/FACTS.md",
     "CYBER/13 CTFS & LABS/HTB/INTERPRETER.md",

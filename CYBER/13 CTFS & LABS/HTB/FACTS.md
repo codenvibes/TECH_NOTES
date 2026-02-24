@@ -350,7 +350,7 @@ Browse to `http://facts.htb`.
 <br>
 </div>
 
-#### 2.2.1. Directory Fuzzing
+#### 2.2.3. Directory Fuzzing
 
 Command: `ffuf -w /usr/share/wordlists/dirb/common.txt -u http://facts.htb/FUZZ`
 
