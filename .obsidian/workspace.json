@@ -474,13 +474,12 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "SOFT SKILLS & CAREER/PIRP.base",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of PIRP"
+              "title": "Outline"
             }
           },
           {
@@ -538,8 +537,9 @@
       "iconic:Open rulebook": false
     }
   },
-  "active": "6b2536b183f7f9a6",
+  "active": "1829a2d1d4c98997",
   "lastOpenFiles": [
+    "SOFT SKILLS & CAREER/PIRP.base",
     "CYBER/04 EXPLOITATION/WEB_EXPLOITATION/OWASP TOP 10 - 2021.md",
     "CYBER/13 CTFS & LABS/HTB/INTERPRETER.md",
     "COURSES/THM/WEB FUNDAMENTALS.md",
@@ -549,7 +549,6 @@
     "CYBER/13 CTFS & LABS/THM/AOC 2025/AOC DAY01 - LINUX CLI - SHELLS BELLS.md",
     "CYBER/01 CORE CONCEPTS/NETWORKING FUNDAMENTALS/14 COMMON PROTOCOLS.md",
     "CYBER/01 CORE CONCEPTS/WEB BASICS/WEB REQUESTS.md",
-    "SOFT SKILLS & CAREER/PIRP.base",
     "CYBER/13 CTFS & LABS/HTB/FACTS.md",
     "SOFT SKILLS & CAREER/PRESENTATIONS/CYBER SHUJAA TRAINER PRESENTATION.pdf",
     "SOFT SKILLS & CAREER/INTERVIEWS/CYBERSHUJAA TRAINER.md",
@@ -585,7 +584,6 @@
     "CYBER/01 CORE CONCEPTS/OPERATING SYSTEMS/LINUX/LINUX FUNDAMENTALS.md",
     "COURSES/THM/DEFENDING AZURE.md",
     "COURSES/THM/RED TEAMING.md",
-    "COURSES/THM/ATTACKING AND DEFENDING AWS.md",
     "Untitled.canvas"
   ]
 }
