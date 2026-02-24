@@ -295,7 +295,8 @@ This is a **301 (Permanent)** or **302 (Found)** redirect. Browsers follow this 
 <br>
 <br>
 </div>
-### 2.2. Enumeration of Web Services (Port 80)
+
+### 2.2. Enumeration of Web Services
 
 #### 2.2.1. Update Hosts File
 
