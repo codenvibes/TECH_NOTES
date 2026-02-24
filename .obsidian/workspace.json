@@ -182,16 +182,16 @@
                     "state": {
                       "type": "webviewer",
                       "state": {
-                        "url": "https://github.com/Alien0ne/CVE-2025-2304",
-                        "title": "GitHub - Alien0ne/CVE-2025-2304: Authenticated privilege escalation in Camaleon CMS v2.9.0 via improper parameter handling in the updated_ajax endpoint.",
+                        "url": "https://github.com/Alien0ne/CVE-2025-2304/blob/main/exploit.py",
+                        "title": "CVE-2025-2304/exploit.py at main · Alien0ne/CVE-2025-2304 · GitHub",
                         "mode": "webview"
                       },
                       "icon": "globe-2",
-                      "title": "GitHub - Alien0ne/CVE-2025-2304: Authenticated privilege escalation in Camaleon CMS v2.9.0 via improper parameter handling in the updated_ajax endpoint."
+                      "title": "CVE-2025-2304/exploit.py at main · Alien0ne/CVE-2025-2304 · GitHub"
                     }
                   }
                 ],
-                "currentTab": 2
+                "currentTab": 6
               }
             ],
             "direction": "horizontal"
@@ -538,7 +538,7 @@
       "iconic:Open rulebook": false
     }
   },
-  "active": "3b8b4b24d88a173c",
+  "active": "1ebbbef345586730",
   "lastOpenFiles": [
     "CYBER/13 CTFS & LABS/HTB/FACTS.md",
     "CYBER/13 CTFS & LABS/HTB/INTERPRETER.md",
