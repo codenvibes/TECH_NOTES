@@ -248,9 +248,23 @@
                       "icon": "lucide-file",
                       "title": "INTERPRETER"
                     }
+                  },
+                  {
+                    "id": "8e98bbcc15dfff8c",
+                    "type": "leaf",
+                    "state": {
+                      "type": "markdown",
+                      "state": {
+                        "file": "CYBER/04 EXPLOITATION/WEB_EXPLOITATION/OWASP TOP 10 - 2021.md",
+                        "mode": "source",
+                        "source": false
+                      },
+                      "icon": "lucide-file",
+                      "title": "OWASP TOP 10 - 2021"
+                    }
                   }
                 ],
-                "currentTab": 3
+                "currentTab": 4
               },
               {
                 "id": "ebc3d89584b2ffd8",
@@ -460,13 +474,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "CYBER/13 CTFS & LABS/HTB/INTERPRETER.md",
+                "file": "CYBER/04 EXPLOITATION/WEB_EXPLOITATION/OWASP TOP 10 - 2021.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of INTERPRETER"
+              "title": "Outline of OWASP TOP 10 - 2021"
             }
           },
           {
@@ -524,10 +538,10 @@
       "iconic:Open rulebook": false
     }
   },
-  "active": "e4b465f8c5c0b958",
+  "active": "8e98bbcc15dfff8c",
   "lastOpenFiles": [
-    "CYBER/04 EXPLOITATION/WEB_EXPLOITATION/OWASP TOP 10 - 2021.md",
     "CYBER/13 CTFS & LABS/HTB/INTERPRETER.md",
+    "CYBER/04 EXPLOITATION/WEB_EXPLOITATION/OWASP TOP 10 - 2021.md",
     "COURSES/THM/WEB FUNDAMENTALS.md",
     "CYBER/01 CORE CONCEPTS/WEB BASICS/HOW WEBSITES WORK.md",
     "CYBER/01 CORE CONCEPTS/WEB BASICS/INTRODUCTION TO WEB APPLICATIONS.md",
