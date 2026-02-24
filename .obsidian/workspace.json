@@ -175,9 +175,23 @@
                       "icon": "globe-2",
                       "title": "Facts (S10)— HTB Writeup. First, this machine is an easy machine… | by wahyudnWis | Feb, 2026 | Medium"
                     }
+                  },
+                  {
+                    "id": "1ebbbef345586730",
+                    "type": "leaf",
+                    "state": {
+                      "type": "webviewer",
+                      "state": {
+                        "url": "https://github.com/Alien0ne/CVE-2025-2304",
+                        "title": "GitHub - Alien0ne/CVE-2025-2304: Authenticated privilege escalation in Camaleon CMS v2.9.0 via improper parameter handling in the updated_ajax endpoint.",
+                        "mode": "webview"
+                      },
+                      "icon": "globe-2",
+                      "title": "GitHub - Alien0ne/CVE-2025-2304: Authenticated privilege escalation in Camaleon CMS v2.9.0 via improper parameter handling in the updated_ajax endpoint."
+                    }
                   }
                 ],
-                "currentTab": 3
+                "currentTab": 6
               }
             ],
             "direction": "horizontal"
@@ -524,7 +538,7 @@
       "iconic:Open rulebook": false
     }
   },
-  "active": "bea647b1dd44387e",
+  "active": "1ebbbef345586730",
   "lastOpenFiles": [
     "CYBER/13 CTFS & LABS/HTB/FACTS.md",
     "CYBER/13 CTFS & LABS/HTB/INTERPRETER.md",
