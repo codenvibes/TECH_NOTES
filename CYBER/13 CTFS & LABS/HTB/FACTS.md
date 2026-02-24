@@ -296,6 +296,25 @@ This is a **301 (Permanent)** or **302 (Found)** redirect. Browsers follow this 
 #### Update Hosts File
 
 Command: `sudo sh -c 'echo "TARGET_IP facts.htb" >> /etc/hosts'`
+
+Breakdown:
+
+- **`sudo`**
+    - **Description:** Superuser Do.
+    - **Purpose:** Executes the subsequent command with root privileges. This is required because `/etc/hosts` is a system-protected file that ordinary users cannot modify.
+- **`sh -c`**
+    - **Description:** Shell Command String.
+    - **Purpose:** Tells the system to run a new shell instance and execute the string inside the single quotes. This is used here because the redirection (`>>`) needs root privileges to write to the file; simply using `sudo echo ... >> /etc/hosts` would fail because the redirection is handled by your current (unprivileged) shell.
+- **`echo "TARGET_IP facts.htb"`**
+    - **Description:** Standard Output Generator. 
+    - **Purpose:** Creates a string containing the IP address and the desired domain name, which acts as a local DNS entry.
+- **`>>`**
+    - **Description:** Append Redirection.
+    - **Purpose:** Directs the output of the `echo` command to the end of a file. Using `>>` (append) instead of `>` (overwrite) ensures you don't accidentally delete your existing host mappings.
+- **`/etc/hosts`**
+    - **Description:** Static Host Lookup Table.
+    - **Purpose:** The target file where the operating system looks first to resolve hostnames to IP addresses before querying external DNS servers.
+
 <div align="center">
 <br>
 ※※※※※※※※※※※※※※※※※※※※※※※※
