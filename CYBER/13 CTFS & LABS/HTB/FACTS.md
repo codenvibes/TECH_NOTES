@@ -501,6 +501,8 @@ Repository found: CVE-2023-43208 — Mirth Connect Pre-Auth RCE.[^1]
 ## 3. Exploitation
 
 ### 3.1. Clone and Prepare the Workspace
+
+
 <div align="center">
 <br>
 <br>

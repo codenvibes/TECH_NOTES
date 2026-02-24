@@ -274,7 +274,7 @@ Repository found: https://github.com/K3ysTr0K3R/CVE-2023-43208-EXPLOIT [^2]
 <br>
 </div>
 
-#### 3.1. Clone and Prepare the Workspace
+### 3.1. Clone and Prepare the Workspace
 
 ```shell
 ┌──(kali㉿kali)-[~/CS/HTB/Interpreter]
@@ -383,7 +383,7 @@ The Fix:
 <br>
 </div>
 
-#### 3.2. Start your Listener (The "Catcher")
+### 3.2. Start your Listener (The "Catcher")
 
 Open a **new terminal tab** on your Kali machine. This needs to be running _before_ you launch the exploit so it's ready to catch the incoming connection.
 
