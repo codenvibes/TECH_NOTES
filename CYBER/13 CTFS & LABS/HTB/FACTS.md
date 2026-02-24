@@ -536,4 +536,4 @@ Repository found: CVE-2023-43208 — Mirth Connect Pre-Auth RCE.[^1]
 
 ## References
 
-[^1]: [CVE-2023-43208 — Mirth Connect Pre-Auth RCE]()
+[^1]: [CVE-2023-43208 — Mirth Connect Pre-Auth RCE](https://github.com/Alien0ne/CVE-2025-2304)
