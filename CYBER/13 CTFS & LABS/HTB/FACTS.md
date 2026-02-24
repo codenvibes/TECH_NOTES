@@ -694,7 +694,7 @@ if args.revert:
 <br>
 </div>
 
-### 3.2 Execution
+### 3.2 Executing `exploit.py`
 
 Command: `python3 exploit.py -u http://facts.htb -U username -P password --newpass password -e -r`
 
@@ -734,6 +734,12 @@ Breakdown:
    User ID: 5
    User Role: client
 ```
+<div align="center">
+<br>
+<br>
+</div>
+
+### 3.3 Configuring the Attack Profile
 <div align="center">
 <br>
 <br>
