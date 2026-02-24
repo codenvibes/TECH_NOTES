@@ -506,6 +506,17 @@ Clone the repository from GitHub to your local attack machine.
 
 Command: `git clone https://github.com/Alien0ne/CVE-2025-2304`
 
+Breakdown:
+
+- **`git clone`**
+    - **Description:** Repository Cloning Tool.
+    - **Purpose:** Copies the entire remote project, including scripts and documentation, from GitHub to a local directory on your machine.
+- **`https://github.com/Alien0ne/CVE-2025-2304`**
+    - **Description:** Remote Source URL.
+    - **Purpose:** Points to the specific repository containing the exploit code for the Camaleon CMS vulnerability.
+
+Output:
+
 ```shell
 ┌──(kali㉿kali)-[~/CS/HTB/Facts]
 └─$ git clone https://github.com/kyakei/CVE-2023-43208.git
