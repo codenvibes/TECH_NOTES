@@ -366,9 +366,6 @@ Breakdown:
 - **`-w`**
     - **Description:** Wordlist Path.
     - **Purpose:** Provides the list of common directory and file names (like `admin`, `config`, etc.) to test against the server.
-- **`-mc`**
-    - **Description:** Match HTTP Status Codes.
-    - **Purpose:** Filters the results to only show specific responses. Here, we look for `200` (Success), `301` (Permanent Redirect), and `302` (Temporary Redirect).
 
 Output:
 
