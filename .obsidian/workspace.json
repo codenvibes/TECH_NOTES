@@ -94,12 +94,12 @@
                       "type": "webviewer",
                       "state": {
                         "url": "https://app.hackthebox.com/machines/Facts?sort_by=created_at&sort_type=desc",
-                        "title": "Hack The Box :: Facts Machine",
-                        "mode": "webview"
+                        "title": "Hack The Box",
+                        "mode": "blank"
                       },
                       "pinned": true,
                       "icon": "globe-2",
-                      "title": "Hack The Box :: Facts Machine"
+                      "title": "Hack The Box"
                     }
                   },
                   {
