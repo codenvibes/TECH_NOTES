@@ -371,107 +371,98 @@ Output:
 
 ```shell
 ┌──(kali㉿kali)-[~]
-└─$ gobuster dir -u  http://facts.htb/ -w /usr/share/seclists/Discovery/Web-Content/common.txt 
-===============================================================
-Gobuster v3.8.2
-by OJ Reeves (@TheColonial) & Christian Mehlmauer (@firefart)
-===============================================================
-[+] Url:                     http://facts.htb/
-[+] Method:                  GET
-[+] Threads:                 10
-[+] Wordlist:                /usr/share/seclists/Discovery/Web-Content/common.txt
-[+] Negative Status codes:   404
-[+] User Agent:              gobuster/3.8.2
-[+] Timeout:                 10s
-===============================================================
-Starting gobuster in directory enumeration mode
-===============================================================
-.bashrc              (Status: 200) [Size: 11119]
-.cvsignore           (Status: 200) [Size: 11128]
-.config              (Status: 200) [Size: 11119]
-.cvs                 (Status: 200) [Size: 11110]
-.cache               (Status: 200) [Size: 11116]
-.bash_history        (Status: 200) [Size: 11137]
-.git-rewrite         (Status: 200) [Size: 11134]
-.forward             (Status: 200) [Size: 11122]
-.env                 (Status: 200) [Size: 11110]
-.git                 (Status: 200) [Size: 11110]
-.git_release         (Status: 200) [Size: 11134]
-.gitattributes       (Status: 200) [Size: 11140]
-.gitconfig           (Status: 200) [Size: 11128]
-.gitignore           (Status: 200) [Size: 11128]
-.gitk                (Status: 200) [Size: 11113]
-.gitkeep             (Status: 200) [Size: 11122]
-.gitmodules          (Status: 200) [Size: 11131]
-.gitreview           (Status: 200) [Size: 11128]
-.history             (Status: 200) [Size: 11122]
-.hta                 (Status: 200) [Size: 11110]
-.htaccess            (Status: 200) [Size: 11125]
-.htpasswd            (Status: 200) [Size: 11125]
-.listing             (Status: 200) [Size: 11122]
-.listings            (Status: 200) [Size: 11125]
-.mysql_history       (Status: 200) [Size: 11140]
-.passwd              (Status: 200) [Size: 11119]
-.perf                (Status: 200) [Size: 11113]
-.profile             (Status: 200) [Size: 11122]
-.rhosts              (Status: 200) [Size: 11119]
-.sh_history          (Status: 200) [Size: 11131]
-.ssh                 (Status: 200) [Size: 11110]
-.subversion          (Status: 200) [Size: 11131]
-.svn                 (Status: 200) [Size: 11110]
-.svnignore           (Status: 200) [Size: 11128]
-.swf                 (Status: 200) [Size: 11110]
-.web                 (Status: 200) [Size: 11110]
-400                  (Status: 200) [Size: 6685]
-404                  (Status: 200) [Size: 4836]
-500                  (Status: 200) [Size: 7918]
-CVS                  (Status: 200) [Size: 11110]
-_framework/blazor.webassembly.js (Status: 422) [Size: 8380]
-admin                (Status: 302) [Size: 0] [--> http://facts.htb/admin/login]
-admin.cgi            (Status: 302) [Size: 0] [--> http://facts.htb/admin/login]
-admin.php            (Status: 302) [Size: 0] [--> http://facts.htb/admin/login]
-admin.pl             (Status: 302) [Size: 0] [--> http://facts.htb/admin/login]
-ajax                 (Status: 200) [Size: 0]
-cache                (Status: 200) [Size: 11116]
-captcha              (Status: 200) [Size: 3629]
-config               (Status: 200) [Size: 11119]
-cvs                  (Status: 200) [Size: 11110]
-en                   (Status: 200) [Size: 11109]
-env                  (Status: 200) [Size: 11110]
-error                (Status: 500) [Size: 7918]
-forward              (Status: 200) [Size: 11122]
-git                  (Status: 200) [Size: 11110]
-history              (Status: 200) [Size: 11122]
-hta                  (Status: 200) [Size: 11110]
-htpasswd             (Status: 200) [Size: 11125]
-index                (Status: 200) [Size: 11113]
-index.htm            (Status: 200) [Size: 11125]
-index.html           (Status: 200) [Size: 11128]
-index.php            (Status: 200) [Size: 11125]
-listing              (Status: 200) [Size: 11122]
-listings             (Status: 200) [Size: 11125]
-page                 (Status: 200) [Size: 19593]
-passwd               (Status: 200) [Size: 11119]
-perf                 (Status: 200) [Size: 11113]
-post                 (Status: 200) [Size: 11308]
-profile              (Status: 200) [Size: 11122]
-robots.txt           (Status: 200) [Size: 99]
-robots               (Status: 200) [Size: 33]
-rss                  (Status: 200) [Size: 183]
-search               (Status: 200) [Size: 19187]
-sitemap.xml          (Status: 200) [Size: 3508]
-sitemap              (Status: 200) [Size: 3508]
-sitemap.gz           (Status: 500) [Size: 7918]
-ssh                  (Status: 200) [Size: 11110]
-svn                  (Status: 200) [Size: 11110]
-swf                  (Status: 200) [Size: 11110]
-up                   (Status: 200) [Size: 73]
-web                  (Status: 200) [Size: 11110]
-welcome              (Status: 200) [Size: 11966]
-Progress: 4750 / 4750 (100.00%)
-===============================================================
-Finished
-===============================================================
+└─$ ffuf -w /usr/share/wordlists/dirb/common.txt -u http://facts.htb/FUZZ
+
+        /'___\  /'___\           /'___\       
+       /\ \__/ /\ \__/  __  __  /\ \__/       
+       \ \ ,__\\ \ ,__\/\ \/\ \ \ \ ,__\      
+        \ \ \_/ \ \ \_/\ \ \_\ \ \ \ \_/      
+         \ \_\   \ \_\  \ \____/  \ \_\       
+          \/_/    \/_/   \/___/    \/_/       
+
+       v2.1.0-dev
+________________________________________________
+
+ :: Method           : GET
+ :: URL              : http://facts.htb/FUZZ
+ :: Wordlist         : FUZZ: /usr/share/wordlists/dirb/common.txt
+ :: Follow redirects : false
+ :: Calibration      : false
+ :: Timeout          : 10
+ :: Threads          : 40
+ :: Matcher          : Response status: 200-299,301,302,307,401,403,405,500
+________________________________________________
+
+                        [Status: 200, Size: 11098, Words: 1328, Lines: 125, Duration: 372ms]
+.profile                [Status: 200, Size: 11122, Words: 1328, Lines: 125, Duration: 437ms]
+.bash_history           [Status: 200, Size: 11137, Words: 1328, Lines: 125, Duration: 547ms]
+.bashrc                 [Status: 200, Size: 11119, Words: 1328, Lines: 125, Duration: 574ms]
+.rhosts                 [Status: 200, Size: 11119, Words: 1328, Lines: 125, Duration: 698ms]
+.sh_history             [Status: 200, Size: 11131, Words: 1328, Lines: 125, Duration: 724ms]
+.cvs                    [Status: 200, Size: 11110, Words: 1328, Lines: 125, Duration: 901ms]
+.cache                  [Status: 200, Size: 11116, Words: 1328, Lines: 125, Duration: 902ms]
+.config                 [Status: 200, Size: 11119, Words: 1328, Lines: 125, Duration: 1012ms]
+.ssh                    [Status: 200, Size: 11110, Words: 1328, Lines: 125, Duration: 1080ms]
+.htaccess               [Status: 200, Size: 11125, Words: 1328, Lines: 125, Duration: 1204ms]
+.listings               [Status: 200, Size: 11125, Words: 1328, Lines: 125, Duration: 1271ms]
+.svn                    [Status: 200, Size: 11110, Words: 1328, Lines: 125, Duration: 1418ms]
+.passwd                 [Status: 200, Size: 11119, Words: 1328, Lines: 125, Duration: 1488ms]
+.subversion             [Status: 200, Size: 11131, Words: 1328, Lines: 125, Duration: 1550ms]
+.hta                    [Status: 200, Size: 11110, Words: 1328, Lines: 125, Duration: 1561ms]
+.cvsignore              [Status: 200, Size: 11128, Words: 1328, Lines: 125, Duration: 1716ms]
+.swf                    [Status: 200, Size: 11110, Words: 1328, Lines: 125, Duration: 1864ms]
+.mysql_history          [Status: 200, Size: 11140, Words: 1328, Lines: 125, Duration: 2043ms]
+.history                [Status: 200, Size: 11122, Words: 1328, Lines: 125, Duration: 2051ms]
+.web                    [Status: 200, Size: 11110, Words: 1328, Lines: 125, Duration: 2172ms]
+.forward                [Status: 200, Size: 11122, Words: 1328, Lines: 125, Duration: 1209ms]
+.perf                   [Status: 200, Size: 11113, Words: 1328, Lines: 125, Duration: 2806ms]
+.htpasswd               [Status: 200, Size: 11125, Words: 1328, Lines: 125, Duration: 1019ms]
+.listing                [Status: 200, Size: 11122, Words: 1328, Lines: 125, Duration: 3241ms]
+400                     [Status: 200, Size: 6685, Words: 993, Lines: 115, Duration: 2147ms]
+404                     [Status: 200, Size: 4836, Words: 832, Lines: 115, Duration: 2014ms]
+500                     [Status: 200, Size: 7918, Words: 1035, Lines: 115, Duration: 2058ms]
+admin                   [Status: 302, Size: 0, Words: 1, Lines: 1, Duration: 2047ms]
+admin.cgi               [Status: 302, Size: 0, Words: 1, Lines: 1, Duration: 2126ms]
+admin.php               [Status: 302, Size: 0, Words: 1, Lines: 1, Duration: 2013ms]
+admin.pl                [Status: 302, Size: 0, Words: 1, Lines: 1, Duration: 1994ms]
+ajax                    [Status: 200, Size: 0, Words: 1, Lines: 1, Duration: 2918ms]
+cache                   [Status: 200, Size: 11116, Words: 1328, Lines: 125, Duration: 2601ms]
+captcha                 [Status: 200, Size: 5576, Words: 16, Lines: 14, Duration: 3136ms]
+config                  [Status: 200, Size: 11119, Words: 1328, Lines: 125, Duration: 2646ms]
+cvs                     [Status: 200, Size: 11110, Words: 1328, Lines: 125, Duration: 2555ms]
+CVS                     [Status: 200, Size: 11110, Words: 1328, Lines: 125, Duration: 2526ms]
+en                      [Status: 200, Size: 11109, Words: 1328, Lines: 125, Duration: 2140ms]
+error                   [Status: 500, Size: 7918, Words: 1035, Lines: 115, Duration: 2264ms]
+forward                 [Status: 200, Size: 11122, Words: 1328, Lines: 125, Duration: 2010ms]
+history                 [Status: 200, Size: 11122, Words: 1328, Lines: 125, Duration: 2177ms]
+hta                     [Status: 200, Size: 11110, Words: 1328, Lines: 125, Duration: 1763ms]
+htpasswd                [Status: 200, Size: 11125, Words: 1328, Lines: 125, Duration: 1950ms]
+index.php               [Status: 200, Size: 11125, Words: 1328, Lines: 125, Duration: 2269ms]
+index                   [Status: 200, Size: 11113, Words: 1328, Lines: 125, Duration: 2263ms]
+index.html              [Status: 200, Size: 11128, Words: 1328, Lines: 125, Duration: 2162ms]
+index.htm               [Status: 200, Size: 11125, Words: 1328, Lines: 125, Duration: 2118ms]
+Index                   [Status: 200, Size: 11113, Words: 1328, Lines: 125, Duration: 2576ms]
+listing                 [Status: 200, Size: 11122, Words: 1328, Lines: 125, Duration: 2149ms]
+listings                [Status: 200, Size: 11125, Words: 1328, Lines: 125, Duration: 2175ms]
+page                    [Status: 200, Size: 19593, Words: 3296, Lines: 282, Duration: 3227ms]
+passwd                  [Status: 200, Size: 11119, Words: 1328, Lines: 125, Duration: 3174ms]
+perf                    [Status: 200, Size: 11113, Words: 1328, Lines: 125, Duration: 1301ms]
+post                    [Status: 200, Size: 11308, Words: 1414, Lines: 152, Duration: 2327ms]
+profile                 [Status: 200, Size: 11122, Words: 1328, Lines: 125, Duration: 1948ms]
+robots.txt              [Status: 200, Size: 99, Words: 12, Lines: 2, Duration: 2041ms]
+robots                  [Status: 200, Size: 33, Words: 2, Lines: 1, Duration: 2113ms]
+rss                     [Status: 200, Size: 183, Words: 20, Lines: 9, Duration: 2380ms]
+search                  [Status: 200, Size: 19187, Words: 3276, Lines: 272, Duration: 3275ms]
+sitemap                 [Status: 200, Size: 3508, Words: 424, Lines: 130, Duration: 2742ms]
+sitemap.xml             [Status: 200, Size: 3508, Words: 424, Lines: 130, Duration: 2390ms]
+sitemap.gz              [Status: 500, Size: 7918, Words: 1035, Lines: 115, Duration: 2539ms]
+ssh                     [Status: 200, Size: 11110, Words: 1328, Lines: 125, Duration: 1891ms]
+svn                     [Status: 200, Size: 11110, Words: 1328, Lines: 125, Duration: 2477ms]
+swf                     [Status: 200, Size: 11110, Words: 1328, Lines: 125, Duration: 2566ms]
+up                      [Status: 200, Size: 73, Words: 4, Lines: 1, Duration: 2190ms]
+web                     [Status: 200, Size: 11110, Words: 1328, Lines: 125, Duration: 2363ms]
+welcome                 [Status: 200, Size: 11966, Words: 1481, Lines: 130, Duration: 3278ms]
+:: Progress: [4614/4614] :: Job [1/1] :: 16 req/sec :: Duration: [0:04:42] :: Errors: 0 ::
 ```
 
 http://facts.htb/admin/login
