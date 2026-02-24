@@ -491,8 +491,7 @@ Create an account and login:
 
 The dashboard footer explicitly identifies the site as running **Camaleon CMS version 2.9.0**. With this information, we can search for known weaknesses that could lead to a compromise.
 
-Search online for "Camaleon CMS 2.9.0 exploit." The exploit is CVE-2025–2304 and the next step is to find or develop a **Proof of Concept**
-Now we need to find a proof of concept.
+Search online for "`Camaleon CMS 2.9.0 exploit`." The exploit is CVE-2025–2304 and the next step is to find or develop a **Proof of Concept** to verify if the `facts.htb` instance is truly susceptible.
 <div align="center">
 <br>
 <br>
