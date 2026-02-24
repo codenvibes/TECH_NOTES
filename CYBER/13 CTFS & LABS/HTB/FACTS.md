@@ -741,9 +741,22 @@ Breakdown:
 
 ### 3.3 Configuring my Attack Profile
 
-Command: `aws configure --profile facts
+Command: `aws configure --profile facts`
 
-Break`
+Breakdown: 
+
+- **`aws configure`**
+    - **Description:** AWS CLI Initialization.
+    - **Purpose:** Opens an interactive prompt to set up security credentials and default settings for the tool.
+- **`--profile facts`**
+    - **Description:** Named Profile.
+    - **Purpose:** Saves these specific credentials under the name "facts." This allows me to switch between different HTB boxes or real AWS accounts without overwriting keys.
+	**Input Values used during configuration:**
+	- **AWS Access Key ID:** `AKIA7886F8172322021E`
+	- **AWS Secret Access Key:** `FV1VMOdcP9ZdLzo29AU/6tqeC42ZCTG6DgzVbGU8`
+	- **Default region name:** `us-east-1` (MinIO requires a region, though it's often ignored)
+	- **Default output format:** `json`
+
 <div align="center">
 <br>
 <br>
