@@ -465,7 +465,7 @@ welcome                 [Status: 200, Size: 11966, Words: 1481, Lines: 130, Dura
 :: Progress: [4614/4614] :: Job [1/1] :: 16 req/sec :: Duration: [0:04:42] :: Errors: 0 ::
 ```
 
-http://facts.htb/admin/login
+The most interesting hit is `/admin`
 
 <div align="center">
 <br>
