@@ -481,7 +481,7 @@ Create an account and login:
 
 ![[Pasted image 20260224153209.png]]
 
-**CMS Detection**: 
+**CMS Detection**: The dashboard footer explicitly identifies the site as running **Camaleon CMS version 2.9.0**.
 <div align="center">
 <br>
 <br>
