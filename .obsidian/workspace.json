@@ -251,7 +251,7 @@
                     }
                   }
                 ],
-                "currentTab": 3
+                "currentTab": 2
               },
               {
                 "id": "ebc3d89584b2ffd8",
@@ -461,13 +461,12 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "CYBER/13 CTFS & LABS/HTB/INTERPRETER.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of INTERPRETER"
+              "title": "Outline"
             }
           },
           {
@@ -525,14 +524,14 @@
       "iconic:Open rulebook": false
     }
   },
-  "active": "e4b465f8c5c0b958",
+  "active": "3b8b4b24d88a173c",
   "lastOpenFiles": [
     "CYBER/13 CTFS & LABS/HTB/FACTS.md",
+    "CYBER/13 CTFS & LABS/HTB/INTERPRETER.md",
     "ASSETS/Pasted image 20260224153439.png",
     "ASSETS/Pasted image 20260224153209.png",
     "ASSETS/Pasted image 20260224152519.png",
     "ASSETS/Pasted image 20260224152204.png",
-    "CYBER/13 CTFS & LABS/HTB/INTERPRETER.md",
     "SOFT SKILLS & CAREER/PIRP.base",
     "CYBER/04 EXPLOITATION/WEB_EXPLOITATION/OWASP TOP 10 - 2021.md",
     "COURSES/THM/WEB FUNDAMENTALS.md",
