@@ -504,7 +504,7 @@ Repository found: CVE-2023-43208 — Mirth Connect Pre-Auth RCE.[^1]
 
 Clone the repository from GitHub to your local attack machine.
 
-Command: 
+Command: `git clone https://github.com/Alien0ne/CVE-2025-2304`
 
 ```shell
 ┌──(kali㉿kali)-[~/CS/HTB/Facts]
