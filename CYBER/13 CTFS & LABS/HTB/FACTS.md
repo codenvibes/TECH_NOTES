@@ -700,7 +700,13 @@ Command: `python3 exploit.py -u http://facts.htb -U username -P password --newpa
 
 Breakdown:
 
-- **`--newpass hello1234`**
+- **`-U username`**
+    - **Description:** Authenticated Username.
+    - **Purpose:** Provides the script with the username of the account I manually registered to initiate the session.
+- **`-P password`**
+    - **Description:** Authenticated Password.
+    - **Purpose:** Provides the current password for the account to complete the login handshake.
+- **`--newpass password`**
     - **Description:** Password Synchronization.
     - **Purpose:** Ensures that during the profile update (which is part of the escalation exploit), the password remains `hello1234`. This prevents the script from defaulting to `test` and potentially locking me out of my own account.
 - **`-e`**
