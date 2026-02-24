@@ -386,7 +386,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:REPORT_WRITING",
+                "query": "URL",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": true,
@@ -407,12 +407,12 @@
               "title": "Bookmarks"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
-    "width": 288.703125,
-    "collapsed": true
+    "width": 288.703125
   },
   "right": {
     "id": "26820c7e22c27caf",
@@ -538,7 +538,7 @@
       "iconic:Open rulebook": false
     }
   },
-  "active": "a63a3f01ebb65ff6",
+  "active": "8089db5984bed9f9",
   "lastOpenFiles": [
     "CYBER/01 CORE CONCEPTS/WEB BASICS/INTRODUCTION TO WEB APPLICATIONS.md",
     "CYBER/01 CORE CONCEPTS/WEB BASICS/HOW WEBSITES WORK.md",
