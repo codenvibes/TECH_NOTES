@@ -483,7 +483,8 @@ Create an account and login:
 
 **CMS Detection**: The dashboard footer explicitly identifies the site as running **Camaleon CMS version 2.9.0**.
 Search online for "Camaleon CMS 2.9.0 exploit."
-The exploit is [CVE-2025–2304](https://github.com/Alien0ne/CVE-2025-2304)
+The exploit is CVE-2025–2304.
+Now we need to find a proof of concept.
 <div align="center">
 <br>
 <br>
