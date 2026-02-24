@@ -519,17 +519,22 @@ Output:
 
 ```shell
 ┌──(kali㉿kali)-[~/CS/HTB/Facts]
-└─$ git clone https://github.com/kyakei/CVE-2023-43208.git
-Cloning into 'CVE-2023-43208'...
-remote: Enumerating objects: 4, done.
-remote: Counting objects: 100% (4/4), done.
-remote: Compressing objects: 100% (4/4), done.
-remote: Total 4 (delta 0), reused 4 (delta 0), pack-reused 0 (from 0)
-Receiving objects: 100% (4/4), 6.85 KiB | 6.85 MiB/s, done.
+└─$ git clone https://github.com/Alien0ne/CVE-2025-2304.git
+Cloning into 'CVE-2025-2304'...
+remote: Enumerating objects: 18, done.
+remote: Counting objects: 100% (18/18), done.
+remote: Compressing objects: 100% (16/16), done.
+remote: Total 18 (delta 3), reused 0 (delta 0), pack-reused 0 (from 0)
+Receiving objects: 100% (18/18), 8.83 KiB | 1.10 MiB/s, done.
+Resolving deltas: 100% (3/3), done.
+ 
+┌──(kali㉿kali)-[~/CS/HTB/Facts/CVE-2025-2304]
+└─$ cd -                               
+~/CS/HTB/Facts
 
 ┌──(kali㉿kali)-[~/CS/HTB/Facts]
-└─$ ls
-CVE-2023-43208
+└─$ cd CVE-2025-2304 ; ls              
+exploit.py  README.md
 ```
 
 Poc Audit:
