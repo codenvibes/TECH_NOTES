@@ -479,8 +479,9 @@ The most interesting hit is `/admin`
 
 Create an account and login:
 
+![[Pasted image 20260224153209.png]]
 
-
+**CMS Detection**: 
 <div align="center">
 <br>
 <br>
