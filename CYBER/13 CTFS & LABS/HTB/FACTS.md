@@ -493,7 +493,7 @@ The dashboard footer explicitly identifies the site as running **Camaleon CMS ve
 
 Search online for "`Camaleon CMS 2.9.0 exploit`." The exploit is CVE-2025–2304 and the next step is to find or develop a **Proof of Concept** to verify if the `facts.htb` instance is truly susceptible.
 
-I found this repo https://github.com/Alien0ne/CVE-2025-2304.
+Repository found: https://github.com/Alien0ne/CVE-2025-2304.
 ![[Pasted image 20260224155252.png]]
 <div align="center">
 <br>
