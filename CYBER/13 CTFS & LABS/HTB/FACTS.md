@@ -708,7 +708,7 @@ Breakdown:
     - **Purpose:** Provides the current password for the account to complete the login handshake.
 - **`--newpass password`**
     - **Description:** Password Synchronization.
-    - **Purpose:** Ensures that during the profile update (which is part of the escalation exploit), the password remains `hello1234`. This prevents the script from defaulting to `test` and potentially locking me out of my own account.
+    - **Purpose:** Ensures that during the profile update (which is part of the escalation exploit), the password remains `password`. This prevents the script from defaulting to `test` and potentially locking me out of my own account.
 - **`-e`**
     - **Description:** Configuration Extraction Flag.
     - **Purpose:** Triggers the post-exploitation module to navigate to the Camaleon CMS settings page and harvest the S3 access keys.
