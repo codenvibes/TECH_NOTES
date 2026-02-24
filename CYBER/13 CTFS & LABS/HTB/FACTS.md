@@ -480,7 +480,14 @@ The most interesting hit is `/admin`
 Create an account and login:
 
 ![[Pasted image 20260224153439.png]]
+<div align="center">
+<br>
+※※※※※※※※※※※※※※※※※※※※※※※※
+<br>
+<br>
+</div>
 
+#### Vulnerability Research
 **CMS Detection**: The dashboard footer explicitly identifies the site as running **Camaleon CMS version 2.9.0**.
 Search online for "Camaleon CMS 2.9.0 exploit."
 The exploit is CVE-2025–2304.
