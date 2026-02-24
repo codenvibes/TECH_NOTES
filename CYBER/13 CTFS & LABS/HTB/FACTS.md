@@ -739,7 +739,11 @@ Breakdown:
 <br>
 </div>
 
-### 3.3 Configuring the Attack Profile
+### 3.3 Configuring my Attack Profile
+
+Command: `aws configure --profile facts
+
+Break`
 <div align="center">
 <br>
 <br>
