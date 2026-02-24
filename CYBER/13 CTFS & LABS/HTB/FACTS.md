@@ -527,14 +527,12 @@ remote: Compressing objects: 100% (16/16), done.
 remote: Total 18 (delta 3), reused 0 (delta 0), pack-reused 0 (from 0)
 Receiving objects: 100% (18/18), 8.83 KiB | 1.10 MiB/s, done.
 Resolving deltas: 100% (3/3), done.
- 
-┌──(kali㉿kali)-[~/CS/HTB/Facts/CVE-2025-2304]
-└─$ cd -                               
-~/CS/HTB/Facts
 
 ┌──(kali㉿kali)-[~/CS/HTB/Facts]
 └─$ cd CVE-2025-2304 ; ls              
 exploit.py  README.md
+                                                                                                                    
+┌──(k
 ```
 
 Poc Audit:
