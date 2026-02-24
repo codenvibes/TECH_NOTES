@@ -100,10 +100,10 @@ Output:
 
 ```shell
 ┌──(kali㉿kali)-[~]
-└─$ nmap -p- --min-rate 5000 -Pn 10.129.4.3  
+└─$ nmap -p- --min-rate 5000 -Pn TARGET_IP  
 Starting Nmap 7.98 ( https://nmap.org ) at 2026-02-23 08:46 -0500
-Warning: 10.129.4.3 giving up on port because retransmission cap hit (10).
-Nmap scan report for 10.129.4.3
+Warning: TARGET_IP giving up on port because retransmission cap hit (10).
+Nmap scan report for TARGET_IP
 Host is up (0.28s latency).
 Not shown: 65513 closed tcp ports (reset)
 PORT      STATE    SERVICE
@@ -157,9 +157,9 @@ Output:
 
 ```shell
 ┌──(kali㉿kali)-[~]
-└─$ nmap -A -p 22,80,54321 10.129.4.3      
+└─$ nmap -A -p 22,80,54321 TARGET_IP      
 Starting Nmap 7.98 ( https://nmap.org ) at 2026-02-23 08:48 -0500
-Nmap scan report for 10.129.4.3
+Nmap scan report for TARGET_IP
 Host is up (0.26s latency).
 
 PORT      STATE SERVICE VERSION
@@ -213,7 +213,7 @@ PORT      STATE SERVICE VERSION
 |     Date: Mon, 23 Feb 2026 13:48:43 GMT
 |_    Content-Length: 0
 |_http-server-header: MinIO
-|_http-title: Did not follow redirect to http://10.129.4.3:9001
+|_http-title: Did not follow redirect to http://TARGET_IP:9001
 1 service unrecognized despite returning data. If you know the service/version, please submit the following fingerprint at https://nmap.org/cgi-bin/submit.cgi?new-service :
 SF-Port54321-TCP:V=7.98%I=7%D=2/23%Time=699C5ABA%P=x86_64-pc-linux-gnu%r(G
 SF:enericLines,67,"HTTP/1\.1\x20400\x20Bad\x20Request\r\nContent-Type:\x20
@@ -262,7 +262,7 @@ Service Info: OS: Linux; CPE: cpe:/o:linux:linux_kernel
 TRACEROUTE (using port 80/tcp)
 HOP RTT       ADDRESS
 1   261.62 ms 10.10.14.1
-2   261.63 ms 10.129.4.3
+2   261.63 ms TARGET_IP
 
 OS and Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
 Nmap done: 1 IP address (1 host up) scanned in 56.28 seconds
