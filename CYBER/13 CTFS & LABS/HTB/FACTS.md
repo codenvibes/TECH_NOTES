@@ -479,7 +479,7 @@ The most interesting hit is `/admin`
 
 Create an account and login:
 
-![[Pasted image 20260224153209.png]]
+![[Pasted image 20260224153439.png]]
 
 **CMS Detection**: The dashboard footer explicitly identifies the site as running **Camaleon CMS version 2.9.0**.
 <div align="center">
