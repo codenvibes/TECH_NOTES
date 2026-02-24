@@ -531,6 +531,10 @@ Receiving objects: 100% (4/4), 6.85 KiB | 6.85 MiB/s, done.
 └─$ ls
 CVE-2023-43208
 ```
+
+Poc Audit:
+
+
 <div align="center">
 <br>
 <br>
