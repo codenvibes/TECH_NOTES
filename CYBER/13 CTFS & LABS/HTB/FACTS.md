@@ -487,7 +487,9 @@ Create an account and login:
 <br>
 </div>
 
-#### Vulnerability Research
+#### 2.2.5 Vulnerability Research & Exploit Identification
+
+Once we identify the CMS and its version, the next phase is searching for known weaknesses that could lead to a compromise.
 **CMS Detection**: The dashboard footer explicitly identifies the site as running **Camaleon CMS version 2.9.0**.
 Search online for "Camaleon CMS 2.9.0 exploit."
 The exploit is CVE-2025–2304.
