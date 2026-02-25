@@ -863,6 +863,13 @@ Output:
 ```
 
 That `id_ed25519` file is exactly what we were looking for. While `id_rsa` is more common in older systems, **ED25519** is a modern, faster, and more secure type of SSH key. Having this file means you likely have a direct ticket to a shell without needing a password.
+<div align="center">
+<br>
+<br>
+</div>
+
+#### 3.6.1 Downloading the Private Key
+
 
 <div align="center">
 <br>
