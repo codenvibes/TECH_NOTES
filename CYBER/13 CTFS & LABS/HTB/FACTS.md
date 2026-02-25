@@ -905,6 +905,16 @@ authorized_keys  CVE-2025-2304  id_ed25519
 Before attempting to log in, modify the file permissions to ensure only my current user has read/write access.
 Linux SSH clients are very strict about security. If a private key file is "too open" (meaning other users on your Kali machine could theoretically read it), the SSH client will refuse to use it and throw a warning.
 
+Command: `chmod 600 id_ed25519`
+
+Breakdown:
+
+- **`chmod`**
+    - **Description:** Change Mode.
+    - **Purpose:** A system utility used to change the access permissions of file system objects.
+- **`600`**
+    - **Description:** Numerical Permission Mask.
+    - **Purpose:** Sets the file so only the **Owner** can Read and Write (`6`), while the **Group** and **Others** have zero permissions (`00`). This is a mandatory requirement for SSH private keys.
 
 <div align="center">
 <br>
