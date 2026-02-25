@@ -126,12 +126,12 @@
                       "type": "webviewer",
                       "state": {
                         "url": "https://gemini.google.com/app/e2f6f7845c980eb5",
-                        "title": "Google Gemini",
-                        "mode": "webview"
+                        "title": "‎Google Gemini",
+                        "mode": "blank"
                       },
                       "pinned": true,
                       "icon": "globe-2",
-                      "title": "Google Gemini"
+                      "title": "‎Google Gemini"
                     }
                   },
                   {
