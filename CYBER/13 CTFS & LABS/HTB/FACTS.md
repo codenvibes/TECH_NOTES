@@ -1133,6 +1133,15 @@ The command returned a critical entry: `(ALL) NOPASSWD: /usr/bin/facter`
 - **User Scope `(ALL)`:** This indicates that the command can be run as any user on the system, most importantly as **root**.
 - **Access Level `NOPASSWD`:** This means I can invoke the command with root power without needing to provide the `trivia` user's password or a root password.
 - **Target Binary:** `/usr/bin/facter`.
+
+Since **Facter** is a Ruby-based tool used for system profiling, it is designed to be extensible. Its vulnerability in this context lies in its ability to load **Custom Facts** from external Ruby scripts.
+<div align="center">
+<br>
+<br>
+</div>
+#### 3.9.2 A 
+
+Almost every Linux privilege escalation begins with a website called **GTFOBins**. It is a curated list of Linux binaries that can be abused to bypass system restrictions.
 <div align="center">
 <br>
 <br>
