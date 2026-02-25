@@ -759,6 +759,8 @@ Breakdown:
 	- **Default region name:** `us-east-1` (MinIO requires a region, though it's often ignored)
 	- **Default output format:** `json`
 
+Output:
+
 ```shell
 ┌──(kali㉿kali)-[~/CS/HTB/Facts/CVE-2025-2304]
 └─$ aws configure --profile facts  
