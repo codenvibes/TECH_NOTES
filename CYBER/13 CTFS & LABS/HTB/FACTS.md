@@ -952,26 +952,6 @@ Session completed.
 
 By using the `ssh-keygen` utility, export the public key from the private file. Upon entering the cracked passphrase (`dragonballz`), the tool revealed the full public key string, including the trailing metadata.
 
-##### 1. The Relationship: The "Seal and the Ring"
-
-To understand why this is possible, imagine a **Signet Ring** (the private key) and the **Wax Seal** it creates (the public key).
-
-- If you have the ring, you can create the seal whenever you want.
-    
-- If you only have the wax seal, it is nearly impossible to recreate the exact ring.
-    
-- Because the ring (private key) contains all the mathematical "DNA" of the pair, tools like `ssh-keygen` can look at the ring and say, "If I pressed this into wax right now, this is what the seal would look like."
-
-##### 2. Why we do this in Hacking
-
-In this specific scenario, you found the **Private Key** (the ring) inside a storage bucket. You didn't find a label telling you who the ring belonged to.
-
-1. **The Hidden Label:** When people create keys, the computer often "etches" their username into the metadata of that key pair.
-    
-2. **The Extraction:** By "exporting" or "viewing" the public version of your stolen key using `ssh-keygen -y`, you are forcing the tool to regenerate that "wax seal."
-    
-3. **The Result:** Along with the mathematical key string, the tool prints the **comment** (the etching) that was stored inside the private file. In your case, that comment was `trivia@facts.htb`.
-
 **Command Breakdown:**
 
 Command: `ssh-keygen -y -f id_ed25519`
@@ -994,6 +974,26 @@ Output:
 Enter passphrase for "id_ed25519": 
 ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIPm3PP5FI/xlBsHvzncKzV0oXPVpXlBOxdja+vHzKCam trivia@facts.htb
 ```
+
+##### 1. The Relationship: The "Seal and the Ring"
+
+To understand why this is possible, imagine a **Signet Ring** (the private key) and the **Wax Seal** it creates (the public key).
+
+- If you have the ring, you can create the seal whenever you want.
+
+- If you only have the wax seal, it is nearly impossible to recreate the exact ring.
+
+- Because the ring (private key) contains all the mathematical "DNA" of the pair, tools like `ssh-keygen` can look at the ring and say, "If I pressed this into wax right now, this is what the seal would look like."
+
+##### 2. Why we do this in Hacking
+
+In this specific scenario, you found the **Private Key** (the ring) inside a storage bucket. You didn't find a label telling you who the ring belonged to.
+
+1. **The Hidden Label:** When people create keys, the computer often "etches" their username into the metadata of that key pair.
+
+2. **The Extraction:** By "exporting" or "viewing" the public version of your stolen key using `ssh-keygen -y`, you are forcing the tool to regenerate that "wax seal."
+
+3. **The Result:** Along with the mathematical key string, the tool prints the **comment** (the etching) that was stored inside the private file. In your case, that comment was `trivia@facts.htb`.
 <div align="center">
 <br>
 <br>
