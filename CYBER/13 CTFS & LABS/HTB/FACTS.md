@@ -838,6 +838,10 @@ Output:
 2026-01-08 13:47:17         20 .lesshst
 2026-01-08 13:47:17        807 .profile
 ```
+
+This looks like a classic "Home Directory" leak. Seeing folders like `.ssh/` and `.bundle/` inside an S3 bucket is a massive finding—it suggests the MinIO service might be misconfigured to serve the home directory of a system user.
+
+The `.ssh/` directory is your high-value target here, as it likely contains private keys (`id_rsa`) that could grant you direct SSH access to the server.
 <div align="center">
 <br>
 <br>
