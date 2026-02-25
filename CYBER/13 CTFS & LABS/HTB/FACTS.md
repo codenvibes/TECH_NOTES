@@ -809,6 +809,7 @@ Output:
 
 We've revealed two distinct buckets: `internal` and `randomfacts`. The existence of an `internal` bucket suggests a repository for sensitive administrative or system-level data.
 
+Next let's list 
 <div align="center">
 <br>
 <br>
