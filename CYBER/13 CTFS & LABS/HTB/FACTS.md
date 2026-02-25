@@ -1108,7 +1108,9 @@ With a stable shell as the `trivia` user, you can now transition to searching fo
 <br>
 </div>
 
-3.9.1
+#### 3.9.1 Auditing Sudo Privileges
+
+Command: `sudo -l`
 <div align="center">
 <br>
 <br>
