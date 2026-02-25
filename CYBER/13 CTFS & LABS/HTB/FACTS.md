@@ -1222,6 +1222,17 @@ root@facts:/home/trivia#
 ### 4.2 Result: Full System Compromise
 
 The execution is successful, immediately granting a root terminal session.
+
+```shell
+root@facts:/home/trivia# whoami
+root
+root@facts:/home/trivia# ls
+nyorosha.rb
+root@facts:/home/trivia# find / -name root.txt 2>/dev/null
+/root/root.txt
+root@facts:/home/trivia# cat /root/root.txt 
+32d1addedbf194f839d5333df609d614
+```
 <div align="center">
 <br>
 <br>
