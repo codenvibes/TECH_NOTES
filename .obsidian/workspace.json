@@ -447,13 +447,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "CYBER/13 CTFS & LABS/HTB/FACTS.md",
+                "file": "SOFT SKILLS & CAREER/PIRP.base",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of FACTS"
+              "title": "Outline of PIRP"
             }
           },
           {
@@ -511,10 +511,10 @@
       "iconic:Open rulebook": false
     }
   },
-  "active": "180b670eb6aaa497",
+  "active": "6b2536b183f7f9a6",
   "lastOpenFiles": [
-    "CYBER/13 CTFS & LABS/HTB/fact.md",
     "CYBER/13 CTFS & LABS/HTB/FACTS.md",
+    "CYBER/13 CTFS & LABS/HTB/fact.md",
     "CYBER/13 CTFS & LABS/HTB/INTERPRETER.md",
     "CYBER/13 CTFS & LABS/HTB/fac.md",
     "SOFT SKILLS & CAREER/PIRP.base",
