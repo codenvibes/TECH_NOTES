@@ -1143,7 +1143,7 @@ Since **Facter** is a Ruby-based tool used for system profiling, it is designed 
 
 Almost every Linux privilege escalation begins with a website called **GTFOBins**. It is a curated list of Linux binaries that can be abused to bypass system restrictions.
 
-Go to Google and search: `facter privilege escalation` or `facter gtfobins`.
+Go to Google and search: `facter privilege escalation` or `facter privilege escalatio`.
 <div align="center">
 <br>
 <br>
