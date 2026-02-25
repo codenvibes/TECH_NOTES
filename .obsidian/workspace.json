@@ -190,7 +190,7 @@
               {
                 "id": "96c424c4653196ac",
                 "type": "tabs",
-                "dimension": 54.22077922077923,
+                "dimension": 80.64935064935065,
                 "children": [
                   {
                     "id": "10dd2c9178155b52",
@@ -256,7 +256,7 @@
               {
                 "id": "ebc3d89584b2ffd8",
                 "type": "tabs",
-                "dimension": 45.77922077922078,
+                "dimension": 19.350649350649352,
                 "children": [
                   {
                     "id": "1ed32a33f41cf25f",
@@ -461,12 +461,13 @@
             "state": {
               "type": "outline",
               "state": {
+                "file": "CYBER/13 CTFS & LABS/HTB/FACTS.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline"
+              "title": "Outline of FACTS"
             }
           },
           {
@@ -524,7 +525,7 @@
       "iconic:Open rulebook": false
     }
   },
-  "active": "3b8b4b24d88a173c",
+  "active": "00bc5b978594dd0c",
   "lastOpenFiles": [
     "CYBER/13 CTFS & LABS/HTB/FACTS.md",
     "CYBER/13 CTFS & LABS/HTB/INTERPRETER.md",
