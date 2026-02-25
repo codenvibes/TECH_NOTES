@@ -1001,7 +1001,7 @@ In this specific scenario, you found the **Private Key** (the ring) inside a sto
 
 #### 3.6.5 Setting Permissions
 
-Before attempting to log in, modify the file permissions to ensure only my current user has read/write access.
+Before attempting to log in, modify the file permissions to ensure only your current user has read/write access.
 Linux SSH clients are very strict about security. If a private key file is "too open" (meaning other users on your Kali machine could theoretically read it), the SSH client will refuse to use it and throw a warning.
 
 Command: `chmod 600 id_ed25519`
