@@ -861,6 +861,9 @@ Output:
 2026-02-25 04:26:47         82 authorized_keys
 2026-02-25 04:26:47        464 id_ed25519
 ```
+
+That `id_ed25519` file is exactly what we were looking for. While `id_rsa` is more common in older systems, **ED25519** is a modern, faster, and more secure type of SSH key. Having this file means you likely have a direct ticket to a shell without needing a password.
+
 <div align="center">
 <br>
 <br>
