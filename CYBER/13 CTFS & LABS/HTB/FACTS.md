@@ -1069,7 +1069,11 @@ trivia@facts:~$
 <br>
 </div>
 
-### 3.8 User Flag D
+### 3.8 User Flag Discovery and Retrieval
+
+The flag wasn't in the `trivia` home directory, but belongs to another user named **william**.
+
+
 <div align="center">
 <br>
 <br>
