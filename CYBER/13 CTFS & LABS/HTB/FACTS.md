@@ -824,6 +824,10 @@ Breakdown:
 - **`--profile facts`**
     - **Description:** Identity Context.
     - **Purpose:** Applies the `AKIA...` access key and secret key associated with the "facts" profile to authorize the request.
+
+Output:
+
+
 <div align="center">
 <br>
 <br>
