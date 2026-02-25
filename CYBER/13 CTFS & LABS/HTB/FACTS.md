@@ -856,7 +856,10 @@ Command: `aws --endpoint-url http://facts.htb:54321 s3 ls s3://internal/.ssh/ --
 Output:
 
 ```shell
-
+┌──(kali㉿kali)-[~/CS/HTB/Facts/CVE-2025-2304]
+└─$ aws --endpoint-url http://facts.htb:54321 s3 ls s3://internal/.ssh/ --profile facts
+2026-02-25 04:26:47         82 authorized_keys
+2026-02-25 04:26:47        464 id_ed25519
 ```
 <div align="center">
 <br>
