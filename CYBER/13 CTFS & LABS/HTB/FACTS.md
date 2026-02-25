@@ -1192,10 +1192,8 @@ end
 
 Breakdown:
 
-- **`Facter.add(:pwn)`**: This defines a new fact named `nyorosha`.
-    
+- **`Facter.add(:nyorosha)`**: This defines a new fact named `nyorosha`.
 - **`setcode do ... end`**: This block tells Facter what code to run to determine the value of this "fact."
-    
 - **`exec("/bin/bash -p")`**: Instead of returning a value (like an IP address), the script replaces the current process with a root-level bash shell.
 <div align="center">
 <br>
