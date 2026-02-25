@@ -1157,6 +1157,7 @@ Results:
 > 
 > Privilege Escalation Risk: 
 > 	If `facter` is configured with `sudo` rights without restricting environment variables, a non-privileged user can redirect `FACTERLIB` to a script that executes commands as the root user. This allows for a complete takeover of the system.
+
 <div align="center">
 <br>
 <br>
