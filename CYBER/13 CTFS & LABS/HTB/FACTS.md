@@ -1177,7 +1177,7 @@ Following the identification of the `sudo` misconfiguration, proceed to exploit 
 
 ### 4.1 Crafting the Payload
 
-a Ruby script designed to spawn an interactive bash shell with administrative privileges. By using the `-p` flag with `/bin/bash`, I ensured that the shell would maintain the effective user ID (root) provided by the `sudo` command.
+Here's a Ruby script designed to spawn an interactive bash shell with administrative privileges. By using the `-p` flag with `/bin/bash`, it ensures that the shell would maintain the effective user ID (root) provided by the `sudo` command.
 <div align="center">
 <br>
 <br>
