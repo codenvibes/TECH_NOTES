@@ -912,13 +912,13 @@ Command: `ssh-keygen -y -f id_ed25519`
 
 #### 3.6.3 Cracking the Passphrase
 
-1. Extract the Hash
-	Command: `/usr/share/john/ssh2john.py id_ed25519 > hash`
-	
+1. Extract the Hash: `/usr/share/john/ssh2john.py id_ed25519 > hash`
+
 2. Crack the Hash: `john --wordlist=/usr/share/wordlists/rockyou.txt hash`
-	```ssh
-	
-	```
+
+``` shell
+
+```
 <div align="center">
 <br>
 <br>
