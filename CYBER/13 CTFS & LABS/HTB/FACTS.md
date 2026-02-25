@@ -827,7 +827,17 @@ Breakdown:
 
 Output:
 
-
+```shell
+┌──(kali㉿kali)-[~/CS/HTB/Facts/CVE-2025-2304]
+└─$ aws --endpoint-url http://facts.htb:54321 s3 ls s3://internal/ --profile facts
+                           PRE .bundle/
+                           PRE .cache/
+                           PRE .ssh/
+2026-01-08 13:45:13        220 .bash_logout
+2026-01-08 13:45:13       3900 .bashrc
+2026-01-08 13:47:17         20 .lesshst
+2026-01-08 13:47:17        807 .profile
+```
 <div align="center">
 <br>
 <br>
