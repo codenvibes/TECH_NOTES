@@ -812,6 +812,18 @@ We've revealed two distinct buckets: `internal` and `randomfacts`. The existence
 Next let's list the objects residing within the `internal` bucket.
 
 Command: `aws --endpoint-url http://facts.htb:54321 s3 ls s3://internal/ --profile facts`
+
+Breakdown: 
+
+- **`s3 ls s3://internal`**
+    - **Description:** Recursive Object Listing. 
+    - **Purpose:** Specifically targets the `internal` bucket to view all files and directories stored inside it.
+- **`--endpoint-url http://facts.htb:54321`**
+    - **Description:** Service Redirector.
+    - **Purpose:** Ensures the request is routed to the MinIO service on the target box rather than the public AWS cloud.
+- **`--profile facts`**
+    - **Description:** Identity Context.
+    - **Purpose:** Applies the `AKIA...` access key and secret key associated with the "facts" profile to authorize the request.
 <div align="center">
 <br>
 <br>
