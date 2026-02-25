@@ -1233,6 +1233,8 @@ root@facts:/home/trivia# find / -name root.txt 2>/dev/null
 root@facts:/home/trivia# cat /root/root.txt 
 32d1addedbf194f839d5333df609d614
 ```
+
+Closing Remarks: Ni mbaya! Baradhuli
 <div align="center">
 <br>
 <br>
