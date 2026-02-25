@@ -765,7 +765,9 @@ Breakdown:
 
 ### 3.4 Validating Credentials and Listing Buckets
 
-Once you've configured your pro
+Once you've configured your profile, query the custom endpoint on port 54321 to list the available storage buckets.
+
+Command: `aws `
 <div align="center">
 <br>
 <br>
