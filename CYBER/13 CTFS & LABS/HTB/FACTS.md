@@ -8,10 +8,10 @@ date: 2026-02-15
 ---
 ## Summary
 
-| SECTION/TASK     | FLAG |
-| ---------------- | ---- |
-| Submit User Flag |      |
-| Submit Root Flag |      |
+| SECTION/TASK     | FLAG                             |
+| ---------------- | -------------------------------- |
+| Submit User Flag | 59412f1cbe1354ff1f5d78915abd77a0 |
+| Submit Root Flag |                                  |
 
 <div align="center">
 <br>
@@ -1094,7 +1094,7 @@ trivia@facts:~$ cat /home/william/user.txt
 59412f1cbe1354ff1f5d78915abd77a0
 ```
 
-**User Flag:** `59412f1cbe1354ff1f5d78915abd77a0`
+**User Flag:** ==`59412f1cbe1354ff1f5d78915abd77a0`==
 <div align="center">
 <br>
 <br>
