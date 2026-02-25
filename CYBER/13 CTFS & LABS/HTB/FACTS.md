@@ -767,7 +767,7 @@ Breakdown:
 
 Once you've configured your profile, query the custom endpoint on port 54321 to list the available storage buckets.
 
-Command: `aws `
+Command: `aws --endpoint -url http://facts.htb:54321 s3 ls`
 <div align="center">
 <br>
 <br>
