@@ -1168,6 +1168,16 @@ Results:
 <div style="page-break-after: always;"></div>
 
 ## 4. PrivEsc
+
+Following the identification of the `sudo` misconfiguration, proceed to exploit the extensible nature of the **Facter** profiling tool. Since Facter is built on **Ruby**, it allows users to define "Custom Facts" using Ruby scripts, which are executed whenever Facter is invoked.
+<div align="center">
+<br>
+<br>
+</div>
+
+### 4.1 Crafting the Payload
+
+
 <div align="center">
 <br>
 <br>
