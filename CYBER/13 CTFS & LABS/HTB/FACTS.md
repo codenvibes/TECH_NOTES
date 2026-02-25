@@ -1104,7 +1104,7 @@ trivia@facts:~$ cat /home/william/user.txt
 <!-- PAGE BREAK -->
 <div style="page-break-after: always;"></div>
 
-## 4. Post-Exploitation
+## 4. PrivEsc
 <div align="center">
 <br>
 <br>
