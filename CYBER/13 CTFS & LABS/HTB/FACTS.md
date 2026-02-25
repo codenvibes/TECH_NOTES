@@ -758,7 +758,14 @@ Breakdown:
 	- **AWS Secret Access Key:** `gRlcC4QksN2C6aDm6epbgGm3fhY6aPkKFNTUQeot`
 	- **Default region name:** `us-east-1` (MinIO requires a region, though it's often ignored)
 	- **Default output format:** `json`
+<div align="center">
+<br>
+<br>
+</div>
 
+### 3.4 Validating Credentials and Listing Buckets
+
+Once you've configured your pro
 <div align="center">
 <br>
 <br>
