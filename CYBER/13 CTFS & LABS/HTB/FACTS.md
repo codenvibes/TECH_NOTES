@@ -792,6 +792,15 @@ Breakdown:
     - **Description:** Profile Selector.
     - **Purpose:** Tells the CLI to use the `AKIA...` keys we just saved in the previous step.
 
+Output:
+
+```shell
+┌──(kali㉿kali)-[~/CS/HTB/Facts/CVE-2025-2304]
+└─$ aws --endpoint-url http://facts.htb:54321 s3 ls --profile facts
+2025-09-11 08:06:52 internal
+2025-09-11 08:06:52 randomfacts
+```
+
 <div align="center">
 <br>
 <br>
