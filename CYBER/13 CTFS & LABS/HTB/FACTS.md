@@ -917,7 +917,18 @@ Command: `ssh-keygen -y -f id_ed25519`
 2. Crack the Hash: `john --wordlist=/usr/share/wordlists/rockyou.txt hash`
 
 ``` shell
-
+┌──(kali㉿kali)-[~/CS/HTB/Facts]
+└─$ john --wordlist=/usr/share/wordlists/rockyou.txt hash    
+Using default input encoding: UTF-8
+Loaded 1 password hash (SSH, SSH private key [RSA/DSA/EC/OPENSSH 32/64])
+Cost 1 (KDF/cipher [0=MD5/AES 1=MD5/3DES 2=Bcrypt/AES]) is 2 for all loaded hashes
+Cost 2 (iteration count) is 24 for all loaded hashes
+Will run 4 OpenMP threads
+Press 'q' or Ctrl-C to abort, almost any other key for status
+dragonballz      (id_ed25519)     
+1g 0:00:03:08 DONE (2026-02-25 05:41) 0.005303g/s 16.97p/s 16.97c/s 16.97C/s grecia..imissu
+Use the "--show" option to display all of the cracked passwords reliably
+Session completed. 
 ```
 <div align="center">
 <br>
