@@ -961,7 +961,7 @@ Command: `ssh-keygen -y -f id_ed25519`
     - **Purpose:** A standard utility for creating, managing, and converting authentication keys for the SSH protocol.
 - **`-y`**
     - **Description:** Export Public Key.
-    - **Purpose:** This flag reads an OpenSSH format private key and prints its public key counterpart to the standard output.
+    - **Purpose:** This flag reads an OpenSSH format private key and prints its public key counterpart to the standard output. This tells the tool: "Don't make a new key. Instead, read the private key I'm giving you and tell me what its public counterpart looks like."
 - **`-f id_ed25519`**
     - **Description:** File Specification.
     - **Purpose:** Points the tool to the specific private key file acquired from the MinIO storage.
