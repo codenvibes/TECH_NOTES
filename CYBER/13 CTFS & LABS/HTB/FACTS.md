@@ -758,6 +758,15 @@ Breakdown:
 	- **AWS Secret Access Key:** `gRlcC4QksN2C6aDm6epbgGm3fhY6aPkKFNTUQeot`
 	- **Default region name:** `us-east-1` (MinIO requires a region, though it's often ignored)
 	- **Default output format:** `json`
+
+```shell
+┌──(kali㉿kali)-[~/CS/HTB/Facts/CVE-2025-2304]
+└─$ aws configure --profile facts  
+AWS Access Key ID [None]: AKIAE356689792F1158C
+AWS Secret Access Key [None]: gRlcC4QksN2C6aDm6epbgGm3fhY6aPkKFNTUQeot
+Default region name [None]: 
+Default output format [None]: json
+```
 <div align="center">
 <br>
 <br>
