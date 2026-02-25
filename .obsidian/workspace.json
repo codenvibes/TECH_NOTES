@@ -135,20 +135,6 @@
                     }
                   },
                   {
-                    "id": "eb8e3593f0be0e87",
-                    "type": "leaf",
-                    "state": {
-                      "type": "webviewer",
-                      "state": {
-                        "url": "https://medium.com/@mwahyudinwisesar/facts-s10-htb-writeup-3f6369768e57",
-                        "title": "Facts (S10)— HTB Writeup. First, this machine is an easy machine… | by wahyudnWis | Feb, 2026 | Medium",
-                        "mode": "webview"
-                      },
-                      "icon": "globe-2",
-                      "title": "Facts (S10)— HTB Writeup. First, this machine is an easy machine… | by wahyudnWis | Feb, 2026 | Medium"
-                    }
-                  },
-                  {
                     "id": "bea647b1dd44387e",
                     "type": "leaf",
                     "state": {
@@ -204,7 +190,7 @@
               {
                 "id": "96c424c4653196ac",
                 "type": "tabs",
-                "dimension": 87.01298701298701,
+                "dimension": 47.98701298701299,
                 "children": [
                   {
                     "id": "10dd2c9178155b52",
@@ -270,7 +256,7 @@
               {
                 "id": "ebc3d89584b2ffd8",
                 "type": "tabs",
-                "dimension": 12.987012987012985,
+                "dimension": 52.01298701298701,
                 "children": [
                   {
                     "id": "1ed32a33f41cf25f",
@@ -340,12 +326,12 @@
                     "state": {
                       "type": "webviewer",
                       "state": {
-                        "url": "https://www.revshells.com/",
-                        "title": "Online - Reverse Shell Generator",
+                        "url": "https://medium.com/@mwahyudinwisesar/facts-s10-htb-writeup-3f6369768e57",
+                        "title": "Facts (S10)— HTB Writeup. First, this machine is an easy machine… | by wahyudnWis | Feb, 2026 | Medium",
                         "mode": "webview"
                       },
                       "icon": "globe-2",
-                      "title": "Online - Reverse Shell Generator"
+                      "title": "Facts (S10)— HTB Writeup. First, this machine is an easy machine… | by wahyudnWis | Feb, 2026 | Medium"
                     }
                   }
                 ],
@@ -538,8 +524,9 @@
       "iconic:Open rulebook": false
     }
   },
-  "active": "eb8e3593f0be0e87",
+  "active": "99bb3220546c762c",
   "lastOpenFiles": [
+    "CYBER/13 CTFS & LABS/THM/OVERPASS.md",
     "CYBER/13 CTFS & LABS/HTB/FACTS.md",
     "SOFT SKILLS & CAREER/PIRP.base",
     "CYBER/13 CTFS & LABS/HTB/INTERPRETER.md",
@@ -559,7 +546,6 @@
     "SOFT SKILLS & CAREER/PRESENTATIONS/CYBER SHUJAA TRAINER PRESENTATION.pdf",
     "SOFT SKILLS & CAREER/INTERVIEWS/CYBERSHUJAA TRAINER.md",
     "QUICK NOTES/WHITE-BOARD.md",
-    "CYBER/13 CTFS & LABS/THM/OVERPASS.md",
     "ASSETS/horizon3-ai-attack-research-disclosures-nextgen-mirth-connect-remote-code-execution-2026-02-22-13_33_19.png",
     "ASSETS/Unconfirmed 469548.crdownload",
     "ASSETS/NextGen Mirth Connect Remote Code Execution Vulnerability (CVE-2023-43208) _ Horizon3.ai_files/Screenshot-2023-10-18-at-1.48.00-AM.png",
