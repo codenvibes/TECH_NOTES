@@ -1180,6 +1180,10 @@ Following the identification of the `sudo` misconfiguration, proceed to exploit 
 Here's a Ruby script designed to spawn an interactive bash shell with administrative privileges. 
 By using the `-p` flag with `/bin/bash`, it ensures that the shell would maintain the effective user ID (root) provided by the `sudo` command.
 
+```shell
+exit
+trivia@facts:~$ cat nyorosha.rb 
+```
 
 ```rb
 Facter.add(:nyorosha) do
