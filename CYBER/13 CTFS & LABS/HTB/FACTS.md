@@ -901,6 +901,11 @@ authorized_keys  CVE-2025-2304  id_ed25519
 </div>
 
 #### 3.6.2 Setting Permissions
+
+Before attempting to log in, modify the file permissions to ensure only my current user has read/write access.
+Linux SSH clients are very strict about security. If a private key file is "too open" (meaning other users on your Kali machine could theoretically read it), the SSH client will refuse to use it and throw a warning.
+
+
 <div align="center">
 <br>
 <br>
