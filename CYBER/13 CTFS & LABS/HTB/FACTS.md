@@ -1184,7 +1184,7 @@ By using the `-p` flag with `/bin/bash`, it ensures that the shell would maintai
 ```rb
 Facter.add(:nyorosha) do
   setcode { exec("/bin/bash -p") }
-end > /home/trivia/nyorosha.rb
+end
 ```
 <div align="center">
 <br>
