@@ -898,6 +898,12 @@ authorized_keys  CVE-2025-2304  id_ed25519
 <div align="center">
 <br>
 <br>
+</div>
+
+#### 3.6.2 Setting Permissions
+<div align="center">
+<br>
+<br>
 ※※※※※※※※※※※※※※※※※※※※※※※※
 <br>
 </div>
