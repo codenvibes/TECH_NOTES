@@ -900,6 +900,16 @@ authorized_keys  CVE-2025-2304  id_ed25519
 <br>
 </div>
 
+#### 3.6.2 Check if the Key has a Passphrase
+
+Command: `ssh-keygen -y -f id_ed25519`
+
+**It asks for a passphrase:** The key is encrypted. We'll need to crack it using `john` (John the Ripper).
+<div align="center">
+<br>
+<br>
+</div>
+
 #### 3.6.2 Setting Permissions
 
 Before attempting to log in, modify the file permissions to ensure only my current user has read/write access.
