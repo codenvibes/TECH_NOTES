@@ -909,6 +909,10 @@ Command: `ssh-keygen -y -f id_ed25519`
 <br>
 <br>
 </div>
+<div align="center">
+<br>
+<br>
+</div>
 
 #### 3.6.3 Cracking the Passphrase
 
