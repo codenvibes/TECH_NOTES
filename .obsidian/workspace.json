@@ -169,11 +169,11 @@
                       "type": "webviewer",
                       "state": {
                         "url": "https://medium.com/@mwahyudinwisesar/facts-s10-htb-writeup-3f6369768e57",
-                        "title": "Facts (S10)— HTB Writeup. First, this machine is an easy machine… | by wahyudnWis | Feb, 2026 | Medium",
+                        "title": "Just a moment...",
                         "mode": "webview"
                       },
                       "icon": "globe-2",
-                      "title": "Facts (S10)— HTB Writeup. First, this machine is an easy machine… | by wahyudnWis | Feb, 2026 | Medium"
+                      "title": "Just a moment..."
                     }
                   },
                   {
@@ -191,7 +191,7 @@
                     }
                   }
                 ],
-                "currentTab": 2
+                "currentTab": 5
               }
             ],
             "direction": "horizontal"
@@ -538,7 +538,7 @@
       "iconic:Open rulebook": false
     }
   },
-  "active": "3b8b4b24d88a173c",
+  "active": "eb8e3593f0be0e87",
   "lastOpenFiles": [
     "CYBER/13 CTFS & LABS/HTB/FACTS.md",
     "SOFT SKILLS & CAREER/PIRP.base",
