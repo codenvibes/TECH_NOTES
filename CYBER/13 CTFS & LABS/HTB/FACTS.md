@@ -1073,7 +1073,28 @@ trivia@facts:~$
 
 The flag wasn't in the `trivia` home directory, but belongs to another user named **william**.
 
+```shell
+trivia@facts:~$ pwd
+/home/trivia
+trivia@facts:~$ ls -la
+total 36
+drwxr-x--- 6 trivia trivia 4096 Jan 28 16:17 .
+drwxr-xr-x 4 root   root   4096 Jan  8 17:53 ..
+lrwxrwxrwx 1 root   root      9 Jan 26 11:40 .bash_history -> /dev/null
+-rw-r--r-- 1 trivia trivia  220 Aug 20  2024 .bash_logout
+-rw-r--r-- 1 trivia trivia 3900 Jan  8 18:19 .bashrc
+drwxrwxr-x 3 trivia trivia 4096 Jan  8 18:01 .bundle
+drwx------ 2 trivia trivia 4096 Jan  8 18:58 .cache
+drwxrwxr-x 3 trivia trivia 4096 Jan  8 17:52 .local
+-rw-r--r-- 1 trivia trivia  807 Aug 20  2024 .profile
+drwx------ 2 trivia trivia 4096 Feb 25 09:25 .ssh
+trivia@facts:~$ find / -name user.txt 2>/dev/null
+/home/william/user.txt
+trivia@facts:~$ cat /home/william/user.txt 
+59412f1cbe1354ff1f5d78915abd77a0
+```
 
+**User Flag:** `59412f1cbe1354ff1f5d78915abd77a0`
 <div align="center">
 <br>
 <br>
