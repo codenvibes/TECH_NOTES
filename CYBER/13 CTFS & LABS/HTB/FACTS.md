@@ -855,7 +855,8 @@ Command: `aws --endpoint-url http://facts.htb:54321 s3 ls s3://internal/.ssh/ --
 
 Output:
 
-```shel
+```shell
+
 ```
 <div align="center">
 <br>
