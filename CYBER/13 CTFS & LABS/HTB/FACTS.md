@@ -910,6 +910,15 @@ Command: `ssh-keygen -y -f id_ed25519`
 <br>
 </div>
 
+#### 3.6.3 Cracking the Passphrase
+
+1. Extract the Hash
+	
+<div align="center">
+<br>
+<br>
+</div>
+
 #### 3.6.2 Setting Permissions
 
 Before attempting to log in, modify the file permissions to ensure only my current user has read/write access.
