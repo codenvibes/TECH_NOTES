@@ -913,7 +913,8 @@ Command: `ssh-keygen -y -f id_ed25519`
 #### 3.6.3 Cracking the Passphrase
 
 1. Extract the Hash
-	
+	Command: `─(kali㉿kali)-[~/CS/HTB/Facts]
+└─$ /usr/share/john/ssh2john.py id_ed25519 > hash`
 <div align="center">
 <br>
 <br>
