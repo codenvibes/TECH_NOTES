@@ -1014,7 +1014,14 @@ Breakdown:
 - **`600`**
     - **Description:** Numerical Permission Mask.
     - **Purpose:** Sets the file so only the **Owner** can Read and Write (`6`), while the **Group** and **Others** have zero permissions (`00`). This is a mandatory requirement for SSH private keys.
+<div align="center">
+<br>
+<br>
+</div>
 
+### 3.7 Establishing the Initial Shell
+
+With the identity verified and the key unlocked, I established a secure shell (SSH) session to the target.
 <div align="center">
 <br>
 <br>
