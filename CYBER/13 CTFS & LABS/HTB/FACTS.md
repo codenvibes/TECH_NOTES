@@ -1198,6 +1198,12 @@ Breakdown:
 <div align="center">
 <br>
 <br>
+</div>
+
+### 4.2 Execution and Root Shell Capture
+<div align="center">
+<br>
+<br>
 ※※※※※※※※※※※※※※※※※※※※※※※※
 <br>
 </div>
