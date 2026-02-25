@@ -1027,6 +1027,14 @@ Command: `ssh -i id_ed25519 trivia@facts.htb`
 
 **Passphrase:** `dragonballz`
 
+Breakdown: 
+
+
+Output:
+
+```shell
+
+```
 
 <div align="center">
 <br>
