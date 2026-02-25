@@ -879,6 +879,12 @@ Breakdown:
 **`s3 cp`**
 - **Description:** S3 Copy Utility.
 - **Purpose:** Downloads the specified file from the S3 bucket to the current local directory (indicated by the `.`).
+
+Output: 
+
+```shell
+
+```
 <div align="center">
 <br>
 <br>
