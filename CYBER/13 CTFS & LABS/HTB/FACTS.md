@@ -1103,6 +1103,8 @@ trivia@facts:~$ cat /home/william/user.txt
 ### 3.9 PrivEsc Reconnaissance
 
 With a stable shell as the `trivia` user, you can now transition to searching for a path to escalate privileges to `root`.
+
+In the world of CTFs and penetration testing, the transition from "Initial Access" to "Root" is all about **System Enumeration**. You find the path forward by asking the system what it allows you to do.
 <div align="center">
 <br>
 <br>
