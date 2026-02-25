@@ -1102,7 +1102,13 @@ trivia@facts:~$ cat /home/william/user.txt
 
 ### 3.9 PrivEsc Reconnaissance
 
-With a stable shell as the `trivia` user, you can transitioned to searching for a path to escalate privileges to `root`.
+With a stable shell as the `trivia` user, you can now transition to searching for a path to escalate privileges to `root`.
+<div align="center">
+<br>
+<br>
+</div>
+
+3.9.1
 <div align="center">
 <br>
 <br>
