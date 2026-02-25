@@ -1147,16 +1147,16 @@ Go to Google and search: `facter privilege escalation` or `facter gtfobins`.
 
 Results:
 
-According to [GTFOBins](https://gtfobins.linuxsec.org/gtfobins/facter/), `facter` (a system profiling tool) can be abused to break out of restricted environments or escalate privileges if it has special permissions (like `sudo`). 
-
-Here are the techniques listed for **facter** on GTFOBins:
-
-Shell: 
-	This technique spawns an interactive system shell to break out from restricted environments. 
-	The vulnerability stems from the way `facter` loads custom facts. By using the `FACTERLIB` environment variable, a user can point the tool to a directory containing malicious Ruby scripts. When `facter` runs, it executes any Ruby files found in that path.
-
-Privilege Escalation Risk: 
-	If `facter` is configured with `sudo` rights without restricting environment variables, a non-privileged user can redirect `FACTERLIB` to a script that executes commands as the root user. This allows for a complete takeover of the system.
+> According to [GTFOBins](https://gtfobins.linuxsec.org/gtfobins/facter/), `facter` (a system profiling tool) can be abused to break out of restricted environments or escalate privileges if it has special permissions (like `sudo`). 
+> 
+> Here are the techniques listed for **facter** on GTFOBins:
+> 
+> Shell: 
+> 	This technique spawns an interactive system shell to break out from restricted environments. 
+> 	The vulnerability stems from the way `facter` loads custom facts. By using the `FACTERLIB` environment variable, a user can point the tool to a directory containing malicious Ruby scripts. When `facter` runs, it executes any Ruby files found in that path.
+> 
+> Privilege Escalation Risk: 
+> 	If `facter` is configured with `sudo` rights without restricting environment variables, a non-privileged user can redirect `FACTERLIB` to a script that executes commands as the root user. This allows for a complete takeover of the system.
 <div align="center">
 <br>
 <br>
