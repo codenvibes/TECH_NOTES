@@ -957,22 +957,23 @@ By using the `ssh-keygen` utility, export the public key from the private file. 
 Command: `ssh-keygen -y -f id_ed25519`
 
 - **`ssh-keygen`**
-    
     - **Description:** SSH Key Management Tool.
-        
     - **Purpose:** A standard utility for creating, managing, and converting authentication keys for the SSH protocol.
-        
 - **`-y`**
-    
     - **Description:** Export Public Key.
-        
     - **Purpose:** This flag reads an OpenSSH format private key and prints its public key counterpart to the standard output.
-        
 - **`-f id_ed25519`**
-    
     - **Description:** File Specification.
-        
     - **Purpose:** Points the tool to the specific private key file acquired from the MinIO storage.
+
+Output:
+
+```shell
+┌──(kali㉿kali)-[~/CS/HTB/Facts]
+└─$ ssh-keygen -y -f id_ed25519
+Enter passphrase for "id_ed25519": 
+ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIPm3PP5FI/xlBsHvzncKzV0oXPVpXlBOxdja+vHzKCam trivia@facts.htb
+```
 <div align="center">
 <br>
 <br>
