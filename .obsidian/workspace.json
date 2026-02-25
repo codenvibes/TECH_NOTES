@@ -461,13 +461,12 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "CYBER/13 CTFS & LABS/THM/OVERPASS.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of OVERPASS"
+              "title": "Outline"
             }
           },
           {
@@ -525,10 +524,10 @@
       "iconic:Open rulebook": false
     }
   },
-  "active": "09bcb134bd9cf9e8",
+  "active": "3b8b4b24d88a173c",
   "lastOpenFiles": [
-    "CYBER/13 CTFS & LABS/HTB/FACTS.md",
     "CYBER/13 CTFS & LABS/THM/OVERPASS.md",
+    "CYBER/13 CTFS & LABS/HTB/FACTS.md",
     "SOFT SKILLS & CAREER/PIRP.base",
     "CYBER/13 CTFS & LABS/HTB/INTERPRETER.md",
     "ASSETS/Pasted image 20260224155252.png",
