@@ -909,12 +909,14 @@ Command: `ssh-keygen -y -f id_ed25519`
 <br>
 <br>
 </div>
+
+#### 3.6.3 Extracting the Identity Comment
 <div align="center">
 <br>
 <br>
 </div>
 
-#### 3.6.3 Cracking the Passphrase
+#### 3.6.4 Cracking the Passphrase
 
 1. Extract the Hash: `/usr/share/john/ssh2john.py id_ed25519 > hash`
 
