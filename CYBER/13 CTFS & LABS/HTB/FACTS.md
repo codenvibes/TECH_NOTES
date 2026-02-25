@@ -849,7 +849,14 @@ The `.ssh/` directory is your high-value target here, as it likely contains priv
 
 ### 3.6 Enumeration of SSH Keys
 
+The most critical discovery is the `.ssh/` directory. In a typical Linux environment, this folder stores cryptographic keys used for passwordless authentication. If a private key exists and is readable, it can be used to pivot from web-based exploitation to a full interactive shell via SSH.
 
+Command: `aws --endpoint-url http://facts.htb:54321 s3 ls s3://internal/.ssh/ --profile facts`
+
+Output:
+
+```shel
+```
 <div align="center">
 <br>
 <br>
