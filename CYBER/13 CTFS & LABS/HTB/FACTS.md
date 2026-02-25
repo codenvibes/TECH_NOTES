@@ -916,7 +916,8 @@ Command: `ssh-keygen -y -f id_ed25519`
 	Command: `/usr/share/john/ssh2john.py id_ed25519 > hash`
 	
 2. Crack the Hash: `john --wordlist=/usr/share/wordlists/rockyou.txt hash`
-	```
+	```ssh
+	
 	```
 <div align="center">
 <br>
