@@ -910,37 +910,7 @@ Command: `ssh-keygen -y -f id_ed25519`
 <br>
 </div>
 
-#### 3.6.3 Extracting the Identity Comment
-
-By using the `ssh-keygen` utility, export the public key from the private file. Upon entering the cracked passphrase (`dragonballz`), the tool revealed the full public key string, including the trailing metadata.
-
-**Command Breakdown:**
-
-Command: `ssh-keygen -y -f id_ed25519`
-
-- **`ssh-keygen`**
-    
-    - **Description:** SSH Key Management Tool.
-        
-    - **Purpose:** A standard utility for creating, managing, and converting authentication keys for the SSH protocol.
-        
-- **`-y`**
-    
-    - **Description:** Export Public Key.
-        
-    - **Purpose:** This flag reads an OpenSSH format private key and prints its public key counterpart to the standard output.
-        
-- **`-f id_ed25519`**
-    
-    - **Description:** File Specification.
-        
-    - **Purpose:** Points the tool to the specific private key file acquired from the MinIO storage.
-<div align="center">
-<br>
-<br>
-</div>
-
-#### 3.6.4 Cracking the Passphrase
+#### 3.6.3 Cracking the Passphrase
 
 1. Extract the Hash: `/usr/share/john/ssh2john.py id_ed25519 > hash`
 
@@ -978,7 +948,37 @@ Session completed.
 <br>
 </div>
 
-#### 3.6.2 Setting Permissions
+#### 3.6.4 Extracting the Identity Comment
+
+By using the `ssh-keygen` utility, export the public key from the private file. Upon entering the cracked passphrase (`dragonballz`), the tool revealed the full public key string, including the trailing metadata.
+
+**Command Breakdown:**
+
+Command: `ssh-keygen -y -f id_ed25519`
+
+- **`ssh-keygen`**
+    
+    - **Description:** SSH Key Management Tool.
+        
+    - **Purpose:** A standard utility for creating, managing, and converting authentication keys for the SSH protocol.
+        
+- **`-y`**
+    
+    - **Description:** Export Public Key.
+        
+    - **Purpose:** This flag reads an OpenSSH format private key and prints its public key counterpart to the standard output.
+        
+- **`-f id_ed25519`**
+    
+    - **Description:** File Specification.
+        
+    - **Purpose:** Points the tool to the specific private key file acquired from the MinIO storage.
+<div align="center">
+<br>
+<br>
+</div>
+
+#### 3.6.5 Setting Permissions
 
 Before attempting to log in, modify the file permissions to ensure only my current user has read/write access.
 Linux SSH clients are very strict about security. If a private key file is "too open" (meaning other users on your Kali machine could theoretically read it), the SSH client will refuse to use it and throw a warning.
