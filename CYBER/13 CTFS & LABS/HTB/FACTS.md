@@ -768,6 +768,19 @@ Breakdown:
 Once you've configured your profile, query the custom endpoint on port 54321 to list the available storage buckets.
 
 Command: `aws --endpoint-url http://facts.htb:54321 s3 ls --profile facts`
+
+Breakdown:
+
+- **`--endpoint-url`**
+    - **Description:** Custom Service Endpoint.
+    - **Purpose:** Overrides the default Amazon URL. This forces the CLI to talk to the MinIO service running on the HTB box instead of trying to reach the public internet.
+- **`s3 ls`**
+    - **Description:** List S3 Buckets.
+    - **Purpose:** Requests a list of all buckets that the provided credentials have permission to view.
+- **`--profile facts`**
+    - **Description:** Profile Selector.
+    - **Purpose:** Tells the CLI to use the `AKIA...` keys we just saved in the previous step.
+
 <div align="center">
 <br>
 <br>
