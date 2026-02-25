@@ -811,7 +811,7 @@ We've revealed two distinct buckets: `internal` and `randomfacts`. The existence
 
 Next let's list the objects residing within the `internal` bucket.
 
-Command: `aws --endpoint-url http://facts.htb:54321 `
+Command: `aws --endpoint-url http://facts.htb:54321 s3 ls s3://internal/ --profile facts`
 <div align="center">
 <br>
 <br>
