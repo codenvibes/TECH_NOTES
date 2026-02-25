@@ -475,13 +475,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "SOFT SKILLS & CAREER/PIRP.base",
+                "file": "CYBER/13 CTFS & LABS/HTB/FACTS.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of PIRP"
+              "title": "Outline of FACTS"
             }
           },
           {
@@ -539,8 +539,9 @@
       "iconic:Open rulebook": false
     }
   },
-  "active": "6b2536b183f7f9a6",
+  "active": "00bc5b978594dd0c",
   "lastOpenFiles": [
+    "SOFT SKILLS & CAREER/PIRP.base",
     "CYBER/13 CTFS & LABS/HTB/FACTS.md",
     "CYBER/13 CTFS & LABS/HTB/INTERPRETER.md",
     "ASSETS/Pasted image 20260224155252.png",
@@ -548,7 +549,6 @@
     "ASSETS/Pasted image 20260224153209.png",
     "ASSETS/Pasted image 20260224152519.png",
     "ASSETS/Pasted image 20260224152204.png",
-    "SOFT SKILLS & CAREER/PIRP.base",
     "CYBER/04 EXPLOITATION/WEB_EXPLOITATION/OWASP TOP 10 - 2021.md",
     "COURSES/THM/WEB FUNDAMENTALS.md",
     "CYBER/01 CORE CONCEPTS/WEB BASICS/HOW WEBSITES WORK.md",
