@@ -1118,8 +1118,20 @@ It lists the specific commands the current user is permitted to run with elevate
 Output: 
 
 ```shell
+trivia@facts:~$ sudo -l
+Matching Defaults entries for trivia on facts:
+    env_reset, mail_badpass,
+    secure_path=/usr/local/sbin\:/usr/local/bin\:/usr/sbin\:/usr/bin\:/sbin\:/bin\:/snap/bin, use_pty
 
+User trivia may run the following commands on facts:
+    (ALL) NOPASSWD: /usr/bin/facter
 ```
+
+The command returned a critical entry: `(ALL) NOPASSWD: /usr/bin/facter`
+
+- **User Scope `(ALL)`:** This indicates that the command can be run as any user on the system, most importantly as **root**.
+- **Access Level `NOPASSWD`:** This means I can invoke the command with root power without needing to provide the `trivia` user's password or a root password.
+- **Target Binary:** `/usr/bin/facter`.
 <div align="center">
 <br>
 <br>
