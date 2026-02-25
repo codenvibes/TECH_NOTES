@@ -15,7 +15,7 @@
               {
                 "id": "5fba8451e3d9bb96",
                 "type": "tabs",
-                "dimension": 44.8051948051948,
+                "dimension": 44.80519480519481,
                 "children": [
                   {
                     "id": "d6e3d74256db3bbc",
@@ -84,7 +84,7 @@
               {
                 "id": "eb7c5c7906b2a9d3",
                 "type": "tabs",
-                "dimension": 55.1948051948052,
+                "dimension": 55.19480519480519,
                 "children": [
                   {
                     "id": "1829a2d1d4c98997",
@@ -314,7 +314,7 @@
                       "state": {
                         "url": "https://medium.com/@mwahyudinwisesar/facts-s10-htb-writeup-3f6369768e57",
                         "title": "Facts (S10)— HTB Writeup. First, this machine is an easy machine… | by wahyudnWis | Feb, 2026 | Medium",
-                        "mode": "webview"
+                        "mode": "blank"
                       },
                       "icon": "globe-2",
                       "title": "Facts (S10)— HTB Writeup. First, this machine is an easy machine… | by wahyudnWis | Feb, 2026 | Medium"
