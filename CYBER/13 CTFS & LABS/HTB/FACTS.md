@@ -1021,7 +1021,13 @@ Breakdown:
 
 ### 3.7 Establishing the Initial Shell
 
-With the identity verified and the key unlocked, I established a secure shell (SSH) session to the target.
+With the identity verified and the key unlocked, establish a secure shell (SSH) session to the target.
+
+Command: `ssh -i id_ed25519 trivia@facts.htb`
+
+**Passphrase:** `dragonballz`
+
+
 <div align="center">
 <br>
 <br>
