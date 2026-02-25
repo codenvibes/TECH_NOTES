@@ -754,8 +754,8 @@ Breakdown:
     - **Purpose:** Saves these specific credentials under the name "facts." This allows me to switch between different HTB boxes or real AWS accounts without overwriting keys.
     
 	**Input Values used during configuration:**
-	- **AWS Access Key ID:** `AKIA7886F8172322021E`
-	- **AWS Secret Access Key:** `FV1VMOdcP9ZdLzo29AU/6tqeC42ZCTG6DgzVbGU8`
+	- **AWS Access Key ID:** `AKIAE356689792F1158C`
+	- **AWS Secret Access Key:** `gRlcC4QksN2C6aDm6epbgGm3fhY6aPkKFNTUQeot`
 	- **Default region name:** `us-east-1` (MinIO requires a region, though it's often ignored)
 	- **Default output format:** `json`
 

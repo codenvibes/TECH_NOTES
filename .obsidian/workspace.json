@@ -135,6 +135,20 @@
                     }
                   },
                   {
+                    "id": "eb8e3593f0be0e87",
+                    "type": "leaf",
+                    "state": {
+                      "type": "webviewer",
+                      "state": {
+                        "url": "https://medium.com/@mwahyudinwisesar/facts-s10-htb-writeup-3f6369768e57",
+                        "title": "Facts (S10)— HTB Writeup. First, this machine is an easy machine… | by wahyudnWis | Feb, 2026 | Medium",
+                        "mode": "webview"
+                      },
+                      "icon": "globe-2",
+                      "title": "Facts (S10)— HTB Writeup. First, this machine is an easy machine… | by wahyudnWis | Feb, 2026 | Medium"
+                    }
+                  },
+                  {
                     "id": "bea647b1dd44387e",
                     "type": "leaf",
                     "state": {
@@ -160,20 +174,6 @@
                       },
                       "icon": "globe-2",
                       "title": "Mastering Interpreter: Beginner's Guide from HackTheBox | The CyberSec Guru"
-                    }
-                  },
-                  {
-                    "id": "eb8e3593f0be0e87",
-                    "type": "leaf",
-                    "state": {
-                      "type": "webviewer",
-                      "state": {
-                        "url": "https://medium.com/@mwahyudinwisesar/facts-s10-htb-writeup-3f6369768e57",
-                        "title": "Facts (S10)— HTB Writeup. First, this machine is an easy machine… | by wahyudnWis | Feb, 2026 | Medium",
-                        "mode": "webview"
-                      },
-                      "icon": "globe-2",
-                      "title": "Facts (S10)— HTB Writeup. First, this machine is an easy machine… | by wahyudnWis | Feb, 2026 | Medium"
                     }
                   },
                   {
