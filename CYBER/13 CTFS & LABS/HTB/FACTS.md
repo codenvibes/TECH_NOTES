@@ -870,7 +870,15 @@ That `id_ed25519` file is exactly what we were looking for. While `id_rsa` is mo
 
 #### 3.6.1 Downloading the Private Key
 
+To use the key for authentication, you first have to transfer it from the remote storage bucket to my local attack machine.
 
+Command: `aws --endpoint-url http://facts.htb:54321 s3 cp s3://internal/.ssh/id_ed25519 . --profile facts`
+
+Breakdown: 
+
+**`s3 cp`**
+- **Description:** S3 Copy Utility.
+- **Purpose:** Downloads the specified file from the S3 bucket to the current local directory (indicated by the `.`).
 <div align="center">
 <br>
 <br>
