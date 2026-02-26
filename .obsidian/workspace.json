@@ -161,23 +161,9 @@
                       "icon": "globe-2",
                       "title": "Mastering Interpreter: Beginner's Guide from HackTheBox | The CyberSec Guru"
                     }
-                  },
-                  {
-                    "id": "b21a58b324cf5588",
-                    "type": "leaf",
-                    "state": {
-                      "type": "webviewer",
-                      "state": {
-                        "url": "https://github.com/Alien0ne/CVE-2025-2304",
-                        "title": "GitHub - Alien0ne/CVE-2025-2304: Authenticated privilege escalation in Camaleon CMS v2.9.0 via improper parameter handling in the updated_ajax endpoint.",
-                        "mode": "webview"
-                      },
-                      "icon": "globe-2",
-                      "title": "GitHub - Alien0ne/CVE-2025-2304: Authenticated privilege escalation in Camaleon CMS v2.9.0 via improper parameter handling in the updated_ajax endpoint."
-                    }
                   }
                 ],
-                "currentTab": 5
+                "currentTab": 4
               }
             ],
             "direction": "horizontal"
