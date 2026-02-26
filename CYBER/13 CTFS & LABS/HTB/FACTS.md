@@ -8,6 +8,7 @@ date: 2026-02-15
 ---
 ## Summary
 <div align="center"><br><img width="" src="Facts.png" alt=""></div>
+<br
 
 | SECTION/TASK     | FLAG                             |
 | ---------------- | -------------------------------- |
@@ -1259,6 +1260,4 @@ Closing Remarks: Ni mbaya! Baradhuli
 
 ## References
 
-[^1]: # Camaleon CMS 2.9.0 – Authenticated Privilege Escalation (Role Change) + Optional S3 Config Leak
-	
-	[](https://github.com/Alien0ne/CVE-2025-2304#camaleon-cms-290--authenticated-privilege-escalation-role-change--optional-s3-config-leak)
+[^1]: [Camaleon CMS 2.9.0 – Authenticated Privilege Escalation (Role Change) + Optional S3 Config Leak](https://github.com/Alien0ne/CVE-2025-2304#camaleon-cms-290--authenticated-privilege-escalation-role-change--optional-s3-config-leak)
