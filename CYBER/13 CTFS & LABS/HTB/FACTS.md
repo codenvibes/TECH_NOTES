@@ -7,7 +7,7 @@ image: https://htb-mp-prod-public-storage.s3.eu-central-1.amazonaws.com/avatars/
 date: 2026-02-15
 ---
 ## Summary
-
+<div align="center"><br><img width="" src="Facts.png" alt=""></div>
 
 | SECTION/TASK     | FLAG                             |
 | ---------------- | -------------------------------- |
