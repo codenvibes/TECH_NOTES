@@ -7,13 +7,12 @@ image: https://htb-mp-prod-public-storage.s3.eu-central-1.amazonaws.com/avatars/
 date: 2026-02-15
 ---
 ## Summary
-<div align="center"><br><img width="" src="Facts.png" alt=""></div>
-<br
+<div align="center"><br><img width="" src="Facts.png" alt=""><br></div>
 
 | SECTION/TASK     | FLAG                             |
 | ---------------- | -------------------------------- |
 | Submit User Flag | 59412f1cbe1354ff1f5d78915abd77a0 |
-| Submit Root Flag |                                  |
+| Submit Root Flag | 32d1addedbf194f839d5333df609d614 |
 
 <div align="center">
 <br>
