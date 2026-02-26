@@ -359,7 +359,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "URL",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": true,
@@ -447,12 +447,13 @@
             "state": {
               "type": "outline",
               "state": {
+                "file": "CYBER/13 CTFS & LABS/HTB/FACTS.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline"
+              "title": "Outline of FACTS"
             }
           },
           {
@@ -510,10 +511,10 @@
       "iconic:Open rulebook": false
     }
   },
-  "active": "b21a58b324cf5588",
+  "active": "180b670eb6aaa497",
   "lastOpenFiles": [
-    "CYBER/13 CTFS & LABS/HTB/FACTS.md",
     "ASSETS/Facts.png",
+    "CYBER/13 CTFS & LABS/HTB/FACTS.md",
     "CYBER/13 CTFS & LABS/CTFS & LABS.base",
     "SOFT SKILLS & CAREER/PIRP.base",
     "CYBER/13 CTFS & LABS/HTB/fact.md",
