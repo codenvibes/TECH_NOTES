@@ -155,11 +155,11 @@
                       "type": "webviewer",
                       "state": {
                         "url": "https://thecybersecguru.com/ctf-walkthroughs/mastering-interpreter-beginners-guide-from-hackthebox/",
-                        "title": "Mastering Interpreter: Beginner's Guide from HackTheBox | The CyberSec Guru",
-                        "mode": "webview"
+                        "title": "data:text/plain,",
+                        "mode": "blank"
                       },
                       "icon": "globe-2",
-                      "title": "Mastering Interpreter: Beginner's Guide from HackTheBox | The CyberSec Guru"
+                      "title": "data:text/plain,"
                     }
                   }
                 ],
@@ -313,11 +313,11 @@
                       "type": "webviewer",
                       "state": {
                         "url": "https://medium.com/@mwahyudinwisesar/facts-s10-htb-writeup-3f6369768e57",
-                        "title": "Facts (S10)— HTB Writeup. First, this machine is an easy machine… | by wahyudnWis | Feb, 2026 | Medium",
-                        "mode": "webview"
+                        "title": "data:text/plain,",
+                        "mode": "blank"
                       },
                       "icon": "globe-2",
-                      "title": "Facts (S10)— HTB Writeup. First, this machine is an easy machine… | by wahyudnWis | Feb, 2026 | Medium"
+                      "title": "data:text/plain,"
                     }
                   }
                 ],
