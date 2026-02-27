@@ -98,15 +98,20 @@ adampueman@htb[/htb]$ sudo apt install sqlmap
 
 If we want to install manually, we can use the following command in the Linux terminal or the Windows command line:
 
-        shellsession
+```shell
 `adampueman@htb[/htb]$ git clone --depth 1 https://github.com/sqlmapproject/sqlmap.git sqlmap-dev`
+```
 
 After that, SQLMap can be run with:
 
-        shellsession
+```shell
 `adampueman@htb[/htb]$ python sqlmap.py`
+```
 
----
+<div align="center">
+<br>
+<br>
+</div>
 
 ## Supported Databases
 
