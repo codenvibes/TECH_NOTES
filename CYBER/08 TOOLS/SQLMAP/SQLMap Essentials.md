@@ -45,9 +45,9 @@ In this module, we will cover:
 
 ## Getting Started
 
-SQLMap Overview
-Getting Started with SQLMap
-SQLMap Output Description
+### SQLMap Overview
+### Getting Started with SQLMap
+### SQLMap Output Description
 <div align="center">
 <br>
 <br>
@@ -59,9 +59,9 @@ SQLMap Output Description
 
 ## Building Attacks
 
-SQLMap Overview
-Getting Started with SQLMap
-SQLMap Output Description
+### SQLMap Overview
+### Getting Started with SQLMap
+### SQLMap Output Description
 <div align="center">
 <br>
 <br>
@@ -73,8 +73,8 @@ SQLMap Output Description
 
 ## Database Enumeration
 
-Database Enumeration
-Advanced Database Enumeration
+### Database Enumeration
+### Advanced Database Enumeration
 <div align="center">
 <br>
 <br>
@@ -86,8 +86,8 @@ Advanced Database Enumeration
 
 ## Advanced SQLMap Usage
 
-Bypassing Web Application Protections
-OS Exploitation
+### Bypassing Web Application Protections
+### OS Exploitation
 <div align="center">
 <br>
 <br>

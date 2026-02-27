@@ -92,13 +92,13 @@
                     "state": {
                       "type": "webviewer",
                       "state": {
-                        "url": "https://academy.hackthebox.com/app/module/58",
-                        "title": "SQLMap Essentials | Hack The Box Academy",
+                        "url": "https://academy.hackthebox.com/app/module/58/section/509",
+                        "title": "SQLMap Overview | Hack The Box Academy",
                         "mode": "webview"
                       },
                       "pinned": true,
                       "icon": "globe-2",
-                      "title": "SQLMap Essentials | Hack The Box Academy"
+                      "title": "SQLMap Overview | Hack The Box Academy"
                     }
                   },
                   {
