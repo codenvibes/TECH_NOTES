@@ -15,7 +15,7 @@
               {
                 "id": "5fba8451e3d9bb96",
                 "type": "tabs",
-                "dimension": 44.80519480519481,
+                "dimension": 22.07792207792208,
                 "children": [
                   {
                     "id": "d6e3d74256db3bbc",
@@ -83,7 +83,7 @@
               {
                 "id": "eb7c5c7906b2a9d3",
                 "type": "tabs",
-                "dimension": 55.19480519480519,
+                "dimension": 77.92207792207793,
                 "children": [
                   {
                     "id": "1829a2d1d4c98997",
@@ -108,13 +108,13 @@
                     "state": {
                       "type": "webviewer",
                       "state": {
-                        "url": "https://tryhackme.com/dashboard",
-                        "title": "TryHackMe | Cyber Security Training",
+                        "url": "https://tryhackme.com/module/owasp-top-10-2025",
+                        "title": "TryHackMe | OWASP Top 10 (2025) Training",
                         "mode": "webview"
                       },
                       "pinned": true,
                       "icon": "globe-2",
-                      "title": "TryHackMe | Cyber Security Training"
+                      "title": "TryHackMe | OWASP Top 10 (2025) Training"
                     }
                   },
                   {
@@ -161,8 +161,7 @@
                       "title": "Mastering Interpreter: Beginner's Guide from HackTheBox | The CyberSec Guru"
                     }
                   }
-                ],
-                "currentTab": 1
+                ]
               }
             ],
             "direction": "horizontal"
@@ -495,7 +494,7 @@
       "iconic:Open rulebook": false
     }
   },
-  "active": "e7c511dac942f49a",
+  "active": "1829a2d1d4c98997",
   "lastOpenFiles": [
     "COURSES/COURSES.base",
     "CYBER/08 TOOLS/SQLMAP/SQLMAP ESSENTIALS.md",
