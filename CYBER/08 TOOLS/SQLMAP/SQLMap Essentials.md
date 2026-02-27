@@ -32,6 +32,7 @@ In this module, we will cover:
 | SECTION/TASK | FLAG |
 | ------------ | ---- |
 |              |      |
+|              |      |
 
 <div align="center">
 <br>
