@@ -79,7 +79,14 @@ adampueman@htb[/htb]$ python sqlmap.py -u 'http://inlanefreight.htb/page.php?id=
 SQLMap comes with a powerful detection engine, numerous features, and a broad range of options and switches for fine-tuning the many aspects of it, such as:
 as:
 
-
+|     |     |     |
+| --- | --- | --- |
+|     |     |     |
+|     |     |     |
+<div align="center">
+<br>
+<br>
+</div>
 
 #### SQLMap Installation
 
