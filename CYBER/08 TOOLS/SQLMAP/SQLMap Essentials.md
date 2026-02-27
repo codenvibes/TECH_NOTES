@@ -222,15 +222,18 @@ Example of `Stacked Queries`:
 ```
 
 Stacking SQL queries, also known as the "piggy-backing," is the form of injecting additional SQL statements after the vulnerable one. In case that there is a requirement for running non-query statements (e.g. `INSERT`, `UPDATE` or `DELETE`), stacking must be supported by the vulnerable platform (e.g., `Microsoft SQL Server` and `PostgreSQL` support it by default). SQLMap can use such vulnerabilities to run non-query statements executed in advanced features (e.g., execution of OS commands) and data retrieval similarly to time-based blind SQLi types.
+<div align="center">
+<br>
+<br>
+</div>
 
----
-
-## Time-based blind SQL Injection
+#### Time-based blind SQL Injection
 
 Example of `Time-based blind SQL Injection`:
 
-        SQL
+```SQL
 `AND 1=IF(2>1,SLEEP(5),0)`
+```
 
 The principle of `Time-based blind SQL Injection` is similar to the `Boolean-based blind SQL Injection`, but here the response time is used as the source for the differentiation between `TRUE` or `FALSE`.
 
@@ -238,14 +241,16 @@ The principle of `Time-based blind SQL Injection` is similar to the `Boolean-
 - `FALSE` response should result in a response time indistinguishable from regular response times
 
 `Time-based blind SQL Injection` is considerably slower than the boolean-based blind SQLi, since queries resulting in `TRUE` would delay the server response. This SQLi type is used in cases where `Boolean-based blind SQL Injection` is not applicable. For example, in case the vulnerable SQL statement is a non-query (e.g. `INSERT`, `UPDATE` or `DELETE`), executed as part of the auxiliary functionality without any effect to the page rendering process, time-based SQLi is used out of the necessity, as `Boolean-based blind SQL Injection` would not really work in this case.
+<div align="center">
+<br>
+<br>
+</div>
 
----
-
-## Inline queries
+#### Inline queries
 
 Example of `Inline Queries`:
 
-        SQL
+SQL
 `SELECT (SELECT @@version) from`
 
 This type of injection embedded a query within the original query. Such SQL injection is uncommon, as it needs the vulnerable web app to be written in a certain way. Still, SQLMap supports this kind of SQLi as well.
