@@ -49,8 +49,32 @@ In this module, we will cover:
 
 [SQLMap](https://github.com/sqlmapproject/sqlmap) is a free and open-source penetration testing tool written in Python that automates the process of detecting and exploiting SQL injection (SQLi) flaws. SQLMap has been continuously developed since 2006 and is still maintained today.
 
-        shellsession
-`adampueman@htb[/htb]$ python sqlmap.py -u 'http://inlanefreight.htb/page.php?id=5'        ___       __H__ ___ ___[']_____ ___ ___  {1.3.10.41#dev} |_ -| . [']     | .'| . | |___|_  ["]_|_|_|__,|  _|       |_|V...       |_|   http://sqlmap.org [!] legal disclaimer: Usage of sqlmap for attacking targets without prior mutual consent is illegal. It is the end user's responsibility to obey all applicable local, state and federal laws. Developers assume no liability and are not responsible for any misuse or damage caused by this program [*] starting at 12:55:56 [12:55:56] [INFO] testing connection to the target URL [12:55:57] [INFO] checking if the target is protected by some kind of WAF/IPS/IDS [12:55:58] [INFO] testing if the target URL content is stable [12:55:58] [INFO] target URL content is stable [12:55:58] [INFO] testing if GET parameter 'id' is dynamic [12:55:58] [INFO] confirming that GET parameter 'id' is dynamic [12:55:59] [INFO] GET parameter 'id' is dynamic [12:55:59] [INFO] heuristic (basic) test shows that GET parameter 'id' might be injectable (possible DBMS: 'MySQL') [12:56:00] [INFO] testing for SQL injection on GET parameter 'id' <...SNIP...>`
+```shell
+adampueman@htb[/htb]$ python sqlmap.py -u 'http://inlanefreight.htb/page.php?id=5'
+
+       ___
+       __H__
+ ___ ___[']_____ ___ ___  {1.3.10.41#dev}
+|_ -| . [']     | .'| . |
+|___|_  ["]_|_|_|__,|  _|
+      |_|V...       |_|   http://sqlmap.org
+
+
+[!] legal disclaimer: Usage of sqlmap for attacking targets without prior mutual consent is illegal. It is the end user's responsibility to obey all applicable local, state and federal laws. Developers assume no liability and are not responsible for any misuse or damage caused by this program
+
+[*] starting at 12:55:56
+
+[12:55:56] [INFO] testing connection to the target URL
+[12:55:57] [INFO] checking if the target is protected by some kind of WAF/IPS/IDS
+[12:55:58] [INFO] testing if the target URL content is stable
+[12:55:58] [INFO] target URL content is stable
+[12:55:58] [INFO] testing if GET parameter 'id' is dynamic
+[12:55:58] [INFO] confirming that GET parameter 'id' is dynamic
+[12:55:59] [INFO] GET parameter 'id' is dynamic
+[12:55:59] [INFO] heuristic (basic) test shows that GET parameter 'id' might be injectable (possible DBMS: 'MySQL')
+[12:56:00] [INFO] testing for SQL injection on GET parameter 'id'
+<...SNIP...>
+```
 
 SQLMap comes with a powerful detection engine, numerous features, and a broad range of options and switches for fine-tuning the many aspects of it, such as:
 
