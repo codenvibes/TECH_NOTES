@@ -162,7 +162,7 @@
                     }
                   }
                 ],
-                "currentTab": 4
+                "currentTab": 3
               }
             ],
             "direction": "horizontal"
@@ -432,13 +432,12 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "COURSES/COURSES.base",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of COURSES"
+              "title": "Outline"
             }
           },
           {
@@ -496,8 +495,9 @@
       "iconic:Open rulebook": false
     }
   },
-  "active": "d6e3d74256db3bbc",
+  "active": "bea647b1dd44387e",
   "lastOpenFiles": [
+    "COURSES/COURSES.base",
     "CYBER/08 TOOLS/SQLMAP/SQLMAP ESSENTIALS.md",
     "CYBER/13 CTFS & LABS/HTB/FACTS.md",
     "CYBER/08 TOOLS/SQLMAP",
@@ -543,7 +543,6 @@
     "CYBER/03 RECONNAISSANCE & ENUMERATION/00 ENUMERATION.md",
     "CYBER/03 RECONNAISSANCE & ENUMERATION/RECONNAISSANCE/ACTIVE RECONNAISSANCE.md",
     "CYBER/03 RECONNAISSANCE & ENUMERATION/RECONNAISSANCE/PASSIVE RECONNAISSANCE.md",
-    "CYBER/13 CTFS & LABS/HTB/SOULMATE.md",
     "Untitled.canvas"
   ]
 }
