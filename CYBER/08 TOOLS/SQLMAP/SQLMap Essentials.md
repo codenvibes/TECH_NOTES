@@ -113,7 +113,7 @@ After that, SQLMap can be run with:
 <br>
 </div>
 
-## Supported Databases
+#### Supported Databases
 
 SQLMap has the largest support for DBMSes of any other SQL exploitation tool. SQLMap fully supports the following DBMSes:
 
