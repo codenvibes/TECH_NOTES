@@ -15,7 +15,7 @@
               {
                 "id": "5fba8451e3d9bb96",
                 "type": "tabs",
-                "dimension": 22.07792207792208,
+                "dimension": 30.844155844155846,
                 "children": [
                   {
                     "id": "d6e3d74256db3bbc",
@@ -83,7 +83,7 @@
               {
                 "id": "eb7c5c7906b2a9d3",
                 "type": "tabs",
-                "dimension": 77.92207792207793,
+                "dimension": 69.15584415584416,
                 "children": [
                   {
                     "id": "1829a2d1d4c98997",
@@ -92,13 +92,13 @@
                     "state": {
                       "type": "webviewer",
                       "state": {
-                        "url": "https://academy.hackthebox.com/app/dashboard",
-                        "title": "Dashboard | Hack The Box Academy",
+                        "url": "https://academy.hackthebox.com/app/module/58",
+                        "title": "SQLMap Essentials | Hack The Box Academy",
                         "mode": "webview"
                       },
                       "pinned": true,
                       "icon": "globe-2",
-                      "title": "Dashboard | Hack The Box Academy"
+                      "title": "SQLMap Essentials | Hack The Box Academy"
                     }
                   },
                   {
@@ -496,8 +496,9 @@
   },
   "active": "1829a2d1d4c98997",
   "lastOpenFiles": [
-    "COURSES/COURSES.base",
     "CYBER/08 TOOLS/SQLMAP/SQLMAP ESSENTIALS.md",
+    "COURSES/HTB/JUNIOR CYBERSECURITY ANALYST.md",
+    "COURSES/COURSES.base",
     "CYBER/13 CTFS & LABS/HTB/FACTS.md",
     "CYBER/08 TOOLS/SQLMAP",
     "CYBER/08 TOOLS/DIRB.md",
@@ -534,7 +535,6 @@
     "ASSETS/NextGen Mirth Connect Remote Code Execution Vulnerability (CVE-2023-43208) _ Horizon3.ai_files/bricks.min.js.download",
     "ASSETS/NextGen Mirth Connect Remote Code Execution Vulnerability (CVE-2023-43208) _ Horizon3.ai_files/Screenshot-2023-10-18-at-1.44.55-AM.png",
     "ASSETS/NextGen Mirth Connect Remote Code Execution Vulnerability (CVE-2023-43208) _ Horizon3.ai.html",
-    "ASSETS/NextGen Mirth Connect Remote Code Execution Vulnerability (CVE-2023-43208) _ Horizon3.ai_files/wp-emoji-release.min.js.download",
     "COURSES/CYBER SHUJAA/CLOUD AND NETWORK SECURITY.md",
     "TEMPLATES/CTF WRITEUP.md",
     "CYBER/04 EXPLOITATION/METASPLOIT FRAMEWORK/10 METERPRETER.md",
