@@ -278,7 +278,7 @@ By running the SQLMap on the DNS server for the domain under control (e.g. `.at
 
 #### Questions
 
-##### 
+##### What's the fastest SQLi type?
 ==Answer==
 <div align="center">
 <br>
