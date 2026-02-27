@@ -139,8 +139,12 @@ The SQLMap team also works to add and support new DBMSes periodically.
 
 SQLMap is the only penetration testing tool that can properly detect and exploit all known SQLi types. We see the types of SQL injections supported by SQLMap with the `sqlmap -hh` command:
 
-        shellsession
-`adampueman@htb[/htb]$ sqlmap -hh ...SNIP...   Techniques:    --technique=TECH..  SQL injection techniques to use (default "BEUSTQ")`
+```shell
+adampueman@htb[/htb]$ sqlmap -hh
+...SNIP...
+  Techniques:
+    --technique=TECH..  SQL injection techniques to use (default "BEUSTQ")
+```
 
 The technique characters `BEUSTQ` refers to the following:
 
@@ -150,8 +154,10 @@ The technique characters `BEUSTQ` refers to the following:
 - `S`: Stacked queries
 - `T`: Time-based blind
 - `Q`: Inline queries
-
----
+<div align="center">
+<br>
+<br>
+</div>
 
 ## Boolean-based blind SQL Injection
 
