@@ -181,16 +181,20 @@ SQLMap exploits `Boolean-based blind SQL Injection` vulnerabilities through th
 
 Example of `Error-based SQL Injection`:
 
-SQL
-`AND GTID_SUBSET(@@version,0)`
+```SQL
+AND GTID_SUBSET(@@version,0)`
+```
 
 If the `database management system` (`DBMS`) errors are being returned as part of the server response for any database-related problems, then there is a probability that they can be used to carry the results for requested queries. In such cases, specialized payloads for the current DBMS are used, targeting the functions that cause known misbehaviors. SQLMap has the most comprehensive list of such related payloads and covers `Error-based SQL Injection` for the following DBMSes:
 
-||||
-|---|---|---|
-|MySQL|PostgreSQL|Oracle|
-|Microsoft SQL Server|Sybase|Vertica|
-|IBM DB2|Firebird|MonetDB|
+
+|                      |     |     |
+| -------------------- | --- | --- |
+| MySQL                |     |     |
+| Microsoft SQL Server |     |     |
+| IBM DB2              |     |     |
+|                      |     |     |
+
 
 Error-based SQLi is considered as faster than all other types, except UNION query-based, because it can retrieve a limited amount (e.g., 200 bytes) of data called "chunks" through each request.
 
