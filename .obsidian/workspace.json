@@ -93,12 +93,12 @@
                       "type": "webviewer",
                       "state": {
                         "url": "https://academy.hackthebox.com/app/module/58/section/509",
-                        "title": "data:text/plain,",
-                        "mode": "blank"
+                        "title": "academy.hackthebox.com/app/module/58/section/509",
+                        "mode": "webview"
                       },
                       "pinned": true,
                       "icon": "globe-2",
-                      "title": "data:text/plain,"
+                      "title": "academy.hackthebox.com/app/module/58/section/509"
                     }
                   },
                   {
@@ -443,13 +443,12 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "CYBER/13 CTFS & LABS/THM/OVERPASS.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of OVERPASS"
+              "title": "Outline"
             }
           },
           {
