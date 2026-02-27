@@ -25,7 +25,7 @@
                       "type": "bases",
                       "state": {
                         "file": "COURSES/COURSES.base",
-                        "viewName": "HTB"
+                        "viewName": "THM"
                       },
                       "pinned": true,
                       "icon": "lucide-layout-grid",
@@ -431,12 +431,13 @@
             "state": {
               "type": "outline",
               "state": {
+                "file": "CYBER/08 TOOLS/SQLMAP/SQLMAP ESSENTIALS.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline"
+              "title": "Outline of SQLMAP ESSENTIALS"
             }
           },
           {
@@ -494,11 +495,11 @@
       "iconic:Open rulebook": false
     }
   },
-  "active": "1829a2d1d4c98997",
+  "active": "180b670eb6aaa497",
   "lastOpenFiles": [
+    "COURSES/COURSES.base",
     "CYBER/08 TOOLS/SQLMAP/SQLMAP ESSENTIALS.md",
     "COURSES/HTB/JUNIOR CYBERSECURITY ANALYST.md",
-    "COURSES/COURSES.base",
     "CYBER/13 CTFS & LABS/HTB/FACTS.md",
     "CYBER/08 TOOLS/SQLMAP",
     "CYBER/08 TOOLS/DIRB.md",
@@ -541,7 +542,6 @@
     "CYBER/13 CTFS & LABS/THM/KENOBI.md",
     "CYBER/03 RECONNAISSANCE & ENUMERATION/00 ENUMERATION.md",
     "CYBER/03 RECONNAISSANCE & ENUMERATION/RECONNAISSANCE/ACTIVE RECONNAISSANCE.md",
-    "CYBER/03 RECONNAISSANCE & ENUMERATION/RECONNAISSANCE/PASSIVE RECONNAISSANCE.md",
     "Untitled.canvas"
   ]
 }
