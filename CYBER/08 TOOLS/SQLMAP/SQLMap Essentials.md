@@ -203,19 +203,23 @@ Error-based SQLi is considered as faster than all other types, except UNION quer
 
 Example of `UNION query-based SQL Injection`:
 
-        SQL
+```SQL
 `UNION ALL SELECT 1,@@version,3`
+```
 
 With the usage of `UNION`, it is generally possible to extend the original (`vulnerable`) query with the injected statements' results. This way, if the original query results are rendered as part of the response, the attacker can get additional results from the injected statements within the page response itself. This type of SQL injection is considered the fastest, as, in the ideal scenario, the attacker would be able to pull the content of the whole database table of interest with a single request.
+<div align="center">
+<br>
+<br>
+</div>
 
----
-
-## Stacked queries
+#### Stacked queries
 
 Example of `Stacked Queries`:
 
-        SQL
+```SQL
 `; DROP TABLE users`
+```
 
 Stacking SQL queries, also known as the "piggy-backing," is the form of injecting additional SQL statements after the vulnerable one. In case that there is a requirement for running non-query statements (e.g. `INSERT`, `UPDATE` or `DELETE`), stacking must be supported by the vulnerable platform (e.g., `Microsoft SQL Server` and `PostgreSQL` support it by default). SQLMap can use such vulnerabilities to run non-query statements executed in advanced features (e.g., execution of OS commands) and data retrieval similarly to time-based blind SQLi types.
 
