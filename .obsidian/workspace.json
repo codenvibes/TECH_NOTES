@@ -92,13 +92,13 @@
                     "state": {
                       "type": "webviewer",
                       "state": {
-                        "url": "https://open.spotify.com/track/2ap6SUR7EKDVnJ2eDgv3QT?si=c14b44a6bb044834&nd=1&dlsi=5923480f5d46452a",
-                        "title": "Spotify – Web Player",
+                        "url": "https://academy.hackthebox.com/app/dashboard",
+                        "title": "Dashboard | Hack The Box Academy",
                         "mode": "webview"
                       },
                       "pinned": true,
                       "icon": "globe-2",
-                      "title": "Spotify – Web Player"
+                      "title": "Dashboard | Hack The Box Academy"
                     }
                   },
                   {
@@ -109,12 +109,12 @@
                       "type": "webviewer",
                       "state": {
                         "url": "https://tryhackme.com/dashboard",
-                        "title": "TryHackMe | Dashboard",
+                        "title": "TryHackMe | Cyber Security Training",
                         "mode": "webview"
                       },
                       "pinned": true,
                       "icon": "globe-2",
-                      "title": "TryHackMe | Dashboard"
+                      "title": "TryHackMe | Cyber Security Training"
                     }
                   },
                   {
@@ -161,7 +161,8 @@
                       "title": "Mastering Interpreter: Beginner's Guide from HackTheBox | The CyberSec Guru"
                     }
                   }
-                ]
+                ],
+                "currentTab": 1
               }
             ],
             "direction": "horizontal"
@@ -494,7 +495,7 @@
       "iconic:Open rulebook": false
     }
   },
-  "active": "1829a2d1d4c98997",
+  "active": "e7c511dac942f49a",
   "lastOpenFiles": [
     "COURSES/COURSES.base",
     "CYBER/08 TOOLS/SQLMAP/SQLMAP ESSENTIALS.md",
