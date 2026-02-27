@@ -78,8 +78,7 @@
                       "title": "WHITE-BOARD"
                     }
                   }
-                ],
-                "currentTab": 2
+                ]
               },
               {
                 "id": "eb7c5c7906b2a9d3",
@@ -228,12 +227,12 @@
                     "state": {
                       "type": "markdown",
                       "state": {
-                        "file": "CYBER/08 TOOLS/SQLMAP/SQLMap Essentials.md",
+                        "file": "CYBER/08 TOOLS/SQLMAP/SQLMAP ESSENTIALS.md",
                         "mode": "source",
                         "source": false
                       },
                       "icon": "lucide-file",
-                      "title": "SQLMap Essentials"
+                      "title": "SQLMAP ESSENTIALS"
                     }
                   }
                 ],
@@ -370,7 +369,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 288.703125
+    "width": 288.703125,
+    "collapsed": true
   },
   "right": {
     "id": "26820c7e22c27caf",
@@ -432,13 +432,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "CYBER/08 TOOLS/SQLMAP/SQLMap Essentials.md",
+                "file": "COURSES/COURSES.base",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of SQLMap Essentials"
+              "title": "Outline of COURSES"
             }
           },
           {
@@ -496,10 +496,10 @@
       "iconic:Open rulebook": false
     }
   },
-  "active": "180b670eb6aaa497",
+  "active": "d6e3d74256db3bbc",
   "lastOpenFiles": [
+    "CYBER/08 TOOLS/SQLMAP/SQLMAP ESSENTIALS.md",
     "CYBER/13 CTFS & LABS/HTB/FACTS.md",
-    "CYBER/08 TOOLS/SQLMAP/SQLMap Essentials.md",
     "CYBER/08 TOOLS/SQLMAP",
     "CYBER/08 TOOLS/DIRB.md",
     "CYBER/08 TOOLS/BLOODHOUND.md",
