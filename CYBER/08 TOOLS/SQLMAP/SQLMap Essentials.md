@@ -117,23 +117,25 @@ After that, SQLMap can be run with:
 
 SQLMap has the largest support for DBMSes of any other SQL exploitation tool. SQLMap fully supports the following DBMSes:
 
-|||||
-|---|---|---|---|
-|`MySQL`|`Oracle`|`PostgreSQL`|`Microsoft SQL Server`|
-|`SQLite`|`IBM DB2`|`Microsoft Access`|`Firebird`|
-|`Sybase`|`SAP MaxDB`|`Informix`|`MariaDB`|
-|`HSQLDB`|`CockroachDB`|`TiDB`|`MemSQL`|
-|`H2`|`MonetDB`|`Apache Derby`|`Amazon Redshift`|
-|`Vertica`, `Mckoi`|`Presto`|`Altibase`|`MimerSQL`|
-|`CrateDB`|`Greenplum`|`Drizzle`|`Apache Ignite`|
-|`Cubrid`|`InterSystems Cache`|`IRIS`|`eXtremeDB`|
-|`FrontBase`||||
+|  |  |  |  |
+| --- | --- | --- | --- |
+| MySQL | Oracle | PostgreSQL | Microsoft SQL Server |
+| SQLite | IBM DB2 | Microsoft Access | Firebird |
+| Sybase | SAP MaxDB | Informix | MariaDB |
+| HSQLDB | CockroachDB | TiDB | MemSQL |
+| H2 | MonetDB | Apache Derby | Amazon Redshift |
+| Vertica, Mckoi | Presto | Altibase | MimerSQL |
+| CrateDB | Greenplum | Drizzle | Apache Ignite |
+| Cubrid | InterSystems Cache | IRIS | eXtremeDB |
+| FrontBase |  |  |  |
 
 The SQLMap team also works to add and support new DBMSes periodically.
+<div align="center">
+<br>
+<br>
+</div>
 
----
-
-## Supported SQL Injection Types
+#### Supported SQL Injection Types
 
 SQLMap is the only penetration testing tool that can properly detect and exploit all known SQLi types. We see the types of SQL injections supported by SQLMap with the `sqlmap -hh` command:
 
