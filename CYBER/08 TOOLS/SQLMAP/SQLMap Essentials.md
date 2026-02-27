@@ -43,8 +43,6 @@ In this module, we will cover:
 <!-- PAGE BREAK -->
 <div style="page-break-after: always;"></div>
 
-  
-
 Getting Started
 
 Building Attacks
@@ -54,5 +52,6 @@ Database Enumeration
 Advanced SQLMap Usage
 
 Skills Assessment
+
 ## References
 
