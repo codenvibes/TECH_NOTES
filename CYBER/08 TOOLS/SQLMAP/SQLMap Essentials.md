@@ -45,7 +45,9 @@ In this module, we will cover:
 
 ## Getting Started
 
-
+SQLMap Overview
+Getting Started with SQLMap
+SQLMap Output Description
 <div align="center">
 <br>
 <br>
