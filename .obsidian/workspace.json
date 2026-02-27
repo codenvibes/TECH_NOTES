@@ -15,7 +15,7 @@
               {
                 "id": "5fba8451e3d9bb96",
                 "type": "tabs",
-                "dimension": 30.844155844155846,
+                "dimension": 30.844155844155843,
                 "children": [
                   {
                     "id": "d6e3d74256db3bbc",
@@ -83,7 +83,7 @@
               {
                 "id": "eb7c5c7906b2a9d3",
                 "type": "tabs",
-                "dimension": 69.15584415584416,
+                "dimension": 69.15584415584415,
                 "children": [
                   {
                     "id": "1829a2d1d4c98997",
@@ -93,12 +93,12 @@
                       "type": "webviewer",
                       "state": {
                         "url": "https://academy.hackthebox.com/app/module/58/section/509",
-                        "title": "SQLMap Overview | Hack The Box Academy",
-                        "mode": "webview"
+                        "title": "data:text/plain,",
+                        "mode": "blank"
                       },
                       "pinned": true,
                       "icon": "globe-2",
-                      "title": "SQLMap Overview | Hack The Box Academy"
+                      "title": "data:text/plain,"
                     }
                   },
                   {
@@ -303,9 +303,21 @@
                       "icon": "lucide-file",
                       "title": "OVERPASS"
                     }
+                  },
+                  {
+                    "id": "9061711065b37e56",
+                    "type": "leaf",
+                    "state": {
+                      "type": "release-notes",
+                      "state": {
+                        "currentVersion": "1.12.4"
+                      },
+                      "icon": "lucide-book-up",
+                      "title": "Release Notes 1.12.4"
+                    }
                   }
                 ],
-                "currentTab": 3
+                "currentTab": 4
               }
             ],
             "direction": "horizontal"
@@ -495,7 +507,7 @@
       "iconic:Open rulebook": false
     }
   },
-  "active": "09bcb134bd9cf9e8",
+  "active": "9061711065b37e56",
   "lastOpenFiles": [
     "CYBER/08 TOOLS/SQLMAP/SQLMAP ESSENTIALS.md",
     "COURSES/MODULES.base",
