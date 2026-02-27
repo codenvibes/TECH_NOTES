@@ -58,6 +58,10 @@ SQLMap Output Description
 <div style="page-break-after: always;"></div>
 
 ## Building Attacks
+
+SQLMap Overview
+Getting Started with SQLMap
+SQLMap Output Description
 <div align="center">
 <br>
 <br>
@@ -68,6 +72,9 @@ SQLMap Output Description
 <div style="page-break-after: always;"></div>
 
 ## Database Enumeration
+
+Database Enumeration
+Advanced Database Enumeration
 <div align="center">
 <br>
 <br>
@@ -78,6 +85,9 @@ SQLMap Output Description
 <div style="page-break-after: always;"></div>
 
 ## Advanced SQLMap Usage
+
+Bypassing Web Application Protections
+OS Exploitation
 <div align="center">
 <br>
 <br>
