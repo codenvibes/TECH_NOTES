@@ -15,7 +15,7 @@
               {
                 "id": "5fba8451e3d9bb96",
                 "type": "tabs",
-                "dimension": 27.66233766233766,
+                "dimension": 27.27272727272727,
                 "children": [
                   {
                     "id": "d6e3d74256db3bbc",
@@ -99,7 +99,7 @@
               {
                 "id": "eb7c5c7906b2a9d3",
                 "type": "tabs",
-                "dimension": 72.33766233766234,
+                "dimension": 72.72727272727273,
                 "children": [
                   {
                     "id": "1829a2d1d4c98997",
@@ -108,13 +108,13 @@
                     "state": {
                       "type": "webviewer",
                       "state": {
-                        "url": "https://academy.hackthebox.com/app/module/58/section/534",
-                        "title": "Skills Assessment | Hack The Box Academy",
+                        "url": "https://academy.hackthebox.com/app/module/58/section/509",
+                        "title": "SQLMap Overview | Hack The Box Academy",
                         "mode": "webview"
                       },
                       "pinned": true,
                       "icon": "globe-2",
-                      "title": "Skills Assessment | Hack The Box Academy"
+                      "title": "SQLMap Overview | Hack The Box Academy"
                     }
                   },
                   {
@@ -447,13 +447,12 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "CYBER/08 TOOLS/SQLMAP/SQLMAP ESSENTIALS.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of SQLMAP ESSENTIALS"
+              "title": "Outline"
             }
           },
           {
@@ -511,7 +510,7 @@
       "iconic:Open rulebook": false
     }
   },
-  "active": "180b670eb6aaa497",
+  "active": "1829a2d1d4c98997",
   "lastOpenFiles": [
     "CYBER/08 TOOLS/SQLMAP/SQLMAP ESSENTIALS.md",
     "COURSES/MODULES.base",
