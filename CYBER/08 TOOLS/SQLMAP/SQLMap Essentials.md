@@ -2144,6 +2144,17 @@ With this, we have covered all of the main functionality of SQLMap.
 <div style="page-break-after: always;"></div>
 
 ## Skills Assessment
+
+You are given access to a web application with basic protection mechanisms. Use the skills learned in this module to find the SQLi vulnerability with SQLMap and exploit it accordingly. To complete this module, find the flag and submit it here.
+<div>
+<br>
+<br>
+</div>
+
+### Questions
+
+#### What's the contents of table final_flag?
+==Answer==
 <div align="center">
 <br>
 <br>
