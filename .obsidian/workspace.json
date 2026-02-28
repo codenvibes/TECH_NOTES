@@ -77,8 +77,22 @@
                       "icon": "lucide-file",
                       "title": "WHITE-BOARD"
                     }
+                  },
+                  {
+                    "id": "130475ac64312dfb",
+                    "type": "leaf",
+                    "state": {
+                      "type": "webviewer",
+                      "state": {
+                        "url": "about:blank",
+                        "mode": "blank"
+                      },
+                      "icon": "globe-2",
+                      "title": "New web viewer"
+                    }
                   }
-                ]
+                ],
+                "currentTab": 4
               },
               {
                 "id": "eb7c5c7906b2a9d3",
@@ -92,13 +106,13 @@
                     "state": {
                       "type": "webviewer",
                       "state": {
-                        "url": "https://academy.hackthebox.com/app/module/58/section/510",
-                        "title": "Database Enumeration | Hack The Box Academy",
+                        "url": "https://academy.hackthebox.com/app/module/58/section/529",
+                        "title": "Advanced Database Enumeration | Hack The Box Academy",
                         "mode": "webview"
                       },
                       "pinned": true,
                       "icon": "globe-2",
-                      "title": "Database Enumeration | Hack The Box Academy"
+                      "title": "Advanced Database Enumeration | Hack The Box Academy"
                     }
                   },
                   {
@@ -368,8 +382,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 288.703125,
-    "collapsed": true
+    "width": 288.703125
   },
   "right": {
     "id": "26820c7e22c27caf",
@@ -494,7 +507,7 @@
       "iconic:Open rulebook": false
     }
   },
-  "active": "1829a2d1d4c98997",
+  "active": "130475ac64312dfb",
   "lastOpenFiles": [
     "CYBER/08 TOOLS/SQLMAP/SQLMAP ESSENTIALS.md",
     "CYBER/13 CTFS & LABS/THM/OVERPASS.md",

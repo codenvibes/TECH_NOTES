@@ -1372,7 +1372,7 @@ In such cases, a user is also advised to include the switchÂ `--exclude-sysdbs`Â
 
 #### Questions
 
-##### 
+##### What's the contents of table flag1 in the testdb database? (Case #1)
 ==Answer==
 <div align="center">
 <br>
