@@ -108,13 +108,13 @@
                     "state": {
                       "type": "webviewer",
                       "state": {
-                        "url": "https://academy.hackthebox.com/app/module/58/section/530",
-                        "title": "Bypassing Web Application Protections | Hack The Box Academy",
+                        "url": "https://academy.hackthebox.com/app/module/58/section/697",
+                        "title": "OS Exploitation | Hack The Box Academy",
                         "mode": "webview"
                       },
                       "pinned": true,
                       "icon": "globe-2",
-                      "title": "Bypassing Web Application Protections | Hack The Box Academy"
+                      "title": "OS Exploitation | Hack The Box Academy"
                     }
                   },
                   {
