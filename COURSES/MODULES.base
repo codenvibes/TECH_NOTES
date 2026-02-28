@@ -6,3 +6,10 @@ views:
         - file.tags.contains("HTB")
         - file.tags.contains("MODULE")
     image: note.image
+  - type: cards
+    name: THM MODULES
+    filters:
+      and:
+        - file.tags.contains("THM")
+        - file.tags.contains("MODULE")
+    image: note.image
