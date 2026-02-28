@@ -782,6 +782,15 @@ JSON data found in HTTP body. Do you want to process it? [Y/n/q]
 [00:03:46] [WARNING] HTTP parameter 'JSON type' does not appear to be dynamic
 [00:03:46] [WARNING] heuristic (basic) test shows that HTTP parameter 'JSON type' might not be injectable
 ```
+<div>
+<br>
+<br>
+</div>
+
+#### Questions
+
+##### 
+==Answer==
 <div align="center">
 <br>
 <br>
