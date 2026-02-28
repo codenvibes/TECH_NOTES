@@ -93,12 +93,12 @@
                       "type": "webviewer",
                       "state": {
                         "url": "https://academy.hackthebox.com/app/module/58/section/509",
-                        "title": "academy.hackthebox.com/app/module/58/section/509",
+                        "title": "SQLMap Overview | Hack The Box Academy",
                         "mode": "webview"
                       },
                       "pinned": true,
                       "icon": "globe-2",
-                      "title": "academy.hackthebox.com/app/module/58/section/509"
+                      "title": "SQLMap Overview | Hack The Box Academy"
                     }
                   },
                   {
@@ -174,7 +174,7 @@
               {
                 "id": "96c424c4653196ac",
                 "type": "tabs",
-                "dimension": 80.64935064935065,
+                "dimension": 26.81818181818182,
                 "children": [
                   {
                     "id": "10dd2c9178155b52",
@@ -240,7 +240,7 @@
               {
                 "id": "ebc3d89584b2ffd8",
                 "type": "tabs",
-                "dimension": 19.350649350649352,
+                "dimension": 73.18181818181819,
                 "children": [
                   {
                     "id": "1ed32a33f41cf25f",
@@ -315,9 +315,23 @@
                       "icon": "lucide-book-up",
                       "title": "Release Notes 1.12.4"
                     }
+                  },
+                  {
+                    "id": "3bc3ec57a0e751c9",
+                    "type": "leaf",
+                    "state": {
+                      "type": "webviewer",
+                      "state": {
+                        "url": "https://help.obsidian.md/cli#Troubleshooting",
+                        "title": "data:text/plain,",
+                        "mode": "blank"
+                      },
+                      "icon": "globe-2",
+                      "title": "data:text/plain,"
+                    }
                   }
                 ],
-                "currentTab": 4
+                "currentTab": 5
               }
             ],
             "direction": "horizontal"
@@ -506,7 +520,7 @@
       "iconic:Open rulebook": false
     }
   },
-  "active": "9061711065b37e56",
+  "active": "3bc3ec57a0e751c9",
   "lastOpenFiles": [
     "CYBER/08 TOOLS/SQLMAP/SQLMAP ESSENTIALS.md",
     "COURSES/MODULES.base",
