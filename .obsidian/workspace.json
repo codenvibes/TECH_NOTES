@@ -242,12 +242,12 @@
                     "state": {
                       "type": "markdown",
                       "state": {
-                        "file": "CYBER/08 TOOLS/SQLMAP/SQLMAP ESSENTIALS.md",
+                        "file": "TEMPLATES/GENERAL.md",
                         "mode": "source",
                         "source": false
                       },
                       "icon": "lucide-file",
-                      "title": "SQLMAP ESSENTIALS"
+                      "title": "GENERAL"
                     }
                   }
                 ],
@@ -447,12 +447,13 @@
             "state": {
               "type": "outline",
               "state": {
+                "file": "TEMPLATES/GENERAL.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline"
+              "title": "Outline of GENERAL"
             }
           },
           {
@@ -510,7 +511,7 @@
       "iconic:Open rulebook": false
     }
   },
-  "active": "1829a2d1d4c98997",
+  "active": "180b670eb6aaa497",
   "lastOpenFiles": [
     "CYBER/08 TOOLS/SQLMAP/SQLMAP ESSENTIALS.md",
     "COURSES/MODULES.base",
