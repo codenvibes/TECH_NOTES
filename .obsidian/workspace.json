@@ -125,12 +125,12 @@
                       "type": "webviewer",
                       "state": {
                         "url": "https://tryhackme.com/module/owasp-top-10-2025",
-                        "title": "TryHackMe | OWASP Top 10 (2025) Training",
+                        "title": "TryHackMe | Cyber Security Training",
                         "mode": "webview"
                       },
                       "pinned": true,
                       "icon": "globe-2",
-                      "title": "TryHackMe | OWASP Top 10 (2025) Training"
+                      "title": "TryHackMe | Cyber Security Training"
                     }
                   },
                   {
