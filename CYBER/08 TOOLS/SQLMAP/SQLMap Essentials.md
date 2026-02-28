@@ -45,7 +45,7 @@ In this module, we will cover:
 <div align="center">
 <br>
 <br>
-※※※※※※※※※※※※※※※※※※※※※※※※
+※※※※※※※※※※※※※※※※※※※※※※※※※※※※※※※※※※※※※※※※※※※※※※※※
 <br>
 </div>
 <!-- PAGE BREAK -->
@@ -599,7 +599,7 @@ This indicates the local file system location used for storing all logs, session
 <div align="center">
 <br>
 <br>
-※※※※※※※※※※※※※※※※※※※※※※※※
+※※※※※※※※※※※※※※※※※※※※※※※※※※※※※※※※※※※※※※※※※※※※※※※※
 <br>
 </div>
 <!-- PAGE BREAK -->
@@ -1127,7 +1127,7 @@ Failing to use the proper `FROM` appendix automatically could be due to the in
 <div align="center">
 <br>
 <br>
-※※※※※※※※※※※※※※※※※※※※※※※※
+※※※※※※※※※※※※※※※※※※※※※※※※※※※※※※※※※※※※※※※※※※※※※※※※
 <br>
 </div>
 <!-- PAGE BREAK -->
@@ -1651,7 +1651,7 @@ This basically means that everything accessible will be retrieved, potentially r
 <div align="center">
 <br>
 <br>
-※※※※※※※※※※※※※※※※※※※※※※※※
+※※※※※※※※※※※※※※※※※※※※※※※※※※※※※※※※※※※※※※※※※※※※※※※※
 <br>
 </div>
 <!-- PAGE BREAK -->
@@ -2143,7 +2143,7 @@ With this, we have covered all of the main functionality of SQLMap.
 <div align="center">
 <br>
 <br>
-※※※※※※※※※※※※※※※※※※※※※※※※
+※※※※※※※※※※※※※※※※※※※※※※※※※※※※※※※※※※※※※※※※※※※※※※※※
 <br>
 </div>
 <!-- PAGE BREAK -->
@@ -2164,7 +2164,7 @@ You are given access to a web application with basic protection mechanisms. Use 
 <div align="center">
 <br>
 <br>
-※※※※※※※※※※※※※※※※※※※※※※※※
+※※※※※※※※※※※※※※※※※※※※※※※※※※※※※※※※※※※※※※※※※※※※※※※※
 <br>
 </div>
 <!-- PAGE BREAK -->
