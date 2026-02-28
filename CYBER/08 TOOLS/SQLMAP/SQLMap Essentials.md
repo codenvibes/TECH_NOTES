@@ -631,17 +631,22 @@ When providing data for testing to SQLMap, there has to be either a parameter va
 
 In the most common scenario, `GET` parameters are provided with the usage of option `-u`/`--url`, as in the previous example. As for testing `POST` data, the `--data` flag can be used, as follows:
 
-shell
+```shell
 `adampueman@htb[/htb]$ sqlmap 'http://www.example.com/' --data 'uid=1&name=test'`
+```
 
 In such cases, `POST` parameters `uid` and `name` will be tested for SQLi vulnerability. For example, if we have a clear indication that the parameter `uid` is prone to an SQLi vulnerability, we could narrow down the tests to only this parameter using `-p uid`. Otherwise, we could mark it inside the provided data with the usage of special marker `*` as follows:
 
-shell
+```shell
 `adampueman@htb[/htb]$ sqlmap 'http://www.example.com/' --data 'uid=1*&name=test'`
+```
 
----
+<div align="center">
+<br>
+<br>
+</div>
 
-## Full HTTP Requests
+#### Full HTTP Requests
 
 If we need to specify a complex HTTP request with lots of different header values and an elongated POST body, we can use the `-r` flag. With this option, SQLMap is provided with the "request file," containing the whole HTTP request inside a single textual file. In a common scenario, such HTTP request can be captured from within a specialized proxy application (e.g. `Burp`) and written into the request file, as follows:
 
