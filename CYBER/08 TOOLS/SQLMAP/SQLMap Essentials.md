@@ -673,10 +673,25 @@ We can either manually copy the HTTP request from within `Burp` and write it t
 
 To run SQLMap with an HTTP request file, we use the `-r` flag, as follows:
 
-        shellsession
-`adampueman@htb[/htb]$ sqlmap -r req.txt         ___       __H__ ___ ___["]_____ ___ ___  {1.4.9} |_ -| . [(]     | .'| . | |___|_  [.]_|_|_|__,|  _|       |_|V...       |_|   http://sqlmap.org [*] starting @ 14:32:59 /2020-09-11/ [14:32:59] [INFO] parsing HTTP request from 'req.txt' [14:32:59] [INFO] testing connection to the target URL [14:32:59] [INFO] testing if the target URL content is stable [14:33:00] [INFO] target URL content is stable`
+```shell
+adampueman@htb[/htb]$ sqlmap -r req.txt
+        ___
+       __H__
+ ___ ___["]_____ ___ ___  {1.4.9}
+|_ -| . [(]     | .'| . |
+|___|_  [.]_|_|_|__,|  _|
+      |_|V...       |_|   http://sqlmap.org
 
-Tip: similarly to the case with the '--data' option, within the saved request file, we can specify the parameter we want to inject in with an asterisk (*), such as '/?id=*'.
+
+[*] starting @ 14:32:59 /2020-09-11/
+
+[14:32:59] [INFO] parsing HTTP request from 'req.txt'
+[14:32:59] [INFO] testing connection to the target URL
+[14:32:59] [INFO] testing if the target URL content is stable
+[14:33:00] [INFO] target URL content is stable
+```
+
+> Tip: similarly to the case with the '--data' option, within the saved request file, we can specify the parameter we want to inject in with an asterisk (*), such as '/?id=*'.
 
 ---
 
