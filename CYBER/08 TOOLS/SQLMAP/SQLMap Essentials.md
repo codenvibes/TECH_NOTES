@@ -1699,7 +1699,7 @@ In some cases, the web application may only require unique values to be provided
 
 ---
 
-## Calculated Parameter Bypass
+#### Calculated Parameter Bypass
 
 Another similar mechanism is where a web application expects a proper parameter value to be calculated based on some other parameter value(s). Most often, one parameter value has to contain the message digest (e.g. `h=MD5(id)`) of another one. To bypass this, the option `--eval` should be used, where a valid Python code is being evaluated just before the request is being sent to the target:
 
@@ -1708,7 +1708,7 @@ Another similar mechanism is where a web application expects a proper parameter 
 
 ---
 
-## IP Address Concealing
+#### IP Address Concealing
 
 In case we want to conceal our IP address, or if a certain web application has a protection mechanism that blacklists our current IP address, we can try to use a proxy or the anonymity network Tor. A proxy can be set with the option `--proxy` (e.g. `--proxy="socks4://177.39.187.70:33283"`), where we should add a working proxy.
 
@@ -1718,7 +1718,7 @@ If we wanted to be sure that Tor is properly being used, to prevent unwanted beh
 
 ---
 
-## WAF Bypass
+#### WAF Bypass
 
 Whenever we run SQLMap, As part of the initial tests, SQLMap sends a predefined malicious looking payload using a non-existent parameter name (e.g. `?pfov=...`) to test for the existence of a WAF (Web Application Firewall). There will be a substantial change in the response compared to the original in case of any protection between the user and the target. For example, if one of the most popular WAF solutions (ModSecurity) is implemented, there should be a `406 - Not Acceptable` response after such a request.
 
@@ -1726,7 +1726,7 @@ In case of a positive detection, to identify the actual protection mechanism, SQ
 
 ---
 
-## User-agent Blacklisting Bypass
+#### User-agent Blacklisting Bypass
 
 In case of immediate problems (e.g., HTTP error code 5XX from the start) while running SQLMap, one of the first things we should think of is the potential blacklisting of the default user-agent used by SQLMap (e.g. `User-agent: sqlmap/1.4.9 (http://sqlmap.org)`).
 
@@ -1736,7 +1736,7 @@ Note: If some form of protection is detected during the run, we can expect probl
 
 ---
 
-## Tamper Scripts
+#### Tamper Scripts
 
 Finally, one of the most popular mechanisms implemented in SQLMap for bypassing WAF/IPS solutions is the so-called "tamper" scripts. Tamper scripts are a special kind of (Python) scripts written for modifying requests just before being sent to the target, in most cases to bypass some protection.
 
@@ -1773,7 +1773,7 @@ To get a whole list of implemented tamper scripts, along with the description as
 
 ---
 
-## Miscellaneous Bypasses
+#### Miscellaneous Bypasses
 
 Out of other protection bypass mechanisms, there are also two more that should be mentioned. The first one is the `Chunked` transfer encoding, turned on using the switch `--chunked`, which splits the POST request's body into so-called "chunks." Blacklisted SQL keywords are split between chunks in a way that the request containing them can pass unnoticed.
 
