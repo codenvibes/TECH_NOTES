@@ -1445,7 +1445,7 @@ Table: users
 <br>
 </div>
 
-## Searching for Data
+#### Searching for Data
 
 When dealing with complex database structures with numerous tables and columns, we can search for databases, tables, and columns of interest, by using the `--search` option. This option enables us to search for identifier names by using the `LIKE` operator. For example, if we are looking for all of the table names containing the keyword `user`, we can run SQLMap as follows:
 
