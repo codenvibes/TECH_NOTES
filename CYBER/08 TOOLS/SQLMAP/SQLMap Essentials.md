@@ -1696,6 +1696,10 @@ In some cases, the web application may only require unique values to be provided
 
         shellsession
 `adampueman@htb[/htb]$ sqlmap -u "http://www.example.com/?id=1&rp=29125" --randomize=rp --batch -v 5 | grep URI URI: http://www.example.com:80/?id=1&rp=99954 URI: http://www.example.com:80/?id=1&rp=87216 URI: http://www.example.com:80/?id=9030&rp=36456 URI: http://www.example.com:80/?id=1.%2C%29%29%27.%28%28%2C%22&rp=16689 URI: http://www.example.com:80/?id=1%27xaFUVK%3C%27%22%3EHKtQrg&rp=40049 URI: http://www.example.com:80/?id=1%29%20AND%209368%3D6381%20AND%20%287422%3D7422&rp=95185`
+<div align="center">
+<br>
+<br>
+</div>
 
 #### Calculated Parameter Bypass
 
@@ -1703,6 +1707,10 @@ Another similar mechanism is where a web application expects a proper parameter 
 
         shellsession
 `adampueman@htb[/htb]$ sqlmap -u "http://www.example.com/?id=1&h=c4ca4238a0b923820dcc509a6f75849b" --eval="import hashlib; h=hashlib.md5(id).hexdigest()" --batch -v 5 | grep URI URI: http://www.example.com:80/?id=1&h=c4ca4238a0b923820dcc509a6f75849b URI: http://www.example.com:80/?id=1&h=c4ca4238a0b923820dcc509a6f75849b URI: http://www.example.com:80/?id=9061&h=4d7e0d72898ae7ea3593eb5ebf20c744 URI: http://www.example.com:80/?id=1%2C.%2C%27%22.%2C%28.%29&h=620460a56536e2d32fb2f4842ad5a08d URI: http://www.example.com:80/?id=1%27MyipGP%3C%27%22%3EibjjSu&h=db7c815825b14d67aaa32da09b8b2d42 URI: http://www.example.com:80/?id=1%29%20AND%209978%socks4://177.39.187.70:33283ssocks4://177.39.187.70:332833D1232%20AND%20%284955%3D4955&h=02312acd4ebe69e2528382dfff7fc5cc`
+<div align="center">
+<br>
+<br>
+</div>
 
 #### IP Address Concealing
 
@@ -1711,12 +1719,20 @@ In case we want to conceal our IP address, or if a certain web application has a
 In addition to that, if we have a list of proxies, we can provide them to SQLMap with the option `--proxy-file`. This way, SQLMap will go sequentially through the list, and in case of any problems (e.g., blacklisting of IP address), it will just skip from current to the next from the list. The other option is Tor network use to provide an easy to use anonymization, where our IP can appear anywhere from a large list of Tor exit nodes. When properly installed on the local machine, there should be a `SOCKS4` proxy service at the local port 9050 or 9150. By using switch `--tor`, SQLMap will automatically try to find the local port and use it appropriately.
 
 If we wanted to be sure that Tor is properly being used, to prevent unwanted behavior, we could use the switch `--check-tor`. In such cases, SQLMap will connect to the `https://check.torproject.org/` and check the response for the intended result (i.e., `Congratulations` appears inside).
+<div align="center">
+<br>
+<br>
+</div>
 
 #### WAF Bypass
 
 Whenever we run SQLMap, As part of the initial tests, SQLMap sends a predefined malicious looking payload using a non-existent parameter name (e.g. `?pfov=...`) to test for the existence of a WAF (Web Application Firewall). There will be a substantial change in the response compared to the original in case of any protection between the user and the target. For example, if one of the most popular WAF solutions (ModSecurity) is implemented, there should be a `406 - Not Acceptable` response after such a request.
 
 In case of a positive detection, to identify the actual protection mechanism, SQLMap uses a third-party library [identYwaf](https://github.com/stamparm/identYwaf), containing the signatures of 80 different WAF solutions. If we wanted to skip this heuristical test altogether (i.e., to produce less noise), we can use switch `--skip-waf`.
+<div align="center">
+<br>
+<br>
+</div>
 
 #### User-agent Blacklisting Bypass
 
@@ -1725,6 +1741,10 @@ In case of immediate problems (e.g., HTTP error code 5XX from the start) while r
 This is trivial to bypass with the switch `--random-agent`, which changes the default user-agent with a randomly chosen value from a large pool of values used by browsers.
 
 Note: If some form of protection is detected during the run, we can expect problems with the target, even other security mechanisms. The main reason is the continuous development and new improvements in such protections, leaving smaller and smaller maneuver space for attackers.
+<div align="center">
+<br>
+<br>
+</div>
 
 #### Tamper Scripts
 
@@ -1760,6 +1780,10 @@ Tamper scripts can modify any part of the request, although the majority change 
 |`versionedmorekeywords`|Encloses each keyword with (MySQL) versioned comment|
 
 To get a whole list of implemented tamper scripts, along with the description as above, switch `--list-tampers` can be used. We can also develop custom Tamper scripts for any custom type of attack, like a second-order SQLi.
+<div align="center">
+<br>
+<br>
+</div>
 
 #### Miscellaneous Bypasses
 
