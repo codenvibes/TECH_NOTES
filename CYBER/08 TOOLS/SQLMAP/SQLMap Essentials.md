@@ -1133,10 +1133,9 @@ Failing to use the proper `FROM` appendix automatically could be due to the in
 Enumeration represents the central part of an SQL injection attack, which is done right after the successful detection and confirmation of exploitability of the targeted SQLi vulnerability. It consists of lookup and retrieval (i.e., exfiltration) of all the available information from the vulnerable database.
 <div align="center">
 <br>
-<br>
 </div>
 
-## SQLMap Data Exfiltration
+#### SQLMap Data Exfiltration
 
 For such purpose, SQLMap has a predefined set of queries for all supported DBMSes, where each entry represents the SQL that must be run at the target to retrieve the desired content. For example, the excerpts from [queries.xml](https://github.com/sqlmapproject/sqlmap/blob/master/data/xml/queries.xml) for a MySQL DBMS can be seen below:
 
