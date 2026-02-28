@@ -650,12 +650,24 @@ In such cases, `POST` parameters `uid` and `name` will be tested for SQLi 
 
 If we need to specify a complex HTTP request with lots of different header values and an elongated POST body, we can use the `-r` flag. With this option, SQLMap is provided with the "request file," containing the whole HTTP request inside a single textual file. In a common scenario, such HTTP request can be captured from within a specialized proxy application (e.g. `Burp`) and written into the request file, as follows:
 
-![HTTP GET request to www.example.com with headers including User-Agent and Accept-Language.](https://cdn.services-k8s.prod.aws.htb.systems/content/modules/58/x7ND6VQ.png)
+![HTTP GET request to www.example.com with headers including User-Agent and Accept-Language.|1078](https://cdn.services-k8s.prod.aws.htb.systems/content/modules/58/x7ND6VQ.png)
 
 An example of an HTTP request captured with `Burp` would look like:
 
-        http
-`GET /?id=1 HTTP/1.1 Host: www.example.com User-Agent: Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:80.0) Gecko/20100101 Firefox/80.0 Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8 Accept-Language: en-US,en;q=0.5 Accept-Encoding: gzip, deflate Connection: close Upgrade-Insecure-Requests: 1 DNT: 1 If-Modified-Since: Thu, 17 Oct 2019 07:18:26 GMT If-None-Match: "3147526947" Cache-Control: max-age=0`
+```http
+GET /?id=1 HTTP/1.1
+Host: www.example.com
+User-Agent: Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:80.0) Gecko/20100101 Firefox/80.0
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate
+Connection: close
+Upgrade-Insecure-Requests: 1
+DNT: 1
+If-Modified-Since: Thu, 17 Oct 2019 07:18:26 GMT
+If-None-Match: "3147526947"
+Cache-Control: max-age=0
+```
 
 We can either manually copy the HTTP request from within `Burp` and write it to a file, or we can right-click the request within `Burp` and choose `Copy to file`. Another way of capturing the full HTTP request would be through using the browser, as mentioned earlier in the section, and choosing the option `Copy` > `Copy Request Headers`, and then pasting the request into a file.
 
