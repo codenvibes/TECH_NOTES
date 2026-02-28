@@ -315,23 +315,9 @@
                       "icon": "lucide-book-up",
                       "title": "Release Notes 1.12.4"
                     }
-                  },
-                  {
-                    "id": "3bc3ec57a0e751c9",
-                    "type": "leaf",
-                    "state": {
-                      "type": "webviewer",
-                      "state": {
-                        "url": "https://help.obsidian.md/cli#Troubleshooting",
-                        "title": "data:text/plain,",
-                        "mode": "blank"
-                      },
-                      "icon": "globe-2",
-                      "title": "data:text/plain,"
-                    }
                   }
                 ],
-                "currentTab": 5
+                "currentTab": 4
               }
             ],
             "direction": "horizontal"
@@ -520,7 +506,7 @@
       "iconic:Open rulebook": false
     }
   },
-  "active": "3bc3ec57a0e751c9",
+  "active": "9061711065b37e56",
   "lastOpenFiles": [
     "CYBER/08 TOOLS/SQLMAP/SQLMAP ESSENTIALS.md",
     "COURSES/MODULES.base",
