@@ -1637,10 +1637,10 @@ This basically means that everything accessible will be retrieved, potentially r
 
 #### Questions
 
-##### 
+##### What's the name of the column containing "style" in it's name? (Case #1)
 ==Answer==
 
-##### 
+##### What's the Kimberly user's password? (Case #1)
 ==Answer==
 <div align="center">
 <br>
