@@ -1627,7 +1627,7 @@ database management system users password hashes:
 [*] ending @ 14:25:28 /2020-09-18/
 ```
 
-Tip: The '--all' switch in combination with the '--batch' switch, will automa(g)ically do the whole enumeration process on the target itself, and provide the entire enumeration details.
+> Tip: The '--all' switch in combination with the '--batch' switch, will automa(g)ically do the whole enumeration process on the target itself, and provide the entire enumeration details.
 
 This basically means that everything accessible will be retrieved, potentially running for a very long time. We will need to find the data of interest in the output files manually.
 <div>
@@ -1636,6 +1636,9 @@ This basically means that everything accessible will be retrieved, potentially r
 </div>
 
 #### Questions
+
+##### 
+==Answer==
 
 ##### 
 ==Answer==
