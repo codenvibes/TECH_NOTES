@@ -93,12 +93,12 @@
                       "type": "webviewer",
                       "state": {
                         "url": "https://academy.hackthebox.com/app/module/58/section/509",
-                        "title": "SQLMap Overview | Hack The Box Academy",
-                        "mode": "webview"
+                        "title": "data:text/plain,",
+                        "mode": "blank"
                       },
                       "pinned": true,
                       "icon": "globe-2",
-                      "title": "SQLMap Overview | Hack The Box Academy"
+                      "title": "data:text/plain,"
                     }
                   },
                   {
