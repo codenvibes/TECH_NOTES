@@ -1102,6 +1102,15 @@ In some cases, `UNION` SQLi payloads require extra user-provided information t
 
 Furthermore, in case there is a requirement to use an appendix at the end of a `UNION` query in the form of the `FROM <table>` (e.g., in case of Oracle), we can set it with the option `--union-from` (e.g. `--union-from=users`).  
 Failing to use the proper `FROM` appendix automatically could be due to the inability to detect the DBMS name before its usage.
+<div>
+<br>
+<br>
+</div>
+
+#### Questions
+
+##### 
+==Answer==
 <div align="center">
 <br>
 <br>
