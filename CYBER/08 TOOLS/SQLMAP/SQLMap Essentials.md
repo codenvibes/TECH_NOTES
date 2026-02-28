@@ -789,7 +789,13 @@ JSON data found in HTTP body. Do you want to process it? [Y/n/q]
 
 #### Questions
 
-##### 
+##### What's the contents of table flag2? (Case #2)
+==Answer==
+
+##### What's the contents of table flag3? (Case #3)
+==Answer==
+
+##### What's the contents of table flag4? (Case #4)
 ==Answer==
 <div align="center">
 <br>
