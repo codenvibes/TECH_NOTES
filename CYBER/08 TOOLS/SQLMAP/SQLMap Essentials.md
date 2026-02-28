@@ -287,6 +287,8 @@ By running the SQLMap on the DNS server for the domain under control (e.g. `.at
 </div>
 
 ### Getting Started with SQLMap
+
+
 <div align="center">
 <br>
 <br>
