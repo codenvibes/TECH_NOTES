@@ -93,7 +93,8 @@
                       "title": "WHITE-BOARD"
                     }
                   }
-                ]
+                ],
+                "currentTab": 1
               },
               {
                 "id": "eb7c5c7906b2a9d3",
@@ -383,7 +384,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 288.703125
+    "width": 288.703125,
+    "collapsed": true
   },
   "right": {
     "id": "26820c7e22c27caf",
@@ -511,11 +513,11 @@
   },
   "active": "180b670eb6aaa497",
   "lastOpenFiles": [
-    "COURSES/COURSES.base",
     "COURSES/MODULES.base",
+    "CYBER/08 TOOLS/SQLMAP/SQLMAP ESSENTIALS.md",
+    "COURSES/COURSES.base",
     "ASSETS/{92782614-64A8-423C-A30E-6D82BEBE246A}.png",
     "ASSETS/Unconfirmed 337402.crdownload",
-    "CYBER/08 TOOLS/SQLMAP/SQLMAP ESSENTIALS.md",
     "TEMPLATES/GENERAL.md",
     "QUICK NOTES/WHITE-BOARD.md",
     "CYBER/13 CTFS & LABS/THM/OVERPASS.md",
