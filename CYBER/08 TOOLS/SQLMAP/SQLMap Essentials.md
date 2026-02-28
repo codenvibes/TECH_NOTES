@@ -492,13 +492,13 @@ This means that there are no major changes between responses in case of continuo
 
 It is always desired for the tested parameter to be "dynamic," as it is a sign that any changes made to its value would result in a change in the response; hence the parameter may be linked to a database. In case the output is "static" and does not change, it could be an indicator that the value of the tested parameter is not processed by the target, at least in the current context.
 
-#### Parameter might be injectable
+##### Parameter might be injectable
 
 `Log Message:` "heuristic (basic) test shows that GET parameter 'id' might be injectable (possible DBMS: 'MySQL')"
 
 As discussed before, DBMS errors are a good indication of the potential SQLi. In this case, there was a MySQL error when SQLMap sends an intentionally invalid value was used (e.g. `?id=1",)..).))'`), which indicates that the tested parameter could be SQLi injectable and that the target could be MySQL. It should be noted that this is not proof of SQLi, but just an indication that the detection mechanism has to be proven in the subsequent run.
 
-#### Parameter might be vulnerable to XSS attacks
+##### Parameter might be vulnerable to XSS attacks
 
 `Log Message:`
 
@@ -506,7 +506,7 @@ As discussed before, DBMS errors are a good indication of the potential SQLi. In
 
 While it is not its primary purpose, SQLMap also runs a quick heuristic test for the presence of an XSS vulnerability. In large-scale tests, where a lot of parameters are being tested with SQLMap, it is nice to have these kinds of fast heuristic checks, especially if there are no SQLi vulnerabilities found.
 
-#### Back-end DBMS is '...'
+##### Back-end DBMS is '...'
 
 `Log Message:`
 
@@ -514,7 +514,7 @@ While it is not its primary purpose, SQLMap also runs a quick heuristic test for
 
 In a normal run, SQLMap tests for all supported DBMSes. In case that there is a clear indication that the target is using the specific DBMS, we can narrow down the payloads to just that specific DBMS.
 
-#### Level/risk values
+##### Level/risk values
 
 `Log Message:`
 
@@ -523,7 +523,7 @@ In a normal run, SQLMap tests for all supported DBMSes. In case that there is a 
 If there is a clear indication that the target uses the specific DBMS, it is also possible to extend the tests for that same specific DBMS beyond the regular tests.  
 This basically means running all SQL injection payloads for that specific DBMS, while if no DBMS were detected, only top payloads would be tested.
 
-#### Reflective values found
+##### Reflective values found
 
 `Log Message:`
 
@@ -531,7 +531,7 @@ This basically means running all SQL injection payloads for that specific DBMS, 
 
 Just a warning that parts of the used payloads are found in the response. This behavior could cause problems to automation tools, as it represents the junk. However, SQLMap has filtering mechanisms to remove such junk before comparing the original page content.
 
-#### Parameter appears to be injectable
+##### Parameter appears to be injectable
 
 `Log Message:`
 
@@ -541,7 +541,7 @@ This message indicates that the parameter appears to be injectable, though there
 
 Additionally, `with --string="luther"` indicates that SQLMap recognized and used the appearance of constant string value `luther` in the response for distinguishing `TRUE` from `FALSE` responses. This is an important finding because in such cases, there is no need for the usage of advanced internal mechanisms, such as dynamicity/reflection removal or fuzzy comparison of responses, which cannot be considered as false-positive.
 
-#### Time-based comparison statistical model
+##### Time-based comparison statistical model
 
 `Log Message:`
 
@@ -549,7 +549,7 @@ Additionally, `with --string="luther"` indicates that SQLMap recognized and us
 
 SQLMap uses a statistical model for the recognition of regular and (deliberately) delayed target responses. For this model to work, there is a requirement to collect a sufficient number of regular response times. This way, SQLMap can statistically distinguish between the deliberate delay even in the high-latency network environments.
 
-#### Extending UNION query injection technique tests
+##### Extending UNION query injection technique tests
 
 `Log Message:`
 
@@ -557,7 +557,7 @@ SQLMap uses a statistical model for the recognition of regular and (deliberately
 
 UNION-query SQLi checks require considerably more requests for successful recognition of usable payload than other SQLi types. To lower the testing time per parameter, especially if the target does not appear to be injectable, the number of requests is capped to a constant value (i.e., 10) for this type of check. However, if there is a good chance that the target is vulnerable, especially as one other (potential) SQLi technique is found, SQLMap extends the default number of requests for UNION query SQLi, because of a higher expectancy of success.
 
-#### Technique appears to be usable
+##### Technique appears to be usable
 
 `Log Message:`
 
@@ -567,7 +567,7 @@ As a heuristic check for the UNION-query SQLi type, before the actual `UNION` 
 
 Note that this depends on the affected table in the vulnerable query.
 
-#### Parameter is vulnerable
+##### Parameter is vulnerable
 
 `Log Message:`
 
@@ -575,7 +575,7 @@ Note that this depends on the affected table in the vulnerable query.
 
 This is one of the most important messages of SQLMap, as it means that the parameter was found to be vulnerable to SQL injections. In the regular cases, the user may only want to find at least one injection point (i.e., parameter) usable against the target. However, if we were running an extensive test on the web application and want to report all potential vulnerabilities, we can continue searching for all vulnerable parameters.
 
-#### Sqlmap identified injection points
+##### Sqlmap identified injection points
 
 `Log Message:`
 
@@ -583,7 +583,7 @@ This is one of the most important messages of SQLMap, as it means that the param
 
 Following after is a listing of all injection points with type, title, and payloads, which represents the final proof of successful detection and exploitation of found SQLi vulnerabilities. It should be noted that SQLMap lists only those findings which are provably exploitable (i.e., usable).
 
-#### Data logged to text files
+##### Data logged to text files
 
 `Log Message:`
 
