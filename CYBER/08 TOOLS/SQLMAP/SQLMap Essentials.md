@@ -2129,7 +2129,10 @@ With this, we have covered all of the main functionality of SQLMap.
 
 #### Questions
 
-##### 
+##### Try to use SQLMap to read the file "/var/www/html/flag.txt".
+==Answer==
+
+##### Use SQLMap to get an interactive OS shell on the remote host and try to find another flag within the host.
 ==Answer==
 <div align="center">
 <br>
