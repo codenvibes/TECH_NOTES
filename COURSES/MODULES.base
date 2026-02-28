@@ -1,3 +1,7 @@
 views:
   - type: cards
-    name: Table
+    name: HTBA MODULES
+    filters:
+      and:
+        - file.tags.contains("HTB")
+    image: note.image
