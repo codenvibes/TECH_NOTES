@@ -3,7 +3,7 @@
 .cm-line:has(.cm-header-2):has(.cm-fold-indicator.is-collapsed)::before {
   content: "";
   display: block;
-  margin-top: 30px;
+  margin-bottom: 30px;
   border-bottom: 2px solid var(--background-modifier-border);
   /* opacity: 0.4; */
 }
