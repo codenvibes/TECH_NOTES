@@ -447,13 +447,12 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "CYBER/08 TOOLS/SQLMAP/SQLMAP ESSENTIALS.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of SQLMAP ESSENTIALS"
+              "title": "Outline"
             }
           },
           {
@@ -511,11 +510,11 @@
       "iconic:Open rulebook": false
     }
   },
-  "active": "180b670eb6aaa497",
+  "active": "1829a2d1d4c98997",
   "lastOpenFiles": [
+    "CYBER/08 TOOLS/SQLMAP/SQLMAP ESSENTIALS.md",
     "TEMPLATES/GENERAL.md",
     "TEMPLATES/PAGE BREAK.md",
-    "CYBER/08 TOOLS/SQLMAP/SQLMAP ESSENTIALS.md",
     "COURSES/MODULES.base",
     "COURSES/COURSES.base",
     "ASSETS/{92782614-64A8-423C-A30E-6D82BEBE246A}.png",
