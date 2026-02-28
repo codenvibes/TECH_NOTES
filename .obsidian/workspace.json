@@ -92,13 +92,13 @@
                     "state": {
                       "type": "webviewer",
                       "state": {
-                        "url": "https://academy.hackthebox.com/app/module/58/section/509",
-                        "title": "SQLMap Overview | Hack The Box Academy",
+                        "url": "https://academy.hackthebox.com/app/module/58/section/694",
+                        "title": "Getting Started with SQLMap | Hack The Box Academy",
                         "mode": "webview"
                       },
                       "pinned": true,
                       "icon": "globe-2",
-                      "title": "SQLMap Overview | Hack The Box Academy"
+                      "title": "Getting Started with SQLMap | Hack The Box Academy"
                     }
                   },
                   {
@@ -431,13 +431,12 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "CYBER/13 CTFS & LABS/THM/OVERPASS.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of OVERPASS"
+              "title": "Outline"
             }
           },
           {
@@ -495,9 +494,10 @@
       "iconic:Open rulebook": false
     }
   },
-  "active": "09bcb134bd9cf9e8",
+  "active": "1829a2d1d4c98997",
   "lastOpenFiles": [
     "CYBER/08 TOOLS/SQLMAP/SQLMAP ESSENTIALS.md",
+    "CYBER/13 CTFS & LABS/THM/OVERPASS.md",
     "COURSES/MODULES.base",
     "COURSES/COURSES.base",
     "COURSES/HTB/JUNIOR CYBERSECURITY ANALYST.md",
@@ -511,7 +511,6 @@
     "CYBER/13 CTFS & LABS/HTB/fact.md",
     "CYBER/13 CTFS & LABS/HTB/INTERPRETER.md",
     "CYBER/13 CTFS & LABS/HTB/fac.md",
-    "CYBER/13 CTFS & LABS/THM/OVERPASS.md",
     "ASSETS/Pasted image 20260224155252.png",
     "ASSETS/Pasted image 20260224153439.png",
     "ASSETS/Pasted image 20260224153209.png",
