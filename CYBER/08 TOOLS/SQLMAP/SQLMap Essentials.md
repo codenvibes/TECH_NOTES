@@ -1654,6 +1654,15 @@ This basically means that everything accessible will be retrieved, potentially r
 ## Advanced SQLMap Usage
 
 ### Bypassing Web Application Protections
+<div>
+<br>
+<br>
+</div>
+
+#### Questions
+
+##### 
+==Answer==
 <div align="center">
 <br>
 <br>
