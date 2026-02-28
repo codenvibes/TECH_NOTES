@@ -93,12 +93,12 @@
                       "type": "webviewer",
                       "state": {
                         "url": "https://academy.hackthebox.com/app/module/58/section/509",
-                        "title": "data:text/plain,",
+                        "title": "academy.hackthebox.com/app/module/58/section/509",
                         "mode": "blank"
                       },
                       "pinned": true,
                       "icon": "globe-2",
-                      "title": "data:text/plain,"
+                      "title": "academy.hackthebox.com/app/module/58/section/509"
                     }
                   },
                   {
