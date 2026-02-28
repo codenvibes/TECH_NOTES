@@ -1813,16 +1813,16 @@ The other bypass mechanisms is the `HTTP parameter pollution` (`HPP`), where p
 
 #### Questions
 
-##### 
+##### What's the contents of table flag8? (Case #8)
 ==Answer==
 
-##### 
+##### What's the contents of table flag9? (Case #9)
 ==Answer==
 
-##### 
+##### What's the contents of table flag10? (Case #10)
 ==Answer==
 
-##### 
+##### What's the contents of table flag11? (Case #11)
 ==Answer==
 <div align="center">
 <br>
