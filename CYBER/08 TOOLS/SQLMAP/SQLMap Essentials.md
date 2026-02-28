@@ -825,10 +825,12 @@ The first step is usually to switch the `--parse-errors`, to parse the DBMS err
 ```
 
 With this option, SQLMap will automatically print the DBMS error, thus giving us clarity on what the issue may be so that we can properly fix it.
+<div align="center">
+<br>
+<br>
+</div>
 
----
-
-## Store the Traffic
+#### Store the Traffic
 
 The `-t` option stores the whole traffic content to an output file:
 
