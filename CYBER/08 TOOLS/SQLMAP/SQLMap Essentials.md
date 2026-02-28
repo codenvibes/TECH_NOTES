@@ -693,21 +693,26 @@ adampueman@htb[/htb]$ sqlmap -r req.txt
 
 > Tip: similarly to the case with the '--data' option, within the saved request file, we can specify the parameter we want to inject in with an asterisk (*), such as '/?id=*'.
 
----
+<div align="center">
+<br>
+<br>
+</div>
 
-## Custom SQLMap Requests
+#### Custom SQLMap Requests
 
 If we wanted to craft complicated requests manually, there are numerous switches and options to fine-tune SQLMap.
 
 For example, if there is a requirement to specify the (session) cookie value to `PHPSESSID=ab4530f4a7d10448457fa8b0eadac29c` option `--cookie` would be used as follows:
 
-        shellsession
+```shell
 `adampueman@htb[/htb]$ sqlmap ... --cookie='PHPSESSID=ab4530f4a7d10448457fa8b0eadac29c'`
+```
 
 The same effect can be done with the usage of option `-H/--header`:
 
-        shellsession
+```shell
 `adampueman@htb[/htb]$ sqlmap ... -H='Cookie:PHPSESSID=ab4530f4a7d10448457fa8b0eadac29c'`
+```
 
 We can apply the same to options like `--host`, `--referer`, and `-A/--user-agent`, which are used to specify the same HTTP headers' values.
 
