@@ -601,7 +601,7 @@ This indicates the local file system location used for storing all logs, session
 
 ## Building Attacks
 
-### SQLMap Overview
+### Running SQLMap on an HTTP Request
 <div align="center">
 <br>
 <br>
@@ -613,7 +613,7 @@ This indicates the local file system location used for storing all logs, session
 <br>
 </div>
 
-### SQLMap Output Description
+### Handling SQLMap Er
 <div align="center">
 <br>
 <br>
