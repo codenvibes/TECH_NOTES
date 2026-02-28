@@ -622,19 +622,21 @@ adampueman@htb[/htb]$ sqlmap 'http://www.example.com/?id=1' -H 'User-Agent: Mozi
 ```
 
 When providing data for testing to SQLMap, there has to be either a parameter value that could be assessed for SQLi vulnerability or specialized options/switches for automatic parameter finding (e.g. `--crawl`, `--forms` or `-g`).
+<div align="center">
+<br>
+<br>
+</div>
 
----
-
-## GET/POST Requests
+#### GET/POST Requests
 
 In the most common scenario, `GET` parameters are provided with the usage of option `-u`/`--url`, as in the previous example. As for testing `POST` data, the `--data` flag can be used, as follows:
 
-        shellsession
+shell
 `adampueman@htb[/htb]$ sqlmap 'http://www.example.com/' --data 'uid=1&name=test'`
 
 In such cases, `POST` parameters `uid` and `name` will be tested for SQLi vulnerability. For example, if we have a clear indication that the parameter `uid` is prone to an SQLi vulnerability, we could narrow down the tests to only this parameter using `-p uid`. Otherwise, we could mark it inside the provided data with the usage of special marker `*` as follows:
 
-        shellsession
+shell
 `adampueman@htb[/htb]$ sqlmap 'http://www.example.com/' --data 'uid=1*&name=test'`
 
 ---
