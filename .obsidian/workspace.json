@@ -303,21 +303,9 @@
                       "icon": "lucide-file",
                       "title": "OVERPASS"
                     }
-                  },
-                  {
-                    "id": "9061711065b37e56",
-                    "type": "leaf",
-                    "state": {
-                      "type": "release-notes",
-                      "state": {
-                        "currentVersion": "1.12.4"
-                      },
-                      "icon": "lucide-book-up",
-                      "title": "Release Notes 1.12.4"
-                    }
                   }
                 ],
-                "currentTab": 4
+                "currentTab": 3
               }
             ],
             "direction": "horizontal"
@@ -443,12 +431,13 @@
             "state": {
               "type": "outline",
               "state": {
+                "file": "CYBER/13 CTFS & LABS/THM/OVERPASS.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline"
+              "title": "Outline of OVERPASS"
             }
           },
           {
@@ -506,7 +495,7 @@
       "iconic:Open rulebook": false
     }
   },
-  "active": "9061711065b37e56",
+  "active": "09bcb134bd9cf9e8",
   "lastOpenFiles": [
     "CYBER/08 TOOLS/SQLMAP/SQLMAP ESSENTIALS.md",
     "COURSES/MODULES.base",
