@@ -1584,7 +1584,7 @@ Hash cracking attacks are performed in a multi-processing manner, based on the n
 <br>
 </div>
 
-## DB Users Password Enumeration and Cracking
+#### DB Users Password Enumeration and Cracking
 
 Apart from user credentials found in DB tables, we can also attempt to dump the content of system tables containing database-specific credentials (e.g., connection credentials). To ease the whole process, SQLMap has a special switch `--passwords` designed especially for such a task:
 
