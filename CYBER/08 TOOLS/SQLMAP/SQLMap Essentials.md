@@ -31,15 +31,15 @@ In this module, we will cover:
 - Using SQLMap to read and write files to the remote server
 - Using SQLMap to execute commands on the remote server and taking complete control over it
 
-| SECTION/TASK                      | FLAG |
-| --------------------------------- | ---- |
-| SQLMap Overview                   |      |
-| Running SQLMap on an HTTP Request |      |
-|                                   |      |
-|                                   |      |
-|                                   |      |
-|                                   |      |
-|                                   |      |
+| SECTION/TASK                          | FLAG |
+| ------------------------------------- | ---- |
+| SQLMap Overview                       |      |
+| Running SQLMap on an HTTP Request     |      |
+| Attack Tuning                         |      |
+| Database Enumeration                  |      |
+| Advanced Database Enumeration         |      |
+| Bypassing Web Application Protections |      |
+|                                       |      |
 
 <div align="center">
 <br>
