@@ -469,7 +469,6 @@ back-end DBMS: MySQL >= 5.0
 At the end of the previous section, the sqlmap output showed us a lot of info during its scan. This data is usually crucial to understand, as it guides us through the automated SQL injection process. This shows us exactly what kind of vulnerabilities SQLMap is exploiting, which helps us report what type of injection the web application has. This can also become handy if we wanted to manually exploit the web application once SQLMap determines the type of injection and vulnerable parameter.
 <div align="center">
 <br>
-<br>
 </div>
 
 #### Log Messages Description
@@ -608,10 +607,9 @@ SQLMap has numerous options and switches that can be used to properly set up the
 In many cases, simple mistakes such as forgetting to provide proper cookie values, over-complicating setup with a lengthy command line, or improper declaration of formatted POST data, will prevent the correct detection and exploitation of the potential SQLi vulnerability.
 <div align="center">
 <br>
-<br>
 </div>
 
-## Curl Commands
+#### Curl Commands
 
 One of the best and easiest ways to properly set up an SQLMap request against the specific target (i.e., web request with parameters inside) is by utilizing `Copy as cURL` feature from within the Network (Monitor) panel inside the Chrome, Edge, or Firefox Developer Tools:![Network panel showing a GET request to www.example.com with a 404 status, and a context menu with options like 'Copy as cURL'.](https://cdn.services-k8s.prod.aws.htb.systems/content/modules/58/M5UVR6n.png)
 
