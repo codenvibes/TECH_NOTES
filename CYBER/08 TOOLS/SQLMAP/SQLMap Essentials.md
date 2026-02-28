@@ -1383,10 +1383,12 @@ In such cases, a user is also advised to include the switch `--exclude-sysdbs`�
 ### Advanced Database Enumeration
 
 Now that we have covered the basics of database enumeration with SQLMap, we will cover more advanced techniques to enumerate data of interest further in this section.
+<div align="center">
+<br>
+<br>
+</div>
 
----
-
-## DB Schema Enumeration
+#### DB Schema Enumeration
 
 If we wanted to retrieve the structure of all of the tables so that we can have a complete overview of the database architecture, we could use the switch `--schema`:
 
