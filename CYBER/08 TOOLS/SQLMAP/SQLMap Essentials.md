@@ -2122,8 +2122,15 @@ As we can see, this time SQLMap successfully dropped us into an easy interactive
 > Note: SQLMap first asked us for the type of language used on this remote server, which we know is PHP. Then it asked us for the server web root directory, and we asked SQLMap to automatically find it using 'common location(s)'. Both of these options are the default options, and would have been automatically chosen if we added the '--batch' option to SQLMap.
 
 With this, we have covered all of the main functionality of SQLMap.
+<div>
+<br>
+<br>
+</div>
 
-## Connect to HTB
+#### Questions
+
+##### 
+==Answer==
 <div align="center">
 <br>
 <br>
