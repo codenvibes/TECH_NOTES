@@ -92,13 +92,13 @@
                     "state": {
                       "type": "webviewer",
                       "state": {
-                        "url": "https://academy.hackthebox.com/app/module/58/section/526",
-                        "title": "Attack Tuning | Hack The Box Academy",
+                        "url": "https://academy.hackthebox.com/app/module/58/section/510",
+                        "title": "Database Enumeration | Hack The Box Academy",
                         "mode": "webview"
                       },
                       "pinned": true,
                       "icon": "globe-2",
-                      "title": "Attack Tuning | Hack The Box Academy"
+                      "title": "Database Enumeration | Hack The Box Academy"
                     }
                   },
                   {

@@ -1109,7 +1109,13 @@ Failing to use the proper `FROM` appendix automatically could be due to the in
 
 #### Questions
 
-##### 
+##### What's the contents of table flag5? (Case #5)
+==Answer==
+
+##### What's the contents of table flag6? (Case #6)
+==Answer==
+
+##### What's the contents of table flag7? (Case #7)
 ==Answer==
 <div align="center">
 <br>
