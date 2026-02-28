@@ -15,7 +15,7 @@
               {
                 "id": "5fba8451e3d9bb96",
                 "type": "tabs",
-                "dimension": 25.19480519480519,
+                "dimension": 41.2987012987013,
                 "children": [
                   {
                     "id": "d6e3d74256db3bbc",
@@ -85,9 +85,9 @@
                       "type": "bases",
                       "state": {
                         "file": "COURSES/MODULES.base",
-                        "viewName": "HTBA MODULES"
+                        "viewName": "View"
                       },
-                      "icon": "lucide-layout-grid",
+                      "icon": "lucide-table",
                       "title": "MODULES"
                     }
                   }
@@ -97,7 +97,7 @@
               {
                 "id": "eb7c5c7906b2a9d3",
                 "type": "tabs",
-                "dimension": 74.8051948051948,
+                "dimension": 58.7012987012987,
                 "children": [
                   {
                     "id": "1829a2d1d4c98997",
@@ -444,13 +444,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "CYBER/08 TOOLS/SQLMAP/SQLMAP ESSENTIALS.md",
+                "file": "COURSES/MODULES.base",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of SQLMAP ESSENTIALS"
+              "title": "Outline of MODULES"
             }
           },
           {
@@ -508,10 +508,10 @@
       "iconic:Open rulebook": false
     }
   },
-  "active": "180b670eb6aaa497",
+  "active": "3200f9cfc1d7c8f0",
   "lastOpenFiles": [
-    "TEMPLATES/GENERAL.md",
     "CYBER/08 TOOLS/SQLMAP/SQLMAP ESSENTIALS.md",
+    "TEMPLATES/GENERAL.md",
     "COURSES/MODULES.base",
     "QUICK NOTES/WHITE-BOARD.md",
     "CYBER/13 CTFS & LABS/THM/OVERPASS.md",
