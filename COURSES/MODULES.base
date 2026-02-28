@@ -13,3 +13,10 @@ views:
         - file.tags.contains("THM")
         - file.tags.contains("MODULE")
     image: note.image
+  - type: cards
+    name: THM ROOMS
+    filters:
+      and:
+        - file.tags.contains("THM")
+        - file.tags.contains("ROOM")
+    image: note.image
