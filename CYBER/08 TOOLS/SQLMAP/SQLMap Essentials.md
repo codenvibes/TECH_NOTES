@@ -1285,13 +1285,15 @@ Table: users
 
 The console output shows that the table is dumped in formatted CSV format to a local file, `users.csv`.
 
-Tip: Apart from default CSV, we can specify the output format with the option `--dump-format` to HTML or SQLite, so that we can later further investigate the DB in an SQLite environment.
+> Tip: Apart from default CSV, we can specify the output format with the option `--dump-format` to HTML or SQLite, so that we can later further investigate the DB in an SQLite environment.
 
-![Database table showing columns for data type, table name, column name, and privileges with sample entries.](https://cdn.services-k8s.prod.aws.htb.systems/content/modules/58/pVBXxRz.png)
+![Database table showing columns for data type, table name, column name, and privileges with sample entries.|1078](https://cdn.services-k8s.prod.aws.htb.systems/content/modules/58/pVBXxRz.png)
+<div align="center">
+<br>
+<br>
+</div>
 
----
-
-## Table/Row Enumeration
+#### Table/Row Enumeration
 
 When dealing with large tables with many columns and/or rows, we can specify the columns (e.g., only `name` and `surname` columns) with the `-C` option, as follows:
 
