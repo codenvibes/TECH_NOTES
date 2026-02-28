@@ -39,7 +39,8 @@ In this module, we will cover:
 | Database Enumeration                  |      |
 | Advanced Database Enumeration         |      |
 | Bypassing Web Application Protections |      |
-|                                       |      |
+| OS Exploitation                       |      |
+| Skills Assessment                     |      |
 
 <div align="center">
 <br>
