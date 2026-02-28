@@ -1525,10 +1525,12 @@ Table: servers
 | Password | char(64) |
 +----------+----------+
 ```
+<div align="center">
+<br>
+<br>
+</div>
 
----
-
-## Password Enumeration and Cracking
+#### Password Enumeration and Cracking
 
 Once we identify a table containing passwords (e.g. `master.users`), we can retrieve that table with the `-T` option, as previously shown:
 
