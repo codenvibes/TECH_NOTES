@@ -950,10 +950,11 @@ In most cases, SQLMap should run out of the box with the provided target details
 
 - vector (e.g., `UNION ALL SELECT 1,2,VERSION()`): central part of the payload, carrying the useful SQL code to be executed at the target.
 - boundaries (e.g. `'<vector>-- -`): prefix and suffix formations, used for proper injection of the vector into the vulnerable SQL statement.
+<div align="center">
+<br>
+</div>
 
----
-
-## Prefix/Suffix
+#### Prefix/Suffix
 
 There is a requirement for special prefix and suffix values in rare cases, not covered by the regular SQLMap run.  
 For such runs, options `--prefix` and `--suffix` can be used as follows:
