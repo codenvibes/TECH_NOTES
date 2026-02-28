@@ -320,12 +320,49 @@ Options:
 
 - `Advanced Listing` shows all options and switches (switch `-hh`):
 
-        shellsession
-`adampueman@htb[/htb]$ sqlmap -hh         ___       __H__ ___ ___[)]_____ ___ ___  {1.4.9#stable} |_ -| . [.]     | .'| . | |___|_  [)]_|_|_|__,|  _|       |_|V...       |_|   http://sqlmap.org Usage: python3 sqlmap [options] Options:   -h, --help            Show basic help message and exit  -hh                   Show advanced help message and exit  --version             Show program's version number and exit  -v VERBOSE            Verbosity level: 0-6 (default 1)   Target:    At least one of these options has to be provided to define the    target(s)     -u URL, --url=URL   Target URL (e.g. "http://www.site.com/vuln.php?id=1")    -d DIRECT           Connection string for direct database connection    -l LOGFILE          Parse target(s) from Burp or WebScarab proxy log file    -m BULKFILE         Scan multiple targets given in a textual file    -r REQUESTFILE      Load HTTP request from a file    -g GOOGLEDORK       Process Google dork results as target URLs    -c CONFIGFILE       Load options from a configuration INI file   Request:    These options can be used to specify how to connect to the target URL     -A AGENT, --user..  HTTP User-Agent header value    -H HEADER, --hea..  Extra header (e.g. "X-Forwarded-For: 127.0.0.1")    --method=METHOD     Force usage of given HTTP method (e.g. PUT)    --data=DATA         Data string to be sent through POST (e.g. "id=1")    --param-del=PARA..  Character used for splitting parameter values (e.g. &)    --cookie=COOKIE     HTTP Cookie header value (e.g. "PHPSESSID=a8d127e..")    --cookie-del=COO..  Character used for splitting cookie values (e.g. ;) ...SNIP...`
+```shell
+adampueman@htb[/htb]$ sqlmap -hh
+        ___
+       __H__
+ ___ ___[)]_____ ___ ___  {1.4.9#stable}
+|_ -| . [.]     | .'| . |
+|___|_  [)]_|_|_|__,|  _|
+      |_|V...       |_|   http://sqlmap.org
+
+Usage: python3 sqlmap [options]
+
+Options:
+  -h, --help            Show basic help message and exit
+  -hh                   Show advanced help message and exit
+  --version             Show program's version number and exit
+  -v VERBOSE            Verbosity level: 0-6 (default 1)
+
+  Target:
+    At least one of these options has to be provided to define the
+    target(s)
+
+    -u URL, --url=URL   Target URL (e.g. "http://www.site.com/vuln.php?id=1")
+    -d DIRECT           Connection string for direct database connection
+    -l LOGFILE          Parse target(s) from Burp or WebScarab proxy log file
+    -m BULKFILE         Scan multiple targets given in a textual file
+    -r REQUESTFILE      Load HTTP request from a file
+    -g GOOGLEDORK       Process Google dork results as target URLs
+    -c CONFIGFILE       Load options from a configuration INI file
+
+  Request:
+    These options can be used to specify how to connect to the target URL
+
+    -A AGENT, --user..  HTTP User-Agent header value
+    -H HEADER, --hea..  Extra header (e.g. "X-Forwarded-For: 127.0.0.1")
+    --method=METHOD     Force usage of given HTTP method (e.g. PUT)
+    --data=DATA         Data string to be sent through POST (e.g. "id=1")
+    --param-del=PARA..  Character used for splitting parameter values (e.g. &)
+    --cookie=COOKIE     HTTP Cookie header value (e.g. "PHPSESSID=a8d127e..")
+    --cookie-del=COO..  Character used for splitting cookie values (e.g. ;)
+...SNIP...
+```
 
 For more details, users are advised to consult the project's [wiki](https://github.com/sqlmapproject/sqlmap/wiki/Usage), as it represents the official manual for SQLMap's usage.
-
----
 
 ## Basic Scenario
 
