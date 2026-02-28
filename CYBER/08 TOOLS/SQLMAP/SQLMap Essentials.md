@@ -457,7 +457,8 @@ back-end DBMS: MySQL >= 5.0
 [*] ending @ 22:26:57 /2020-09-09/
 ```
 
-Note: in this case, option '-u' is used to provide the target URL, while the switch '--batch' is used for skipping any required user-input, by automatically choosing using the default option.
+> Note: in this case, option '-u' is used to provide the target URL, while the switch '--batch' is used for skipping any required user-input, by automatically choosing using the default option.
+
 <div align="center">
 <br>
 <br>
