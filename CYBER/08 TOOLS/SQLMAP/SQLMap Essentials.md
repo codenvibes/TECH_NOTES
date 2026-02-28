@@ -1671,7 +1671,7 @@ Nevertheless, SQLMap has options that can help in bypassing anti-CSRF protection
 
 Additionally, even in a case where the user does not explicitly specify the token's name via `--csrf-token`, if one of the provided parameters contains any of the common infixes (i.e. `csrf`, `xsrf`, `token`), the user will be prompted whether to update it in further requests:
 
-        shellsession
+shell
 `adampueman@htb[/htb]$ sqlmap -u "http://www.example.com/" --data="id=1&csrf-token=WfF1szMUHhiokx9AHFply5L2xAOfjRkE" --csrf-token="csrf-token"         ___       __H__ ___ ___[,]_____ ___ ___  {1.4.9} |_ -| . [']     | .'| . | |___|_  [)]_|_|_|__,|  _|       |_|V...       |_|   http://sqlmap.org [*] starting @ 22:18:01 /2020-09-18/ POST parameter 'csrf-token' appears to hold anti-CSRF token. Do you want sqlmap to automatically update it in further requests? [y/N] y`
 
 ---
