@@ -1656,8 +1656,12 @@ This basically means that everything accessible will be retrieved, potentially r
 ### Bypassing Web Application Protections
 
 There won't be any protection(s) deployed on the target side in an ideal scenario, thus not preventing automatic exploitation. Otherwise, we can expect problems when running an automated tool of any kind against such a target. Nevertheless, many mechanisms are incorporated into SQLMap, which can help us successfully bypass such protections.
+<div align="center">
+<br>
+<br>
+</div>
 
-## Anti-CSRF Token Bypass
+#### Anti-CSRF Token Bypass
 
 One of the first lines of defense against the usage of automation tools is the incorporation of anti-CSRF (i.e., Cross-Site Request Forgery) tokens into all HTTP requests, especially those generated as a result of web-form filling.
 
