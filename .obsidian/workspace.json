@@ -15,7 +15,7 @@
               {
                 "id": "5fba8451e3d9bb96",
                 "type": "tabs",
-                "dimension": 30.844155844155843,
+                "dimension": 66.23376623376623,
                 "children": [
                   {
                     "id": "d6e3d74256db3bbc",
@@ -79,16 +79,16 @@
                     }
                   },
                   {
-                    "id": "130475ac64312dfb",
+                    "id": "3200f9cfc1d7c8f0",
                     "type": "leaf",
                     "state": {
-                      "type": "webviewer",
+                      "type": "bases",
                       "state": {
-                        "url": "about:blank",
-                        "mode": "blank"
+                        "file": "COURSES/MODULES.base",
+                        "viewName": "Table"
                       },
-                      "icon": "globe-2",
-                      "title": "New web viewer"
+                      "icon": "lucide-layout-grid",
+                      "title": "MODULES"
                     }
                   }
                 ],
@@ -97,7 +97,7 @@
               {
                 "id": "eb7c5c7906b2a9d3",
                 "type": "tabs",
-                "dimension": 69.15584415584415,
+                "dimension": 33.76623376623377,
                 "children": [
                   {
                     "id": "1829a2d1d4c98997",
@@ -444,12 +444,13 @@
             "state": {
               "type": "outline",
               "state": {
+                "file": "COURSES/MODULES.base",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline"
+              "title": "Outline of MODULES"
             }
           },
           {
@@ -507,8 +508,9 @@
       "iconic:Open rulebook": false
     }
   },
-  "active": "130475ac64312dfb",
+  "active": "3200f9cfc1d7c8f0",
   "lastOpenFiles": [
+    "QUICK NOTES/WHITE-BOARD.md",
     "CYBER/08 TOOLS/SQLMAP/SQLMAP ESSENTIALS.md",
     "CYBER/13 CTFS & LABS/THM/OVERPASS.md",
     "COURSES/MODULES.base",
@@ -539,7 +541,6 @@
     "CYBER/01 CORE CONCEPTS/WEB BASICS/WEB REQUESTS.md",
     "SOFT SKILLS & CAREER/PRESENTATIONS/CYBER SHUJAA TRAINER PRESENTATION.pdf",
     "SOFT SKILLS & CAREER/INTERVIEWS/CYBERSHUJAA TRAINER.md",
-    "QUICK NOTES/WHITE-BOARD.md",
     "ASSETS/horizon3-ai-attack-research-disclosures-nextgen-mirth-connect-remote-code-execution-2026-02-22-13_33_19.png",
     "ASSETS/Unconfirmed 469548.crdownload",
     "ASSETS/NextGen Mirth Connect Remote Code Execution Vulnerability (CVE-2023-43208) _ Horizon3.ai_files/Screenshot-2023-10-18-at-1.48.00-AM.png",
