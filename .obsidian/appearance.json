@@ -2,7 +2,8 @@
   "enabledCssSnippets": [
     "zoom",
     "font",
-    "no-checkbox-strikethrough"
+    "no-checkbox-strikethrough",
+    "collapsed-headings"
   ],
   "cssTheme": "GitHub Theme",
   "showRibbon": false
