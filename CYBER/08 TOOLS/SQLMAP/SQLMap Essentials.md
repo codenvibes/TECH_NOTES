@@ -476,7 +476,7 @@ At the end of the previous section, the sqlmap output showed us a lot of info du
 
 The following are some of the most common messages usually found during a scan of SQLMap, along with an example of each from the previous exercise and its description.
 
-#### URL content is stable
+##### URL content is stable
 
 `Log Message:`
 
@@ -484,7 +484,7 @@ The following are some of the most common messages usually found during a scan o
 
 This means that there are no major changes between responses in case of continuous identical requests. This is important from the automation point of view since, in the event of stable responses, it is easier to spot differences caused by the potential SQLi attempts. While stability is important, SQLMap has advanced mechanisms to automatically remove the potential "noise" that could come from potentially unstable targets.
 
-#### Parameter appears to be dynamic
+##### Parameter appears to be dynamic
 
 `Log Message:`
 
