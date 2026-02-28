@@ -85,9 +85,9 @@
                       "type": "bases",
                       "state": {
                         "file": "COURSES/MODULES.base",
-                        "viewName": "View"
+                        "viewName": "HTBA MODULES"
                       },
-                      "icon": "lucide-table",
+                      "icon": "lucide-layout-grid",
                       "title": "MODULES"
                     }
                   }
