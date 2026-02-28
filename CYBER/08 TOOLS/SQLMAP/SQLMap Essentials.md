@@ -705,13 +705,13 @@ If we wanted to craft complicated requests manually, there are numerous switches
 For example, if there is a requirement to specify the (session) cookie value to `PHPSESSID=ab4530f4a7d10448457fa8b0eadac29c` option `--cookie` would be used as follows:
 
 ```shell
-`adampueman@htb[/htb]$ sqlmap ... --cookie='PHPSESSID=ab4530f4a7d10448457fa8b0eadac29c'`
+adampueman@htb[/htb]$ sqlmap ... --cookie='PHPSESSID=ab4530f4a7d10448457fa8b0eadac29c'
 ```
 
 The same effect can be done with the usage of option `-H/--header`:
 
 ```shell
-`adampueman@htb[/htb]$ sqlmap ... -H='Cookie:PHPSESSID=ab4530f4a7d10448457fa8b0eadac29c'`
+adampueman@htb[/htb]$ sqlmap ... -H='Cookie:PHPSESSID=ab4530f4a7d10448457fa8b0eadac29c'
 ```
 
 We can apply the same to options like `--host`, `--referer`, and `-A/--user-agent`, which are used to specify the same HTTP headers' values.
@@ -722,7 +722,7 @@ While SQLMap, by default, targets only the HTTP parameters, it is possible to te
 
 Also, if we wanted to specify an alternative HTTP method, other than `GET` and `POST` (e.g., `PUT`), we can utilize the option `--method`, as follows:
 
-        shellsession
+shell
 `adampueman@htb[/htb]$ sqlmap -u www.target.com --data='id=1' --method PUT`
 
 ---
