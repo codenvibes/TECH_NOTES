@@ -15,7 +15,7 @@
               {
                 "id": "5fba8451e3d9bb96",
                 "type": "tabs",
-                "dimension": 66.23376623376623,
+                "dimension": 25.19480519480519,
                 "children": [
                   {
                     "id": "d6e3d74256db3bbc",
@@ -97,7 +97,7 @@
               {
                 "id": "eb7c5c7906b2a9d3",
                 "type": "tabs",
-                "dimension": 33.76623376623377,
+                "dimension": 74.8051948051948,
                 "children": [
                   {
                     "id": "1829a2d1d4c98997",
@@ -444,13 +444,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "COURSES/MODULES.base",
+                "file": "CYBER/08 TOOLS/SQLMAP/SQLMAP ESSENTIALS.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of MODULES"
+              "title": "Outline of SQLMAP ESSENTIALS"
             }
           },
           {
@@ -508,12 +508,13 @@
       "iconic:Open rulebook": false
     }
   },
-  "active": "3200f9cfc1d7c8f0",
+  "active": "180b670eb6aaa497",
   "lastOpenFiles": [
-    "QUICK NOTES/WHITE-BOARD.md",
+    "TEMPLATES/GENERAL.md",
     "CYBER/08 TOOLS/SQLMAP/SQLMAP ESSENTIALS.md",
-    "CYBER/13 CTFS & LABS/THM/OVERPASS.md",
     "COURSES/MODULES.base",
+    "QUICK NOTES/WHITE-BOARD.md",
+    "CYBER/13 CTFS & LABS/THM/OVERPASS.md",
     "COURSES/COURSES.base",
     "COURSES/HTB/JUNIOR CYBERSECURITY ANALYST.md",
     "CYBER/13 CTFS & LABS/HTB/FACTS.md",
