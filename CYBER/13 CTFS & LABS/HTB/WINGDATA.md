@@ -927,8 +927,18 @@ Started: Sun Mar  1 10:32:12 2026
 Stopped: Sun Mar  1 10:32:30 2026
 ```
 
-**Cracked Password:** `!#7Blushing^*Bride5`
+**Cracked Password:** `!#7Blushing^*Bride5`<div align="center">
+<br>
+<br>
+※※※※※※※※※※※※※※※※※※※※※※※※
+<br>
+<br>
+<br>
+</div>
 
+### 4.3 Gaining a User Shell
+
+With these credentials, you can now elevate your access. The most stable method is to log in via SSH, which provides a full TTY and avoids the limitations of your current reverse shell.
 <div align="center">
 <br>
 <br>
