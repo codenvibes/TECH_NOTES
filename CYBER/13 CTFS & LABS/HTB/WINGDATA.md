@@ -244,6 +244,8 @@ Browse to `http://wingdata.htb/`.
 Upon clicking the **Client Portal** button located in the page header, the application attempts to redirect to `http://ftp.wingdata.htb`.
 
 ![[Pasted image 20260301123826.png|1093]]
+
+Since the initial `/etc/hosts` update only accounted for the apex domain, this new subdomain must be manually added to the local resolution table to continue the enumeration of the FTP-related web services.
 <div align="center">
 <br>
 <br>
