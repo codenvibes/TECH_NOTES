@@ -199,7 +199,7 @@ This is a **301 (Permanent)** or **302 (Found)** redirect. Browsers follow this 
 
 #### 2.2.1. Update Hosts File
 
-Command: `vi etc/hosts`
+Command: `sudo vi etc/hosts`
 <div align="center">
 <br>
 <br>
