@@ -268,7 +268,7 @@ Inspection of the page footer shows "FTP server software powered by **[Wing FTP
 <br>
 </div>
 
-#### 2.2.3 Vulnerability Research & Exploit Identification
+#### 2.2.3 Vulnerability Research
 
 The `http://ftp.wingdata.htb` page identifies the site as running **Wing FTP Server v7.4.3**. With this information, we can search for known weaknesses that could lead to a compromise.
 
@@ -279,6 +279,12 @@ Search online for `Wing FTP Server v7.4.3 exploit`.
 The exploit is CVE-2025-47812. 
 
 **CVE-2025-47812** is a high-impact vulnerability because it allows for **Unauthenticated Remote Code Execution (RCE)** by exploiting a logic flaw in how the server handles memory and session files.
+<div align="center">
+<br>
+<br>
+</div>
+
+ & Exploit Identification
 
 The next step is to find or develop a **Proof of Concept** to verify if `http://ftp.wingdata.htb` is susceptible.
 
