@@ -281,7 +281,6 @@ The exploit is CVE-2025-47812 and the next step is to find or develop a **Proof 
 Repository found: CVE-2025-47812-poc [^1]
 
 ![[Pasted image 20260301134121.png]]
-
 <div align="center">
 <br>
 <br>
@@ -292,6 +291,8 @@ Repository found: CVE-2025-47812-poc [^1]
 <div style="page-break-after: always;"></div>
 
 ## 3. Exploitation
+
+### 3.1. Exploit Acquisition and Preparation
 <div align="center">
 <br>
 <br>
