@@ -1017,6 +1017,14 @@ The `sudo -l` output reveals a powerful privilege escalation vector. You can exe
 <div align="center">
 <br>
 <br>
+</div>
+
+#### 5.1.2 Discovery and Vulnerability Research
+
+
+<div align="center">
+<br>
+<br>
 ※※※※※※※※※※※※※※※※※※※※※※※※※※※※※※※※※※※※※※※※※※※※※※※※
 <br>
 </div>
