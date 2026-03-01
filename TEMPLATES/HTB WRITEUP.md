@@ -15,7 +15,7 @@ date:
 <div align="center">
 <br>
 <br>
-※※※※※※※※※※※※※※※※※※※※※※※※
+※※※※※※※※※※※※※※※※※※※※※※※※※※※※※※※※※※※※※※※※※※※※※※※※
 <br>
 </div>
 <!-- PAGE BREAK -->
@@ -56,7 +56,7 @@ A successful response confirms that the machine is active and accessible on the 
 <div align="center">
 <br>
 <br>
-※※※※※※※※※※※※※※※※※※※※※※※※
+※※※※※※※※※※※※※※※※※※※※※※※※※※※※※※※※※※※※※※※※※※※※※※※※
 <br>
 </div>
 <!-- PAGE BREAK -->
@@ -142,7 +142,7 @@ Output:
 <div align="center">
 <br>
 <br>
-※※※※※※※※※※※※※※※※※※※※※※※※
+※※※※※※※※※※※※※※※※※※※※※※※※※※※※※※※※※※※※※※※※※※※※※※※※
 <br>
 </div>
 <!-- PAGE BREAK -->

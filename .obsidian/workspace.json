@@ -341,12 +341,12 @@
                     "state": {
                       "type": "markdown",
                       "state": {
-                        "file": "CYBER/13 CTFS & LABS/HTB/WINGDATA.md",
+                        "file": "TEMPLATES/HTB WRITEUP.md",
                         "mode": "source",
                         "source": false
                       },
                       "icon": "lucide-file",
-                      "title": "WINGDATA"
+                      "title": "HTB WRITEUP"
                     }
                   },
                   {
@@ -490,13 +490,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "CYBER/13 CTFS & LABS/HTB/WINGDATA.md",
+                "file": "TEMPLATES/HTB WRITEUP.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of WINGDATA"
+              "title": "Outline of HTB WRITEUP"
             }
           },
           {
@@ -556,8 +556,9 @@
   },
   "active": "3dbdf2692670b270",
   "lastOpenFiles": [
-    "CYBER/13 CTFS & LABS/HTB/FACTS.md",
+    "TEMPLATES/PAGE BREAK.md",
     "CYBER/13 CTFS & LABS/HTB/WINGDATA.md",
+    "CYBER/13 CTFS & LABS/HTB/FACTS.md",
     "ASSETS/Pasted image 20260301185221.png",
     "ASSETS/1uCxxdutWy_RMPSnSMGxKig.webp",
     "CYBER/03 RECONNAISSANCE & ENUMERATION/00 ENUMERATION.md",
@@ -569,7 +570,7 @@
     "ASSETS/Pasted image 20260301121847.png",
     "CYBER/08 TOOLS/SQLMAP/SQLMAP ESSENTIALS.md",
     "QUICK NOTES/WHITE-BOARD.md",
-    "TEMPLATES/HTB BOX WRITEUP.md",
+    "TEMPLATES/HTB WRITEUP.md",
     "CYBER/13 CTFS & LABS/CTFS & LABS.base",
     "CYBER/13 CTFS & LABS/THM/OVERPASS.md",
     "COURSES/CYBER SHUJAA/CLOUD AND NETWORK SECURITY.md",
@@ -578,7 +579,6 @@
     "CYBER/13 CTFS & LABS/HTB/INTERPRETER.md",
     "COURSES/MODULES.base",
     "TEMPLATES/GENERAL.md",
-    "TEMPLATES/PAGE BREAK.md",
     "COURSES/COURSES.base",
     "ASSETS/{92782614-64A8-423C-A30E-6D82BEBE246A}.png",
     "ASSETS/Unconfirmed 337402.crdownload",
