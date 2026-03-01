@@ -103,38 +103,7 @@ Breakdown:
 Output:
 
 ```shell
-┌──(kali㉿kali)-[~]
-└─$ nmap -p- --min-rate 5000 -Pn TARGET_IP  
-Starting Nmap 7.98 ( https://nmap.org ) at 2026-02-23 08:46 -0500
-Warning: TARGET_IP giving up on port because retransmission cap hit (10).
-Nmap scan report for TARGET_IP
-Host is up (0.28s latency).
-Not shown: 65513 closed tcp ports (reset)
-PORT      STATE    SERVICE
-22/tcp    open     ssh
-80/tcp    open     http
-217/tcp   filtered dbase
-3615/tcp  filtered start-network
-7949/tcp  filtered unknown
-9950/tcp  filtered apc-9950
-12724/tcp filtered unknown
-13122/tcp filtered unknown
-17541/tcp filtered unknown
-18737/tcp filtered unknown
-18903/tcp filtered unknown
-34584/tcp filtered unknown
-34618/tcp filtered unknown
-36754/tcp filtered unknown
-38375/tcp filtered unknown
-42612/tcp filtered unknown
-42776/tcp filtered unknown
-43615/tcp filtered unknown
-54321/tcp open     unknown
-59307/tcp filtered unknown
-61782/tcp filtered unknown
-64434/tcp filtered unknown
 
-Nmap done: 1 IP address (1 host up) scanned in 34.82 seconds
 ```
 <div align="center">
 <br>
@@ -181,6 +150,7 @@ Output:
 <br>
 </div>
 
+### 2.2. 
 <div align="center">
 <br>
 <br>
