@@ -224,7 +224,9 @@ When you type a URL like `google.com` or `wingdata.htb` into your browser, your 
 
 #### 2.2.2. Web Enumeration
 
-Browse to `http://facts.htb`.
+Browse to `http://wingdata.htb/`.
+
+
 <div align="center">
 <br>
 <br>
