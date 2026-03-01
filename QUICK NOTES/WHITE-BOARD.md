@@ -1,5 +1,5 @@
 🛡️ DAY 48 of my #CYBERSECURITY Journey!
-Completed the WingData_ box on Hack The Box today.
+Completed the WingData box on Hack The Box today.
 
 
 
