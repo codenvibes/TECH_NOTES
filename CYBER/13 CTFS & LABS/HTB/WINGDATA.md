@@ -260,6 +260,10 @@ TARGET_IP     ftp.wingdata.htb
 Refresh `http://ftp.wingdata.htb`.
 
 ![[Pasted image 20260301125509.png]]
+
+And here, we can see at the bottom that it lists a specific version of FTP server.
+
+Press enter or click to view image in full size
 <div align="center">
 <br>
 <br>
