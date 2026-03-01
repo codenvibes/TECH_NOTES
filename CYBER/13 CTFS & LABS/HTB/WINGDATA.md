@@ -266,6 +266,12 @@ Inspection of the page footer shows "FTP server software powered by **[Wing FTP
 <div align="center">
 <br>
 <br>
+</div>
+
+#### 2.2.5 Vulnerability Research & Exploit Identification
+<div align="center">
+<br>
+<br>
 ※※※※※※※※※※※※※※※※※※※※※※※※
 <br>
 </div>
