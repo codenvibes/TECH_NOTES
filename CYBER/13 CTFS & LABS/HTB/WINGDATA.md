@@ -276,7 +276,11 @@ Search online for `Wing FTP Server v7.4.3 exploit`.
 
 ![[Pasted image 20260301132057.png]]
 
-The exploit is CVE-2025-47812 and the next step is to find or develop a **Proof of Concept** to verify if `http://ftp.wingdata.htb` is susceptible.
+The exploit is CVE-2025-47812. 
+
+**CVE-2025-47812** is a high-impact vulnerability because it allows for **Unauthenticated Remote Code Execution (RCE)** by exploiting a logic flaw in how the server handles memory and session files.
+
+The next step is to find or develop a **Proof of Concept** to verify if `http://ftp.wingdata.htb` is susceptible.
 
 Repository found: CVE-2025-47812-poc [^1]
 
