@@ -819,10 +819,10 @@ The 64-character length of the hash strongly suggests it is an **SHA-256** hash.
 - `hashcat`
 	- Description: Advanced Password Recovery Tool
 	- Purpose: Used to perform a high-speed dictionary attack against the hash.
-- `-m 1400`
-	- Description: Hash Type
+- `-m 1410`
+	- Description: Hash Type. SHA2-256 (Password + Salt)
 	- Purpose: Specifies the SHA-256 algorithm.
-- `hash`
+- `hash.txt`
 	- Description: Input File
 	- Purpose: Contains the 64-character string extracted from the XML.
 - `rockyou.txt`
