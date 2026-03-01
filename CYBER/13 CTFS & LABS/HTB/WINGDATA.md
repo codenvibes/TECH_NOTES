@@ -678,9 +678,6 @@ Data         pid-wftpserver.pid  version.txt  wftp_default_ssh.key
 License.txt  README              webadmin     wftp_default_ssl.crt
 Log          session             webclient    wftp_default_ssl.key
 lua          session_admin       wftpconsole  wftpserver
-wingftp@wingdata:/opt/wftpserver$ cd home
-cd home
-bash: cd: home: No such file or directory
 wingftp@wingdata:/opt/wftpserver$ cd /
 cd /
 wingftp@wingdata:/$ ls
@@ -690,12 +687,6 @@ boot  home        lib             media       proc  sbin  tmp  vmlinuz
 dev   initrd.img  lib64           mnt         root  srv   usr  vmlinuz.old
 wingftp@wingdata:/$ find / -name user.txt 2>/dev/null
 find / -name user.txt 2>/dev/null
-wingftp@wingdata:/$ cd -
-cd -
-/opt/wftpserver
-wingftp@wingdata:/opt/wftpserver$ cd -
-cd -
-/
 wingftp@wingdata:/$ cd home
 cd home
 wingftp@wingdata:/home$ ls
@@ -705,8 +696,6 @@ wingftp@wingdata:/home$ ls wacky
 ls wacky
 ls: cannot open directory 'wacky': Permission denied
 wingftp@wingdata:/home$ 
-
-
 ```
 <div align="center">
 <br>
