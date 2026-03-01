@@ -800,7 +800,10 @@ wingftp@wingdata:/opt/wftpserver/Data$
 
 The contents of `wacky.xml` reveal the security parameters for the account. Most importantly, it contains a hexadecimal string in the `<Password>` field.
 
-
+**Extracted Data:**
+- **Username:** `wacky`
+- **Account Enabled:** `1` (True)
+- **Password Hash:** `32940defd3c3ef70a2dd44a5301ff984c4742f0baae76ff5b8783994f8a503ca`
 <div align="center">
 <br>
 <br>
