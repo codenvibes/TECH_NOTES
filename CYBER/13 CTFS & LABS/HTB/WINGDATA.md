@@ -639,7 +639,16 @@ The terminal output confirms that you have achieved a **Reverse Shell** on the t
 
 ## 4. Post-Exploitation
 
-#### ### 4.1 Shell Stabilization
+### 4.1 Shell Stabilization
+
+The current shell is likely a "dumb" shell, meaning it lacks tab completion, job control, and the ability to use interactive commands like `top` or `nano`. Stabilizing this shell is the first priority to prevent accidental disconnection.
+
+**Command:** `python3 -c 'import pty; pty.spawn("/bin/bash")'` **Breakdown:**
+
+- `import pty` Description: Pseudo-Terminal Module | Purpose: Accesses Python's internal library for terminal control.
+    
+- `pty.spawn("/bin/bash")` Description: Terminal Spawning | Purpose: Upgrades the current raw `/bin/sh` to a more feature-rich `/bin/bash` instance.
+
 <div align="center">
 <br>
 <br>
