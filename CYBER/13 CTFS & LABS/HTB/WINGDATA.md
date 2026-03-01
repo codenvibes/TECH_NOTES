@@ -178,10 +178,10 @@ Nmap done: 1 IP address (1 host up) scanned in 33.19 seconds
 
 #### 2.1.3. Scan Results Analysis
 
-| **Service** | **Version** | **Analysis** |
-| ----------- | ----------- | ------------ |
-|             |             |              |
-|             |             |              |
+| Port | **Service** | **Version** | **Analysis** |
+| ---- | ----------- | ----------- | ------------ |
+|      |             |             |              |
+|      |             |             |              |
 
 <div align="center">
 <br>
