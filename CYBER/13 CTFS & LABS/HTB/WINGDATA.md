@@ -576,14 +576,18 @@ Once RCE is confirmed, the logical next step is to move from single command exec
 
 **Breakdown:**
 
-- `-l` Description: Listen Mode | Purpose: Sets netcat to wait for an incoming connection.
-    
-- `-v` Description: Verbose | Purpose: Displays information about the connection source.
-    
-- `-n` Description: No DNS | Purpose: Prevents delays by not resolving hostnames.
-    
-- `-p 4444` Description: Port Number | Purpose: Matches the port used in the exploit payload.
-
+- `-l`
+	- Description: Listen Mode
+	- Purpose: Sets netcat to wait for an incoming connection.
+- `-v`
+	- Description: Verbose
+	- Purpose: Displays information about the connection source.
+- `-n`
+	- Description: No DNS
+	- Purpose: Prevents delays by not resolving hostnames.
+- `-p 4444`
+	- Description: Port Number
+	- Purpose: Matches the port used in the exploit payload.
 
 **Exploit:** Run the script with a bash reverse shell payload:
 
