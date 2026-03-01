@@ -99,7 +99,7 @@
               {
                 "id": "eb7c5c7906b2a9d3",
                 "type": "tabs",
-                "dimension": 72.72727272727273,
+                "dimension": 36.36363636363637,
                 "children": [
                   {
                     "id": "1829a2d1d4c98997",
@@ -192,7 +192,43 @@
                     }
                   }
                 ],
-                "currentTab": 2
+                "currentTab": 5
+              },
+              {
+                "id": "0d9688c0329c8d14",
+                "type": "tabs",
+                "dimension": 36.36363636363637,
+                "children": [
+                  {
+                    "id": "02489c6cac03ca31",
+                    "type": "leaf",
+                    "state": {
+                      "type": "webviewer",
+                      "state": {
+                        "url": "https://medium.com/@azab3962/wingdata-htb-season10-12c3c0ce8dbf",
+                        "title": "Wingdata writeup | HTB | Season10 | by Azab | Feb, 2026 | Medium",
+                        "mode": "webview"
+                      },
+                      "icon": "globe-2",
+                      "title": "Wingdata writeup | HTB | Season10 | by Azab | Feb, 2026 | Medium"
+                    }
+                  },
+                  {
+                    "id": "24dcbd31cd51ed03",
+                    "type": "leaf",
+                    "state": {
+                      "type": "webviewer",
+                      "state": {
+                        "url": "https://medium.com/@0x5t3v3n_55139/week-3-season-10-hackthebox-wingdata-99f76d60fc5a",
+                        "title": "Week 3, Season 10 HackTheBox — WingData | by Steven Estill Jr | Feb, 2026 | Medium",
+                        "mode": "webview"
+                      },
+                      "icon": "globe-2",
+                      "title": "Week 3, Season 10 HackTheBox — WingData | by Steven Estill Jr | Feb, 2026 | Medium"
+                    }
+                  }
+                ],
+                "currentTab": 1
               }
             ],
             "direction": "horizontal"
@@ -348,37 +384,9 @@
                       "icon": "lucide-file",
                       "title": "OVERPASS"
                     }
-                  },
-                  {
-                    "id": "24dcbd31cd51ed03",
-                    "type": "leaf",
-                    "state": {
-                      "type": "webviewer",
-                      "state": {
-                        "url": "https://medium.com/@0x5t3v3n_55139/week-3-season-10-hackthebox-wingdata-99f76d60fc5a",
-                        "title": "Week 3, Season 10 HackTheBox — WingData | by Steven Estill Jr | Feb, 2026 | Medium",
-                        "mode": "webview"
-                      },
-                      "icon": "globe-2",
-                      "title": "Week 3, Season 10 HackTheBox — WingData | by Steven Estill Jr | Feb, 2026 | Medium"
-                    }
-                  },
-                  {
-                    "id": "02489c6cac03ca31",
-                    "type": "leaf",
-                    "state": {
-                      "type": "webviewer",
-                      "state": {
-                        "url": "https://medium.com/@azab3962/wingdata-htb-season10-12c3c0ce8dbf",
-                        "title": "Wingdata writeup | HTB | Season10 | by Azab | Feb, 2026 | Medium",
-                        "mode": "webview"
-                      },
-                      "icon": "globe-2",
-                      "title": "Wingdata writeup | HTB | Season10 | by Azab | Feb, 2026 | Medium"
-                    }
                   }
                 ],
-                "currentTab": 5
+                "currentTab": 3
               }
             ],
             "direction": "horizontal"
@@ -567,7 +575,7 @@
       "iconic:Open rulebook": false
     }
   },
-  "active": "02489c6cac03ca31",
+  "active": "0ec46368e5862529",
   "lastOpenFiles": [
     "CYBER/13 CTFS & LABS/THM/OVERPASS.md",
     "COURSES/CYBER SHUJAA/CLOUD AND NETWORK SECURITY.md",
