@@ -293,6 +293,38 @@ Repository found: CVE-2025-47812-poc [^1]
 ## 3. Exploitation
 
 ### 3.1. Exploit Acquisition and Preparation
+
+
+Clone the repository from GitHub to your local attack machine.
+
+Command: `git clone https://github.com/Alien0ne/CVE-2025-2304`
+
+Breakdown:
+
+- **`git clone`**
+    - **Description:** Repository Cloning Tool.
+    - **Purpose:** Copies the entire remote project, including scripts and documentation, from GitHub to a local directory on your machine.
+- **`https://github.com/Alien0ne/CVE-2025-2304`**
+    - **Description:** Remote Source URL.
+    - **Purpose:** Points to the specific repository containing the exploit code for the Camaleon CMS vulnerability.
+
+Output:
+
+```shell
+┌──(kali㉿kali)-[~/CS/HTB/Facts]
+└─$ git clone https://github.com/Alien0ne/CVE-2025-2304.git
+Cloning into 'CVE-2025-2304'...
+remote: Enumerating objects: 18, done.
+remote: Counting objects: 100% (18/18), done.
+remote: Compressing objects: 100% (16/16), done.
+remote: Total 18 (delta 3), reused 0 (delta 0), pack-reused 0 (from 0)
+Receiving objects: 100% (18/18), 8.83 KiB | 1.10 MiB/s, done.
+Resolving deltas: 100% (3/3), done.
+
+┌──(kali㉿kali)-[~/CS/HTB/Facts]
+└─$ cd CVE-2025-2304 ; ls              
+exploit.py  README.md
+```
 <div align="center">
 <br>
 <br>
