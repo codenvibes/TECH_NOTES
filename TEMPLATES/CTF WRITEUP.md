@@ -21,7 +21,47 @@ date:
 <!-- PAGE BREAK -->
 <div style="page-break-after: always;"></div>
 
-## 1. Reconnaissance & Discovery
+### 1.1 Connecting to the HTB VPN
+
+First, download your personalized `.ovpn` file from Hack The Box.
+
+Connect to the HTB VPN using the `.ovpn` configuration file. This establishes a secure tunnel that allows access to the target machine’s internal network.
+
+Command: `sudo openvpn your_file.ovpn`
+
+Start the Machine.
+<div align="center">
+<br>
+※※※※※※※※※※※※※※※※※※※※※※※※
+<br>
+<br>
+</div>
+### 1.2. Verifying the Target is Reachable
+
+Verify that the target machine is up and reachable by performing an ICMP ping test.
+
+Command: `ping -c 4 TARGET_IP`
+
+Breakdown:
+- `-c 4` → sends 4 packets only (clean output, fast)
+
+Output:
+
+```shell
+┌──(kali㉿kali)-[~/CS/HTB]
+└─$ ping -c 4 TARGET_IP                                                                   
+PING TARGET_IP (TARGET_IP) 56(84) bytes of data.
+64 bytes from TARGET_IP: icmp_seq=1 ttl=63 time=283 ms
+64 bytes from TARGET_IP: icmp_seq=2 ttl=63 time=289 ms
+64 bytes from TARGET_IP: icmp_seq=3 ttl=63 time=280 ms
+64 bytes from TARGET_IP: icmp_seq=4 ttl=63 time=286 ms
+
+--- TARGET_IP ping statistics ---
+4 packets transmitted, 4 received, 0% packet loss, time 3009ms
+rtt min/avg/max/mdev = 280.134/284.700/288.984/3.296 ms
+```
+
+A successful response confirms that the machine is active and accessible on the HTB network, allowing us to proceed with the enumeration phase.
 <div align="center">
 <br>
 <br>
@@ -32,6 +72,82 @@ date:
 <div style="page-break-after: always;"></div>
 
 ## 2. Enumeration
+
+### 2.1. Port Scan with Nmap
+
+Before we can attack a system, we need to find out what "doors" are open. Doors in this context are ports. We use a tool called **Nmap** (Network Mapper) to scan the target's IP address and see what services are running.
+
+#### 2.1.1. The "Spearfishing" Scan (All Ports, High Speed)
+
+Command: `nmap -p- --min-rate 5000 -Pn TARGET_IP`
+
+Breakdown:
+- **`nmap`**
+    - **Description:** The utility itself.
+- **`-p-`**
+    - **Description:** All Ports Scan. 
+    - **Purpose:** Scans all 65,535 ports. Slower but thorough.
+- `--min-rate 5000`
+	- **Description:** Minimum Packet Rate.
+	- **Purpose:** Forces Nmap to send at least 5,000 packets per second. This drastically reduces scan time on stable networks like the HTB VPN.
+- `-Pn`
+    - **Description:** Skip Host Discovery.
+    - **Purpose:** Treats the host as "online" even if it doesn't respond to pings (ICMP). Many HTB boxes have firewalls that block pings.
+- **`TARGET_IP`**
+    - **Description:** Target Specification.
+    - **Purpose:** The IP address of the host being scanned.
+
+Output:
+
+```shell
+
+```
+<div align="center">
+<br>
+<br>
+</div>
+
+#### 2.1.2. The "Deep Dive" Scan (Targeted Aggression)
+
+Command: `nmap -A -p p1,p2,p3,p4 TARGET_IP`
+
+Breakdown:
+- `-sC`
+    - **Description:** Default Script Scan.
+    - **Purpose:** Runs a collection built-in Nmap Scripting Engine (NSE) scripts to find common vulnerabilities, metadata, or hidden info.
+- `-sV`
+    - **Description:** Version Detection.
+    - **Purpose:** Probes open ports to determine what software and version are actually running (e.g., identifying "Jetty" or "OpenSSH 9.2").
+- `-p`
+    - **Description:** Targeted Port List.
+    - **Purpose:** Restricts the heavy scanning to only the ports you confirmed are open, saving significant time and processing power.
+
+
+Output:
+
+```shell
+
+```
+<div align="center">
+<br>
+<br>
+</div>
+
+#### 2.1.3. Scan Results Analysis
+
+| **Service** | **Version** | **Analysis** |
+| ----------- | ----------- | ------------ |
+|             |             |              |
+|             |             |              |
+
+<div align="center">
+<br>
+※※※※※※※※※※※※※※※※※※※※※※※※
+<br>
+<br>
+</div>
+
+### 2.2. 
 <div align="center">
 <br>
 <br>

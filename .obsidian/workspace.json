@@ -257,12 +257,12 @@
                     "state": {
                       "type": "markdown",
                       "state": {
-                        "file": "CYBER/13 CTFS & LABS/HTB/WINGDATA.md",
+                        "file": "TEMPLATES/CTF WRITEUP.md",
                         "mode": "source",
                         "source": false
                       },
                       "icon": "lucide-file",
-                      "title": "WINGDATA"
+                      "title": "CTF WRITEUP"
                     }
                   },
                   {
@@ -280,7 +280,7 @@
                     }
                   }
                 ],
-                "currentTab": 3
+                "currentTab": 2
               },
               {
                 "id": "ebc3d89584b2ffd8",
@@ -476,13 +476,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "CYBER/13 CTFS & LABS/HTB/WINGDATA.md",
+                "file": "CYBER/13 CTFS & LABS/HTB/FACTS.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of WINGDATA"
+              "title": "Outline of FACTS"
             }
           },
           {
@@ -540,8 +540,9 @@
       "iconic:Open rulebook": false
     }
   },
-  "active": "3dbdf2692670b270",
+  "active": "e4b465f8c5c0b958",
   "lastOpenFiles": [
+    "TEMPLATES/CTF WRITEUP.md",
     "CYBER/13 CTFS & LABS/HTB/FACTS.md",
     "CYBER/13 CTFS & LABS/HTB/WINGDATA.md",
     "QUICK NOTES/WHITE-BOARD.md",
@@ -585,7 +586,6 @@
     "ASSETS/NextGen Mirth Connect Remote Code Execution Vulnerability (CVE-2023-43208) _ Horizon3.ai_files/zi-tag.js.download",
     "ASSETS/NextGen Mirth Connect Remote Code Execution Vulnerability (CVE-2023-43208) _ Horizon3.ai_files/new-tab.js.download",
     "COURSES/CYBER SHUJAA/CLOUD AND NETWORK SECURITY.md",
-    "TEMPLATES/CTF WRITEUP.md",
     "CYBER/04 EXPLOITATION/METASPLOIT FRAMEWORK/10 METERPRETER.md",
     "Untitled.canvas"
   ]
