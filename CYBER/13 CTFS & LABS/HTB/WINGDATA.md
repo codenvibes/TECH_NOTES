@@ -190,10 +190,13 @@ When you see `Did not follow redirect to http://facts.htb/` in Nmap, the server 
 This is a **301 (Permanent)** or **302 (Found)** redirect. Browsers follow this automatically, but Nmap just reports it. If the name isn't in your `/etc/hosts`, the browser follows the redirect into a "Dead End."
 <div align="center">
 <br>
+<br>
 ※※※※※※※※※※※※※※※※※※※※※※※※
 <br>
 <br>
+<br>
 </div>
+
 
 ### 2.2. Enumeration of Web Services
 
@@ -544,6 +547,10 @@ Logic Flow of the Script:
 
 3. **Stage 3 (Trigger):** It makes a `GET` request to `dir.html` using that **UID**. The server loads the "poisoned" session file, executes the Lua code, and the script prints the output of your command back to your terminal.
 <div align="center">
+<br>
+<br>
+※※※※※※※※※※※※※※※※※※※※※※※※
+<br>
 <br>
 <br>
 </div>
