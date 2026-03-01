@@ -697,6 +697,8 @@ ls wacky
 ls: cannot open directory 'wacky': Permission denied
 wingftp@wingdata:/home$ 
 ```
+
+Initial Reconnaissance 
 <div align="center">
 <br>
 <br>
