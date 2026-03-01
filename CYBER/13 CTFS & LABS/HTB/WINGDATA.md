@@ -810,7 +810,11 @@ The contents of `wacky.xml` reveal the security parameters for the account. Most
 
 #### 4.2.2 Hash Analysis and Cracking
 
-A bit of research reveals that 
+> Based on Wing FTP Server documentation, user and administrator passwords in version 7.x (including 7.4.3) are typically hashed using **SHA-256** (or MD5 as a fallback) with a specific salt. 
+> 
+> - **Default Salt:** The default salt used for administrator passwords is the string **`WingFTP`**.
+> - **Formula:** The password is often stored as **SHA256(Password+"WingFTP")**.
+> - **Dynamic Salt Option:** For user accounts, the system allows the use of the dynamic variable **`%Name`** as a salt, which is replaced by the actual username.
 
 The 64-character length of the hash strongly suggests it is an **SHA-256** hash. To proceed, we must attempt to crack this hash. 
 
