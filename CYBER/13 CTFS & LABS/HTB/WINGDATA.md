@@ -519,6 +519,12 @@ if __name__ == "__main__":
 <div align="center">
 <br>
 <br>
+</div>
+
+### 3.2 Executing `exploit.py`
+<div align="center">
+<br>
+<br>
 ※※※※※※※※※※※※※※※※※※※※※※※※
 <br>
 </div>
