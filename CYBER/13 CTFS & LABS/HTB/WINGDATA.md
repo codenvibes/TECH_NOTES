@@ -39,6 +39,7 @@ Start the Machine.
 <br>
 <br>
 </div>
+
 ### 1.2. Verifying the Target is Reachable
 
 Verify that the target machine is up and reachable by performing an ICMP ping test.
