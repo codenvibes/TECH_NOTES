@@ -299,7 +299,8 @@ The next step is to find or develop a **Proof of Concept** to verify if `http://
 Repository found: CVE-2025-47812-poc [^1]
 
 ![[Pasted image 20260301134121.png]]
-**Logic Flow of the Script:**
+
+Logic Flow of the Script:
 
 1. **Stage 1 (Injection):** It sends a `POST` request to `loginok.html`. The `username` parameter is crafted as: `username%00]] [Lua Code] --`. This bypasses the check but writes the code to the session.
 
