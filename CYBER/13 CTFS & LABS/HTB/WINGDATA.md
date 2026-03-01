@@ -35,7 +35,9 @@ Command: `sudo openvpn your_file.ovpn`
 Start the Machine.
 <div align="center">
 <br>
+<br>
 ※※※※※※※※※※※※※※※※※※※※※※※※
+<br>
 <br>
 <br>
 </div>
@@ -196,7 +198,6 @@ This is a **301 (Permanent)** or **302 (Found)** redirect. Browsers follow this 
 <br>
 <br>
 </div>
-
 
 ### 2.2. Enumeration of Web Services
 
@@ -674,6 +675,10 @@ wingftp@wingdata:/opt/wftpserver$
 <div align="center">
 <br>
 <br>
+※※※※※※※※※※※※※※※※※※※※※※※※
+<br>
+<br>
+<br>
 </div>
 
 ### 4.2 File System Enumeration
@@ -717,6 +722,10 @@ find / -name "*wacky*" 2>/dev/null
 wingftp@wingdata:/opt/wftpserver/Data$ cat /opt/wftpserver/Data/1/users/wacky.xml
 ```
 <div align="center">
+<br>
+<br>
+※※※※※※※※※※※※※※※※※※※※※※※※
+<br>
 <br>
 <br>
 </div>
