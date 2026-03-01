@@ -178,10 +178,10 @@ Nmap done: 1 IP address (1 host up) scanned in 33.19 seconds
 
 #### 2.1.3. Scan Results Analysis
 
-| Port | **Service** | **Version** | **Analysis** |
-| ---- | ----------- | ----------- | ------------ |
-| 22   |             |             |              |
-| 80   |             |             |              |
+| Port | **Service** | **Version**                    | **Analysis**                                                                                                                                            |
+| ---- | ----------- | ------------------------------ | ------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| 22   | SSH         | OpenSSH 9.2p1 Debian 2+deb12u7 | Standard secure shell. Version is relatively modern; unlikely to yield an easy "Low Hang" exploit. Useful for later credential spraying or persistence. |
+| 80   | HTTP        | Apache httpd 2.4.66 (Debian)   | **Primary Attack Vector.** Note the redirect to `http://wingdata.htb/`. This suggests Virtual Hosting is in use and requires local DNS modification.    |
 
 <div align="center">
 <br>
