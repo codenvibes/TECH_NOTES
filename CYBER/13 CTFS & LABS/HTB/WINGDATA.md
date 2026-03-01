@@ -959,8 +959,16 @@ permitted by applicable law.
 Last login: Sun Mar 1 10:54:45 2026 from 10.10.14.247
 wacky@wingdata:~$
 ```
+<div align="center">
+<br>
+<br>
+</div>
 
+#### 4.3.1 Flag Retrieval
 
+```shell
+
+```
 <div align="center">
 <br>
 <br>
