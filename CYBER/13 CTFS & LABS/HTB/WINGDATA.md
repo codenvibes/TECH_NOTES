@@ -941,6 +941,26 @@ Stopped: Sun Mar  1 10:32:30 2026
 With these credentials, you can now elevate your access. The most stable method is to log in via SSH, which provides a full TTY and avoids the limitations of your current reverse shell.
 
 **Command:** `ssh wacky@ftp.wingdata.htb`
+
+**Output:**
+
+```shell
+┌──(kali㉿kali)-[~/pueman/HTB/WingData]
+└─$ ssh wacky@ftp.wingdata.htb
+wacky@ftp.wingdata.htb's password: 
+Linux wingdata 6.1.0-42-amd64 #1 SMP PREEMPT_DYNAMIC Debian 6.1.159-1 (2025-12-30) x86_64
+
+The programs included with the Debian GNU/Linux system are free software;
+the exact distribution terms for each program are described in the
+individual files in /usr/share/doc/*/copyright.
+
+Debian GNU/Linux comes with ABSOLUTELY NO WARRANTY, to the extent
+permitted by applicable law.
+Last login: Sun Mar 1 10:54:45 2026 from 10.10.14.247
+wacky@wingdata:~$
+```
+
+
 <div align="center">
 <br>
 <br>
