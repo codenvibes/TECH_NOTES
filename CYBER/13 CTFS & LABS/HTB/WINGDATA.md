@@ -995,6 +995,7 @@ In the world of CTFs and penetration testing, the transition from "Initial Acces
 <br>
 <br>
 </div>
+
 #### 5.1.1 Auditing Sudo Privileges
 
 **Command:** `sudo -l`
