@@ -306,7 +306,7 @@ Repository found: CVE-2025-47812-poc [^1]
 <div align="center">
 <br>
 <br>
-※※※※※※※※※※※※※※※※※※※※※※※※
+※※※※※※※※※※※※※※※※※※※※※※※※※※※※※※※※※※※※※※※※※※※※※※※※
 <br>
 </div>
 <!-- PAGE BREAK -->
@@ -639,7 +639,7 @@ The terminal output confirms that you have achieved a **Reverse Shell** on the t
 <div align="center">
 <br>
 <br>
-※※※※※※※※※※※※※※※※※※※※※※※※
+※※※※※※※※※※※※※※※※※※※※※※※※※※※※※※※※※※※※※※※※※※※※※※※※
 <br>
 </div>
 <!-- PAGE BREAK -->
@@ -988,7 +988,7 @@ wacky@wingdata:~$
 <div align="center">
 <br>
 <br>
-※※※※※※※※※※※※※※※※※※※※※※※※
+※※※※※※※※※※※※※※※※※※※※※※※※※※※※※※※※※※※※※※※※※※※※※※※※
 <br>
 </div>
 <!-- PAGE BREAK -->
@@ -998,7 +998,7 @@ wacky@wingdata:~$
 <div align="center">
 <br>
 <br>
-※※※※※※※※※※※※※※※※※※※※※※※※
+※※※※※※※※※※※※※※※※※※※※※※※※※※※※※※※※※※※※※※※※※※※※※※※※
 <br>
 </div>
 <!-- PAGE BREAK -->
