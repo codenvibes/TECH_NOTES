@@ -812,13 +812,13 @@ The contents of `wacky.xml` reveal the security parameters for the account. Most
 
 The 64-character length of the hash strongly suggests it is an **SHA-256** hash. To proceed, we must attempt to crack this hash. 
 
-**Command:** `hashcat -m 1400 wacky_hash.txt /usr/share/wordlists/rockyou.txt` 
+**Command:** `hashcat -m 1400 hash /usr/share/wordlists/rockyou.txt` 
 
 **Breakdown:**
 
 - `hashcat` Description: Advanced Password Recovery Tool | Purpose: Used to perform a high-speed dictionary attack against the hash.
 - `-m 1400` Description: Hash Type | Purpose: Specifies the SHA-256 algorithm.
-- `wacky_hash.txt` Description: Input File | Purpose: Contains the 64-character string extracted from the XML.
+- `hash` Description: Input File | Purpose: Contains the 64-character string extracted from the XML.
 - `rockyou.txt` Description: Wordlist | Purpose: The standard dictionary used for cracking common passwords.
 
 **Output:**
