@@ -807,6 +807,14 @@ The contents of `wacky.xml` reveal the security parameters for the account. Most
 <div align="center">
 <br>
 <br>
+</div>
+
+#### 4.2.2 Hash Analysis and Cracking
+
+
+<div align="center">
+<br>
+<br>
 ※※※※※※※※※※※※※※※※※※※※※※※※
 <br>
 </div>
