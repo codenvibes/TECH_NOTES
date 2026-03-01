@@ -261,7 +261,8 @@ Refresh `http://ftp.wingdata.htb`.
 
 ![[Pasted image 20260301125509.png]]
 
-After updating the local `hosts` file to resolve the `ftp.wingdata.htb` subdomain, connection was successfully established. The newly discovered service presents a stark departure from the main marketing site, instantly redirecting to a minimalist login portal. Crucially, visual inspection of the page footer immediately yielded specific, actionable intelligence regarding the backend technology in use.
+After updating the local `hosts` file to resolve the `ftp.wingdata.htb` subdomain, refresh the page on your browser. You're instantly redirecting to a minimalist login portal. 
+Inspection of the page footer immediately yielded specific, actionable intelligence regarding the backend technology in use.
 <div align="center">
 <br>
 <br>
