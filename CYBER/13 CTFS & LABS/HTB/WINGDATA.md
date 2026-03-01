@@ -658,7 +658,7 @@ The current shell is likely a "dumb" shell, meaning it lacks tab completion, job
 <br>
 </div>
 
-### 4.2 Enumeration
+### 4.2 File System Discovery
 
 
 <div align="center">
