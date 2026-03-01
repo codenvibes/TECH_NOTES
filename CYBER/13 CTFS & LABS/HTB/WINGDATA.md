@@ -669,7 +669,7 @@ wingftp@wingdata:/opt/wftpserver$
 <br>
 </div>
 
-### 4.2 File System Discovery
+### 4.2 File System Enumeration
 
 ```shell
 wingftp@wingdata:/opt/wftpserver$ ls
@@ -698,7 +698,7 @@ ls: cannot open directory 'wacky': Permission denied
 wingftp@wingdata:/home$ 
 ```
 
-Initial Reconnaissance in the home directory reveals a single user account named **wacky** and attempts to access the `/home/wacky` directory are met with a **Permission Denied** error.
+Initial Enumeration in the home directory reveals a single user account named **wacky** and attempts to access the `/home/wacky` directory are met with a **Permission Denied** error.
 
 ```shell
 wingftp@wingdata:/opt/wftpserver/Data$ find / -name "*wacky*" 2>/dev/null
