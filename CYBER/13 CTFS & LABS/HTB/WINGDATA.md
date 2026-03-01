@@ -269,6 +269,8 @@ Inspection of the page footer shows "FTP server software powered by **[Wing FTP
 </div>
 
 #### 2.2.3 Vulnerability Research & Exploit Identification
+
+The dashboard footer explicitly identifies the site as running **Camaleon CMS version 2.9.0**. With this information, we can search for known weaknesses that could lead to a compromise.
 <div align="center">
 <br>
 <br>
