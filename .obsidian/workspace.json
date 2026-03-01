@@ -13,77 +13,9 @@
             "dimension": 49.83619983619983,
             "children": [
               {
-                "id": "5fba8451e3d9bb96",
-                "type": "tabs",
-                "dimension": 27.27272727272727,
-                "children": [
-                  {
-                    "id": "d6e3d74256db3bbc",
-                    "type": "leaf",
-                    "pinned": true,
-                    "state": {
-                      "type": "bases",
-                      "state": {
-                        "file": "COURSES/COURSES.base",
-                        "viewName": "THM"
-                      },
-                      "pinned": true,
-                      "icon": "lucide-layout-grid",
-                      "title": "COURSES"
-                    }
-                  },
-                  {
-                    "id": "3200f9cfc1d7c8f0",
-                    "type": "leaf",
-                    "pinned": true,
-                    "state": {
-                      "type": "bases",
-                      "state": {
-                        "file": "COURSES/MODULES.base",
-                        "viewName": "HTBA MODULES"
-                      },
-                      "pinned": true,
-                      "icon": "lucide-layout-grid",
-                      "title": "MODULES"
-                    }
-                  },
-                  {
-                    "id": "6b2536b183f7f9a6",
-                    "type": "leaf",
-                    "pinned": true,
-                    "state": {
-                      "type": "bases",
-                      "state": {
-                        "file": "SOFT SKILLS & CAREER/PIRP.base",
-                        "viewName": "INTERVIEWS"
-                      },
-                      "pinned": true,
-                      "icon": "lucide-layout-grid",
-                      "title": "PIRP"
-                    }
-                  },
-                  {
-                    "id": "c70fde05d4631946",
-                    "type": "leaf",
-                    "pinned": true,
-                    "state": {
-                      "type": "bases",
-                      "state": {
-                        "file": "CYBER/13 CTFS & LABS/CTFS & LABS.base",
-                        "viewName": "HTB"
-                      },
-                      "pinned": true,
-                      "icon": "lucide-layout-grid",
-                      "title": "CTFS & LABS"
-                    }
-                  }
-                ],
-                "currentTab": 3
-              },
-              {
                 "id": "eb7c5c7906b2a9d3",
                 "type": "tabs",
-                "dimension": 36.36363636363637,
+                "dimension": 50,
                 "children": [
                   {
                     "id": "1829a2d1d4c98997",
@@ -181,7 +113,7 @@
               {
                 "id": "0d9688c0329c8d14",
                 "type": "tabs",
-                "dimension": 36.36363636363637,
+                "dimension": 50,
                 "children": [
                   {
                     "id": "21fce08000a30866",
@@ -242,6 +174,66 @@
                 "type": "tabs",
                 "dimension": 54.22077922077923,
                 "children": [
+                  {
+                    "id": "d6e3d74256db3bbc",
+                    "type": "leaf",
+                    "pinned": true,
+                    "state": {
+                      "type": "bases",
+                      "state": {
+                        "file": "COURSES/COURSES.base",
+                        "viewName": "THM"
+                      },
+                      "pinned": true,
+                      "icon": "lucide-layout-grid",
+                      "title": "COURSES"
+                    }
+                  },
+                  {
+                    "id": "3200f9cfc1d7c8f0",
+                    "type": "leaf",
+                    "pinned": true,
+                    "state": {
+                      "type": "bases",
+                      "state": {
+                        "file": "COURSES/MODULES.base",
+                        "viewName": "HTBA MODULES"
+                      },
+                      "pinned": true,
+                      "icon": "lucide-layout-grid",
+                      "title": "MODULES"
+                    }
+                  },
+                  {
+                    "id": "6b2536b183f7f9a6",
+                    "type": "leaf",
+                    "pinned": true,
+                    "state": {
+                      "type": "bases",
+                      "state": {
+                        "file": "SOFT SKILLS & CAREER/PIRP.base",
+                        "viewName": "INTERVIEWS"
+                      },
+                      "pinned": true,
+                      "icon": "lucide-layout-grid",
+                      "title": "PIRP"
+                    }
+                  },
+                  {
+                    "id": "c70fde05d4631946",
+                    "type": "leaf",
+                    "pinned": true,
+                    "state": {
+                      "type": "bases",
+                      "state": {
+                        "file": "CYBER/13 CTFS & LABS/CTFS & LABS.base",
+                        "viewName": "HTB"
+                      },
+                      "pinned": true,
+                      "icon": "lucide-layout-grid",
+                      "title": "CTFS & LABS"
+                    }
+                  },
                   {
                     "id": "10dd2c9178155b52",
                     "type": "leaf",
