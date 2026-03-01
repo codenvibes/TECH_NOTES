@@ -246,6 +246,16 @@ Upon clicking the **Client Portal** button located in the page header, the appli
 ![[Pasted image 20260301123826.png|1093]]
 
 Since the initial `/etc/hosts` update only accounted for the apex domain, this new subdomain must be manually added to the local resolution table to continue the enumeration of the FTP-related web services.
+
+**Command:** `sudo vi /etc/hosts`
+
+```shell
+┌──(kali㉿kali)-[~/CS/HTB]
+└─$ cat /etc/hosts
+...
+TARGET_IP     wingdata.htb
+TARGET_IP     ftp.wingdata.htb
+```
 <div align="center">
 <br>
 <br>
