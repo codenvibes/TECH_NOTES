@@ -280,7 +280,7 @@
                     }
                   }
                 ],
-                "currentTab": 2
+                "currentTab": 3
               },
               {
                 "id": "ebc3d89584b2ffd8",
@@ -476,13 +476,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "CYBER/13 CTFS & LABS/HTB/FACTS.md",
+                "file": "TEMPLATES/CTF WRITEUP.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of FACTS"
+              "title": "Outline of CTF WRITEUP"
             }
           },
           {
@@ -540,10 +540,10 @@
       "iconic:Open rulebook": false
     }
   },
-  "active": "e4b465f8c5c0b958",
+  "active": "3dbdf2692670b270",
   "lastOpenFiles": [
-    "TEMPLATES/CTF WRITEUP.md",
     "CYBER/13 CTFS & LABS/HTB/FACTS.md",
+    "TEMPLATES/CTF WRITEUP.md",
     "CYBER/13 CTFS & LABS/HTB/WINGDATA.md",
     "QUICK NOTES/WHITE-BOARD.md",
     "CYBER/13 CTFS & LABS/HTB/INTERPRETER.md",
