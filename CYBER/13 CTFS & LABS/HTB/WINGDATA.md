@@ -997,11 +997,20 @@ In the world of CTFs and penetration testing, the transition from "Initial Acces
 </div>
 #### 5.1.1 Auditing Sudo Privileges
 
-Command: `sudo -l`
+**Command:** `sudo -l`
 
 It lists the specific commands the current user is permitted to run with elevated privileges.
 
-Output: 
+**Output:**
+
+```shell
+wacky@wingdata:~$ sudo -l
+Matching Defaults entries for wacky on wingdata:
+    env_reset, mail_badpass, secure_path=/usr/local/sbin\:/usr/local/bin\:/usr/sbin\:/usr/bin\:/sbin\:/bin, use_pty
+
+User wacky may run the following commands on wingdata:
+    (root) NOPASSWD: /usr/local/bin/python3 /opt/backup_clients/restore_backup_clients.py *
+```
 <div align="center">
 <br>
 <br>

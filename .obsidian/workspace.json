@@ -490,13 +490,12 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "CYBER/13 CTFS & LABS/HTB/WINGDATA.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of WINGDATA"
+              "title": "Outline"
             }
           },
           {
@@ -554,10 +553,10 @@
       "iconic:Open rulebook": false
     }
   },
-  "active": "3dbdf2692670b270",
+  "active": "3b8b4b24d88a173c",
   "lastOpenFiles": [
-    "CYBER/13 CTFS & LABS/HTB/FACTS.md",
     "CYBER/13 CTFS & LABS/HTB/WINGDATA.md",
+    "CYBER/13 CTFS & LABS/HTB/FACTS.md",
     "TEMPLATES/PAGE BREAK.md",
     "TEMPLATES/HTB WRITEUP.md",
     "CYBER/08 TOOLS/SQLMAP/SQLMAP ESSENTIALS.md",
