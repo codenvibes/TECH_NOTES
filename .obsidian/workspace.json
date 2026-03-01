@@ -176,8 +176,23 @@
                       "icon": "globe-2",
                       "title": "Mastering Interpreter: Beginner's Guide from HackTheBox | The CyberSec Guru"
                     }
+                  },
+                  {
+                    "id": "0ec46368e5862529",
+                    "type": "leaf",
+                    "state": {
+                      "type": "webviewer",
+                      "state": {
+                        "url": "https://ctf-ke.cybergame.sk/challenges",
+                        "title": "CyberGame 2026 - Kenya",
+                        "mode": "webview"
+                      },
+                      "icon": "globe-2",
+                      "title": "CyberGame 2026 - Kenya"
+                    }
                   }
-                ]
+                ],
+                "currentTab": 5
               }
             ],
             "direction": "horizontal"
@@ -510,7 +525,7 @@
       "iconic:Open rulebook": false
     }
   },
-  "active": "1829a2d1d4c98997",
+  "active": "0ec46368e5862529",
   "lastOpenFiles": [
     "CYBER/08 TOOLS/SQLMAP/SQLMAP ESSENTIALS.md",
     "TEMPLATES/GENERAL.md",
