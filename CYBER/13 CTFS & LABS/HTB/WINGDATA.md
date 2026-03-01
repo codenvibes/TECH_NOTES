@@ -311,19 +311,19 @@ Breakdown:
 Output:
 
 ```shell
-┌──(kali㉿kali)-[~/CS/HTB/Facts]
-└─$ git clone https://github.com/Alien0ne/CVE-2025-2304.git
-Cloning into 'CVE-2025-2304'...
-remote: Enumerating objects: 18, done.
-remote: Counting objects: 100% (18/18), done.
-remote: Compressing objects: 100% (16/16), done.
-remote: Total 18 (delta 3), reused 0 (delta 0), pack-reused 0 (from 0)
-Receiving objects: 100% (18/18), 8.83 KiB | 1.10 MiB/s, done.
-Resolving deltas: 100% (3/3), done.
+┌──(kali㉿kali)-[~/pueman/HTB/WingData]
+└─$ git clone https://github.com/4m3rr0r/CVE-2025-47812-poc.git
+Cloning into 'CVE-2025-47812-poc'...
+remote: Enumerating objects: 38, done.
+remote: Counting objects: 100% (38/38), done.
+remote: Compressing objects: 100% (36/36), done.
+remote: Total 38 (delta 18), reused 3 (delta 2), pack-reused 0 (from 0)
+Receiving objects: 100% (38/38), 323.62 KiB | 400.00 KiB/s, done.
+Resolving deltas: 100% (18/18), done.
 
-┌──(kali㉿kali)-[~/CS/HTB/Facts]
-└─$ cd CVE-2025-2304 ; ls              
-exploit.py  README.md
+┌──(kali㉿kali)-[~/pueman/HTB/WingData]
+└─$ cd CVE-2025-47812-poc ; ls 
+2025-07-01_18-22.png  CVE-2025-47812.py  LICENSE  README.md
 ```
 <div align="center">
 <br>
