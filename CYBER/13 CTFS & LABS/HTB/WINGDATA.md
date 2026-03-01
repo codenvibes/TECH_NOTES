@@ -241,7 +241,9 @@ Browse to `http://wingdata.htb/`.
 
 ![[Pasted image 20260301121847.png]]
 
-Upon clicking the **Client Portal** button located in the page header, the application attempts to redirect the browser to a new host.
+Upon clicking the **Client Portal** button located in the page header, the application attempts to redirect to `http://ftp.wingdata.htb`.
+
+![[Pasted image 20260301123826.png|1007]]
 <div align="center">
 <br>
 <br>
