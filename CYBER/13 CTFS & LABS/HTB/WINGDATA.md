@@ -795,7 +795,6 @@ wingftp@wingdata:/opt/wftpserver/Data$ cat /opt/wftpserver/Data/1/users/wacky.xm
         <EnableSchedule>0</EnableSchedule>
     </USER>
 </USER_ACCOUNTS>
-wingftp@wingdata:/opt/wftpserver/Data$ 
 ```
 
 The contents of `wacky.xml` reveal the security parameters for the account. Most importantly, it contains a hexadecimal string in the `<Password>` field.
