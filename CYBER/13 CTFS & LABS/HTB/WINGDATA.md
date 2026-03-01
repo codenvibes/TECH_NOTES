@@ -997,6 +997,11 @@ In the world of CTFs and penetration testing, the transition from "Initial Acces
 </div>
 #### 5.1.1 Auditing Sudo Privileges
 
+Command: `sudo -l`
+
+It lists the specific commands the current user is permitted to run with elevated privileges.
+
+Output: 
 <div align="center">
 <br>
 <br>
