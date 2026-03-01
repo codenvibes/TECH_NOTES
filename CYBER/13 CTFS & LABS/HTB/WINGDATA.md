@@ -985,6 +985,10 @@ wacky@wingdata:~$
 <div style="page-break-after: always;"></div>
 
 ## 5. PrivEsc
+
+### 5.1 PrivEsc Reconnaissance
+
+
 <div align="center">
 <br>
 <br>
