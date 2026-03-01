@@ -831,7 +831,11 @@ The 64-character length of the hash strongly suggests it is an **SHA-256** hash.
 
 **Output:**
 
-```shell
+```shell                                            
+┌──(kali㉿kali)-[~/pueman/HTB/WingData]
+└─$ cat hash.txt                                                                                     
+32940defd3c3ef70a2dd44a5301ff984c4742f0baae76ff5b8783994f8a503ca:WingFTP
+
 ┌──(kali㉿kali)-[~/pueman/HTB/WingData]
 └─$ hashcat -m 1410 hash.txt /usr/share/wordlists/rockyou.txt                                        
 hashcat (v7.1.2) starting
