@@ -596,6 +596,8 @@ Output:
 listening on [any] 4444 ...
 connect to [10.10.14.247] from (UNKNOWN) [10.129.9.90] 54034
 ```
+
+The terminal output confirms that you have achieved a **Reverse Shell** on the target. The `Read timed out` error in your exploit script is actually a positive indicator in this specific context: the web server is "hanging" the HTTP request because it is busy maintaining the open socket for your netcat connection.
 <div align="center">
 <br>
 <br>
