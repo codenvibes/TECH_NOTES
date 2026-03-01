@@ -325,6 +325,10 @@ Resolving deltas: 100% (18/18), done.
 └─$ cd CVE-2025-47812-poc ; ls 
 2025-07-01_18-22.png  CVE-2025-47812.py  LICENSE  README.md
 ```
+
+Poc Audit:
+
+
 <div align="center">
 <br>
 <br>
