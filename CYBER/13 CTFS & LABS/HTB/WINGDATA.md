@@ -967,8 +967,14 @@ wacky@wingdata:~$
 #### 4.3.1 Flag Retrieval
 
 ```shell
-
+wacky@wingdata:~$ find / -name user.txt 2>/dev/null
+/home/wacky/user.txt
+wacky@wingdata:~$ cat /home/wacky/user.txt 
+686f215a1ddfa587b49feaf734d81e36
+wacky@wingdata:~$ 
 ```
+
+**User Flag:** ==``==
 <div align="center">
 <br>
 <br>
