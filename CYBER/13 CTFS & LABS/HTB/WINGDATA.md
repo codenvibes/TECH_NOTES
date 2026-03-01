@@ -75,6 +75,112 @@ A successful response confirms that the machine is active and accessible on the 
 <div style="page-break-after: always;"></div>
 
 ## 2. Enumeration
+
+### 2.1. Port Scan with Nmap
+
+Before we can attack a system, we need to find out what "doors" are open. Doors in this context are ports. We use a tool called **Nmap** (Network Mapper) to scan the target's IP address and see what services are running.
+
+#### 2.1.1. The "Spearfishing" Scan (All Ports, High Speed)
+
+Command: `nmap -p- --min-rate 5000 -Pn TARGET_IP`
+
+Breakdown:
+- **`nmap`**
+    - **Description:** The utility itself.
+- **`-p-`**
+    - **Description:** All Ports Scan. 
+    - **Purpose:** Scans all 65,535 ports. Slower but thorough.
+- `--min-rate 5000`
+	- **Description:** Minimum Packet Rate.
+	- **Purpose:** Forces Nmap to send at least 5,000 packets per second. This drastically reduces scan time on stable networks like the HTB VPN.
+- `-Pn`
+    - **Description:** Skip Host Discovery.
+    - **Purpose:** Treats the host as "online" even if it doesn't respond to pings (ICMP). Many HTB boxes have firewalls that block pings.
+- **`TARGET_IP`**
+    - **Description:** Target Specification.
+    - **Purpose:** The IP address of the host being scanned.
+
+Output:
+
+```shell
+┌──(kali㉿kali)-[~]
+└─$ nmap -p- --min-rate 5000 -Pn TARGET_IP  
+Starting Nmap 7.98 ( https://nmap.org ) at 2026-02-23 08:46 -0500
+Warning: TARGET_IP giving up on port because retransmission cap hit (10).
+Nmap scan report for TARGET_IP
+Host is up (0.28s latency).
+Not shown: 65513 closed tcp ports (reset)
+PORT      STATE    SERVICE
+22/tcp    open     ssh
+80/tcp    open     http
+217/tcp   filtered dbase
+3615/tcp  filtered start-network
+7949/tcp  filtered unknown
+9950/tcp  filtered apc-9950
+12724/tcp filtered unknown
+13122/tcp filtered unknown
+17541/tcp filtered unknown
+18737/tcp filtered unknown
+18903/tcp filtered unknown
+34584/tcp filtered unknown
+34618/tcp filtered unknown
+36754/tcp filtered unknown
+38375/tcp filtered unknown
+42612/tcp filtered unknown
+42776/tcp filtered unknown
+43615/tcp filtered unknown
+54321/tcp open     unknown
+59307/tcp filtered unknown
+61782/tcp filtered unknown
+64434/tcp filtered unknown
+
+Nmap done: 1 IP address (1 host up) scanned in 34.82 seconds
+```
+<div align="center">
+<br>
+<br>
+</div>
+
+#### 2.1.2. The "Deep Dive" Scan (Targeted Aggression)
+
+Command: `nmap -A -p p1,p2,p3,p4 TARGET_IP`
+
+Breakdown:
+- `-sC`
+    - **Description:** Default Script Scan.
+    - **Purpose:** Runs a collection built-in Nmap Scripting Engine (NSE) scripts to find common vulnerabilities, metadata, or hidden info.
+- `-sV`
+    - **Description:** Version Detection.
+    - **Purpose:** Probes open ports to determine what software and version are actually running (e.g., identifying "Jetty" or "OpenSSH 9.2").
+- `-p`
+    - **Description:** Targeted Port List.
+    - **Purpose:** Restricts the heavy scanning to only the ports you confirmed are open, saving significant time and processing power.
+
+
+Output:
+
+```shell
+
+```
+<div align="center">
+<br>
+<br>
+</div>
+
+#### 2.1.3. Scan Results Analysis
+
+| **Service** | **Version** | **Analysis** |
+| ----------- | ----------- | ------------ |
+|             |             |              |
+|             |             |              |
+
+<div align="center">
+<br>
+※※※※※※※※※※※※※※※※※※※※※※※※
+<br>
+<br>
+</div>
+
 <div align="center">
 <br>
 <br>
