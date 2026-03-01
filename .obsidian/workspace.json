@@ -15,7 +15,7 @@
               {
                 "id": "5fba8451e3d9bb96",
                 "type": "tabs",
-                "dimension": 67.01298701298701,
+                "dimension": 27.27272727272727,
                 "children": [
                   {
                     "id": "d6e3d74256db3bbc",
@@ -99,7 +99,7 @@
               {
                 "id": "eb7c5c7906b2a9d3",
                 "type": "tabs",
-                "dimension": 32.98701298701299,
+                "dimension": 72.72727272727273,
                 "children": [
                   {
                     "id": "1829a2d1d4c98997",
@@ -140,7 +140,7 @@
                     "state": {
                       "type": "webviewer",
                       "state": {
-                        "url": "https://gemini.google.com/app/ec8154fccfc5fd08",
+                        "url": "https://gemini.google.com/app",
                         "title": "Google Gemini",
                         "mode": "webview"
                       },
@@ -476,13 +476,12 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "QUICK NOTES/WHITE-BOARD.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of WHITE-BOARD"
+              "title": "Outline"
             }
           },
           {
@@ -540,8 +539,9 @@
       "iconic:Open rulebook": false
     }
   },
-  "active": "21fce08000a30866",
+  "active": "3b8b4b24d88a173c",
   "lastOpenFiles": [
+    "QUICK NOTES/WHITE-BOARD.md",
     "CYBER/13 CTFS & LABS/HTB/FACTS.md",
     "CYBER/13 CTFS & LABS/HTB/WINGDATA.md",
     "CYBER/13 CTFS & LABS/HTB/INTERPRETER.md",
@@ -553,7 +553,6 @@
     "COURSES/COURSES.base",
     "ASSETS/{92782614-64A8-423C-A30E-6D82BEBE246A}.png",
     "ASSETS/Unconfirmed 337402.crdownload",
-    "QUICK NOTES/WHITE-BOARD.md",
     "CYBER/13 CTFS & LABS/THM/OVERPASS.md",
     "COURSES/HTB/JUNIOR CYBERSECURITY ANALYST.md",
     "CYBER/08 TOOLS/SQLMAP",
