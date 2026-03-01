@@ -226,7 +226,7 @@ When you type a URL like `google.com` or `wingdata.htb` into your browser, your 
 
 Browse to `http://wingdata.htb/`.
 
-
+![[Pasted image 20260301121847.png]]
 <div align="center">
 <br>
 <br>
