@@ -280,7 +280,7 @@ The exploit is CVE-2025-47812 and the next step is to find or develop a **Proof 
 
 Repository found: CVE-2025-47812-poc [^1]
 
-
+![[Pasted image 20260301133737.png]]
 <div align="center">
 <br>
 <br>
