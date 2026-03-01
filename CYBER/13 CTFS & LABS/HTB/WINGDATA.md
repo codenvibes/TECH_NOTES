@@ -638,6 +638,8 @@ The terminal output confirms that you have achieved a **Reverse Shell** on the t
 <div style="page-break-after: always;"></div>
 
 ## 4. Post-Exploitation
+
+#### ### 4.1 Shell Stabilization
 <div align="center">
 <br>
 <br>
