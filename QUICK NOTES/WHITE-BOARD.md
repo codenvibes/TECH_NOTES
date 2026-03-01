@@ -1,8 +1,7 @@
-🛡️ DAY 47 of my #CYBERSECURITY Journey!
-Completed the Advent of Cyber Prep Track room on TryHackMe today.
+🛡️ DAY 48 of my #CYBERSECURITY Journey!
+Completed the WingData_ box on Hack The Box today.
 
 
-22 more rooms to the Jr Penetration Tester certificate.
 
 AD4MPU3MAN
 
