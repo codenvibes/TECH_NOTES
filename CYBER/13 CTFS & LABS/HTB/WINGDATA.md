@@ -299,6 +299,9 @@ The next step is to find or develop a **Proof of Concept** to verify if `http://
 Repository found: CVE-2025-47812-poc [^1]
 
 ![[Pasted image 20260301134121.png]]
+Breakdown: 
+
+
 <div align="center">
 <br>
 <br>
