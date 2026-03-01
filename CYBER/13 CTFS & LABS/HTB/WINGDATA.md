@@ -273,6 +273,8 @@ Inspection of the page footer shows "FTP server software powered by **[Wing FTP
 The `http://ftp.wingdata.htb` page identifies the site as running **Wing FTP Server v7.4.3**. With this information, we can search for known weaknesses that could lead to a compromise.
 
 Search online for `Wing FTP Server v7.4.3 exploit`.
+
+![[Pasted image 20260301132057.png]]
 <div align="center">
 <br>
 <br>
