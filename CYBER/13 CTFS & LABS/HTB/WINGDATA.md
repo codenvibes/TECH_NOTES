@@ -52,14 +52,14 @@ Output:
 
 ```shell
 ┌──(kali㉿kali)-[~/CS/HTB]
-└─$ ping -c 4 10.129.9.90                                                                   
-PING 10.129.9.90 (10.129.9.90) 56(84) bytes of data.
-64 bytes from 10.129.9.90: icmp_seq=1 ttl=63 time=283 ms
-64 bytes from 10.129.9.90: icmp_seq=2 ttl=63 time=289 ms
-64 bytes from 10.129.9.90: icmp_seq=3 ttl=63 time=280 ms
-64 bytes from 10.129.9.90: icmp_seq=4 ttl=63 time=286 ms
+└─$ ping -c 4 TARGET_IP                                                                   
+PING TARGET_IP (TARGET_IP) 56(84) bytes of data.
+64 bytes from TARGET_IP: icmp_seq=1 ttl=63 time=283 ms
+64 bytes from TARGET_IP: icmp_seq=2 ttl=63 time=289 ms
+64 bytes from TARGET_IP: icmp_seq=3 ttl=63 time=280 ms
+64 bytes from TARGET_IP: icmp_seq=4 ttl=63 time=286 ms
 
---- 10.129.9.90 ping statistics ---
+--- TARGET_IP ping statistics ---
 4 packets transmitted, 4 received, 0% packet loss, time 3009ms
 rtt min/avg/max/mdev = 280.134/284.700/288.984/3.296 ms
 ```
