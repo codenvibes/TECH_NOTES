@@ -188,7 +188,7 @@
               {
                 "id": "96c424c4653196ac",
                 "type": "tabs",
-                "dimension": 50,
+                "dimension": 32.857142857142854,
                 "children": [
                   {
                     "id": "d6e3d74256db3bbc",
@@ -304,7 +304,7 @@
               {
                 "id": "ebc3d89584b2ffd8",
                 "type": "tabs",
-                "dimension": 50,
+                "dimension": 67.14285714285714,
                 "children": [
                   {
                     "id": "76fda0f47a1730fe",
@@ -489,13 +489,12 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "CYBER/13 CTFS & LABS/CTFS & LABS.base",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of CTFS & LABS"
+              "title": "Outline"
             }
           },
           {
@@ -553,8 +552,9 @@
       "iconic:Open rulebook": false
     }
   },
-  "active": "c70fde05d4631946",
+  "active": "3b8b4b24d88a173c",
   "lastOpenFiles": [
+    "CYBER/13 CTFS & LABS/CTFS & LABS.base",
     "CYBER/08 TOOLS/SQLMAP/SQLMAP ESSENTIALS.md",
     "QUICK NOTES/WHITE-BOARD.md",
     "CYBER/13 CTFS & LABS/HTB/WINGDATA.md",
@@ -565,7 +565,6 @@
     "TEMPLATES/HTB BOX WRITEUP.md",
     "CYBER/13 CTFS & LABS/HTB/FACTS.md",
     "CYBER/13 CTFS & LABS/HTB/INTERPRETER.md",
-    "CYBER/13 CTFS & LABS/CTFS & LABS.base",
     "COURSES/MODULES.base",
     "TEMPLATES/GENERAL.md",
     "TEMPLATES/PAGE BREAK.md",
@@ -600,7 +599,6 @@
     "ASSETS/NextGen Mirth Connect Remote Code Execution Vulnerability (CVE-2023-43208) _ Horizon3.ai_files/h3-white-logo.png",
     "ASSETS/NextGen Mirth Connect Remote Code Execution Vulnerability (CVE-2023-43208) _ Horizon3.ai_files/zi-tag.js.download",
     "ASSETS/NextGen Mirth Connect Remote Code Execution Vulnerability (CVE-2023-43208) _ Horizon3.ai_files/new-tab.js.download",
-    "CYBER/04 EXPLOITATION/METASPLOIT FRAMEWORK/10 METERPRETER.md",
     "Untitled.canvas"
   ]
 }
