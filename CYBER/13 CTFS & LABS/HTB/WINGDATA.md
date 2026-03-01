@@ -141,9 +141,9 @@ Output:
 
 ```shell
 ┌──(kali㉿kali)-[~/CS/HTB]
-└─$ nmap -A -p 22,80 10.129.9.90            
+└─$ nmap -A -p 22,80 TARGET_IP            
 Starting Nmap 7.98 ( https://nmap.org ) at 2026-03-01 03:44 -0500
-Nmap scan report for 10.129.9.90
+Nmap scan report for TARGET_IP
 Host is up (0.28s latency).
 
 PORT   STATE SERVICE VERSION
@@ -166,7 +166,7 @@ Service Info: Host: localhost; OS: Linux; CPE: cpe:/o:linux:linux_kernel
 TRACEROUTE (using port 22/tcp)
 HOP RTT       ADDRESS
 1   283.11 ms 10.10.14.1
-2   288.94 ms 10.129.9.90
+2   288.94 ms TARGET_IP
 
 OS and Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
 Nmap done: 1 IP address (1 host up) scanned in 33.19 seconds
