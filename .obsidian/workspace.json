@@ -355,15 +355,30 @@
                     "state": {
                       "type": "webviewer",
                       "state": {
-                        "url": "about:blank",
-                        "mode": "blank"
+                        "url": "https://medium.com/@0x5t3v3n_55139/week-3-season-10-hackthebox-wingdata-99f76d60fc5a",
+                        "title": "Week 3, Season 10 HackTheBox — WingData | by Steven Estill Jr | Feb, 2026 | Medium",
+                        "mode": "webview"
                       },
                       "icon": "globe-2",
-                      "title": "New web viewer"
+                      "title": "Week 3, Season 10 HackTheBox — WingData | by Steven Estill Jr | Feb, 2026 | Medium"
+                    }
+                  },
+                  {
+                    "id": "02489c6cac03ca31",
+                    "type": "leaf",
+                    "state": {
+                      "type": "webviewer",
+                      "state": {
+                        "url": "https://medium.com/@azab3962/wingdata-htb-season10-12c3c0ce8dbf",
+                        "title": "Wingdata writeup | HTB | Season10 | by Azab | Feb, 2026 | Medium",
+                        "mode": "webview"
+                      },
+                      "icon": "globe-2",
+                      "title": "Wingdata writeup | HTB | Season10 | by Azab | Feb, 2026 | Medium"
                     }
                   }
                 ],
-                "currentTab": 4
+                "currentTab": 5
               }
             ],
             "direction": "horizontal"
@@ -552,7 +567,7 @@
       "iconic:Open rulebook": false
     }
   },
-  "active": "24dcbd31cd51ed03",
+  "active": "02489c6cac03ca31",
   "lastOpenFiles": [
     "CYBER/13 CTFS & LABS/THM/OVERPASS.md",
     "CYBER/13 CTFS & LABS/HTB/WINGDATA.md",
