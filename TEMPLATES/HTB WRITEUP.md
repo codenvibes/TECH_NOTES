@@ -37,7 +37,7 @@ Start the Machine.
 <br>
 </div>
 
-### 1.2. Verifying the Target is Reachable
+### 1.2 Verifying the Target is Reachable
 
 Verify that the target machine is up and reachable by performing an ICMP ping test.
 
@@ -64,11 +64,11 @@ A successful response confirms that the machine is active and accessible on the 
 
 ## 2. Enumeration
 
-### 2.1. Port Scan with Nmap
+### 2.1 Port Scan with Nmap
 
 Before we can attack a system, we need to find out what "doors" are open. Doors in this context are ports. We use a tool called **Nmap** (Network Mapper) to scan the target's IP address and see what services are running.
 
-#### 2.1.1. The "Spearfishing" Scan (All Ports, High Speed)
+#### 2.1.1 The "Spearfishing" Scan (All Ports, High Speed)
 
 Command: `nmap -p- --min-rate 5000 -Pn TARGET_IP`
 
@@ -98,7 +98,7 @@ Output:
 <br>
 </div>
 
-#### 2.1.2. The "Deep Dive" Scan (Targeted Aggression)
+#### 2.1.2 The "Deep Dive" Scan (Targeted Aggression)
 
 Command: `nmap -A -p p1,p2,p3,p4 TARGET_IP`
 
@@ -124,7 +124,7 @@ Output:
 <br>
 </div>
 
-#### 2.1.3. Scan Results Analysis
+#### 2.1.3 Scan Results Analysis
 
 | Port | **Service** | **Version** | **Analysis** |
 | ---- | ----------- | ----------- | ------------ |
@@ -138,7 +138,7 @@ Output:
 <br>
 </div>
 
-### 2.2. 
+### 2.2 
 <div align="center">
 <br>
 <br>
