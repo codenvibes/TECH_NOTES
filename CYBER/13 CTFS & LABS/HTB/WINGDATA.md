@@ -701,12 +701,14 @@ wingftp@wingdata:/home$
 Initial Reconnaissance in the home directory reveals a single user account named **wacky** and attempts to access the `/home/wacky` directory are met with a **Permission Denied** error.
 
 ```shell
-1  _ADMINISTRATOR  bookmark_db  settings.xml  ssh_host_ecdsa_key  ssh_host_key
 wingftp@wingdata:/opt/wftpserver/Data$ find / -name "*wacky*" 2>/dev/null
 find / -name "*wacky*" 2>/dev/null
 /opt/wftpserver/Data/1/users/wacky.xml
 /home/wacky
 wingftp@wingdata:/opt/wftpserver/Data$ cat /opt/wftpserver/Data/1/users/wacky.xml
+```
+
+```xml
 <er/Data$ cat /opt/wftpserver/Data/1/users/wacky.xml
 <?xml version="1.0" ?>
 <USER_ACCOUNTS Description="Wing FTP Server User Accounts">
