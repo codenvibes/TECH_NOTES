@@ -205,7 +205,7 @@
               {
                 "id": "96c424c4653196ac",
                 "type": "tabs",
-                "dimension": 77.46753246753246,
+                "dimension": 54.22077922077923,
                 "children": [
                   {
                     "id": "10dd2c9178155b52",
@@ -285,7 +285,7 @@
               {
                 "id": "ebc3d89584b2ffd8",
                 "type": "tabs",
-                "dimension": 22.532467532467532,
+                "dimension": 45.77922077922078,
                 "children": [
                   {
                     "id": "1ed32a33f41cf25f",
@@ -348,9 +348,22 @@
                       "icon": "lucide-file",
                       "title": "OVERPASS"
                     }
+                  },
+                  {
+                    "id": "24dcbd31cd51ed03",
+                    "type": "leaf",
+                    "state": {
+                      "type": "webviewer",
+                      "state": {
+                        "url": "about:blank",
+                        "mode": "blank"
+                      },
+                      "icon": "globe-2",
+                      "title": "New web viewer"
+                    }
                   }
                 ],
-                "currentTab": 3
+                "currentTab": 4
               }
             ],
             "direction": "horizontal"
@@ -476,13 +489,12 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "CYBER/13 CTFS & LABS/HTB/WINGDATA.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of WINGDATA"
+              "title": "Outline"
             }
           },
           {
@@ -540,10 +552,11 @@
       "iconic:Open rulebook": false
     }
   },
-  "active": "3dbdf2692670b270",
+  "active": "24dcbd31cd51ed03",
   "lastOpenFiles": [
-    "TEMPLATES/HTB BOX WRITEUP.md",
+    "CYBER/13 CTFS & LABS/THM/OVERPASS.md",
     "CYBER/13 CTFS & LABS/HTB/WINGDATA.md",
+    "TEMPLATES/HTB BOX WRITEUP.md",
     "CYBER/13 CTFS & LABS/HTB/FACTS.md",
     "QUICK NOTES/WHITE-BOARD.md",
     "CYBER/13 CTFS & LABS/HTB/INTERPRETER.md",
@@ -555,7 +568,6 @@
     "COURSES/COURSES.base",
     "ASSETS/{92782614-64A8-423C-A30E-6D82BEBE246A}.png",
     "ASSETS/Unconfirmed 337402.crdownload",
-    "CYBER/13 CTFS & LABS/THM/OVERPASS.md",
     "COURSES/HTB/JUNIOR CYBERSECURITY ANALYST.md",
     "CYBER/08 TOOLS/SQLMAP",
     "CYBER/08 TOOLS/DIRB.md",
