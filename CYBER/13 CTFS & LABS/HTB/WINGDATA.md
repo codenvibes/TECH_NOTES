@@ -278,7 +278,9 @@ Search online for `Wing FTP Server v7.4.3 exploit`.
 
 The exploit is CVE-2025-47812 and the next step is to find or develop a **Proof of Concept** to verify if `http://ftp.wingdata.htb` is susceptible.
 
-Repository found: 
+Repository found: CVE-2025-47812-poc [^1]
+
+
 <div align="center">
 <br>
 <br>
@@ -320,3 +322,4 @@ Repository found:
 
 ## References
 
+[^1]: [CVE-2025-47812-poc](https://github.com/4m3rr0r/CVE-2025-47812-poc)
