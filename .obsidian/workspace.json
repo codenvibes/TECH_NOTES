@@ -18,6 +18,22 @@
                 "dimension": 50,
                 "children": [
                   {
+                    "id": "10dd2c9178155b52",
+                    "type": "leaf",
+                    "pinned": true,
+                    "state": {
+                      "type": "markdown",
+                      "state": {
+                        "file": "QUICK NOTES/TODO.md",
+                        "mode": "source",
+                        "source": false
+                      },
+                      "pinned": true,
+                      "icon": "lucide-file",
+                      "title": "TODO"
+                    }
+                  },
+                  {
                     "id": "1829a2d1d4c98997",
                     "type": "leaf",
                     "pinned": true,
@@ -66,34 +82,6 @@
                     }
                   },
                   {
-                    "id": "bea647b1dd44387e",
-                    "type": "leaf",
-                    "state": {
-                      "type": "webviewer",
-                      "state": {
-                        "url": "https://github.com/kyakei/CVE-2023-43208",
-                        "title": "GitHub - kyakei/CVE-2023-43208: CVE-2023-43208: Mirth Connect Pre-Auth RCE PoC",
-                        "mode": "webview"
-                      },
-                      "icon": "globe-2",
-                      "title": "GitHub - kyakei/CVE-2023-43208: CVE-2023-43208: Mirth Connect Pre-Auth RCE PoC"
-                    }
-                  },
-                  {
-                    "id": "92aabadb907a937e",
-                    "type": "leaf",
-                    "state": {
-                      "type": "webviewer",
-                      "state": {
-                        "url": "https://thecybersecguru.com/ctf-walkthroughs/mastering-interpreter-beginners-guide-from-hackthebox/",
-                        "title": "Mastering Interpreter: Beginner's Guide from HackTheBox | The CyberSec Guru",
-                        "mode": "webview"
-                      },
-                      "icon": "globe-2",
-                      "title": "Mastering Interpreter: Beginner's Guide from HackTheBox | The CyberSec Guru"
-                    }
-                  },
-                  {
                     "id": "0ec46368e5862529",
                     "type": "leaf",
                     "state": {
@@ -108,7 +96,7 @@
                     }
                   }
                 ],
-                "currentTab": 5
+                "currentTab": 3
               },
               {
                 "id": "0d9688c0329c8d14",
@@ -157,6 +145,34 @@
                       },
                       "icon": "globe-2",
                       "title": "Week 3, Season 10 HackTheBox — WingData | by Steven Estill Jr | Feb, 2026 | Medium"
+                    }
+                  },
+                  {
+                    "id": "92aabadb907a937e",
+                    "type": "leaf",
+                    "state": {
+                      "type": "webviewer",
+                      "state": {
+                        "url": "https://thecybersecguru.com/ctf-walkthroughs/mastering-interpreter-beginners-guide-from-hackthebox/",
+                        "title": "Mastering Interpreter: Beginner's Guide from HackTheBox | The CyberSec Guru",
+                        "mode": "blank"
+                      },
+                      "icon": "globe-2",
+                      "title": "Mastering Interpreter: Beginner's Guide from HackTheBox | The CyberSec Guru"
+                    }
+                  },
+                  {
+                    "id": "bea647b1dd44387e",
+                    "type": "leaf",
+                    "state": {
+                      "type": "webviewer",
+                      "state": {
+                        "url": "https://github.com/kyakei/CVE-2023-43208",
+                        "title": "GitHub - kyakei/CVE-2023-43208: CVE-2023-43208: Mirth Connect Pre-Auth RCE PoC",
+                        "mode": "webview"
+                      },
+                      "icon": "globe-2",
+                      "title": "GitHub - kyakei/CVE-2023-43208: CVE-2023-43208: Mirth Connect Pre-Auth RCE PoC"
                     }
                   }
                 ]
@@ -232,22 +248,6 @@
                       "pinned": true,
                       "icon": "lucide-layout-grid",
                       "title": "CTFS & LABS"
-                    }
-                  },
-                  {
-                    "id": "10dd2c9178155b52",
-                    "type": "leaf",
-                    "pinned": true,
-                    "state": {
-                      "type": "markdown",
-                      "state": {
-                        "file": "QUICK NOTES/TODO.md",
-                        "mode": "source",
-                        "source": false
-                      },
-                      "pinned": true,
-                      "icon": "lucide-file",
-                      "title": "TODO"
                     }
                   },
                   {
@@ -552,8 +552,9 @@
       "iconic:Open rulebook": false
     }
   },
-  "active": "0ec46368e5862529",
+  "active": "3b8b4b24d88a173c",
   "lastOpenFiles": [
+    "QUICK NOTES/WHITE-BOARD.md",
     "CYBER/13 CTFS & LABS/HTB/WINGDATA.md",
     "CYBER/13 CTFS & LABS/THM/OVERPASS.md",
     "COURSES/CYBER SHUJAA/CLOUD AND NETWORK SECURITY.md",
@@ -561,7 +562,6 @@
     "COURSES/HTB/JUNIOR CYBERSECURITY ANALYST.md",
     "TEMPLATES/HTB BOX WRITEUP.md",
     "CYBER/13 CTFS & LABS/HTB/FACTS.md",
-    "QUICK NOTES/WHITE-BOARD.md",
     "CYBER/13 CTFS & LABS/HTB/INTERPRETER.md",
     "CYBER/13 CTFS & LABS/CTFS & LABS.base",
     "COURSES/MODULES.base",
