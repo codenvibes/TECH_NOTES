@@ -256,6 +256,9 @@ Since the initial `/etc/hosts` update only accounted for the apex domain, this n
 TARGET_IP     wingdata.htb
 TARGET_IP     ftp.wingdata.htb
 ```
+
+
+![[Pasted image 20260301125509.png]]
 <div align="center">
 <br>
 <br>
