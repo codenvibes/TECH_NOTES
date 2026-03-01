@@ -341,12 +341,12 @@
                     "state": {
                       "type": "markdown",
                       "state": {
-                        "file": "TEMPLATES/HTB WRITEUP.md",
+                        "file": "CYBER/13 CTFS & LABS/HTB/WINGDATA.md",
                         "mode": "source",
                         "source": false
                       },
                       "icon": "lucide-file",
-                      "title": "HTB WRITEUP"
+                      "title": "WINGDATA"
                     }
                   },
                   {
@@ -490,13 +490,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "TEMPLATES/HTB WRITEUP.md",
+                "file": "CYBER/13 CTFS & LABS/HTB/WINGDATA.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of HTB WRITEUP"
+              "title": "Outline of WINGDATA"
             }
           },
           {
@@ -556,8 +556,10 @@
   },
   "active": "3dbdf2692670b270",
   "lastOpenFiles": [
-    "TEMPLATES/PAGE BREAK.md",
+    "CYBER/08 TOOLS/SQLMAP/SQLMAP ESSENTIALS.md",
     "CYBER/13 CTFS & LABS/HTB/WINGDATA.md",
+    "TEMPLATES/PAGE BREAK.md",
+    "TEMPLATES/HTB WRITEUP.md",
     "CYBER/13 CTFS & LABS/HTB/FACTS.md",
     "ASSETS/Pasted image 20260301185221.png",
     "ASSETS/1uCxxdutWy_RMPSnSMGxKig.webp",
@@ -568,9 +570,7 @@
     "ASSETS/Pasted image 20260301125509.png",
     "ASSETS/Pasted image 20260301123826.png",
     "ASSETS/Pasted image 20260301121847.png",
-    "CYBER/08 TOOLS/SQLMAP/SQLMAP ESSENTIALS.md",
     "QUICK NOTES/WHITE-BOARD.md",
-    "TEMPLATES/HTB WRITEUP.md",
     "CYBER/13 CTFS & LABS/CTFS & LABS.base",
     "CYBER/13 CTFS & LABS/THM/OVERPASS.md",
     "COURSES/CYBER SHUJAA/CLOUD AND NETWORK SECURITY.md",
