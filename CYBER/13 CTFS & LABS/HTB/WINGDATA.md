@@ -821,6 +821,11 @@ The 64-character length of the hash strongly suggests it is an **SHA-256** hash.
 - `wacky_hash.txt` Description: Input File | Purpose: Contains the 64-character string extracted from the XML.
 - `rockyou.txt` Description: Wordlist | Purpose: The standard dictionary used for cracking common passwords.
 
+**Output:**
+
+```
+
+```
 <div align="center">
 <br>
 <br>
