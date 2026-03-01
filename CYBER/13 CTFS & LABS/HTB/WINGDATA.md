@@ -812,7 +812,7 @@ The contents of `wacky.xml` reveal the security parameters for the account. Most
 
 The 64-character length of the hash strongly suggests it is an **SHA-256** hash. To proceed, we must attempt to crack this hash. 
 
-**Command:** `hashcat -m 1400 hash /usr/share/wordlists/rockyou.txt` 
+**Command:** `hashcat -m 1410 hash.txt /usr/share/wordlists/rockyou.txt` 
 
 **Breakdown:**
 
