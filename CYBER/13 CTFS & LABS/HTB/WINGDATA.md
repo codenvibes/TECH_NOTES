@@ -821,7 +821,7 @@ The 64-character length of the hash strongly suggests it is an **SHA-256** hash.
 	- Purpose: Used to perform a high-speed dictionary attack against the hash.
 - `-m 1410`
 	- Description: Hash Type. SHA2-256 (Password + Salt)
-	- Purpose: Specifies the SHA-256 algorithm.
+	- Purpose: Instructs Hashcat to expect a salt after a colon and use it in the hashing logic.
 - `hash.txt`
 	- Description: Input File
 	- Purpose: Contains the 64-character string extracted from the XML.
