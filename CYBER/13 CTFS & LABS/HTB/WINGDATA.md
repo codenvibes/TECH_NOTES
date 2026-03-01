@@ -299,7 +299,13 @@ The next step is to find or develop a **Proof of Concept** to verify if `http://
 Repository found: CVE-2025-47812-poc [^1]
 
 ![[Pasted image 20260301134121.png]]
-Breakdown: 
+**Logic Flow of the Script:**
+
+1. **Stage 1 (Injection):** It sends a `POST` request to `loginok.html`. The `username` parameter is crafted as: `username%00]] [Lua Code] --`. This bypasses the check but writes the code to the session.
+
+2. **Stage 2 (Extraction):** The script parses the `Set-Cookie` header from the server's response to grab the **UID** (Session ID).
+
+3. **Stage 3 (Trigger):** It makes a `GET` request to `dir.html` using that **UID**. The server loads the "poisoned" session file, executes the Lua code, and the script prints the output of your command back to your terminal.
 
 
 <div align="center">
