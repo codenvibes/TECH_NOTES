@@ -341,12 +341,12 @@
                     "state": {
                       "type": "markdown",
                       "state": {
-                        "file": "TEMPLATES/PAGE BREAK.md",
+                        "file": "CYBER/13 CTFS & LABS/HTB/WINGDATA.md",
                         "mode": "source",
                         "source": false
                       },
                       "icon": "lucide-file",
-                      "title": "PAGE BREAK"
+                      "title": "WINGDATA"
                     }
                   },
                   {
@@ -490,13 +490,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "TEMPLATES/PAGE BREAK.md",
+                "file": "CYBER/13 CTFS & LABS/HTB/WINGDATA.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of PAGE BREAK"
+              "title": "Outline of WINGDATA"
             }
           },
           {
@@ -556,8 +556,8 @@
   },
   "active": "3dbdf2692670b270",
   "lastOpenFiles": [
-    "TEMPLATES/HTB WRITEUP.md",
     "TEMPLATES/PAGE BREAK.md",
+    "TEMPLATES/HTB WRITEUP.md",
     "CYBER/13 CTFS & LABS/HTB/WINGDATA.md",
     "CYBER/13 CTFS & LABS/HTB/FACTS.md",
     "CYBER/08 TOOLS/SQLMAP/SQLMAP ESSENTIALS.md",
