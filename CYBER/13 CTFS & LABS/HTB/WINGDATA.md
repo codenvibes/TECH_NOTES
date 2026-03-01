@@ -700,6 +700,8 @@ wingftp@wingdata:/home$
 
 Initial Enumeration in the home directory reveals a single user account named **wacky** and attempts to access the `/home/wacky` directory are met with a **Permission Denied** error.
 
+A system-wide search for "wacky" identified a critical configuration file within the application's internal data directory. This file stores metadata and authentication details for the FTP user.
+
 ```shell
 wingftp@wingdata:/opt/wftpserver/Data$ find / -name "*wacky*" 2>/dev/null
 find / -name "*wacky*" 2>/dev/null
