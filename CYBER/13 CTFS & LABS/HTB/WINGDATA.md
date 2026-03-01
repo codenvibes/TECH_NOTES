@@ -918,6 +918,8 @@ Hardware.Mon.#01.: Util: 67%
 Started: Sun Mar  1 10:32:12 2026
 Stopped: Sun Mar  1 10:32:30 2026
 ```
+
+**Cracked Password:** `!#7Blushing^*Bride5`
 <div align="center">
 <br>
 <br>
