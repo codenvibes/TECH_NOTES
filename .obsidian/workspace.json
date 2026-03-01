@@ -190,7 +190,7 @@
                     }
                   }
                 ],
-                "currentTab": 2
+                "currentTab": 5
               }
             ],
             "direction": "horizontal"
@@ -490,12 +490,13 @@
             "state": {
               "type": "outline",
               "state": {
+                "file": "CYBER/13 CTFS & LABS/HTB/WINGDATA.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline"
+              "title": "Outline of WINGDATA"
             }
           },
           {
@@ -553,13 +554,13 @@
       "iconic:Open rulebook": false
     }
   },
-  "active": "3b8b4b24d88a173c",
+  "active": "3dbdf2692670b270",
   "lastOpenFiles": [
+    "CYBER/13 CTFS & LABS/HTB/FACTS.md",
     "CYBER/13 CTFS & LABS/HTB/WINGDATA.md",
     "ASSETS/Pasted image 20260301125509.png",
     "ASSETS/Pasted image 20260301123826.png",
     "ASSETS/Pasted image 20260301121847.png",
-    "CYBER/13 CTFS & LABS/HTB/FACTS.md",
     "CYBER/08 TOOLS/SQLMAP/SQLMAP ESSENTIALS.md",
     "QUICK NOTES/WHITE-BOARD.md",
     "TEMPLATES/HTB BOX WRITEUP.md",

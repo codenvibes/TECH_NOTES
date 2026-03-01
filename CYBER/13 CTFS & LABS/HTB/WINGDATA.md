@@ -262,7 +262,7 @@ Refresh `http://ftp.wingdata.htb`.
 ![[Pasted image 20260301125509.png]]
 
 After updating the local `hosts` file to resolve the `ftp.wingdata.htb` subdomain, refresh the page on your browser. You're instantly redirecting to a minimalist login portal. 
-Inspection of the page footer shows "FTP server software powered by **[Wing FTP Server v7.4.3](https://www.wftpserver.com/)**" actionable intelligence regarding the backend technology in use.
+Inspection of the page footer shows "FTP server software powered by **[Wing FTP Server v7.4.3](https://www.wftpserver.com/)**" which is actionable intelligence regarding the backend technology in use.
 <div align="center">
 <br>
 <br>
