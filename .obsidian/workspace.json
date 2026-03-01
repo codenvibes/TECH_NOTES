@@ -95,8 +95,7 @@
                       "title": "CyberGame 2026 - Kenya"
                     }
                   }
-                ],
-                "currentTab": 3
+                ]
               },
               {
                 "id": "0d9688c0329c8d14",
@@ -189,8 +188,7 @@
                       "title": "FACTS"
                     }
                   }
-                ],
-                "currentTab": 1
+                ]
               }
             ],
             "direction": "horizontal"
@@ -490,12 +488,13 @@
             "state": {
               "type": "outline",
               "state": {
+                "file": "QUICK NOTES/WHITE-BOARD.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline"
+              "title": "Outline of WHITE-BOARD"
             }
           },
           {
@@ -553,8 +552,9 @@
       "iconic:Open rulebook": false
     }
   },
-  "active": "3b8b4b24d88a173c",
+  "active": "21fce08000a30866",
   "lastOpenFiles": [
+    "QUICK NOTES/TODO.md",
     "CYBER/13 CTFS & LABS/HTB/WINGDATA.md",
     "CYBER/13 CTFS & LABS/HTB/FACTS.md",
     "TEMPLATES/PAGE BREAK.md",
