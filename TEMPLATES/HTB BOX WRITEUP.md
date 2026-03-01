@@ -126,10 +126,10 @@ Output:
 
 #### 2.1.3. Scan Results Analysis
 
-| **Service** | **Version** | **Analysis** |
-| ----------- | ----------- | ------------ |
-|             |             |              |
-|             |             |              |
+| Port | **Service** | **Version** | **Analysis** |
+| ---- | ----------- | ----------- | ------------ |
+|      |             |             |              |
+|      |             |             |              |
 
 <div align="center">
 <br>

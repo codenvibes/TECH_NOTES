@@ -180,8 +180,8 @@ Nmap done: 1 IP address (1 host up) scanned in 33.19 seconds
 
 | Port | **Service** | **Version** | **Analysis** |
 | ---- | ----------- | ----------- | ------------ |
-|      |             |             |              |
-|      |             |             |              |
+| 22   |             |             |              |
+| 80   |             |             |              |
 
 <div align="center">
 <br>
