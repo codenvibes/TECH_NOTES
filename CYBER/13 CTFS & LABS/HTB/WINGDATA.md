@@ -93,7 +93,7 @@ Breakdown:
     - **Purpose:** Scans all 65,535 ports. Slower but thorough.
 - `--min-rate 5000`
 	- **Description:** Minimum Packet Rate.
-	- **Purpose:** Forces Nmap to send at least 5,000 packets per second. This drastically reduces scan time on stable networks like the HTB VPN.
+	- **Purpose:** Forces Nmap to send at least 5,000 packets per second. This reduces scan time on stable networks like the HTB VPN.
 - `-Pn`
     - **Description:** Skip Host Discovery.
     - **Purpose:** Treats the host as "online" even if it doesn't respond to pings (ICMP). Many HTB boxes have firewalls that block pings.
