@@ -257,6 +257,7 @@ TARGET_IP     wingdata.htb
 TARGET_IP     ftp.wingdata.htb
 ```
 
+Refresh `http://ftp.wingdata.htb`.
 
 ![[Pasted image 20260301125509.png]]
 <div align="center">
