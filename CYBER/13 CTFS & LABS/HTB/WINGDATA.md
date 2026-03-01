@@ -974,7 +974,7 @@ wacky@wingdata:~$ cat /home/wacky/user.txt
 wacky@wingdata:~$ 
 ```
 
-**User Flag:** ==``==
+**User Flag:** ==`686f215a1ddfa587b49feaf734d81e36`==
 <div align="center">
 <br>
 <br>
