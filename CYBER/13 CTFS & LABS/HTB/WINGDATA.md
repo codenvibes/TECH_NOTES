@@ -261,9 +261,7 @@ Refresh `http://ftp.wingdata.htb`.
 
 ![[Pasted image 20260301125509.png]]
 
-And here, we can see at the bottom that it lists a specific version of FTP server.
-
-Press enter or click to view image in full size
+After updating the local `hosts` file to resolve the `ftp.wingdata.htb` subdomain, connection was successfully established. The newly discovered service presents a stark departure from the main marketing site, instantly redirecting to a minimalist login portal. Crucially, visual inspection of the page footer immediately yielded specific, actionable intelligence regarding the backend technology in use.
 <div align="center">
 <br>
 <br>
