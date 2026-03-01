@@ -653,6 +653,13 @@ The current shell is likely a "dumb" shell, meaning it lacks tab completion, job
 - `pty.spawn("/bin/bash")`
 	- Description: Terminal Spawning
 	- Purpose: Upgrades the current raw `/bin/sh` to a more feature-rich `/bin/bash` instance.
+<div align="center">
+<br>
+<br>
+</div>
+
+### 4.2 Enumeration
+
 
 <div align="center">
 <br>
