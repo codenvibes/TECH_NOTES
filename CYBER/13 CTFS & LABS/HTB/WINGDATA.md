@@ -698,7 +698,7 @@ ls: cannot open directory 'wacky': Permission denied
 wingftp@wingdata:/home$ 
 ```
 
-Initial Reconnaissance in the home directory reveals a single user account named **wacky**.
+Initial Reconnaissance in the home directory reveals a single user account named **wacky** and attempts to access the `/home/wacky` directory are met with a **Permission Denied** error.
 <div align="center">
 <br>
 <br>
