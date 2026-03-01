@@ -279,12 +279,20 @@ Search online for `Wing FTP Server v7.4.3 exploit`.
 The exploit is CVE-2025-47812. 
 
 **CVE-2025-47812** is a high-impact vulnerability because it allows for **Unauthenticated Remote Code Execution (RCE)** by exploiting a logic flaw in how the server handles memory and session files.
+
+The vulnerability exists due to a "discrepancy" in how the Wing FTP Server processes strings during the login process. It is essentially a **Null Byte Injection** that leads to **Lua Code Injection**.
+
+- **The Flaw in `c_CheckUser()`:** This function uses `strlen()` to validate the username. In C-based languages, `strlen()` stops reading once it hits a Null Byte (`%00`). If an attacker sends `anonymous%00[payload]`, the server only "sees" and validates `anonymous`, allowing authentication to succeed.
+
+- **The Session Injection:** While the validator only sees the first half, the session creation logic in `loginok.html` saves the **entire** unsanitized string into a session file on the disk.
+
+- **Execution:** Wing FTP stores sessions as Lua scripts. By using the Null Byte to "break" the expected string and then adding Lua tags (`]]`), an attacker can insert malicious commands. When the server later loads that session file via `loadfile()`, it executes the injected Lua code.
 <div align="center">
 <br>
 <br>
 </div>
 
- & Exploit Identification
+#### 2.2.4 Exploit Identification
 
 The next step is to find or develop a **Proof of Concept** to verify if `http://ftp.wingdata.htb` is susceptible.
 
