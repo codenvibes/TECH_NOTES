@@ -243,7 +243,7 @@ Browse to `http://wingdata.htb/`.
 
 Upon clicking the **Client Portal** button located in the page header, the application attempts to redirect to `http://ftp.wingdata.htb`.
 
-![[Pasted image 20260301123826.png|1007]]
+![[Pasted image 20260301123826.png|1093]]
 <div align="center">
 <br>
 <br>
