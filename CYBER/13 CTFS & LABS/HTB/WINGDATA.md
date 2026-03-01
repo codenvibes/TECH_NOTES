@@ -104,7 +104,17 @@ Breakdown:
 Output:
 
 ```shell
+┌──(kali㉿kali)-[~/CS/HTB]
+└─$ nmap -p- --min-rate 5000 -Pn TARGET_IP 
+Starting Nmap 7.98 ( https://nmap.org ) at 2026-03-01 03:41 -0500
+Nmap scan report for TARGET_IP
+Host is up (0.46s latency).
+Not shown: 65533 filtered tcp ports (no-response)
+PORT   STATE SERVICE
+22/tcp open  ssh
+80/tcp open  http
 
+Nmap done: 1 IP address (1 host up) scanned in 30.57 seconds
 ```
 <div align="center">
 <br>
