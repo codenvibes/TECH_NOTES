@@ -8,9 +8,11 @@ image: https://tryhackme-images.s3.amazonaws.com/room-icons/523723e4d3b75b6439b8
 ---
 ## Summary
 
-| SECTION/TASK | FLAG |
-| ------------ | ---- |
-|              |      |
+| SECTION/TASK             | FLAG |
+| ------------------------ | ---- |
+| Task 1. Introduction     |      |
+| Task 2. Using Sqlmap     |      |
+| Task 3. SQLMap Challenge |      |
 
 <div align="center">
 <br>
@@ -21,8 +23,35 @@ image: https://tryhackme-images.s3.amazonaws.com/room-icons/523723e4d3b75b6439b8
 <!-- PAGE BREAK -->
 <div style="page-break-after: always;"></div>
 
-Task 1. Introduction
-Task 2. Using Sqlmap
-Task 3. SQLMap Challenge
+## Task 1. Introduction
+<div align="center">
+<br>
+<br>
+※※※※※※※※※※※※※※※※※※※※※※※※※※※※※※※※※※※※※※※※※※※※※※※※
+<br>
+</div>
+<!-- PAGE BREAK -->
+<div style="page-break-after: always;"></div>
+
+## Task 2. Using Sqlmap
+<div align="center">
+<br>
+<br>
+※※※※※※※※※※※※※※※※※※※※※※※※※※※※※※※※※※※※※※※※※※※※※※※※
+<br>
+</div>
+<!-- PAGE BREAK -->
+<div style="page-break-after: always;"></div>
+
+## Task 3. SQLMap Challenge
+<div align="center">
+<br>
+<br>
+※※※※※※※※※※※※※※※※※※※※※※※※※※※※※※※※※※※※※※※※※※※※※※※※
+<br>
+</div>
+<!-- PAGE BREAK -->
+<div style="page-break-after: always;"></div>
+
 ## References
 
