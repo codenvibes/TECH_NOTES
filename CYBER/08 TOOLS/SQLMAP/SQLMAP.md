@@ -156,25 +156,27 @@ Options:
 
 [!] to see full list of options run with '-hh'
 ```
+<div align="center">
+<br>
+<br>
+</div>
 
-### **Basic** commands:
+### **Basic** commands
 
-|   |   |
-|---|---|
-|**Options**|**Description**|
-|-u URL, --url=URL|Target URL (e.g. "http://www.site.com/vuln.php?id=1")|
-|--data=DATA|Data string to be sent through POST (e.g. "id=1")|
-|--random-agent|Use randomly selected HTTP User-Agent header value|
-|-p TESTPARAMETER|Testable parameter(s)|
-|--level=LEVEL|Level of tests to perform (1-5, default 1)|
-|--risk=RISK|Risk of tests to perform (1-3, default 1)|
+| **Options**       | **Description**                                       |
+| ----------------- | ----------------------------------------------------- |
+| -u URL, --url=URL | Target URL (e.g. "http://www.site.com/vuln.php?id=1") |
+| --data=DATA       | Data string to be sent through POST (e.g. "id=1")     |
+| --random-agent    | Use randomly selected HTTP User-Agent header value    |
+| -p TESTPARAMETER  | Testable parameter(s)                                 |
+| --level=LEVEL     | Level of tests to perform (1-5, default 1)            |
+| --risk=RISK       | Risk of tests to perform (1-3, default 1)             |
 
 ### **Enumeration** commands:
 
-### _These options can be used to enumerate the back-end database management system information, structure, and data contained in tables._
+These options can be used to enumerate the back-end database management system information, structure, and data contained in tables.
 
-|   |   |
-|---|---|
+|   |   ||---|---|
 |Options|Description|
 |-a, --all|Retrieve everything|
 |-b, --banner|Retrieve DBMS banner|
@@ -195,37 +197,6 @@ Options:
 ### Operating System access commands
 
 ### _These options can be used to access the back-end database management system on the target operating system._
-
-|   |   |
-|---|---|
-|Options|Description|
-|--os-shell|Prompt for an interactive operating system shell|
-|--os-pwn|Prompt for an OOB shell, Meterpreter or VNC|
-|--os-cmd=OSCMD|Execute an operating system command|
-|--priv-esc|Database process user privilege escalation|
-|--os-smbrelay|One-click prompt for an OOB shell, Meterpreter or VNC|
-
-_Note that the tables shown above aren't all the possible switches to use with sqlmap. For a more extensive list of options, run `sqlmap -hh` to display the advanced help message._
-
-Now that we've seen some of the options we can use with sqlmap, let’s jump into the examples using both GET and POST Method based requests.
-
-  
-**Simple HTTP GET Based Test**  
-  
-`sqlmap -u https://testsite.com/page.php?id=7 --dbs`
-
-Here we have used two flags: -u to state the vulnerable URL and --dbs to enumerate the database.
-
-  
-**Simple HTTP POST Based Test**
-
-First, we need to identify the vulnerable POST request and save it. In order to save the request, Right Click on the request, select 'Copy to file', and save it to a directory. You could also copy the whole request and save it to a text file as well.
-
-![](https://assets.tryhackme.com/additional/imgur/xRFhXVn.png)
-
-You’ll notice in the request above, we have a POST parameter 'blood_group' which could a vulnerable parameter.
-
-SavedHTTPPOST request
 
 ```shell-session
 nare@nare$ cat req.txt
