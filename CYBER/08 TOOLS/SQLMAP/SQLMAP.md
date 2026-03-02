@@ -215,17 +215,15 @@ These options can be used to access the back-end database management system on t
 | `--priv-esc`     | Database process user privilege escalation            |
 | `--os-smbrelay`  | One-click prompt for an OOB shell, Meterpreter or VNC |
 
-Note that the tables shown above aren't all the possible switches to use with sqlmap. For a more extensive list of options, run sqlmap -hh to display the advanced help message.
+Note that the tables shown above aren't all the possible switches to use with sqlmap. For a more extensive list of options, run `sqlmap -hh` to display the advanced help message.
 
 Now that we've seen some of the options we can use with sqlmap, let’s jump into the examples using both GET and POST Method based requests.
+<div align="center">
+<br>
+<br>
+</div>
 
-
-
-
-Here we have used two flags: -u to state the vulnerable URL and --dbs to enumerate the database.
-
-  
-Simple HTTP POST Based Test
+### Simple HTTP POST Based Test
 
 First, we need to identify the vulnerable POST request and save it. In order to save the request, Right Click on the request, select 'Copy to file', and save it to a directory. You could also copy the whole request and save it to a text file as well.
 
