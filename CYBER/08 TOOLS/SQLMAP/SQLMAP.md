@@ -180,6 +180,7 @@ Options:
 
 
 
+
 Here we have used two flags: -u to state the vulnerable URL and --dbs to enumerate the database.
 
   
