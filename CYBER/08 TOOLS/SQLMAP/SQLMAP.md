@@ -460,7 +460,10 @@ I hope you have enjoyed seeing the basics of using sqlmap and its various comm
 #### Which flag allows you to dump all the database table entries?
 ==Answer==
 
-#### 
+#### Which flag will give you an interactive SQL Shell prompt?
+==Answer==
+
+#### You know the current db type is 'MYSQL'. Which flag allows you to enumerate only MySQL databases?
 ==Answer==
 <div align="center">
 <br>
@@ -472,6 +475,23 @@ I hope you have enjoyed seeing the basics of using sqlmap and its various comm
 <div style="page-break-after: always;"></div>
 
 ## Task 3. SQLMap Challenge
+
+Deploy the machine attached to this task, then navigate to MACHINE_IP (this machine can take up to 3 minutes to boot)
+
+Task: 
+
+We have deployed an application to collect 'Blood Donations'. The request seems to be vulnerable.
+
+Exploit a SQL Injection vulnerability on the vulnerable application to find the flag.
+<div>
+<br>
+<br>
+</div>
+
+### Questions
+
+#### 
+==Answer==
 <div align="center">
 <br>
 <br>
