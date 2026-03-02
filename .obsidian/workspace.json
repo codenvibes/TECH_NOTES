@@ -15,7 +15,7 @@
               {
                 "id": "eb7c5c7906b2a9d3",
                 "type": "tabs",
-                "dimension": 83.96103896103895,
+                "dimension": 74.87012987012987,
                 "children": [
                   {
                     "id": "10dd2c9178155b52",
@@ -40,13 +40,13 @@
                     "state": {
                       "type": "webviewer",
                       "state": {
-                        "url": "https://academy.hackthebox.com/app/module/58/section/509",
-                        "title": "SQLMap Overview | Hack The Box Academy",
+                        "url": "https://academy.hackthebox.com/app/module/58/section/694",
+                        "title": "academy.hackthebox.com/app/module/58/section/694",
                         "mode": "webview"
                       },
                       "pinned": true,
                       "icon": "globe-2",
-                      "title": "SQLMap Overview | Hack The Box Academy"
+                      "title": "academy.hackthebox.com/app/module/58/section/694"
                     }
                   },
                   {
@@ -101,7 +101,7 @@
               {
                 "id": "0d9688c0329c8d14",
                 "type": "tabs",
-                "dimension": 16.038961038961038,
+                "dimension": 25.12987012987013,
                 "children": [
                   {
                     "id": "21fce08000a30866",
