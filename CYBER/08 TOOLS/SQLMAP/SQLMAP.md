@@ -223,8 +223,18 @@ Now that we've seen some of the options we can use with sqlmap, let’s jump int
 <br>
 </div>
 
-### Simple HTTP POST Based Test
+### Simple HTTP GET Based Test
 
+`sqlmap -u https://testsite.com/page.php?id=7 --dbs`
+
+Here we have used two flags: -u to state the vulnerable URL and --dbs to enumerate the database.
+<div align="center">
+<br>
+<br>
+</div>
+
+
+Simple HTTP POST Based Test
 First, we need to identify the vulnerable POST request and save it. In order to save the request, Right Click on the request, select 'Copy to file', and save it to a directory. You could also copy the whole request and save it to a text file as well.
 
 
