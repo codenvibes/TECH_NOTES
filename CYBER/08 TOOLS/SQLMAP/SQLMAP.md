@@ -21,5 +21,8 @@ image: https://tryhackme-images.s3.amazonaws.com/room-icons/523723e4d3b75b6439b8
 <!-- PAGE BREAK -->
 <div style="page-break-after: always;"></div>
 
+Task 1. Introduction
+Task 2. Using Sqlmap
+Task 3. SQLMap Challenge
 ## References
 
