@@ -476,7 +476,7 @@ I hope you have enjoyed seeing the basics of using sqlmap and its various comm
 
 ## Task 3. SQLMap Challenge
 
-Deploy the machine attached to this task, then navigate to MACHINE_IP (this machine can take up to 3 minutes to boot)
+Deploy the machine attached to this task, then navigate to `MACHINE_IP` (this machine can take up to 3 minutes to boot)
 
 Task: 
 
@@ -490,7 +490,13 @@ Exploit a SQL Injection vulnerability on the vulnerable application to find the 
 
 ### Questions
 
-#### 
+#### What is the name of the interesting directory?
+==Answer==
+
+#### Who is the current db user?
+==Answer==
+
+#### What is the final flag?
 ==Answer==
 <div align="center">
 <br>
