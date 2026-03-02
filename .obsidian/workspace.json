@@ -489,13 +489,12 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "CYBER/08 TOOLS/SQLMAP/SQLMAP ESSENTIALS.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of SQLMAP ESSENTIALS"
+              "title": "Outline"
             }
           },
           {
@@ -553,10 +552,10 @@
       "iconic:Open rulebook": false
     }
   },
-  "active": "180b670eb6aaa497",
+  "active": "1829a2d1d4c98997",
   "lastOpenFiles": [
-    "CYBER/04 EXPLOITATION/WEB_EXPLOITATION/SQL INJECTION.md",
     "CYBER/08 TOOLS/SQLMAP/SQLMAP ESSENTIALS.md",
+    "CYBER/04 EXPLOITATION/WEB_EXPLOITATION/SQL INJECTION.md",
     "QUICK NOTES/WHITE-BOARD.md",
     "CYBER/13 CTFS & LABS/HTB/WINGDATA.md",
     "CYBER/03 RECONNAISSANCE & ENUMERATION/00 ENUMERATION.md",
