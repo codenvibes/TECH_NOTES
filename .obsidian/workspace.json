@@ -56,13 +56,13 @@
                     "state": {
                       "type": "webviewer",
                       "state": {
-                        "url": "https://tryhackme.com/dashboard",
-                        "title": "TryHackMe | Dashboard",
+                        "url": "https://tryhackme.com/hacktivities",
+                        "title": "TryHackMe | Cyber Security Training",
                         "mode": "webview"
                       },
                       "pinned": true,
                       "icon": "globe-2",
-                      "title": "TryHackMe | Dashboard"
+                      "title": "TryHackMe | Cyber Security Training"
                     }
                   },
                   {
