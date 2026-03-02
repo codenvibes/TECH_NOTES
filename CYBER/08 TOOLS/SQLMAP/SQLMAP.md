@@ -207,6 +207,21 @@ These options can be used to enumerate the back-end database management system i
 
 These options can be used to access the back-end database management system on the target operating system.
 
+| **Option**       | **Description**                                       |
+| ---------------- | ----------------------------------------------------- |
+| `--os-shell`     | Prompt for an interactive operating system shell      |
+| `--os-pwn`       | Prompt for an OOB shell, Meterpreter or VNC           |
+| `--os-cmd=OSCMD` | Execute an operating system command                   |
+| `--priv-esc`     | Database process user privilege escalation            |
+| `--os-smbrelay`  | One-click prompt for an OOB shell, Meterpreter or VNC |
+
+Note that the tables shown above aren't all the possible switches to use with sqlmap. For a more extensive list of options, run sqlmap -hh to display the advanced help message.
+
+Now that we've seen some of the options we can use with sqlmap, let’s jump into the examples using both GET and POST Method based requests.
+
+
+
+
 Here we have used two flags: -u to state the vulnerable URL and --dbs to enumerate the database.
 
   
