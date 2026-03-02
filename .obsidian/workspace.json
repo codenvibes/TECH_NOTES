@@ -421,12 +421,12 @@
               "title": "Bookmarks"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
-    "width": 288.703125
+    "width": 288.703125,
+    "collapsed": true
   },
   "right": {
     "id": "26820c7e22c27caf",
@@ -488,13 +488,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "QUICK NOTES/TODO.md",
+                "file": "CYBER/13 CTFS & LABS/HTB/WINGDATA.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of TODO"
+              "title": "Outline of WINGDATA"
             }
           },
           {
@@ -552,18 +552,20 @@
       "iconic:Open rulebook": false
     }
   },
-  "active": "8089db5984bed9f9",
+  "active": "3dbdf2692670b270",
   "lastOpenFiles": [
-    "QUICK NOTES/WHITE-BOARD.md",
-    "QUICK NOTES/TODO.md",
+    "CYBER/03 RECONNAISSANCE & ENUMERATION/00 ENUMERATION.md",
+    "CYBER/08 TOOLS/BLOODHOUND.md",
+    "CYBER/08 TOOLS/PYTHON/IMPACKET.md",
     "CYBER/13 CTFS & LABS/HTB/WINGDATA.md",
+    "QUICK NOTES/TODO.md",
+    "QUICK NOTES/WHITE-BOARD.md",
     "CYBER/13 CTFS & LABS/HTB/FACTS.md",
     "TEMPLATES/PAGE BREAK.md",
     "TEMPLATES/HTB WRITEUP.md",
     "CYBER/08 TOOLS/SQLMAP/SQLMAP ESSENTIALS.md",
     "ASSETS/Pasted image 20260301185221.png",
     "ASSETS/1uCxxdutWy_RMPSnSMGxKig.webp",
-    "CYBER/03 RECONNAISSANCE & ENUMERATION/00 ENUMERATION.md",
     "ASSETS/Pasted image 20260301134121.png",
     "ASSETS/Pasted image 20260301133737.png",
     "ASSETS/Pasted image 20260301132057.png",
@@ -583,7 +585,6 @@
     "ASSETS/Unconfirmed 337402.crdownload",
     "CYBER/08 TOOLS/SQLMAP",
     "CYBER/08 TOOLS/DIRB.md",
-    "CYBER/08 TOOLS/BLOODHOUND.md",
     "ASSETS/Facts.png",
     "SOFT SKILLS & CAREER/PIRP.base",
     "CYBER/13 CTFS & LABS/HTB/fact.md",
@@ -595,7 +596,6 @@
     "CYBER/01 CORE CONCEPTS/WEB BASICS/DNS IN DETAIL.md",
     "CYBER/13 CTFS & LABS/THM/AOC 2025/AOC DAY01 - LINUX CLI - SHELLS BELLS.md",
     "CYBER/01 CORE CONCEPTS/NETWORKING FUNDAMENTALS/14 COMMON PROTOCOLS.md",
-    "CYBER/01 CORE CONCEPTS/WEB BASICS/WEB REQUESTS.md",
     "SOFT SKILLS & CAREER/PRESENTATIONS/CYBER SHUJAA TRAINER PRESENTATION.pdf",
     "ASSETS/Unconfirmed 469548.crdownload",
     "ASSETS/NextGen Mirth Connect Remote Code Execution Vulnerability (CVE-2023-43208) _ Horizon3.ai_files/zi-tag.js.download",
