@@ -400,7 +400,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "Attacktive",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": true,
@@ -421,12 +421,12 @@
               "title": "Bookmarks"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
-    "width": 288.703125,
-    "collapsed": true
+    "width": 288.703125
   },
   "right": {
     "id": "26820c7e22c27caf",
@@ -552,7 +552,7 @@
       "iconic:Open rulebook": false
     }
   },
-  "active": "10dd2c9178155b52",
+  "active": "8089db5984bed9f9",
   "lastOpenFiles": [
     "QUICK NOTES/WHITE-BOARD.md",
     "QUICK NOTES/TODO.md",
