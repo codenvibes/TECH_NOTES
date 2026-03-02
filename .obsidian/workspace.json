@@ -503,12 +503,13 @@
             "state": {
               "type": "outline",
               "state": {
+                "file": "CYBER/08 TOOLS/SQLMAP/SQLMAP.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline"
+              "title": "Outline of SQLMAP"
             }
           },
           {
@@ -567,7 +568,7 @@
       "iconic:Open rulebook": false
     }
   },
-  "active": "e7c511dac942f49a",
+  "active": "22fa52d46e6b95d6",
   "lastOpenFiles": [
     "CYBER/08 TOOLS/SQLMAP/SQLMAP.md",
     "COURSES/MODULES.base",
