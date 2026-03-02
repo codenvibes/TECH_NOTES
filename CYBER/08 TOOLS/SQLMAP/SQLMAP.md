@@ -433,6 +433,33 @@ I hope you have enjoyed seeing the basics of using sqlmap and its various comm
 
 ### Questions
 
+#### Which flag or option will allow you to add a URL to the command?
+==Answer==
+
+#### 
+==Answer==
+
+#### 
+==Answer==
+
+#### 
+==Answer==
+
+#### 
+==Answer==
+
+#### 
+==Answer==
+
+#### 
+==Answer==
+
+#### 
+==Answer==
+
+#### 
+==Answer==
+
 #### 
 ==Answer==
 <div align="center">
