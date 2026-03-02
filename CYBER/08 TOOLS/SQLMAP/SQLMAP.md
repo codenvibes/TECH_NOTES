@@ -180,6 +180,23 @@ Options:
 
 These options can be used to enumerate the back-end database management system information, structure, and data contained in tables.
 
+| **Option**        | **Description**                            |
+| ----------------- | ------------------------------------------ |
+| `-a, --all`       | Retrieve everything                        |
+| `-b, --banner`    | Retrieve DBMS banner                       |
+| `--current-user`  | Retrieve DBMS current user                 |
+| `--current-db`    | Retrieve DBMS current database             |
+| `--passwords`     | Enumerate DBMS users password hashes       |
+| `--dbs`           | Enumerate DBMS databases                   |
+| `--tables`        | Enumerate DBMS database tables             |
+| `--columns`       | Enumerate DBMS database table columns      |
+| `--schema`        | Enumerate DBMS schema                      |
+| `--dump`          | Dump DBMS database table entries           |
+| `--dump-all`      | Dump all DBMS databases tables entries     |
+| `--is-dba`        | Detect if the DBMS current user is DBA     |
+| `-D <DB NAME>`    | DBMS database to enumerate                 |
+| `-T <TABLE NAME>` | DBMS database table(s) to enumerate        |
+| `-C COL`          | DBMS database table column(s) to enumerate |
 
 
 Here we have used two flags: -u to state the vulnerable URL and --dbs to enumerate the database.
