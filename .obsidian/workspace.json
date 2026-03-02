@@ -227,7 +227,7 @@
                       "type": "bases",
                       "state": {
                         "file": "COURSES/MODULES.base",
-                        "viewName": "HTBA MODULES"
+                        "viewName": "THM ROOMS"
                       },
                       "pinned": true,
                       "icon": "lucide-layout-grid",
@@ -313,7 +313,7 @@
                     }
                   }
                 ],
-                "currentTab": 3
+                "currentTab": 1
               },
               {
                 "id": "ebc3d89584b2ffd8",
@@ -503,13 +503,12 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "CYBER/08 TOOLS/SQLMAP/SQLMAP.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of SQLMAP"
+              "title": "Outline"
             }
           },
           {
@@ -567,10 +566,11 @@
       "iconic:Open rulebook": false
     }
   },
-  "active": "22fa52d46e6b95d6",
+  "active": "e7c511dac942f49a",
   "lastOpenFiles": [
-    "TEMPLATES/HTBL WRITEUP.md",
+    "COURSES/MODULES.base",
     "CYBER/08 TOOLS/SQLMAP/SQLMAP.md",
+    "TEMPLATES/HTBL WRITEUP.md",
     "CYBER/08 TOOLS/SQLMAP/SQLMAP ESSENTIALS.md",
     "CYBER/04 EXPLOITATION/WEB_EXPLOITATION/SQL INJECTION.md",
     "QUICK NOTES/WHITE-BOARD.md",
@@ -595,7 +595,6 @@
     "COURSES/CYBER SHUJAA/SECURITY ANALYST.md",
     "COURSES/HTB/JUNIOR CYBERSECURITY ANALYST.md",
     "CYBER/13 CTFS & LABS/HTB/INTERPRETER.md",
-    "COURSES/MODULES.base",
     "TEMPLATES/GENERAL.md",
     "COURSES/COURSES.base",
     "ASSETS/{92782614-64A8-423C-A30E-6D82BEBE246A}.png",
@@ -610,7 +609,6 @@
     "COURSES/THM/WEB FUNDAMENTALS.md",
     "CYBER/01 CORE CONCEPTS/WEB BASICS/HOW WEBSITES WORK.md",
     "CYBER/01 CORE CONCEPTS/WEB BASICS/INTRODUCTION TO WEB APPLICATIONS.md",
-    "CYBER/01 CORE CONCEPTS/WEB BASICS/DNS IN DETAIL.md",
     "SOFT SKILLS & CAREER/PRESENTATIONS/CYBER SHUJAA TRAINER PRESENTATION.pdf",
     "ASSETS/Unconfirmed 469548.crdownload",
     "ASSETS/NextGen Mirth Connect Remote Code Execution Vulnerability (CVE-2023-43208) _ Horizon3.ai_files/zi-tag.js.download",
