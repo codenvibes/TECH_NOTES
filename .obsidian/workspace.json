@@ -56,13 +56,13 @@
                     "state": {
                       "type": "webviewer",
                       "state": {
-                        "url": "https://tryhackme.com/hacktivities",
-                        "title": "TryHackMe | Cyber Security Training",
+                        "url": "https://tryhackme.com/hacktivities/search?&page=1&kind=rooms&searchText=sqlmap",
+                        "title": "TryHackMe | Hacktivities",
                         "mode": "webview"
                       },
                       "pinned": true,
                       "icon": "globe-2",
-                      "title": "TryHackMe | Cyber Security Training"
+                      "title": "TryHackMe | Hacktivities"
                     }
                   },
                   {
