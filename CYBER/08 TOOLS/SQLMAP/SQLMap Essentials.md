@@ -87,8 +87,9 @@ adampueman@htb[/htb]$ python sqlmap.py -u 'http://inlanefreight.htb/page.php?id=
 SQLMap comes with a powerful detection engine, numerous features, and a broad range of options and switches for fine-tuning the many aspects of it, such as:
 as:
 
-| Target connection          | Injection detection | Fingerprinting                                         |
+|                            |                     |                                                        |
 | :------------------------- | :------------------ | :----------------------------------------------------- |
+| Target connection          | Injection detection | Fingerprinting                                         |
 | Enumeration                | Optimization        | Protection detection and bypass using "tamper" scripts |
 | Database content retrieval | File system access  | Execution of the operating system (OS) commands        |
 <div align="center">
