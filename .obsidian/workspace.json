@@ -488,13 +488,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "QUICK NOTES/WHITE-BOARD.md",
+                "file": "QUICK NOTES/TODO.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of WHITE-BOARD"
+              "title": "Outline of TODO"
             }
           },
           {
@@ -552,8 +552,9 @@
       "iconic:Open rulebook": false
     }
   },
-  "active": "21fce08000a30866",
+  "active": "10dd2c9178155b52",
   "lastOpenFiles": [
+    "QUICK NOTES/WHITE-BOARD.md",
     "QUICK NOTES/TODO.md",
     "CYBER/13 CTFS & LABS/HTB/WINGDATA.md",
     "CYBER/13 CTFS & LABS/HTB/FACTS.md",
@@ -569,7 +570,6 @@
     "ASSETS/Pasted image 20260301125509.png",
     "ASSETS/Pasted image 20260301123826.png",
     "ASSETS/Pasted image 20260301121847.png",
-    "QUICK NOTES/WHITE-BOARD.md",
     "CYBER/13 CTFS & LABS/CTFS & LABS.base",
     "CYBER/13 CTFS & LABS/THM/OVERPASS.md",
     "COURSES/CYBER SHUJAA/CLOUD AND NETWORK SECURITY.md",
