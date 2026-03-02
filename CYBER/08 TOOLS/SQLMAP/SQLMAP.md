@@ -478,7 +478,7 @@ I hope you have enjoyed seeing the basics of using sqlmap and its various comm
 
 Deploy the machine attached to this task, then navigate to `MACHINE_IP` (this machine can take up to 3 minutes to boot)
 
-Task: 
+**Task:**
 
 We have deployed an application to collect 'Blood Donations'. The request seems to be vulnerable.
 
