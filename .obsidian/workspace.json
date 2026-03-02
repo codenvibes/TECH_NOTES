@@ -96,7 +96,7 @@
                     }
                   }
                 ],
-                "currentTab": 3
+                "currentTab": 1
               },
               {
                 "id": "0d9688c0329c8d14",
@@ -503,12 +503,13 @@
             "state": {
               "type": "outline",
               "state": {
+                "file": "CYBER/08 TOOLS/SQLMAP/SQLMAP ESSENTIALS.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline"
+              "title": "Outline of SQLMAP ESSENTIALS"
             }
           },
           {
@@ -550,8 +551,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -567,7 +567,7 @@
       "iconic:Open rulebook": false
     }
   },
-  "active": "3b8b4b24d88a173c",
+  "active": "180b670eb6aaa497",
   "lastOpenFiles": [
     "CYBER/08 TOOLS/SQLMAP/SQLMAP ESSENTIALS.md",
     "CYBER/08 TOOLS/SQLMAP/SQLMAP.md",
