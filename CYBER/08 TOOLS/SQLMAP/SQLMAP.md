@@ -237,7 +237,8 @@ Here we have used two flags: `-u` to state the vulnerable URL and `--dbs` to enu
 ### Simple HTTP POST Based Test
 
 First, we need to identify the vulnerable POST request and save it. In order to save the request, Right Click on the request, select 'Copy to file', and save it to a directory. You could also copy the whole request and save it to a text file as well.
-
+  
+![900](https://assets.tryhackme.com/additional/imgur/xRFhXVn.png)
 
 You’ll notice in the request above, we have a POST parameter 'blood_group' which could a vulnerable parameter.
 
