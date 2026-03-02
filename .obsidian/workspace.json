@@ -41,12 +41,12 @@
                       "type": "webviewer",
                       "state": {
                         "url": "https://academy.hackthebox.com/app/module/58/section/694",
-                        "title": "academy.hackthebox.com/app/module/58/section/694",
+                        "title": "Getting Started with SQLMap | Hack The Box Academy",
                         "mode": "webview"
                       },
                       "pinned": true,
                       "icon": "globe-2",
-                      "title": "academy.hackthebox.com/app/module/58/section/694"
+                      "title": "Getting Started with SQLMap | Hack The Box Academy"
                     }
                   },
                   {
@@ -489,12 +489,13 @@
             "state": {
               "type": "outline",
               "state": {
+                "file": "CYBER/08 TOOLS/SQLMAP/SQLMAP ESSENTIALS.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline"
+              "title": "Outline of SQLMAP ESSENTIALS"
             }
           },
           {
@@ -552,7 +553,7 @@
       "iconic:Open rulebook": false
     }
   },
-  "active": "1829a2d1d4c98997",
+  "active": "180b670eb6aaa497",
   "lastOpenFiles": [
     "CYBER/08 TOOLS/SQLMAP/SQLMAP ESSENTIALS.md",
     "CYBER/04 EXPLOITATION/WEB_EXPLOITATION/SQL INJECTION.md",
