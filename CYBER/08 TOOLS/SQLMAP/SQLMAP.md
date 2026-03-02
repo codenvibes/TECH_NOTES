@@ -197,8 +197,14 @@ These options can be used to enumerate the back-end database management system i
 | `-D <DB NAME>`    | DBMS database to enumerate                 |
 | `-T <TABLE NAME>` | DBMS database table(s) to enumerate        |
 | `-C COL`          | DBMS database table column(s) to enumerate |
+|                   |                                            |
 
+<div align="center">
+<br>
+<br>
+</div>
 
+#### ### Operating System access commands
 Here we have used two flags: -u to state the vulnerable URL and --dbs to enumerate the database.
 
   
