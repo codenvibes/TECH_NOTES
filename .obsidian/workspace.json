@@ -95,7 +95,8 @@
                       "title": "CyberGame 2026 - Kenya"
                     }
                   }
-                ]
+                ],
+                "currentTab": 1
               },
               {
                 "id": "0d9688c0329c8d14",
@@ -488,13 +489,12 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "CYBER/08 TOOLS/SQLMAP/SQLMAP ESSENTIALS.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of SQLMAP ESSENTIALS"
+              "title": "Outline"
             }
           },
           {
@@ -552,8 +552,9 @@
       "iconic:Open rulebook": false
     }
   },
-  "active": "180b670eb6aaa497",
+  "active": "1829a2d1d4c98997",
   "lastOpenFiles": [
+    "CYBER/08 TOOLS/SQLMAP/SQLMAP ESSENTIALS.md",
     "CYBER/13 CTFS & LABS/HTB/WINGDATA.md",
     "CYBER/03 RECONNAISSANCE & ENUMERATION/00 ENUMERATION.md",
     "CYBER/08 TOOLS/BLOODHOUND.md",
@@ -563,7 +564,6 @@
     "CYBER/13 CTFS & LABS/HTB/FACTS.md",
     "TEMPLATES/PAGE BREAK.md",
     "TEMPLATES/HTB WRITEUP.md",
-    "CYBER/08 TOOLS/SQLMAP/SQLMAP ESSENTIALS.md",
     "ASSETS/Pasted image 20260301185221.png",
     "ASSETS/1uCxxdutWy_RMPSnSMGxKig.webp",
     "ASSETS/Pasted image 20260301134121.png",
