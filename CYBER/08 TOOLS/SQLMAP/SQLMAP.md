@@ -178,6 +178,7 @@ Options:
 
 ### Enumeration commands
 
+These options can be used to enumerate the back-end database management system information, structure, and data contained in tables.
 
 
 
