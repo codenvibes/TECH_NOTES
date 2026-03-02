@@ -354,12 +354,12 @@
                     "state": {
                       "type": "markdown",
                       "state": {
-                        "file": "CYBER/04 EXPLOITATION/WEB_EXPLOITATION/SQL INJECTION.md",
+                        "file": "CYBER/08 TOOLS/SQLMAP/SQLMAP ESSENTIALS.md",
                         "mode": "source",
                         "source": false
                       },
                       "icon": "lucide-file",
-                      "title": "SQL INJECTION"
+                      "title": "SQLMAP ESSENTIALS"
                     }
                   }
                 ],
@@ -489,13 +489,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "CYBER/04 EXPLOITATION/WEB_EXPLOITATION/SQL INJECTION.md",
+                "file": "CYBER/08 TOOLS/SQLMAP/SQLMAP ESSENTIALS.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of SQL INJECTION"
+              "title": "Outline of SQLMAP ESSENTIALS"
             }
           },
           {
@@ -555,8 +555,8 @@
   },
   "active": "180b670eb6aaa497",
   "lastOpenFiles": [
-    "CYBER/08 TOOLS/SQLMAP/SQLMAP ESSENTIALS.md",
     "CYBER/04 EXPLOITATION/WEB_EXPLOITATION/SQL INJECTION.md",
+    "CYBER/08 TOOLS/SQLMAP/SQLMAP ESSENTIALS.md",
     "CYBER/13 CTFS & LABS/HTB/WINGDATA.md",
     "CYBER/03 RECONNAISSANCE & ENUMERATION/00 ENUMERATION.md",
     "CYBER/08 TOOLS/BLOODHOUND.md",
