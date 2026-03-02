@@ -436,28 +436,28 @@ I hope you have enjoyed seeing the basics of using sqlmap and its various comm
 #### Which flag or option will allow you to add a URL to the command?
 ==Answer==
 
-#### 
+#### Which flag would you use to add data to a POST request?
 ==Answer==
 
-#### 
+#### There are two parameters: username and password. How would you tell sqlmap to use the username parameter for the attack?
 ==Answer==
 
-#### 
+#### Which flag would you use to show the advanced help menu?
 ==Answer==
 
-#### 
+#### Which flag allows you to retrieve everything?
 ==Answer==
 
-#### 
+#### Which flag allows you to select the database name?
 ==Answer==
 
-#### 
+#### Which flag would you use to retrieve database tables?
 ==Answer==
 
-#### 
+#### Which flag allows you to retrieve a table’s columns?
 ==Answer==
 
-#### 
+#### Which flag allows you to dump all the database table entries?
 ==Answer==
 
 #### 
