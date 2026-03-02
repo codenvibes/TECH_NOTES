@@ -313,7 +313,6 @@ available databases [6]:
 [*] test
 ```
 
-  
 Now that we have the databases, let's extract tables from the database **blood**.
 
 **Using GET based Method**  
