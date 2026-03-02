@@ -56,13 +56,13 @@
                     "state": {
                       "type": "webviewer",
                       "state": {
-                        "url": "https://tryhackme.com/module/owasp-top-10-2025",
-                        "title": "TryHackMe | OWASP Top 10 (2025) Training",
+                        "url": "https://tryhackme.com/dashboard",
+                        "title": "TryHackMe | Dashboard",
                         "mode": "webview"
                       },
                       "pinned": true,
                       "icon": "globe-2",
-                      "title": "TryHackMe | OWASP Top 10 (2025) Training"
+                      "title": "TryHackMe | Dashboard"
                     }
                   },
                   {
@@ -96,7 +96,7 @@
                     }
                   }
                 ],
-                "currentTab": 1
+                "currentTab": 2
               },
               {
                 "id": "0d9688c0329c8d14",
@@ -489,13 +489,12 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "CYBER/08 TOOLS/SQLMAP/SQLMAP ESSENTIALS.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of SQLMAP ESSENTIALS"
+              "title": "Outline"
             }
           },
           {
@@ -553,7 +552,7 @@
       "iconic:Open rulebook": false
     }
   },
-  "active": "180b670eb6aaa497",
+  "active": "e7c511dac942f49a",
   "lastOpenFiles": [
     "CYBER/08 TOOLS/SQLMAP/SQLMAP ESSENTIALS.md",
     "CYBER/04 EXPLOITATION/WEB_EXPLOITATION/SQL INJECTION.md",
