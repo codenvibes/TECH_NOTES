@@ -64,8 +64,6 @@ If you're using Kali Linux, sqlmap is pre-installed. Otherwise, you can downl
 
 To show the basic help menu, simply type `sqlmap -h` in the terminal.
 
-
-
 ```shell-session
 nare@nare$ sqlmap -h
         ___
