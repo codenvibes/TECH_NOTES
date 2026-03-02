@@ -8,11 +8,11 @@ image: https://tryhackme-images.s3.amazonaws.com/room-icons/523723e4d3b75b6439b8
 ---
 ## Summary
 
-| SECTION/TASK             | FLAG |
-| ------------------------ | ---- |
-| Task 1. Introduction     |      |
-| Task 2. Using Sqlmap     |      |
-| Task 3. SQLMap Challenge |      |
+| SECTION/TASK             | FLAG             |
+| ------------------------ | ---------------- |
+| Task 1. Introduction     | No answer needed |
+| Task 2. Using Sqlmap     |                  |
+| Task 3. SQLMap Challenge |                  |
 
 <div align="center">
 <br>
