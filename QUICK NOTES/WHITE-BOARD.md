@@ -151,7 +151,11 @@ so this information is returned since we specifically asked for database tables 
 
 now before we complete this section let me show you a quick way to bypass those really annoying prompts that have defaults using just a simple option this time let's also enumerate the database schema instead of tables just to switch it up a little bit 
 
-so we'll do dash dash schema and then we will add dash dash batch adding that batch option is what's going to automatically use default behavior instead of asking for user input so once we do that we can watch it do its thing and then it returns the results back containing the database schema so this gives us a ton of information that will help us write a report back to our client about the vulnerability the information disclosure and other potential exploitations if you've got experience with sql injections by hand it's also quite impressive how it managed to do all of this automatically all it needed from us were a few options and configurations and it handled the rest getting this much information and getting this far would have taken far longer if we were to do it by hand so this is a really great start to using sql map but there's still more that we can do so let's go ahead and complete this lesson and i'll see you in the next in the
+so we'll do dash dash schema and then we will add dash dash batch adding that batch option is what's going to automatically use default behavior instead of asking for user input 
+
+so once we do that we can watch it do its thing and then it returns the results back containing the database schema 
+
+so this gives us a ton of information that will help us write a report back to our client about the vulnerability the information disclosure and other potential exploitations if you've got experience with sql injections by hand it's also quite impressive how it managed to do all of this automatically all it needed from us were a few options and configurations and it handled the rest getting this much information and getting this far would have taken far longer if we were to do it by hand so this is a really great start to using sql map but there's still more that we can do so let's go ahead and complete this lesson and i'll see you in the next in the
 
 ## Extracting & cracking passwords from the database
 
