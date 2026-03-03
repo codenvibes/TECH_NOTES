@@ -43,7 +43,7 @@ I am documenting the ____ CTF challenge and need help converting my raw notes in
 
 ## Downloading & installing the latest sqlmap
 
-the latest image then you should have a very up-to-date sql map installation with that said it might not be the latest version of sql map as you can see here our version of sql map is 1.10.2 stable 
+if you're using the latest image of kali should have a very up-to-date sql map installation with that said it might not be the latest version of sql map. r version of sql map is 1.10.2 stable 
 
 the term stable can mean a few different things when it comes to software and it's up to the developers to define its meaning but it typically means that the version has ironed out most of the major bugs and issues and so it is the intended version to be used by most users so this is a good version to use but again we can check and see if there are any newer versions by going to the project's github repository and checking releases 
 
