@@ -51,7 +51,7 @@ and we can see that I'm using the latest version but if that was not the case yo
 
 the cutting edge and there may be some unknown or known bugs but it also means that you get the latest features so it is a trade-off to be aware of and the version that you choose is ultimately up to you 
 
-for this demo we will stick to the default installation of sql map to minimize the risk of bugs and issues along the way but feel free to try using this latest version instead just be aware that there may be some slight differences so now that we've verified that we have a working installation of sql map with two different versions and we've learned how to download the latest version let's go ahead and complete this lesson and let's move on to the next where we will use sql map for the very first time whenever
+for this demo we will stick to the default installation of sql map to minimize the risk of bugs and issues along the way but feel free to try using this latest version instead just be aware that there may be some slight differences so now that we've verified that we have a working installation of sql map with two different versions and we've learned how to download the latest version let's go ahead and use sql map for the very first time
 
 ## Using sqlmap for the first time
 
