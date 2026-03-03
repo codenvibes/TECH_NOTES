@@ -166,7 +166,7 @@ so scrolling back up to where we entered with no we can see additional informati
 
 so this information is returned since we specifically asked for database tables to be enumerated so sql map did exactly as we asked it attacked our target endpoint it found a sql injection vulnerability via the id parameter it exploited that vulnerability and then it enumerated the databases tables 
 
-now before we complete this section let me show you a quick way to bypass those really annoying prompts that have defaults using just a simple option this time let's also enumerate the database schema instead of tables just to switch it up a little bit 
+now before we complete this section let me show you a quick way to bypass those really annoying prompts that have defaults using just a simple option this time let's also enumerate the database schema instead of tables just to switch it up a bit 
 
 so we'll do dash dash schema and then we will add dash dash batch adding that batch option is what's going to automatically use default behavior instead of asking for user input 
 
