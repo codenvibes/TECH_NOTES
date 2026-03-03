@@ -55,7 +55,9 @@ for this demo we will stick to the default installation of sql map to minimize t
 
 ## Using sqlmap for the first time
 
-whenever I download new command line tools there are a few things that i like to do number one i like to open up the tools documentation which is usually on github at least for open source tools and then number two i like to use the dash h option in my terminal dash h typically gives you a really good overview of some of the most popular and useful commands or options that we can use with this particular tool and it's usually in an easily digestible format which makes it easier to start with so combining that with the tools documentation which can sometimes be hit or miss and we can be off to a really good start within a matter of minutes luckily sql maps documentation is actually really really good for this type of open source project 
+whenever I download new command line tools there are a few things that i like to do number one i like to open up the tools documentation which is usually on github at least for open source tools 
+
+and then number two i like to use the dash h option in my terminal dash h typically gives you a really good overview of some of the most popular and useful commands or options that we can use with this particular tool and it's usually in an easily digestible format which makes it easier to start with so combining that with the tools documentation which can sometimes be hit or miss and we can be off to a really good start within a matter of minutes luckily sql maps documentation is actually really really good for this type of open source project 
 
 let's start by looking over the introduction section of the tools documentation on github on this page they give us a very simple example of what a target url might look like for sql injection 
 
