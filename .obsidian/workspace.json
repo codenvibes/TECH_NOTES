@@ -503,13 +503,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "CYBER/04 EXPLOITATION/WEB_EXPLOITATION/SQL INJECTION.md",
+                "file": "QUICK NOTES/WHITE-BOARD.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of SQL INJECTION"
+              "title": "Outline of WHITE-BOARD"
             }
           },
           {
@@ -567,10 +567,10 @@
       "iconic:Open rulebook": false
     }
   },
-  "active": "180b670eb6aaa497",
+  "active": "21fce08000a30866",
   "lastOpenFiles": [
-    "QUICK NOTES/WHITE-BOARD.md",
     "CYBER/04 EXPLOITATION/WEB_EXPLOITATION/SQL INJECTION.md",
+    "QUICK NOTES/WHITE-BOARD.md",
     "CYBER/08 TOOLS/SQLMAP/SQLMAP ESSENTIALS.md",
     "CYBER/08 TOOLS/SQLMAP/SQLMAP.md",
     "COURSES/MODULES.base",
