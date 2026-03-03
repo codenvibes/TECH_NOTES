@@ -128,6 +128,11 @@ then we can see that it is indeed a get request and when we click on it we'll ge
 
 as we know we need to pass in a target url with the dash u option so let's copy this entire url from our browser into the terminal let's paste the url including the parameter and let's paste it in our terminal in between quotes so we have sql map dash u quote and then the target endpoint and then end quote 
 
+```shell
+┌──(kali㉿kali)-[~]
+└─$ sqlmap -u "http://127.0.0.1/vulnerabilities/sqli/?id=435&Submit=Submit#" 
+```
+
 now in some cases you may have to specify a port in addition to the target url especially if it's not running on the default http or https ports of 80 and 443 respectively because otherwise sql map will try to use those default ports and it won't be able to establish a connection but in this case we are using port 80 and we specified http so there's really no need to specify the port so let's submit this request now even though it won't work 
 
 and we see that it says that it's testing a connection to the target url but it got a 302 redirect to the login.php page and it's asking us if we want to follow that redirect but we'll press ctrl or command c to get out of that prompt 
