@@ -51,9 +51,10 @@ and we can see that I'm using the latest version but if that was not the case yo
 
 the cutting edge may have some bugs but it also means that you get the latest features so it is a trade-off to be aware of and like I said the version that you choose is ultimately up to you 
 
-for this demo we will stick to the default installation of sql map to minimize the risk of bugs and issues along the way but feel free to try using this latest version instead just be aware that there may be some slight differences so now that we've verified that we have a working installation of sql map and we've learned how to download the latest version let's go ahead and use sql map for the very first time
+for this demo we will stick to the default installation of sql map on my machine
 
-## Using sqlmap for the first time
+so now it's safe to assume that we've verified that we have a working installation of sql map and we've seen how to download the latest version let's go ahead and use sql map
+
 
 whenever I download new command line tools there are a few things that i like to do number one i like to open up the tools documentation which is usually on github at least for open source tools 
 
