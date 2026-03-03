@@ -168,7 +168,14 @@ so this information is returned since we specifically asked for database tables 
 
 now before we complete this section let me show you a quick way to bypass those really annoying prompts that have defaults using just a simple option this time let's also enumerate the database schema instead of tables just to switch it up a bit 
 
-so we'll do dash dash schema and then we will add dash dash batch adding that batch option is what's going to automatically use default behavior instead of asking for user input 
+so we'll do dash dash schema and then we will add dash dash batch 
+
+```shell
+┌──(kali㉿kali)-[~]
+└─$ sqlmap -u "http://127.0.0.1/vulnerabilities/sqli/?id=435&Submit=Submit#" --cookie="PHPSESSID=avv7jjurfmktgj260nourqsj76; security=low" --schema --batch 
+```
+
+adding that batch option is what's going to automatically use default behavior instead of asking for user input 
 
 so once we do that we can watch it do its thing and then it returns the results back containing the database schema 
 
