@@ -111,12 +111,12 @@ we actually have enough to issue our first command against a vulnerable target e
 
 first let's turn on our target environment
 
+we'll do a docker run of the vulnerables web dvwa 
+
 ```shell
 ┌──(kali㉿kali)-[~]
 └─$ docker run --rm -it -p 80:80 vulnerables/web-dvwa 
 ```
-
-we'll do a docker run of the vulnerables web dvwa 
 
 once that's up and running we want to log into the application with admin password then we'll create the database and then we will re-log in with the same credentials 
 
