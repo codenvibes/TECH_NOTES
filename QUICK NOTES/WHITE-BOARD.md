@@ -49,7 +49,7 @@ the term stable can mean a few different things when it comes to software and it
 
 and we can see that I'm using the latest version but if that was not the case you can go ahead and download the new version to your kali installation and to do that we can use a few different methods including downloading archives or by cloning the git repository a benefit of cloning the repository is that you can easily update your version by pulling changes through git at a later time versus if you downloaded an archive that archive is quote-unquote stuck in time so you'd have to regularly go back and download the latest archive in order to update that version so it's up to you 
 
-the cutting edge may have some unknown or known bugs but it also means that you get the latest features so it is a trade-off to be aware of and like I said the version that you choose is ultimately up to you 
+the cutting edge may have some bugs but it also means that you get the latest features so it is a trade-off to be aware of and like I said the version that you choose is ultimately up to you 
 
 for this demo we will stick to the default installation of sql map to minimize the risk of bugs and issues along the way but feel free to try using this latest version instead just be aware that there may be some slight differences so now that we've verified that we have a working installation of sql map and we've learned how to download the latest version let's go ahead and use sql map for the very first time
 
