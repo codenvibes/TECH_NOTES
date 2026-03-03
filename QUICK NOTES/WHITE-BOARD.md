@@ -145,6 +145,11 @@ so the php session id will look different on your machine than it does on mine s
 
 since we need to pass in cookie information to sql map let's go ahead and add that to our command so we'll reuse the command we just issued prior to this but then we'll add dash dash cookie equals and then in between quotes we'll put php sesh id exactly as it's spelt and then we will copy and paste after an equal sign then we'll put a semicolon symbol and then we will do security equals low and then again end quote 
 
+```shell
+┌──(kali㉿kali)-[~]
+└─$ sqlmap -u "http://127.0.0.1/vulnerabilities/sqli/?id=435&Submit=Submit#" --cookie="PHPSESSID=avv7jjurfmktgj260nourqsj76; security=low" --tables
+```
+
 so now that we've passed in the cookie sql map knows how to authenticate against this application and the application will let sql map request through so this should work now but let's add one more option to this command the dash dash tables this is an enumeration option that we saw from the help menu that gives sql map a specific task to perform so in this case the dash dash tables will make sql map enumerate the database tables meaning that it will crawl the database structure and information to find and then return the names of all the tables contained in this database so our final command looks like this 
 
 we'll press enter and we'll let it do its thing 
