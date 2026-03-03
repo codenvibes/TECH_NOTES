@@ -15,7 +15,7 @@
               {
                 "id": "eb7c5c7906b2a9d3",
                 "type": "tabs",
-                "dimension": 74.87012987012987,
+                "dimension": 37.077922077922075,
                 "children": [
                   {
                     "id": "10dd2c9178155b52",
@@ -101,7 +101,7 @@
               {
                 "id": "0d9688c0329c8d14",
                 "type": "tabs",
-                "dimension": 25.12987012987013,
+                "dimension": 62.922077922077925,
                 "children": [
                   {
                     "id": "21fce08000a30866",
@@ -503,13 +503,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "CYBER/04 EXPLOITATION/WEB_EXPLOITATION/SQL INJECTION.md",
+                "file": "QUICK NOTES/WHITE-BOARD.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of SQL INJECTION"
+              "title": "Outline of WHITE-BOARD"
             }
           },
           {
@@ -567,14 +567,14 @@
       "iconic:Open rulebook": false
     }
   },
-  "active": "180b670eb6aaa497",
+  "active": "21fce08000a30866",
   "lastOpenFiles": [
+    "CYBER/04 EXPLOITATION/WEB_EXPLOITATION/SQL INJECTION.md",
     "CYBER/08 TOOLS/SQLMAP/SQLMAP ESSENTIALS.md",
     "QUICK NOTES/WHITE-BOARD.md",
     "CYBER/08 TOOLS/SQLMAP/SQLMAP.md",
     "COURSES/MODULES.base",
     "TEMPLATES/HTBL WRITEUP.md",
-    "CYBER/04 EXPLOITATION/WEB_EXPLOITATION/SQL INJECTION.md",
     "CYBER/13 CTFS & LABS/HTB/WINGDATA.md",
     "CYBER/03 RECONNAISSANCE & ENUMERATION/00 ENUMERATION.md",
     "CYBER/08 TOOLS/BLOODHOUND.md",
