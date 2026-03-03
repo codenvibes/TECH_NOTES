@@ -354,12 +354,12 @@
                     "state": {
                       "type": "markdown",
                       "state": {
-                        "file": "CYBER/08 TOOLS/SQLMAP/SQLMAP ESSENTIALS.md",
+                        "file": "CYBER/04 EXPLOITATION/WEB_EXPLOITATION/SQL INJECTION.md",
                         "mode": "source",
                         "source": false
                       },
                       "icon": "lucide-file",
-                      "title": "SQLMAP ESSENTIALS"
+                      "title": "SQL INJECTION"
                     }
                   },
                   {
@@ -503,13 +503,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "CYBER/08 TOOLS/SQLMAP/SQLMAP ESSENTIALS.md",
+                "file": "CYBER/04 EXPLOITATION/WEB_EXPLOITATION/SQL INJECTION.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of SQLMAP ESSENTIALS"
+              "title": "Outline of SQL INJECTION"
             }
           },
           {
