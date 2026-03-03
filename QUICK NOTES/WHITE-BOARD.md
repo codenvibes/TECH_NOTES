@@ -101,4 +101,6 @@ then it will ask for injection difficulty which changes both the level and risk 
 
 and then again it asks us for enumeration we'll choose just the basic enumeration options at which point sql map will start to run but you'll see that it fails because again we have no environment running on our localhost but we get to see how it asks us questions to determine what it is that we need again this is just a simpler way of using the same options and commands that we would issue via the terminal instead so feel free to use the wizard throughout the demo if you'd like but we're basically not really going to use it instead we're going to go straight into using the options that are available to us 
 
-now that we've taken a look at the main available options to get us started in using sql map let's complete this lesson and let's move on to the next where we will apply what we just learned in order to issue our first sql map command and find as well as exploit our first sql injection with sql map so i'll see you there
+now that we've taken a look at the main available options to get us started in using sql map let's move on to applying what we just learned in order to issue our first sql map command and find as well as exploit our first sql injection with sql map 
+
+
