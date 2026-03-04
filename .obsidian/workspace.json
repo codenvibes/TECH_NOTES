@@ -57,12 +57,12 @@
                       "type": "webviewer",
                       "state": {
                         "url": "https://tryhackme.com/room/sqlmap",
-                        "title": "TryHackMe | SQLMAP",
-                        "mode": "webview"
+                        "title": "TryHackMe | Cyber Security Training",
+                        "mode": "blank"
                       },
                       "pinned": true,
                       "icon": "globe-2",
-                      "title": "TryHackMe | SQLMAP"
+                      "title": "TryHackMe | Cyber Security Training"
                     }
                   },
                   {
@@ -503,13 +503,12 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "CYBER/13 CTFS & LABS/HTB/WINGDATA.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of WINGDATA"
+              "title": "Outline"
             }
           },
           {
@@ -567,12 +566,12 @@
       "iconic:Open rulebook": false
     }
   },
-  "active": "3dbdf2692670b270",
+  "active": "1829a2d1d4c98997",
   "lastOpenFiles": [
+    "CYBER/13 CTFS & LABS/HTB/WINGDATA.md",
     "QUICK NOTES/WHITE-BOARD.md",
     "CYBER/08 TOOLS/SQLMAP/SQLMAP.md",
     "CYBER/08 TOOLS/SQLMAP/SQLMAP ESSENTIALS.md",
-    "CYBER/13 CTFS & LABS/HTB/WINGDATA.md",
     "CYBER/13 CTFS & LABS/HTB/WHIT.md",
     "CYBER/04 EXPLOITATION/WEB_EXPLOITATION/SQL INJECTION.md",
     "COURSES/MODULES.base",
