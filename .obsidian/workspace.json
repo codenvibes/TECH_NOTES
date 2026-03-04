@@ -50,6 +50,20 @@
                     }
                   },
                   {
+                    "id": "67bc1032adb5e955",
+                    "type": "leaf",
+                    "state": {
+                      "type": "webviewer",
+                      "state": {
+                        "url": "https://account.hackthebox.com/login",
+                        "title": "HTB Account",
+                        "mode": "webview"
+                      },
+                      "icon": "globe-2",
+                      "title": "HTB Account"
+                    }
+                  },
+                  {
                     "id": "e7c511dac942f49a",
                     "type": "leaf",
                     "pinned": true,
@@ -57,12 +71,12 @@
                       "type": "webviewer",
                       "state": {
                         "url": "https://tryhackme.com/room/sqlmap",
-                        "title": "TryHackMe | Cyber Security Training",
-                        "mode": "blank"
+                        "title": "TryHackMe | SQLMAP",
+                        "mode": "webview"
                       },
                       "pinned": true,
                       "icon": "globe-2",
-                      "title": "TryHackMe | Cyber Security Training"
+                      "title": "TryHackMe | SQLMAP"
                     }
                   },
                   {
@@ -96,7 +110,7 @@
                     }
                   }
                 ],
-                "currentTab": 1
+                "currentTab": 2
               },
               {
                 "id": "0d9688c0329c8d14",
@@ -566,7 +580,7 @@
       "iconic:Open rulebook": false
     }
   },
-  "active": "1829a2d1d4c98997",
+  "active": "67bc1032adb5e955",
   "lastOpenFiles": [
     "CYBER/13 CTFS & LABS/HTB/WINGDATA.md",
     "QUICK NOTES/WHITE-BOARD.md",
