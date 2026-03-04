@@ -1029,7 +1029,7 @@ wacky@wingdata:~$ cat /opt/backup_clients/restore_backup_clients.py
 <br>
 </div>
 
-#### 5.1.2 Script Analysis `restore_backup_clients.py`
+#### 5.1.2 Script Analysis (`restore_backup_clients.py`), Discovery and Vulnerability Research
 
 ```python
 #!/usr/bin/env python3
@@ -1122,7 +1122,9 @@ if __name__ == "__main__":
 <br>
 </div>
 
-#### 5.1.3 Discovery and Vulnerability Research
+#### 5.1.3 Designing the Exploit
+
+
 
 
 <div align="center">
