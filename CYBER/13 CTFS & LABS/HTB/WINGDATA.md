@@ -1025,7 +1025,7 @@ User wacky may run the following commands on wingdata:
 wacky@wingdata:~$ cat /opt/backup_clients/restore_backup_clients.py 
 ```
 
-```
+```python
 #!/usr/bin/env python3
 import tarfile
 import os
