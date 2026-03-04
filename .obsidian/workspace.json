@@ -42,7 +42,7 @@
                       "state": {
                         "url": "https://academy.hackthebox.com/app/module/58/section/517",
                         "title": "academy.hackthebox.com/app/module/58/section/517",
-                        "mode": "error"
+                        "mode": "webview"
                       },
                       "pinned": true,
                       "icon": "globe-2",
