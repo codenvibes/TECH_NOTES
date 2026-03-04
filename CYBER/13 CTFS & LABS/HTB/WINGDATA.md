@@ -988,7 +988,7 @@ wacky@wingdata:~$
 
 ### 5.1 PrivEsc Reconnaissance
 
-With a stable shell, you can now transition to searching for a path to escalate privileges to `root`. first goal is to see what "extra powers" I have. I check the sudoers policy to see if there are any cracks in the configuration.
+With a stable shell, you can now transition to searching for a path to escalate privileges to `root`. Our first goal is to see what "extra powers" we have. Check the sudoers policy to see if there are any cracks in the configuration.
 
 In the world of CTFs and penetration testing, the transition from "Initial Access" to "Root" is all about **System Enumeration**. You find the path forward by asking the system what it allows you to do.
 <div align="center">
