@@ -15,7 +15,7 @@
               {
                 "id": "eb7c5c7906b2a9d3",
                 "type": "tabs",
-                "dimension": 37.077922077922075,
+                "dimension": 42.79220779220779,
                 "children": [
                   {
                     "id": "10dd2c9178155b52",
@@ -55,12 +55,12 @@
                     "state": {
                       "type": "webviewer",
                       "state": {
-                        "url": "https://account.hackthebox.com/login",
-                        "title": "HTB Account",
+                        "url": "https://app.hackthebox.com/home",
+                        "title": "Hack The Box :: Home",
                         "mode": "webview"
                       },
                       "icon": "globe-2",
-                      "title": "HTB Account"
+                      "title": "Hack The Box :: Home"
                     }
                   },
                   {
@@ -115,7 +115,7 @@
               {
                 "id": "0d9688c0329c8d14",
                 "type": "tabs",
-                "dimension": 62.922077922077925,
+                "dimension": 57.20779220779221,
                 "children": [
                   {
                     "id": "21fce08000a30866",
@@ -140,11 +140,11 @@
                       "type": "webviewer",
                       "state": {
                         "url": "https://medium.com/@azab3962/wingdata-htb-season10-12c3c0ce8dbf",
-                        "title": "Wingdata writeup | HTB | Season10 | by Azab | Feb, 2026 | Medium",
+                        "title": "Just a moment...",
                         "mode": "webview"
                       },
                       "icon": "globe-2",
-                      "title": "Wingdata writeup | HTB | Season10 | by Azab | Feb, 2026 | Medium"
+                      "title": "Just a moment..."
                     }
                   },
                   {
@@ -169,7 +169,7 @@
                       "state": {
                         "url": "https://thecybersecguru.com/ctf-walkthroughs/mastering-interpreter-beginners-guide-from-hackthebox/",
                         "title": "Mastering Interpreter: Beginner's Guide from HackTheBox | The CyberSec Guru",
-                        "mode": "blank"
+                        "mode": "webview"
                       },
                       "icon": "globe-2",
                       "title": "Mastering Interpreter: Beginner's Guide from HackTheBox | The CyberSec Guru"
@@ -203,7 +203,8 @@
                       "title": "FACTS"
                     }
                   }
-                ]
+                ],
+                "currentTab": 3
               }
             ],
             "direction": "horizontal"
@@ -582,8 +583,8 @@
   },
   "active": "67bc1032adb5e955",
   "lastOpenFiles": [
-    "CYBER/13 CTFS & LABS/HTB/WINGDATA.md",
     "QUICK NOTES/WHITE-BOARD.md",
+    "CYBER/13 CTFS & LABS/HTB/WINGDATA.md",
     "CYBER/08 TOOLS/SQLMAP/SQLMAP.md",
     "CYBER/08 TOOLS/SQLMAP/SQLMAP ESSENTIALS.md",
     "CYBER/13 CTFS & LABS/HTB/WHIT.md",
