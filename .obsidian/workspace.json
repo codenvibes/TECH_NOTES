@@ -41,12 +41,12 @@
                       "type": "webviewer",
                       "state": {
                         "url": "https://academy.hackthebox.com/app/module/58/section/517",
-                        "title": "data:text/plain,",
-                        "mode": "blank"
+                        "title": "academy.hackthebox.com/app/module/58/section/517",
+                        "mode": "error"
                       },
                       "pinned": true,
                       "icon": "globe-2",
-                      "title": "data:text/plain,"
+                      "title": "academy.hackthebox.com/app/module/58/section/517"
                     }
                   },
                   {
