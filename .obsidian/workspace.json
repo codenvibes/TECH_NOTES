@@ -503,12 +503,13 @@
             "state": {
               "type": "outline",
               "state": {
+                "file": "QUICK NOTES/WHITE-BOARD.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline"
+              "title": "Outline of WHITE-BOARD"
             }
           },
           {
@@ -566,7 +567,7 @@
       "iconic:Open rulebook": false
     }
   },
-  "active": "1829a2d1d4c98997",
+  "active": "21fce08000a30866",
   "lastOpenFiles": [
     "QUICK NOTES/WHITE-BOARD.md",
     "CYBER/08 TOOLS/SQLMAP/SQLMAP.md",

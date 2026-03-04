@@ -30,7 +30,7 @@ I am documenting the ____ CTF challenge and need help converting my raw notes in
     - **Command:** `The Full Command`
     - **Breakdown:** > * `Flag/Component` 
 	    - **Description:** What it is
-	    - **Purpose:** [Why it was used in this specific CTF context].
+	    - **Purpose:** Why it was used in this specific CTF context.
 
 3. **Next Steps:** Conclude each entry by suggesting 3 logical next steps or common bypasses to move forward.
 
