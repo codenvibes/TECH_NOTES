@@ -15,7 +15,7 @@
               {
                 "id": "eb7c5c7906b2a9d3",
                 "type": "tabs",
-                "dimension": 77.66233766233766,
+                "dimension": 54.15584415584416,
                 "children": [
                   {
                     "id": "10dd2c9178155b52",
@@ -115,7 +115,7 @@
               {
                 "id": "0d9688c0329c8d14",
                 "type": "tabs",
-                "dimension": 22.337662337662337,
+                "dimension": 45.84415584415584,
                 "children": [
                   {
                     "id": "21fce08000a30866",
@@ -581,7 +581,7 @@
       "iconic:Open rulebook": false
     }
   },
-  "active": "3b8b4b24d88a173c",
+  "active": "02489c6cac03ca31",
   "lastOpenFiles": [
     "CYBER/13 CTFS & LABS/HTB/WINGDATA.md",
     "QUICK NOTES/WHITE-BOARD.md",
