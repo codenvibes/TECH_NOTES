@@ -1024,6 +1024,12 @@ User wacky may run the following commands on wingdata:
     (root) NOPASSWD: /usr/local/bin/python3 /opt/backup_clients/restore_backup_clients.py *
 wacky@wingdata:~$ cat /opt/backup_clients/restore_backup_clients.py 
 ```
+<div align="center">
+<br>
+<br>
+</div>
+
+#### 5.1.2
 
 ```python
 #!/usr/bin/env python3
@@ -1110,7 +1116,7 @@ if __name__ == "__main__":
 <br>
 </div>
 
-#### 5.1.2 Discovery and Vulnerability Research
+#### 5.1.3 Discovery and Vulnerability Research
 
 
 <div align="center">
