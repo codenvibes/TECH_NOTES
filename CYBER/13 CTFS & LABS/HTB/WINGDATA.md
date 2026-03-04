@@ -1016,8 +1016,6 @@ User wacky may run the following commands on wingdata:
 The `sudo -l` output reveals a powerful privilege escalation vector. The output shows you can execute a specific Python script as the root user without a password. The entry `(root) NOPASSWD: /usr/local/bin/python3 /opt/backup_clients/restore_backup_clients.py *` indicates that you can run the `python3` interpreter on a specific script with any arguments (represented by the `*` wildcard). That trailing `*` is a major security flaw, as it allows you to pass additional flags or arguments to the script or the Python interpreter if they are not handled securely.
 
 ```shell
-wacky@wingdata:~$ cat user.txt 
-b015a899fe39f20d49662508b1992ac5
 wacky@wingdata:~$ sudo -l
 Matching Defaults entries for wacky on wingdata:
     env_reset, mail_badpass, secure_path=/usr/local/sbin\:/usr/local/bin\:/usr/sbin\:/usr/bin\:/sbin\:/bin, use_pty
@@ -1025,6 +1023,9 @@ Matching Defaults entries for wacky on wingdata:
 User wacky may run the following commands on wingdata:
     (root) NOPASSWD: /usr/local/bin/python3 /opt/backup_clients/restore_backup_clients.py *
 wacky@wingdata:~$ cat /opt/backup_clients/restore_backup_clients.py 
+```
+
+```
 #!/usr/bin/env python3
 import tarfile
 import os
