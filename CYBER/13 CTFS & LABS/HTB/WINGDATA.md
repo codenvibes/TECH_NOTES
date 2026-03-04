@@ -1111,6 +1111,12 @@ def main():
 if __name__ == "__main__":
     main()
 ```
+
+- **The Sink:** It uses `tar.extractall(path=staging_dir, filter="data")`.
+    
+- **The Vulnerability:** The `*` in the sudoers entry means I can pass any filename.
+    
+- **The Security Filter:** The `filter="data"` is meant to stop "TarSlip" attacks by blocking links that point outside the destination folder.
 <div align="center">
 <br>
 <br>
