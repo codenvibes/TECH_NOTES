@@ -8,10 +8,10 @@ date:
 ---
 ## Summary
 
-| SECTION/TASK     | FLAG |
-| ---------------- | ---- |
-| Submit User Flag |      |
-| Submit Root Flag |      |
+| SECTION/TASK     | FLAG                             |
+| ---------------- | -------------------------------- |
+| Submit User Flag | 686f215a1ddfa587b49feaf734d81e36 |
+| Submit Root Flag |                                  |
 
 <div align="center">
 <br>
