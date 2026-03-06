@@ -88,7 +88,7 @@
                       "state": {
                         "url": "https://gemini.google.com/app/831834896c67b7bf",
                         "title": "Google Gemini",
-                        "mode": "blank"
+                        "mode": "webview"
                       },
                       "pinned": true,
                       "icon": "globe-2",
@@ -141,7 +141,7 @@
                       "state": {
                         "url": "https://medium.com/@azab3962/wingdata-htb-season10-12c3c0ce8dbf",
                         "title": "Wingdata writeup | HTB | Season10 | by Azab | Feb, 2026 | Medium",
-                        "mode": "blank"
+                        "mode": "webview"
                       },
                       "icon": "globe-2",
                       "title": "Wingdata writeup | HTB | Season10 | by Azab | Feb, 2026 | Medium"
