@@ -363,7 +363,7 @@ examuser:$y$j9T$ojp.We/iGt3o871xOUMVH/$gUDhgM5LwENmKQI1gjvGFRW0FU2Rp9tP1gC2Q0.pA
 examadmin:$y$j9T$TN4OaS/VTu1SaKDNlcwPA1$47G8q5/TJG0HOnXiCvRPuMyG/kki58ctxZs2Pbjnfc2:20510:0:99999:7:::
 ```
 
-```
+```shell
 examuser@midexam:~$ cat /etc/passwd
 root:x:0:0:root:/root:/bin/bash
 daemon:x:1:1:daemon:/usr/sbin:/usr/sbin/nologin
