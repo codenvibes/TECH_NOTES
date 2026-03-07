@@ -176,13 +176,11 @@ Protocol negotiation to server 4.180.20.166 (for a protocol between LANMAN1 and 
 Unable to connect with SMB1 -- no workgroup available
 ```
 
-7.      How many hidden shares are among the identified shares above? Name them. (2 mks)
-
-_Paste screenshot(s) demonstrating the answer here_
+7. How many hidden shares are among the identified shares above? Name them. (2 mks)
+	2
 
 8. What is the name of the share that is accessible? (2 mk)
 	CTFShare
-
 
 9.      Access the share using null authentication, what is the folder's name discovered within the share? (2 marks)
 
