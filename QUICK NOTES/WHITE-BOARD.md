@@ -46,7 +46,7 @@ I am documenting the ____ CTF challenge and need help converting my raw notes in
 
 
 
-1.      Conduct an Nmap scan on the provided Linux machine. Identify the open ports. (2 mks)
+1. Conduct an Nmap scan on the provided Linux machine. Identify the open ports. (2 mks)
 
 
 
