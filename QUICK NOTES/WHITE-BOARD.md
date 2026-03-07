@@ -67,7 +67,18 @@ Nmap done: 1 IP address (1 host up) scanned in 10.08 seconds
 2. Identify the service running on the second port from your nmap scan. What is the version of that service? (2mks)
 
 ```shell
+┌──(kali㉿kali)-[~]
+└─$ nmap -sV -p 80 4.180.20.166          
+Starting Nmap 7.98 ( https://nmap.org ) at 2026-03-07 04:25 -0500
+Nmap scan report for 4.180.20.166
+Host is up (0.016s latency).
 
+PORT   STATE SERVICE VERSION
+80/tcp open  http    nginx 1.24.0 (Ubuntu)
+Service Info: OS: Linux; CPE: cpe:/o:linux:linux_kernel
+
+Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+Nmap done: 1 IP address (1 host up) scanned in 8.49 seconds
 ```
 
 3.      There is a hidden flag in the webpage. Submit the contents of the flag (2 mks)
