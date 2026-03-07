@@ -83,11 +83,57 @@ Nmap done: 1 IP address (1 host up) scanned in 8.49 seconds
 
 3.      There is a hidden flag in the webpage. Submit the contents of the flag (2 mks)
 
-_Paste screenshot(s) demonstrating the answer here_
+```shell
+
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Cyber Resilience CTF — Exam Portal</title>
+  <style>
+    body { font-family: Inter, system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial; background:#0b1220; color:#e6eef8; margin:0; padding:3rem; }
+    .card { background: linear-gradient(180deg, rgba(255,255,255,0.02), rgba(255,255,255,0.01)); border:1px solid rgba(255,255,255,0.04); padding:2rem; border-radius:12px; max-width:900px; margin: 0 auto; box-shadow: 0 10px 30px rgba(0,0,0,0.6); }
+    h1 { margin-top:0; color:#a8d1ff;}
+    .hint { margin-top:1rem; color:#cbe6ff; font-size:0.95rem; }
+    footer { margin-top:2rem; font-size:0.8rem; color:#94b6df }
+    .banner { font-weight:600; color:#ffd47a; }
+  </style>
+</head>
+<body>
+  <div class="card">
+    <h1>Welcome to the Cyber Resilience Exam Portal</h1>
+    <p class="banner">Your task: enumerate services, extract flags, and document findings.</p>
+    <p>Start by scanning the host, checking open services, and inspecting any accessible shares. This portal is intentionally configured with multiple hints.</p>
+    <div class="hint">
+      Hint B: Console-savvy students should remember to check the browser console for additional leads.
+    </div>
+
+    <hr/>
+
+    <h3>Rules</h3>
+    <ol>
+      <li>Work only inside the designated directories and shares.</li>
+      <li>Do NOT attempt to break out of the environment.</li>
+      <li>Report any bugs to the exam admins.</li>
+    </ol>
+
+    <footer>Exam environment — do not share flags outside this exercise.</footer>
+  </div>
+
+  <!-- hidden flag: shujaa{v13w_s0urc3_m4st3r} -->
+
+  <script>
+    // Bonus flag for console hunters
+    console.log("shujaa{c0ns0l3_d3t3ct1v3}");
+  </script>
+</body>
+</html>
+```
 
 4.      Perform banner grabbing using netcat on port 1337. Submit the contents of the flag. (2marks)
 
-_Paste screenshot(s) demonstrating the answer here_
+
 
 5.      The same service is running on more than one port of the system. What is the version of the service? (2 mk)
 
