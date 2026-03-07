@@ -272,9 +272,20 @@ examuser@midexam:~$ cat flag.txt
 shujaa{w3lc0m3_t0_ssh_acc3ss}
 ```
 
-13.   In the user's home directory what is the name of the first hidden file owned by root. (1 mk)
+13. In the user's home directory what is the name of the first hidden file owned by root. (1 mk)
 
-_Paste screenshot(s) demonstrating the answer here_
+```shell
+/home/examuser
+examuser@midexam:~$ ls -la
+total 56
+drwxr-x--- 2 examuser examuser  4096 Mar  7 10:44 .
+drwxr-xr-x 5 root     root      4096 Feb 26 09:40 ..
+-r--r--r-- 1 root     root        33 Feb 26 09:41 .encoded
+---x--x--x 1 root     root     16328 Feb 26 09:41 checkflag
+---x--x--x 1 root     root     16216 Feb 26 09:41 checkifcompressed
+-r--r--r-- 1 root     root        30 Feb 26 09:41 flag.txt
+-r--r--r-- 1 root     root      6700 Feb 26 09:41 grepme.txt
+```
 
 14.   Retrieve the flag by decoding the contents of the file you found above. **[NB only use the terminal to solve this task]** (2mks)
 
