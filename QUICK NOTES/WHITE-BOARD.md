@@ -315,6 +315,12 @@ RESULT: shujaa{ch3ck_f1l3_c0nt3nt_succ3ss}\nexamuser@midexam:~$
 
 17.   Create a NEW file called "compressed.txt" with the content "zipmaster2024", compress it then run the binary in the user's home directory called "checkifcompressed" giving the name of your zip file as an argument. What is the flag? (3 mks)
 
+```shell
+examuser@midexam:~$ echo "zipmaster2024" > compressed.txt ; zip compressed.zip compressed.txt ; ./checkifcompressed compressed.zip
+  adding: compressed.txt (stored 0%)
+RESULT: shujaa{z1p_m4st3r_c0mpl3t3d}\nexamuser@midexam:~$ 
+```
+
 _Paste screenshot(s) demonstrating the answer here_
 
 18.  A misconfiguration is on the shadow file allowing users to read its contents. Retrieve both the password file passwd and the shadow file. (2 mks)
