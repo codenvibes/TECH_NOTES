@@ -305,7 +305,13 @@ shujaa{gr3p_m4st3r_f0und_m3}
 
 16.   Create a file with the content cybershujaa_exam, save the file, run the binary (checkflag) against your file and retrieve the flag. (3 mks)
 
-_Paste screenshot(s) demonstrating the answer here_
+```shell
+examuser@midexam:~$ vi file.txt
+examuser@midexam:~$ cat file.txt 
+cybershujaa_exam
+examuser@midexam:~$ ./checkflag file.txt 
+RESULT: shujaa{ch3ck_f1l3_c0nt3nt_succ3ss}\nexamuser@midexam:~$ 
+```
 
 17.   Create a NEW file called "compressed.txt" with the content "zipmaster2024", compress it then run the binary in the user's home directory called "checkifcompressed" giving the name of your zip file as an argument. What is the flag? (3 mks)
 
