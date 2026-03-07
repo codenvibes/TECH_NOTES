@@ -299,7 +299,8 @@ shujaa{64_d3c0d3d_fl4g}examuser@midexam:~$
 15.   Using grep, retrieve a flag hidden in the grepme.txt within the user's home directory (2 mks)
 
 ```shell
-
+examuser@midexam:~$ grep "shujaa" grepme.txt 
+shujaa{gr3p_m4st3r_f0und_m3}
 ```
 
 16.   Create a file with the content cybershujaa_exam, save the file, run the binary (checkflag) against your file and retrieve the flag. (3 mks)
