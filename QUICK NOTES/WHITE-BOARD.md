@@ -131,7 +131,7 @@ Nmap done: 1 IP address (1 host up) scanned in 8.49 seconds
 </html>
 ```
 
-4.      Perform banner grabbing using netcat on port 1337. Submit the contents of the flag. (2marks)
+4. Perform banner grabbing using netcat on port 1337. Submit the contents of the flag. (2marks)
 
 ```shell
 ┌──(kali㉿kali)-[~]
