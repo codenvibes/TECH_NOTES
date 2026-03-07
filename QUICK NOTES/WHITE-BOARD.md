@@ -321,8 +321,6 @@ examuser@midexam:~$ echo "zipmaster2024" > compressed.txt ; zip compressed.zip c
 RESULT: shujaa{z1p_m4st3r_c0mpl3t3d}\nexamuser@midexam:~$ 
 ```
 
-_Paste screenshot(s) demonstrating the answer here_
-
 18.  A misconfiguration is on the shadow file allowing users to read its contents. Retrieve both the password file passwd and the shadow file. (2 mks)
 
 19.  Unshadow and crack using John. What is the examadmin password? Use the provided wordlist. (2 mks) HINT: use the format –format=crypt
