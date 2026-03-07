@@ -207,6 +207,24 @@ smb: \> get confidential.zip
 getting file \confidential.zip of size 383 as confidential.zip (0.7 KiloBytes/sec) (average 0.7 KiloBytes/sec)
 ```
 
+```shell
+┌──(kali㉿kali)-[~/pueman/Shujaa]
+└─$ unzip confidential.zip 
+Archive:  confidential.zip
+ extracting: flag.txt                
+ extracting: creds.txt               
+                                                                                                                                                                                                                                            
+┌──(kali㉿kali)-[~/pueman/Shujaa]
+└─$ ls
+confidential.zip  creds.txt  flag.txt
+                                                                                                                                                                                                                                            
+┌──(kali㉿kali)-[~/pueman/Shujaa]
+└─$ cat creds.txt flag.txt 
+username: examuser
+password: Cyb3rShuj44!
+shujaa{smb_sh4r3_3numer4t3d}
+```
+
 11.   What is the exposed username and password? (1 mk)
 
 _Paste screenshot(s) demonstrating the answer here_
