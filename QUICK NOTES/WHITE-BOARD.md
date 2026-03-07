@@ -161,7 +161,20 @@ Nmap done: 1 IP address (1 host up) scanned in 24.44 seconds
 
 6.      Using smbclient tool, identify the available network shares (2 mks)
 
-_Paste screenshot(s) demonstrating the answer here_
+```shell
+┌──(kali㉿kali)-[~]
+└─$ smbclient -L 4.180.20.166 -N         
+
+        Sharename       Type      Comment
+        ---------       ----      -------
+        print$          Disk      Printer Drivers
+        CTFShare        Disk      CTF
+        IPC$            IPC       IPC Service (CTF Samba Server)
+Reconnecting with SMB1 for workgroup listing.
+smbXcli_negprot_smb1_done: No compatible protocol selected by server.
+Protocol negotiation to server 4.180.20.166 (for a protocol between LANMAN1 and NT1) failed: NT_STATUS_INVALID_NETWORK_RESPONSE
+Unable to connect with SMB1 -- no workgroup available
+```
 
 7.      How many hidden shares are among the identified shares above? Name them. (2 mks)
 
