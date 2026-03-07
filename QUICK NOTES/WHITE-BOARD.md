@@ -219,15 +219,18 @@ Archive:  confidential.zip
 confidential.zip  creds.txt  flag.txt
 
 ┌──(kali㉿kali)-[~/pueman/Shujaa]
-└─$ cat creds.txt flag.txt 
-username: examuser
-password: Cyb3rShuj44!
+└─$ cat flag.txt
 shujaa{smb_sh4r3_3numer4t3d}
 ```
 
-11.   What is the exposed username and password? (1 mk)
+11. What is the exposed username and password? (1 mk)
 
-_Paste screenshot(s) demonstrating the answer here_
+```shell
+┌──(kali㉿kali)-[~/pueman/Shujaa]
+└─$ cat creds.txt
+username: examuser
+password: Cyb3rShuj44!
+```
 
 12.   SSH into the machine and retrieve the flag in the user’s home directory. (2 mks)
 
