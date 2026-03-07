@@ -142,7 +142,22 @@ CTFService v1.2 - Welcome to the exam.\nFLAG: shujaa{n3tc4t_l1st3n3r_fl4g}\n^C
 
 5.      The same service is running on more than one port of the system. What is the version of the service? (2 mk)
 
-_Paste screenshot(s) demonstrating the answer here_
+```shell
+└─$ nmap -sV 4.180.20.166                 
+Starting Nmap 7.98 ( https://nmap.org ) at 2026-03-07 04:53 -0500
+Nmap scan report for 4.180.20.166
+Host is up (0.025s latency).
+Not shown: 996 filtered tcp ports (no-response)
+PORT    STATE SERVICE     VERSION
+22/tcp  open  ssh         OpenSSH 9.6p1 Ubuntu 3ubuntu13.14 (Ubuntu Linux; protocol 2.0)
+80/tcp  open  http        nginx 1.24.0 (Ubuntu)
+139/tcp open  netbios-ssn Samba smbd 4
+445/tcp open  netbios-ssn Samba smbd 4
+Service Info: OS: Linux; CPE: cpe:/o:linux:linux_kernel
+
+Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+Nmap done: 1 IP address (1 host up) scanned in 24.44 seconds
+```
 
 6.      Using smbclient tool, identify the available network shares (2 mks)
 
