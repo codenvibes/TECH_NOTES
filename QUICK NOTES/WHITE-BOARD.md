@@ -406,7 +406,21 @@ examuser@midexam:~$
 
 19. Unshadow and crack using John. What is the examadmin password? Use the provided wordlist. (2 mks) HINT: use the format –format=crypt
 
-```s
+```shell
+┌──(kali㉿kali)-[~/pueman/Shujaa]
+└─$ unshadow passwd shadow > crackme.txt ; john --format=crypt --wordlist=Wordlist.txt crackme.txt
+Warning: hash encoding string length 18, type id #0
+appears to be unsupported on this system; will not load such hashes.
+Using default input encoding: UTF-8
+Loaded 2 password hashes with 2 different salts (crypt, generic crypt(3) [?/64])
+Cost 1 (algorithm [1:descrypt 2:md5crypt 3:sunmd5 4:bcrypt 5:sha256crypt 6:sha512crypt]) is 0 for all loaded hashes
+Cost 2 (algorithm specific iterations) is 1 for all loaded hashes
+Will run 4 OpenMP threads
+Press 'q' or Ctrl-C to abort, almost any other key for status
+shujaa2024       (examadmin)     
+1g 0:00:00:25 DONE (2026-03-07 07:36) 0.03849g/s 155.6p/s 159.3c/s 159.3C/s multi..like
+Use the "--show" option to display all of the cracked passwords reliably
+Session completed. 
 ```
 
 20. Retrieve the  flag.txt from the examadmin user’s home directory. (2 mks)
