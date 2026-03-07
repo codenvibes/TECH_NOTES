@@ -15,7 +15,7 @@
               {
                 "id": "eb7c5c7906b2a9d3",
                 "type": "tabs",
-                "dimension": 83.57142857142857,
+                "dimension": 40.714285714285715,
                 "children": [
                   {
                     "id": "10dd2c9178155b52",
@@ -109,13 +109,12 @@
                       "title": "CyberGame 2026 - Kenya"
                     }
                   }
-                ],
-                "currentTab": 4
+                ]
               },
               {
                 "id": "0d9688c0329c8d14",
                 "type": "tabs",
-                "dimension": 16.428571428571427,
+                "dimension": 59.285714285714285,
                 "children": [
                   {
                     "id": "21fce08000a30866",
@@ -203,8 +202,7 @@
                       "title": "FACTS"
                     }
                   }
-                ],
-                "currentTab": 1
+                ]
               }
             ],
             "direction": "horizontal"
@@ -518,13 +516,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "CYBER/13 CTFS & LABS/HTB/WINGDATA.md",
+                "file": "QUICK NOTES/WHITE-BOARD.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of WINGDATA"
+              "title": "Outline of WHITE-BOARD"
             }
           },
           {
@@ -582,8 +580,9 @@
       "iconic:Open rulebook": false
     }
   },
-  "active": "3dbdf2692670b270",
+  "active": "21fce08000a30866",
   "lastOpenFiles": [
+    "QUICK NOTES/TODO.md",
     "CYBER/13 CTFS & LABS/HTB/WINGDATA.md",
     "QUICK NOTES/WHITE-BOARD.md",
     "CYBER/08 TOOLS/SQLMAP/SQLMAP.md",
@@ -595,7 +594,6 @@
     "CYBER/03 RECONNAISSANCE & ENUMERATION/00 ENUMERATION.md",
     "CYBER/08 TOOLS/BLOODHOUND.md",
     "CYBER/08 TOOLS/PYTHON/IMPACKET.md",
-    "QUICK NOTES/TODO.md",
     "CYBER/13 CTFS & LABS/HTB/FACTS.md",
     "TEMPLATES/PAGE BREAK.md",
     "ASSETS/Pasted image 20260301185221.png",
