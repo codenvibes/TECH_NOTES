@@ -287,7 +287,7 @@ drwxr-xr-x 5 root     root      4096 Feb 26 09:40 ..
 -r--r--r-- 1 root     root      6700 Feb 26 09:41 grepme.txt
 ```
 
-14.   Retrieve the flag by decoding the contents of the file you found above. **[NB only use the terminal to solve this task]** (2mks)
+14.   Retrieve the flag by decoding the contents of the file you found above. **NB only use the terminal to solve this task** (2mks)
 
 _Paste screenshot(s) demonstrating the answer here_
 
