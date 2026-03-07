@@ -182,9 +182,20 @@ Unable to connect with SMB1 -- no workgroup available
 8. What is the name of the share that is accessible? (2 mk)
 	CTFShare
 
-9.      Access the share using null authentication, what is the folder's name discovered within the share? (2 marks)
+9. Access the share using null authentication, what is the folder's name discovered within the share? (2 marks)
 
-_Paste screenshot(s) demonstrating the answer here_
+```shell
+┌──(kali㉿kali)-[~]
+└─$ smbclient //4.180.20.166/CTFShare -N 
+Try "help" to get a list of possible commands.
+smb: \> ls
+  .                                   D        0  Thu Feb 26 04:40:59 2026
+  ..                                  D        0  Thu Feb 26 04:40:59 2026
+  confidential.zip                    N      383  Thu Feb 26 04:40:59 2026
+
+                29379712 blocks of size 1024. 26685792 blocks available
+smb: \> 
+```
 
 10.   Download and unpack the files inside the folder and read the contents. Submit the contents of the flag (2 mks)
 
