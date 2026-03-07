@@ -289,7 +289,12 @@ drwxr-xr-x 5 root     root      4096 Feb 26 09:40 ..
 
 14.   Retrieve the flag by decoding the contents of the file you found above. **NB only use the terminal to solve this task** (2mks)
 
-_Paste screenshot(s) demonstrating the answer here_
+```shell
+examuser@midexam:~$ cat .encoded
+c2h1amFhezY0X2QzYzBkM2RfZmw0Z30=
+examuser@midexam:~$ cat .encoded | base64 -d
+shujaa{64_d3c0d3d_fl4g}examuser@midexam:~$ 
+```
 
 15.   Using grep, retrieve a flag hidden in the grepme.txt within the user's home directory (2 mks)
 
