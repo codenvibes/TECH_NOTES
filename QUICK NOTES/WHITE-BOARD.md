@@ -406,7 +406,8 @@ examuser@midexam:~$
 
 19. Unshadow and crack using John. What is the examadmin password? Use the provided wordlist. (2 mks) HINT: use the format –format=crypt
 
-_Paste screenshot(s) demonstrating the answer here_
+```s
+```
 
 20. Retrieve the  flag.txt from the examadmin user’s home directory. (2 mks)
 
