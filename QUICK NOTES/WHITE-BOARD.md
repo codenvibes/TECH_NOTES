@@ -133,7 +133,12 @@ Nmap done: 1 IP address (1 host up) scanned in 8.49 seconds
 
 4.      Perform banner grabbing using netcat on port 1337. Submit the contents of the flag. (2marks)
 
-
+```shell
+┌──(kali㉿kali)-[~]
+└─$ nc -vn 4.180.20.166 1337
+(UNKNOWN) [4.180.20.166] 1337 (?) open
+CTFService v1.2 - Welcome to the exam.\nFLAG: shujaa{n3tc4t_l1st3n3r_fl4g}\n^C
+```
 
 5.      The same service is running on more than one port of the system. What is the version of the service? (2 mk)
 
