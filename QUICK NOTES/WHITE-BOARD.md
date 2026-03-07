@@ -180,9 +180,9 @@ Unable to connect with SMB1 -- no workgroup available
 
 _Paste screenshot(s) demonstrating the answer here_
 
-8.      What is the name of the share that is accessible? (2 mk)
+8. What is the name of the share that is accessible? (2 mk)
+	CTFShare
 
-_Paste screenshot(s) demonstrating the answer here_
 
 9.      Access the share using null authentication, what is the folder's name discovered within the share? (2 marks)
 
