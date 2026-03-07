@@ -48,11 +48,27 @@ I am documenting the ____ CTF challenge and need help converting my raw notes in
 
 1. Conduct an Nmap scan on the provided Linux machine. Identify the open ports. (2 mks)
 
+```shell
+┌──(kali㉿kali)-[~]
+└─$ nmap 4.180.20.166    
+Starting Nmap 7.98 ( https://nmap.org ) at 2026-03-07 04:24 -0500
+Nmap scan report for 4.180.20.166
+Host is up (0.027s latency).
+Not shown: 996 filtered tcp ports (no-response)
+PORT    STATE SERVICE
+22/tcp  open  ssh
+80/tcp  open  http
+139/tcp open  netbios-ssn
+445/tcp open  microsoft-ds
 
+Nmap done: 1 IP address (1 host up) scanned in 10.08 seconds
+```
 
-2.      Identify the service running on the second port from your nmap scan. What is the version of that service? (2mks)
+2. Identify the service running on the second port from your nmap scan. What is the version of that service? (2mks)
 
-_Paste screenshot(s) demonstrating the answer here_
+```shell
+
+```
 
 3.      There is a hidden flag in the webpage. Submit the contents of the flag (2 mks)
 
