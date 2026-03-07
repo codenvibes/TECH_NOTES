@@ -270,7 +270,6 @@ examuser@midexam:~$ ls
 checkflag  checkifcompressed  flag.txt  grepme.txt
 examuser@midexam:~$ cat flag.txt 
 shujaa{w3lc0m3_t0_ssh_acc3ss}
-examuser@midexam:~$ 
 ```
 
 13.   In the user's home directory what is the name of the first hidden file owned by root. (1 mk)
