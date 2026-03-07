@@ -232,9 +232,10 @@ username: examuser
 password: Cyb3rShuj44!
 ```
 
-12.   SSH into the machine and retrieve the flag in the user’s home directory. (2 mks)
+12. SSH into the machine and retrieve the flag in the user’s home directory. (2 mks)
 
-_Paste screenshot(s) demonstrating the answer here_
+```
+```
 
 13.   In the user's home directory what is the name of the first hidden file owned by root. (1 mk)
 
