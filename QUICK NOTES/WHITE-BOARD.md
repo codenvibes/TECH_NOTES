@@ -213,11 +213,11 @@ getting file \confidential.zip of size 383 as confidential.zip (0.7 KiloBytes/se
 Archive:  confidential.zip
  extracting: flag.txt                
  extracting: creds.txt               
-                                                                                                                                                                                                                                            
+
 ┌──(kali㉿kali)-[~/pueman/Shujaa]
 └─$ ls
 confidential.zip  creds.txt  flag.txt
-                                                                                                                                                                                                                                            
+
 ┌──(kali㉿kali)-[~/pueman/Shujaa]
 └─$ cat creds.txt flag.txt 
 username: examuser
