@@ -425,4 +425,15 @@ Session completed.
 
 20. Retrieve the  flag.txt from the examadmin user’s home directory. (2 mks)
 
-_Paste screenshot(s) demonstrating the answer here_
+```shell
+examuser@midexam:~$ su examadmin
+Password: 
+examadmin@midexam:/home/examuser$ ls
+ls: cannot open directory '.': Permission denied
+examadmin@midexam:/home/examuser$ cd 
+examadmin@midexam:~$ ls
+flag.txt
+examadmin@midexam:~$ cat flag.txt
+shujaa{r00t_pr1v_3sc4l4t10n_m4st3r}
+examadmin@midexam:~$ 
+```
