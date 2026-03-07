@@ -234,7 +234,43 @@ password: Cyb3rShuj44!
 
 12. SSH into the machine and retrieve the flag in the user’s home directory. (2 mks)
 
-```
+```shell
+┌──(kali㉿kali)-[~/pueman/Shujaa]
+└─$ ssh examuser@4.180.20.166
+examuser@4.180.20.166's password: 
+Welcome to Ubuntu 24.04.3 LTS (GNU/Linux 6.17.0-1008-azure x86_64)
+
+ * Documentation:  https://help.ubuntu.com
+ * Management:     https://landscape.canonical.com
+ * Support:        https://ubuntu.com/pro
+
+ System information as of Sat Mar  7 10:41:02 UTC 2026
+
+  System load:  0.13              Processes:             134
+  Usage of /:   9.1% of 28.02GB   Users logged in:       0
+  Memory usage: 4%                IPv4 address for eth0: 172.16.0.4
+  Swap usage:   0%
+
+ * Strictly confined Kubernetes makes edge and IoT secure. Learn how MicroK8s
+   just raised the bar for easy, resilient and secure K8s cluster deployment.
+
+   https://ubuntu.com/engage/secure-kubernetes-at-the-edge
+
+Expanded Security Maintenance for Applications is not enabled.
+
+16 updates can be applied immediately.
+To see these additional updates run: apt list --upgradable
+
+Enable ESM Apps to receive additional future security updates.
+See https://ubuntu.com/esm or run: sudo pro status
+
+
+Last login: Sat Mar  7 10:41:03 2026 from 102.216.86.189
+examuser@midexam:~$ ls
+checkflag  checkifcompressed  flag.txt  grepme.txt
+examuser@midexam:~$ cat flag.txt 
+shujaa{w3lc0m3_t0_ssh_acc3ss}
+examuser@midexam:~$ 
 ```
 
 13.   In the user's home directory what is the name of the first hidden file owned by root. (1 mk)
