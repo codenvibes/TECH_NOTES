@@ -197,9 +197,15 @@ smb: \> ls
 smb: \> 
 ```
 
-10.   Download and unpack the files inside the folder and read the contents. Submit the contents of the flag (2 mks)
+10. Download and unpack the files inside the folder and read the contents. Submit the contents of the flag (2 mks)
 
-_Paste screenshot(s) demonstrating the answer here_
+```shell
+┌──(kali㉿kali)-[~]
+└─$ smbclient //4.180.20.166/CTFShare -N
+Try "help" to get a list of possible commands.
+smb: \> get confidential.zip
+getting file \confidential.zip of size 383 as confidential.zip (0.7 KiloBytes/sec) (average 0.7 KiloBytes/sec)
+```
 
 11.   What is the exposed username and password? (1 mk)
 
