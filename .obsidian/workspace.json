@@ -517,13 +517,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "QUICK NOTES/WHITE-BOARD.md",
+                "file": "CYBER/13 CTFS & LABS/HTB/WINGDATA.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of WHITE-BOARD"
+              "title": "Outline of WINGDATA"
             }
           },
           {
@@ -581,7 +581,7 @@
       "iconic:Open rulebook": false
     }
   },
-  "active": "21fce08000a30866",
+  "active": "3dbdf2692670b270",
   "lastOpenFiles": [
     "QUICK NOTES/WHITE-BOARD.md",
     "QUICK NOTES/TODO.md",
