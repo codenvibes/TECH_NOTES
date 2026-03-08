@@ -581,13 +581,52 @@
       "iconic:Open rulebook": false
     }
   },
+  "floating": {
+    "id": "18a0c0e0668cb353",
+    "type": "floating",
+    "children": [
+      {
+        "id": "86308e7431ff6ee1",
+        "type": "window",
+        "children": [
+          {
+            "id": "1c3353b37eff8bd2",
+            "type": "tabs",
+            "children": [
+              {
+                "id": "04ca938033945a6a",
+                "type": "leaf",
+                "state": {
+                  "type": "webviewer",
+                  "state": {
+                    "url": "https://github.com/mayurankv/Obsidian-Code-Styler",
+                    "title": "GitHub - mayurankv/Obsidian-Code-Styler: A plugin for Obsidian.md for styling codeblocks and inline code · GitHub",
+                    "mode": "blank"
+                  },
+                  "icon": "globe-2",
+                  "title": "GitHub - mayurankv/Obsidian-Code-Styler: A plugin for Obsidian.md for styling codeblocks and inline code · GitHub"
+                }
+              }
+            ]
+          }
+        ],
+        "direction": "vertical",
+        "x": -1132,
+        "y": 250,
+        "width": 1024,
+        "height": 801,
+        "maximize": false,
+        "zoom": 0
+      }
+    ]
+  },
   "active": "180b670eb6aaa497",
   "lastOpenFiles": [
+    "CYBER/08 TOOLS/SQLMAP/SQLMAP ESSENTIALS.md",
     "QUICK NOTES/WHITE-BOARD.md",
     "CYBER/13 CTFS & LABS/HTB/WINGDATA.md",
     "QUICK NOTES/TODO.md",
     "CYBER/08 TOOLS/SQLMAP/SQLMAP.md",
-    "CYBER/08 TOOLS/SQLMAP/SQLMAP ESSENTIALS.md",
     "CYBER/13 CTFS & LABS/HTB/WHIT.md",
     "CYBER/04 EXPLOITATION/WEB_EXPLOITATION/SQL INJECTION.md",
     "COURSES/MODULES.base",
