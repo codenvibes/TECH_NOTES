@@ -334,7 +334,7 @@
       },
       "highlights": {
         "activeCodeblockLine": false,
-        "activeEditorLine": true
+        "activeEditorLine": false
       },
       "inline": {
         "syntaxHighlight": true,
