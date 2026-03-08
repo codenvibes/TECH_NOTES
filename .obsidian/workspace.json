@@ -15,7 +15,7 @@
               {
                 "id": "eb7c5c7906b2a9d3",
                 "type": "tabs",
-                "dimension": 48.37662337662338,
+                "dimension": 48.37662337662337,
                 "children": [
                   {
                     "id": "10dd2c9178155b52",
@@ -88,7 +88,7 @@
                       "state": {
                         "url": "https://gemini.google.com/app/6035ab1d3b93cf5d",
                         "title": "Google Gemini",
-                        "mode": "webview"
+                        "mode": "blank"
                       },
                       "pinned": true,
                       "icon": "globe-2",
