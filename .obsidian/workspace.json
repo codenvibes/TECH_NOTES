@@ -391,7 +391,7 @@
                     }
                   }
                 ],
-                "currentTab": 1
+                "currentTab": 2
               }
             ],
             "direction": "horizontal"
@@ -517,13 +517,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "QUICK NOTES/WHITE-BOARD.md",
+                "file": "CYBER/08 TOOLS/SQLMAP/SQLMAP ESSENTIALS.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of WHITE-BOARD"
+              "title": "Outline of SQLMAP ESSENTIALS"
             }
           },
           {
@@ -581,10 +581,10 @@
       "iconic:Open rulebook": false
     }
   },
-  "active": "21fce08000a30866",
+  "active": "180b670eb6aaa497",
   "lastOpenFiles": [
-    "CYBER/13 CTFS & LABS/HTB/WINGDATA.md",
     "QUICK NOTES/WHITE-BOARD.md",
+    "CYBER/13 CTFS & LABS/HTB/WINGDATA.md",
     "QUICK NOTES/TODO.md",
     "CYBER/08 TOOLS/SQLMAP/SQLMAP.md",
     "CYBER/08 TOOLS/SQLMAP/SQLMAP ESSENTIALS.md",

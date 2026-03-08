@@ -14,7 +14,7 @@ It is very common for such web applications to improperly implement calls to the
 
 SQLMap is an automated tool specializing in automating SQL injection discovery and exploitation, making it very trivial for pentesters to discover and exploit SQL injection vulnerabilities.
 
-In the `SQLMap Essentials` module, you will learn the basics of using SQLMap to discover various types of SQL injection vulnerabilities, all the way to advanced database enumeration and retrieval of interesting data.
+In the SQLMap Essentials module, you will learn the basics of using SQLMap to discover various types of SQL injection vulnerabilities, all the way to advanced database enumeration and retrieval of interesting data.
 
 In this module, we will cover:
 
