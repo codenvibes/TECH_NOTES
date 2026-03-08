@@ -517,13 +517,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "CYBER/13 CTFS & LABS/HTB/WINGDATA.md",
+                "file": "QUICK NOTES/WHITE-BOARD.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of WINGDATA"
+              "title": "Outline of WHITE-BOARD"
             }
           },
           {
@@ -581,49 +581,10 @@
       "iconic:Open rulebook": false
     }
   },
-  "floating": {
-    "id": "18a0c0e0668cb353",
-    "type": "floating",
-    "children": [
-      {
-        "id": "7897f738e7fe150a",
-        "type": "window",
-        "children": [
-          {
-            "id": "7330de7b740207b2",
-            "type": "tabs",
-            "children": [
-              {
-                "id": "f1fafbbb1a29ea68",
-                "type": "leaf",
-                "state": {
-                  "type": "markdown",
-                  "state": {
-                    "file": "CYBER/13 CTFS & LABS/HTB/WINGDATA.md",
-                    "mode": "source",
-                    "source": false
-                  },
-                  "icon": "lucide-file",
-                  "title": "WINGDATA"
-                }
-              }
-            ]
-          }
-        ],
-        "direction": "vertical",
-        "x": 448,
-        "y": 140,
-        "width": 1024,
-        "height": 800,
-        "maximize": false,
-        "zoom": 0
-      }
-    ]
-  },
-  "active": "f1fafbbb1a29ea68",
+  "active": "21fce08000a30866",
   "lastOpenFiles": [
-    "QUICK NOTES/WHITE-BOARD.md",
     "CYBER/13 CTFS & LABS/HTB/WINGDATA.md",
+    "QUICK NOTES/WHITE-BOARD.md",
     "QUICK NOTES/TODO.md",
     "CYBER/08 TOOLS/SQLMAP/SQLMAP.md",
     "CYBER/08 TOOLS/SQLMAP/SQLMAP ESSENTIALS.md",
