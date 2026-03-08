@@ -172,7 +172,7 @@ The technique characters `BEUSTQ` refers to the following:
 
 Example of `Boolean-based blind SQL Injection`:
 
-```SQL
+``` SQL
 `AND 1=1`
 ```
 

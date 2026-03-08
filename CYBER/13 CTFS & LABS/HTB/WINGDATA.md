@@ -355,7 +355,7 @@ Poc Audit:
 └─$ cat CVE-2025-47812.py  
 ```
 
-```python
+``` python
 # Exploit Title: Wing FTP Server 7.4.3 - Unauthenticated Remote Code Execution (RCE)
 # CVE: CVE-2025-47812
 # Date: 2025-06-30
