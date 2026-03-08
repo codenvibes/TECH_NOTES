@@ -101,7 +101,7 @@ as:
 
 SQLMap is pre-installed on your Pwnbox, and the majority of security-focused operating systems. SQLMap is also found on many Linux Distributions' libraries. For example, on Debian, it can be installed with:
 
-```[shell](title:/etc/ssh/sshd/config.cong)
+``` shell
 adampueman@htb[/htb]$ sudo apt install sqlmap
 ```
 
