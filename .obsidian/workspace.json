@@ -55,12 +55,12 @@
                     "state": {
                       "type": "webviewer",
                       "state": {
-                        "url": "https://app.hackthebox.com/home",
-                        "title": "Hack The Box :: Home",
+                        "url": "https://app.hackthebox.com/seasonal?tab=overview&season_id=13",
+                        "title": "Hack The Box :: Seasonal",
                         "mode": "webview"
                       },
                       "icon": "globe-2",
-                      "title": "Hack The Box :: Home"
+                      "title": "Hack The Box :: Seasonal"
                     }
                   },
                   {
@@ -88,7 +88,7 @@
                       "state": {
                         "url": "https://gemini.google.com/app/6035ab1d3b93cf5d",
                         "title": "Google Gemini",
-                        "mode": "blank"
+                        "mode": "webview"
                       },
                       "pinned": true,
                       "icon": "globe-2",
@@ -110,7 +110,7 @@
                     }
                   }
                 ],
-                "currentTab": 4
+                "currentTab": 2
               },
               {
                 "id": "0d9688c0329c8d14",
@@ -517,13 +517,12 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "QUICK NOTES/WHITE-BOARD.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of WHITE-BOARD"
+              "title": "Outline"
             }
           },
           {
@@ -581,11 +580,11 @@
       "iconic:Open rulebook": false
     }
   },
-  "active": "21fce08000a30866",
+  "active": "67bc1032adb5e955",
   "lastOpenFiles": [
+    "QUICK NOTES/WHITE-BOARD.md",
     "CYBER/13 CTFS & LABS/HTB/WINGDATA.md",
     "CYBER/08 TOOLS/SQLMAP/SQLMAP ESSENTIALS.md",
-    "QUICK NOTES/WHITE-BOARD.md",
     "QUICK NOTES/TODO.md",
     "CYBER/08 TOOLS/SQLMAP/SQLMAP.md",
     "CYBER/13 CTFS & LABS/HTB/WHIT.md",
