@@ -51,13 +51,13 @@ Output:
 
 ```shell
 ┌──(kali㉿kali)-[~/pueman/HTB]
-└─$ ping -c 4 10.129.6.232 
-PING 10.129.6.232 (10.129.6.232) 56(84) bytes of data.
-64 bytes from 10.129.6.232: icmp_seq=2 ttl=63 time=259 ms
-64 bytes from 10.129.6.232: icmp_seq=3 ttl=63 time=263 ms
-64 bytes from 10.129.6.232: icmp_seq=4 ttl=63 time=261 ms
+└─$ ping -c 4 TARGET_IP 
+PING TARGET_IP (TARGET_IP) 56(84) bytes of data.
+64 bytes from TARGET_IP: icmp_seq=2 ttl=63 time=259 ms
+64 bytes from TARGET_IP: icmp_seq=3 ttl=63 time=263 ms
+64 bytes from TARGET_IP: icmp_seq=4 ttl=63 time=261 ms
 
---- 10.129.6.232 ping statistics ---
+--- TARGET_IP ping statistics ---
 4 packets transmitted, 3 received, 25% packet loss, time 3017ms
 rtt min/avg/max/mdev = 259.453/261.036/262.504/1.248 ms
 ```
@@ -102,10 +102,10 @@ Output:
 
 ```shell
 ┌──(kali㉿kali)-[~/pueman/HTB]
-└─$ nmap -p- --min-rate 5000 -Pn 10.129.6.232
+└─$ nmap -p- --min-rate 5000 -Pn TARGET_IP
 Starting Nmap 7.98 ( https://nmap.org ) at 2026-03-11 11:09 -0400
-Warning: 10.129.6.232 giving up on port because retransmission cap hit (10).
-Nmap scan report for 10.129.6.232
+Warning: TARGET_IP giving up on port because retransmission cap hit (10).
+Nmap scan report for TARGET_IP
 Host is up (0.28s latency).
 Not shown: 63386 closed tcp ports (reset), 2147 filtered tcp ports (no-response)
 PORT   STATE SERVICE
@@ -139,9 +139,9 @@ Output:
 
 ```shell
 ┌──(kali㉿kali)-[~/pueman/HTB]
-└─$ nmap -A -p 22,80 10.129.6.232            
+└─$ nmap -A -p 22,80 TARGET_IP            
 Starting Nmap 7.98 ( https://nmap.org ) at 2026-03-11 11:11 -0400
-Nmap scan report for 10.129.6.232
+Nmap scan report for TARGET_IP
 Host is up (0.26s latency).
 
 PORT   STATE SERVICE VERSION
@@ -161,11 +161,10 @@ Service Info: Host: default; OS: Linux; CPE: cpe:/o:linux:linux_kernel
 TRACEROUTE (using port 80/tcp)
 HOP RTT       ADDRESS
 1   259.85 ms 10.10.14.1
-2   256.54 ms 10.129.6.232
+2   256.54 ms TARGET_IP
 
 OS and Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
-Nmap done: 1 IP address (1 host up) scanned in 87.47 seconds
-                                     
+Nmap done: 1 IP address (1 host up) scanned in 87.47 seconds   
 ```
 <div align="center">
 <br>
