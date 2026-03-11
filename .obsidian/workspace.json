@@ -55,12 +55,12 @@
                     "state": {
                       "type": "webviewer",
                       "state": {
-                        "url": "https://app.hackthebox.com/seasonal?tab=overview&season_id=13",
-                        "title": "Hack The Box",
+                        "url": "https://app.hackthebox.com/machines/CCTV?sort_by=created_at&sort_type=desc",
+                        "title": "Hack The Box :: CCTV Machine",
                         "mode": "webview"
                       },
                       "icon": "globe-2",
-                      "title": "Hack The Box"
+                      "title": "Hack The Box :: CCTV Machine"
                     }
                   },
                   {
@@ -327,7 +327,7 @@
                     }
                   }
                 ],
-                "currentTab": 1
+                "currentTab": 3
               },
               {
                 "id": "ebc3d89584b2ffd8",
@@ -517,12 +517,13 @@
             "state": {
               "type": "outline",
               "state": {
+                "file": "CYBER/13 CTFS & LABS/CTFS & LABS.base",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline"
+              "title": "Outline of CTFS & LABS"
             }
           },
           {
@@ -580,7 +581,7 @@
       "iconic:Open rulebook": false
     }
   },
-  "active": "67bc1032adb5e955",
+  "active": "c70fde05d4631946",
   "lastOpenFiles": [
     "QUICK NOTES/WHITE-BOARD.md",
     "CYBER/13 CTFS & LABS/HTB/WINGDATA.md",
