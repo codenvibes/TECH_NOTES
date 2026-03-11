@@ -101,7 +101,18 @@ Breakdown:
 Output:
 
 ```shell
+┌──(kali㉿kali)-[~/pueman/HTB]
+└─$ nmap -p- --min-rate 5000 -Pn 10.129.6.232
+Starting Nmap 7.98 ( https://nmap.org ) at 2026-03-11 11:09 -0400
+Warning: 10.129.6.232 giving up on port because retransmission cap hit (10).
+Nmap scan report for 10.129.6.232
+Host is up (0.28s latency).
+Not shown: 63386 closed tcp ports (reset), 2147 filtered tcp ports (no-response)
+PORT   STATE SERVICE
+22/tcp open  ssh
+80/tcp open  http
 
+Nmap done: 1 IP address (1 host up) scanned in 56.22 seconds
 ```
 <div align="center">
 <br>
