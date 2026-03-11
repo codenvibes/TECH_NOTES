@@ -56,11 +56,11 @@
                       "type": "webviewer",
                       "state": {
                         "url": "https://app.hackthebox.com/seasonal?tab=overview&season_id=13",
-                        "title": "Hack The Box :: Seasonal",
+                        "title": "Hack The Box",
                         "mode": "webview"
                       },
                       "icon": "globe-2",
-                      "title": "Hack The Box :: Seasonal"
+                      "title": "Hack The Box"
                     }
                   },
                   {
