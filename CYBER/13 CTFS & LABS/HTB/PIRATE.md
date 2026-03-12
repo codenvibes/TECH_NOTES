@@ -66,11 +66,11 @@ Output:
 ```shell
 ┌──(kali㉿kali)-[~/PUEMAN/HTB]
 └─$ ping -c 4 TARGET_IP                                            
-PING TARGET_IP(10.129.5.173) 56(84) bytes of data.
-64 bytes from 10.129.5.173: icmp_seq=1 ttl=127 time=538 ms
-64 bytes from 10.129.5.173: icmp_seq=2 ttl=127 time=527 ms
-64 bytes from 10.129.5.173: icmp_seq=3 ttl=127 time=524 ms
-64 bytes from 10.129.5.173: icmp_seq=4 ttl=127 time=525 ms
+PING TARGET_IP(TARGET_IP) 56(84) bytes of data.
+64 bytes from TARGET_IP: icmp_seq=1 ttl=127 time=538 ms
+64 bytes from TARGET_IP: icmp_seq=2 ttl=127 time=527 ms
+64 bytes from TARGET_IP: icmp_seq=3 ttl=127 time=524 ms
+64 bytes from TARGET_IP: icmp_seq=4 ttl=127 time=525 ms
 
 --- TARGET_IPping statistics ---
 4 packets transmitted, 4 received, 0% packet loss, time 3008ms
@@ -120,9 +120,9 @@ Output:
 
 ```shell
 ┌──(kali㉿kali)-[~/PUEMAN/HTB/SN10/Pirate]
-└─$ nmap -p- --min-rate 5000 -Pn 10.129.5.173 -oG scan.txt -oG scan1.txt
+└─$ nmap -p- --min-rate 5000 -Pn TARGET_IP -oG scan.txt -oG scan1.txt
 Starting Nmap 7.98 ( https://nmap.org ) at 2026-03-12 07:46 -0400
-Nmap scan report for 10.129.5.173
+Nmap scan report for TARGET_IP
 Host is up (0.68s latency).
 Not shown: 65513 filtered tcp ports (no-response)
 PORT      STATE SERVICE
