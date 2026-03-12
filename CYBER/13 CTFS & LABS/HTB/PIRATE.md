@@ -160,7 +160,11 @@ scan1.txt
 <br>
 </div>
 
-### 2.1.2 
+#### 2.1.2 Port Extraction
+
+Command: `nmap -A -p p1,p2,p3,p4 TARGET_IP`
+
+Breakdown:
 <div align="center">
 <br>
 <br>
