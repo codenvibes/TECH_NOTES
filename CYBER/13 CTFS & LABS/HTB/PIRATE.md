@@ -166,33 +166,19 @@ scan1.txt
 
 **Breakdown:**
 - **`ports=$(...)`**
-    
     - **Description:** Command Substitution.
-        
     - **Purpose:** Runs the commands inside the parentheses and saves the resulting text into a variable named `$ports` for later use.
-        
 - **`grep -oP`**
-    
     - **Description:** Only-matching Perl Regex.
-        
     - **Purpose:** `-o` prints only the matching part of the line; `-P` allows advanced Perl-style regular expressions.
-        
 - **`'\d+(?=/open)'`**
-    
     - **Description:** Regex Pattern.
-        
     - **Purpose:** `\d+` finds digits (port numbers). `(?=/open)` is a "lookahead" that ensures the digits are only picked if they are immediately followed by `/open`.
-        
 - **`|`**
-    
     - **Description:** The Pipe.
-        
     - **Purpose:** Takes the output of the `grep` command and feeds it as input to the `paste` command.
-        
 - **`paste -sd, -`**
-    
     - **Description:** Serial Paste with Delimiter.
-        
     - **Purpose:** `-s` (serial) joins all the individual port lines into one single line. `-d,` sets the comma as the separator between them.
 <div align="center">
 <br>
