@@ -95,7 +95,7 @@ Before we can attack a system, we need to find out what "doors" are open. Doors 
 
 #### 2.1.1 The "Spearfishing" Scan (All Ports, High Speed)
 
-Command: `nmap -p- --min-rate 5000 -Pn TARGET_IP`
+Command: `nmap -p- --min-rate 5000 -Pn TARGET_IP oG scan1.txt`
 
 Breakdown:
 - **`nmap`**
@@ -112,6 +112,11 @@ Breakdown:
 - **`TARGET_IP`**
     - **Description:** Target Specification.
     - **Purpose:** The IP address of the host being scanned.
+**`-oG scan1.txt`**
+
+- **Description:** Grepable Output.
+    
+- **Purpose:** Saves the scan results in a flat, single-line format that is easy to search using command-line tools like `grep` or `awk`.
 
 Output:
 
