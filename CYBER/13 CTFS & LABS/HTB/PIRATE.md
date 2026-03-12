@@ -116,7 +116,38 @@ Breakdown:
 Output:
 
 ```shell
+┌──(kali㉿kali)-[~/PUEMAN/HTB]
+└─$ nmap -p- --min-rate 5000 -Pn 10.129.5.173
+Starting Nmap 7.98 ( https://nmap.org ) at 2026-03-12 07:19 -0400
+Nmap scan report for 10.129.5.173
+Host is up (0.65s latency).
+Not shown: 65512 filtered tcp ports (no-response)
+PORT      STATE SERVICE
+53/tcp    open  domain
+80/tcp    open  http
+88/tcp    open  kerberos-sec
+135/tcp   open  msrpc
+139/tcp   open  netbios-ssn
+389/tcp   open  ldap
+443/tcp   open  https
+445/tcp   open  microsoft-ds
+464/tcp   open  kpasswd5
+593/tcp   open  http-rpc-epmap
+636/tcp   open  ldapssl
+2179/tcp  open  vmrdp
+3268/tcp  open  globalcatLDAP
+3269/tcp  open  globalcatLDAPssl
+5985/tcp  open  wsman
+9389/tcp  open  adws
+49667/tcp open  unknown
+49685/tcp open  unknown
+49686/tcp open  unknown
+49688/tcp open  unknown
+49689/tcp open  unknown
+49911/tcp open  unknown
+56177/tcp open  unknown
 
+Nmap done: 1 IP address (1 host up) scanned in 44.28 seconds
 ```
 <div align="center">
 <br>
