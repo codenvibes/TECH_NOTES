@@ -88,7 +88,7 @@
                       "state": {
                         "url": "https://gemini.google.com/app/6035ab1d3b93cf5d",
                         "title": "Google Gemini",
-                        "mode": "blank"
+                        "mode": "webview"
                       },
                       "pinned": true,
                       "icon": "globe-2",
@@ -546,12 +546,13 @@
             "state": {
               "type": "outline",
               "state": {
+                "file": "CYBER/13 CTFS & LABS/HTB/PIRATE.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline"
+              "title": "Outline of PIRATE"
             }
           },
           {
@@ -609,7 +610,7 @@
       "iconic:Open rulebook": false
     }
   },
-  "active": "3b8b4b24d88a173c",
+  "active": "134eda7afb03f2b5",
   "lastOpenFiles": [
     "CYBER/13 CTFS & LABS/HTB/PIRATE.md",
     "CYBER/13 CTFS & LABS/HTB/CCTV.md",
