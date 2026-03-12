@@ -112,11 +112,9 @@ Breakdown:
 - **`TARGET_IP`**
     - **Description:** Target Specification.
     - **Purpose:** The IP address of the host being scanned.
-**`-oG scan1.txt`**
-
-- **Description:** Grepable Output.
-    
-- **Purpose:** Saves the scan results in a flat, single-line format that is easy to search using command-line tools like `grep` or `awk`.
+- **`-oG scan1.txt`**
+	- **Description:** Grepable Output.
+	- **Purpose:** Saves the scan results in a flat, single-line format that is easy to search using command-line tools like `grep` or `awk`.
 
 Output:
 
