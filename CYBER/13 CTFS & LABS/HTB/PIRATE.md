@@ -160,7 +160,13 @@ scan1.txt
 <br>
 </div>
 
-#### 2.1.2 The "Deep Dive" Scan (Targeted Aggression)
+### 2.1.2 
+<div align="center">
+<br>
+<br>
+</div>
+
+#### 2.1.3 The "Deep Dive" Scan (Targeted Aggression)
 
 Command: `nmap -A -p p1,p2,p3,p4 TARGET_IP`
 
@@ -186,7 +192,7 @@ Output:
 <br>
 </div>
 
-#### 2.1.3 Scan Results Analysis
+#### 2.1.4 Scan Results Analysis
 
 | Port | **Service** | **Version** | **Analysis** |
 | ---- | ----------- | ----------- | ------------ |
