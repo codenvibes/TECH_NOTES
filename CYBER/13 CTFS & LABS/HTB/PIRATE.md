@@ -95,7 +95,7 @@ Before we can attack a system, we need to find out what "doors" are open. Doors 
 
 #### 2.1.1 The "Spearfishing" Scan (All Ports, High Speed)
 
-Command: `nmap -p- --min-rate 5000 -Pn TARGET_IP oG scan1.txt`
+Command: `nmap -p- --min-rate 5000 -Pn TARGET_IP -oG scan1.txt`
 
 Breakdown:
 - **`nmap`**
@@ -119,12 +119,12 @@ Breakdown:
 Output:
 
 ```shell
-┌──(kali㉿kali)-[~/PUEMAN/HTB]
-└─$ nmap -p- --min-rate 5000 -Pn 10.129.5.173
-Starting Nmap 7.98 ( https://nmap.org ) at 2026-03-12 07:19 -0400
+┌──(kali㉿kali)-[~/PUEMAN/HTB/SN10/Pirate]
+└─$ nmap -p- --min-rate 5000 -Pn 10.129.5.173 -oG scan.txt -oG scan1.txt
+Starting Nmap 7.98 ( https://nmap.org ) at 2026-03-12 07:46 -0400
 Nmap scan report for 10.129.5.173
-Host is up (0.65s latency).
-Not shown: 65512 filtered tcp ports (no-response)
+Host is up (0.68s latency).
+Not shown: 65513 filtered tcp ports (no-response)
 PORT      STATE SERVICE
 53/tcp    open  domain
 80/tcp    open  http
@@ -134,7 +134,6 @@ PORT      STATE SERVICE
 389/tcp   open  ldap
 443/tcp   open  https
 445/tcp   open  microsoft-ds
-464/tcp   open  kpasswd5
 593/tcp   open  http-rpc-epmap
 636/tcp   open  ldapssl
 2179/tcp  open  vmrdp
@@ -147,10 +146,14 @@ PORT      STATE SERVICE
 49686/tcp open  unknown
 49688/tcp open  unknown
 49689/tcp open  unknown
-49911/tcp open  unknown
 56177/tcp open  unknown
+57220/tcp open  unknown
 
-Nmap done: 1 IP address (1 host up) scanned in 44.28 seconds
+Nmap done: 1 IP address (1 host up) scanned in 73.98 seconds
+
+┌──(kali㉿kali)-[~/PUEMAN/HTB/SN10/Pirate]
+└─$ ls
+scan1.txt
 ```
 <div align="center">
 <br>
