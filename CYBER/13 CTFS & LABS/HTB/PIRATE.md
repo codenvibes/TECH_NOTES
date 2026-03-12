@@ -36,7 +36,9 @@ As is common in real life pentests, you will start the Pirate box with credentia
 
 ### 1.1 Connecting to the HTB VPN
 
-First, download your personalized `.ovpn` file from Hack The Box.
+First, standard procedure:
+
+Download your personalized `.ovpn` file from Hack The Box.
 
 Connect to the HTB VPN using the `.ovpn` configuration file. This establishes a secure tunnel that allows access to the target machine’s internal network.
 
