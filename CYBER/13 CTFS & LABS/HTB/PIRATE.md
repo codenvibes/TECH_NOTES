@@ -64,7 +64,17 @@ Breakdown:
 Output:
 
 ```shell
+┌──(kali㉿kali)-[~/PUEMAN/HTB]
+└─$ ping -c 4 TARGET_IP                                            
+PING TARGET_IP(10.129.5.173) 56(84) bytes of data.
+64 bytes from 10.129.5.173: icmp_seq=1 ttl=127 time=538 ms
+64 bytes from 10.129.5.173: icmp_seq=2 ttl=127 time=527 ms
+64 bytes from 10.129.5.173: icmp_seq=3 ttl=127 time=524 ms
+64 bytes from 10.129.5.173: icmp_seq=4 ttl=127 time=525 ms
 
+--- TARGET_IPping statistics ---
+4 packets transmitted, 4 received, 0% packet loss, time 3008ms
+rtt min/avg/max/mdev = 523.584/528.421/537.987/5.698 ms
 ```
 
 A successful response confirms that the machine is active and accessible on the HTB network, allowing us to proceed with the enumeration phase.
