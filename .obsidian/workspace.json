@@ -56,11 +56,11 @@
                       "type": "webviewer",
                       "state": {
                         "url": "https://app.hackthebox.com/machines/CCTV?sort_by=created_at&sort_type=desc",
-                        "title": "Hack The Box",
+                        "title": "Hack The Box :: CCTV Machine",
                         "mode": "webview"
                       },
                       "icon": "globe-2",
-                      "title": "Hack The Box"
+                      "title": "Hack The Box :: CCTV Machine"
                     }
                   },
                   {
