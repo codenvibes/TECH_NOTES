@@ -6,6 +6,18 @@ description: Hard·Windows
 image: https://htb-mp-prod-public-storage.s3.eu-central-1.amazonaws.com/avatars/5fc0db532017e570ae0daf199e5cd6ac.png
 date: 2025-03-12
 ---
+## Machine Information
+
+As is common in real life pentests, you will start the Pirate box with credentials for the following account pentest / p3nt3st2025!&
+<div align="center">
+<br>
+<br>
+※※※※※※※※※※※※※※※※※※※※※※※※※※※※※※※※※※※※※※※※※※※※※※※※
+<br>
+</div>
+<!-- PAGE BREAK -->
+<div style="page-break-after: always;"></div>
+
 ## Summary
 
 | SECTION/TASK     | FLAG |
