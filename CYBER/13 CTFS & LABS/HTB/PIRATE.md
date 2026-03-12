@@ -193,10 +193,9 @@ scan1.txt
 - **`-A`**   
     - **Description:** Aggressive Scan Mode.       
     - **Purpose:** Enables OS detection, version detection, script scanning (`-sC`), and traceroute all at once.
-- `-p`
+- `-p $ports`
     - **Description:** Targeted Port List.
-    - **Purpose:** Restricts the heavy scanning to only the ports you confirmed are open, saving significant time and processing power.
-
+    - **Purpose:** Instead of scanning all ports again, this tells Nmap to only scan the specific open ports stored in your variable (e.g., `80,443,22`).
 
 Output:
 
