@@ -190,12 +190,9 @@ scan1.txt
 **Command:** `nmap -A -p $ports TARGET_IP`
 
 **Breakdown:**
-- `-sC`
-    - **Description:** Default Script Scan.
-    - **Purpose:** Runs a collection built-in Nmap Scripting Engine (NSE) scripts to find common vulnerabilities, metadata, or hidden info.
-- `-sV`
-    - **Description:** Version Detection.
-    - **Purpose:** Probes open ports to determine what software and version are actually running (e.g., identifying "Jetty" or "OpenSSH 9.2").
+- **`-A`**   
+    - **Description:** Aggressive Scan Mode.       
+    - **Purpose:** Enables OS detection, version detection, script scanning (`-sC`), and traceroute all at once.
 - `-p`
     - **Description:** Targeted Port List.
     - **Purpose:** Restricts the heavy scanning to only the ports you confirmed are open, saving significant time and processing power.
