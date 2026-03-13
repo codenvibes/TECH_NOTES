@@ -546,13 +546,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "CYBER/13 CTFS & LABS/HTB/PIRATE.md",
+                "file": "CYBER/13 CTFS & LABS/HTB/FACTS.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of PIRATE"
+              "title": "Outline of FACTS"
             }
           },
           {
@@ -610,10 +610,10 @@
       "iconic:Open rulebook": false
     }
   },
-  "active": "134eda7afb03f2b5",
+  "active": "e4b465f8c5c0b958",
   "lastOpenFiles": [
-    "TEMPLATES/HTBL WRITEUP.md",
     "CYBER/13 CTFS & LABS/HTB/PIRATE.md",
+    "TEMPLATES/HTBL WRITEUP.md",
     "CYBER/13 CTFS & LABS/HTB/CCTV.md",
     "CYBER/13 CTFS & LABS/HTB/FACTS.md",
     "CYBER/13 CTFS & LABS/HTB/WINGDATA.md",
