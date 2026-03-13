@@ -203,8 +203,7 @@
                       "title": "FACTS"
                     }
                   }
-                ],
-                "currentTab": 5
+                ]
               }
             ],
             "direction": "horizontal"
@@ -546,13 +545,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "CYBER/13 CTFS & LABS/HTB/FACTS.md",
+                "file": "QUICK NOTES/WHITE-BOARD.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of FACTS"
+              "title": "Outline of WHITE-BOARD"
             }
           },
           {
@@ -610,12 +609,12 @@
       "iconic:Open rulebook": false
     }
   },
-  "active": "e4b465f8c5c0b958",
+  "active": "21fce08000a30866",
   "lastOpenFiles": [
+    "CYBER/13 CTFS & LABS/HTB/FACTS.md",
     "CYBER/13 CTFS & LABS/HTB/PIRATE.md",
     "TEMPLATES/HTBL WRITEUP.md",
     "CYBER/13 CTFS & LABS/HTB/CCTV.md",
-    "CYBER/13 CTFS & LABS/HTB/FACTS.md",
     "CYBER/13 CTFS & LABS/HTB/WINGDATA.md",
     "CYBER/08 TOOLS/SQLMAP/SQLMAP.md",
     "QUICK NOTES/WHITE-BOARD.md",
