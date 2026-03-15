@@ -462,7 +462,7 @@
                     }
                   }
                 ],
-                "currentTab": 7
+                "currentTab": 6
               }
             ],
             "direction": "horizontal"
@@ -587,13 +587,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "CYBER/13 CTFS & LABS/THM/OPERATION ENDGAME.md",
+                "file": "CYBER/13 CTFS & LABS/HTB/FACTS.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of OPERATION ENDGAME"
+              "title": "Outline of FACTS"
             }
           },
           {
@@ -651,15 +651,15 @@
       "iconic:Open rulebook": false
     }
   },
-  "active": "31f4dae65891edbd",
+  "active": "6f3fd191b2b9ee95",
   "lastOpenFiles": [
     "CYBER/13 CTFS & LABS/THM/OPERATION ENDGAME.md",
+    "CYBER/13 CTFS & LABS/HTB/FACTS.md",
+    "CYBER/13 CTFS & LABS/HTB/PIRATE.md",
+    "CYBER/13 CTFS & LABS/HTB/CCTV.md",
+    "CYBER/13 CTFS & LABS/HTB/WINGDATA.md",
     "CYBER/08 TOOLS/SQLMAP/SQLMAP.md",
     "CYBER/13 CTFS & LABS/CTFS & LABS.base",
-    "CYBER/13 CTFS & LABS/HTB/PIRATE.md",
-    "CYBER/13 CTFS & LABS/HTB/FACTS.md",
-    "CYBER/13 CTFS & LABS/HTB/WINGDATA.md",
-    "CYBER/13 CTFS & LABS/HTB/CCTV.md",
     "QUICK NOTES/WHITE-BOARD.md",
     "TEMPLATES/HTBL WRITEUP.md",
     "CYBER/08 TOOLS/SQLMAP/SQLMAP ESSENTIALS.md",
