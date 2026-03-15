@@ -246,7 +246,7 @@
                     }
                   }
                 ],
-                "currentTab": 8
+                "currentTab": 6
               }
             ],
             "direction": "horizontal"
@@ -602,13 +602,12 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "CYBER/13 CTFS & LABS/HTB/MONITORSFOUR.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of MONITORSFOUR"
+              "title": "Outline"
             }
           },
           {
@@ -666,10 +665,10 @@
       "iconic:Open rulebook": false
     }
   },
-  "active": "7df75af4ab2d65f2",
+  "active": "2b2caeec6788473b",
   "lastOpenFiles": [
-    "CYBER/13 CTFS & LABS/HTB/FACTS.md",
     "CYBER/13 CTFS & LABS/HTB/MONITORSFOUR.md",
+    "CYBER/13 CTFS & LABS/HTB/FACTS.md",
     "CYBER/13 CTFS & LABS/HTB/WINGDATA.md",
     "ASSETS/Pasted image 20260315224808.png",
     "QUICK NOTES/WHITE-BOARD.md",
