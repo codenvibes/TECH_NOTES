@@ -221,12 +221,14 @@ Command: `ffuf -w /usr/share/wordlists/seclists/Discovery/DNS/subdomains-top1mil
 
 Breakdown:
 
+- **`-w .../subdomains-top1million-5000.txt`**
+    - **Description:** Wordlist Path.
+    - **Purpose:** Utilizes a more specialized DNS-focused wordlist for better hit rates on common subdomains.
 - **`-u`**
     - **Description:** Target URL.
     - **Purpose:** Specifies the URL to be fuzzed. The keyword `FUZZ` tells the tool exactly where to inject the words from your wordlist.
-- **`-w .../subdomains-top1million-5000.txt`**
-    - **Description:** Wordlist Path.
-    - **Purpose:** Provides the list of common directory and file names (like `admin`, `config`, etc.) to test against the server.
+- `-H "Host: FUZZ.monitorsfour.htb"`
+	- **Description:** 
 
 Output:
 <div align="center">
