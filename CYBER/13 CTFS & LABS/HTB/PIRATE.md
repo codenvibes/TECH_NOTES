@@ -311,7 +311,7 @@ During a service scan (`-sV` or `-A`), Nmap sends a series of "probes" (specific
 The question mark appears in two specific scenarios:
 
 1. **Incomplete Handshake:** The service responded just enough to suggest what it might be, but it didn't provide a unique "fingerprint" that matches a known signature perfectly.
-    
+
 2. **Ambiguous Response:** The data returned by the port is generic. For example, many services use SSL/TLS; if Nmap sees an encrypted wrapper but cannot see what is inside, it might guess `https?` based on the port number (443) and the presence of SSL.
 <div align="center">
 <br>
