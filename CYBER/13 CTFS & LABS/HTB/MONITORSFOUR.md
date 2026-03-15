@@ -1,9 +1,9 @@
 ---
 tags:
   - HTB
-link:
-description:
-image:
+link: https://app.hackthebox.com/machines/MonitorsFour?sort_by=created_at&sort_type=desc
+description: Easy.Windows
+image: https://assets.tryhackme.com/img/paths/introtocybersecurity.svg
 date:
 ---
 ## Summary
