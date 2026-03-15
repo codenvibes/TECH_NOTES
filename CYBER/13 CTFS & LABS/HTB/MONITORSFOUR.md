@@ -103,9 +103,9 @@ Output:
 
 ```shell
 ┌──(kali㉿kali)-[~/PUEMAN/HTB]
-└─$ nmap -p- --min-rate 5000 -Pn 10.129.9.3  
+└─$ nmap -p- --min-rate 5000 -Pn TARGET_IP  
 Starting Nmap 7.98 ( https://nmap.org ) at 2026-03-15 15:08 -0400
-Nmap scan report for 10.129.9.3
+Nmap scan report for TARGET_IP
 Host is up (0.44s latency).
 Not shown: 65534 filtered tcp ports (no-response)
 PORT   STATE SERVICE
@@ -135,9 +135,9 @@ Output:
 
 ```shell
 ┌──(kali㉿kali)-[~/PUEMAN/HTB]
-└─$ nmap -A -p 80 10.129.9.3               
+└─$ nmap -A -p 80 TARGET_IP               
 Starting Nmap 7.98 ( https://nmap.org ) at 2026-03-15 15:10 -0400
-Nmap scan report for 10.129.9.3
+Nmap scan report for TARGET_IP
 Host is up (0.27s latency).
 
 PORT   STATE SERVICE VERSION
@@ -154,7 +154,7 @@ Network Distance: 2 hops
 TRACEROUTE (using port 80/tcp)
 HOP RTT       ADDRESS
 1   281.52 ms 10.10.14.1
-2   281.51 ms 10.129.9.3
+2   281.51 ms TARGET_IP
 
 OS and Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
 Nmap done: 1 IP address (1 host up) scanned in 28.71 seconds
