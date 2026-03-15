@@ -1,6 +1,7 @@
 ---
 tags:
-link:
+  - THM
+link: https://tryhackme.com/room/operationendgame
 description: This challenge will focus on exploiting an Active Directory environment.
 image: https://tryhackme-images.s3.amazonaws.com/room-icons/63c131e50a24c3005eb34678-1716506240703
 date: 2026-03-15
@@ -9,8 +10,7 @@ date: 2026-03-15
 
 | SECTION/TASK     | FLAG |
 | ---------------- | ---- |
-| Submit User Flag |      |
-| Submit Root Flag |      |
+| Task 1           |      |
 
 <div align="center">
 <br>
