@@ -545,13 +545,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "CYBER/13 CTFS & LABS/HTB/PIRATE.md",
+                "file": "QUICK NOTES/WHITE-BOARD.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of PIRATE"
+              "title": "Outline of WHITE-BOARD"
             }
           },
           {
@@ -609,10 +609,10 @@
       "iconic:Open rulebook": false
     }
   },
-  "active": "134eda7afb03f2b5",
+  "active": "21fce08000a30866",
   "lastOpenFiles": [
-    "QUICK NOTES/WHITE-BOARD.md",
     "CYBER/13 CTFS & LABS/HTB/PIRATE.md",
+    "QUICK NOTES/WHITE-BOARD.md",
     "CYBER/13 CTFS & LABS/HTB/FACTS.md",
     "TEMPLATES/HTBL WRITEUP.md",
     "CYBER/13 CTFS & LABS/HTB/CCTV.md",

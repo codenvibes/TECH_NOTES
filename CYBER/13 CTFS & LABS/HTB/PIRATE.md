@@ -63,7 +63,7 @@ Breakdown:
 
 Output:
 
-```python
+```shell
 ┌──(kali㉿kali)-[~/PUEMAN/HTB]
 └─$ ping -c 4 TARGET_IP                                            
 PING TARGET_IP(TARGET_IP) 56(84) bytes of data.
@@ -118,7 +118,7 @@ Breakdown:
 
 Output:
 
-``` shell
+```shell
 ┌──(kali㉿kali)-[~/PUEMAN/HTB/SN10/Pirate]
 └─$ nmap -p- --min-rate 5000 -Pn TARGET_IP -oG scan.txt -oG scan1.txt
 Starting Nmap 7.98 ( https://nmap.org ) at 2026-03-12 07:46 -0400
@@ -201,9 +201,9 @@ Output:
 
 ``` shell
 ┌──(kali㉿kali)-[~/PUEMAN/HTB/SN10/Pirate]
-└─$ nmap -A -p $ports 10.129.8.175                         
+└─$ nmap -A -p $ports TARGET_IP                         
 Starting Nmap 7.98 ( https://nmap.org ) at 2026-03-15 04:21 -0400
-Nmap scan report for 10.129.8.175
+Nmap scan report for TARGET_IP
 Host is up (0.34s latency).
 
 PORT      STATE SERVICE           VERSION
@@ -277,7 +277,7 @@ Host script results:
 TRACEROUTE (using port 445/tcp)
 HOP RTT       ADDRESS
 1   350.60 ms 10.10.14.1
-2   350.97 ms 10.129.8.175
+2   350.97 ms TARGET_IP
 
 OS and Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
 Nmap done: 1 IP address (1 host up) scanned in 133.82 seconds
