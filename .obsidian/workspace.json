@@ -217,8 +217,7 @@
                       "title": "CAPT"
                     }
                   }
-                ],
-                "currentTab": 6
+                ]
               }
             ],
             "direction": "horizontal"
@@ -525,7 +524,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 288.703125
+    "width": 288.703125,
+    "collapsed": true
   },
   "right": {
     "id": "26820c7e22c27caf",
@@ -587,13 +587,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "COURSES/HACKVISER/CAPT.md",
+                "file": "QUICK NOTES/WHITE-BOARD.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of CAPT"
+              "title": "Outline of WHITE-BOARD"
             }
           },
           {
@@ -651,8 +651,9 @@
       "iconic:Open rulebook": false
     }
   },
-  "active": "8e50b50431b21ca5",
+  "active": "21fce08000a30866",
   "lastOpenFiles": [
+    "COURSES/HACKVISER/CAPT.md",
     "CYBER/04 EXPLOITATION/WEB_EXPLOITATION/FILE INCLUSION.md",
     "CYBER/13 CTFS & LABS/HTB/PIRATE.md",
     "CYBER/13 CTFS & LABS/HTB/CCTV.md",
@@ -694,7 +695,6 @@
     "ASSETS/Facts.png",
     "SOFT SKILLS & CAREER/PIRP.base",
     "CYBER/13 CTFS & LABS/HTB/fact.md",
-    "CYBER/13 CTFS & LABS/HTB/fac.md",
     "SOFT SKILLS & CAREER/PRESENTATIONS/CYBER SHUJAA TRAINER PRESENTATION.pdf",
     "ASSETS/Unconfirmed 469548.crdownload",
     "ASSETS/NextGen Mirth Connect Remote Code Execution Vulnerability (CVE-2023-43208) _ Horizon3.ai_files/zi-tag.js.download",
