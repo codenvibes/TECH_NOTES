@@ -224,7 +224,7 @@ Breakdown:
 - **`-u`**
     - **Description:** Target URL.
     - **Purpose:** Specifies the URL to be fuzzed. The keyword `FUZZ` tells the tool exactly where to inject the words from your wordlist.
-- **`-w`**
+- **`-w .../subdomains-top1million-5000.txt`**
     - **Description:** Wordlist Path.
     - **Purpose:** Provides the list of common directory and file names (like `admin`, `config`, etc.) to test against the server.
 
