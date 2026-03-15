@@ -289,7 +289,7 @@ Nmap done: 1 IP address (1 host up) scanned in 133.82 seconds
 
 #### 2.1.4 Scan Results Analysis
 
-### Why the Question Mark Appears
+##### Why the Question Mark Appears
 
 During a service scan (`-sV` or `-A`), Nmap sends a series of "probes" (specific data packets) to the open port and waits for a response. It then compares that response against its internal database of thousands of service signatures.
 
