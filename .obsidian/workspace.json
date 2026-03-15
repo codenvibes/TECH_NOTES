@@ -207,10 +207,14 @@
                     "id": "2b2caeec6788473b",
                     "type": "leaf",
                     "state": {
-                      "type": "empty",
-                      "state": {},
-                      "icon": "lucide-file",
-                      "title": "New tab"
+                      "type": "webviewer",
+                      "state": {
+                        "url": "https://medium.com/@netanix96/monitorsfour-htb-from-web-enumeration-to-docker-escape-9c280ed5f511",
+                        "title": "MonitorsFour HTB — From Web Enumeration to Docker Escape | by Netanix | Medium",
+                        "mode": "webview"
+                      },
+                      "icon": "globe-2",
+                      "title": "MonitorsFour HTB — From Web Enumeration to Docker Escape | by Netanix | Medium"
                     }
                   }
                 ],
