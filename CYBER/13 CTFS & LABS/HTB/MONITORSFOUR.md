@@ -134,7 +134,30 @@ Breakdown:
 Output:
 
 ```shell
+┌──(kali㉿kali)-[~/PUEMAN/HTB]
+└─$ nmap -A -p 80 10.129.9.3               
+Starting Nmap 7.98 ( https://nmap.org ) at 2026-03-15 15:10 -0400
+Nmap scan report for 10.129.9.3
+Host is up (0.27s latency).
 
+PORT   STATE SERVICE VERSION
+80/tcp open  http    nginx
+|_http-title: Did not follow redirect to http://monitorsfour.htb/
+Warning: OSScan results may be unreliable because we could not find at least 1 open and 1 closed port
+Device type: general purpose
+Running (JUST GUESSING): Microsoft Windows 2022|2012|2016 (88%)
+OS CPE: cpe:/o:microsoft:windows_server_2022 cpe:/o:microsoft:windows_server_2012:r2 cpe:/o:microsoft:windows_server_2016
+Aggressive OS guesses: Microsoft Windows Server 2022 (88%), Microsoft Windows Server 2012 R2 (85%), Microsoft Windows Server 2016 (85%)
+No exact OS matches for host (test conditions non-ideal).
+Network Distance: 2 hops
+
+TRACEROUTE (using port 80/tcp)
+HOP RTT       ADDRESS
+1   281.52 ms 10.10.14.1
+2   281.51 ms 10.129.9.3
+
+OS and Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+Nmap done: 1 IP address (1 host up) scanned in 28.71 seconds
 ```
 <div align="center">
 <br>
