@@ -200,7 +200,87 @@ scan1.txt
 Output:
 
 ```shell
+┌──(kali㉿kali)-[~/PUEMAN/HTB/SN10/Pirate]
+└─$ nmap -A -p $ports 10.129.8.175                         
+Starting Nmap 7.98 ( https://nmap.org ) at 2026-03-15 04:21 -0400
+Nmap scan report for 10.129.8.175
+Host is up (0.34s latency).
 
+PORT      STATE SERVICE           VERSION
+53/tcp    open  domain            Simple DNS Plus
+80/tcp    open  http              Microsoft IIS httpd 10.0
+|_http-server-header: Microsoft-IIS/10.0
+| http-methods: 
+|_  Potentially risky methods: TRACE
+|_http-title: IIS Windows Server
+88/tcp    open  kerberos-sec      Microsoft Windows Kerberos (server time: 2026-03-15 15:21:20Z)
+135/tcp   open  msrpc             Microsoft Windows RPC
+139/tcp   open  netbios-ssn       Microsoft Windows netbios-ssn
+389/tcp   open  ldap              Microsoft Windows Active Directory LDAP (Domain: pirate.htb, Site: Default-First-Site-Name)
+| ssl-cert: Subject: commonName=DC01.pirate.htb
+| Subject Alternative Name: othername: 1.3.6.1.4.1.311.25.1:<unsupported>, DNS:DC01.pirate.htb
+| Not valid before: 2025-06-09T14:05:15
+|_Not valid after:  2026-06-09T14:05:15
+|_ssl-date: 2026-03-15T15:23:11+00:00; +6h59m49s from scanner time.
+443/tcp   open  https?
+445/tcp   open  microsoft-ds?
+464/tcp   open  kpasswd5?
+593/tcp   open  ncacn_http        Microsoft Windows RPC over HTTP 1.0
+636/tcp   open  ssl/ldap          Microsoft Windows Active Directory LDAP (Domain: pirate.htb, Site: Default-First-Site-Name)
+| ssl-cert: Subject: commonName=DC01.pirate.htb
+| Subject Alternative Name: othername: 1.3.6.1.4.1.311.25.1:<unsupported>, DNS:DC01.pirate.htb
+| Not valid before: 2025-06-09T14:05:15
+|_Not valid after:  2026-06-09T14:05:15
+|_ssl-date: 2026-03-15T15:23:11+00:00; +6h59m50s from scanner time.
+2179/tcp  open  vmrdp?
+3268/tcp  open  ldap              Microsoft Windows Active Directory LDAP (Domain: pirate.htb, Site: Default-First-Site-Name)
+|_ssl-date: 2026-03-15T15:23:14+00:00; +6h59m49s from scanner time.
+| ssl-cert: Subject: commonName=DC01.pirate.htb
+| Subject Alternative Name: othername: 1.3.6.1.4.1.311.25.1:<unsupported>, DNS:DC01.pirate.htb
+| Not valid before: 2025-06-09T14:05:15
+|_Not valid after:  2026-06-09T14:05:15
+3269/tcp  open  globalcatLDAPssl?
+| ssl-cert: Subject: commonName=DC01.pirate.htb
+| Subject Alternative Name: othername: 1.3.6.1.4.1.311.25.1:<unsupported>, DNS:DC01.pirate.htb
+| Not valid before: 2025-06-09T14:05:15
+|_Not valid after:  2026-06-09T14:05:15
+|_ssl-date: 2026-03-15T15:23:13+00:00; +6h59m49s from scanner time.
+5985/tcp  open  http              Microsoft HTTPAPI httpd 2.0 (SSDP/UPnP)
+|_http-server-header: Microsoft-HTTPAPI/2.0
+|_http-title: Not Found
+9389/tcp  open  mc-nmf            .NET Message Framing
+49667/tcp open  msrpc             Microsoft Windows RPC
+49685/tcp open  ncacn_http        Microsoft Windows RPC over HTTP 1.0
+49686/tcp open  msrpc             Microsoft Windows RPC
+49688/tcp open  msrpc             Microsoft Windows RPC
+49689/tcp open  msrpc             Microsoft Windows RPC
+49913/tcp open  msrpc             Microsoft Windows RPC
+60791/tcp open  msrpc             Microsoft Windows RPC
+Warning: OSScan results may be unreliable because we could not find at least 1 open and 1 closed port
+Device type: general purpose
+Running (JUST GUESSING): Microsoft Windows 2019|10 (97%)
+OS CPE: cpe:/o:microsoft:windows_server_2019 cpe:/o:microsoft:windows_10
+Aggressive OS guesses: Windows Server 2019 (97%), Microsoft Windows 10 1903 - 21H1 (91%)
+No exact OS matches for host (test conditions non-ideal).
+Network Distance: 2 hops
+Service Info: Host: DC01; OS: Windows; CPE: cpe:/o:microsoft:windows
+
+Host script results:
+| smb2-time: 
+|   date: 2026-03-15T15:22:36
+|_  start_date: N/A
+|_clock-skew: mean: 6h59m49s, deviation: 0s, median: 6h59m48s
+| smb2-security-mode: 
+|   3.1.1: 
+|_    Message signing enabled and required
+
+TRACEROUTE (using port 445/tcp)
+HOP RTT       ADDRESS
+1   350.60 ms 10.10.14.1
+2   350.97 ms 10.129.8.175
+
+OS and Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+Nmap done: 1 IP address (1 host up) scanned in 133.82 seconds
 ```
 <div align="center">
 <br>
