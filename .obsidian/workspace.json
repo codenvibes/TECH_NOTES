@@ -538,7 +538,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 288.703125
+    "width": 288.703125,
+    "collapsed": true
   },
   "right": {
     "id": "26820c7e22c27caf",
@@ -600,13 +601,12 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "CYBER/13 CTFS & LABS/HTB/MONITORSFOUR.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of MONITORSFOUR"
+              "title": "Outline"
             }
           },
           {
@@ -664,10 +664,10 @@
       "iconic:Open rulebook": false
     }
   },
-  "active": "7df75af4ab2d65f2",
+  "active": "67bc1032adb5e955",
   "lastOpenFiles": [
-    "CYBER/13 CTFS & LABS/HTB/FACTS.md",
     "CYBER/13 CTFS & LABS/HTB/MONITORSFOUR.md",
+    "CYBER/13 CTFS & LABS/HTB/FACTS.md",
     "CYBER/13 CTFS & LABS/THM/OPERATION ENDGAME.md",
     "CYBER/13 CTFS & LABS/HTB/PIRATE.md",
     "CYBER/13 CTFS & LABS/CTFS & LABS.base",
