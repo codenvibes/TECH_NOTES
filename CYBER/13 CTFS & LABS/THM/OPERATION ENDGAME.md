@@ -21,7 +21,7 @@ date: 2026-03-15
 <!-- PAGE BREAK -->
 <div style="page-break-after: always;"></div>
 
-### 1.1 Connecting to the HTB VPN
+### 1.1 Connecting to the THM VPN
 
 First, download your personalized `.ovpn` file from Hack The Box.
 
