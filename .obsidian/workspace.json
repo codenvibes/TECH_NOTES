@@ -286,7 +286,7 @@
                       "type": "bases",
                       "state": {
                         "file": "CYBER/13 CTFS & LABS/CTFS & LABS.base",
-                        "viewName": "HTB"
+                        "viewName": "THM"
                       },
                       "pinned": true,
                       "icon": "lucide-layout-grid",
@@ -574,13 +574,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "CYBER/13 CTFS & LABS/HTB/PIRATE.md",
+                "file": "CYBER/13 CTFS & LABS/CTFS & LABS.base",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of PIRATE"
+              "title": "Outline of CTFS & LABS"
             }
           },
           {
@@ -638,13 +638,13 @@
       "iconic:Open rulebook": false
     }
   },
-  "active": "134eda7afb03f2b5",
+  "active": "c70fde05d4631946",
   "lastOpenFiles": [
+    "CYBER/13 CTFS & LABS/HTB/PIRATE.md",
     "CYBER/13 CTFS & LABS/HTB/FACTS.md",
     "CYBER/13 CTFS & LABS/CTFS & LABS.base",
     "CYBER/13 CTFS & LABS/HTB/WINGDATA.md",
     "CYBER/13 CTFS & LABS/HTB/CCTV.md",
-    "CYBER/13 CTFS & LABS/HTB/PIRATE.md",
     "QUICK NOTES/WHITE-BOARD.md",
     "TEMPLATES/HTBL WRITEUP.md",
     "CYBER/08 TOOLS/SQLMAP/SQLMAP.md",
