@@ -15,7 +15,7 @@
               {
                 "id": "eb7c5c7906b2a9d3",
                 "type": "tabs",
-                "dimension": 55.844155844155836,
+                "dimension": 50.324675324675326,
                 "children": [
                   {
                     "id": "10dd2c9178155b52",
@@ -115,7 +115,7 @@
               {
                 "id": "0d9688c0329c8d14",
                 "type": "tabs",
-                "dimension": 44.155844155844164,
+                "dimension": 49.67532467532468,
                 "children": [
                   {
                     "id": "21fce08000a30866",
@@ -181,12 +181,12 @@
                     "state": {
                       "type": "webviewer",
                       "state": {
-                        "url": "https://github.com/kyakei/CVE-2023-43208",
-                        "title": "data:text/plain,",
+                        "url": "https://1337sheets.com/hack-the-box-season-ten-htb-pirate-writeup-hard-weekly-feb/",
+                        "title": "Hack The Box - Season 10 HTB Pirate Writeup - Hard- Weekly - Feb 28th, 2026",
                         "mode": "blank"
                       },
                       "icon": "globe-2",
-                      "title": "data:text/plain,"
+                      "title": "Hack The Box - Season 10 HTB Pirate Writeup - Hard- Weekly - Feb 28th, 2026"
                     }
                   },
                   {
