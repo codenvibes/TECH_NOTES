@@ -214,6 +214,14 @@ When you type a URL like `google.com` or `wingdata.htb` into your browser, your 
 <div align="center">
 <br>
 <br>
+</div>
+
+#### 2.2.2 Web Enumeration
+
+Browse to `http://monitorsfour.htb/`.
+<div align="center">
+<br>
+<br>
 ※※※※※※※※※※※※※※※※※※※※※※※※※※※※※※※※※※※※※※※※※※※※※※※※
 <br>
 </div>
