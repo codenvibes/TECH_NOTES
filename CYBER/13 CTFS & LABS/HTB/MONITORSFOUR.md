@@ -219,6 +219,8 @@ When you type a URL like `google.com` or `wingdata.htb` into your browser, your 
 #### 2.2.2 Web Enumeration
 
 Browse to `http://monitorsfour.htb/`.
+
+![[Pasted image 20260315224808.png]]
 <div align="center">
 <br>
 <br>
