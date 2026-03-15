@@ -289,11 +289,16 @@ Nmap done: 1 IP address (1 host up) scanned in 133.82 seconds
 
 #### 2.1.4 Scan Results Analysis
 
-
-| Port | **Service** | **Version** | **Analysis** |
-| ---- | ----------- | ----------- | ------------ |
-|      |             |             |              |
-|      |             |             |              |
+| **Port**       | **Service**    | **Version**                    | **Analysis**                                                                                                                           |
+| -------------- | -------------- | ------------------------------ | -------------------------------------------------------------------------------------------------------------------------------------- |
+| **53**         | DNS            | Simple DNS Plus                | Essential for domain resolution. May be used for zone transfers or identifying other hosts via `nslookup`.                             |
+| **80**         | HTTP           | Microsoft IIS httpd 10.0       | Standard web server. Likely the primary entry point. Requires directory brute-forcing and manual inspection for vulnerabilities.       |
+| **88**         | Kerberos       | Microsoft Windows Kerberos     | Confirms the target is a Domain Controller. Susceptible to User Enumeration and "AS-REP Roasting" if pre-authentication is disabled.   |
+| **135, 593**   | RPC            | Microsoft Windows RPC          | Endpoint mapper for remote procedure calls. Useful for enumerating system information if the service is poorly protected.              |
+| **389, 636**   | LDAP/S         | Microsoft Windows AD LDAP      | The "phonebook" of the domain. Can leak the naming context (`pirate.htb`), user lists, and group memberships.                          |
+| **445**        | SMB            | Microsoft-ds (Windows 10/2019) | Server Message Block. Priority target for finding open file shares, sensitive documents, or performing "Relay" attacks.                |
+| **5985**       | WinRM          | Microsoft HTTPAPI httpd 2.0    | Windows Remote Management. Often used for remote shells. If credentials are found, this is a likely method for gaining initial access. |
+| **3268, 3269** | Global Catalog | Microsoft Windows AD LDAP      | Used for searching the entire Active Directory forest. Provides similar enumeration opportunities as standard LDAP.                    |
 
 <div align="center">
 <br>
