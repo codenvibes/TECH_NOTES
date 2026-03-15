@@ -86,7 +86,7 @@
                     "state": {
                       "type": "webviewer",
                       "state": {
-                        "url": "https://gemini.google.com/app",
+                        "url": "https://gemini.google.com/app/4087174ac3d85e08",
                         "title": "Google Gemini",
                         "mode": "webview"
                       },
@@ -666,8 +666,8 @@
   },
   "active": "3b8b4b24d88a173c",
   "lastOpenFiles": [
-    "QUICK NOTES/WHITE-BOARD.md",
     "CYBER/13 CTFS & LABS/HTB/MONITORSFOUR.md",
+    "QUICK NOTES/WHITE-BOARD.md",
     "COURSES/HACKVISER/CAPT.md",
     "CYBER/13 CTFS & LABS/HTB/FACTS.md",
     "CYBER/13 CTFS & LABS/THM/OPERATION ENDGAME.md",
