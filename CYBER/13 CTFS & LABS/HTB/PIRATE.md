@@ -289,16 +289,6 @@ Nmap done: 1 IP address (1 host up) scanned in 133.82 seconds
 
 #### 2.1.4 Scan Results Analysis
 
-##### Why the Question Mark Appears
-
-During a service scan (`-sV` or `-A`), Nmap sends a series of "probes" (specific data packets) to the open port and waits for a response. It then compares that response against its internal database of thousands of service signatures.
-
-The question mark appears in two specific scenarios:
-
-1. **Incomplete Handshake:** The service responded just enough to suggest what it might be, but it didn't provide a unique "fingerprint" that matches a known signature perfectly.
-    
-2. **Ambiguous Response:** The data returned by the port is generic. For example, many services use SSL/TLS; if Nmap sees an encrypted wrapper but cannot see what is inside, it might guess `https?` based on the port number (443) and the presence of SSL.
-
 | **Port**       | **Service**    | **Version**                    | **Analysis**                                                                                                                           |
 | -------------- | -------------- | ------------------------------ | -------------------------------------------------------------------------------------------------------------------------------------- |
 | **53**         | DNS            | Simple DNS Plus                | Essential for domain resolution. May be used for zone transfers or identifying other hosts via `nslookup`.                             |
@@ -309,7 +299,20 @@ The question mark appears in two specific scenarios:
 | **445**        | SMB            | Microsoft-ds (Windows 10/2019) | Server Message Block. Priority target for finding open file shares, sensitive documents, or performing "Relay" attacks.                |
 | **5985**       | WinRM          | Microsoft HTTPAPI httpd 2.0    | Windows Remote Management. Often used for remote shells. If credentials are found, this is a likely method for gaining initial access. |
 | **3268, 3269** | Global Catalog | Microsoft Windows AD LDAP      | Used for searching the entire Active Directory forest. Provides similar enumeration opportunities as standard LDAP.                    |
+|                |                |                                |                                                                                                                                        |
+<div align="center">
+<br>
+</div>
 
+##### Why the Question Mark Appears
+
+During a service scan (`-sV` or `-A`), Nmap sends a series of "probes" (specific data packets) to the open port and waits for a response. It then compares that response against its internal database of thousands of service signatures.
+
+The question mark appears in two specific scenarios:
+
+1. **Incomplete Handshake:** The service responded just enough to suggest what it might be, but it didn't provide a unique "fingerprint" that matches a known signature perfectly.
+    
+2. **Ambiguous Response:** The data returned by the port is generic. For example, many services use SSL/TLS; if Nmap sees an encrypted wrapper but cannot see what is inside, it might guess `https?` based on the port number (443) and the presence of SSL.
 <div align="center">
 <br>
 ※※※※※※※※※※※※※※※※※※※※※※※※
