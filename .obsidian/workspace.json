@@ -154,11 +154,11 @@
                       "type": "webviewer",
                       "state": {
                         "url": "https://medium.com/@0x5t3v3n_55139/week-3-season-10-hackthebox-wingdata-99f76d60fc5a",
-                        "title": "Just a moment...",
+                        "title": "Week 3, Season 10 HackTheBox — WingData | by Steven Estill Jr | Feb, 2026 | Medium",
                         "mode": "webview"
                       },
                       "icon": "globe-2",
-                      "title": "Just a moment..."
+                      "title": "Week 3, Season 10 HackTheBox — WingData | by Steven Estill Jr | Feb, 2026 | Medium"
                     }
                   },
                   {
@@ -560,12 +560,13 @@
             "state": {
               "type": "outline",
               "state": {
+                "file": "CYBER/13 CTFS & LABS/HTB/PIRATE.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline"
+              "title": "Outline of PIRATE"
             }
           },
           {
@@ -623,7 +624,7 @@
       "iconic:Open rulebook": false
     }
   },
-  "active": "9c21a48012c143a4",
+  "active": "134eda7afb03f2b5",
   "lastOpenFiles": [
     "CYBER/13 CTFS & LABS/HTB/FACTS.md",
     "CYBER/13 CTFS & LABS/HTB/PIRATE.md",
