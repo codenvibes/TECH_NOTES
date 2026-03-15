@@ -229,7 +229,7 @@ Breakdown:
     - **Purpose:** Specifies the URL to be fuzzed. The keyword `FUZZ` tells the tool exactly where to inject the words from your wordlist.
 - `-H "Host: FUZZ.monitorsfour.htb"`
 	- **Description:** Specifically targets the VHost routing logic of the web server.
-	- **Purpose:** This command automates the filtering process we discussed earlier, allowing the tool to intelligently ignore the "too many outputs" and only present results that differ from the server's standard behavior.
+	- **Purpose:** This command automates the filtering process, allowing the tool to intelligently ignore "too many outputs" and only present results that differ from the server's standard behavior.
 
 Output:
 <div align="center">
