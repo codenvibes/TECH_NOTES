@@ -55,12 +55,12 @@
                     "state": {
                       "type": "webviewer",
                       "state": {
-                        "url": "https://app.hackthebox.com/machines/Pirate?sort_by=created_at&sort_type=desc",
-                        "title": "Hack The Box :: Pirate Machine",
+                        "url": "https://account.hackthebox.com/login",
+                        "title": "HTB Account",
                         "mode": "webview"
                       },
                       "icon": "globe-2",
-                      "title": "Hack The Box :: Pirate Machine"
+                      "title": "HTB Account"
                     }
                   },
                   {
@@ -110,7 +110,7 @@
                     }
                   }
                 ],
-                "currentTab": 4
+                "currentTab": 2
               },
               {
                 "id": "0d9688c0329c8d14",
@@ -285,7 +285,7 @@
                       "type": "bases",
                       "state": {
                         "file": "CYBER/13 CTFS & LABS/CTFS & LABS.base",
-                        "viewName": "THM"
+                        "viewName": "HTB"
                       },
                       "pinned": true,
                       "icon": "lucide-layout-grid",
@@ -587,13 +587,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "CYBER/13 CTFS & LABS/HTB/PIRATE.md",
+                "file": "CYBER/13 CTFS & LABS/CTFS & LABS.base",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of PIRATE"
+              "title": "Outline of CTFS & LABS"
             }
           },
           {
@@ -651,12 +651,12 @@
       "iconic:Open rulebook": false
     }
   },
-  "active": "134eda7afb03f2b5",
+  "active": "c70fde05d4631946",
   "lastOpenFiles": [
+    "CYBER/13 CTFS & LABS/HTB/PIRATE.md",
     "QUICK NOTES/WHITE-BOARD.md",
     "COURSES/HACKVISER/CAPT.md",
     "CYBER/04 EXPLOITATION/WEB_EXPLOITATION/FILE INCLUSION.md",
-    "CYBER/13 CTFS & LABS/HTB/PIRATE.md",
     "CYBER/13 CTFS & LABS/HTB/CCTV.md",
     "CYBER/13 CTFS & LABS/HTB/WINGDATA.md",
     "CYBER/13 CTFS & LABS/HTB/FACTS.md",
