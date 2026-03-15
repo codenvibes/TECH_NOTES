@@ -232,7 +232,7 @@
                     }
                   }
                 ],
-                "currentTab": 7
+                "currentTab": 6
               }
             ],
             "direction": "horizontal"
@@ -588,13 +588,12 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "CYBER/13 CTFS & LABS/HTB/MONITORSFOUR.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of MONITORSFOUR"
+              "title": "Outline"
             }
           },
           {
@@ -652,11 +651,11 @@
       "iconic:Open rulebook": false
     }
   },
-  "active": "7df75af4ab2d65f2",
+  "active": "2b2caeec6788473b",
   "lastOpenFiles": [
+    "CYBER/13 CTFS & LABS/HTB/MONITORSFOUR.md",
     "ASSETS/Pasted image 20260315224808.png",
     "CYBER/13 CTFS & LABS/HTB/WINGDATA.md",
-    "CYBER/13 CTFS & LABS/HTB/MONITORSFOUR.md",
     "CYBER/13 CTFS & LABS/HTB/FACTS.md",
     "QUICK NOTES/WHITE-BOARD.md",
     "COURSES/HACKVISER/CAPT.md",
@@ -694,7 +693,6 @@
     "ASSETS/{92782614-64A8-423C-A30E-6D82BEBE246A}.png",
     "ASSETS/Unconfirmed 337402.crdownload",
     "CYBER/08 TOOLS/SQLMAP",
-    "ASSETS/Facts.png",
     "SOFT SKILLS & CAREER/PIRP.base",
     "SOFT SKILLS & CAREER/PRESENTATIONS/CYBER SHUJAA TRAINER PRESENTATION.pdf",
     "ASSETS/Unconfirmed 469548.crdownload",
