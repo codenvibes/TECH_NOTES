@@ -102,7 +102,16 @@ Breakdown:
 Output:
 
 ```shell
+┌──(kali㉿kali)-[~/PUEMAN/HTB]
+└─$ nmap -p- --min-rate 5000 -Pn 10.129.9.3  
+Starting Nmap 7.98 ( https://nmap.org ) at 2026-03-15 15:08 -0400
+Nmap scan report for 10.129.9.3
+Host is up (0.44s latency).
+Not shown: 65534 filtered tcp ports (no-response)
+PORT   STATE SERVICE
+80/tcp open  http
 
+Nmap done: 1 IP address (1 host up) scanned in 30.04 seconds
 ```
 <div align="center">
 <br>
