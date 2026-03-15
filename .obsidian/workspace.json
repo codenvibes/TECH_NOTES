@@ -101,12 +101,12 @@
                     "state": {
                       "type": "webviewer",
                       "state": {
-                        "url": "https://ctf-ke.cybergame.sk/challenges",
-                        "title": "CyberGame 2026 - Kenya",
+                        "url": "http://ctf-ke.cybergame.sk/",
+                        "title": "ctf-ke.cybergame.sk",
                         "mode": "webview"
                       },
                       "icon": "globe-2",
-                      "title": "CyberGame 2026 - Kenya"
+                      "title": "ctf-ke.cybergame.sk"
                     }
                   }
                 ],
