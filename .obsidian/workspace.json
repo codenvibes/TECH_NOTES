@@ -587,13 +587,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "QUICK NOTES/WHITE-BOARD.md",
+                "file": "CYBER/13 CTFS & LABS/HTB/PIRATE.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of WHITE-BOARD"
+              "title": "Outline of PIRATE"
             }
           },
           {
@@ -651,8 +651,9 @@
       "iconic:Open rulebook": false
     }
   },
-  "active": "21fce08000a30866",
+  "active": "134eda7afb03f2b5",
   "lastOpenFiles": [
+    "QUICK NOTES/WHITE-BOARD.md",
     "COURSES/HACKVISER/CAPT.md",
     "CYBER/04 EXPLOITATION/WEB_EXPLOITATION/FILE INCLUSION.md",
     "CYBER/13 CTFS & LABS/HTB/PIRATE.md",
@@ -662,7 +663,6 @@
     "CYBER/13 CTFS & LABS/THM/OPERATION ENDGAME.md",
     "CYBER/08 TOOLS/SQLMAP/SQLMAP.md",
     "CYBER/13 CTFS & LABS/CTFS & LABS.base",
-    "QUICK NOTES/WHITE-BOARD.md",
     "TEMPLATES/HTBL WRITEUP.md",
     "CYBER/08 TOOLS/SQLMAP/SQLMAP ESSENTIALS.md",
     "QUICK NOTES/TODO.md",
