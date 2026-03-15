@@ -63,7 +63,7 @@ Breakdown:
 
 Output:
 
-```shell
+```python
 ┌──(kali㉿kali)-[~/PUEMAN/HTB]
 └─$ ping -c 4 TARGET_IP                                            
 PING TARGET_IP(TARGET_IP) 56(84) bytes of data.
@@ -118,7 +118,7 @@ Breakdown:
 
 Output:
 
-```shell
+``` shell
 ┌──(kali㉿kali)-[~/PUEMAN/HTB/SN10/Pirate]
 └─$ nmap -p- --min-rate 5000 -Pn TARGET_IP -oG scan.txt -oG scan1.txt
 Starting Nmap 7.98 ( https://nmap.org ) at 2026-03-12 07:46 -0400
@@ -199,7 +199,7 @@ scan1.txt
 
 Output:
 
-```shell
+``` shell
 ┌──(kali㉿kali)-[~/PUEMAN/HTB/SN10/Pirate]
 └─$ nmap -A -p $ports 10.129.8.175                         
 Starting Nmap 7.98 ( https://nmap.org ) at 2026-03-15 04:21 -0400
