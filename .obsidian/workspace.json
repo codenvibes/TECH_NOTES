@@ -574,13 +574,12 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "CYBER/13 CTFS & LABS/HTB/FACTS.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of FACTS"
+              "title": "Outline"
             }
           },
           {
@@ -638,13 +637,13 @@
       "iconic:Open rulebook": false
     }
   },
-  "active": "6f3fd191b2b9ee95",
+  "active": "bea647b1dd44387e",
   "lastOpenFiles": [
+    "CYBER/13 CTFS & LABS/HTB/FACTS.md",
     "CYBER/13 CTFS & LABS/CTFS & LABS.base",
     "CYBER/13 CTFS & LABS/HTB/WINGDATA.md",
     "CYBER/13 CTFS & LABS/HTB/CCTV.md",
     "CYBER/13 CTFS & LABS/HTB/PIRATE.md",
-    "CYBER/13 CTFS & LABS/HTB/FACTS.md",
     "QUICK NOTES/WHITE-BOARD.md",
     "TEMPLATES/HTBL WRITEUP.md",
     "CYBER/08 TOOLS/SQLMAP/SQLMAP.md",
