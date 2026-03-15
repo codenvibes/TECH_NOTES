@@ -213,6 +213,25 @@ Browse to `http://monitorsfour.htb/`.
 <div align="center">
 <br>
 <br>
+</div>
+
+#### 2.2.3. Directory Fuzzing
+
+Command: `ffuf -w /usr/share/wordlists/dirb/common.txt -u http://facts.htb/FUZZ`
+
+Breakdown:
+
+- **`-u`**
+    - **Description:** Target URL.
+    - **Purpose:** Specifies the URL to be fuzzed. The keyword `FUZZ` tells the tool exactly where to inject the words from your wordlist.
+- **`-w`**
+    - **Description:** Wordlist Path.
+    - **Purpose:** Provides the list of common directory and file names (like `admin`, `config`, etc.) to test against the server.
+
+Output:
+<div align="center">
+<br>
+<br>
 ※※※※※※※※※※※※※※※※※※※※※※※※※※※※※※※※※※※※※※※※※※※※※※※※
 <br>
 </div>
