@@ -182,11 +182,11 @@
                       "type": "webviewer",
                       "state": {
                         "url": "https://github.com/kyakei/CVE-2023-43208",
-                        "title": "GitHub - kyakei/CVE-2023-43208: CVE-2023-43208: Mirth Connect Pre-Auth RCE PoC",
-                        "mode": "webview"
+                        "title": "data:text/plain,",
+                        "mode": "blank"
                       },
                       "icon": "globe-2",
-                      "title": "GitHub - kyakei/CVE-2023-43208: CVE-2023-43208: Mirth Connect Pre-Auth RCE PoC"
+                      "title": "data:text/plain,"
                     }
                   },
                   {
@@ -203,7 +203,8 @@
                       "title": "FACTS"
                     }
                   }
-                ]
+                ],
+                "currentTab": 4
               }
             ],
             "direction": "horizontal"
@@ -608,7 +609,7 @@
       "iconic:Open rulebook": false
     }
   },
-  "active": "3b8b4b24d88a173c",
+  "active": "bea647b1dd44387e",
   "lastOpenFiles": [
     "CYBER/13 CTFS & LABS/HTB/PIRATE.md",
     "QUICK NOTES/WHITE-BOARD.md",
