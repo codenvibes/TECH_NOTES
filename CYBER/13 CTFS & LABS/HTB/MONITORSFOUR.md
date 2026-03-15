@@ -171,10 +171,10 @@ Nmap done: 1 IP address (1 host up) scanned in 30.71 seconds
 
 #### 2.1.3 Scan Results Analysis
 
-| Port | **Service** | **Version** | **Analysis** |
-| ---- | ----------- | ----------- | ------------ |
-|      |             |             |              |
-|      |             |             |              |
+| Port | **Service** | **Version** | **Analysis**                                                                                                                              |
+| ---- | ----------- | ----------- | ----------------------------------------------------------------------------------------------------------------------------------------- |
+| 80   | HTTP        | Nginx       | The server attempts to redirect to `http://monitorsfour.htb/`. This suggests virtual hosting is in use and requires local DNS resolution. |
+|      |             |             |                                                                                                                                           |
 
 <div align="center">
 <br>
