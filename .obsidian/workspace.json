@@ -154,11 +154,11 @@
                       "type": "webviewer",
                       "state": {
                         "url": "https://medium.com/@0x5t3v3n_55139/week-3-season-10-hackthebox-wingdata-99f76d60fc5a",
-                        "title": "Week 3, Season 10 HackTheBox — WingData | by Steven Estill Jr | Feb, 2026 | Medium",
+                        "title": "Just a moment...",
                         "mode": "webview"
                       },
                       "icon": "globe-2",
-                      "title": "Week 3, Season 10 HackTheBox — WingData | by Steven Estill Jr | Feb, 2026 | Medium"
+                      "title": "Just a moment..."
                     }
                   },
                   {
@@ -190,6 +190,20 @@
                     }
                   },
                   {
+                    "id": "9c21a48012c143a4",
+                    "type": "leaf",
+                    "state": {
+                      "type": "webviewer",
+                      "state": {
+                        "url": "https://thecybersecguru.com/ctf-walkthroughs/mastering-pirate-beginners-guide-from-hackthebox/",
+                        "title": "Mastering Pirate: Beginner's Guide from HackTheBox | The CyberSec Guru",
+                        "mode": "webview"
+                      },
+                      "icon": "globe-2",
+                      "title": "Mastering Pirate: Beginner's Guide from HackTheBox | The CyberSec Guru"
+                    }
+                  },
+                  {
                     "id": "e4b465f8c5c0b958",
                     "type": "leaf",
                     "state": {
@@ -204,7 +218,7 @@
                     }
                   }
                 ],
-                "currentTab": 4
+                "currentTab": 5
               }
             ],
             "direction": "horizontal"
@@ -609,11 +623,11 @@
       "iconic:Open rulebook": false
     }
   },
-  "active": "bea647b1dd44387e",
+  "active": "9c21a48012c143a4",
   "lastOpenFiles": [
+    "CYBER/13 CTFS & LABS/HTB/FACTS.md",
     "CYBER/13 CTFS & LABS/HTB/PIRATE.md",
     "QUICK NOTES/WHITE-BOARD.md",
-    "CYBER/13 CTFS & LABS/HTB/FACTS.md",
     "TEMPLATES/HTBL WRITEUP.md",
     "CYBER/13 CTFS & LABS/HTB/CCTV.md",
     "CYBER/13 CTFS & LABS/HTB/WINGDATA.md",
