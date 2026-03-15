@@ -207,14 +207,14 @@
                     "id": "8e50b50431b21ca5",
                     "type": "leaf",
                     "state": {
-                      "type": "webviewer",
+                      "type": "markdown",
                       "state": {
-                        "url": "https://swee2ooth.medium.com/operation-endgame-ctf-walkthrough-819129ecb3ee",
-                        "title": "Operation Endgame CTF WalkThrough | by Swee2ooth | Mar, 2026 | Medium",
-                        "mode": "webview"
+                        "file": "CYBER/04 EXPLOITATION/WEB_EXPLOITATION/FILE INCLUSION.md",
+                        "mode": "source",
+                        "source": false
                       },
-                      "icon": "globe-2",
-                      "title": "Operation Endgame CTF WalkThrough | by Swee2ooth | Mar, 2026 | Medium"
+                      "icon": "lucide-file",
+                      "title": "FILE INCLUSION"
                     }
                   }
                 ],
@@ -500,7 +500,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "\"DEF-SQL Injection\"",
+                "query": "LFI",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": true,
@@ -521,12 +521,12 @@
               "title": "Bookmarks"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
-    "width": 288.703125,
-    "collapsed": true
+    "width": 288.703125
   },
   "right": {
     "id": "26820c7e22c27caf",
@@ -588,12 +588,13 @@
             "state": {
               "type": "outline",
               "state": {
+                "file": "CYBER/04 EXPLOITATION/WEB_EXPLOITATION/FILE INCLUSION.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline"
+              "title": "Outline of FILE INCLUSION"
             }
           },
           {
