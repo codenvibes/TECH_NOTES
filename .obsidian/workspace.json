@@ -86,7 +86,7 @@
                     "state": {
                       "type": "webviewer",
                       "state": {
-                        "url": "https://gemini.google.com/app/11815f1ba5ca554f",
+                        "url": "https://gemini.google.com/app",
                         "title": "Google Gemini",
                         "mode": "webview"
                       },
@@ -110,7 +110,7 @@
                     }
                   }
                 ],
-                "currentTab": 2
+                "currentTab": 4
               },
               {
                 "id": "0d9688c0329c8d14",
@@ -217,8 +217,7 @@
                       "title": "MonitorsFour HTB — From Web Enumeration to Docker Escape | by Netanix | Medium"
                     }
                   }
-                ],
-                "currentTab": 6
+                ]
               }
             ],
             "direction": "horizontal"
@@ -665,15 +664,15 @@
       "iconic:Open rulebook": false
     }
   },
-  "active": "2b2caeec6788473b",
+  "active": "3b8b4b24d88a173c",
   "lastOpenFiles": [
+    "QUICK NOTES/WHITE-BOARD.md",
     "CYBER/13 CTFS & LABS/HTB/MONITORSFOUR.md",
     "COURSES/HACKVISER/CAPT.md",
     "CYBER/13 CTFS & LABS/HTB/FACTS.md",
     "CYBER/13 CTFS & LABS/THM/OPERATION ENDGAME.md",
     "CYBER/13 CTFS & LABS/HTB/PIRATE.md",
     "CYBER/13 CTFS & LABS/CTFS & LABS.base",
-    "QUICK NOTES/WHITE-BOARD.md",
     "CYBER/04 EXPLOITATION/WEB_EXPLOITATION/FILE INCLUSION.md",
     "CYBER/13 CTFS & LABS/HTB/CCTV.md",
     "CYBER/13 CTFS & LABS/HTB/WINGDATA.md",
