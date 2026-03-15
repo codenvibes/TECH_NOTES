@@ -217,7 +217,7 @@ Browse to `http://monitorsfour.htb/`.
 
 #### 2.2.3. Directory Fuzzing
 
-Command: `ffuf -w /usr/share/wordlists/dirb/common.txt -u http://facts.htb/FUZZ`
+Command: `ffuf -w /usr/share/wordlists/seclists/Discovery/DNS/subdomains-top1million-5000.txt -u http://monitorsfour.htb/ -H "Host: FUZZ.monitorsfour.htb" -ac`
 
 Breakdown:
 
