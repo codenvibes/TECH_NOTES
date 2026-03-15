@@ -187,6 +187,31 @@ Nmap done: 1 IP address (1 host up) scanned in 30.71 seconds
 
 #### 2.2.1. Update Hosts File
 
+Command: `sudo vi etc/hosts`
+
+**Breakdown:**
+
+- `sudo` 
+	- Description: Elevated Privileges
+	- Purpose: Required to modify system-level configuration files like the hosts database.
+- `vi` 
+	- Description: Terminal Text Editor
+	- Purpose: Used to append the `TARGET_IP wingdata.htb` entry to the file.
+- `/etc/hosts` 
+	- Description: Static Host Lookup Table
+	- Purpose: The local file that takes precedence over DNS servers, ensuring the domain resolves to the CTF machine.
+
+<div align="center">
+<br>
+<br>
+</div>
+##### How Hostname Resolution Works
+
+When you type a URL like `google.com` or `wingdata.htb` into your browser, your computer needs to translate that text into a numerical IP address. It follows a specific order of operations:
+
+1. **The Browser Cache:** Your browser checks if it already knows the IP from a previous visit.
+2. **The Hosts File (`/etc/hosts`):** This is your computer's "private address book." It checks here **first** before asking the internet. If an entry exists, it stops looking and goes to that IP.
+3. **DNS Servers:** If the name isn't in your private book, your computer asks a DNS server (like Google’s `8.8.8.8` or your ISP).
 <div align="center">
 <br>
 <br>
