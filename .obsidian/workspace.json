@@ -86,7 +86,7 @@
                     "state": {
                       "type": "webviewer",
                       "state": {
-                        "url": "https://gemini.google.com/app/6035ab1d3b93cf5d",
+                        "url": "https://gemini.google.com/app/11815f1ba5ca554f",
                         "title": "Google Gemini",
                         "mode": "webview"
                       },
@@ -545,13 +545,12 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "QUICK NOTES/WHITE-BOARD.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of WHITE-BOARD"
+              "title": "Outline"
             }
           },
           {
@@ -609,7 +608,7 @@
       "iconic:Open rulebook": false
     }
   },
-  "active": "21fce08000a30866",
+  "active": "3b8b4b24d88a173c",
   "lastOpenFiles": [
     "CYBER/13 CTFS & LABS/HTB/PIRATE.md",
     "QUICK NOTES/WHITE-BOARD.md",
