@@ -51,14 +51,14 @@ Output:
 
 ```shell
 ┌──(kali㉿kali)-[~/PUEMAN/HTB]
-└─$ ping -c 4 10.129.9.3  
-PING 10.129.9.3 (10.129.9.3) 56(84) bytes of data.
-64 bytes from 10.129.9.3: icmp_seq=1 ttl=127 time=274 ms
-64 bytes from 10.129.9.3: icmp_seq=2 ttl=127 time=266 ms
-64 bytes from 10.129.9.3: icmp_seq=3 ttl=127 time=450 ms
-64 bytes from 10.129.9.3: icmp_seq=4 ttl=127 time=466 ms
+└─$ ping -c 4 TARGET_IP  
+PING TARGET_IP (TARGET_IP) 56(84) bytes of data.
+64 bytes from TARGET_IP: icmp_seq=1 ttl=127 time=274 ms
+64 bytes from TARGET_IP: icmp_seq=2 ttl=127 time=266 ms
+64 bytes from TARGET_IP: icmp_seq=3 ttl=127 time=450 ms
+64 bytes from TARGET_IP: icmp_seq=4 ttl=127 time=466 ms
 
---- 10.129.9.3 ping statistics ---
+--- TARGET_IP ping statistics ---
 4 packets transmitted, 4 received, 0% packet loss, time 3009ms
 rtt min/avg/max/mdev = 266.237/363.989/465.632/94.209 ms
 ```
