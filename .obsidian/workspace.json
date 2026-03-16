@@ -237,12 +237,12 @@
                     "state": {
                       "type": "markdown",
                       "state": {
-                        "file": "CYBER/13 CTFS & LABS/HTB/INTERPRETER.md",
+                        "file": "CYBER/13 CTFS & LABS/HTB/FACTS.md",
                         "mode": "source",
                         "source": false
                       },
                       "icon": "lucide-file",
-                      "title": "INTERPRETER"
+                      "title": "FACTS"
                     }
                   }
                 ],
@@ -476,7 +476,7 @@
                     }
                   }
                 ],
-                "currentTab": 5
+                "currentTab": 1
               }
             ],
             "direction": "horizontal"
@@ -602,13 +602,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "CYBER/13 CTFS & LABS/HTB/INTERPRETER.md",
+                "file": "CYBER/13 CTFS & LABS/HTB/FACTS.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of INTERPRETER"
+              "title": "Outline of FACTS"
             }
           },
           {
@@ -668,6 +668,8 @@
   },
   "active": "7be10445e13112be",
   "lastOpenFiles": [
+    "CYBER/13 CTFS & LABS/HTB/INTERPRETER.md",
+    "CYBER/13 CTFS & LABS/HTB/CCTV.md",
     "CYBER/13 CTFS & LABS/CTFS & LABS.base",
     "CYBER/13 CTFS & LABS/HTB/FACTS.md",
     "CYBER/13 CTFS & LABS/HTB/MONITORSFOUR.md",
@@ -678,7 +680,6 @@
     "CYBER/13 CTFS & LABS/THM/OPERATION ENDGAME.md",
     "CYBER/13 CTFS & LABS/HTB/PIRATE.md",
     "CYBER/04 EXPLOITATION/WEB_EXPLOITATION/FILE INCLUSION.md",
-    "CYBER/13 CTFS & LABS/HTB/CCTV.md",
     "CYBER/08 TOOLS/SQLMAP/SQLMAP.md",
     "TEMPLATES/HTBL WRITEUP.md",
     "CYBER/08 TOOLS/SQLMAP/SQLMAP ESSENTIALS.md",
@@ -702,7 +703,6 @@
     "COURSES/CYBER SHUJAA/CLOUD AND NETWORK SECURITY.md",
     "COURSES/CYBER SHUJAA/SECURITY ANALYST.md",
     "COURSES/HTB/JUNIOR CYBERSECURITY ANALYST.md",
-    "CYBER/13 CTFS & LABS/HTB/INTERPRETER.md",
     "TEMPLATES/GENERAL.md",
     "COURSES/COURSES.base",
     "ASSETS/{92782614-64A8-423C-A30E-6D82BEBE246A}.png",
