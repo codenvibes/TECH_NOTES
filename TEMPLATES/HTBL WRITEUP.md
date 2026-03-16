@@ -4,6 +4,7 @@ link:
 description:
 image:
 date:
+pawned:
 ---
 ## Summary
 

@@ -6,8 +6,9 @@ views:
         - file.folder == "CYBER/13 CTFS & LABS/HTB"
     order:
       - file.name
-      - file.tags
       - description
+      - file.tags
+      - pawned
     image: note.image
     cardSize: 190
     imageAspectRatio: 1
