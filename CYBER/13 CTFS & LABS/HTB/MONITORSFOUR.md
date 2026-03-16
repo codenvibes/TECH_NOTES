@@ -12,7 +12,8 @@ date:
 | ---------------- | ---- |
 | Submit User Flag |      |
 | Submit Root Flag |      |
-
+Easy·Linux
+Easy.Windows
 <div align="center">
 <br>
 <br>

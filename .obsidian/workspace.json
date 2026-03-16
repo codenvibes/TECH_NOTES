@@ -476,7 +476,7 @@
                     }
                   }
                 ],
-                "currentTab": 1
+                "currentTab": 5
               }
             ],
             "direction": "horizontal"
@@ -602,13 +602,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "CYBER/13 CTFS & LABS/HTB/FACTS.md",
+                "file": "CYBER/13 CTFS & LABS/HTB/MONITORSFOUR.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of FACTS"
+              "title": "Outline of MONITORSFOUR"
             }
           },
           {
@@ -666,12 +666,12 @@
       "iconic:Open rulebook": false
     }
   },
-  "active": "7be10445e13112be",
+  "active": "7df75af4ab2d65f2",
   "lastOpenFiles": [
+    "CYBER/13 CTFS & LABS/HTB/FACTS.md",
     "CYBER/13 CTFS & LABS/HTB/INTERPRETER.md",
     "CYBER/13 CTFS & LABS/HTB/CCTV.md",
     "CYBER/13 CTFS & LABS/CTFS & LABS.base",
-    "CYBER/13 CTFS & LABS/HTB/FACTS.md",
     "CYBER/13 CTFS & LABS/HTB/MONITORSFOUR.md",
     "CYBER/13 CTFS & LABS/HTB/WINGDATA.md",
     "ASSETS/Pasted image 20260315224808.png",

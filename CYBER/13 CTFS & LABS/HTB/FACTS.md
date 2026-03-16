@@ -2,7 +2,7 @@
 tags:
   - HTB_SN_10
 link: https://app.hackthebox.com/machines/Facts
-description:
+description: Easy·Linux
 image: https://htb-mp-prod-public-storage.s3.eu-central-1.amazonaws.com/avatars/bdcd209c32f156fbfb2268f099971f75.png
 date: 2026-02-15
 ---
