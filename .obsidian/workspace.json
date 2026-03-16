@@ -15,7 +15,7 @@
               {
                 "id": "eb7c5c7906b2a9d3",
                 "type": "tabs",
-                "dimension": 49.48051948051948,
+                "dimension": 49.480519480519476,
                 "children": [
                   {
                     "id": "10dd2c9178155b52",
@@ -87,12 +87,12 @@
                       "type": "webviewer",
                       "state": {
                         "url": "https://gemini.google.com/app/4087174ac3d85e08",
-                        "title": "Google Gemini",
-                        "mode": "webview"
+                        "title": "‎Google Gemini",
+                        "mode": "blank"
                       },
                       "pinned": true,
                       "icon": "globe-2",
-                      "title": "Google Gemini"
+                      "title": "‎Google Gemini"
                     }
                   },
                   {
@@ -115,7 +115,7 @@
               {
                 "id": "0d9688c0329c8d14",
                 "type": "tabs",
-                "dimension": 50.51948051948052,
+                "dimension": 50.519480519480524,
                 "children": [
                   {
                     "id": "21fce08000a30866",
@@ -211,7 +211,7 @@
                       "state": {
                         "url": "https://medium.com/@netanix96/monitorsfour-htb-from-web-enumeration-to-docker-escape-9c280ed5f511",
                         "title": "MonitorsFour HTB — From Web Enumeration to Docker Escape | by Netanix | Medium",
-                        "mode": "webview"
+                        "mode": "blank"
                       },
                       "icon": "globe-2",
                       "title": "MonitorsFour HTB — From Web Enumeration to Docker Escape | by Netanix | Medium"
