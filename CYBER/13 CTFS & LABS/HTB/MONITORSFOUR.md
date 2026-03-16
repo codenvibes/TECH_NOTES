@@ -2,7 +2,7 @@
 tags:
   - HTB
 link: https://app.hackthebox.com/machines/MonitorsFour?sort_by=created_at&sort_type=desc
-description: Easy.Windows
+description: Easy·Windows
 image: https://htb-mp-prod-public-storage.s3.eu-central-1.amazonaws.com/avatars/c7878dd8dba2eb248a89584ec958a5b8.png
 date:
 ---
@@ -12,8 +12,7 @@ date:
 | ---------------- | ---- |
 | Submit User Flag |      |
 | Submit Root Flag |      |
-Easy·Linux
-Easy.Windows
+
 <div align="center">
 <br>
 <br>
