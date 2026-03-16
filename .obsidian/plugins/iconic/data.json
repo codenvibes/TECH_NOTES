@@ -87,15 +87,16 @@
   "fileRules": [
     {
       "id": "ulC1f",
-      "name": "Untitled rule",
+      "name": "Pawned",
       "match": "all",
       "conditions": [
         {
-          "source": "name",
-          "operator": "contains"
+          "source": "property:pawned",
+          "operator": "isTrue"
         }
       ],
-      "enabled": true
+      "enabled": true,
+      "icon": "✅"
     }
   ],
   "folderRules": []
