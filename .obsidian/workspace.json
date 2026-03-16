@@ -57,7 +57,7 @@
                       "state": {
                         "url": "https://app.hackthebox.com/machines",
                         "title": "Hack The Box :: Machines",
-                        "mode": "webview"
+                        "mode": "blank"
                       },
                       "icon": "globe-2",
                       "title": "Hack The Box :: Machines"
