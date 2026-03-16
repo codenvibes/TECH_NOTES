@@ -475,8 +475,7 @@
                       "title": "OPERATION ENDGAME"
                     }
                   }
-                ],
-                "currentTab": 5
+                ]
               }
             ],
             "direction": "horizontal"
@@ -602,12 +601,13 @@
             "state": {
               "type": "outline",
               "state": {
+                "file": "CYBER/13 CTFS & LABS/THM/KENOBI.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline"
+              "title": "Outline of KENOBI"
             }
           },
           {
@@ -665,22 +665,22 @@
       "iconic:Open rulebook": false
     }
   },
-  "active": "67bc1032adb5e955",
+  "active": "76fda0f47a1730fe",
   "lastOpenFiles": [
+    "CYBER/13 CTFS & LABS/THM/OPERATION ENDGAME.md",
+    "CYBER/13 CTFS & LABS/HTB/MONITORSFOUR.md",
+    "CYBER/08 TOOLS/SQLMAP/SQLMAP.md",
+    "CYBER/13 CTFS & LABS/HTB/PIRATE.md",
+    "CYBER/13 CTFS & LABS/HTB/CCTV.md",
     "CYBER/13 CTFS & LABS/HTB/WINGDATA.md",
     "CYBER/13 CTFS & LABS/CTFS & LABS.base",
     "CYBER/13 CTFS & LABS/HTB/FACTS.md",
-    "CYBER/13 CTFS & LABS/HTB/MONITORSFOUR.md",
     "TEMPLATES/HTBL WRITEUP.md",
     "CYBER/13 CTFS & LABS/HTB/INTERPRETER.md",
-    "CYBER/13 CTFS & LABS/HTB/CCTV.md",
     "ASSETS/Pasted image 20260315224808.png",
     "QUICK NOTES/WHITE-BOARD.md",
     "COURSES/HACKVISER/CAPT.md",
-    "CYBER/13 CTFS & LABS/THM/OPERATION ENDGAME.md",
-    "CYBER/13 CTFS & LABS/HTB/PIRATE.md",
     "CYBER/04 EXPLOITATION/WEB_EXPLOITATION/FILE INCLUSION.md",
-    "CYBER/08 TOOLS/SQLMAP/SQLMAP.md",
     "CYBER/08 TOOLS/SQLMAP/SQLMAP ESSENTIALS.md",
     "QUICK NOTES/TODO.md",
     "CYBER/13 CTFS & LABS/HTB/WHIT.md",
