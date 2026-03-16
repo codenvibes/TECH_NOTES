@@ -55,12 +55,12 @@
                     "state": {
                       "type": "webviewer",
                       "state": {
-                        "url": "https://app.hackthebox.com/machines/MonitorsFour?sort_by=created_at&sort_type=desc",
-                        "title": "Hack The Box :: MonitorsFour Machine",
+                        "url": "https://app.hackthebox.com/machines",
+                        "title": "Hack The Box :: Machines",
                         "mode": "webview"
                       },
                       "icon": "globe-2",
-                      "title": "Hack The Box :: MonitorsFour Machine"
+                      "title": "Hack The Box :: Machines"
                     }
                   },
                   {
@@ -246,7 +246,7 @@
                     }
                   }
                 ],
-                "currentTab": 8
+                "currentTab": 7
               }
             ],
             "direction": "horizontal"
@@ -602,13 +602,12 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "CYBER/13 CTFS & LABS/CTFS & LABS.base",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of CTFS & LABS"
+              "title": "Outline"
             }
           },
           {
@@ -666,15 +665,15 @@
       "iconic:Open rulebook": false
     }
   },
-  "active": "c70fde05d4631946",
+  "active": "67bc1032adb5e955",
   "lastOpenFiles": [
+    "CYBER/13 CTFS & LABS/HTB/WINGDATA.md",
+    "CYBER/13 CTFS & LABS/CTFS & LABS.base",
     "CYBER/13 CTFS & LABS/HTB/FACTS.md",
     "CYBER/13 CTFS & LABS/HTB/MONITORSFOUR.md",
     "TEMPLATES/HTBL WRITEUP.md",
     "CYBER/13 CTFS & LABS/HTB/INTERPRETER.md",
     "CYBER/13 CTFS & LABS/HTB/CCTV.md",
-    "CYBER/13 CTFS & LABS/CTFS & LABS.base",
-    "CYBER/13 CTFS & LABS/HTB/WINGDATA.md",
     "ASSETS/Pasted image 20260315224808.png",
     "QUICK NOTES/WHITE-BOARD.md",
     "COURSES/HACKVISER/CAPT.md",
