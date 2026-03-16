@@ -87,12 +87,12 @@
                       "type": "webviewer",
                       "state": {
                         "url": "https://gemini.google.com/app/4087174ac3d85e08",
-                        "title": "‎Google Gemini",
-                        "mode": "blank"
+                        "title": "Google Gemini",
+                        "mode": "webview"
                       },
                       "pinned": true,
                       "icon": "globe-2",
-                      "title": "‎Google Gemini"
+                      "title": "Google Gemini"
                     }
                   },
                   {
@@ -211,7 +211,7 @@
                       "state": {
                         "url": "https://medium.com/@netanix96/monitorsfour-htb-from-web-enumeration-to-docker-escape-9c280ed5f511",
                         "title": "MonitorsFour HTB — From Web Enumeration to Docker Escape | by Netanix | Medium",
-                        "mode": "blank"
+                        "mode": "webview"
                       },
                       "icon": "globe-2",
                       "title": "MonitorsFour HTB — From Web Enumeration to Docker Escape | by Netanix | Medium"
