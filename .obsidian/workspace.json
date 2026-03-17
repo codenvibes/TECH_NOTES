@@ -109,8 +109,7 @@
                       "title": "ctf-ke.cybergame.sk"
                     }
                   }
-                ],
-                "currentTab": 2
+                ]
               },
               {
                 "id": "0d9688c0329c8d14",
@@ -245,8 +244,7 @@
                       "title": "FACTS"
                     }
                   }
-                ],
-                "currentTab": 7
+                ]
               }
             ],
             "direction": "horizontal"
@@ -601,12 +599,13 @@
             "state": {
               "type": "outline",
               "state": {
+                "file": "QUICK NOTES/TODO.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline"
+              "title": "Outline of TODO"
             }
           },
           {
@@ -664,8 +663,9 @@
       "iconic:Open rulebook": false
     }
   },
-  "active": "67bc1032adb5e955",
+  "active": "10dd2c9178155b52",
   "lastOpenFiles": [
+    "QUICK NOTES/WHITE-BOARD.md",
     "CYBER/13 CTFS & LABS/HTB/WINGDATA.md",
     "CYBER/13 CTFS & LABS/THM/KENOBI.md",
     "CYBER/13 CTFS & LABS/THM/OPERATION ENDGAME.md",
@@ -678,7 +678,6 @@
     "TEMPLATES/HTBL WRITEUP.md",
     "CYBER/13 CTFS & LABS/HTB/INTERPRETER.md",
     "ASSETS/Pasted image 20260315224808.png",
-    "QUICK NOTES/WHITE-BOARD.md",
     "COURSES/HACKVISER/CAPT.md",
     "CYBER/04 EXPLOITATION/WEB_EXPLOITATION/FILE INCLUSION.md",
     "CYBER/08 TOOLS/SQLMAP/SQLMAP ESSENTIALS.md",
