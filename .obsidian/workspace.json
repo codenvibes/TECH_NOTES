@@ -511,7 +511,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "LFI",
+                "query": "slide",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": true,
@@ -532,7 +532,8 @@
               "title": "Bookmarks"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -599,13 +600,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "QUICK NOTES/TODO.md",
+                "file": "CYBER/13 CTFS & LABS/THM/KENOBI.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of TODO"
+              "title": "Outline of KENOBI"
             }
           },
           {
@@ -663,8 +664,10 @@
       "iconic:Open rulebook": false
     }
   },
-  "active": "10dd2c9178155b52",
+  "active": "76fda0f47a1730fe",
   "lastOpenFiles": [
+    "SOFT SKILLS & CAREER/INTERVIEWS/CYBERSHUJAA TRAINER.md",
+    "QUICK NOTES/TODO.md",
     "QUICK NOTES/WHITE-BOARD.md",
     "CYBER/13 CTFS & LABS/HTB/WINGDATA.md",
     "CYBER/13 CTFS & LABS/THM/KENOBI.md",
@@ -681,7 +684,6 @@
     "COURSES/HACKVISER/CAPT.md",
     "CYBER/04 EXPLOITATION/WEB_EXPLOITATION/FILE INCLUSION.md",
     "CYBER/08 TOOLS/SQLMAP/SQLMAP ESSENTIALS.md",
-    "QUICK NOTES/TODO.md",
     "CYBER/13 CTFS & LABS/HTB/WHIT.md",
     "CYBER/04 EXPLOITATION/WEB_EXPLOITATION/SQL INJECTION.md",
     "COURSES/MODULES.base",
@@ -701,7 +703,6 @@
     "COURSES/CYBER SHUJAA/CLOUD AND NETWORK SECURITY.md",
     "COURSES/CYBER SHUJAA/SECURITY ANALYST.md",
     "COURSES/HTB/JUNIOR CYBERSECURITY ANALYST.md",
-    "TEMPLATES/GENERAL.md",
     "COURSES/COURSES.base",
     "ASSETS/{92782614-64A8-423C-A30E-6D82BEBE246A}.png",
     "ASSETS/Unconfirmed 337402.crdownload",
