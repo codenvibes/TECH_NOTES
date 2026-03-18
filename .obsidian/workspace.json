@@ -600,13 +600,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "CYBER/13 CTFS & LABS/THM/KENOBI.md",
+                "file": "QUICK NOTES/WHITE-BOARD.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of KENOBI"
+              "title": "Outline of WHITE-BOARD"
             }
           },
           {
@@ -664,13 +664,13 @@
       "iconic:Open rulebook": false
     }
   },
-  "active": "76fda0f47a1730fe",
+  "active": "21fce08000a30866",
   "lastOpenFiles": [
+    "CYBER/13 CTFS & LABS/THM/KENOBI.md",
     "SOFT SKILLS & CAREER/INTERVIEWS/CYBERSHUJAA TRAINER.md",
     "QUICK NOTES/TODO.md",
     "QUICK NOTES/WHITE-BOARD.md",
     "CYBER/13 CTFS & LABS/HTB/WINGDATA.md",
-    "CYBER/13 CTFS & LABS/THM/KENOBI.md",
     "CYBER/13 CTFS & LABS/THM/OPERATION ENDGAME.md",
     "CYBER/13 CTFS & LABS/HTB/MONITORSFOUR.md",
     "CYBER/08 TOOLS/SQLMAP/SQLMAP.md",
