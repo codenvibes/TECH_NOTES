@@ -43,7 +43,7 @@ I am documenting the ____ CTF challenge and need help converting my raw notes in
 **Do you understand these formatting requirements? If so, let's start with my first step.**
 
 ---
-## Cyber SHUJAA CTF SCHEDULE
+## Cyber Shujaa CTF Schedule
 
 |               | LAB             |
 | ------------- | --------------- |
@@ -63,7 +63,7 @@ I am documenting the ____ CTF challenge and need help converting my raw notes in
 |               |                 |
 
 ---
-## SAC12026 MID-EXAM
+## SAC12026 Mid-Exam
 
 1. Conduct an Nmap scan on the provided Linux machine. Identify the open ports. (2 mks)
 
