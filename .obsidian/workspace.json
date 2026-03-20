@@ -511,7 +511,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "slide",
+                "query": "speaker",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": true,
@@ -532,8 +532,7 @@
               "title": "Bookmarks"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -600,13 +599,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "QUICK NOTES/WHITE-BOARD.md",
+                "file": "CYBER/13 CTFS & LABS/THM/KENOBI.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of WHITE-BOARD"
+              "title": "Outline of KENOBI"
             }
           },
           {
@@ -664,10 +663,10 @@
       "iconic:Open rulebook": false
     }
   },
-  "active": "21fce08000a30866",
+  "active": "76fda0f47a1730fe",
   "lastOpenFiles": [
-    "QUICK NOTES/TODO.md",
     "QUICK NOTES/WHITE-BOARD.md",
+    "QUICK NOTES/TODO.md",
     "CYBER/13 CTFS & LABS/THM/KENOBI.md",
     "SOFT SKILLS & CAREER/INTERVIEWS/CYBERSHUJAA TRAINER.md",
     "CYBER/13 CTFS & LABS/HTB/WINGDATA.md",
