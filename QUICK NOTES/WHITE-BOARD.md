@@ -41,8 +41,12 @@ I am documenting the ____ CTF challenge and need help converting my raw notes in
 
 ---
 
+## CYBER SHUJAA CTF SCHEDULE
+
 |               | LAB             |
 | ------------- | --------------- |
+|               |                 |
+| 25TH MAR 2026 |                 |
 | 18TH MAR 2026 | THM LOOKUP      |
 | 11TH MAR 2026 | HTB CCTV        |
 | 04TH MAR 2026 | HTB WINGDATA    |
