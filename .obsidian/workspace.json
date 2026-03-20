@@ -244,7 +244,8 @@
                       "title": "FACTS"
                     }
                   }
-                ]
+                ],
+                "currentTab": 3
               }
             ],
             "direction": "horizontal"
@@ -617,13 +618,12 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "QUICK NOTES/WHITE-BOARD.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of WHITE-BOARD"
+              "title": "Outline"
             }
           },
           {
@@ -688,11 +688,11 @@
       "iconic:Open rulebook": false
     }
   },
-  "active": "c81f332ac7d36977",
+  "active": "92aabadb907a937e",
   "lastOpenFiles": [
+    "QUICK NOTES/WHITE-BOARD.md",
     "CYBER/13 CTFS & LABS/HTB/WINGDATA.md",
     "CYBER/13 CTFS & LABS/THM/KENOBI.md",
-    "QUICK NOTES/WHITE-BOARD.md",
     "QUICK NOTES/TODO.md",
     "SOFT SKILLS & CAREER/INTERVIEWS/CYBERSHUJAA TRAINER.md",
     "CYBER/13 CTFS & LABS/THM/OPERATION ENDGAME.md",
