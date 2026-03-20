@@ -47,7 +47,7 @@ I am documenting the ____ CTF challenge and need help converting my raw notes in
 | 11TH MAR 2026 | HTB CCTV        |
 | 04TH MAR 2026 | HTB WINGDATA    |
 | 25TH FEB 2026 | HTB FACTS       |
-| 18TH FEB 2026 | THM UNBAKED PEI |
+| 18TH FEB 2026 | THM UNBAKED PIE |
 | 11TH FEB 2026 |                 |
 | 04TH FEB 2026 |                 |
 |               |                 |
