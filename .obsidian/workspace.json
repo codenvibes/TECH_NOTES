@@ -245,7 +245,7 @@
                     }
                   }
                 ],
-                "currentTab": 2
+                "currentTab": 7
               }
             ],
             "direction": "horizontal"
@@ -600,12 +600,13 @@
             "state": {
               "type": "outline",
               "state": {
+                "file": "CYBER/13 CTFS & LABS/HTB/WINGDATA.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline"
+              "title": "Outline of WINGDATA"
             }
           },
           {
@@ -663,7 +664,7 @@
       "iconic:Open rulebook": false
     }
   },
-  "active": "24dcbd31cd51ed03",
+  "active": "3dbdf2692670b270",
   "lastOpenFiles": [
     "CYBER/13 CTFS & LABS/THM/KENOBI.md",
     "QUICK NOTES/WHITE-BOARD.md",
