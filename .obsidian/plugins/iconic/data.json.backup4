@@ -24,7 +24,7 @@
   "maxBackups": 5,
   "dialogState": {
     "iconMode": true,
-    "emojiMode": false,
+    "emojiMode": true,
     "rulePage": "file"
   },
   "appIcons": {},
@@ -84,6 +84,20 @@
   "tagIcons": {},
   "propertyIcons": {},
   "ribbonIcons": {},
-  "fileRules": [],
+  "fileRules": [
+    {
+      "id": "ulC1f",
+      "name": "Pawned",
+      "match": "all",
+      "conditions": [
+        {
+          "source": "property:pawned",
+          "operator": "isTrue"
+        }
+      ],
+      "enabled": true,
+      "icon": "✅"
+    }
+  ],
   "folderRules": []
 }
