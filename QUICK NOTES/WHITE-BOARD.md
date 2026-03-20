@@ -51,7 +51,7 @@ I am documenting the ____ CTF challenge and need help converting my raw notes in
 | 11TH FEB 2026 | THM RELEVANT    |
 | 04TH FEB 2026 | THM THOMPSON    |
 | 28TH JAN 2026 |                 |
-| 21TH JAN 2026 |                 |
+| 21TH JAN 2026 | HTB TWOMILLION  |
 | 14TH JAN 2026 |                 |
 |               |                 |
 |               |                 |
