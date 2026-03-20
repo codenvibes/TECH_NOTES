@@ -50,6 +50,7 @@ I am documenting the ____ CTF challenge and need help converting my raw notes in
 |               |              |
 |               |              |
 |               |              |
+|               |              |
 
 ---
 
