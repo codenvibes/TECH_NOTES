@@ -491,6 +491,7 @@
       {
         "id": "468eeab0f673db48",
         "type": "tabs",
+        "dimension": 77.18446601941747,
         "children": [
           {
             "id": "5451534be122d60e",
@@ -533,6 +534,23 @@
             }
           }
         ]
+      },
+      {
+        "id": "3ac22233e18bd881",
+        "type": "tabs",
+        "dimension": 22.815533980582526,
+        "children": [
+          {
+            "id": "e70a4294527fe125",
+            "type": "leaf",
+            "state": {
+              "type": "calendar",
+              "state": {},
+              "icon": "calendar-with-checkmark",
+              "title": "Calendar"
+            }
+          }
+        ]
       }
     ],
     "direction": "horizontal",
@@ -545,7 +563,7 @@
       {
         "id": "b68a91430fb8fc9d",
         "type": "tabs",
-        "dimension": 62.38223418573351,
+        "dimension": 75.43741588156124,
         "children": [
           {
             "id": "4dbbb0104e3a6050",
@@ -609,16 +627,6 @@
             }
           },
           {
-            "id": "c81f332ac7d36977",
-            "type": "leaf",
-            "state": {
-              "type": "advanced-tables-toolbar",
-              "state": {},
-              "icon": "spreadsheet",
-              "title": "Advanced Tables"
-            }
-          },
-          {
             "id": "26b65d814f49edc2",
             "type": "leaf",
             "state": {
@@ -643,21 +651,21 @@
             }
           }
         ],
-        "currentTab": 6
+        "currentTab": 4
       },
       {
-        "id": "f4c4d891c54234cf",
+        "id": "f9a6fd3c27f0d314",
         "type": "tabs",
-        "dimension": 37.617765814266484,
+        "dimension": 24.562584118438764,
         "children": [
           {
-            "id": "e70a4294527fe125",
+            "id": "c81f332ac7d36977",
             "type": "leaf",
             "state": {
-              "type": "calendar",
+              "type": "advanced-tables-toolbar",
               "state": {},
-              "icon": "calendar-with-checkmark",
-              "title": "Calendar"
+              "icon": "spreadsheet",
+              "title": "Advanced Tables"
             }
           }
         ]
@@ -680,7 +688,7 @@
       "iconic:Open rulebook": false
     }
   },
-  "active": "e70a4294527fe125",
+  "active": "c81f332ac7d36977",
   "lastOpenFiles": [
     "CYBER/13 CTFS & LABS/HTB/WINGDATA.md",
     "CYBER/13 CTFS & LABS/THM/KENOBI.md",
