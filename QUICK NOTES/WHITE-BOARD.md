@@ -37,7 +37,6 @@ I am documenting the ____ CTF challenge and need help converting my raw notes in
 
 3. **Next Steps:** Conclude each entry by suggesting 3 logical next steps or common bypasses to move forward.
 
-
 **My Input Format:** I will provide: What I found, The command I ran, and The result.
 
 **Do you understand these formatting requirements? If so, let's start with my first step.**
