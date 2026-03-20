@@ -152,7 +152,7 @@ Nmap done: 1 IP address (1 host up) scanned in 8.49 seconds
 CTFService v1.2 - Welcome to the exam.\nFLAG: shujaa{n3tc4t_l1st3n3r_fl4g}\n^C
 ```
 
-5.      The same service is running on more than one port of the system. What is the version of the service? (2 mk)
+5. The same service is running on more than one port of the system. What is the version of the service? (2 mk)
 
 ```shell
 └─$ nmap -sV 4.180.20.166                 
@@ -171,7 +171,7 @@ Service detection performed. Please report any incorrect results at https://nmap
 Nmap done: 1 IP address (1 host up) scanned in 24.44 seconds
 ```
 
-6.      Using smbclient tool, identify the available network shares (2 mks)
+6. Using smbclient tool, identify the available network shares (2 mks)
 
 ```shell
 ┌──(kali㉿kali)-[~]
@@ -299,7 +299,7 @@ drwxr-xr-x 5 root     root      4096 Feb 26 09:40 ..
 -r--r--r-- 1 root     root      6700 Feb 26 09:41 grepme.txt
 ```
 
-14.   Retrieve the flag by decoding the contents of the file you found above. **NB only use the terminal to solve this task** (2mks)
+14. Retrieve the flag by decoding the contents of the file you found above. **NB only use the terminal to solve this task** (2mks)
 
 ```shell
 examuser@midexam:~$ cat .encoded
@@ -308,14 +308,14 @@ examuser@midexam:~$ cat .encoded | base64 -d
 shujaa{64_d3c0d3d_fl4g}examuser@midexam:~$ 
 ```
 
-15.   Using grep, retrieve a flag hidden in the grepme.txt within the user's home directory (2 mks)
+15. Using grep, retrieve a flag hidden in the grepme.txt within the user's home directory (2 mks)
 
 ```shell
 examuser@midexam:~$ grep "shujaa" grepme.txt 
 shujaa{gr3p_m4st3r_f0und_m3}
 ```
 
-16.   Create a file with the content cybershujaa_exam, save the file, run the binary (checkflag) against your file and retrieve the flag. (3 mks)
+16. Create a file with the content cybershujaa_exam, save the file, run the binary (checkflag) against your file and retrieve the flag. (3 mks)
 
 ```shell
 examuser@midexam:~$ vi file.txt
@@ -449,3 +449,4 @@ examadmin@midexam:~$ cat flag.txt
 shujaa{r00t_pr1v_3sc4l4t10n_m4st3r}
 examadmin@midexam:~$ 
 ```
+
