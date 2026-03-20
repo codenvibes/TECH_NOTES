@@ -536,8 +536,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 288.703125,
-    "collapsed": true
+    "width": 288.703125
   },
   "right": {
     "id": "26820c7e22c27caf",
@@ -546,6 +545,7 @@
       {
         "id": "b68a91430fb8fc9d",
         "type": "tabs",
+        "dimension": 62.38223418573351,
         "children": [
           {
             "id": "4dbbb0104e3a6050",
@@ -643,7 +643,24 @@
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 6
+      },
+      {
+        "id": "f4c4d891c54234cf",
+        "type": "tabs",
+        "dimension": 37.617765814266484,
+        "children": [
+          {
+            "id": "e70a4294527fe125",
+            "type": "leaf",
+            "state": {
+              "type": "calendar",
+              "state": {},
+              "icon": "calendar-with-checkmark",
+              "title": "Calendar"
+            }
+          }
+        ]
       }
     ],
     "direction": "horizontal",
@@ -663,7 +680,7 @@
       "iconic:Open rulebook": false
     }
   },
-  "active": "21fce08000a30866",
+  "active": "e70a4294527fe125",
   "lastOpenFiles": [
     "CYBER/13 CTFS & LABS/HTB/WINGDATA.md",
     "CYBER/13 CTFS & LABS/THM/KENOBI.md",
