@@ -44,7 +44,7 @@ I am documenting the ____ CTF challenge and need help converting my raw notes in
 |               | LAB          |
 | ------------- | ------------ |
 | 18TH MAR 2026 | THM LOOKUP   |
-|               | HTB CCTV     |
+| 11TH MAR 2026 | HTB CCTV     |
 |               | HTB WINGDATA |
 |               |              |
 |               |              |
