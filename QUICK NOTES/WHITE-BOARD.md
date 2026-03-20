@@ -58,8 +58,6 @@ I am documenting the ____ CTF challenge and need help converting my raw notes in
 
 ---
 
-
-
 1. Conduct an Nmap scan on the provided Linux machine. Identify the open ports. (2 mks)
 
 ```shell
@@ -95,7 +93,7 @@ Service detection performed. Please report any incorrect results at https://nmap
 Nmap done: 1 IP address (1 host up) scanned in 8.49 seconds
 ```
 
-3.      There is a hidden flag in the webpage. Submit the contents of the flag (2 mks)
+3. There is a hidden flag in the webpage. Submit the contents of the flag (2 mks)
 
 ```shell
 
