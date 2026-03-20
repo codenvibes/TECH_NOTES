@@ -2,10 +2,10 @@
 Completed the WingData box on Hack The Box today.
 
 
-
 AD4MPU3MAN
 
 ----
+##
 
 ☁️ DAY 4 of my #CLOUD Journey!
 Completed the Compute section of the @Oracle OCI Foundations course:
@@ -19,6 +19,7 @@ Topics:
 
 
 ---
+## LAB PROMPT
 
 I am documenting the ____ CTF challenge and need help converting my raw notes into a professional technical report.
 
