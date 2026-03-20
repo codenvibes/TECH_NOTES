@@ -182,7 +182,7 @@
                       "state": {
                         "url": "https://1337sheets.com/hack-the-box-season-ten-htb-pirate-writeup-hard-weekly-feb/",
                         "title": "Hack The Box - Season 10 HTB Pirate Writeup - Hard- Weekly - Feb 28th, 2026",
-                        "mode": "blank"
+                        "mode": "webview"
                       },
                       "icon": "globe-2",
                       "title": "Hack The Box - Season 10 HTB Pirate Writeup - Hard- Weekly - Feb 28th, 2026"
@@ -244,7 +244,8 @@
                       "title": "FACTS"
                     }
                   }
-                ]
+                ],
+                "currentTab": 4
               }
             ],
             "direction": "horizontal"
@@ -599,13 +600,12 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "CYBER/13 CTFS & LABS/THM/KENOBI.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of KENOBI"
+              "title": "Outline"
             }
           },
           {
@@ -663,11 +663,11 @@
       "iconic:Open rulebook": false
     }
   },
-  "active": "76fda0f47a1730fe",
+  "active": "bea647b1dd44387e",
   "lastOpenFiles": [
+    "CYBER/13 CTFS & LABS/THM/KENOBI.md",
     "QUICK NOTES/WHITE-BOARD.md",
     "QUICK NOTES/TODO.md",
-    "CYBER/13 CTFS & LABS/THM/KENOBI.md",
     "SOFT SKILLS & CAREER/INTERVIEWS/CYBERSHUJAA TRAINER.md",
     "CYBER/13 CTFS & LABS/HTB/WINGDATA.md",
     "CYBER/13 CTFS & LABS/THM/OPERATION ENDGAME.md",
