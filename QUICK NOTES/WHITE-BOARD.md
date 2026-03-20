@@ -1,3 +1,5 @@
+## Cyber Journey
+
 🛡️ DAY 48 of my #CYBERSECURITY Journey!
 Completed the WingData box on Hack The Box today.
 
@@ -5,7 +7,7 @@ Completed the WingData box on Hack The Box today.
 AD4MPU3MAN
 
 ----
-##
+## Cloud Journey
 
 ☁️ DAY 4 of my #CLOUD Journey!
 Completed the Compute section of the @Oracle OCI Foundations course:
@@ -19,7 +21,7 @@ Topics:
 
 
 ---
-## LAB PROMPT
+## Lab Prompt
 
 I am documenting the ____ CTF challenge and need help converting my raw notes into a professional technical report.
 
@@ -41,7 +43,7 @@ I am documenting the ____ CTF challenge and need help converting my raw notes in
 **Do you understand these formatting requirements? If so, let's start with my first step.**
 
 ---
-## CYBER SHUJAA CTF SCHEDULE
+## Cyber SHUJAA CTF SCHEDULE
 
 |               | LAB             |
 | ------------- | --------------- |
