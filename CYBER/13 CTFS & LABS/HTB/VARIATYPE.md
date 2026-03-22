@@ -287,6 +287,12 @@ services                [Status: 200, Size: 3339, Words: 548, Lines: 84, Duratio
 <div align="center">
 <br>
 <br>
+</div>
+
+#### 2.2.4 Browse to `http://variatype.htb`.
+<div align="center">
+<br>
+<br>
 ※※※※※※※※※※※※※※※※※※※※※※※※※※※※※※※※※※※※※※※※※※※※※※※※
 <br>
 </div>
