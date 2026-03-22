@@ -796,7 +796,7 @@ Upon successfully authenticating to `portal.variatype.htb`, the landing page rev
     
 - **Infrastructure Lead:** A footer note confirms that "Files are auto-archived from the main generator pipeline," suggesting a shared backend or file-syncing mechanism between the portal and the main site.
 
-Navigate to 
+Navigate to the tools section and the URL shown is 
 <div align="center">
 <br>
 <br>
