@@ -244,11 +244,9 @@ Browse to `http://variatype.htb`.
 
 #### 2.2.3. Directory Fuzzing
 
-Command: `ffuf -w /usr/share/wordlists/dirb/common.txt -u http://variatype.htb/FUZZ`
+**Command:** `ffuf -w /usr/share/wordlists/dirb/common.txt -u http://variatype.htb/FUZZ`
 
-
-Breakdown:
-
+**Breakdown:**
 - **`-u`**
     - **Description:** Target URL.
     - **Purpose:** Specifies the URL to be fuzzed. The keyword `FUZZ` tells the tool exactly where to inject the words from your wordlist.
@@ -256,10 +254,35 @@ Breakdown:
     - **Description:** Wordlist Path.
     - **Purpose:** Provides the list of common directory and file names (like `admin`, `config`, etc.) to test against the server.
 
-Output:
+**Output:**
 
 ``` shell
+┌──(kali㉿kali)-[~]
+└─$ ffuf -w /usr/share/wordlists/dirb/common.txt -u http://variatype.htb/FUZZ 
 
+        /'___\  /'___\           /'___\       
+       /\ \__/ /\ \__/  __  __  /\ \__/       
+       \ \ ,__\\ \ ,__\/\ \/\ \ \ \ ,__\      
+        \ \ \_/ \ \ \_/\ \ \_\ \ \ \ \_/      
+         \ \_\   \ \_\  \ \____/  \ \_\       
+          \/_/    \/_/   \/___/    \/_/       
+
+       v2.1.0-dev
+________________________________________________
+
+ :: Method           : GET
+ :: URL              : http://variatype.htb/FUZZ
+ :: Wordlist         : FUZZ: /usr/share/wordlists/dirb/common.txt
+ :: Follow redirects : false
+ :: Calibration      : false
+ :: Timeout          : 10
+ :: Threads          : 40
+ :: Matcher          : Response status: 200-299,301,302,307,401,403,405,500
+________________________________________________
+
+                        [Status: 200, Size: 2321, Words: 337, Lines: 60, Duration: 998ms]
+services                [Status: 200, Size: 3339, Words: 548, Lines: 84, Duration: 270ms]
+:: Progress: [4614/4614] :: Job [1/1] :: 121 req/sec :: Duration: [0:00:33] :: Errors: 0 ::
 ```
 <div align="center">
 <br>
