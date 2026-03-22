@@ -120,87 +120,17 @@
                     }
                   },
                   {
-                    "id": "02489c6cac03ca31",
-                    "type": "leaf",
-                    "state": {
-                      "type": "webviewer",
-                      "state": {
-                        "url": "https://medium.com/@azab3962/wingdata-htb-season10-12c3c0ce8dbf",
-                        "title": "Wingdata writeup | HTB | Season10 | by Azab | Feb, 2026 | Medium",
-                        "mode": "webview"
-                      },
-                      "icon": "globe-2",
-                      "title": "Wingdata writeup | HTB | Season10 | by Azab | Feb, 2026 | Medium"
-                    }
-                  },
-                  {
-                    "id": "24dcbd31cd51ed03",
-                    "type": "leaf",
-                    "state": {
-                      "type": "webviewer",
-                      "state": {
-                        "url": "https://medium.com/@0x5t3v3n_55139/week-3-season-10-hackthebox-wingdata-99f76d60fc5a",
-                        "title": "Week 3, Season 10 HackTheBox — WingData | by Steven Estill Jr | Feb, 2026 | Medium",
-                        "mode": "webview"
-                      },
-                      "icon": "globe-2",
-                      "title": "Week 3, Season 10 HackTheBox — WingData | by Steven Estill Jr | Feb, 2026 | Medium"
-                    }
-                  },
-                  {
-                    "id": "92aabadb907a937e",
-                    "type": "leaf",
-                    "state": {
-                      "type": "webviewer",
-                      "state": {
-                        "url": "https://thecybersecguru.com/ctf-walkthroughs/mastering-interpreter-beginners-guide-from-hackthebox/",
-                        "title": "Mastering Interpreter: Beginner's Guide from HackTheBox | The CyberSec Guru",
-                        "mode": "webview"
-                      },
-                      "icon": "globe-2",
-                      "title": "Mastering Interpreter: Beginner's Guide from HackTheBox | The CyberSec Guru"
-                    }
-                  },
-                  {
-                    "id": "bea647b1dd44387e",
-                    "type": "leaf",
-                    "state": {
-                      "type": "webviewer",
-                      "state": {
-                        "url": "https://1337sheets.com/hack-the-box-season-ten-htb-pirate-writeup-hard-weekly-feb/",
-                        "title": "Hack The Box - Season 10 HTB Pirate Writeup - Hard- Weekly - Feb 28th, 2026",
-                        "mode": "webview"
-                      },
-                      "icon": "globe-2",
-                      "title": "Hack The Box - Season 10 HTB Pirate Writeup - Hard- Weekly - Feb 28th, 2026"
-                    }
-                  },
-                  {
-                    "id": "9c21a48012c143a4",
-                    "type": "leaf",
-                    "state": {
-                      "type": "webviewer",
-                      "state": {
-                        "url": "https://thecybersecguru.com/ctf-walkthroughs/mastering-pirate-beginners-guide-from-hackthebox/",
-                        "title": "Mastering Pirate: Beginner's Guide from HackTheBox | The CyberSec Guru",
-                        "mode": "webview"
-                      },
-                      "icon": "globe-2",
-                      "title": "Mastering Pirate: Beginner's Guide from HackTheBox | The CyberSec Guru"
-                    }
-                  },
-                  {
                     "id": "2b2caeec6788473b",
                     "type": "leaf",
                     "state": {
                       "type": "webviewer",
                       "state": {
-                        "url": "https://medium.com/@netanix96/monitorsfour-htb-from-web-enumeration-to-docker-escape-9c280ed5f511",
-                        "title": "MonitorsFour HTB — From Web Enumeration to Docker Escape | by Netanix | Medium",
+                        "url": "https://www.ibrahimisiaqbolaji.com/2026/03/variatype-htb-write-up.html?m=1",
+                        "title": "VariaType HTB Write Up",
                         "mode": "webview"
                       },
                       "icon": "globe-2",
-                      "title": "MonitorsFour HTB — From Web Enumeration to Docker Escape | by Netanix | Medium"
+                      "title": "VariaType HTB Write Up"
                     }
                   },
                   {
@@ -232,7 +162,7 @@
                     }
                   }
                 ],
-                "currentTab": 4
+                "currentTab": 1
               }
             ],
             "direction": "horizontal"
@@ -621,13 +551,12 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "CYBER/13 CTFS & LABS/HTB/VARIATYPE.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of VARIATYPE"
+              "title": "Outline"
             }
           },
           {
@@ -692,7 +621,7 @@
       "iconic:Open rulebook": false
     }
   },
-  "active": "cd22a45ae9ef0c95",
+  "active": "2b2caeec6788473b",
   "lastOpenFiles": [
     "CYBER/13 CTFS & LABS/HTB/VARIATYPE.md",
     "ASSETS/Pasted image 20260322172725.png",
