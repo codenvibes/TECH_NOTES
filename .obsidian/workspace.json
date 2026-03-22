@@ -162,7 +162,7 @@
                     }
                   }
                 ],
-                "currentTab": 1
+                "currentTab": 2
               }
             ],
             "direction": "horizontal"
@@ -445,7 +445,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "speaker",
+                "query": "\"opt\"",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": true,
@@ -466,7 +466,8 @@
               "title": "Bookmarks"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       },
       {
         "id": "3ac22233e18bd881",
@@ -487,8 +488,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 288.703125,
-    "collapsed": true
+    "width": 288.703125
   },
   "right": {
     "id": "26820c7e22c27caf",
@@ -551,12 +551,13 @@
             "state": {
               "type": "outline",
               "state": {
+                "file": "CYBER/13 CTFS & LABS/HTB/WINGDATA.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline"
+              "title": "Outline of WINGDATA"
             }
           },
           {
@@ -621,7 +622,7 @@
       "iconic:Open rulebook": false
     }
   },
-  "active": "2b2caeec6788473b",
+  "active": "3dbdf2692670b270",
   "lastOpenFiles": [
     "CYBER/13 CTFS & LABS/HTB/VARIATYPE.md",
     "ASSETS/Pasted image 20260322183239.png",
