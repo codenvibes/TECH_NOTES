@@ -728,6 +728,14 @@ The commit history shows:
 <div align="center">
 <br>
 <br>
+</div>
+
+##### `git diff`
+
+
+<div align="center">
+<br>
+<br>
 ※※※※※※※※※※※※※※※※※※※※※※※※※※※※※※※※※※※※※※※※※※※※※※※※
 <br>
 </div>
