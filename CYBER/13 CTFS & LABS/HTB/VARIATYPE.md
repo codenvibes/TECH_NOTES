@@ -251,7 +251,7 @@ Browse to `http://variatype.htb/services`
 
 Browse to `http://variatype.htb/tools/variable-font-generator`
 
-
+![[Pasted image 20260322131510.png]]
 <div align="center">
 <br>
 <br>
