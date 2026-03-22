@@ -745,10 +745,10 @@ Compare the initial commit to the latest one.
 **Analysis:**
 
 - `-$USERS = [];`
-    - **Description:** Removed Line (Red).
-    - **Purpose:** Shows the previous state where the user array was empty, likely a placeholder or a temporary "secure" state.
+    - Removed Line (Red).
+    - Shows the previous state where the user array was empty, likely a placeholder or a temporary "secure" state.
 - `+$USERS = [` ... `+];`
-    - **Description:** Added Lines (Green).
+    - dded Lines (Green).
     - **Purpose:** Reveals the new hardcoded associative array containing the username and password pair.
 <div align="center">
 <br>
