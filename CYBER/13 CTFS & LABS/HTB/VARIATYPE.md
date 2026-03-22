@@ -103,7 +103,18 @@ Breakdown:
 Output:
 
 ```shell
+┌──(kali㉿kali)-[~]
+└─$ nmap -p- --min-rate 5000 -Pn TARGET_IP
+Starting Nmap 7.98 ( https://nmap.org ) at 2026-03-22 05:14 -0400
+Warning: TARGET_IP giving up on port because retransmission cap hit (10).
+Nmap scan report for TARGET_IP
+Host is up (0.30s latency).
+Not shown: 65269 closed tcp ports (reset), 264 filtered tcp ports (no-response)
+PORT   STATE SERVICE
+22/tcp open  ssh
+80/tcp open  http
 
+Nmap done: 1 IP address (1 host up) scanned in 45.86 seconds
 ```
 <div align="center">
 <br>
@@ -126,7 +137,35 @@ Breakdown:
 Output:
 
 ```shell
+┌──(kali㉿kali)-[~]
+└─$ nmap -A -p 22,80 10.129.14.190            
+Starting Nmap 7.98 ( https://nmap.org ) at 2026-03-22 05:15 -0400
+Nmap scan report for 10.129.14.190
+Host is up (0.26s latency).
 
+PORT   STATE SERVICE VERSION
+22/tcp open  ssh     OpenSSH 9.2p1 Debian 2+deb12u7 (protocol 2.0)
+| ssh-hostkey: 
+|   256 e0:b2:eb:88:e3:6a:dd:4c:db:c1:38:65:46:b5:3a:1e (ECDSA)
+|_  256 ee:d2:bb:81:4d:a2:8f:df:1c:50:bc:e1:0e:0a:d1:22 (ED25519)
+80/tcp open  http    nginx 1.22.1
+|_http-title: Did not follow redirect to http://variatype.htb/
+|_http-server-header: nginx/1.22.1
+Warning: OSScan results may be unreliable because we could not find at least 1 open and 1 closed port
+Device type: general purpose|router
+Running: Linux 4.X|5.X, MikroTik RouterOS 7.X
+OS CPE: cpe:/o:linux:linux_kernel:4 cpe:/o:linux:linux_kernel:5 cpe:/o:mikrotik:routeros:7 cpe:/o:linux:linux_kernel:5.6.3
+OS details: Linux 4.15 - 5.19, MikroTik RouterOS 7.2 - 7.5 (Linux 5.6.3)
+Network Distance: 2 hops
+Service Info: OS: Linux; CPE: cpe:/o:linux:linux_kernel
+
+TRACEROUTE (using port 443/tcp)
+HOP RTT       ADDRESS
+1   253.97 ms 10.10.14.1
+2   254.20 ms 10.129.14.190
+
+OS and Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+Nmap done: 1 IP address (1 host up) scanned in 25.42 seconds
 ```
 <div align="center">
 <br>
