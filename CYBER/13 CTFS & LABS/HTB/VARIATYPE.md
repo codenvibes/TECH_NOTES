@@ -240,6 +240,11 @@ Browse to `http://variatype.htb`.
 ![[Pasted image 20260322124112.png]]
 <div align="center">
 <br>
+</div>
+
+Browse to `http://variatype.htb/services`
+<div align="center">
+<br>
 <br>
 </div>
 
@@ -290,7 +295,7 @@ services                [Status: 200, Size: 3339, Words: 548, Lines: 84, Duratio
 <br>
 </div>
 
-#### 2.2.4 Browse to `http://variatype.htb/services`.
+#### 2.2.4 
 
 
 <div align="center">
