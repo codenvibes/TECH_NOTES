@@ -240,7 +240,64 @@ Browse to `http://variatype.htb`.
 ![[Pasted image 20260322124112.png]]
 
 ```html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>VariaType Labs — Variable Font Generator</title>
+  <link rel="stylesheet" href="/static/css/corporate.css" />
+  <link href="https://rsms.me/inter/inter.css" rel="stylesheet" />
+  
+</head>
+<body>
+  <nav class="navbar">
+    <a href="/" class="logo">VariaType Labs</a>
+    <ul class="nav-links">
+      <li><a href="/">Home</a></li>
+      <li><a href="/services">Services</a></li>
+      <li><a href="/tools/variable-font-generator">Tools</a></li>
+    </ul>
+    <a href="/tools/variable-font-generator" class="cta-button">Generate Font</a>
+  </nav>
 
+  
+<section class="hero">
+  <div class="container">
+    <h1>Variable Fonts, Built Right</h1>
+    <p>Generate production-ready variable fonts from your .designspace and master font files using industry-standard tooling.</p>
+    <a href="/tools/variable-font-generator" class="btn">Generate Your Variable Font</a>
+  </div>
+</section>
+
+<section class="section">
+  <div class="container">
+    <div class="card">
+      <h2>Why Variable Fonts?</h2>
+      <p>A single variable font can replace multiple static files, reducing payload size while enabling fluid design control. Our generator ensures your output meets OpenType standards and works across all modern platforms.</p>
+    </div>
+
+    <div class="card">
+      <h2>For Type Designers</h2>
+      <p>Upload your <code>.designspace</code> file and master fonts (.ttf/.otf) to generate a fully compliant variable font. We use the same <strong>fonttools</strong> engine used by Google Fonts and major foundries.</p>
+      <p><strong>Supported features:</strong></p>
+      <ul style="margin: 1rem 0 1rem 1.5rem; padding-left: 0;">
+        <li style="margin-bottom: 0.5rem;">• Weight, width, optical size, and custom axes</li>
+        <li style="margin-bottom: 0.5rem;">• OpenType layout features (GSUB/GPOS)</li>
+        <li>• Automatic table generation (fvar, gvar, HVAR, MVAR)</li>
+      </ul>
+      <a href="/tools/variable-font-generator" class="btn">Start Generation</a>
+    </div>
+  </div>
+</section>
+
+
+  <div class="footer">
+    <p>VariaType Labs © 2025 — Professional variable font solutions for designers and developers.<br>
+    </p>
+  </div>
+</body>
+</html>
 ```
 <div align="center">
 <br>
