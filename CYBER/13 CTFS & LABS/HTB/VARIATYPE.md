@@ -794,9 +794,8 @@ Upon successfully authenticating to `portal.variatype.htb`, the landing page rev
 - **Source Reference:** The dashboard explicitly states, "Recent font builds from the variable font generator".
 - **Infrastructure Lead:** A footer note confirms that "Files are auto-archived from the main generator pipeline," suggesting a shared backend or file-syncing mechanism between the portal and the main site.
 
-Based on the dashboard's lead navigate to the tools section.
-- **Target URL:** `http://variatype.htb/tools/variable-font-generator`.
-- **Interface Observation:** The page presents a file upload interface titled "Upload Files," designed to accept `.designspace` and master font files (`.ttf` or `.otf`).
+Based on the dashboard's lead navigate to the tools section**Target URL:** `http://variatype.htb/tools/variable-font-generator`.
+**Interface Observation:** The page presents a file upload interface titled "Upload Files," designed to accept `.designspace` and master font files (`.ttf` or `.otf`).
 <div align="center">
 <br>
 <br>
