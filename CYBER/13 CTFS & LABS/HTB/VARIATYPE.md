@@ -244,7 +244,23 @@ Browse to `http://variatype.htb`.
 
 #### 2.2.3. Directory Fuzzing
 
-Command: `ffuf -w /usr/share/wordlists/dirb/common.txt -u http://facts.htb/FUZZ`
+Command: `ffuf -w /usr/share/wordlists/dirb/common.txt -u http://variatype.htb/FUZZ`
+
+
+Breakdown:
+
+- **`-u`**
+    - **Description:** Target URL.
+    - **Purpose:** Specifies the URL to be fuzzed. The keyword `FUZZ` tells the tool exactly where to inject the words from your wordlist.
+- **`-w`**
+    - **Description:** Wordlist Path.
+    - **Purpose:** Provides the list of common directory and file names (like `admin`, `config`, etc.) to test against the server.
+
+Output:
+
+``` shell
+
+```
 <div align="center">
 <br>
 <br>
