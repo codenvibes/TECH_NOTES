@@ -306,6 +306,91 @@ Browse to `http://variatype.htb`.
 Browse to `http://variatype.htb/services`
 
 ![[Pasted image 20260322131231.png]]
+
+```html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Services — VariaType Labs</title>
+  <link rel="stylesheet" href="/static/css/corporate.css" />
+  <link href="https://rsms.me/inter/inter.css" rel="stylesheet" />
+  
+</head>
+<body>
+  <nav class="navbar">
+    <a href="/" class="logo">VariaType Labs</a>
+    <ul class="nav-links">
+      <li><a href="/">Home</a></li>
+      <li><a href="/services">Services</a></li>
+      <li><a href="/tools/variable-font-generator">Tools</a></li>
+    </ul>
+    <a href="/tools/variable-font-generator" class="cta-button">Generate Font</a>
+  </nav>
+
+  
+<section class="hero">
+  <div class="container">
+    <h1>Professional Typography Services</h1>
+    <p>We partner with brands, developers, and design teams to implement variable fonts at scale — from creation to deployment.</p>
+  </div>
+</section>
+
+<section class="section">
+  <div class="container">
+    <div class="card">
+      <h2>Custom Variable Font Development</h2>
+      <p>We collaborate with type designers and foundries to build production-ready variable fonts that meet technical, aesthetic, and performance requirements.</p>
+      <p>Our process includes:</p>
+      <ul style="margin: 1rem 0 1rem 1.5rem;">
+        <li>Axis definition and design space optimization</li>
+        <li>Master font interpolation and delta reduction</li>
+        <li>OpenType feature integration (ligatures, alternates, etc.)</li>
+        <li>Validation for web, mobile, and desktop platforms</li>
+      </ul>
+    </div>
+
+    <div class="card">
+      <h2>Font Pipeline Integration</h2>
+      <p>Automate your font workflows with robust, maintainable tooling. We help teams integrate variable font generation into CI/CD pipelines using open standards like <code>fonttools</code>, <code>fontmake</code>, and <code>gftools</code>.</p>
+      <p>Includes:</p>
+      <ul style="margin: 1rem 0 1rem 1.5rem;">
+        <li>Build script development (Python, Bash)</li>
+        <li>Automated QA and regression testing</li>
+        <li>Metadata and naming compliance (Adobe, Microsoft, Google)</li>
+        <li>Web font packaging (WOFF2, subset generation)</li>
+      </ul>
+    </div>
+
+    <div class="card">
+      <h2>Technical Consulting</h2>
+      <p>Stuck on a variable font issue? Our engineers provide expert support for:</p>
+      <ul style="margin: 1rem 0 1rem 1.5rem;">
+        <li>Rendering inconsistencies across browsers</li>
+        <li>Performance optimization (font loading, subsetting)</li>
+        <li>CSS implementation (<code>font-variation-settings</code>, <code>@supports</code>)</li>
+        <li>Legacy system compatibility</li>
+      </ul>
+      <p>All consulting is based on open standards — no vendor lock-in.</p>
+    </div>
+
+    <div class="card" style="text-align: center; margin-top: 2rem;">
+      <h2>Ready to build something exceptional?</h2>
+      <p style="margin-bottom: 1.5rem;">Contact us for a technical assessment or project scoping.</p>
+      <a href="mailto:studio@variabype.labs" class="btn" style="display: inline-block;">Email Us</a>
+    </div>
+  </div>
+</section>
+
+
+  <div class="footer">
+    <p>VariaType Labs © 2025 — Professional variable font solutions for designers and developers.<br>
+    </p>
+  </div>
+</body>
+</html>
+```
 <div align="center">
 <br>
 </div>
@@ -313,6 +398,72 @@ Browse to `http://variatype.htb/services`
 Browse to `http://variatype.htb/tools/variable-font-generator`
 
 ![[Pasted image 20260322131510.png]]
+
+```html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Upload Files — VariaType Labs</title>
+  <link rel="stylesheet" href="/static/css/corporate.css" />
+  <link href="https://rsms.me/inter/inter.css" rel="stylesheet" />
+  
+</head>
+<body>
+  <nav class="navbar">
+    <a href="/" class="logo">VariaType Labs</a>
+    <ul class="nav-links">
+      <li><a href="/">Home</a></li>
+      <li><a href="/services">Services</a></li>
+      <li><a href="/tools/variable-font-generator">Tools</a></li>
+    </ul>
+    <a href="/tools/variable-font-generator" class="cta-button">Generate Font</a>
+  </nav>
+
+  
+<section class="section">
+  <div class="container">
+    <div class="card">
+      
+        
+      
+
+      <h1>Upload Files</h1>
+      <p>Submit your <code>.designspace</code> file and master font(s) to generate a variable font.</p>
+      <br>
+      <form method="POST" enctype="multipart/form-data" action="/tools/variable-font-generator/process">
+        <div class="form-group">
+          <label for="designspace">.designspace File</label>
+          <input type="file" id="designspace" name="designspace" accept=".designspace" required>
+        </div>
+
+        <div class="form-group">
+          <label for="masters">Master Fonts (.ttf or .otf)</label>
+          <input type="file" id="masters" name="masters" multiple accept=".ttf,.otf" required>
+          <p style="font-size: 0.9rem; color: var(--text-muted); margin-top: 0.5rem;">
+            Select at least one font. Use multiple fonts for interpolatable axes (e.g., Weight, Width).
+          </p>
+        </div>
+
+        <button type="submit" class="btn">Generate Variable Font</button>
+      </form>
+
+      <a href="/" style="display: inline-block; margin-top: 1.5rem; color: var(--link); text-decoration: underline;">
+        ← Back to homepage
+      </a>
+    </div>
+  </div>
+</section>
+
+
+  <div class="footer">
+    <p>VariaType Labs © 2025 — Professional variable font solutions for designers and developers.<br>
+    </p>
+  </div>
+</body>
+</html>
+```
 <div align="center">
 <br>
 <br>
