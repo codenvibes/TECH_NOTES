@@ -23,6 +23,7 @@ pawned:
 <!-- PAGE BREAK -->
 <div style="page-break-after: always;"></div>
 
+## 1. Reconnaissance & Discovery
 ### 1.1 Connecting to the HTB VPN
 
 First, download your personalized `.ovpn` file from Hack The Box.
@@ -188,7 +189,7 @@ Nmap done: 1 IP address (1 host up) scanned in 25.42 seconds
 
 ### 2.2 Enumeration of Web Services
 
-#### 2.2.1. Update Hosts File
+#### 2.2.1 Update Hosts File
 
 Command: `sudo sh -c 'echo "TARGET_IP variatype.htb" >> /etc/hosts'`
 
@@ -232,7 +233,7 @@ When you type a URL like `google.com` or `variatype.htb` into your browser, your
 <br>
 </div>
 
-#### 2.2.2. Web Enumeration
+#### 2.2.2 Web Enumeration
 
 Browse to `http://variatype.htb`.
 
@@ -242,7 +243,7 @@ Browse to `http://variatype.htb`.
 <br>
 </div>
 
-#### 2.2.3. Directory Fuzzing
+#### 2.2.3 Directory Fuzzing
 
 **Command:** `ffuf -w /usr/share/wordlists/dirb/common.txt -u http://variatype.htb/FUZZ`
 
