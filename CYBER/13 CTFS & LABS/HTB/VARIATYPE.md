@@ -238,6 +238,10 @@ When you type a URL like `google.com` or `variatype.htb` into your browser, your
 Browse to `http://variatype.htb`.
 
 ![[Pasted image 20260322124112.png]]
+
+```html
+
+```
 <div align="center">
 <br>
 </div>
