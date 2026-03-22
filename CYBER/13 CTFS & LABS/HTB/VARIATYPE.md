@@ -732,7 +732,7 @@ The commit history shows:
 
 ##### `git diff`
 
-
+Compare the initial commit to the latest one
 <div align="center">
 <br>
 <br>
