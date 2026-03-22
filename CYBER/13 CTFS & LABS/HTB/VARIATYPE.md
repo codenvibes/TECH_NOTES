@@ -788,7 +788,7 @@ With these credentials, the next step is to test them and try to gain access to 
     - **Password:** `G1tB0t_Acc3ss_2025!`
 3. Click **Authenticate**.
 
-
+![[Pasted image 20260322183239.png]]
 <div align="center">
 <br>
 <br>
