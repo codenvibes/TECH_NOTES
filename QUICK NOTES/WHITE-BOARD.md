@@ -23,7 +23,7 @@ Topics:
 ---
 ## Lab Prompt
 
-I am documenting the ____ CTF challenge and need help converting my raw notes into a professional technical report.
+I am documenting the **__** CTF challenge and need help converting my raw notes into a professional technical report.
 
 **Your Instructions:**
 
