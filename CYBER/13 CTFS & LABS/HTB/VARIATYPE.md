@@ -240,6 +240,14 @@ Browse to `http://variatype.htb`.
 <div align="center">
 <br>
 <br>
+</div>
+
+#### 2.2.3. Directory Fuzzing
+
+Command: `ffuf -w /usr/share/wordlists/dirb/common.txt -u http://facts.htb/FUZZ`
+<div align="center">
+<br>
+<br>
 ※※※※※※※※※※※※※※※※※※※※※※※※※※※※※※※※※※※※※※※※※※※※※※※※
 <br>
 </div>
