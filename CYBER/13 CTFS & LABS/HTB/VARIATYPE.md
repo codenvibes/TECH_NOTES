@@ -273,7 +273,7 @@ Browse to `http://variatype.htb/tools/variable-font-generator`
 
 ``` shell
 ┌──(kali㉿kali)-[~]
-└─$ ffuf -w /usr/share/wordlists/dirb/common.txt -u http://variatype.htb/FUZZ 
+└─$ ffuf -w /usr/share/wordlists/seclists/Discovery/DNS/subdomains-top1million-5000.txt -u http://variatype.htb/ -H "Host: FUZZ.variatype.htb/"
 
         /'___\  /'___\           /'___\       
        /\ \__/ /\ \__/  __  __  /\ \__/       
@@ -286,8 +286,9 @@ Browse to `http://variatype.htb/tools/variable-font-generator`
 ________________________________________________
 
  :: Method           : GET
- :: URL              : http://variatype.htb/FUZZ
- :: Wordlist         : FUZZ: /usr/share/wordlists/dirb/common.txt
+ :: URL              : http://variatype.htb/
+ :: Wordlist         : FUZZ: /usr/share/wordlists/seclists/Discovery/DNS/subdomains-top1million-5000.txt
+ :: Header           : Host: FUZZ.variatype.htb/
  :: Follow redirects : false
  :: Calibration      : false
  :: Timeout          : 10
@@ -295,9 +296,107 @@ ________________________________________________
  :: Matcher          : Response status: 200-299,301,302,307,401,403,405,500
 ________________________________________________
 
-                        [Status: 200, Size: 2321, Words: 337, Lines: 60, Duration: 998ms]
-services                [Status: 200, Size: 3339, Words: 548, Lines: 84, Duration: 270ms]
-:: Progress: [4614/4614] :: Job [1/1] :: 121 req/sec :: Duration: [0:00:33] :: Errors: 0 ::
+:: Progress: [4989/4989] :: Job [1/1] :: 72 req/sec :: Duration: [0:01:17] :: Errors: 0 ::
+                                                                                                                             
+┌──(kali㉿kali)-[~]
+└─$ ffuf -w /usr/share/wordlists/seclists/Discovery/DNS/subdomains-top1million-5000.txt -u http://variatype.htb/ -H "Host: FUZZ.variatype.htb" 
+
+        /'___\  /'___\           /'___\       
+       /\ \__/ /\ \__/  __  __  /\ \__/       
+       \ \ ,__\\ \ ,__\/\ \/\ \ \ \ ,__\      
+        \ \ \_/ \ \ \_/\ \ \_\ \ \ \ \_/      
+         \ \_\   \ \_\  \ \____/  \ \_\       
+          \/_/    \/_/   \/___/    \/_/       
+
+       v2.1.0-dev
+________________________________________________
+
+ :: Method           : GET
+ :: URL              : http://variatype.htb/
+ :: Wordlist         : FUZZ: /usr/share/wordlists/seclists/Discovery/DNS/subdomains-top1million-5000.txt
+ :: Header           : Host: FUZZ.variatype.htb
+ :: Follow redirects : false
+ :: Calibration      : false
+ :: Timeout          : 10
+ :: Threads          : 40
+ :: Matcher          : Response status: 200-299,301,302,307,401,403,405,500
+________________________________________________
+
+ns4                     [Status: 301, Size: 169, Words: 5, Lines: 8, Duration: 254ms]
+mail                    [Status: 301, Size: 169, Words: 5, Lines: 8, Duration: 253ms]
+www                     [Status: 301, Size: 169, Words: 5, Lines: 8, Duration: 255ms]
+ns                      [Status: 301, Size: 169, Words: 5, Lines: 8, Duration: 254ms]
+whm                     [Status: 301, Size: 169, Words: 5, Lines: 8, Duration: 255ms]
+ns1                     [Status: 301, Size: 169, Words: 5, Lines: 8, Duration: 255ms]
+m                       [Status: 301, Size: 169, Words: 5, Lines: 8, Duration: 256ms]
+smtp                    [Status: 301, Size: 169, Words: 5, Lines: 8, Duration: 254ms]
+webmail                 [Status: 301, Size: 169, Words: 5, Lines: 8, Duration: 256ms]
+ns2                     [Status: 301, Size: 169, Words: 5, Lines: 8, Duration: 256ms]
+localhost               [Status: 301, Size: 169, Words: 5, Lines: 8, Duration: 258ms]
+www2                    [Status: 301, Size: 169, Words: 5, Lines: 8, Duration: 259ms]
+autoconfig              [Status: 301, Size: 169, Words: 5, Lines: 8, Duration: 263ms]
+mobile                  [Status: 301, Size: 169, Words: 5, Lines: 8, Duration: 260ms]
+webdisk                 [Status: 301, Size: 169, Words: 5, Lines: 8, Duration: 261ms]
+dev                     [Status: 301, Size: 169, Words: 5, Lines: 8, Duration: 261ms]
+ns3                     [Status: 301, Size: 169, Words: 5, Lines: 8, Duration: 266ms]
+cp                      [Status: 301, Size: 169, Words: 5, Lines: 8, Duration: 273ms]
+forum                   [Status: 301, Size: 169, Words: 5, Lines: 8, Duration: 267ms]
+beta                    [Status: 301, Size: 169, Words: 5, Lines: 8, Duration: 269ms]
+cpanel                  [Status: 301, Size: 169, Words: 5, Lines: 8, Duration: 269ms]
+mail2                   [Status: 301, Size: 169, Words: 5, Lines: 8, Duration: 269ms]
+blog                    [Status: 301, Size: 169, Words: 5, Lines: 8, Duration: 269ms]
+test                    [Status: 301, Size: 169, Words: 5, Lines: 8, Duration: 279ms]
+vpn                     [Status: 301, Size: 169, Words: 5, Lines: 8, Duration: 272ms]
+demo                    [Status: 301, Size: 169, Words: 5, Lines: 8, Duration: 272ms]
+admin                   [Status: 301, Size: 169, Words: 5, Lines: 8, Duration: 272ms]
+secure                  [Status: 301, Size: 169, Words: 5, Lines: 8, Duration: 275ms]
+imap                    [Status: 301, Size: 169, Words: 5, Lines: 8, Duration: 275ms]
+mysql                   [Status: 301, Size: 169, Words: 5, Lines: 8, Duration: 268ms]
+pop3                    [Status: 301, Size: 169, Words: 5, Lines: 8, Duration: 268ms]
+support                 [Status: 301, Size: 169, Words: 5, Lines: 8, Duration: 268ms]
+ftp                     [Status: 301, Size: 169, Words: 5, Lines: 8, Duration: 279ms]
+shop                    [Status: 301, Size: 169, Words: 5, Lines: 8, Duration: 270ms]
+old                     [Status: 301, Size: 169, Words: 5, Lines: 8, Duration: 282ms]
+pop                     [Status: 301, Size: 169, Words: 5, Lines: 8, Duration: 283ms]
+mx                      [Status: 301, Size: 169, Words: 5, Lines: 8, Duration: 280ms]
+new                     [Status: 301, Size: 169, Words: 5, Lines: 8, Duration: 279ms]
+dns2                    [Status: 301, Size: 169, Words: 5, Lines: 8, Duration: 284ms]
+autodiscover            [Status: 301, Size: 169, Words: 5, Lines: 8, Duration: 283ms]
+dns1                    [Status: 301, Size: 169, Words: 5, Lines: 8, Duration: 263ms]
+lists                   [Status: 301, Size: 169, Words: 5, Lines: 8, Duration: 265ms]
+
+[WARN] Caught keyboard interrupt (Ctrl-C)
+
+
+                                                                                                                             
+┌──(kali㉿kali)-[~]
+└─$ ffuf -w /usr/share/wordlists/seclists/Discovery/DNS/subdomains-top1million-5000.txt -u http://variatype.htb/ -H "Host: FUZZ.variatype.htb" -fs 169
+
+        /'___\  /'___\           /'___\       
+       /\ \__/ /\ \__/  __  __  /\ \__/       
+       \ \ ,__\\ \ ,__\/\ \/\ \ \ \ ,__\      
+        \ \ \_/ \ \ \_/\ \ \_\ \ \ \ \_/      
+         \ \_\   \ \_\  \ \____/  \ \_\       
+          \/_/    \/_/   \/___/    \/_/       
+
+       v2.1.0-dev
+________________________________________________
+
+ :: Method           : GET
+ :: URL              : http://variatype.htb/
+ :: Wordlist         : FUZZ: /usr/share/wordlists/seclists/Discovery/DNS/subdomains-top1million-5000.txt
+ :: Header           : Host: FUZZ.variatype.htb
+ :: Follow redirects : false
+ :: Calibration      : false
+ :: Timeout          : 10
+ :: Threads          : 40
+ :: Matcher          : Response status: 200-299,301,302,307,401,403,405,500
+ :: Filter           : Response size: 169
+________________________________________________
+
+portal                  [Status: 200, Size: 2494, Words: 445, Lines: 59, Duration: 254ms]
+:: Progress: [4989/4989] :: Job [1/1] :: 105 req/sec :: Duration: [0:00:34] :: Errors: 0 ::
+
 ```
 <div align="center">
 <br>
