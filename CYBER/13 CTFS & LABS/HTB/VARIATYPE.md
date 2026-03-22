@@ -536,9 +536,9 @@ index.php               [Status: 200, Size: 2494, Words: 445, Lines: 59, Duratio
 <br>
 </div>
 
-#### 2.2.7 Version Control Analysis
+#### 2.2.7 `http://portal.variatype.htb/.git`
 
-Repository Dump
+##### Repository Dump
 
 **Command:** `git-dumper http://portal.variatype.htb/.git/ ./dumped_repo`
 
