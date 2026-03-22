@@ -742,7 +742,14 @@ Compare the initial commit to the latest one.
     - **Description:** Source File Comparison.
     - **Purpose:** Identifies that the changes occurred specifically within the authentication logic file.
 
+**Analysis:**
 
+- `-$USERS = [];`
+    - **Description:** Removed Line (Red).
+    - **Purpose:** Shows the previous state where the user array was empty, likely a placeholder or a temporary "secure" state.
+- `+$USERS = [` ... `+];`
+    - **Description:** Added Lines (Green).
+    - **Purpose:** Reveals the new hardcoded associative array containing the username and password pair.
 <div align="center">
 <br>
 <br>
