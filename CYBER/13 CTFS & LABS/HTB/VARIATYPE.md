@@ -718,6 +718,13 @@ Date:   Fri Dec 5 15:57:57 2025 -0500
 
     feat: initial portal implementation
 ```
+
+The history shows:
+
+| **Commit Hash** | **Message**                             | **Impact**                                                                                                                                                                           |
+| --------------- | --------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
+| `5030e79...`    | `feat: initial portal implementation`   | Likely contains the original logic for `auth.php`, including how the `$USERS` array was initially populated.                                                                         |
+| `753b5f5...`    | `fix: add gitbot user for automated...` | **High Priority.** This commit explicitly mentions adding a `gitbot` user. In CTF environments, "automated pipeline" users often have hardcoded credentials or predictable patterns. |
 <div align="center">
 <br>
 <br>
