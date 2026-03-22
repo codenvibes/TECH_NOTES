@@ -523,6 +523,12 @@ files                   [Status: 301, Size: 169, Words: 5, Lines: 8, Duration: 2
 index.php               [Status: 200, Size: 2494, Words: 445, Lines: 59, Duration: 256ms]
 :: Progress: [4614/4614] :: Job [1/1] :: 153 req/sec :: Duration: [0:00:31] :: Errors: 0 ::
 ```
+
+| **Path**      | **Status** | **Size** | **Analysis**                                                                                                                            |
+| ------------- | ---------- | -------- | --------------------------------------------------------------------------------------------------------------------------------------- |
+| **.git/HEAD** | 200        | 23       | **Critical Finding.** Confirms an exposed Git repository. This can be used to reconstruct the website's source code and commit history. |
+| **files**     | 301        | 169      | Redirects to a directory. Likely an upload or storage location that warrants a secondary recursive scan.                                |
+| **index.php** | 200        | 2494     | Confirms the portal is running on PHP. This matches the response size of the main portal landing page.                                  |
 <div align="center">
 <br>
 <br>
