@@ -684,9 +684,40 @@ dumped_repo
 <br>
 </div>
 
-##### Version Control Analysis
+##### Source Code & Version Control Analysis
 
+```shell
+┌──(kali㉿kali)-[~/PUEMAN/HTB/SN10/VariaType]
+└─$ cd dumped_repo              
 
+┌──(kali㉿kali)-[~/…/HTB/SN10/VariaType/dumped_repo]
+└─$ ls
+auth.php
+
+┌──(kali㉿kali)-[~/…/HTB/SN10/VariaType/dumped_repo]
+└─$ ls -a
+.  ..  auth.php  .git
+
+┌──(kali㉿kali)-[~/…/HTB/SN10/VariaType/dumped_repo]
+└─$ cat auth.php       
+<?php
+session_start();
+$USERS = [];
+
+┌──(kali㉿kali)-[~/…/HTB/SN10/VariaType/dumped_repo]
+└─$ git log                                                   
+commit 753b5f5957f2020480a19bf29a0ebc80267a4a3d (HEAD -> master)
+Author: Dev Team <dev@variatype.htb>
+Date:   Fri Dec 5 15:59:33 2025 -0500
+
+    fix: add gitbot user for automated validation pipeline
+
+commit 5030e791b764cb2a50fcb3e2279fea9737444870
+Author: Dev Team <dev@variatype.htb>
+Date:   Fri Dec 5 15:57:57 2025 -0500
+
+    feat: initial portal implementation
+```
 <div align="center">
 <br>
 <br>
