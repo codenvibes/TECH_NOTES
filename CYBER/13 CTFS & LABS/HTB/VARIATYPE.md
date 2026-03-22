@@ -400,7 +400,7 @@ lists                   [Status: 301, Size: 169, Words: 5, Lines: 8, Duration: 2
 [WARN] Caught keyboard interrupt (Ctrl-C)
 ```
 
-To observe how the server responds to various hostnames. **Analysis:** The server was configured with a "Catch-All" or default virtual host that returns a `301 Moved Permanently` status for any unrecognized subdomain. Because `ffuf` matches these status codes by default, it flagged every request as a "hit." Every irrelevant response had a consistent size of **169 bytes**.
+This command corrects the previous syntax error. This version revealed that the server utilizes a "Catch-All" configuration, returning a 169-byte response for every request.
 <div align="center">
 <br>
 <br>
