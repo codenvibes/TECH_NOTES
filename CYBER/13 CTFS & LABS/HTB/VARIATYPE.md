@@ -280,7 +280,7 @@ The initial attempt resulted in zero hits across the entire wordlist.
     - **Purpose:** Defines the base address of the web server receiving the fuzzing requests.
 - `-H "Host: FUZZ.variatype.htb/"`
     - **Description:** Custom HTTP Header.
-    - **Purpose:** Injects wordlist entries into the Host header. The trailing slash here caused a syntax mismatch, resulting in zero valid hits.
+    - **Purpose:** Injects wordlist entries into the Host header.
 
 **Analysis:** This attempt failed because HTTP `Host` headers must strictly match the domain name defined in the web server's configuration (e.g., Nginx `server_name` blocks). A trailing slash is syntactically invalid for a hostname, causing the server to ignore the header and return no valid results.
 <div align="center">
