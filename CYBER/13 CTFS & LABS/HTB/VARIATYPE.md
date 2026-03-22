@@ -795,6 +795,8 @@ Upon successfully authenticating to `portal.variatype.htb`, the landing page rev
 - **Source Reference:** The dashboard explicitly states, "Recent font builds from the variable font generator".
     
 - **Infrastructure Lead:** A footer note confirms that "Files are auto-archived from the main generator pipeline," suggesting a shared backend or file-syncing mechanism between the portal and the main site.
+
+Navigate to 
 <div align="center">
 <br>
 <br>
