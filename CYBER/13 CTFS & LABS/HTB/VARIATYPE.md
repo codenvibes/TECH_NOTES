@@ -536,7 +536,21 @@ index.php               [Status: 200, Size: 2494, Words: 445, Lines: 59, Duratio
 <br>
 </div>
 
-#### 2.2.7
+#### 2.2.7 Git Repository Extraction
+
+**Command:** `git-dumper http://portal.variatype.htb/.git/ ./portal_source`
+
+**Breakdown:**
+
+- `git-dumper`
+    - **Description:** Git Repository Extraction Tool.
+    - **Purpose:** Automates the process of fetching all reachable Git objects from a remote server to reconstruct the source tree.
+- `http://portal.variatype.htb/.git/`
+    - **Description:** Target Repository URL.
+    - **Purpose:** Points the tool to the exposed metadata directory discovered during the `ffuf` scan.
+- `./portal_source`
+    - **Description:** Local Output Directory.
+    - **Purpose:** Specifies the local folder where the recovered source code, logs, and configuration files will be stored.
 <div align="center">
 <br>
 <br>
