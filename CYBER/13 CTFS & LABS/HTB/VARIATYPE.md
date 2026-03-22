@@ -771,6 +771,9 @@ index 615e621..b328305 100644
 
 **Extracted Credentials:**
 
+**Username:** gitbot
+Password
+
 
 <div align="center">
 <br>
