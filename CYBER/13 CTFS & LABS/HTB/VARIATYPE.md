@@ -138,9 +138,9 @@ Output:
 
 ```shell
 ┌──(kali㉿kali)-[~]
-└─$ nmap -A -p 22,80 10.129.14.190            
+└─$ nmap -A -p 22,80 TARGET_IP            
 Starting Nmap 7.98 ( https://nmap.org ) at 2026-03-22 05:15 -0400
-Nmap scan report for 10.129.14.190
+Nmap scan report for TARGET_IP
 Host is up (0.26s latency).
 
 PORT   STATE SERVICE VERSION
@@ -162,7 +162,7 @@ Service Info: OS: Linux; CPE: cpe:/o:linux:linux_kernel
 TRACEROUTE (using port 443/tcp)
 HOP RTT       ADDRESS
 1   253.97 ms 10.10.14.1
-2   254.20 ms 10.129.14.190
+2   254.20 ms TARGET_IP
 
 OS and Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
 Nmap done: 1 IP address (1 host up) scanned in 25.42 seconds
@@ -216,7 +216,7 @@ Breakdown:
 
 ##### How Hostname Resolution Works
 
-When you type a URL like `google.com` or `facts.htb` into your browser, your computer needs to translate that text into a numerical IP address. It follows a specific order of operations:
+When you type a URL like `google.com` or `variatype.htb` into your browser, your computer needs to translate that text into a numerical IP address. It follows a specific order of operations:
 
 1. **The Browser Cache:** Your browser checks if it already knows the IP from a previous visit.
 2. **The Hosts File (`/etc/hosts`):** This is your computer's "private address book." It checks here **first** before asking the internet. If an entry exists, it stops looking and goes to that IP.
