@@ -742,14 +742,32 @@ Compare the initial commit to the latest one.
     - **Description:** Source File Comparison.
     - **Purpose:** Identifies that the changes occurred specifically within the authentication logic file.
 
+**Output:**
+
+```shell
+┌──(kali㉿kali)-[~/…/HTB/SN10/VariaType/dumped_repo]
+└─$ git diff 5030e79 753b5f5
+diff --git a/auth.php b/auth.php
+index 615e621..b328305 100644
+--- a/auth.php
++++ b/auth.php
+@@ -1,3 +1,5 @@
+ <?php
+ session_start();
+-$USERS = [];
++$USERS = [
++    'gitbot' => 'G1tB0t_Acc3ss_2025!'
++];
+```
+
 **Analysis:**
 
 - `-$USERS = [];`
     - Removed Line (Red).
     - Shows the previous state where the user array was empty, likely a placeholder or a temporary "secure" state.
 - `+$USERS = [` ... `+];`
-    - dded Lines (Green).
-    - **Purpose:** Reveals the new hardcoded associative array containing the username and password pair.
+    - Added Lines (Green).
+    - Reveals the new hardcoded associative array containing the username and password pair.
 <div align="center">
 <br>
 <br>
