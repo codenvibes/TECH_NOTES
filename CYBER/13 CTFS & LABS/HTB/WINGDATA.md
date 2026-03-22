@@ -31,7 +31,7 @@ First, download your personalized `.ovpn` file from Hack The Box.
 
 Connect to the HTB VPN using the `.ovpn` configuration file. This establishes a secure tunnel that allows access to the target machine’s internal network.
 
-Command: `sudo openvpn your_file.ovpn`
+**Command:** `sudo openvpn your_file.ovpn`
 
 Start the Machine.
 <div align="center">
@@ -47,9 +47,9 @@ Start the Machine.
 
 Verify that the target machine is up and reachable by performing an ICMP ping test.
 
-Command: `ping -c 4 TARGET_IP`
+**Command:** `ping -c 4 TARGET_IP`
 
-Breakdown:
+**Breakdown:**
 
 - `-c 4` → sends 4 packets only (clean output, fast)
 
@@ -106,7 +106,7 @@ Before we can attack a system, we need to find out what "doors" are open. Doors 
     - **Description:** Target Specification.
     - **Purpose:** The IP address of the host being scanned.
 
-Output:
+**Output:**
 
 ```shell
 ┌──(kali㉿kali)-[~/CS/HTB]
@@ -128,9 +128,9 @@ Nmap done: 1 IP address (1 host up) scanned in 30.57 seconds
 
 #### 2.1.2 The "Deep Dive" Scan (Targeted Aggression)
 
-Command: `nmap -A -p p1,p2,p3,p4 TARGET_IP`
+**Command:** `nmap -A -p p1,p2,p3,p4 TARGET_IP`
 
-Breakdown:
+**Breakdown:**
 
 - `-sC`
     - **Description:** Default Script Scan.
@@ -143,7 +143,7 @@ Breakdown:
     - **Purpose:** Restricts the heavy scanning to only the ports you confirmed are open, saving significant time and processing power.
 
 
-Output:
+**Output:**
 
 ```shell
 ┌──(kali㉿kali)-[~/CS/HTB]
