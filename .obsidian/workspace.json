@@ -86,27 +86,13 @@
                     "state": {
                       "type": "webviewer",
                       "state": {
-                        "url": "https://gemini.google.com/app/4087174ac3d85e08",
+                        "url": "https://gemini.google.com/app",
                         "title": "Google Gemini",
                         "mode": "webview"
                       },
                       "pinned": true,
                       "icon": "globe-2",
                       "title": "Google Gemini"
-                    }
-                  },
-                  {
-                    "id": "0ec46368e5862529",
-                    "type": "leaf",
-                    "state": {
-                      "type": "webviewer",
-                      "state": {
-                        "url": "http://ctf-ke.cybergame.sk/",
-                        "title": "ctf-ke.cybergame.sk",
-                        "mode": "webview"
-                      },
-                      "icon": "globe-2",
-                      "title": "ctf-ke.cybergame.sk"
                     }
                   }
                 ],
