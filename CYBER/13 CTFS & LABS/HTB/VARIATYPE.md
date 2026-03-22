@@ -260,17 +260,26 @@ Browse to `http://variatype.htb/tools/variable-font-generator`
 #### 2.2.3 Subdomain Enumeration
 
 The search for subdomains was conducted by manipulating the HTTP `Host` header. This technique is essential for discovering web content that is logically separated on the same physical server but assigned to different hostnames.
+<div align="center">
+<br>
+</div>
 
-#### Phase 1: The False Negative (Syntax Error)
+##### Phase 1: The False Negative (Syntax Error)
 
 The initial attempt resulted in zero hits across the entire wordlist.
 
-**Command:** `ffuf -w [wordlist] -u http://variatype.htb/ -H "Host: FUZZ.variatype.htb/"` **Breakdown:**
+**Command:** `ffuf -w [wordlist] -u http://variatype.htb/ -H "Host: FUZZ.variatype.htb/"`
+
+**Breakdown:**
 
 > - `-H "Host: FUZZ.variatype.htb/"`: The inclusion of a trailing slash (`/`) inside the Host header.
 >     
 
 **Purpose:** To probe for subdomains by injecting wordlist entries into the header. **Analysis:** This attempt failed because HTTP `Host` headers must strictly match the domain name defined in the web server's configuration (e.g., Nginx `server_name` blocks). A trailing slash is syntactically invalid for a hostname, causing the server to ignore the header and return no valid results.
+<div align="center">
+<br>
+<br>
+</div>
 
 #### Phase 2: The False Positive (Unfiltered Noise)
 
@@ -282,6 +291,10 @@ After correcting the syntax, the tool returned a hit for every single word in th
 >     
 
 **Purpose:** To observe how the server responds to various hostnames. **Analysis:** The server was configured with a "Catch-All" or default virtual host that returns a `301 Moved Permanently` status for any unrecognized subdomain. Because `ffuf` matches these status codes by default, it flagged every request as a "hit." Every irrelevant response had a consistent size of **169 bytes**.
+<div align="center">
+<br>
+<br>
+</div>
 
 #### Phase 3: Calibrated Discovery
 
