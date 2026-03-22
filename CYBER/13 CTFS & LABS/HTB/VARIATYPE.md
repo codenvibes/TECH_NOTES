@@ -415,9 +415,8 @@ To isolate real subdomains from the default server responses, a size filter was 
 **Breakdown:**
 
  - `-fs 169`
- - **Description:** Filter HTTP Response Size.
-    
-- **Purpose:** Instructs the tool to ignore any response that is exactly 169 bytes.
+	- **Description:** Filter HTTP Response Size & Targeted Filter Value.
+	- **Purpose:** Instructs the tool to ignore any response that is exactly 169 bytes.
 
 
 **Purpose:** To hide the "Catch-All" redirects and only display responses that differ from the server's default behavior. **Result:** This calibration successfully revealed a unique virtual host: **`portal.variatype.htb`** (Status: 200, Size: 2494).
