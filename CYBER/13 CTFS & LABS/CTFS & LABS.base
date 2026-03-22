@@ -9,6 +9,9 @@ views:
       - pawned
       - description
       - file.tags
+    sort:
+      - property: file.mtime
+        direction: DESC
     image: note.image
     cardSize: 190
     imageAspectRatio: 1
