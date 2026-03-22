@@ -268,7 +268,7 @@ The search for subdomains was conducted by manipulating the HTTP `Host` header. 
 
 The initial attempt resulted in zero hits across the entire wordlist.
 
-**Command:** `ffuf -w [wordlist] -u http://variatype.htb/ -H "Host: FUZZ.variatype.htb/"`
+**Command:** `ffuf -w /usr/share/wordlists/seclists/Discovery/DNS/subdomains-top1million-5000.txt -u http://variatype.htb/ -H "Host: FUZZ.variatype.htb/"`
 
 **Breakdown:**
 
@@ -284,7 +284,9 @@ The initial attempt resulted in zero hits across the entire wordlist.
 
 After correcting the syntax, the tool returned a hit for every single word in the list, making the output unusable.
 
-**Command:** `ffuf -w /usr/share/wordlists/seclists/Discovery/DNS/subdomains-top1million-5000.txt -u http://variatype.htb/ -H "Host: FUZZ.variatype.htb/"` **Breakdown:**
+**Command:** `ffuf -w /usr/share/wordlists/seclists/Discovery/DNS/subdomains-top1million-5000.txt -u http://variatype.htb/ -H "Host: FUZZ.variatype.htb"` 
+
+**Breakdown:**
 
 > - `-H "Host: FUZZ.variatype.htb"`: Corrected hostname syntax without the trailing slash.
 >     
@@ -334,7 +336,7 @@ ________________________________________________
 ________________________________________________
 
 :: Progress: [4989/4989] :: Job [1/1] :: 72 req/sec :: Duration: [0:01:17] :: Errors: 0 ::
-                                                                                                                             
+
 ┌──(kali㉿kali)-[~]
 └─$ ffuf -w /usr/share/wordlists/seclists/Discovery/DNS/subdomains-top1million-5000.txt -u http://variatype.htb/ -H "Host: FUZZ.variatype.htb" 
 
@@ -405,7 +407,6 @@ lists                   [Status: 301, Size: 169, Words: 5, Lines: 8, Duration: 2
 [WARN] Caught keyboard interrupt (Ctrl-C)
 
 
-                                                                                                                             
 ┌──(kali㉿kali)-[~]
 └─$ ffuf -w /usr/share/wordlists/seclists/Discovery/DNS/subdomains-top1million-5000.txt -u http://variatype.htb/ -H "Host: FUZZ.variatype.htb" -fs 169
 
