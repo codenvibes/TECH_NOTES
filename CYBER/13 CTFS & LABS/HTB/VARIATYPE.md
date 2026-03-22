@@ -732,7 +732,15 @@ The commit history shows:
 
 ##### `git diff`
 
-Compare the initial commit to the latest one
+Compare the initial commit to the latest one.
+
+**Command:** `git diff 5030e79 753b5f5`
+
+**Breakdown:**
+
+- `diff --git a/auth.php b/auth.php`
+    - **Description:** Source File Comparison.
+    - **Purpose:** Identifies that the changes occurred specifically within the authentication logic file.
 <div align="center">
 <br>
 <br>
