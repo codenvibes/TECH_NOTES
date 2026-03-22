@@ -268,24 +268,27 @@ The search for subdomains was conducted by manipulating the HTTP `Host` header. 
 
 The initial attempt resulted in zero hits across the entire wordlist.
 
-**Command:** 
-
-`ffuf -w /usr/share/wordlists/seclists/Discovery/DNS/subdomains-top1million-5000.txt -u http://variatype.htb/ -H "Host: FUZZ.variatype.htb/"`
+**Command:** `ffuf -w /usr/share/wordlists/seclists/Discovery/DNS/subdomains-top1million-5000.txt -u http://variatype.htb/ -H "Host: FUZZ.variatype.htb/"`
 
 **Breakdown:**
 
-- `ffuf`: The core binary execution for the Fuzz Faster U Fool utility.
+- `-w`
     
-- `-w /path/to/wordlist`: **Wordlist Specification.** Defines the dictionary file containing common subdomain names (e.g., `dev`, `test`, `portal`) that will be tested against the target.
+    - **Description:** Wordlist Path.
+        
+    - **Purpose:** Specifies the list of common subdomain names to be tested against the target.
+        
+- `-u`
     
-- `-u http://variatype.htb/`: **Target URL.** The base address where the fuzzing requests are sent. In VHost fuzzing, the URL typically remains static while the headers change.
+    - **Description:** Target URL.
+        
+    - **Purpose:** Defines the base address of the web server receiving the fuzzing requests.
+        
+- `-H "Host: FUZZ.variatype.htb/"`
     
-- `-H "Host: FUZZ.variatype.htb"`: **Header Injection.** This is the most critical component for VHost discovery. The keyword `FUZZ` acts as a placeholder that `ffuf` replaces with every entry from the wordlist for each request.
-    
-- `-fs 169`: **Filter Size.** Instructs the tool to discard any response that is exactly 169 bytes in size.
-
-
-**Purpose:** To probe for subdomains by injecting wordlist entries into the header. 
+    - **Description:** Custom HTTP Header.
+        
+    - **Purpose:** Injects wordlist entries into the Host header. The trailing slash here caused a syntax mismatch, resulting in zero valid hits.
 
 **Analysis:** This attempt failed because HTTP `Host` headers must strictly match the domain name defined in the web server's configuration (e.g., Nginx `server_name` blocks). A trailing slash is syntactically invalid for a hostname, causing the server to ignore the header and return no valid results.
 <div align="center">
