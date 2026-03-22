@@ -551,13 +551,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "CYBER/13 CTFS & LABS/HTB/WINGDATA.md",
+                "file": "CYBER/13 CTFS & LABS/HTB/VARIATYPE.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of WINGDATA"
+              "title": "Outline of VARIATYPE"
             }
           },
           {
@@ -622,13 +622,13 @@
       "iconic:Open rulebook": false
     }
   },
-  "active": "3dbdf2692670b270",
+  "active": "cd22a45ae9ef0c95",
   "lastOpenFiles": [
+    "CYBER/13 CTFS & LABS/HTB/WINGDATA.md",
     "CYBER/13 CTFS & LABS/HTB/VARIATYPE.md",
     "ASSETS/Pasted image 20260322183239.png",
     "ASSETS/Pasted image 20260322172725.png",
     "TEMPLATES/HTBL WRITEUP.md",
-    "CYBER/13 CTFS & LABS/HTB/WINGDATA.md",
     "ASSETS/Pasted image 20260322124112.png",
     "ASSETS/Pasted image 20260322131510.png",
     "ASSETS/Pasted image 20260322131231.png",
