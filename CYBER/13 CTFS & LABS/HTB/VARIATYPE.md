@@ -470,6 +470,12 @@ Command: `sudo sh -c 'echo "TARGET_IP portal.variatype.htb" >> /etc/hosts'`
 #### 2.2.5 Navigate to `http://portal.variatype.htb`
 
 ![[Pasted image 20260322172725.png]]
+<div align="center">
+<br>
+<br>
+</div>
+
+#### 2.2.6 Update Hosts File
 
 <div align="center">
 <br>
