@@ -780,12 +780,12 @@ index 615e621..b328305 100644
 
 #### 2.2.8 Authentication Bypass
 
-With these credentials, the next step is to test the **Internal Validation Portal** to gain access to the restricted area of the application.
+With these credentials, the next step is to test them and try to gain access to the restricted area of the application.
 
 1. **Navigate to Portal:** Open `http://portal.variatype.htb` in your browser.
     
-2. **Input Credentials:** * **Username:** `gitbot`
-    
+2. **Input Credentials:** 
+	* **Username:** `gitbot` 
     - **Password:** `G1tB0t_Acc3ss_2025!`
         
 3. **Submit:** Click **Authenticate**.
