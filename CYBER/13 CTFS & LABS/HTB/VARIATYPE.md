@@ -243,6 +243,10 @@ Browse to `http://variatype.htb`.
 </div>
 
 Browse to `http://variatype.htb/services`
+
+![[Pasted image 20260322131231.png]]
+
+
 <div align="center">
 <br>
 <br>
