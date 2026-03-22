@@ -459,8 +459,15 @@ portal                  [Status: 200, Size: 2494, Words: 445, Lines: 59, Duratio
 
 #### 2.2.4 Update Hosts File
 
-Command: `sudo sh -c 'echo "TARGET_IP portal.variatype.htb" >> /etc/hosts'`
+**Update Local DNS:** Add `portal.variatype.htb` to your `/etc/hosts` file so your browser can resolve the newly discovered virtual host.
 
+Command: `sudo sh -c 'echo "TARGET_IP portal.variatype.htb" >> /etc/hosts'`
+<div align="center">
+<br>
+<br>
+</div>
+
+2.2.5 Navigate to `http://portal.variatype.htb`
 <div align="center">
 <br>
 <br>
