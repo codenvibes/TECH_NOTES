@@ -789,6 +789,10 @@ With these credentials, the next step is to test them and try to gain access to 
 3. Click **Authenticate**.
 
 ![[Pasted image 20260322183239.png]]
+
+Upon successfully authenticating to `portal.variatype.htb`, the landing page revealed a direct relationship with a generator tool.
+
+
 <div align="center">
 <br>
 <br>
