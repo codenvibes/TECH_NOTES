@@ -551,13 +551,12 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "CYBER/13 CTFS & LABS/HTB/VARIATYPE.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of VARIATYPE"
+              "title": "Outline"
             }
           },
           {
@@ -622,10 +621,10 @@
       "iconic:Open rulebook": false
     }
   },
-  "active": "cd22a45ae9ef0c95",
+  "active": "2b2caeec6788473b",
   "lastOpenFiles": [
-    "ASSETS/Pasted image 20260322183239.png",
     "CYBER/13 CTFS & LABS/HTB/VARIATYPE.md",
+    "ASSETS/Pasted image 20260322183239.png",
     "ASSETS/Pasted image 20260322172725.png",
     "TEMPLATES/HTBL WRITEUP.md",
     "CYBER/13 CTFS & LABS/HTB/WINGDATA.md",
@@ -660,7 +659,6 @@
     "ASSETS/1uCxxdutWy_RMPSnSMGxKig.webp",
     "ASSETS/Pasted image 20260301134121.png",
     "ASSETS/Pasted image 20260301133737.png",
-    "ASSETS/Pasted image 20260301132057.png",
     "CYBER/13 CTFS & LABS/THM/OVERPASS.md",
     "COURSES/COURSES.base",
     "ASSETS/Unconfirmed 337402.crdownload",
