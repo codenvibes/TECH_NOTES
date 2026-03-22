@@ -475,7 +475,8 @@ Command: `sudo sh -c 'echo "TARGET_IP portal.variatype.htb" >> /etc/hosts'`
 <br>
 </div>
 
-#### 2.2.6 Update Hosts File
+#### 2.2.6 `http://portal.variatype.htb` Enumeration
+
 
 <div align="center">
 <br>
