@@ -257,7 +257,7 @@ Browse to `http://variatype.htb/tools/variable-font-generator`
 <br>
 </div>
 
-#### 2.2.3 Directory Fuzzing
+#### 2.2.3 Subdomain Enumeration
 
 **Command:** `ffuf -w /usr/share/wordlists/dirb/common.txt -u http://variatype.htb/FUZZ`
 
