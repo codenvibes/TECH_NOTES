@@ -768,6 +768,10 @@ index 615e621..b328305 100644
 - `+$USERS = [` ... `+];`
     - Added Lines (Green).
     - Reveals the new hardcoded associative array containing the username and password pair.
+
+**Extracted Credentials:**
+
+
 <div align="center">
 <br>
 <br>
