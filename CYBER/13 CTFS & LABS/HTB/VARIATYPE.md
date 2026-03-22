@@ -400,14 +400,13 @@ lists                   [Status: 301, Size: 169, Words: 5, Lines: 8, Duration: 2
 [WARN] Caught keyboard interrupt (Ctrl-C)
 ```
 
-
-**Purpose:** To observe how the server responds to various hostnames. **Analysis:** The server was configured with a "Catch-All" or default virtual host that returns a `301 Moved Permanently` status for any unrecognized subdomain. Because `ffuf` matches these status codes by default, it flagged every request as a "hit." Every irrelevant response had a consistent size of **169 bytes**.
+To observe how the server responds to various hostnames. **Analysis:** The server was configured with a "Catch-All" or default virtual host that returns a `301 Moved Permanently` status for any unrecognized subdomain. Because `ffuf` matches these status codes by default, it flagged every request as a "hit." Every irrelevant response had a consistent size of **169 bytes**.
 <div align="center">
 <br>
 <br>
 </div>
 
-##### Phase 3: Calibrated Discovery
+##### Phase 3: Discovery
 
 To isolate real subdomains from the default server responses, a size filter was applied to suppress the 169-byte noise.
 
