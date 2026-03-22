@@ -467,12 +467,12 @@
                     "state": {
                       "type": "markdown",
                       "state": {
-                        "file": "TEMPLATES/HTBL WRITEUP.md",
+                        "file": "CYBER/13 CTFS & LABS/HTB/VARIATYPE.md",
                         "mode": "source",
                         "source": false
                       },
                       "icon": "lucide-file",
-                      "title": "HTBL WRITEUP"
+                      "title": "VARIATYPE"
                     }
                   }
                 ],
@@ -621,13 +621,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "TEMPLATES/HTBL WRITEUP.md",
+                "file": "CYBER/13 CTFS & LABS/HTB/VARIATYPE.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of HTBL WRITEUP"
+              "title": "Outline of VARIATYPE"
             }
           },
           {
@@ -694,13 +694,13 @@
   },
   "active": "cd22a45ae9ef0c95",
   "lastOpenFiles": [
+    "TEMPLATES/HTBL WRITEUP.md",
     "CYBER/13 CTFS & LABS/HTB/VARIATYPE.md",
     "CYBER/13 CTFS & LABS/HTB/WINGDATA.md",
     "ASSETS/Pasted image 20260322124112.png",
     "ASSETS/Pasted image 20260322131510.png",
     "ASSETS/Pasted image 20260322131231.png",
     "CYBER/13 CTFS & LABS/THM/OPERATION ENDGAME.md",
-    "TEMPLATES/HTBL WRITEUP.md",
     "CYBER/13 CTFS & LABS/HTB/MONITORSFOUR.md",
     "CYBER/13 CTFS & LABS/HTB/PIRATE.md",
     "CYBER/13 CTFS & LABS/HTB/CCTV.md",

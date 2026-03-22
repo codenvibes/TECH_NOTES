@@ -43,13 +43,13 @@ Start the Machine.
 
 Verify that the target machine is up and reachable by performing an ICMP ping test.
 
-Command: `ping -c 4 TARGET_IP`
+**Command:** `ping -c 4 TARGET_IP`
 
-Breakdown:
+**Breakdown:**
 
 - `-c 4` → sends 4 packets only (clean output, fast)
 
-Output:
+**Output:**
 
 ```shell
 
@@ -73,9 +73,10 @@ Before we can attack a system, we need to find out what "doors" are open. Doors 
 
 #### 2.1.1 The "Spearfishing" Scan (All Ports, High Speed)
 
-Command: `nmap -p- --min-rate 5000 -Pn TARGET_IP`
+**Command:** `nmap -p- --min-rate 5000 -Pn TARGET_IP`
 
-Breakdown:
+**Breakdown:**
+
 - **`nmap`**
     - **Description:** The utility itself.
 - **`-p-`**
@@ -91,7 +92,7 @@ Breakdown:
     - **Description:** Target Specification.
     - **Purpose:** The IP address of the host being scanned.
 
-Output:
+**Output:**
 
 ```shell
 
@@ -103,9 +104,10 @@ Output:
 
 #### 2.1.2 The "Deep Dive" Scan (Targeted Aggression)
 
-Command: `nmap -A -p p1,p2,p3,p4 TARGET_IP`
+**Command:** `nmap -A -p p1,p2,p3,p4 TARGET_IP`
 
-Breakdown:
+**Breakdown:**
+
 - **`-A`**
     - **Description:** Aggressive Scan Mode.
     - **Purpose:** Enables OS detection, version detection, script scanning (`-sC`), and traceroute all at once.
@@ -114,7 +116,7 @@ Breakdown:
     - **Purpose:** Restricts the heavy scanning to only the ports you confirmed are open, saving significant time and processing power.
 
 
-Output:
+**Output:**
 
 ```shell
 
