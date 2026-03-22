@@ -50,6 +50,7 @@ Verify that the target machine is up and reachable by performing an ICMP ping te
 Command: `ping -c 4 TARGET_IP`
 
 Breakdown:
+
 - `-c 4` → sends 4 packets only (clean output, fast)
 
 Output:
@@ -86,9 +87,10 @@ Before we can attack a system, we need to find out what "doors" are open. Doors 
 
 #### 2.1.1 The "Spearfishing" Scan (All Ports, High Speed)
 
-Command: `nmap -p- --min-rate 5000 -Pn TARGET_IP`
+**Command:** `nmap -p- --min-rate 5000 -Pn TARGET_IP`
 
-Breakdown:
+**Breakdown:**
+
 - **`nmap`**
     - **Description:** The utility itself.
 - **`-p-`**
@@ -129,6 +131,7 @@ Nmap done: 1 IP address (1 host up) scanned in 30.57 seconds
 Command: `nmap -A -p p1,p2,p3,p4 TARGET_IP`
 
 Breakdown:
+
 - `-sC`
     - **Description:** Default Script Scan.
     - **Purpose:** Runs a collection built-in Nmap Scripting Engine (NSE) scripts to find common vulnerabilities, metadata, or hidden info.
