@@ -174,10 +174,10 @@ Nmap done: 1 IP address (1 host up) scanned in 25.42 seconds
 
 #### 2.1.3 Scan Results Analysis
 
-| Port | **Service** | **Version** | **Analysis** |
-| ---- | ----------- | ----------- | ------------ |
-|      |             |             |              |
-|      |             |             |              |
+| Port   | **Service** | **Version**  | **Analysis** |
+| ------ | ----------- | ------------ | ------------ |
+| 22/tcp | SSH         |              |              |
+| 80/tcp | HTTP        | nginx 1.22.1 |              |
 
 <div align="center">
 <br>
