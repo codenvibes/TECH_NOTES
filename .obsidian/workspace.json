@@ -542,8 +542,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 288.703125,
-    "collapsed": true
+    "width": 288.703125
   },
   "right": {
     "id": "26820c7e22c27caf",
@@ -678,7 +677,7 @@
       "iconic:Open rulebook": false
     }
   },
-  "active": "3b8b4b24d88a173c",
+  "active": "21fce08000a30866",
   "lastOpenFiles": [
     "QUICK NOTES/WHITE-BOARD.md",
     "QUICK NOTES/TODO.md",
