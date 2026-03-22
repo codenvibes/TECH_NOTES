@@ -281,14 +281,18 @@ The initial attempt resulted in zero hits across the entire wordlist.
 - `-H "Host: FUZZ.variatype.htb/"`
     - **Description:** Custom HTTP Header.
     - **Purpose:** Injects wordlist entries into the Host header.
+- `FUZZ`
+	- **Description:** Keyword Placeholder.
+	- **Purpose:** Acts as the injection point where `ffuf` inserts each individual entry from the selected wordlist.
 
-**Analysis:** This attempt failed because HTTP `Host` headers must strictly match the domain name defined in the web server's configuration (e.g., Nginx `server_name` blocks). A trailing slash is syntactically invalid for a hostname, causing the server to ignore the header and return no valid results.
+**Analysis:** 
+This attempt failed because HTTP `Host` headers must strictly match the domain name defined in the web server's configuration (e.g., Nginx `server_name` blocks). A trailing slash is syntactically invalid for a hostname, causing the server to ignore the header and return no valid results.
 <div align="center">
 <br>
 <br>
 </div>
 
-#### Phase 2: The False Positive (Unfiltered Noise)
+##### Phase 2: The False Positive (Unfiltered Noise)
 
 After correcting the syntax, the tool returned a hit for every single word in the list, making the output unusable.
 
@@ -305,7 +309,7 @@ After correcting the syntax, the tool returned a hit for every single word in th
 <br>
 </div>
 
-#### Phase 3: Calibrated Discovery
+##### Phase 3: Calibrated Discovery
 
 To isolate real subdomains from the default server responses, a size filter was applied to suppress the 169-byte noise.
 
