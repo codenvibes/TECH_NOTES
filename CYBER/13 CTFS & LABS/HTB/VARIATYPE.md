@@ -190,7 +190,7 @@ Nmap done: 1 IP address (1 host up) scanned in 25.42 seconds
 
 #### 2.2.1. Update Hosts File
 
-Command: `sudo sh -c 'echo "TARGET_IP facts.htb" >> /etc/hosts'`
+Command: `sudo sh -c 'echo "TARGET_IP variatype.htb" >> /etc/hosts'`
 
 Breakdown:
 
@@ -200,7 +200,7 @@ Breakdown:
 - **`sh -c`**
     - **Description:** Shell Command String.
     - **Purpose:** Tells the system to run a new shell instance and execute the string inside the single quotes. This is used here because the redirection (`>>`) needs root privileges to write to the file; simply using `sudo echo ... >> /etc/hosts` would fail because the redirection is handled by your current (unprivileged) shell.
-- **`echo "TARGET_IP facts.htb"`**
+- **`echo "TARGET_IP variatype.htb"`**
     - **Description:** Standard Output Generator. 
     - **Purpose:** Creates a string containing the IP address and the desired domain name, which acts as a local DNS entry.
 - **`>>`**
@@ -222,11 +222,11 @@ When you type a URL like `google.com` or `variatype.htb` into your browser, your
 2. **The Hosts File (`/etc/hosts`):** This is your computer's "private address book." It checks here **first** before asking the internet. If an entry exists, it stops looking and goes to that IP.
 3. **DNS Servers:** If the name isn't in your private book, your computer asks a DNS server (like Google’s `8.8.8.8` or your ISP).
 
-##### Why `google.com` works but `facts.htb` doesn't
+##### Why `google.com` works but `variatype.htb` doesn't
 
 - **Public Sites:** `google.com` is registered on public DNS servers. When you ask the internet "Where is Google?", the internet has an official answer.
 
-- **HTB Sites:** `facts.htb` is a **private domain** inside the HTB lab environment. Public DNS servers have no idea it exists. Because your computer can't find an "official" record, it gives you a "Server Not Found" error—unless you write the address into your private address book (`/etc/hosts`) yourself.
+- **HTB Sites:** `variatype.htb` is a **private domain** inside the HTB lab environment. Public DNS servers have no idea it exists. Because your computer can't find an "official" record, it gives you a "Server Not Found" error—unless you write the address into your private address book (`/etc/hosts`) yourself.
 <div align="center">
 <br>
 <br>
@@ -234,7 +234,7 @@ When you type a URL like `google.com` or `variatype.htb` into your browser, your
 
 #### 2.2.2. Web Enumeration
 
-Browse to `http://facts.htb`.
+Browse to `http://variatype.htb`.
 <div align="center">
 <br>
 <br>
