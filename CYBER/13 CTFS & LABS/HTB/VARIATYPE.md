@@ -783,12 +783,12 @@ index 615e621..b328305 100644
 With these credentials, the next step is to test them and try to gain access to the restricted area of the application.
 
 1. **Navigate to Portal:** Open `http://portal.variatype.htb` in your browser.
-    
 2. **Input Credentials:** 
 	* **Username:** `gitbot` 
     - **Password:** `G1tB0t_Acc3ss_2025!`
-        
-3. **Submit:** Click **Authenticate**.
+3. Click **Authenticate**.
+
+
 <div align="center">
 <br>
 <br>
