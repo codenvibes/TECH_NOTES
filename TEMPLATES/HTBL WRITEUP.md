@@ -49,7 +49,7 @@ Verify that the target machine is up and reachable by performing an ICMP ping te
 
 - `-c 4` → sends 4 packets only (clean output, fast)
 
-**Output:**
+**Result:**
 
 ```shell
 
@@ -92,7 +92,7 @@ Before we can attack a system, we need to find out what "doors" are open. Doors 
     - **Description:** Target Specification.
     - **Purpose:** The IP address of the host being scanned.
 
-**Output:**
+**Result:**
 
 ```shell
 
@@ -116,7 +116,7 @@ Before we can attack a system, we need to find out what "doors" are open. Doors 
     - **Purpose:** Restricts the heavy scanning to only the ports you confirmed are open, saving significant time and processing power.
 
 
-**Output:**
+**Result:**
 
 ```shell
 
