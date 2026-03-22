@@ -551,6 +551,132 @@ index.php               [Status: 200, Size: 2494, Words: 445, Lines: 59, Duratio
 - `./dumped_repo`
     - **Description:** Local Output Directory.
     - **Purpose:** Specifies the local folder where the recovered source code, logs, and configuration files will be stored.
+
+**Output:**
+
+```shell
+┌──(kali㉿kali)-[~/PUEMAN/HTB/SN10/VariaType]
+└─$ git-dumper http://portal.variatype.htb/.git/ ./dumped_repo
+[-] Testing http://portal.variatype.htb/.git/HEAD [200]
+[-] Testing http://portal.variatype.htb/.git/ [403]
+[-] Fetching common files
+[-] Fetching http://portal.variatype.htb/.gitignore [404]
+[-] http://portal.variatype.htb/.gitignore responded with status code 404
+[-] Fetching http://portal.variatype.htb/.git/COMMIT_EDITMSG [200]
+[-] Fetching http://portal.variatype.htb/.git/description [200]
+[-] Fetching http://portal.variatype.htb/.git/hooks/applypatch-msg.sample [200]
+[-] Fetching http://portal.variatype.htb/.git/hooks/post-commit.sample [404]
+[-] http://portal.variatype.htb/.git/hooks/post-commit.sample responded with status code 404
+[-] Fetching http://portal.variatype.htb/.git/hooks/post-receive.sample [404]
+[-] http://portal.variatype.htb/.git/hooks/post-receive.sample responded with status code 404
+[-] Fetching http://portal.variatype.htb/.git/hooks/commit-msg.sample [200]
+[-] Fetching http://portal.variatype.htb/.git/hooks/post-update.sample [200]
+[-] Fetching http://portal.variatype.htb/.git/hooks/pre-applypatch.sample [200]
+[-] Fetching http://portal.variatype.htb/.git/hooks/pre-commit.sample [200]
+[-] Fetching http://portal.variatype.htb/.git/objects/info/packs [404]
+[-] Fetching http://portal.variatype.htb/.git/hooks/pre-rebase.sample [200]
+[-] http://portal.variatype.htb/.git/objects/info/packs responded with status code 404
+[-] Fetching http://portal.variatype.htb/.git/hooks/pre-receive.sample [200]
+[-] Fetching http://portal.variatype.htb/.git/hooks/prepare-commit-msg.sample [200]
+[-] Fetching http://portal.variatype.htb/.git/info/exclude [200]
+[-] Fetching http://portal.variatype.htb/.git/hooks/pre-push.sample [200]
+[-] Fetching http://portal.variatype.htb/.git/index [200]
+[-] Fetching http://portal.variatype.htb/.git/hooks/update.sample [200]
+[-] Finding refs/
+[-] Fetching http://portal.variatype.htb/.git/FETCH_HEAD [404]
+[-] Fetching http://portal.variatype.htb/.git/logs/refs/heads/production [404]
+[-] Fetching http://portal.variatype.htb/.git/info/refs [404]
+[-] http://portal.variatype.htb/.git/logs/refs/heads/production responded with status code 404
+[-] http://portal.variatype.htb/.git/info/refs responded with status code 404
+[-] Fetching http://portal.variatype.htb/.git/ORIG_HEAD [200]
+[-] Fetching http://portal.variatype.htb/.git/logs/HEAD [200]
+[-] Fetching http://portal.variatype.htb/.git/logs/refs/heads/master [200]
+[-] Fetching http://portal.variatype.htb/.git/logs/refs/heads/main [404]
+[-] http://portal.variatype.htb/.git/logs/refs/heads/main responded with status code 404
+[-] Fetching http://portal.variatype.htb/.git/HEAD [200]
+[-] Fetching http://portal.variatype.htb/.git/config [200]
+[-] http://portal.variatype.htb/.git/FETCH_HEAD responded with status code 404
+[-] Fetching http://portal.variatype.htb/.git/logs/refs/heads/staging [404]
+[-] http://portal.variatype.htb/.git/logs/refs/heads/staging responded with status code 404
+[-] Fetching http://portal.variatype.htb/.git/logs/refs/heads/development [404]
+[-] Fetching http://portal.variatype.htb/.git/logs/refs/remotes/origin/HEAD [404]
+[-] Fetching http://portal.variatype.htb/.git/logs/refs/remotes/origin/main [404]
+[-] http://portal.variatype.htb/.git/logs/refs/remotes/origin/main responded with status code 404
+[-] http://portal.variatype.htb/.git/logs/refs/remotes/origin/HEAD responded with status code 404
+[-] http://portal.variatype.htb/.git/logs/refs/heads/development responded with status code 404
+[-] Fetching http://portal.variatype.htb/.git/logs/refs/remotes/origin/staging [404]
+[-] http://portal.variatype.htb/.git/logs/refs/remotes/origin/staging responded with status code 404
+[-] Fetching http://portal.variatype.htb/.git/logs/refs/remotes/origin/production [404]
+[-] Fetching http://portal.variatype.htb/.git/logs/refs/remotes/origin/development [404]
+[-] http://portal.variatype.htb/.git/logs/refs/remotes/origin/development responded with status code 404
+[-] Fetching http://portal.variatype.htb/.git/logs/refs/stash [404]
+[-] http://portal.variatype.htb/.git/logs/refs/stash responded with status code 404
+[-] http://portal.variatype.htb/.git/logs/refs/remotes/origin/production responded with status code 404
+[-] Fetching http://portal.variatype.htb/.git/logs/refs/remotes/origin/master [404]
+[-] http://portal.variatype.htb/.git/logs/refs/remotes/origin/master responded with status code 404
+[-] Fetching http://portal.variatype.htb/.git/packed-refs [404]
+[-] http://portal.variatype.htb/.git/packed-refs responded with status code 404
+[-] Fetching http://portal.variatype.htb/.git/refs/heads/main [404]
+[-] http://portal.variatype.htb/.git/refs/heads/main responded with status code 404
+[-] Fetching http://portal.variatype.htb/.git/refs/heads/staging [404]
+[-] Fetching http://portal.variatype.htb/.git/refs/heads/production [404]
+[-] http://portal.variatype.htb/.git/refs/heads/production responded with status code 404
+[-] http://portal.variatype.htb/.git/refs/heads/staging responded with status code 404
+[-] Fetching http://portal.variatype.htb/.git/refs/heads/master [200]
+[-] Fetching http://portal.variatype.htb/.git/refs/remotes/origin/HEAD [404]
+[-] Fetching http://portal.variatype.htb/.git/refs/remotes/origin/main [404]
+[-] http://portal.variatype.htb/.git/refs/remotes/origin/main responded with status code 404
+[-] http://portal.variatype.htb/.git/refs/remotes/origin/HEAD responded with status code 404
+[-] Fetching http://portal.variatype.htb/.git/refs/heads/development [404]
+[-] http://portal.variatype.htb/.git/refs/heads/development responded with status code 404
+[-] Fetching http://portal.variatype.htb/.git/refs/remotes/origin/master [404]
+[-] http://portal.variatype.htb/.git/refs/remotes/origin/master responded with status code 404
+[-] Fetching http://portal.variatype.htb/.git/refs/remotes/origin/staging [404]
+[-] http://portal.variatype.htb/.git/refs/remotes/origin/staging responded with status code 404
+[-] Fetching http://portal.variatype.htb/.git/refs/remotes/origin/development [404]
+[-] http://portal.variatype.htb/.git/refs/remotes/origin/development responded with status code 404
+[-] Fetching http://portal.variatype.htb/.git/refs/remotes/origin/production [404]
+[-] http://portal.variatype.htb/.git/refs/remotes/origin/production responded with status code 404
+[-] Fetching http://portal.variatype.htb/.git/refs/wip/wtree/refs/heads/master [404]
+[-] Fetching http://portal.variatype.htb/.git/refs/stash [404]
+[-] http://portal.variatype.htb/.git/refs/wip/wtree/refs/heads/master responded with status code 404
+[-] Fetching http://portal.variatype.htb/.git/refs/wip/wtree/refs/heads/main [404]
+[-] Fetching http://portal.variatype.htb/.git/refs/wip/wtree/refs/heads/staging [404]
+[-] http://portal.variatype.htb/.git/refs/stash responded with status code 404
+[-] http://portal.variatype.htb/.git/refs/wip/wtree/refs/heads/staging responded with status code 404
+[-] http://portal.variatype.htb/.git/refs/wip/wtree/refs/heads/main responded with status code 404
+[-] Fetching http://portal.variatype.htb/.git/refs/wip/index/refs/heads/main [404]
+[-] Fetching http://portal.variatype.htb/.git/refs/wip/wtree/refs/heads/development [404]
+[-] http://portal.variatype.htb/.git/refs/wip/wtree/refs/heads/development responded with status code 404
+[-] http://portal.variatype.htb/.git/refs/wip/index/refs/heads/main responded with status code 404
+[-] Fetching http://portal.variatype.htb/.git/refs/wip/wtree/refs/heads/production [404]
+[-] Fetching http://portal.variatype.htb/.git/refs/wip/index/refs/heads/master [404]
+[-] http://portal.variatype.htb/.git/refs/wip/index/refs/heads/master responded with status code 404
+[-] Fetching http://portal.variatype.htb/.git/refs/wip/index/refs/heads/staging [404]
+[-] http://portal.variatype.htb/.git/refs/wip/index/refs/heads/staging responded with status code 404
+[-] http://portal.variatype.htb/.git/refs/wip/wtree/refs/heads/production responded with status code 404
+[-] Fetching http://portal.variatype.htb/.git/refs/wip/index/refs/heads/production [404]
+[-] http://portal.variatype.htb/.git/refs/wip/index/refs/heads/production responded with status code 404
+[-] Fetching http://portal.variatype.htb/.git/refs/wip/index/refs/heads/development [404]
+[-] http://portal.variatype.htb/.git/refs/wip/index/refs/heads/development responded with status code 404
+[-] Finding packs
+[-] Finding objects
+[-] Fetching objects
+[-] Fetching http://portal.variatype.htb/.git/objects/75/3b5f5957f2020480a19bf29a0ebc80267a4a3d [200]
+[-] Fetching http://portal.variatype.htb/.git/objects/00/00000000000000000000000000000000000000 [404]
+[-] http://portal.variatype.htb/.git/objects/00/00000000000000000000000000000000000000 responded with status code 404
+[-] Fetching http://portal.variatype.htb/.git/objects/50/30e791b764cb2a50fcb3e2279fea9737444870 [200]
+[-] Fetching http://portal.variatype.htb/.git/objects/6f/021da6be7086f2595befaa025a83d1de99478b [200]
+[-] Fetching http://portal.variatype.htb/.git/objects/61/5e621dce970c2c1c16d2a1e26c12658e3669b3 [200]
+[-] Fetching http://portal.variatype.htb/.git/objects/c6/ea13ef05d96cf3f35f62f87df24ade29d1d6b4 [200]
+[-] Fetching http://portal.variatype.htb/.git/objects/03/0e929d424a937e9bd079794a7e1aaf366bcfaf [200]
+[-] Fetching http://portal.variatype.htb/.git/objects/b3/28305f0e85c2b97a7e2a94978ae20f16db75e8 [200]
+[-] Running git checkout .
+
+┌──(kali㉿kali)-[~/PUEMAN/HTB/SN10/VariaType]
+└─$ ls
+dumped_repo
+```
 <div align="center">
 <br>
 <br>
