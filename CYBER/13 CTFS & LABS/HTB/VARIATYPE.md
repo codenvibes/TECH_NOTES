@@ -276,7 +276,9 @@ The initial attempt resulted in zero hits across the entire wordlist.
 
  - `-H "Host: FUZZ.variatype.htb/"`: The inclusion of a trailing slash (`/`) inside the Host header.
 
-**Purpose:** To probe for subdomains by injecting wordlist entries into the header. **Analysis:** This attempt failed because HTTP `Host` headers must strictly match the domain name defined in the web server's configuration (e.g., Nginx `server_name` blocks). A trailing slash is syntactically invalid for a hostname, causing the server to ignore the header and return no valid results.
+**Purpose:** To probe for subdomains by injecting wordlist entries into the header. 
+
+**Analysis:** This attempt failed because HTTP `Host` headers must strictly match the domain name defined in the web server's configuration (e.g., Nginx `server_name` blocks). A trailing slash is syntactically invalid for a hostname, causing the server to ignore the header and return no valid results.
 <div align="center">
 <br>
 <br>
