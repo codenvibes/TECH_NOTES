@@ -231,7 +231,8 @@
                       "title": "FACTS"
                     }
                   }
-                ]
+                ],
+                "currentTab": 8
               }
             ],
             "direction": "horizontal"
@@ -691,15 +692,15 @@
       "iconic:Open rulebook": false
     }
   },
-  "active": "cd22a45ae9ef0c95",
+  "active": "7be10445e13112be",
   "lastOpenFiles": [
-    "QUICK NOTES/WHITE-BOARD.md",
     "CYBER/13 CTFS & LABS/HTB/VARIATYPE.md",
+    "CYBER/13 CTFS & LABS/HTB/FACTS.md",
+    "QUICK NOTES/WHITE-BOARD.md",
     "CYBER/13 CTFS & LABS/CTFS & LABS.base",
     "CYBER/13 CTFS & LABS/HTB/MONITORSFOUR.md",
     "QUICK NOTES/TODO.md",
     "CYBER/13 CTFS & LABS/HTB/PIRATE.md",
-    "CYBER/13 CTFS & LABS/HTB/FACTS.md",
     "CYBER/01 CORE CONCEPTS/NETWORKING FUNDAMENTALS/NETWORKING FUNDAMENTALS.md",
     "CYBER/13 CTFS & LABS/HTB/WINGDATA.md",
     "CYBER/13 CTFS & LABS/THM/KENOBI.md",

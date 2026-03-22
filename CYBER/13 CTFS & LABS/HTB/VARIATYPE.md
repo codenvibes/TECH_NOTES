@@ -174,10 +174,10 @@ Nmap done: 1 IP address (1 host up) scanned in 25.42 seconds
 
 #### 2.1.3 Scan Results Analysis
 
-| Port   | **Service** | **Version**  | **Analysis** |
-| ------ | ----------- | ------------ | ------------ |
-| 22/tcp | SSH         |              |              |
-| 80/tcp | HTTP        | nginx 1.22.1 |              |
+| Port   | **Service** | **Version**   | **Analysis**                                                                                                         |
+| ------ | ----------- | ------------- | -------------------------------------------------------------------------------------------------------------------- |
+| 22/tcp | SSH         | OpenSSH 9.2p1 | Running on Debian 12. Likely used for remote management; standard version with no immediate public exploits.         |
+| 80/tcp | HTTP        | nginx 1.22.1  | Redirects to `http://variatype.htb/`. This indicates a Virtual Host setup is in place, requiring a local DNS update. |
 
 <div align="center">
 <br>
@@ -186,7 +186,8 @@ Nmap done: 1 IP address (1 host up) scanned in 25.42 seconds
 <br>
 </div>
 
-### 2.2 
+### 2.2 Enumeration of Web Services
+
 <div align="center">
 <br>
 <br>
