@@ -453,12 +453,12 @@
                     "state": {
                       "type": "markdown",
                       "state": {
-                        "file": "CYBER/13 CTFS & LABS/HTB/VARIATYPE.md",
+                        "file": "TEMPLATES/HTBL WRITEUP.md",
                         "mode": "source",
                         "source": false
                       },
                       "icon": "lucide-file",
-                      "title": "VARIATYPE"
+                      "title": "HTBL WRITEUP"
                     }
                   },
                   {
@@ -476,7 +476,7 @@
                     }
                   }
                 ],
-                "currentTab": 6
+                "currentTab": 2
               }
             ],
             "direction": "horizontal"
@@ -621,13 +621,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "CYBER/13 CTFS & LABS/HTB/VARIATYPE.md",
+                "file": "CYBER/13 CTFS & LABS/HTB/PIRATE.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of VARIATYPE"
+              "title": "Outline of PIRATE"
             }
           },
           {
@@ -692,24 +692,24 @@
       "iconic:Open rulebook": false
     }
   },
-  "active": "cd22a45ae9ef0c95",
+  "active": "134eda7afb03f2b5",
   "lastOpenFiles": [
-    "CYBER/13 CTFS & LABS/HTB/FACTS.md",
+    "CYBER/13 CTFS & LABS/HTB/CCTV.md",
+    "CYBER/13 CTFS & LABS/THM/KENOBI.md",
+    "CYBER/13 CTFS & LABS/HTB/PIRATE.md",
+    "TEMPLATES/HTBL WRITEUP.md",
     "CYBER/13 CTFS & LABS/HTB/VARIATYPE.md",
+    "CYBER/13 CTFS & LABS/HTB/FACTS.md",
     "ASSETS/Pasted image 20260322124112.png",
     "QUICK NOTES/WHITE-BOARD.md",
     "CYBER/13 CTFS & LABS/CTFS & LABS.base",
     "CYBER/13 CTFS & LABS/HTB/MONITORSFOUR.md",
     "QUICK NOTES/TODO.md",
-    "CYBER/13 CTFS & LABS/HTB/PIRATE.md",
     "CYBER/01 CORE CONCEPTS/NETWORKING FUNDAMENTALS/NETWORKING FUNDAMENTALS.md",
     "CYBER/13 CTFS & LABS/HTB/WINGDATA.md",
-    "CYBER/13 CTFS & LABS/THM/KENOBI.md",
     "SOFT SKILLS & CAREER/INTERVIEWS/CYBERSHUJAA TRAINER.md",
     "CYBER/13 CTFS & LABS/THM/OPERATION ENDGAME.md",
     "CYBER/08 TOOLS/SQLMAP/SQLMAP.md",
-    "CYBER/13 CTFS & LABS/HTB/CCTV.md",
-    "TEMPLATES/HTBL WRITEUP.md",
     "CYBER/13 CTFS & LABS/HTB/INTERPRETER.md",
     "ASSETS/Pasted image 20260315224808.png",
     "COURSES/HACKVISER/CAPT.md",

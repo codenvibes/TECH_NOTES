@@ -35,6 +35,7 @@ As is common in real life pentests, you will start the Pirate box with credentia
 <!-- PAGE BREAK -->
 <div style="page-break-after: always;"></div>
 
+## 1. Reconnaissance & Discovery
 ### 1.1 Connecting to the HTB VPN
 
 First, standard procedure:
