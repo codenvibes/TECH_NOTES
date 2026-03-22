@@ -477,6 +477,22 @@ Command: `sudo sh -c 'echo "TARGET_IP portal.variatype.htb" >> /etc/hosts'`
 
 #### 2.2.6 `http://portal.variatype.htb` Enumeration
 
+**Command:** `ffuf -w /usr/share/wordlists/dirb/common.txt -u http://portal.variatype.htb/FUZZ`
+
+**Breakdown:**
+
+- `-w`
+    - **Description:** Wordlist Selection.
+    - **Purpose:** Specifies the `common.txt` list to check for standard web directories on the new subdomain.
+- `-u`
+    - **Description:** Subdomain Target URL.
+    - **Purpose:** Directs the fuzzing traffic specifically to the `portal` virtual host.
+- `FUZZ`
+    - **Description:** Payload Placement.
+    - **Purpose:** Injects directory names at the end of the URL to discover paths like `/config`, `/backup`, or `/dev`.
+
+**Output:**
+
 ```shell
 ┌──(kali㉿kali)-[~]
 └─$ ffuf -w /usr/share/wordlists/dirb/common.txt -u http://portal.variatype.htb/FUZZ
