@@ -477,7 +477,36 @@ Command: `sudo sh -c 'echo "TARGET_IP portal.variatype.htb" >> /etc/hosts'`
 
 #### 2.2.6 `http://portal.variatype.htb` Enumeration
 
+```shell
+┌──(kali㉿kali)-[~]
+└─$ ffuf -w /usr/share/wordlists/dirb/common.txt -u http://portal.variatype.htb/FUZZ
 
+        /'___\  /'___\           /'___\       
+       /\ \__/ /\ \__/  __  __  /\ \__/       
+       \ \ ,__\\ \ ,__\/\ \/\ \ \ \ ,__\      
+        \ \ \_/ \ \ \_/\ \ \_\ \ \ \ \_/      
+         \ \_\   \ \_\  \ \____/  \ \_\       
+          \/_/    \/_/   \/___/    \/_/       
+
+       v2.1.0-dev
+________________________________________________
+
+ :: Method           : GET
+ :: URL              : http://portal.variatype.htb/FUZZ
+ :: Wordlist         : FUZZ: /usr/share/wordlists/dirb/common.txt
+ :: Follow redirects : false
+ :: Calibration      : false
+ :: Timeout          : 10
+ :: Threads          : 40
+ :: Matcher          : Response status: 200-299,301,302,307,401,403,405,500
+________________________________________________
+
+                        [Status: 200, Size: 2494, Words: 445, Lines: 59, Duration: 276ms]
+.git/HEAD               [Status: 200, Size: 23, Words: 2, Lines: 2, Duration: 289ms]
+files                   [Status: 301, Size: 169, Words: 5, Lines: 8, Duration: 253ms]
+index.php               [Status: 200, Size: 2494, Words: 445, Lines: 59, Duration: 256ms]
+:: Progress: [4614/4614] :: Job [1/1] :: 153 req/sec :: Duration: [0:00:31] :: Errors: 0 ::
+```
 <div align="center">
 <br>
 <br>
