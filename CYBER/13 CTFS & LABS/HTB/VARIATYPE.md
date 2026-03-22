@@ -459,7 +459,7 @@ portal                  [Status: 200, Size: 2494, Words: 445, Lines: 59, Duratio
 
 #### 2.2.4 Update Hosts File
 
-Command: `sudo sh -c 'echo "TARGET_IP variatype.htb" >> /etc/hosts'`
+Command: `sudo sh -c 'echo "TARGET_IP portal.variatype.htb" >> /etc/hosts'`
 
 <div align="center">
 <br>
