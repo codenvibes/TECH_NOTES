@@ -524,6 +524,8 @@ index.php               [Status: 200, Size: 2494, Words: 445, Lines: 59, Duratio
 :: Progress: [4614/4614] :: Job [1/1] :: 153 req/sec :: Duration: [0:00:31] :: Errors: 0 ::
 ```
 
+**Analysis:**
+
 | **Path**      | **Status** | **Size** | **Analysis**                                                                                                                            |
 | ------------- | ---------- | -------- | --------------------------------------------------------------------------------------------------------------------------------------- |
 | **.git/HEAD** | 200        | 23       | **Critical Finding.** Confirms an exposed Git repository. This can be used to reconstruct the website's source code and commit history. |
