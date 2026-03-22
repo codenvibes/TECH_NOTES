@@ -792,7 +792,9 @@ With these credentials, the next step is to test them and try to gain access to 
 
 Upon successfully authenticating to `portal.variatype.htb`, the landing page revealed a direct relationship with a generator tool.
 
-
+- **Source Reference:** The dashboard explicitly states, "Recent font builds from the variable font generator".
+    
+- **Infrastructure Lead:** A footer note confirms that "Files are auto-archived from the main generator pipeline," suggesting a shared backend or file-syncing mechanism between the portal and the main site.
 <div align="center">
 <br>
 <br>
