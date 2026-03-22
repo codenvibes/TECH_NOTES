@@ -259,15 +259,40 @@ Browse to `http://variatype.htb/tools/variable-font-generator`
 
 #### 2.2.3 Subdomain Enumeration
 
-**Command:** `ffuf -w /usr/share/wordlists/seclists/Discovery/DNS/subdomains-top1million-5000.txt -u http://variatype.htb/ -H "Host: FUZZ.variatype.htb" -fs 178`
+The search for subdomains was conducted by manipulating the HTTP `Host` header. This technique is essential for discovering web content that is logically separated on the same physical server but assigned to different hostnames.
 
-**Breakdown:**
-- **`-u`**
-    - **Description:** Target URL.
-    - **Purpose:** Specifies the URL to be fuzzed. The keyword `FUZZ` tells the tool exactly where to inject the words from your wordlist.
-- **`-w`**
-    - **Description:** Wordlist Path.
-    - **Purpose:** Provides the list of common directory and file names (like `admin`, `config`, etc.) to test against the server.
+#### Phase 1: The False Negative (Syntax Error)
+
+The initial attempt resulted in zero hits across the entire wordlist.
+
+**Command:** `ffuf -w [wordlist] -u http://variatype.htb/ -H "Host: FUZZ.variatype.htb/"` **Breakdown:**
+
+> - `-H "Host: FUZZ.variatype.htb/"`: The inclusion of a trailing slash (`/`) inside the Host header.
+>     
+
+**Purpose:** To probe for subdomains by injecting wordlist entries into the header. **Analysis:** This attempt failed because HTTP `Host` headers must strictly match the domain name defined in the web server's configuration (e.g., Nginx `server_name` blocks). A trailing slash is syntactically invalid for a hostname, causing the server to ignore the header and return no valid results.
+
+#### Phase 2: The False Positive (Unfiltered Noise)
+
+After correcting the syntax, the tool returned a hit for every single word in the list, making the output unusable.
+
+**Command:** `ffuf -w [wordlist] -u http://variatype.htb/ -H "Host: FUZZ.variatype.htb"` **Breakdown:**
+
+> - `-H "Host: FUZZ.variatype.htb"`: Corrected hostname syntax without the trailing slash.
+>     
+
+**Purpose:** To observe how the server responds to various hostnames. **Analysis:** The server was configured with a "Catch-All" or default virtual host that returns a `301 Moved Permanently` status for any unrecognized subdomain. Because `ffuf` matches these status codes by default, it flagged every request as a "hit." Every irrelevant response had a consistent size of **169 bytes**.
+
+#### Phase 3: Calibrated Discovery
+
+To isolate real subdomains from the default server responses, a size filter was applied to suppress the 169-byte noise.
+
+**Command:** `ffuf -w [wordlist] -u http://variatype.htb/ -H "Host: FUZZ.variatype.htb" -fs 169` **Breakdown:**
+
+> - `-fs 169`: Filter Size. This tells `ffuf` to ignore any response that is exactly 169 bytes.
+>     
+
+**Purpose:** To hide the "Catch-All" redirects and only display responses that differ from the server's default behavior. **Result:** This calibration successfully revealed a unique virtual host: **`portal.variatype.htb`** (Status: 200, Size: 2494).
 
 **Output:**
 
