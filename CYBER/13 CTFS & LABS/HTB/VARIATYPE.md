@@ -259,7 +259,7 @@ Browse to `http://variatype.htb/tools/variable-font-generator`
 
 #### 2.2.3 Subdomain Enumeration
 
-**Command:** `ffuf -w /usr/share/wordlists/dirb/common.txt -u http://variatype.htb/FUZZ`
+**Command:** `ffuf -w /usr/share/wordlists/seclists/Discovery/DNS/subdomains-top1million-5000.txt -u http://variatype.htb/ -H "Host: FUZZ.variatype.htb" -fs 178`
 
 **Breakdown:**
 - **`-u`**
