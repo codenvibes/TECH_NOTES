@@ -268,7 +268,9 @@ The search for subdomains was conducted by manipulating the HTTP `Host` header. 
 
 The initial attempt resulted in zero hits across the entire wordlist.
 
-**Command:** `ffuf -w /usr/share/wordlists/seclists/Discovery/DNS/subdomains-top1million-5000.txt -u http://variatype.htb/ -H "Host: FUZZ.variatype.htb/"`
+**Command:** 
+
+`ffuf -w /usr/share/wordlists/seclists/Discovery/DNS/subdomains-top1million-5000.txt -u http://variatype.htb/ -H "Host: FUZZ.variatype.htb/"`
 
 **Breakdown:**
 
@@ -301,7 +303,9 @@ After correcting the syntax, the tool returned a hit for every single word in th
 
 To isolate real subdomains from the default server responses, a size filter was applied to suppress the 169-byte noise.
 
-**Command:** `ffuf -w [wordlist] -u http://variatype.htb/ -H "Host: FUZZ.variatype.htb" -fs 169` **Breakdown:**
+**Command:** `ffuf -w /usr/share/wordlists/seclists/Discovery/DNS/subdomains-top1million-5000.txt -u http://variatype.htb/ -H "Host: FUZZ.variatype.htb" -fs 169` 
+
+**Breakdown:**
 
 > - `-fs 169`: Filter Size. This tells `ffuf` to ignore any response that is exactly 169 bytes.
 >     
@@ -406,7 +410,6 @@ lists                   [Status: 301, Size: 169, Words: 5, Lines: 8, Duration: 2
 
 [WARN] Caught keyboard interrupt (Ctrl-C)
 
-
 ┌──(kali㉿kali)-[~]
 └─$ ffuf -w /usr/share/wordlists/seclists/Discovery/DNS/subdomains-top1million-5000.txt -u http://variatype.htb/ -H "Host: FUZZ.variatype.htb" -fs 169
 
@@ -434,7 +437,6 @@ ________________________________________________
 
 portal                  [Status: 200, Size: 2494, Words: 445, Lines: 59, Duration: 254ms]
 :: Progress: [4989/4989] :: Job [1/1] :: 105 req/sec :: Duration: [0:00:34] :: Errors: 0 ::
-
 ```
 <div align="center">
 <br>
