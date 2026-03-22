@@ -55,12 +55,12 @@
                     "state": {
                       "type": "webviewer",
                       "state": {
-                        "url": "https://app.hackthebox.com/machines",
-                        "title": "Hack The Box :: Machines",
+                        "url": "https://account.hackthebox.com/login",
+                        "title": "HTB Account",
                         "mode": "webview"
                       },
                       "icon": "globe-2",
-                      "title": "Hack The Box :: Machines"
+                      "title": "HTB Account"
                     }
                   },
                   {
@@ -109,7 +109,8 @@
                       "title": "ctf-ke.cybergame.sk"
                     }
                   }
-                ]
+                ],
+                "currentTab": 4
               },
               {
                 "id": "0d9688c0329c8d14",
@@ -556,7 +557,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 288.703125
+    "width": 288.703125,
+    "collapsed": true
   },
   "right": {
     "id": "26820c7e22c27caf",
@@ -674,7 +676,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -690,12 +693,12 @@
       "iconic:Open rulebook": false
     }
   },
-  "active": "134eda7afb03f2b5",
+  "active": "3b8b4b24d88a173c",
   "lastOpenFiles": [
-    "CYBER/13 CTFS & LABS/HTB/FACTS.md",
     "QUICK NOTES/TODO.md",
-    "CYBER/01 CORE CONCEPTS/NETWORKING FUNDAMENTALS/NETWORKING FUNDAMENTALS.md",
     "CYBER/13 CTFS & LABS/HTB/PIRATE.md",
+    "CYBER/13 CTFS & LABS/HTB/FACTS.md",
+    "CYBER/01 CORE CONCEPTS/NETWORKING FUNDAMENTALS/NETWORKING FUNDAMENTALS.md",
     "CYBER/13 CTFS & LABS/HTB/MONITORSFOUR.md",
     "QUICK NOTES/WHITE-BOARD.md",
     "CYBER/13 CTFS & LABS/HTB/WINGDATA.md",
