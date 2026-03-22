@@ -274,7 +274,16 @@ The initial attempt resulted in zero hits across the entire wordlist.
 
 **Breakdown:**
 
- - `-H "Host: FUZZ.variatype.htb/"`: The inclusion of a trailing slash (`/`) inside the Host header.
+- `ffuf`: The core binary execution for the Fuzz Faster U Fool utility.
+    
+- `-w /path/to/wordlist`: **Wordlist Specification.** Defines the dictionary file containing common subdomain names (e.g., `dev`, `test`, `portal`) that will be tested against the target.
+    
+- `-u http://variatype.htb/`: **Target URL.** The base address where the fuzzing requests are sent. In VHost fuzzing, the URL typically remains static while the headers change.
+    
+- `-H "Host: FUZZ.variatype.htb"`: **Header Injection.** This is the most critical component for VHost discovery. The keyword `FUZZ` acts as a placeholder that `ffuf` replaces with every entry from the wordlist for each request.
+    
+- `-fs 169`: **Filter Size.** Instructs the tool to discard any response that is exactly 169 bytes in size.
+
 
 **Purpose:** To probe for subdomains by injecting wordlist entries into the header. 
 
