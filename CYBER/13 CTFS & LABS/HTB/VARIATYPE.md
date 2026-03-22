@@ -235,6 +235,8 @@ When you type a URL like `google.com` or `variatype.htb` into your browser, your
 #### 2.2.2. Web Enumeration
 
 Browse to `http://variatype.htb`.
+
+
 <div align="center">
 <br>
 <br>
