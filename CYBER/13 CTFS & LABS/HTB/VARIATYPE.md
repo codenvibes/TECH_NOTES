@@ -331,57 +331,6 @@ This attempt failed because HTTP `Host` headers must strictly match the domain n
 
 ```shell
 ┌──(kali㉿kali)-[~]
-└─$ ffuf -w /usr/share/wordlists/seclists/Discovery/DNS/subdomains-top1million-5000.txt -u http://variatype.htb/ -H "Host: FUZZ.variatype.htb/"
-
-        /'___\  /'___\           /'___\       
-       /\ \__/ /\ \__/  __  __  /\ \__/       
-       \ \ ,__\\ \ ,__\/\ \/\ \ \ \ ,__\      
-        \ \ \_/ \ \ \_/\ \ \_\ \ \ \ \_/      
-         \ \_\   \ \_\  \ \____/  \ \_\       
-          \/_/    \/_/   \/___/    \/_/       
-
-       v2.1.0-dev
-________________________________________________
-
- :: Method           : GET
- :: URL              : http://variatype.htb/
- :: Wordlist         : FUZZ: /usr/share/wordlists/seclists/Discovery/DNS/subdomains-top1million-5000.txt
- :: Header           : Host: FUZZ.variatype.htb/
- :: Follow redirects : false
- :: Calibration      : false
- :: Timeout          : 10
- :: Threads          : 40
- :: Matcher          : Response status: 200-299,301,302,307,401,403,405,500
-________________________________________________
-
-:: Progress: [4989/4989] :: Job [1/1] :: 72 req/sec :: Duration: [0:01:17] :: Errors: 0 ::
-```
-
-
-**Purpose:** To observe how the server responds to various hostnames. **Analysis:** The server was configured with a "Catch-All" or default virtual host that returns a `301 Moved Permanently` status for any unrecognized subdomain. Because `ffuf` matches these status codes by default, it flagged every request as a "hit." Every irrelevant response had a consistent size of **169 bytes**.
-<div align="center">
-<br>
-<br>
-</div>
-
-##### Phase 3: Calibrated Discovery
-
-To isolate real subdomains from the default server responses, a size filter was applied to suppress the 169-byte noise.
-
-**Command:** `ffuf -w /usr/share/wordlists/seclists/Discovery/DNS/subdomains-top1million-5000.txt -u http://variatype.htb/ -H "Host: FUZZ.variatype.htb" -fs 169` 
-
-**Breakdown:**
-
-> - `-fs 169`: Filter Size. This tells `ffuf` to ignore any response that is exactly 169 bytes.
->     
-
-**Purpose:** To hide the "Catch-All" redirects and only display responses that differ from the server's default behavior. **Result:** This calibration successfully revealed a unique virtual host: **`portal.variatype.htb`** (Status: 200, Size: 2494).
-
-**Output:**
-
-``` shell
-
-┌──(kali㉿kali)-[~]
 └─$ ffuf -w /usr/share/wordlists/seclists/Discovery/DNS/subdomains-top1million-5000.txt -u http://variatype.htb/ -H "Host: FUZZ.variatype.htb" 
 
         /'___\  /'___\           /'___\       
@@ -449,7 +398,31 @@ dns1                    [Status: 301, Size: 169, Words: 5, Lines: 8, Duration: 2
 lists                   [Status: 301, Size: 169, Words: 5, Lines: 8, Duration: 265ms]
 
 [WARN] Caught keyboard interrupt (Ctrl-C)
+```
 
+
+**Purpose:** To observe how the server responds to various hostnames. **Analysis:** The server was configured with a "Catch-All" or default virtual host that returns a `301 Moved Permanently` status for any unrecognized subdomain. Because `ffuf` matches these status codes by default, it flagged every request as a "hit." Every irrelevant response had a consistent size of **169 bytes**.
+<div align="center">
+<br>
+<br>
+</div>
+
+##### Phase 3: Calibrated Discovery
+
+To isolate real subdomains from the default server responses, a size filter was applied to suppress the 169-byte noise.
+
+**Command:** `ffuf -w /usr/share/wordlists/seclists/Discovery/DNS/subdomains-top1million-5000.txt -u http://variatype.htb/ -H "Host: FUZZ.variatype.htb" -fs 169` 
+
+**Breakdown:**
+
+> - `-fs 169`: Filter Size. This tells `ffuf` to ignore any response that is exactly 169 bytes.
+>     
+
+**Purpose:** To hide the "Catch-All" redirects and only display responses that differ from the server's default behavior. **Result:** This calibration successfully revealed a unique virtual host: **`portal.variatype.htb`** (Status: 200, Size: 2494).
+
+**Output:**
+
+``` shell
 ┌──(kali㉿kali)-[~]
 └─$ ffuf -w /usr/share/wordlists/seclists/Discovery/DNS/subdomains-top1million-5000.txt -u http://variatype.htb/ -H "Host: FUZZ.variatype.htb" -fs 169
 
