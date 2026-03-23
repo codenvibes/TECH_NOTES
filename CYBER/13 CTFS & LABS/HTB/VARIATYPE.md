@@ -1395,6 +1395,20 @@ The automated exploit successfully executed, providing a shell as the **www-data
 The current shell is a "dumb" shell, meaning it lacks tab completion, job control, and the ability to use interactive commands. Stabilizing this shell is the first priority to prevent accidental disconnection.
 
 **Command:** `python3 -c 'import pty; pty.spawn("/bin/bash")'`
+
+**Breakdown:**
+
+- `import pty`
+	- Description: Pseudo-Terminal Module
+	- Purpose: Accesses Python's internal library for terminal control.
+- `pty.spawn("/bin/bash")`
+	- Description: Terminal Spawning
+	- Purpose: Upgrades the current raw `/bin/sh` to a more feature-rich `/bin/bash` instance.
+
+**Result:**
+
+```shell
+```
 <div align="center">
 <br>
 <br>
