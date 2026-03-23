@@ -1421,7 +1421,9 @@ To achieve a "Gold Standard" interactive shell, follow these steps:
 <br>
 </div>
 
-#####
+#### Step 1: Background the Shell
+
+
 <div align="center">
 <br>
 <br>
