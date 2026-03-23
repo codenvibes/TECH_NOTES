@@ -1377,6 +1377,8 @@ bash: cannot set terminal process group (3343): Inappropriate ioctl for device
 bash: no job control in this shell
 www-data@variatype:~/portal.variatype.htb/public/files$ 
 ```
+
+The automated exploit successfully executed, providing a shell as the **www-data** user. This confirms the critical vulnerability in the `fontTools` library.
 <div align="center">
 <br>
 <br>
@@ -1387,6 +1389,9 @@ www-data@variatype:~/portal.variatype.htb/public/files$
 <div style="page-break-after: always;"></div>
 
 ## 4. Post-Exploitation
+
+### 4.1 Shell Stabilization
+
 <div align="center">
 <br>
 <br>
