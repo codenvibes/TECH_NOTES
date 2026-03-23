@@ -182,7 +182,9 @@ Nmap done: 1 IP address (1 host up) scanned in 25.42 seconds
 
 <div align="center">
 <br>
+<br>
 ※※※※※※※※※※※※※※※※※※※※※※※※
+<br>
 <br>
 <br>
 </div>
