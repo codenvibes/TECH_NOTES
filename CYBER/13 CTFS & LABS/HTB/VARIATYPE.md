@@ -1077,7 +1077,9 @@ The vulnerability, designated as **CVE-2025-66034**, resides within the `varLib`
 
 The next step is to find or develop a **Proof of Concept** to verify if `http://variatype.htb/` is susceptible.
 
-**Repository found:** 
+**Repository found:** [varlib-cve-2025-66034](https://github.com/symphony2colour/varlib-cve-2025-66034)
+
+![[Pasted image 20260323081024.png]]
 <div align="center">
 <br>
 <br>
