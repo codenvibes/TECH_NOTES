@@ -175,7 +175,7 @@
               {
                 "id": "96c424c4653196ac",
                 "type": "tabs",
-                "dimension": 34.35064935064935,
+                "dimension": 27.003367003367,
                 "children": [
                   {
                     "id": "d6e3d74256db3bbc",
@@ -291,7 +291,7 @@
               {
                 "id": "ebc3d89584b2ffd8",
                 "type": "tabs",
-                "dimension": 65.64935064935065,
+                "dimension": 72.996632996633,
                 "children": [
                   {
                     "id": "76fda0f47a1730fe",
@@ -551,12 +551,13 @@
             "state": {
               "type": "outline",
               "state": {
+                "file": "CYBER/13 CTFS & LABS/HTB/VARIATYPE.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline"
+              "title": "Outline of VARIATYPE"
             }
           },
           {
@@ -621,7 +622,7 @@
       "iconic:Open rulebook": false
     }
   },
-  "active": "3b8b4b24d88a173c",
+  "active": "cd22a45ae9ef0c95",
   "lastOpenFiles": [
     "CYBER/13 CTFS & LABS/HTB/VARIATYPE.md",
     "CYBER/13 CTFS & LABS/HTB/WINGDATA.md",
