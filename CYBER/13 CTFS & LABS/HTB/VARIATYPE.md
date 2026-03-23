@@ -1028,7 +1028,7 @@ Browse to the homepage: `http://variatype.htb`.
 <br>
 </div>
 
-#### 2.2.9 Font Research
+#### 2.2.9 fonttools Research
 <div align="center">
 <br>
 <br>
