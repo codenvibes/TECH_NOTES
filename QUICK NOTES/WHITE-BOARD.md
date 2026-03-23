@@ -459,3 +459,78 @@ examadmin@midexam:~$
 ---
 ## Random
 
+avatar
+Facts
+Easy
+·
+Linux
+20
+25
+4.5
+(906)
+WEEK 1
+avatar
+Pterodactyl
+Medium
+·
+Linux
+30
+35
+3.0
+(523)
+WEEK 2
+avatar
+WingData
+Easy
+·
+Linux
+20
+25
+3.8
+(498)
+WEEK 3
+avatar
+Interpreter
+Medium
+·
+Linux
+30
+35
+2.9
+(476)
+WEEK 4
+avatar
+Pirate
+Hard
+·
+Windows
+40
+45
+4.7
+(297)
+WEEK 5
+avatar
+CCTV
+Easy
+·
+Linux
+20
+25
+3.4
+(416)
+WEEK 6
+avatar
+VariaType
+Medium
+·
+Linux
+30
+35
+3.8
+(224)
+WEEK 7
+avatar
+Kobold
+Easy
+·
+Linux
