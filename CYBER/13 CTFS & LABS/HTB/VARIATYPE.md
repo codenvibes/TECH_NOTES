@@ -1111,4 +1111,6 @@ Users and developers employing `fonttools` in automated pipelines (CI/CD, web 
 [^2]: [fonttools vulnerability](https://www.google.com/search?q=fonttools+vulnerability&sca_esv=1523a71ad38dbb4c&biw=2124&bih=1062&sxsrf=ANbL-n64_VrM1O32sHB2n0qn3v1APPzWWQ%3A1774240346706&ei=WsLAaZ3mKszCkPIPhKPwyA0&oq=fonttools&gs_lp=Egxnd3Mtd2l6LXNlcnAiCWZvbnR0b29scyoCCAEyChAjGIAEGCcYigUyBBAjGCcyBhAAGAcYHjIGEAAYBxgeMgYQABgHGB4yBhAAGAcYHjIGEAAYBxgeMgYQABgHGB4yBhAAGAcYHjIGEAAYBxgeSIuGB1D28gZY9vIGcAR4AZABAJgB1QKgAdUCqgEDMy0xuAEByAEA-AEBmAIFoAL_AsICChAAGLADGNYEGEeYAwCIBgGQBgiSBwU0LjMtMaAHkweyBwMzLTG4B-ICwgcFMi00LjHIByCACAA&sclient=gws-wiz-serp)
 
 [^3]: [fonttools - CVE-2025-66034 · GitHub Advisory Database](https://github.com/advisories/GHSA-768j-98cg-p3fv#:~:text=Summary,overwriting%20/etc/passwd%20)
-	[fonttools - CVE-2025-66034 · GitHub Advisory Database](https://github.com/advisories/GHSA-768j-98cg-p3fv)
+	[CVE-2025-66034 - Red Hat Customer Portal](https://access.redhat.com/security/cve/cve-2025-66034)
+	[CVE-2025-66034 - OSV.dev](https://osv.dev/vulnerability/CVE-2025-66034)
+	
