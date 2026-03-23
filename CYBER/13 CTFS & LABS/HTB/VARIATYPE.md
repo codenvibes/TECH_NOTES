@@ -1098,6 +1098,18 @@ Clone the repository from GitHub to your local attack machine.
 **Command:** `git clone https://github.com/symphony2colour/varlib-cve-2025-66034.git`
 
 **Poc Audit:**
+
+```shell
+┌──(kali㉿kali)-[~/…/HTB/SN10/VariaType/varlib-cve-2025-66034]
+└─$ ls
+README.md  varlib_cve_2025_66034.py
+
+┌──(kali㉿kali)-[~/…/HTB/SN10/VariaType/varlib-cve-2025-66034]
+└─$ cat varlib_cve_2025_66034.py
+```
+
+```
+```
 <div align="center">
 <br>
 <br>
