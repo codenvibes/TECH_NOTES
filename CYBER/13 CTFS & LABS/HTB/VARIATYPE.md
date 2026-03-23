@@ -1041,12 +1041,12 @@ fontTools, a widely used Python library for manipulating fonts, has had two majo
 
 1. Critical RCE in `varLib` (CVE-2025-66034)
 	Discovered in late 2025, this is the most severe vulnerability affecting the `fontTools.varLib` module, which is used for generating variable fonts.
-- **Vulnerability Type:** Arbitrary File Write / Remote Code Execution (RCE).
-- **Affected Versions:** 4.33.0 to before 4.60.2.
-- **Description:** The vulnerability stems from insufficient input validation when processing `.designspace` files. An attacker can craft a malicious designspace file containing path traversal sequences (`../`) in the filename attributes. When processed by `fontTools.varLib.main()`, it can overwrite arbitrary files on the system.
-- **Impact:** By overwriting critical system files or injecting malicious code into Python modules, an attacker can achieve remote code execution (RCE) without elevated privileges.
-- **Mitigation:** Upgrade to **fonttools version 4.60.2 or later**.
-- **Workaround:** Avoid processing untrusted `.designspace` files and run font processing in sandboxed environments. ![SentinelOne](data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAIAAAACACAMAAAD04JH5AAAAh1BMVEVhAP////9mAP9bAP/byv+2lP/9+//28P/59f/t4//bxv/w5//+/f+5l//NtP/byP+fbv/z7P+mef++mv/r3/+TX//Hq/9oEP+OVv/Wwf+CPv/m2f+thf+rfv/l1f9wH/94L/+ERv/Tuf+kc/+CTf+ZZ/+OTv/hz/9/N/+0i//Bn/93J//CpP80Lf1LAAAD30lEQVR4nO2a6ZKqMBCFgZZdUURFcQEdV5j3f74b1KsSQuIMHaypyvlt0SfNl6Y7UdOUlJSUlJSUlJSU/rrgw+HTffxBC2CMPCfYwocsQDwdWrqu27OPWID40NPvsmbzrlkAmA8d/alwlnWZBYhHJ52SFeyNjiyANlpYdPwyC93gWKLXZ4TXbzjKZoGgN2yIfpUjF0eAY8/hxb9mQRqOLPRY6svBsQk9lsIgwc4CefdeE3oskQKNyUIZ/gfRbxZmc6wsvIMeS/Y3Co7vosdSPzi2x/HwNnoshcG5ZfwZP4AzvCz5Bp1xqxwY3PRbi4MB8WrDdTBoZ6DHebR3uLZjkI19zq9MSQacxfTBOBjjZWOVkGTAG1X4hmK17NCA0zvW6hzEazaO+Aau6DF+24AjuoE7eixBMXYlG3hFj2mhjiOqAQo9poVsNZFkwBnW0WNaMNavWcAyYHls9JgW4ssG24A3raAHccpnoVi7iAYsCj1IV0vfTLhPfuCIYICuetr4VD7avcT8LNxwbGngZHnH6uqL9YPy0DzzsASShU3br6FZRY8U3Eq1m0QCFuLLqE184qAa/mtC13vXLPidn9HOwGv4lP3FE+GIFV4bb5qaLxGOGIqpAkvJ5uOIoDQPeQbEOLZXJrIgxLGlAIq8/rWnLJylJgG0JBLMaO7FkJyF2OS14ESOZBwBtpHAwmQgF0cgOAos+GYhOQvFtwjHKJFo4C0cTakGyiykHBztmdz9eLewjdilCfXsmvuxh4yxI+zq+VRbJ1PuhUgdRzvYVxuoZNsqvuFtRvwsaEn+xNHaVc4oCSirsB2NZVO6GRf8LPzH0Z5VzidBO5shSldsbfgTWYmjTdCbVt49xNG1hcAZTJZfqQDH9ZZa/eDOJ9ZodloLslBZ/dl8sIk2nFon8Wh8D59eXnYn5nguwPEWXkvMSn1CPR8Q4VgOQwOqe8U+oplwcCzRq1Vn/EOqJhzJVqBXL8cAeRFfdQukKl+Yn0c5B5WnNfUigEJPtoFyUz7rHkHPbGyRZJ0VExxHt01JmsSGxkCyAb1f4kjePQs9NAPce9ISx4yNHpYBbbuz+c8X9Kb+IGsVXwNjvuOH4LqLEC7UAZLgN7d25XCANCKBNv2FBf/7jDehgXbc/cxCGGW40xnAXoTj6+ojCXf47+NI0JMzm5JOKxBnwR1IPDIrceRflPo5+l8HaAs8HMNc7sHAzQIcG3CUgh7TgjFfMNAbSP8Pz4sFUh2rWXAlHwzVLRAcnzdToWz02BaO9wLt5x2v/mEB5gRHP+/0j3SUBWPeJXpMC59bvZKSkpKSkpKSkhKS/gHChD0hX+LVpgAAAABJRU5ErkJggg==)SentinelOne +4
+	- **Vulnerability Type:** Arbitrary File Write / Remote Code Execution (RCE).
+	- **Affected Versions:** 4.33.0 to before 4.60.2.
+	- **Description:** The vulnerability stems from insufficient input validation when processing `.designspace` files. An attacker can craft a malicious designspace file containing path traversal sequences (`../`) in the filename attributes. When processed by `fontTools.varLib.main()`, it can overwrite arbitrary files on the system.
+	- **Impact:** By overwriting critical system files or injecting malicious code into Python modules, an attacker can achieve remote code execution (RCE) without elevated privileges.
+	- **Mitigation:** Upgrade to **fonttools version 4.60.2 or later**.
+	- **Workaround:** Avoid processing untrusted `.designspace` files and run font processing in sandboxed environments. 
 
 2. XXE Vulnerability in Subsetting Module (CVE-2023-45139) 
 
