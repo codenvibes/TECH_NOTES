@@ -124,7 +124,7 @@
                     }
                   }
                 ],
-                "currentTab": 5
+                "currentTab": 4
               },
               {
                 "id": "0d9688c0329c8d14",
@@ -551,13 +551,12 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "CYBER/13 CTFS & LABS/HTB/WINGDATA.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of WINGDATA"
+              "title": "Outline"
             }
           },
           {
@@ -622,10 +621,10 @@
       "iconic:Open rulebook": false
     }
   },
-  "active": "3dbdf2692670b270",
+  "active": "3b8b4b24d88a173c",
   "lastOpenFiles": [
-    "CYBER/13 CTFS & LABS/HTB/FACTS.md",
     "CYBER/13 CTFS & LABS/HTB/WINGDATA.md",
+    "CYBER/13 CTFS & LABS/HTB/FACTS.md",
     "CYBER/13 CTFS & LABS/HTB/VARIATYPE.md",
     "ASSETS/Pasted image 20260323161803.png",
     "QUICK NOTES/WHITE-BOARD.md",
