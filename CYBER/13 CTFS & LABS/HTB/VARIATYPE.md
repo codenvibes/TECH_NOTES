@@ -1513,7 +1513,7 @@ www-data@variatype:~/portal.variatype.htb/public/files$
 <br>
 </div>
 
-### 4.2 File System Enumeration
+### 4.2 Initial 
 <div align="center">
 <br>
 <br>
