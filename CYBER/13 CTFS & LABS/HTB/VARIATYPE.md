@@ -1344,7 +1344,9 @@ if __name__ == "__main__":
 <br>
 </div>
 
-### 3.2 Executing `CVE-2025-47812.py`
+### 3.2 Executing `varlib_cve_2025_66034.py`
+
+
 <div align="center">
 <br>
 <br>
