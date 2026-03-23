@@ -1012,6 +1012,12 @@ Based on the dashboard's lead navigate to the tools section. The **URL:** `http:
 <div align="center">
 <br>
 <br>
+</div>
+
+#### 2.2.7 `http://portal.variatype.htb/.git`
+<div align="center">
+<br>
+<br>
 ※※※※※※※※※※※※※※※※※※※※※※※※※※※※※※※※※※※※※※※※※※※※※※※※
 <br>
 </div>
