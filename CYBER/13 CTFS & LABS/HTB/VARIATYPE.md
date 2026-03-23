@@ -1039,10 +1039,8 @@ FontTools is ==a powerful, open-source Python library and command-line toolset 
 
 fontTools, a widely used Python library for manipulating fonts, has had two major vulnerabilities reported recently, including a critical Remote Code Execution (RCE) vulnerability in 2025 and an XML External Entity (XXE) vulnerability in 2023. 
 
-1. Critical RCE in `varLib` (CVE-2025-66034) 
-
-Discovered in late 2025, this is the most severe vulnerability affecting the `fontTools.varLib` module, which is used for generating variable fonts. ![GitHub](data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAMAAABEpIrGAAAAb1BMVEX///8kKS74+PgsMTY+Q0f8/Pzw8PGRk5ZNUVXr6+xDSEzCxMUpLjLV1tYuMzc/Q0i3ubuUl5lbX2NTV1uLjpFKTlKxs7Xh4uOFh4rn5+h3en1vcnZ9gIPc3d6/wcJzd3o3PECmqKpjZ2rOz9CfoaRP5W5KAAABU0lEQVQ4jW1T7aKCIAzdEEUTSUuzLMtuvf8zXtiQVDx/lJ3DvgEIEPU9l1rL/F4LiFEMCQYkj2JDC6VxhaRJl3x2xgin7MePMuYRD7cQftrjrcL7ELk9nNt8yXXtyRm5mquzXADKA6LpzgZRlgBPZ1WO7yn/yrmqyGdGn95Zjav2hbNghZHMV3uNG3DZCigEmhRq+pmyrUAcifj4CO+49xciWqAe6p3pCJrNH1ATp5gH6KghQLrDnoB8GxaYPYFkhpONipjrl+wI61hQ8tB5EvYb4eTL5Ebhd8u/2f4EYfhvvWJpw9ZJ0LQfb5uxbMKi3pp5xVp30miexZHbRriHvUnojrKt7isXqWRBFQQNF2w3aYCPUl8/EREWzxtuE+pVI/wbkSGp0a51Nyg1F+L5/nel56xXgt+zcMgeC0FK27gdTzVoPXtI9DBuO2tRhJj94m3/A1GiDZXoM3d5AAAAAElFTkSuQmCC)GitHub +3
-
+1. Critical RCE in `varLib` (CVE-2025-66034)
+	Discovered in late 2025, this is the most severe vulnerability affecting the `fontTools.varLib` module, which is used for generating variable fonts.
 - **Vulnerability Type:** Arbitrary File Write / Remote Code Execution (RCE).
 - **Affected Versions:** 4.33.0 to before 4.60.2.
 - **Description:** The vulnerability stems from insufficient input validation when processing `.designspace` files. An attacker can craft a malicious designspace file containing path traversal sequences (`../`) in the filename attributes. When processed by `fontTools.varLib.main()`, it can overwrite arbitrary files on the system.
