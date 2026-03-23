@@ -1014,11 +1014,10 @@ Based on the dashboard's lead navigate to the tools section. The **URL:** `http:
 <br>
 </div>
 
-#### 2.2.7 Strategic Pivot
+#### 2.2.9 Strategic Pivot
 
-Initial enumeration of the `portal.variatype.htb` subdomain and the subsequent `.git` repository leak provided internal developer credentials. However, upon manual inspection of the portal dashboard, I determined that the interface was a dead lead or maybe not. I didn't see how to move forward so I shifted to identifying the tools us. 
+Initial enumeration of the `portal.variatype.htb` subdomain and the subsequent `.git` repository leak provided internal developer credentials. However, upon manual inspection of the portal dashboard, I determined that the interface was a dead lead or maybe not. I didn't see how to move forward so I shifted to identifying the tools used my the VariaType service. 
 
-My investigation pivoted toward identifying known vulnerabilities in font processing libraries that could lead to **Remote Code Execution (RCE)**, bypassing the need for further lateral movement through the portal.
 <div align="center">
 <br>
 <br>
