@@ -1054,6 +1054,12 @@ fontTools, a widely used Python library for manipulating fonts, has had two majo
 	- **Description:** The library failed to properly disable external entity expansion when parsing SVG tables in OpenType fonts (OT-SVG fonts).
 	- **Impact:** Attackers can read arbitrary files from the host filesystem or make web requests from the host system.
 	- **Mitigation:** Upgrade to **fonttools version 4.43.0 or later**. [^6]
+<div align="center">
+<br>
+<br>
+</div>
+
+##### CVE-2025-66034 (varLib Insecure Deserialization)
 
 
 <div align="center">
