@@ -1029,6 +1029,9 @@ Browse to the homepage: `http://variatype.htb`.
 </div>
 
 #### 2.2.9 fonttools Research
+
+FontTools is ==a powerful, open-source Python library and command-line toolset used to manipulate font files, including TTF, OTF, and WOFF formats==. It allows developers to subset, merge, inspect, and convert fonts (e.g., to XML using TTX). It is widely used in the font industry for automated font production pipelines.[^1]
+
 <div align="center">
 <br>
 <br>
@@ -1070,3 +1073,4 @@ Browse to the homepage: `http://variatype.htb`.
 
 ## References
 
+[^1]: [what is fonttools]
