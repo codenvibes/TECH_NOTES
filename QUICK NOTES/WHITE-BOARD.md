@@ -459,11 +459,11 @@ examadmin@midexam:~$
 ---
 ## Random
 
-1. Facts
-2. Pterodactyl
-3. WingData
-4. Interpreter
-5. Pirate
-6. CCTV
-7. VariaType
-8. Kobold
+1. [ ] Facts
+2. [ ] Pterodactyl
+3. [ ] WingData
+4. [ ] Interpreter
+5. [ ] Pirate
+6. [ ] CCTV
+7. [ ] VariaType
+8. [ ] Kobold
