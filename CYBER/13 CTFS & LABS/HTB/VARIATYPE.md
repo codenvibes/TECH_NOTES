@@ -1014,7 +1014,9 @@ Based on the dashboard's lead navigate to the tools section. The **URL:** `http:
 <br>
 </div>
 
-#### 2.2.7 `http://portal.variatype.htb/.git`
+#### 2.2.7 Strategic Pivot
+
+
 <div align="center">
 <br>
 <br>
