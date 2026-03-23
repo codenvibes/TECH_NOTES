@@ -1578,9 +1578,20 @@ www-data@variatype:~/portal.variatype.htb/public/files$
 
 #### 4.2.2 System-Wide User & Configuration Search
 
-Following the authentication failure,  I conducted  a broad search to identify any files associated with the user "steve" or any references to his account within the web application’s source code.
+Following the authentication failure, I conducted a broad search to identify any files associated with the user "steve" or any references to his account within the web application’s source code.
 
 **Command:** `find / -name "*steve*" 2>/dev/null`
+
+Result:
+
+```shell
+>/dev/nullariatype:~/portal.variatype.htb/public/files$ find / -name "*steve*" 2 
+/home/steve
+www-data@variatype:~/portal.variatype.htb/public/files$ cd /home/steve
+bash: cd: /home/steve: Permission denied
+```
+
+
 <div align="center">
 <br>
 <br>
