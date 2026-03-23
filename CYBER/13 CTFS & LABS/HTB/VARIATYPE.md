@@ -1547,6 +1547,12 @@ www-data@variatype:~/portal.variatype.htb/public/files$
 <div align="center">
 <br>
 <br>
+</div>
+
+
+<div align="center">
+<br>
+<br>
 ※※※※※※※※※※※※※※※※※※※※※※※※※※※※※※※※※※※※※※※※※※※※※※※※
 <br>
 </div>
