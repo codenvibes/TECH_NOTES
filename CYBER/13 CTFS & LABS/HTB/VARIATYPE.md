@@ -1075,7 +1075,9 @@ The vulnerability, designated as **CVE-2025-66034**, resides within the `varLib`
 
 #### 2.2.11 PoC
 
-The next step is to find or develop a **Proof of Concept** to verify if `http://ftp.wingdata.htb` is susceptible.
+The next step is to find or develop a **Proof of Concept** to verify if `http://variatype.htb/` is susceptible.
+
+**Repository found:** 
 <div align="center">
 <br>
 <br>
