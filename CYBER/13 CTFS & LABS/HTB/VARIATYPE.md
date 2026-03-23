@@ -1423,6 +1423,7 @@ To achieve a "Gold Standard" interactive shell, follow these steps:
 
 #### Step 1: Background the Shell
 
+In your current terminal, press **Ctrl+Z**. This suspends the reverse shell and returns you to your Kali prompt.
 
 <div align="center">
 <br>
