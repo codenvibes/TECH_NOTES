@@ -1582,7 +1582,7 @@ Following the authentication failure, I conducted a broad search to identify any
 
 **Command:** `find / -name "*steve*" 2>/dev/null`
 
-Result:
+**Result:**
 
 ```shell
 >/dev/nullariatype:~/portal.variatype.htb/public/files$ find / -name "*steve*" 2 
@@ -1591,7 +1591,7 @@ www-data@variatype:~/portal.variatype.htb/public/files$ cd /home/steve
 bash: cd: /home/steve: Permission denied
 ```
 
-
+The search confirmed the existence of `/home/steve`, but a subsequent attempt to enter the directory returned a "Permission Denied" error, confirming the home folder is restricted to the owner.
 <div align="center">
 <br>
 <br>
