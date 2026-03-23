@@ -1498,6 +1498,12 @@ www-data@variatype:~/portal.variatype.htb/public/files$
 
 #### Step 4: Set Environment Variables
 
+**Command:** `export TERM=xterm-256color; export SHELL=bash`
+
+**Breakdown:**
+
+- **`export TERM=xterm-256color`**: Enables terminal colors and support for text editors like `vim` or `nano`.
+- **`export SHELL=bash`**: Defines the default shell environment for the current session.
 <div align="center">
 <br>
 <br>
