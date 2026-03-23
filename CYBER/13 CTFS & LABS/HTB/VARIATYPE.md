@@ -1354,11 +1354,11 @@ if __name__ == "__main__":
 
 **Breakdown:**
 
-> - **python3**: The interpreter used to run the exploit.
-> - **--ip / --port**: Specifies the attacker’s machine where the shell will connect.
-> - **--path**: Defines the destination on the server's filesystem for the PHP shell.
-> - **--trigger**: The URL the script will request to execute the newly written file.
->
+- **`--ip / --port`**: Specifies the attacker’s machine where the shell will connect.
+- **`--path`**: Defines the destination on the server's filesystem for the PHP shell.
+- **`--trigger`**: The URL the script will request to execute the newly written file.
+
+
 <div align="center">
 <br>
 <br>
