@@ -1046,7 +1046,7 @@ fontTools, a widely used Python library for manipulating fonts, has had two majo
 	- **Description:** The vulnerability stems from insufficient input validation when processing `.designspace` files. An attacker can craft a malicious designspace file containing path traversal sequences (`../`) in the filename attributes. When processed by `fontTools.varLib.main()`, it can overwrite arbitrary files on the system.
 	- **Impact:** By overwriting critical system files or injecting malicious code into Python modules, an attacker can achieve remote code execution (RCE) without elevated privileges.
 	- **Mitigation:** Upgrade to **fonttools version 4.60.2 or later**.
-	- **Workaround:** Avoid processing untrusted `.designspace` files and run font processing in sandboxed environments. 
+	- **Workaround:** Avoid processing untrusted `.designspace` files and run font processing in sandboxed environments. [^4]
 
 2. XXE Vulnerability in Subsetting Module (CVE-2023-45139) This vulnerability affects the subsetting module, which reduces the size of font files.
 	- **Vulnerability Type:** XML External Entity Injection (XXE).
@@ -1105,3 +1105,7 @@ fontTools, a widely used Python library for manipulating fonts, has had two majo
 	[CVE-2025-66034 - Red Hat Customer Portal](https://access.redhat.com/security/cve/cve-2025-66034)
 	[CVE-2025-66034 - OSV.dev](https://osv.dev/vulnerability/CVE-2025-66034)
 	[CVE-2025-66034: Fonttools Fonttools RCE Vulnerability](https://www.sentinelone.com/vulnerability-database/cve-2025-66034/)
+
+[^4]: [CVE-2025-66034: Fonttools Fonttools RCE Vulnerability](https://www.sentinelone.com/vulnerability-database/cve-2025-66034/)
+	[fonttools - CVE-2025-66034 · GitHub Advisory Database](https://github.com/advisories/GHSA-768j-98cg-p3fv)
+	[CVE-2023-45139 Impact, Exploitability, and Mitigation Steps -](https://www.wiz.io/vulnerability-database/cve/cve-2023-45139)
