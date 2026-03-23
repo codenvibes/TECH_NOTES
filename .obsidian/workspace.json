@@ -161,8 +161,7 @@
                       "title": "FACTS"
                     }
                   }
-                ],
-                "currentTab": 2
+                ]
               }
             ],
             "direction": "horizontal"
@@ -624,8 +623,8 @@
   "active": "3b8b4b24d88a173c",
   "lastOpenFiles": [
     "CYBER/13 CTFS & LABS/HTB/VARIATYPE.md",
-    "CYBER/13 CTFS & LABS/HTB/WINGDATA.md",
     "QUICK NOTES/WHITE-BOARD.md",
+    "CYBER/13 CTFS & LABS/HTB/WINGDATA.md",
     "ASSETS/Pasted image 20260323081024.png",
     "ASSETS/Pasted image 20260323080214.png",
     "ASSETS/Pasted image 20260323072630.png",
