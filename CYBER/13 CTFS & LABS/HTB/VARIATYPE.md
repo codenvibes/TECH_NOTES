@@ -1424,13 +1424,21 @@ To achieve a "Gold Standard" interactive shell, follow these steps:
 #### Step 1: Background the Shell
 
 In your current terminal, press **Ctrl+Z**. This suspends the reverse shell and returns you to your Kali prompt.
-
 <div align="center">
 <br>
 <br>
 </div>
 
 #### Step 2: Set Local Terminal to Raw Mode
+
+**Command:** `stty raw -echo; fg`
+
+**Breakdown:**
+
+- **stty raw**: Tells your local terminal to pass all keyboard input (including `Ctrl+C` and `Tab`) directly to the remote shell without processing it locally.
+- **-echo**: Disables local echoing so you don't see double characters.
+- **fg**: Brings the backgrounded reverse shell back to the foreground.
+
 <div align="center">
 <br>
 <br>
