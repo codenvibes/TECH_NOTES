@@ -1019,6 +1019,8 @@ Based on the dashboard's lead navigate to the tools section. The **URL:** `http:
 Initial enumeration of the `portal.variatype.htb` subdomain and the subsequent `.git` repository leak provided internal developer credentials. However, upon manual inspection of the portal dashboard, I determined that the interface was a dead lead or maybe not. I didn't see how to move forward so I shifted to identifying the tools used by the VariaType service. 
 
 Browse to the homepage: `http://variatype.htb`.
+
+
 <div align="center">
 <br>
 <br>
