@@ -1516,6 +1516,26 @@ www-data@variatype:~/portal.variatype.htb/public/files$
 ### 4.2 Initial Survey & Enumeration
 
 With the shell now stabilized, you can survey the local environment to map the filesystem and identify potential vectors for lateral movement or privilege escalation.
+
+**Command:** `id; ls -la /home; sudo -l`
+
+**Breakdown:**
+
+- `id`
+    - **Description:** User Identity Discovery.
+    - **Purpose:** Displays the current user's UID (User ID), GID (Group ID), and group memberships to confirm the execution context of the shell.
+- `ls -la /home`
+    - **Description:** Home Directory Enumeration.
+    - **Purpose:** Lists all user directories on the system to identify legitimate human users or service accounts that may serve as targets for lateral movement.
+- `sudo -l`
+    - **Description:** List Sudo Permissions.
+    - **Purpose:** Checks the `/etc/sudoers` configuration to see if the `www-data` account has been granted any specific administrative privileges or passwordless command execution.
+
+**Output:**
+
+```shell
+
+```
 <div align="center">
 <br>
 <br>
