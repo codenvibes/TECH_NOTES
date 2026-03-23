@@ -1574,6 +1574,16 @@ www-data@variatype:~/portal.variatype.htb/public/files$
 <div align="center">
 <br>
 <br>
+</div>
+
+#### 4.2.2 System-Wide User & Configuration Search
+
+Following the authentication failure,  I conducted  a broad search to identify any files associated with the user "steve" or any references to his account within the web application’s source code.
+
+**Command:** `find / -name "*steve*" 2>/dev/null`
+<div align="center">
+<br>
+<br>
 ※※※※※※※※※※※※※※※※※※※※※※※※※※※※※※※※※※※※※※※※※※※※※※※※
 <br>
 </div>
