@@ -1392,6 +1392,9 @@ The automated exploit successfully executed, providing a shell as the **www-data
 
 ### 4.1 Shell Stabilization
 
+The current shell is a "dumb" shell, meaning it lacks tab completion, job control, and the ability to use interactive commands. Stabilizing this shell is the first priority to prevent accidental disconnection.
+
+**Command:** `python3 -c 'import pty; pty.spawn("/bin/bash")'`
 <div align="center">
 <br>
 <br>
