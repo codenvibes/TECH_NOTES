@@ -1445,6 +1445,7 @@ In your current terminal, press **Ctrl+Z**. This suspends the reverse shell and 
 
 #### Step 2: Reset Remote Environment
 
+Once the shell is back, type `reset` and hit enter. If it asks for a terminal type, type `xterm-256color`.
 <div align="center">
 <br>
 <br>
