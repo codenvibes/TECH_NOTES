@@ -1028,7 +1028,7 @@ Browse to the homepage: `http://variatype.htb`.
 <br>
 </div>
 
-#### 2.2.9 fonttools Research
+#### 2.2.10 fonttools Research
 
 FontTools is ==a powerful, open-source Python library and command-line toolset used to manipulate font files, including TTF, OTF, and WOFF formats==. It allows developers to subset, merge, inspect, and convert fonts (e.g., to XML using TTX). It is widely used in the font industry for automated font production pipelines.[^1]
 <div align="center">
@@ -1073,7 +1073,9 @@ The vulnerability, designated as **CVE-2025-66034**, resides within the `varLib`
 <br>
 </div>
 
-#### 2.2.9 fonttools Research
+#### 2.2.11 PoC
+
+The next step is to find or develop a **Proof of Concept** to verify if `http://ftp.wingdata.htb` is susceptible.
 <div align="center">
 <br>
 <br>
