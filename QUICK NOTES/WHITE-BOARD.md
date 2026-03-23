@@ -459,9 +459,9 @@ examadmin@midexam:~$
 ---
 ## Random
 
-1. [ ] Facts
+1. [x] Facts
 2. [ ] Pterodactyl
-3. [ ] WingData
+3. [x] WingData
 4. [ ] Interpreter
 5. [ ] Pirate
 6. [ ] CCTV
