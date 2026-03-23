@@ -1090,6 +1090,8 @@ The next step is to find or develop a **Proof of Concept** to verify if `http://
 <div style="page-break-after: always;"></div>
 
 ## 3. Exploitation
+
+### 3.1. Exploit Acquisition and Preparation
 <div align="center">
 <br>
 <br>

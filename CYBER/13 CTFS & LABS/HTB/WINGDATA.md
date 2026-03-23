@@ -320,12 +320,11 @@ Repository found: CVE-2025-47812-poc [^1]
 
 ### 3.1. Exploit Acquisition and Preparation
 
-
 Clone the repository from GitHub to your local attack machine.
 
-Command: `git clone https://github.com/4m3rr0r/CVE-2025-47812-poc.git`
+**Command:** `git clone https://github.com/4m3rr0r/CVE-2025-47812-poc.git`
 
-Breakdown:
+**Breakdown:**
 
 - **`git clone`**
     - **Description:** Repository Cloning Tool.
@@ -334,7 +333,7 @@ Breakdown:
     - **Description:** Remote Source URL.
     - **Purpose:** Points to the specific repository containing the exploit code.
 
-Output:
+**Output:**
 
 ```shell
 ┌──(kali㉿kali)-[~/pueman/HTB/WingData]
