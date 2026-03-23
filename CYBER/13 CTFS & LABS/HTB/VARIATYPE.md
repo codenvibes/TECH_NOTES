@@ -1020,7 +1020,7 @@ Initial enumeration of the `portal.variatype.htb` subdomain and the subsequent `
 
 Browse to the homepage: `http://variatype.htb`.
 
-
+![[Pasted image 20260323072630.png]]
 <div align="center">
 <br>
 <br>
