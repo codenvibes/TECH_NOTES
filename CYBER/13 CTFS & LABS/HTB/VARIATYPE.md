@@ -191,6 +191,8 @@ Nmap done: 1 IP address (1 host up) scanned in 25.42 seconds
 
 #### 2.2.1 Update Hosts File
 
+The Nmap results indicated that the web server relies on Virtual Host (VHost) routing. To interact with the application correctly, update your local attack machine's host table to resolve the domain name.
+
 Command: `sudo sh -c 'echo "TARGET_IP variatype.htb" >> /etc/hosts'`
 
 Breakdown:
