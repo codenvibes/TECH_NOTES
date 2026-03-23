@@ -1071,6 +1071,12 @@ The vulnerability, designated as **CVE-2025-66034**, resides within the `varLib`
 <div align="center">
 <br>
 <br>
+</div>
+
+#### 2.2.9 fonttools Research
+<div align="center">
+<br>
+<br>
 ※※※※※※※※※※※※※※※※※※※※※※※※※※※※※※※※※※※※※※※※※※※※※※※※
 <br>
 </div>
