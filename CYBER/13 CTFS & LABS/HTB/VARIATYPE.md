@@ -1065,6 +1065,8 @@ fontTools, a widely used Python library for manipulating fonts, has had two majo
 The vulnerability, designated as **CVE-2025-66034**, resides within the `varLib` module of `fonttools`. This component is responsible for building variable fonts by interpolating master files based on rules defined in a `.designspace` file.
 
 **Vulnerability Mechanism:** The `.designspace` format is essentially an XML file. The vulnerability exists because the `varLib` parser fails to securely handle specific attributes during the axis-mapping process. By crafting a malicious `.designspace` file, an attacker can trigger **Insecure Deserialization** or **Arbitrary Code Execution**. When the web application calls the vulnerable library to "Generate" the font, the embedded Python code is executed in the context of the server's service account.
+
+![[Pasted image 20260323080214.png]]
 <div align="center">
 <br>
 <br>
