@@ -1040,7 +1040,7 @@ FontTools is ==a powerful, open-source Python library and command-line toolset 
 fontTools, a widely used Python library for manipulating fonts, has had two major vulnerabilities reported recently, including a critical Remote Code Execution (RCE) vulnerability in 2025 and an XML External Entity (XXE) vulnerability in 2023. 
 
 1. Critical RCE in `varLib` (CVE-2025-66034)
-	Discovered in late 2025, this is the most severe vulnerability affecting the `fontTools.varLib` module, which is used for generating variable fonts.
+	Discovered in late 2025, this is the most severe vulnerability affecting the `fontTools.varLib` module, which is used for generating variable fonts.[^3]
 	- **Vulnerability Type:** Arbitrary File Write / Remote Code Execution (RCE).
 	- **Affected Versions:** 4.33.0 to before 4.60.2.
 	- **Description:** The vulnerability stems from insufficient input validation when processing `.designspace` files. An attacker can craft a malicious designspace file containing path traversal sequences (`../`) in the filename attributes. When processed by `fontTools.varLib.main()`, it can overwrite arbitrary files on the system.
@@ -1109,3 +1109,5 @@ Users and developers employing `fonttools` in automated pipelines (CI/CD, web 
 [^1]: [what is fonttools](https://www.google.com/search?q=what+is+fonttools&sca_esv=1523a71ad38dbb4c&sxsrf=ANbL-n6YQh4v65dns8qxdQChLxL77Jz6yg%3A1774240335377&ei=T8LAaczeFvjEkPIPwuXPsQ4&biw=2124&bih=1062&ved=0ahUKEwiMwr6nmLWTAxV4IkQIHcLyM-YQ4dUDCBE&uact=5&oq=what+is+fonttools&gs_lp=Egxnd3Mtd2l6LXNlcnAiEXdoYXQgaXMgZm9udHRvb2xzMggQABiABBiiBDIIEAAYgAQYogQyCBAAGKIEGIkFMggQABiABBiiBDIIEAAYgAQYogRImDdQ8xVY-jJwAXgBkAEAmAHtAqABpRWqAQMzLTi4AQPIAQD4AQGYAgegArMQwgIHECMYsAMYJ8ICChAAGLADGNYEGEfCAg0QABiABBiwAxhDGIoFwgIHECMYsAIYJ8ICBxAAGIAEGA3CAgYQABgHGB7CAggQABgHGAgYHsICCxAAGIAEGIYDGIoFwgIFEAAY7wXCAgYQABgNGB6YAwCIBgGQBgqSBwUxLjMtNqAH6yCyBwMzLTa4B6gQwgcHMC4xLjIuNMgHMIAIAA&sclient=gws-wiz-serp)
 
 [^2]: [fonttools vulnerability](https://www.google.com/search?q=fonttools+vulnerability&sca_esv=1523a71ad38dbb4c&biw=2124&bih=1062&sxsrf=ANbL-n64_VrM1O32sHB2n0qn3v1APPzWWQ%3A1774240346706&ei=WsLAaZ3mKszCkPIPhKPwyA0&oq=fonttools&gs_lp=Egxnd3Mtd2l6LXNlcnAiCWZvbnR0b29scyoCCAEyChAjGIAEGCcYigUyBBAjGCcyBhAAGAcYHjIGEAAYBxgeMgYQABgHGB4yBhAAGAcYHjIGEAAYBxgeMgYQABgHGB4yBhAAGAcYHjIGEAAYBxgeSIuGB1D28gZY9vIGcAR4AZABAJgB1QKgAdUCqgEDMy0xuAEByAEA-AEBmAIFoAL_AsICChAAGLADGNYEGEeYAwCIBgGQBgiSBwU0LjMtMaAHkweyBwMzLTG4B-ICwgcFMi00LjHIByCACAA&sclient=gws-wiz-serp)
+
+[^3]: [](https://github.com/advisories/GHSA-768j-98cg-p3fv#:~:text=Summary,overwriting%20/etc/passwd%20).
