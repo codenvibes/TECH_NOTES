@@ -1048,12 +1048,12 @@ fontTools, a widely used Python library for manipulating fonts, has had two majo
 	- **Mitigation:** Upgrade to **fonttools version 4.60.2 or later**.
 	- **Workaround:** Avoid processing untrusted `.designspace` files and run font processing in sandboxed environments. [^4]
 
-2. XXE Vulnerability in Subsetting Module (CVE-2023-45139) This vulnerability affects the subsetting module, which reduces the size of font files. 
+2. XXE Vulnerability in Subsetting Module (CVE-2023-45139) This vulnerability affects the subsetting module, which reduces the size of font files. [^5]
 	- **Vulnerability Type:** XML External Entity Injection (XXE).
 	- **Affected Versions:** 4.28.2 to before 4.43.0.
 	- **Description:** The library failed to properly disable external entity expansion when parsing SVG tables in OpenType fonts (OT-SVG fonts).
 	- **Impact:** Attackers can read arbitrary files from the host filesystem or make web requests from the host system.
-	- **Mitigation:** Upgrade to **fonttools version 4.43.0 or later**. National Institute of Standards and Technology (.gov) +1
+	- **Mitigation:** Upgrade to **fonttools version 4.43.0 or later**. [^6]
 
 
 <div align="center">
@@ -1111,3 +1111,8 @@ fontTools, a widely used Python library for manipulating fonts, has had two majo
 	[fontTools is Vulnerable to Arbitrary File Write and XML injection in ...](https://advisories.gitlab.com/pkg/pypi/fonttools/CVE-2025-66034/)
 	[fonttools - CVE-2025-66034 · GitHub Advisory Database](https://github.com/advisories/GHSA-768j-98cg-p3fv)
 	[CVE-2025-66034 - Red Hat Customer Portal](https://access.redhat.com/security/cve/cve-2025-66034)
+
+[^5]: [CVE-2023-45139 Impact, Exploitability, and Mitigation Steps -](https://www.wiz.io/vulnerability-database/cve/cve-2023-45139)
+
+[^6]: [CVE-2023-45139 Detail - NVD](https://nvd.nist.gov/vuln/detail/CVE-2023-45139)
+	[CVE-2023-45139 Impact, Exploitability, and Mitigation Steps - Wiz](https://www.wiz.io/vulnerability-database/cve/cve-2023-45139)[](https://www.wiz.io/vulnerability-database/cve/cve-2023-45139)
