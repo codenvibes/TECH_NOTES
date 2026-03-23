@@ -1408,7 +1408,12 @@ The current shell is a "dumb" shell, meaning it lacks tab completion, job contro
 **Result:**
 
 ```shell
+www-data@variatype:~/portal.variatype.htb/public/files$ python3 -c 'import pty; pty.spawn("/bin/bash")' 
+<es$ python3 -c 'import pty; pty.spawn("/bin/bash")'    
+www-data@variatype:~/portal.variatype.htb/public/files$
 ```
+
+
 <div align="center">
 <br>
 <br>
