@@ -1031,7 +1031,11 @@ Browse to the homepage: `http://variatype.htb`.
 #### 2.2.9 fonttools Research
 
 FontTools is ==a powerful, open-source Python library and command-line toolset used to manipulate font files, including TTF, OTF, and WOFF formats==. It allows developers to subset, merge, inspect, and convert fonts (e.g., to XML using TTX). It is widely used in the font industry for automated font production pipelines.[^1]
+<div align="center">
+<br>
+</div>
 
+##### 
 <div align="center">
 <br>
 <br>
@@ -1073,4 +1077,4 @@ FontTools is ==a powerful, open-source Python library and command-line toolset 
 
 ## References
 
-[^1]: [what is fonttools]
+[^1]: [what is fonttools](https://www.google.com/search?q=what+is+fonttools&sca_esv=1523a71ad38dbb4c&sxsrf=ANbL-n6YQh4v65dns8qxdQChLxL77Jz6yg%3A1774240335377&ei=T8LAaczeFvjEkPIPwuXPsQ4&biw=2124&bih=1062&ved=0ahUKEwiMwr6nmLWTAxV4IkQIHcLyM-YQ4dUDCBE&uact=5&oq=what+is+fonttools&gs_lp=Egxnd3Mtd2l6LXNlcnAiEXdoYXQgaXMgZm9udHRvb2xzMggQABiABBiiBDIIEAAYgAQYogQyCBAAGKIEGIkFMggQABiABBiiBDIIEAAYgAQYogRImDdQ8xVY-jJwAXgBkAEAmAHtAqABpRWqAQMzLTi4AQPIAQD4AQGYAgegArMQwgIHECMYsAMYJ8ICChAAGLADGNYEGEfCAg0QABiABBiwAxhDGIoFwgIHECMYsAIYJ8ICBxAAGIAEGA3CAgYQABgHGB7CAggQABgHGAgYHsICCxAAGIAEGIYDGIoFwgIFEAAY7wXCAgYQABgNGB6YAwCIBgGQBgqSBwUxLjMtNqAH6yCyBwMzLTa4B6gQwgcHMC4xLjIuNMgHMIAIAA&sclient=gws-wiz-serp)
