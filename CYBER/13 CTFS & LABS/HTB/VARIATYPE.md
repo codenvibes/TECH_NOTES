@@ -1413,6 +1413,10 @@ www-data@variatype:~/portal.variatype.htb/public/files$ python3 -c 'import pty; 
 www-data@variatype:~/portal.variatype.htb/public/files$
 ```
 
+While `pty.spawn` gives you a functional terminal, it doesn't handle window resizing, special characters (like `Ctrl+C`), or tab completion until you background the process and fix the terminal settings on your **local** (Kali) machine.
+
+To achieve a "Gold Standard" interactive shell, follow these steps:
+
 
 <div align="center">
 <br>
