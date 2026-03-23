@@ -1028,7 +1028,7 @@ Browse to the homepage: `http://variatype.htb`.
 <br>
 </div>
 
-#### 2.2.9 Strategic Pivot
+#### 2.2.9 Font Research
 <div align="center">
 <br>
 <br>
