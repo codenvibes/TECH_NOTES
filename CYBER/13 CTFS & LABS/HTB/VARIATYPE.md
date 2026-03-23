@@ -1513,7 +1513,9 @@ www-data@variatype:~/portal.variatype.htb/public/files$
 <br>
 </div>
 
-### 4.2 Initial 
+### 4.2 Initial Survey & Enumeration
+
+With the shell now stabilized, you can survey the local environment to map the filesystem and identify potential vectors for lateral movement or privilege escalation.
 <div align="center">
 <br>
 <br>

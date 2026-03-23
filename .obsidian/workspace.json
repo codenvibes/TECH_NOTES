@@ -551,13 +551,12 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "CYBER/13 CTFS & LABS/HTB/WINGDATA.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of WINGDATA"
+              "title": "Outline"
             }
           },
           {
@@ -622,11 +621,11 @@
       "iconic:Open rulebook": false
     }
   },
-  "active": "3dbdf2692670b270",
+  "active": "3b8b4b24d88a173c",
   "lastOpenFiles": [
     "CYBER/13 CTFS & LABS/HTB/VARIATYPE.md",
-    "QUICK NOTES/WHITE-BOARD.md",
     "CYBER/13 CTFS & LABS/HTB/WINGDATA.md",
+    "QUICK NOTES/WHITE-BOARD.md",
     "ASSETS/Pasted image 20260323081024.png",
     "ASSETS/Pasted image 20260323080214.png",
     "ASSETS/Pasted image 20260323072630.png",
