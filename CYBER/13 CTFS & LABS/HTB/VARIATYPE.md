@@ -1095,7 +1095,9 @@ The next step is to find or develop a **Proof of Concept** to verify if `http://
 
 Clone the repository from GitHub to your local attack machine.
 
-Command: 
+**Command:** `git clone https://github.com/symphony2colour/varlib-cve-2025-66034.git`
+
+**Poc Audit:**
 <div align="center">
 <br>
 <br>

@@ -351,7 +351,7 @@ Resolving deltas: 100% (18/18), done.
 2025-07-01_18-22.png  CVE-2025-47812.py  LICENSE  README.md
 ```
 
-Poc Audit:
+**Poc Audit:**
 
 ```shell
 ┌──(kali㉿kali)-[~/pueman/HTB/WingData/CVE-2025-47812-poc]
