@@ -1428,6 +1428,12 @@ In your current terminal, press **Ctrl+Z**. This suspends the reverse shell and 
 <div align="center">
 <br>
 <br>
+</div>
+
+#### Step 2: Set Local Terminal to Raw Mode
+<div align="center">
+<br>
+<br>
 ※※※※※※※※※※※※※※※※※※※※※※※※※※※※※※※※※※※※※※※※※※※※※※※※
 <br>
 </div>
