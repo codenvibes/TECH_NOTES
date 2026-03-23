@@ -1494,6 +1494,13 @@ www-data@variatype:~/portal.variatype.htb/public/files$
 <div align="center">
 <br>
 <br>
+</div>
+
+#### Step 4: Set Environment Variables
+
+<div align="center">
+<br>
+<br>
 ※※※※※※※※※※※※※※※※※※※※※※※※※※※※※※※※※※※※※※※※※※※※※※※※
 <br>
 </div>
