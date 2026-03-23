@@ -1534,7 +1534,15 @@ With the shell now stabilized, you can survey the local environment to map the f
 **Output:**
 
 ```shell
-
+lww-data@variatype:~/portal.variatype.htb/public/files$ id; ls -la /home; sudo - 
+uid=33(www-data) gid=33(www-data) groups=33(www-data)
+total 12
+drwxr-xr-x  3 root  root  4096 Dec  5 13:59 .
+drwxr-xr-x 18 root  root  4096 Mar  9 08:29 ..
+drwx------  8 steve steve 4096 Feb 27 06:16 steve
+[sudo] password for www-data: 
+sudo: a password is required
+www-data@variatype:~/portal.variatype.htb/public/files$ 
 ```
 <div align="center">
 <br>
