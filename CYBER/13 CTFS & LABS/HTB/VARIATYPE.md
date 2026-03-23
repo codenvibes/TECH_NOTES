@@ -1035,7 +1035,8 @@ FontTools is ==a powerful, open-source Python library and command-line toolset 
 <br>
 </div>
 
-##### Vulnerability Identification[^2]
+##### Vulnerability Identification 
+[^2]
 
 fontTools, a widely used Python library for manipulating fonts, has had two major vulnerabilities reported recently, including a critical Remote Code Execution (RCE) vulnerability in 2025 and an XML External Entity (XXE) vulnerability in 2023. 
 
