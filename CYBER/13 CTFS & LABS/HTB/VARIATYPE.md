@@ -1040,7 +1040,7 @@ FontTools is ==a powerful, open-source Python library and command-line toolset 
 fontTools, a widely used Python library for manipulating fonts, has had two major vulnerabilities reported recently, including a critical Remote Code Execution (RCE) vulnerability in 2025 and an XML External Entity (XXE) vulnerability in 2023. 
 
 1. Critical RCE in `varLib` (CVE-2025-66034)
-	Discovered in late 2025, this is the most severe vulnerability affecting the `fontTools.varLib` module, which is used for generating variable fonts.[^3]
+	Discovered in late 2025, this is the most severe vulnerability affecting the `fontTools.varLib` module, which is used for generating variable fonts. [^3]
 	- **Vulnerability Type:** Arbitrary File Write / Remote Code Execution (RCE).
 	- **Affected Versions:** 4.33.0 to before 4.60.2.
 	- **Description:** The vulnerability stems from insufficient input validation when processing `.designspace` files. An attacker can craft a malicious designspace file containing path traversal sequences (`../`) in the filename attributes. When processed by `fontTools.varLib.main()`, it can overwrite arbitrary files on the system.
@@ -1048,7 +1048,7 @@ fontTools, a widely used Python library for manipulating fonts, has had two majo
 	- **Mitigation:** Upgrade to **fonttools version 4.60.2 or later**.
 	- **Workaround:** Avoid processing untrusted `.designspace` files and run font processing in sandboxed environments. [^4]
 
-2. XXE Vulnerability in Subsetting Module (CVE-2023-45139) This vulnerability affects the subsetting module, which reduces the size of font files.
+2. XXE Vulnerability in Subsetting Module (CVE-2023-45139) This vulnerability affects the subsetting module, which reduces the size of font files. 
 	- **Vulnerability Type:** XML External Entity Injection (XXE).
 	- **Affected Versions:** 4.28.2 to before 4.43.0.
 	- **Description:** The library failed to properly disable external entity expansion when parsing SVG tables in OpenType fonts (OT-SVG fonts).
@@ -1108,4 +1108,6 @@ fontTools, a widely used Python library for manipulating fonts, has had two majo
 
 [^4]: [CVE-2025-66034: Fonttools Fonttools RCE Vulnerability](https://www.sentinelone.com/vulnerability-database/cve-2025-66034/)
 	[Arbitrary File Write and XML injection in fontTools.varLib - GitHub](https://github.com/fonttools/fonttools/security/advisories/GHSA-768j-98cg-p3fv)
-	
+	[fontTools is Vulnerable to Arbitrary File Write and XML injection in ...](https://advisories.gitlab.com/pkg/pypi/fonttools/CVE-2025-66034/)
+	[fonttools - CVE-2025-66034 · GitHub Advisory Database](https://github.com/advisories/GHSA-768j-98cg-p3fv)
+	[CVE-2025-66034 - Red Hat Customer Portal](https://access.redhat.com/security/cve/cve-2025-66034)
