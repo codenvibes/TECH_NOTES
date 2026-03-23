@@ -1551,7 +1551,7 @@ www-data@variatype:~/portal.variatype.htb/public/files$
 
 #### 4.2.1 Credential Reuse Fail
 
-I tested the password recovered from the Git commit logs against the identified system user.
+I tested the password recovered from the Git commit logs against the system user `steve`.
 
 ```
 www-data@variatype:~/portal.variatype.htb/public/files$ su steve
