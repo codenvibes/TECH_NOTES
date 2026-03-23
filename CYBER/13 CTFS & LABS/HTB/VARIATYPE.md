@@ -1094,6 +1094,8 @@ The next step is to find or develop a **Proof of Concept** to verify if `http://
 ### 3.1. Exploit Acquisition and Preparation
 
 Clone the repository from GitHub to your local attack machine.
+
+Command: 
 <div align="center">
 <br>
 <br>
