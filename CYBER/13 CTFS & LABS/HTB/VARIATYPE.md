@@ -1016,7 +1016,9 @@ Based on the dashboard's lead navigate to the tools section. The **URL:** `http:
 
 #### 2.2.9 Strategic Pivot
 
-Initial enumeration of the `portal.variatype.htb` subdomain and the subsequent `.git` repository leak provided internal developer credentials. However, upon manual inspection of the portal dashboard, I determined that the interface was a dead lead or maybe not. I didn't see how to move forward so I shifted to identifying the tools used by the VariaType service. 
+Initial enumeration of the `portal.variatype.htb` subdomain and the subsequent `.git` repository leak provided internal developer credentials. However, upon manual inspection of the portal dashboard, I determined that the interface was a dead lead or maybe not. 
+
+I didn't see how to move forward so my focus returned to the primary application's core functionality. A detailed review of the `variatype.htb` homepage revealed a significant lead: the service explicitly markets its reliance on the **fonttools** engine—an industry-standard Python suite used for generating variable fonts.
 
 Browse to the homepage: `http://variatype.htb`.
 
