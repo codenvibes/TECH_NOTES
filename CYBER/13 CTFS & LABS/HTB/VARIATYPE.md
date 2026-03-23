@@ -1129,4 +1129,4 @@ The vulnerability, designated as **CVE-2025-66034**, resides within the `varLib`
 [^6]: [CVE-2023-45139 Detail - NVD](https://nvd.nist.gov/vuln/detail/CVE-2023-45139)
 	[CVE-2023-45139 Impact, Exploitability, and Mitigation Steps - Wiz](https://www.wiz.io/vulnerability-database/cve/cve-2023-45139)[](https://www.wiz.io/vulnerability-database/cve/cve-2023-45139)
 
-[^7]: https://nvd.nist.gov/vuln/detail/CVE-2025-66034
+[^7]: [CVE-2025-66034 Detail](https://nvd.nist.gov/vuln/detail/CVE-2025-66034)
