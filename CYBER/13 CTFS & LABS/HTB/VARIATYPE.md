@@ -1346,7 +1346,7 @@ if __name__ == "__main__":
 
 ### 3.2 Executing `varlib_cve_2025_66034.py`
 
-http://portal.variatype.htb/dashboard.php
+**Validation Dashboard before running `varlib_cve_2025_66034.py`:**
 
 ![[Pasted image 20260322183239.png]]
 
