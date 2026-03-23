@@ -1379,6 +1379,10 @@ www-data@variatype:~/portal.variatype.htb/public/files$
 ```
 
 The automated exploit successfully executed, providing a shell as the **www-data** user. This confirms the critical vulnerability in the `fontTools` library.
+
+**Validation Dashboard after running `varlib_cve_2025_66034.py`:**
+
+![[Pasted image 20260323161803.png]]
 <div align="center">
 <br>
 <br>
