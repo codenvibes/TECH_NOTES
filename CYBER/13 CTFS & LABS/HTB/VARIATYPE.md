@@ -1067,7 +1067,7 @@ The vulnerability, designated as **CVE-2025-66034**, resides within the `varLib`
 
 **Vulnerability Mechanism:** The `.designspace` format is essentially an XML file. The vulnerability exists because the `varLib` parser fails to securely handle specific attributes during the axis-mapping process. By crafting a malicious `.designspace` file, an attacker can trigger **Insecure Deserialization** or **Arbitrary Code Execution**. When the web application calls the vulnerable library to "Generate" the font, the embedded Python code is executed in the context of the server's service account.
 
-![[Pasted image 20260323080214.png]]
+![[Pasted image 20260323080214.png]] [^7]
 <div align="center">
 <br>
 <br>
@@ -1128,3 +1128,5 @@ The vulnerability, designated as **CVE-2025-66034**, resides within the `varLib`
 
 [^6]: [CVE-2023-45139 Detail - NVD](https://nvd.nist.gov/vuln/detail/CVE-2023-45139)
 	[CVE-2023-45139 Impact, Exploitability, and Mitigation Steps - Wiz](https://www.wiz.io/vulnerability-database/cve/cve-2023-45139)[](https://www.wiz.io/vulnerability-database/cve/cve-2023-45139)
+
+[^7]: https://nvd.nist.gov/vuln/detail/CVE-2025-66034
