@@ -1857,6 +1857,22 @@ print(f"Created exploit.zip with filename: {exploit_filename}")
 
 #### 4.3.3 Start your Netcat listener
 
+On your Kali machine, start a listener: `nc -lvnp 4445`.
+
+**Breakdown:**
+
+- `-l`
+	- Description: Listen Mode
+	- Purpose: Sets netcat to wait for an incoming connection.
+- `-v`
+	- Description: Verbose
+	- Purpose: Displays information about the connection source.
+- `-n`
+	- Description: No DNS
+	- Purpose: Prevents delays by not resolving hostnames.
+- `-p 4444`
+	- Description: Port Number
+	- Purpose: Matches the port used in the exploit payload.
 
 <div align="center">
 <br>
