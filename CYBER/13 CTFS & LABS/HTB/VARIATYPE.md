@@ -1832,6 +1832,8 @@ print(f"Created exploit.zip with filename: {exploit_filename}")
 </div>
 
 #### 4.3.2 Exploitation & Shell Capture
+
+
 <div align="center">
 <br>
 <br>
