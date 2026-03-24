@@ -1601,7 +1601,7 @@ The search confirmed the existence of `/home/steve`, but a subsequent attempt to
 <br>
 </div>
 
-#### 4.2.3 `opt` directory
+#### 4.2.3 Enumeration of the `opt` directory
 
 ```
 www-data@variatype:~/portal.variatype.htb/public/files$ ls -la /opt
@@ -1613,6 +1613,8 @@ drwxr-xr-x  3 root      root      4096 Mar  9 08:29 font-tools
 drwxr-xr-x  4 variatype variatype 4096 Mar  9 08:29 variatype
 www-data@variatype:~/portal.variatype.htb/public/files$ 
 ```
+
+
 <div align="center">
 <br>
 <br>
