@@ -1617,6 +1617,12 @@ www-data@variatype:~/portal.variatype.htb/public/files$
 While most directories are owned by root, the presence of a backup script owned by **steve** suggests that automated tasks or maintenance routines are running out of this location.
 
 `opt` is a standard location for "optional" or third-party software packages and custom administrative scripts.
+
+**Findings:** 
+
+- **`process_client_submissions.bak`**: A backup script owned by **steve**. Although we may not have write access, the read permissions (`-rwxr-xr--`) allow us to inspect the logic.
+    
+- **`font-tools` & `variatype`**: Directories containing the application source code and its dependencies.
 <div align="center">
 <br>
 <br>
