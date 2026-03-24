@@ -1835,9 +1835,21 @@ print(f"Created exploit.zip with filename: {exploit_filename}")
 <br>
 </div>
 
-#### 4.3.2 Exploitation & Shell Capture
+#### 4.3.2 Delivery and Execution
 
+**Command:** `python3 exploit.py && python3 -m http.server 80`
 
+**Breakdown:**
+
+- `python3 exploit.py`
+    - **Description:** Exploit Payload Generator.
+    - **Purpose:** Executes the script to create the `exploit.zip` file containing the malicious command-substitution filename.
+- `&&`
+    - **Description:** Logical AND Operator.
+    - **Purpose:** Ensures the web server only starts if the exploit file was successfully generated.
+- `python3 -m http.server 80`
+    - **Description:** Python SimpleHTTPModule.
+    - **Purpose:** Starts a temporary web server on port 80 to host the files in the current directory for the target to download.
 <div align="center">
 <br>
 <br>
