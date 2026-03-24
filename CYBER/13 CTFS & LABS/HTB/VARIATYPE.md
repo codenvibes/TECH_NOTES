@@ -1835,7 +1835,7 @@ print(f"Created exploit.zip with filename: {exploit_filename}")
 <br>
 </div>
 
-#### 4.3.2 Delivery and Execution
+#### 4.3.2 Generating and Serving the Exploit
 
 **Command:** `python3 exploit.py && python3 -m http.server 80`
 
