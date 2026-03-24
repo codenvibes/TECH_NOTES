@@ -1713,7 +1713,7 @@ fi
 
 The script we just found is designed to automate the validation of fonts uploaded to the web server. However, it contains a critical security oversight in how it passes filenames to the **FontForge** Python interpreter.
 
-
+Inside the script, line 53 is used to process files: `font = fontforge.open('$file')`
 <div align="center">
 <br>
 <br>
