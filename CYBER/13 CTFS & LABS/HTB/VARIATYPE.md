@@ -1791,7 +1791,9 @@ This script demonstrates that the server environment is configured to run Python
 <br>
 </div>
 
-### 4.3 Crafting the Malicious Archive
+### 4.3 Lateral Movement
+
+To bypass the script's strict filename regex (`SAFE_NAME_REGEX`),
 <div align="center">
 <br>
 <br>
