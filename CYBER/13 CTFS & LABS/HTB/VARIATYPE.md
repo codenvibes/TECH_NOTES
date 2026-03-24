@@ -1779,7 +1779,7 @@ If a file is named `test');import os;os.system('bash -i');('`, the resulting Pyt
 
 The second script we found, `/opt/variatype/script.py`, appears to be an automated utility for removing comments from Python and HTML files within the project root.
 
-
+This script demonstrates that the server environment is configured to run Python scripts that modify local files. If this script (or the font processing one) is being executed by a **Cron Job** under **steve's** account, we can gain his privileges by placing a maliciously named file in the upload directory.
 <div align="center">
 <br>
 <br>
