@@ -1614,7 +1614,7 @@ drwxr-xr-x  4 variatype variatype 4096 Mar  9 08:29 variatype
 www-data@variatype:~/portal.variatype.htb/public/files$ 
 ```
 
-
+While most directories are owned by root, the presence of a backup script owned by **steve** suggests that automated tasks or maintenance routines are running out of this location.
 <div align="center">
 <br>
 <br>
