@@ -1773,6 +1773,16 @@ If a file is named `test');import os;os.system('bash -i');('`, the resulting Pyt
 <div align="center">
 <br>
 <br>
+</div>
+
+#### 4.2.4 `script.py`
+
+The second script we found, `/opt/variatype/script.py`, appears to be an automated utility for removing comments from Python and HTML files within the project root.
+
+
+<div align="center">
+<br>
+<br>
 ※※※※※※※※※※※※※※※※※※※※※※※※※※※※※※※※※※※※※※※※※※※※※※※※
 <br>
 </div>
