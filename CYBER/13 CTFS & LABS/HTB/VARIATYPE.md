@@ -1715,7 +1715,44 @@ fi
 - `script.py`:
 
 ```shell
+www-data@variatype:~/portal.variatype.htb/public/files$ cat /opt/variatype/script.py 
+```
 
+```python
+import re
+import os
+from pathlib import Path
+
+project_root = Path("/opt/variatype")
+
+def remove_python_comments(content: str) -> str:
+    lines = content.splitlines(keepends=True)
+    new_lines = []
+    for line in lines:
+        if re.match(r"^\s*
+            continue
+        line = re.sub(r"\s*
+        new_lines.append(line)
+    return "".join(new_lines)
+
+def remove_html_comments(content: str) -> str:
+    return re.sub(r"<!--.*?-->", "", content, flags=re.DOTALL)
+
+for py_file in project_root.rglob("*.py"):
+    with open(py_file, "r", encoding="utf-8") as f:
+        content = f.read()
+    new_content = remove_python_comments(content)
+    with open(py_file, "w", encoding="utf-8") as f:
+        f.write(new_content)
+
+for html_file in (project_root / "templates").rglob("*.html"):
+    with open(html_file, "r", encoding="utf-8") as f:
+        content = f.read()
+    new_content = remove_html_comments(content)
+    with open(html_file, "w", encoding="utf-8") as f:
+        f.write(new_content)
+
+print("✅ Comentarios eliminados en archivos .py y .html.")
 ```
 <div align="center">
 <br>
