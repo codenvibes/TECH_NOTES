@@ -1716,6 +1716,10 @@ The script we just found is designed to automate the validation of fonts uploade
 Inside the script, line 53 is used to process files: `font = fontforge.open('$file')`
 
 While the script attempts to use a regex (`$SAFE_NAME_REGEX`) to restrict filenames to letters, digits, and basic symbols, it **fails to account for single quotes**. Because the shell variable `$file` is expanded directly inside a Python string literal delimited by single quotes, an attacker can escape the string and execute arbitrary Python code.
+
+**Exploit Logic:**
+
+If a file is named `test');import os;os.system('bash -i');('`, the resulting Python command becomes: `font = fontforge.open('test');import os;os.system('bash -i');('')`
 <div align="center">
 <br>
 <br>
