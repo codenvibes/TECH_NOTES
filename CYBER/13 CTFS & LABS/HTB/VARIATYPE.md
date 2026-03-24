@@ -1964,6 +1964,14 @@ cat /home/steve/user.txt
 
 ## 5. PrivEsc
 
+#### 5.1.1 Auditing Sudo Privileges
+
+**Command:** `sudo -l`
+
+It lists the specific commands the current user is permitted to run with elevated privileges.
+
+**Result:**
+
 ```shell
 steve@variatype:/tmp/ffarchive-5725-1$ sudo -l
 sudo -l
