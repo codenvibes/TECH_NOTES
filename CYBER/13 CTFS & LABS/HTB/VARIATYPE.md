@@ -1984,6 +1984,14 @@ User steve may run the following commands on variatype:
     (root) NOPASSWD: /usr/bin/python3 /opt/font-tools/install_validator.py *
 steve@variatype:/tmp/ffarchive-5725-1$ 
 ```
+
+The user **steve** can execute `/usr/bin/python3 /opt/font-tools/install_validator.py *` as **root** with `NOPASSWD`. The wildcard allows for arbitrary arguments to be passed to the Python script.
+<div align="center">
+<br>
+<br>
+</div>
+
+#### 5.1.2 Script Analysis (`restore_backup_clients.py`), Discovery and Vulnerability Research
 <div align="center">
 <br>
 <br>
