@@ -2084,6 +2084,8 @@ if __name__ == "__main__":
 The analysis of `install_validator.py` reveals a critical vulnerability within the `setuptools.package_index.PackageIndex()` implementation. While the script performs basic URL validation, it utilizes a deprecated and insecure method for "downloading" files that is susceptible to **Local File Inclusion (LFI)** and **Arbitrary File Write**.
 
 Specifically, `PackageIndex().download(url, destination)` doesn't just download via HTTP; it can be tricked into "downloading" local files if the URL points to a local path or a specific scheme. More importantly, we can abuse this to write a malicious Python module into the `PLUGIN_DIR`.
+
+By URL-encoding the destination path (e.g., using `%2f` for `/`), you can trick the script into saving the "plugin" anywhere on the filesystem instead of the intended `/opt/font-tools/validators/` directory. Since the script runs as **root**, you can overwrite critical system files like `/root/.ssh/authorized_keys`.
 <div align="center">
 <br>
 <br>
