@@ -1711,6 +1711,8 @@ fi
 
 #### 4.2.4 `process_client_submissions.bak`
 
+The script we just found is designed to automate the validation of fonts uploaded to the web server. However, it contains a critical security oversight in how it passes filenames to the **FontForge** Python interpreter.
+
 
 <div align="center">
 <br>
