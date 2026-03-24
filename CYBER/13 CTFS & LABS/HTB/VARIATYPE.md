@@ -1793,7 +1793,7 @@ This script demonstrates that the server environment is configured to run Python
 
 ### 4.3 Lateral Movement
 
-To bypass the script's strict filename regex (`SAFE_NAME_REGEX`),
+To bypass the script's strict filename regex (`SAFE_NAME_REGEX`), create a malicious ZIP file locally.
 <div align="center">
 <br>
 <br>
