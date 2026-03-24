@@ -1855,7 +1855,15 @@ print(f"Created exploit.zip with filename: {exploit_filename}")
 <br>
 </div>
 
-#### 4.3.3 Transfer the Exploit to the Target
+#### 4.3.3 Start your Netcat listener
+
+
+<div align="center">
+<br>
+<br>
+</div>
+
+#### 4.3.4 Transfer the Exploit to the Target
 
 Once the server is running on your Kali machine, return to the **www-data** shell on the target and run this command.
 
