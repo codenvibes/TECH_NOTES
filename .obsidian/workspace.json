@@ -123,8 +123,7 @@
                       "title": "FACTS"
                     }
                   }
-                ],
-                "currentTab": 4
+                ]
               },
               {
                 "id": "0d9688c0329c8d14",
@@ -564,12 +563,13 @@
             "state": {
               "type": "outline",
               "state": {
+                "file": "QUICK NOTES/TODO.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline"
+              "title": "Outline of TODO"
             }
           },
           {
@@ -634,7 +634,7 @@
       "iconic:Open rulebook": false
     }
   },
-  "active": "3b8b4b24d88a173c",
+  "active": "10dd2c9178155b52",
   "lastOpenFiles": [
     "CYBER/13 CTFS & LABS/HTB/VARIATYPE.md",
     "QUICK NOTES/WHITE-BOARD.md",
