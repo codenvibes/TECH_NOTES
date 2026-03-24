@@ -1601,7 +1601,9 @@ The search confirmed the existence of `/home/steve`, but a subsequent attempt to
 <br>
 </div>
 
-#### 4.2.2 System-Wide User & Configuration Search
+#### 4.2.3 `opt` directory
+
+
 <div align="center">
 <br>
 <br>
