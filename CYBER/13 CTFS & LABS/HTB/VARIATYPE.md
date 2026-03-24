@@ -1992,6 +1992,8 @@ The user **steve** can execute `/usr/bin/python3 /opt/font-tools/install_validat
 </div>
 
 #### 5.1.2 Script Analysis (`restore_backup_clients.py`), Discovery and Vulnerability Research
+
+
 <div align="center">
 <br>
 <br>
