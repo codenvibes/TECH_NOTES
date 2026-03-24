@@ -162,18 +162,6 @@
                     }
                   },
                   {
-                    "id": "66cfdaf5748f627a",
-                    "type": "leaf",
-                    "state": {
-                      "type": "release-notes",
-                      "state": {
-                        "currentVersion": "1.12.7"
-                      },
-                      "icon": "lucide-book-up",
-                      "title": "Release Notes 1.12.7"
-                    }
-                  },
-                  {
                     "id": "2b2caeec6788473b",
                     "type": "leaf",
                     "state": {
@@ -646,7 +634,7 @@
       "iconic:Open rulebook": false
     }
   },
-  "active": "66cfdaf5748f627a",
+  "active": "5451534be122d60e",
   "lastOpenFiles": [
     "QUICK NOTES/WHITE-BOARD.md",
     "CYBER/13 CTFS & LABS/HTB/WINGDATA.md",
