@@ -1603,7 +1603,16 @@ The search confirmed the existence of `/home/steve`, but a subsequent attempt to
 
 #### 4.2.3 `opt` directory
 
-
+```
+www-data@variatype:~/portal.variatype.htb/public/files$ ls -la /opt
+total 20
+drwxr-xr-x  4 root      root      4096 Mar  9 08:29 .
+drwxr-xr-x 18 root      root      4096 Mar  9 08:29 ..
+drwxr-xr-x  3 root      root      4096 Mar  9 08:29 font-tools
+-rwxr-xr--  1 steve     steve     2018 Feb 26 07:50 process_client_submissions.bak
+drwxr-xr-x  4 variatype variatype 4096 Mar  9 08:29 variatype
+www-data@variatype:~/portal.variatype.htb/public/files$ 
+```
 <div align="center">
 <br>
 <br>
