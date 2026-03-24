@@ -1931,8 +1931,14 @@ Saving to: ‘/var/www/portal.variatype.htb/public/files/exploit.zip’
 
 www-data@variatype:~/portal.variatype.htb/public/files$ 
 ```
+<div align="center">
+<br>
+<br>
+</div>
 
-**Wait:** The script `/opt/process_client_submissions.bak` (or its active counterpart) should run via a cron job. When it extracts the ZIP, the shell will interpret the `$()` in the filename, executing your base64-encoded reverse shell.
+#### 4.3.5 Gaining 
+
+**Wait for a couple minutes:** The script `/opt/process_client_submissions.bak` (or its active counterpart) should run via a cron job. When it extracts the ZIP, the shell will interpret the `$()` in the filename, executing your base64-encoded reverse shell.
 
 ```shell
 ┌──(kali㉿kali)-[~/PUEMAN/HTB/SN10/VariaType]
