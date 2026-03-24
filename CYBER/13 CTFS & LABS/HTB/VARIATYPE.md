@@ -1826,6 +1826,7 @@ print(f"Created exploit.zip with filename: {exploit_filename}")
 
 **Logic:**
 
+- This script creates a ZIP file containing a single empty file. The name of that file is a Bash command substitution. If the server-side script extracts this and then passes the resulting filename to a shell (like in the `fontforge` call), the command inside the `$()` will execute.
 <div align="center">
 <br>
 <br>
