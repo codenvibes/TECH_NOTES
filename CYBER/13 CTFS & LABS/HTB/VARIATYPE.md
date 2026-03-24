@@ -1799,6 +1799,9 @@ To bypass the script's strict filename regex (`SAFE_NAME_REGEX`), create a malic
 
 ```shell
 ┌──(kali㉿kali)-[~/PUEMAN/HTB/SN10/VariaType]
+└─$ vi exploit.py 
+
+┌──(kali㉿kali)-[~/PUEMAN/HTB/SN10/VariaType]
 └─$ cat exploit.py     
 ```
 
