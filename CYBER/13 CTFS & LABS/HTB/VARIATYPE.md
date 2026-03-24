@@ -1599,6 +1599,12 @@ The search confirmed the existence of `/home/steve`, but a subsequent attempt to
 <div align="center">
 <br>
 <br>
+</div>
+
+#### 4.2.2 System-Wide User & Configuration Search
+<div align="center">
+<br>
+<br>
 ※※※※※※※※※※※※※※※※※※※※※※※※※※※※※※※※※※※※※※※※※※※※※※※※
 <br>
 </div>
