@@ -1611,7 +1611,14 @@ drwxr-xr-x 18 root      root      4096 Mar  9 08:29 ..
 drwxr-xr-x  3 root      root      4096 Mar  9 08:29 font-tools
 -rwxr-xr--  1 steve     steve     2018 Feb 26 07:50 process_client_submissions.bak
 drwxr-xr-x  4 variatype variatype 4096 Mar  9 08:29 variatype
-www-data@variatype:~/portal.variatype.htb/public/files$ 
+www-data@variatype:~/portal.variatype.htb/public/files$ ls -la /opt/variatype/
+total 24
+drwxr-xr-x 4 variatype variatype 4096 Mar  9 08:29 .
+drwxr-xr-x 4 root      root      4096 Mar  9 08:29 ..
+-rw-r--r-- 1 root      root      3836 Dec 13 14:59 app.py
+-rw-r--r-- 1 root      root      1062 Dec 13 14:57 script.py
+drwxr-xr-x 3 root      root      4096 Mar  9 08:29 static
+drwxr-xr-x 3 root      root      4096 Mar  9 08:29 templates
 ```
 
 While most directories are owned by root, the presence of a backup script owned by **steve** suggests that automated tasks or maintenance routines are running out of this location.
