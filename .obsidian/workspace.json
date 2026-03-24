@@ -411,12 +411,12 @@
                     "state": {
                       "type": "markdown",
                       "state": {
-                        "file": "TEMPLATES/HTBL WRITEUP.md",
+                        "file": "CYBER/13 CTFS & LABS/HTB/VARIATYPE.md",
                         "mode": "source",
                         "source": false
                       },
                       "icon": "lucide-file",
-                      "title": "HTBL WRITEUP"
+                      "title": "VARIATYPE"
                     }
                   }
                 ],
@@ -564,13 +564,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "TEMPLATES/HTBL WRITEUP.md",
+                "file": "CYBER/13 CTFS & LABS/HTB/WINGDATA.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of HTBL WRITEUP"
+              "title": "Outline of WINGDATA"
             }
           },
           {
@@ -635,11 +635,11 @@
       "iconic:Open rulebook": false
     }
   },
-  "active": "cd22a45ae9ef0c95",
+  "active": "3dbdf2692670b270",
   "lastOpenFiles": [
-    "CYBER/13 CTFS & LABS/HTB/WINGDATA.md",
-    "TEMPLATES/HTBL WRITEUP.md",
     "CYBER/13 CTFS & LABS/HTB/VARIATYPE.md",
+    "TEMPLATES/HTBL WRITEUP.md",
+    "CYBER/13 CTFS & LABS/HTB/WINGDATA.md",
     "QUICK NOTES/TODO.md",
     "QUICK NOTES/WHITE-BOARD.md",
     "CYBER/13 CTFS & LABS/HTB/FACTS.md",

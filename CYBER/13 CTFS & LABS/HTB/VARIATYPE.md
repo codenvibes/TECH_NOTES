@@ -1962,7 +1962,30 @@ cat /home/steve/user.txt
 <!-- PAGE BREAK -->
 <div style="page-break-after: always;"></div>
 
-## 5. Conclusion & Remediation
+## 5. PrivEsc
+
+```shell
+steve@variatype:/tmp/ffarchive-5725-1$ sudo -l
+sudo -l
+Matching Defaults entries for steve on variatype:
+    env_reset, mail_badpass,
+    secure_path=/usr/local/sbin\:/usr/local/bin\:/usr/sbin\:/usr/bin\:/sbin\:/bin,
+    use_pty
+
+User steve may run the following commands on variatype:
+    (root) NOPASSWD: /usr/bin/python3 /opt/font-tools/install_validator.py *
+steve@variatype:/tmp/ffarchive-5725-1$ 
+```
+<div align="center">
+<br>
+<br>
+※※※※※※※※※※※※※※※※※※※※※※※※※※※※※※※※※※※※※※※※※※※※※※※※
+<br>
+</div>
+<!-- PAGE BREAK -->
+<div style="page-break-after: always;"></div>
+
+## 6. Conclusion & Remediation
 <div align="center">
 <br>
 <br>
