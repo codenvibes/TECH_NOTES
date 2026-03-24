@@ -1991,11 +1991,14 @@ The user **steve** can execute `/usr/bin/python3 /opt/font-tools/install_validat
 <br>
 </div>
 
-#### 5.1.2 Script Analysis (`restore_backup_clients.py`), Discovery and Vulnerability Research
+#### 5.1.2 Script Analysis (`install_validator.py`), Discovery and Vulnerability Research
 
-```
+```shell
 steve@variatype:~$ cat /opt/font-tools/install_validator.py
 cat /opt/font-tools/install_validator.py
+```
+
+```python
 #!/usr/bin/env python3
 """
 Font Validator Plugin Installer
