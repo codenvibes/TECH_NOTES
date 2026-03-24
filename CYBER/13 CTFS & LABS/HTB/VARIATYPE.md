@@ -1874,6 +1874,16 @@ On your Kali machine, start a listener: `nc -lvnp 4445`.
 	- Description: Port Number
 	- Purpose: Matches the port used in the exploit payload.
 
+**Result:**
+
+```
+
+┌──(kali㉿kali)-[~/PUEMAN/HTB/SN10/VariaType]
+└─$ nc -lvnp 4445                
+listening on [any] 4445 ...
+
+
+```
 <div align="center">
 <br>
 <br>
