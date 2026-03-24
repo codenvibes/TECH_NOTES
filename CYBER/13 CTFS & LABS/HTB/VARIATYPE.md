@@ -1711,6 +1711,12 @@ fi
 ```
 
 - **`font-tools` & `variatype`**: Directories containing the application source code and its dependencies.
+
+- `script.py`:
+
+```shell
+
+```
 <div align="center">
 <br>
 <br>
