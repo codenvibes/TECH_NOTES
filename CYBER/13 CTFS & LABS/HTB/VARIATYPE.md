@@ -1714,6 +1714,8 @@ fi
 The script we just found is designed to automate the validation of fonts uploaded to the web server. However, it contains a critical security oversight in how it passes filenames to the **FontForge** Python interpreter.
 
 Inside the script, line 53 is used to process files: `font = fontforge.open('$file')`
+
+While the script attempts to use a regex (`$SAFE_NAME_REGEX`) to restrict filenames to letters, digits, and basic symbols, it **fails to account for single quotes**. Because the shell variable `$file` is expanded directly inside a Python string literal delimited by single quotes, an attacker can escape the string and execute arbitrary Python code.
 <div align="center">
 <br>
 <br>
