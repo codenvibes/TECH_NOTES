@@ -1936,7 +1936,7 @@ www-data@variatype:~/portal.variatype.htb/public/files$
 <br>
 </div>
 
-#### 4.3.5 Gaining 
+#### 4.3.5 Gaining `steve`'s Shell & Flag Retrieval
 
 **Wait for a couple minutes:** The script `/opt/process_client_submissions.bak` (or its active counterpart) should run via a cron job. When it extracts the ZIP, the shell will interpret the `$()` in the filename, executing your base64-encoded reverse shell.
 
