@@ -170,7 +170,17 @@ Before we can attack a system, we need to find out what "doors" are open. Doors 
 <!-- PAGE BREAK -->
 <div style="page-break-after: always;"></div>
 
-## 5. Conclusion & Remediation
+## 5. PrivEsc
+<div align="center">
+<br>
+<br>
+※※※※※※※※※※※※※※※※※※※※※※※※※※※※※※※※※※※※※※※※※※※※※※※※
+<br>
+</div>
+<!-- PAGE BREAK -->
+<div style="page-break-after: always;"></div>
+
+## 6. Conclusion & Remediation
 <div align="center">
 <br>
 <br>
