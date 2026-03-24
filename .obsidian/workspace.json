@@ -123,7 +123,8 @@
                       "title": "FACTS"
                     }
                   }
-                ]
+                ],
+                "currentTab": 5
               },
               {
                 "id": "0d9688c0329c8d14",
@@ -563,13 +564,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "QUICK NOTES/TODO.md",
+                "file": "CYBER/13 CTFS & LABS/HTB/WINGDATA.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of TODO"
+              "title": "Outline of WINGDATA"
             }
           },
           {
@@ -634,8 +635,9 @@
       "iconic:Open rulebook": false
     }
   },
-  "active": "10dd2c9178155b52",
+  "active": "3dbdf2692670b270",
   "lastOpenFiles": [
+    "QUICK NOTES/TODO.md",
     "CYBER/13 CTFS & LABS/HTB/VARIATYPE.md",
     "QUICK NOTES/WHITE-BOARD.md",
     "CYBER/13 CTFS & LABS/HTB/WINGDATA.md",
@@ -656,7 +658,6 @@
     "CYBER/13 CTFS & LABS/HTB/CCTV.md",
     "CYBER/13 CTFS & LABS/THM/KENOBI.md",
     "CYBER/13 CTFS & LABS/CTFS & LABS.base",
-    "QUICK NOTES/TODO.md",
     "CYBER/01 CORE CONCEPTS/NETWORKING FUNDAMENTALS/NETWORKING FUNDAMENTALS.md",
     "SOFT SKILLS & CAREER/INTERVIEWS/CYBERSHUJAA TRAINER.md",
     "CYBER/08 TOOLS/SQLMAP/SQLMAP.md",
