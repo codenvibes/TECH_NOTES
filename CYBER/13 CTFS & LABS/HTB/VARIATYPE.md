@@ -1814,9 +1814,15 @@ Look closely at the line where `fontforge` is called:
 font = fontforge.open('$file')
 ```
 
-The bash variable `$file` (the name of your font) is placed directly inside **single quotes** inside a Python command.
+Basically this is the template:
 
-Because the script uses a "Safe Name Regex" that **allows single quotes to be bypassed** (or rather, the regex is bypassed because it doesn't account for how Python handles strings), we can "break out" of that string.
+```python
+font = fontforge.open('____')
+```
+
+The script takes whatever the filename is and drops it into that blank space.
+
+In a "Normal" Scenario
 <div align="center">
 <br>
 <br>
