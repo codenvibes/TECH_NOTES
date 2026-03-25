@@ -2087,7 +2087,7 @@ if __name__ == "__main__":
     main()
 ```
 
-As you review the script source code revealed the use of a legacy Python library: `setuptools.package_index.PackageIndex`.
+As you review the script you will see the use of a legacy Python library: `setuptools.package_index.PackageIndex`.
 
 **Key Findings:**
 
