@@ -2226,11 +2226,19 @@ With the public key successfully injected into the target's root account, you ca
 <div align="center">
 <br>
 <br>
+※※※※※※※※※※※※※※※※※※※※※※※※
+<br>
+<br>
+<br>
 </div>
 
-#### 5.2.5 Root Flag
+### 5.3 Root Flag
 
-
+```
+root@variatype:~# cat root.txt 
+6fba2bf2c070c359159cf8588577119b
+root@variatype:~# 
+```
 <div align="center">
 <br>
 <br>
