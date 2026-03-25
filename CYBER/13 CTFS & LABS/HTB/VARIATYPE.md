@@ -1347,6 +1347,8 @@ When you run the script, it will follow this sequence:
 | **3. Delivery**    | Uploads all three files to the server's `/process` URL.     | The server starts "processing" your font request.                                                                |
 | **4. The "Magic"** | The server's font-building tool reads the Designspace file. | Instead of making a font, it follows the instructions to save a file named `shell_xxxx.php` into the web folder. |
 | **5. The Trigger** | The script visits `http://mysite.com/shell_xxxx.php`.       | The server executes the PHP code, which sends a command-line connection back to your Kali machine.               |
+
+![[unnamed.png]]
 <div align="center">
 <br>
 <br>

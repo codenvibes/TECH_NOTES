@@ -566,12 +566,13 @@
             "state": {
               "type": "outline",
               "state": {
+                "file": "CYBER/13 CTFS & LABS/HTB/VARIATYPE.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline"
+              "title": "Outline of VARIATYPE"
             }
           },
           {
@@ -636,8 +637,9 @@
       "iconic:Open rulebook": false
     }
   },
-  "active": "3b8b4b24d88a173c",
+  "active": "cd22a45ae9ef0c95",
   "lastOpenFiles": [
+    "ASSETS/unnamed.png",
     "CYBER/13 CTFS & LABS/HTB/VARIATYPE.md",
     "ASSETS/Pasted image 20260325161508.png",
     "CYBER/13 CTFS & LABS/HTB/FACTS.md",
