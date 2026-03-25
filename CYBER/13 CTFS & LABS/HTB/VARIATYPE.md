@@ -2214,7 +2214,9 @@ steve@variatype:/tmp/ffarchive-7646-1$ sudo /usr/bin/python3 /opt/font-tools/ins
 
 #### 5.2.4 Establishing the Root Shell (Attacker Side)
 
-With the public key successfully injected into the target's root account, we acan 
+With the public key successfully injected into the target's root account, you can access it from your Kali machine.
+
+
 <div align="center">
 <br>
 <br>
