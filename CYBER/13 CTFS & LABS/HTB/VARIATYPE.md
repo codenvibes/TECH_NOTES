@@ -9,10 +9,10 @@ pawned:
 ---
 ## Summary
 
-| SECTION/TASK     | FLAG |
-| ---------------- | ---- |
-| Submit User Flag |      |
-| Submit Root Flag |      |
+| SECTION/TASK     | FLAG                             |
+| ---------------- | -------------------------------- |
+| Submit User Flag | 10d6319b7fb72f3e6a5f0792adb58d10 |
+| Submit Root Flag |                                  |
 
 <div align="center">
 <br>
