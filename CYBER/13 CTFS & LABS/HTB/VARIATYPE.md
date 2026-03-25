@@ -1825,7 +1825,7 @@ The script takes whatever the filename is and drops it into that blank space.
 In a "Normal" Scenario if the filename is `font.ttf`, the computer sees:
 
 ```python
-font = fontforge.open('coolfont.ttf')
+font = fontforge.open('font.ttf')
 ```
 
 **Result:** Python opens the file. Everything is fine.
