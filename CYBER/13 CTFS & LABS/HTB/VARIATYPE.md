@@ -2174,6 +2174,8 @@ root_key  root_key.pub
 2 directories, 1 file
 ```
 
+You can skip this step if you server from the time we were sending 
+
 `python3 -m http.server 80`: Launches a lightweight web server on port 80 to host the "fake" root directory.
 
 **Output:**
