@@ -1964,6 +1964,12 @@ cat /home/steve/user.txt
 
 ## 5. PrivEsc
 
+### 5.1 PrivEsc Reconnaissance
+
+With a stable shell, you can now transition to searching for a path to escalate privileges to `root`. Our first goal is to see what "extra powers" we have. Check the sudoers policy to see if there are any cracks in the configuration.
+
+In the world of CTFs and penetration testing, the transition from "Initial Access" to "Root" is all about **System Enumeration**. You find the path forward by asking the system what it allows you to do.
+
 #### 5.1.1 Auditing Sudo Privileges
 
 **Command:** `sudo -l`
@@ -2086,6 +2092,13 @@ The analysis of `install_validator.py` reveals a critical vulnerability within t
 Specifically, `PackageIndex().download(url, destination)` doesn't just download via HTTP; it can be tricked into "downloading" local files if the URL points to a local path or a specific scheme. More importantly, we can abuse this to write a malicious Python module into the `PLUGIN_DIR`.
 
 By URL-encoding the destination path (e.g., using `%2f` for `/`), you can trick the script into saving the "plugin" anywhere on the filesystem instead of the intended `/opt/font-tools/validators/` directory. Since the script runs as **root**, you can overwrite critical system files like `/root/.ssh/authorized_keys`.
+<div align="center">
+<br>
+<br>
+</div>
+
+### 5.2 Execution
+#### 5.2.1 The Exploit
 <div align="center">
 <br>
 <br>
