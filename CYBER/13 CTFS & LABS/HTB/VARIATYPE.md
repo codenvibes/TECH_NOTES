@@ -12,7 +12,7 @@ pawned:
 | SECTION/TASK     | FLAG                             |
 | ---------------- | -------------------------------- |
 | Submit User Flag | 10d6319b7fb72f3e6a5f0792adb58d10 |
-| Submit Root Flag |                                  |
+| Submit Root Flag | 6fba2bf2c070c359159cf8588577119b |
 
 <div align="center">
 <br>
