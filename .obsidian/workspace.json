@@ -667,12 +667,12 @@
           }
         ],
         "direction": "vertical",
-        "x": 448,
-        "y": 140,
-        "width": 1024,
-        "height": 800,
-        "maximize": false,
-        "zoom": 0
+        "x": -1106,
+        "y": 522,
+        "width": 1025,
+        "height": 801,
+        "maximize": true,
+        "zoom": 1.5
       }
     ]
   },
