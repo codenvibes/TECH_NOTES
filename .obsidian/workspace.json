@@ -637,46 +637,7 @@
       "iconic:Open rulebook": false
     }
   },
-  "floating": {
-    "id": "10e7aee8dbfa242e",
-    "type": "floating",
-    "children": [
-      {
-        "id": "bf8de53849183cdf",
-        "type": "window",
-        "children": [
-          {
-            "id": "e0412ea4b9dfceaf",
-            "type": "tabs",
-            "children": [
-              {
-                "id": "ff09d6a482b5cfb4",
-                "type": "leaf",
-                "state": {
-                  "type": "markdown",
-                  "state": {
-                    "file": "CYBER/13 CTFS & LABS/HTB/VARIATYPE.md",
-                    "mode": "source",
-                    "source": false
-                  },
-                  "icon": "lucide-file",
-                  "title": "VARIATYPE"
-                }
-              }
-            ]
-          }
-        ],
-        "direction": "vertical",
-        "x": -1106,
-        "y": 522,
-        "width": 1025,
-        "height": 801,
-        "maximize": true,
-        "zoom": 1.5
-      }
-    ]
-  },
-  "active": "ff09d6a482b5cfb4",
+  "active": "cd22a45ae9ef0c95",
   "lastOpenFiles": [
     "CYBER/13 CTFS & LABS/HTB/VARIATYPE.md",
     "CYBER/13 CTFS & LABS/HTB/FACTS.md",
