@@ -1830,7 +1830,17 @@ font = fontforge.open('coolfont.ttf')
 
 **Result:** Python opens the file. Everything is fine.
 
-In the "Exploit" Scenario
+In the "Exploit" Scenario an attacker chooses a filename that contains **Python code** and **single quotes**. Let's say the filename is:
+
+```python
+');import(os);os.system('whoami
+```
+
+When the Bash script drops that into the template, the final command becomes:
+
+```python
+font = fontforge.open('');import(os);os.system('whoami')
+```
 <div align="center">
 <br>
 <br>
