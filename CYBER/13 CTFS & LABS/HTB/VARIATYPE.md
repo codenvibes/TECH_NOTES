@@ -2164,6 +2164,7 @@ root_key  root_key.pub
 ```
 
 `cp root_key.pub ...`: Renames and moves the public key to `authorized_keys`, the specific filename the SSH daemon looks for to grant access.
+
 **Output:**
 
 ```shell
@@ -2171,6 +2172,7 @@ root_key  root_key.pub
 ```
 
 `python3 -m http.server 80`: Launches a lightweight web server on port 80 to host the "fake" root directory.
+
 **Output:**
 
 ```shell
