@@ -2174,16 +2174,15 @@ root_key  root_key.pub
 2 directories, 1 file
 ```
 
-You can skip this step if you server from the time we were sending 
+You can skip this step if you server from the time we were sending `exploit.zip` is still running.
 
 `python3 -m http.server 80`: Launches a lightweight web server on port 80 to host the "fake" root directory.
+<div align="center">
+<br>
+<br>
+</div>
 
-**Output:**
-
-```shell
-
-```
-
+#### 5.2.3 Payload Hosting & Directory Mocking (Attacker Side)
 <div align="center">
 <br>
 <br>
