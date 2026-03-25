@@ -15,7 +15,7 @@
               {
                 "id": "eb7c5c7906b2a9d3",
                 "type": "tabs",
-                "dimension": 68.7012987012987,
+                "dimension": 33.506493506493506,
                 "children": [
                   {
                     "id": "10dd2c9178155b52",
@@ -101,7 +101,7 @@
               {
                 "id": "0d9688c0329c8d14",
                 "type": "tabs",
-                "dimension": 31.2987012987013,
+                "dimension": 66.49350649350649,
                 "children": [
                   {
                     "id": "21fce08000a30866",
@@ -176,7 +176,7 @@
                     }
                   }
                 ],
-                "currentTab": 4
+                "currentTab": 2
               }
             ],
             "direction": "horizontal"
@@ -634,10 +634,10 @@
       "iconic:Open rulebook": false
     }
   },
-  "active": "3b8b4b24d88a173c",
+  "active": "2b2caeec6788473b",
   "lastOpenFiles": [
-    "CYBER/13 CTFS & LABS/HTB/VARIATYPE.md",
     "CYBER/13 CTFS & LABS/HTB/FACTS.md",
+    "CYBER/13 CTFS & LABS/HTB/VARIATYPE.md",
     "CYBER/13 CTFS & LABS/HTB/WINGDATA.md",
     "TEMPLATES/HTBL WRITEUP.md",
     "QUICK NOTES/TODO.md",
