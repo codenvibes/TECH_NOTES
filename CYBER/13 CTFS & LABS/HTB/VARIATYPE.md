@@ -2244,7 +2244,7 @@ With the public key successfully injected into the target's root account, you ca
 <br>
 </div>
 
-### 5.3 Root Flag
+### 5.3 🚩Root Flag
 
 ```
 root@variatype:~# cat root.txt 
