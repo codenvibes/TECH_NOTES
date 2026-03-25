@@ -2104,7 +2104,9 @@ As you review the script you will see the use of a legacy Python library: `setup
 ### 5.2 Execution
 #### 5.2.1 Payload Preparation (Attacker Side)
 
-On your Kali machine generate an RSA key pair 
+On your Kali machine generate an RSA key pair and place the public key into a directory structure that mimics the target request to bypass the the web server's 404 errors.
+
+**Command:** `mkdir -p ./root/.ssh/ && cp root_key.pub ./root/.ssh/authorized_keys`
 <div align="center">
 <br>
 <br>
