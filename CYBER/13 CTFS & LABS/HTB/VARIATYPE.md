@@ -1997,7 +1997,7 @@ The user **steve** can execute `/usr/bin/python3 /opt/font-tools/install_validat
 <br>
 </div>
 
-#### 5.1.2 Script (`install_validator.py`) Discovery and Analysis Vulnerability Research
+#### 5.1.2 Script (`install_validator.py`) Discovery and Analysis → Vulnerability Research
 
 ```shell
 steve@variatype:~$ cat /opt/font-tools/install_validator.py
