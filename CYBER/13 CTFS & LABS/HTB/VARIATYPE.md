@@ -2116,6 +2116,36 @@ First generate a unique SSH key pair on your Kali machine.
 - `-t rsa`: Specifies the **RSA** algorithm, ensuring compatibility with older SSH configurations.
     
 - `-f ./root_key`: Directs the tool to save the private key as `root_key` and the public key as `root_key.pub`.
+
+**Result:**
+
+```shell
+┌──(kali㉿kali)-[~/PUEMAN/HTB/SN10/VariaType]
+└─$ ssh-keygen -t rsa -f ./root_key                     
+Generating public/private rsa key pair.
+Enter passphrase for "./root_key" (empty for no passphrase): 
+Enter same passphrase again: 
+Your identification has been saved in ./root_key
+Your public key has been saved in ./root_key.pub
+The key fingerprint is:
+SHA256:DNxNxqj54HHig0dDl8tzZwZvwHE+26cMaMG3BquYgnE kali@kali
+The key's randomart image is:
++---[RSA 3072]----+
+|         =+..    |
+|     ...+==o     |
+|     .o=..=++    |
+|      Oo= .**=   |
+|  . E= BSo+== . .|
+|   +. =o.o . o o |
+|  . ..o..     o  |
+|     .           |
+|                 |
++----[SHA256]-----+
+                                                                                                                                                
+┌──(kali㉿kali)-[~/PUEMAN/HTB/SN10/VariaType]
+└─$ ls root*
+root_key  root_key.pub
+```
 <div align="center">
 <br>
 <br>
