@@ -1337,6 +1337,16 @@ def main():
 if __name__ == "__main__":
     main()
 ```
+
+When you run the script, it will follow this sequence:
+
+| **Step**           | **Action**                                                  | **Result**                                                                                                       |
+| ------------------ | ----------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------- |
+| **1. Preparation** | Creates `source-light.ttf` and `source-regular.ttf`.        | You have "bait" files ready.                                                                                     |
+| **2. Crafting**    | Generates a `malicious.designspace` file.                   | This file contains the PHP code and the instructions to save it as a `.php` file.                                |
+| **3. Delivery**    | Uploads all three files to the server's `/process` URL.     | The server starts "processing" your font request.                                                                |
+| **4. The "Magic"** | The server's font-building tool reads the Designspace file. | Instead of making a font, it follows the instructions to save a file named `shell_xxxx.php` into the web folder. |
+| **5. The Trigger** | The script visits `http://mysite.com/shell_xxxx.php`.       | The server executes the PHP code, which sends a command-line connection back to your Kali machine.               |
 <div align="center">
 <br>
 <br>
