@@ -2216,6 +2216,20 @@ steve@variatype:/tmp/ffarchive-7646-1$ sudo /usr/bin/python3 /opt/font-tools/ins
 
 With the public key successfully injected into the target's root account, you can access it from your Kali machine.
 
+**Command:** `ssh -i root_key root@10.129.244.202`
+
+**Breakdown:**
+
+- `-i root_key`: Tells SSH to use the generated private key for identity verification.
+    
+- `root@10.129.244.202`: Targeted login for the root user on the VariaType server.
+<div align="center">
+<br>
+<br>
+</div>
+
+#### 5.2.5 Root Flag
+
 
 <div align="center">
 <br>
