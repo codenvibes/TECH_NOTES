@@ -2102,7 +2102,7 @@ As you review the script you will see the use of a legacy Python library: `setup
 </div>
 
 ### 5.2 Execution
-#### 5.2.1 The Exploit
+#### 5.2.1 Exploit
 
 
 <div align="center">
