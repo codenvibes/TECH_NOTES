@@ -1,7 +1,7 @@
 ## Cyber Journey
 
 🛡️ DAY 48 of my #CYBERSECURITY Journey!
-Completed the WingData box on Hack The Box today.
+Completed the VariaType machine on Hack The Box.
 
 
 AD4MPU3MAN
