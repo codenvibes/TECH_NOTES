@@ -15,7 +15,7 @@
               {
                 "id": "eb7c5c7906b2a9d3",
                 "type": "tabs",
-                "dimension": 48.96103896103896,
+                "dimension": 70.51948051948051,
                 "children": [
                   {
                     "id": "10dd2c9178155b52",
@@ -101,7 +101,7 @@
               {
                 "id": "0d9688c0329c8d14",
                 "type": "tabs",
-                "dimension": 51.03896103896104,
+                "dimension": 29.48051948051948,
                 "children": [
                   {
                     "id": "21fce08000a30866",
@@ -565,13 +565,12 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "CYBER/13 CTFS & LABS/HTB/WINGDATA.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of WINGDATA"
+              "title": "Outline"
             }
           },
           {
@@ -636,12 +635,12 @@
       "iconic:Open rulebook": false
     }
   },
-  "active": "3dbdf2692670b270",
+  "active": "3b8b4b24d88a173c",
   "lastOpenFiles": [
+    "CYBER/13 CTFS & LABS/HTB/WINGDATA.md",
     "CYBER/13 CTFS & LABS/HTB/VARIATYPE.md",
     "CYBER/04 EXPLOITATION/METASPLOIT FRAMEWORK/05 PAYLOADS.md",
     "CYBER/02 SECURITY FOUNDATIONS/VULNERABILITY_ASSESSMENT/02 VULNERABILITY ASSESSMENT.md",
-    "CYBER/13 CTFS & LABS/HTB/WINGDATA.md",
     "CYBER/13 CTFS & LABS/HTB/FACTS.md",
     "QUICK NOTES/WHITE-BOARD.md",
     "TEMPLATES/HTBL WRITEUP.md",
