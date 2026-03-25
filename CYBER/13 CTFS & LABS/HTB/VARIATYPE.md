@@ -1348,7 +1348,7 @@ When you run the script, it will follow this sequence:
 | **4. The "Magic"** | The server's font-building tool reads the Designspace file. | Instead of making a font, it follows the instructions to save a file named `shell_xxxx.php` into the web folder. |
 | **5. The Trigger** | The script visits `http://mysite.com/shell_xxxx.php`.       | The server executes the PHP code, which sends a command-line connection back to your Kali machine.               |
 
-![[unnamed.png]]
+![[CVE-2025-66034.png]]
 <div align="center">
 <br>
 <br>
