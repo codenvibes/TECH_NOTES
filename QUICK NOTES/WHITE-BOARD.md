@@ -1,6 +1,6 @@
 ## Cyber Journey
 
-🛡️ DAY 48 of my #CYBERSECURITY Journey!
+🛡️ DAY 49 of my #CYBERSECURITY Journey!
 Completed the VariaType machine on Hack The Box.
 
 
