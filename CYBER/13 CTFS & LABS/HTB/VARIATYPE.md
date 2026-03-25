@@ -2105,7 +2105,17 @@ As you review the script you will see the use of a legacy Python library: `setup
 
 #### 5.2.1 RSA Key Pair Generation (Attacker Side)
 
-First generate a unique SSH key pair on your Kali mach
+First generate a unique SSH key pair on your Kali machine.
+
+**Command:** `ssh-keygen -t rsa -f ./root_key`
+
+**Breakdown:**
+
+- `ssh-keygen`: The standard tool for creating new authentication key pairs for SSH.
+    
+- `-t rsa`: Specifies the **RSA** algorithm, ensuring compatibility with older SSH configurations.
+    
+- `-f ./root_key`: Directs the tool to save the private key as `root_key` and the public key as `root_key.pub`.
 <div align="center">
 <br>
 <br>
