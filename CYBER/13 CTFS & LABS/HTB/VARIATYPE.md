@@ -1841,6 +1841,8 @@ When the Bash script drops that into the template, the final command becomes:
 ```python
 font = fontforge.open('');import(os);os.system('whoami')
 ```
+
+This way you introduce a brand-new command that Python runs with full permissions.
 <div align="center">
 <br>
 <br>
