@@ -1962,7 +1962,7 @@ cat /home/steve/user.txt
 <!-- PAGE BREAK -->
 <div style="page-break-after: always;"></div>
 
-## 5. PrivEsc
+## 5. PrivEsc `steve to root`
 
 ### 5.1 PrivEsc Reconnaissance
 
@@ -2099,6 +2099,8 @@ By URL-encoding the destination path (e.g., using `%2f` for `/`), you can trick 
 
 ### 5.2 Execution
 #### 5.2.1 The Exploit
+
+
 <div align="center">
 <br>
 <br>
