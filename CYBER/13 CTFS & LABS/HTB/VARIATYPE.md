@@ -2182,7 +2182,7 @@ You can skip this step if you server from the time we were sending `exploit.zip`
 <br>
 </div>
 
-#### 5.2.3 Payload Hosting & Directory Mocking (Attacker Side)
+#### 5.2.3 Triggering the Path Traversal (Target Side)
 <div align="center">
 <br>
 <br>
