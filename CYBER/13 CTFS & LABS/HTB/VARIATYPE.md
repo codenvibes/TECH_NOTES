@@ -1541,7 +1541,10 @@ www-data@variatype:~/portal.variatype.htb/public/files$
 
 #### What do you gain from following these steps?
 
-
+- **Tab Completion:** No more typing long paths like `/var/www/portal.variatype.htb/` by hand.
+- **Arrow Keys:** You can use the "Up" arrow to see your previous commands.
+- **Ctrl+C Safety:** You can stop a running process on the target (like a long `find` command) without accidentally killing your entire shell.
+- **Interactive Tools:** You can actually use editors like `vim` or `nano` to edit files on the server. Without stabilization, these tools will completely break your screen.
 <div align="center">
 <br>
 <br>
