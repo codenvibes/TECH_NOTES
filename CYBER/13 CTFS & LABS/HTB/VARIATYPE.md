@@ -1807,6 +1807,16 @@ The script follows a simple 3-step loop for every file in the upload directory:
 2. **The "Security" Gate:** It checks the filename against `SAFE_NAME_REGEX`. This ensures the filename only contains letters, numbers, dots, hyphens, or underscores. **(This is where the script's author thought they were safe).**
     
 3. **The Processing (The Weak Link):** It runs a tool called `fontforge` to validate the font. To do this, it builds a small Python script on the fly and inserts the filename into it.
+
+Look closely at the line where `fontforge` is called:
+
+```python
+font = fontforge.open('$file')
+```
+
+The bash variable `$file` (the name of your font) is placed directly inside **single quotes** inside a Python command.
+
+Because the script uses a "Safe Name Regex" that **allows single quotes to be bypassed** (or rather, the regex is bypassed because it doesn't account for how Python handles strings), we can "break out" of that string.
 <div align="center">
 <br>
 <br>
