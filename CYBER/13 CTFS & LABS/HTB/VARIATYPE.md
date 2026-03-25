@@ -2196,6 +2196,21 @@ Using the discovered `sudo` privilege, we forced the root-run script to "install
     - The `%2f` is the URL-encoded version of the forward slash (`/`).
     - **The Vulnerability:** When the `setuptools` library processes this URL, it fails to properly sanitize the encoded characters before passing the string to the filesystem's "write" function.
     - **The Result:** Instead of saving a file named `authorized_keys` inside the intended directory (`/opt/font-tools/validators/`), the leading `%2f` (decoded to `/`) tricks the OS into treating the path as **absolute**. This forces the file to be written directly to `/root/.ssh/authorized_keys`.
+
+**Output:**
+
+```shell
+┌──(kali㉿kali)-[~/PUEMAN/HTB/SN10/VariaType]
+└─$ cp root_key.pub ./root/.ssh/authorized_keys
+
+┌──(kali㉿kali)-[~/PUEMAN/HTB/SN10/VariaType]
+└─$ tree -a ./root
+./root
+└── .ssh
+    └── authorized_keys
+
+2 directories, 1 file
+```
 <div align="center">
 <br>
 <br>
