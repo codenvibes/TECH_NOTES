@@ -1491,6 +1491,10 @@ Once the shell is back, type `reset` and hit enter. If it asks for a terminal ty
 
 Because you just messed with the terminal settings, the screen often gets wonky. `reset` re-initializes the terminal window so it looks clean.
 
+**`xterm-256color`**: This tells the target server exactly what kind of "screen" you are using. Without this, the server doesn't know how to draw colors or how to handle text editors like `nano` or `vim`.
+
+**Output:**
+
 ```shell
 ┌──(kali㉿kali)-[~/…/HTB/SN10/VariaType/varlib-cve-2025-66034]
 └─$ stty raw -echo; fg
