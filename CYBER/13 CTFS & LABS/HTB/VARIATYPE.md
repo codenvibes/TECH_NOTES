@@ -2191,15 +2191,10 @@ Using the discovered `sudo` privilege, we forced the root-run script to "install
 **Breakdown:**
 
 - `sudo /usr/bin/python3 ...`: Executes the Python interpreter and the validator script with full **root** privileges.
-    
 - `http://10.10.14.71/`: Points the `PackageIndex` downloader to the attacker's Kali machine.
-    
 - `%2froot%2f.ssh%2fauthorized_keys`: This is the payload.
-    
     - The `%2f` is the URL-encoded version of the forward slash (`/`).
-        
     - **The Vulnerability:** When the `setuptools` library processes this URL, it fails to properly sanitize the encoded characters before passing the string to the filesystem's "write" function.
-        
     - **The Result:** Instead of saving a file named `authorized_keys` inside the intended directory (`/opt/font-tools/validators/`), the leading `%2f` (decoded to `/`) tricks the OS into treating the path as **absolute**. This forces the file to be written directly to `/root/.ssh/authorized_keys`.
 <div align="center">
 <br>
