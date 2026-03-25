@@ -2157,11 +2157,26 @@ root_key  root_key.pub
 
 `mkdir -p ./root/.ssh/`: Creates the nested folder structure. The `-p` flag ensures parent directories are created if they don't exist.
 
+**Output:**
 
-    
-    `cp root_key.pub ...`: Renames and moves the public key to `authorized_keys`, the specific filename the SSH daemon looks for to grant access.
-    
-    `python3 -m http.server 80`: Launches a lightweight web server on port 80 to host the "fake" root directory.
+```shell
+
+```
+
+`cp root_key.pub ...`: Renames and moves the public key to `authorized_keys`, the specific filename the SSH daemon looks for to grant access.
+**Output:**
+
+```shell
+
+```
+
+`python3 -m http.server 80`: Launches a lightweight web server on port 80 to host the "fake" root directory.
+**Output:**
+
+```shell
+
+```
+
 <div align="center">
 <br>
 <br>
