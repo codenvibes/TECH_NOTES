@@ -566,13 +566,12 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "CYBER/13 CTFS & LABS/HTB/FACTS.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of FACTS"
+              "title": "Outline"
             }
           },
           {
@@ -637,12 +636,12 @@
       "iconic:Open rulebook": false
     }
   },
-  "active": "7be10445e13112be",
+  "active": "3b8b4b24d88a173c",
   "lastOpenFiles": [
+    "CYBER/13 CTFS & LABS/HTB/FACTS.md",
     "CYBER/13 CTFS & LABS/HTB/VARIATYPE.md",
     "ASSETS/CVE-2025-66034.png",
     "ASSETS/Pasted image 20260325161508.png",
-    "CYBER/13 CTFS & LABS/HTB/FACTS.md",
     "CYBER/13 CTFS & LABS/HTB/WINGDATA.md",
     "CYBER/04 EXPLOITATION/METASPLOIT FRAMEWORK/05 PAYLOADS.md",
     "CYBER/02 SECURITY FOUNDATIONS/VULNERABILITY_ASSESSMENT/02 VULNERABILITY ASSESSMENT.md",
