@@ -1798,17 +1798,15 @@ print("✅ Comentarios eliminados en archivos .py y .html.")
 
 #### 4.2.4 `process_client_submissions.bak`
 
-The script we just found is designed to automate the validation of fonts uploaded to the web server. However, it contains a critical security oversight in how it passes filenames to the **FontForge** Python interpreter.
+The `process_client_submissions.bak` script is a background task (likely a cron job) that automatically processes font files uploaded by users.
 
-Inside the script, line 53 is used to process files: `font = fontforge.open('$file')`
+The script follows a simple 3-step loop for every file in the upload directory:
 
-While the script attempts to use a regex (`$SAFE_NAME_REGEX`) to restrict filenames to letters, digits, and basic symbols, it **fails to account for single quotes**. Because the shell variable `$file` is expanded directly inside a Python string literal delimited by single quotes, an attacker can escape the string and execute arbitrary Python code.
-
-Because the `$file` variable was expanded inside single quotes within a shell command, it was vulnerable to **Command Injection via Command Substitution**. If a filename contained `$()`, the shell would execute the code inside the parentheses before passing the result to `fontforge`.
-
-**Exploit Logic:**
-
-If a file is named `test');import os;os.system('bash -i');('`, the resulting Python command becomes: `font = fontforge.open('test');import os;os.system('bash -i');('')`
+1. **The Filter:** It only looks for specific extensions (`.ttf`, `.zip`, etc.).
+    
+2. **The "Security" Gate:** It checks the filename against `SAFE_NAME_REGEX`. This ensures the filename only contains letters, numbers, dots, hyphens, or underscores. **(This is where the script's author thought they were safe).**
+    
+3. **The Processing (The Weak Link):** It runs a tool called `fontforge` to validate the font. To do this, it builds a small Python script on the fly and inserts the filename into it.
 <div align="center">
 <br>
 <br>
