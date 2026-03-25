@@ -565,12 +565,13 @@
             "state": {
               "type": "outline",
               "state": {
+                "file": "CYBER/13 CTFS & LABS/HTB/VARIATYPE.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline"
+              "title": "Outline of VARIATYPE"
             }
           },
           {
@@ -635,8 +636,9 @@
       "iconic:Open rulebook": false
     }
   },
-  "active": "3b8b4b24d88a173c",
+  "active": "cd22a45ae9ef0c95",
   "lastOpenFiles": [
+    "ASSETS/Pasted image 20260325161508.png",
     "CYBER/13 CTFS & LABS/HTB/VARIATYPE.md",
     "CYBER/13 CTFS & LABS/HTB/FACTS.md",
     "CYBER/13 CTFS & LABS/HTB/WINGDATA.md",
@@ -674,7 +676,6 @@
     "CYBER/03 RECONNAISSANCE & ENUMERATION/00 ENUMERATION.md",
     "CYBER/08 TOOLS/BLOODHOUND.md",
     "CYBER/08 TOOLS/PYTHON/IMPACKET.md",
-    "TEMPLATES/PAGE BREAK.md",
     "COURSES/COURSES.base",
     "ASSETS/Unconfirmed 337402.crdownload",
     "CYBER/08 TOOLS/SQLMAP",

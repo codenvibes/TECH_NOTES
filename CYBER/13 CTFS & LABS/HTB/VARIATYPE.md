@@ -9,6 +9,8 @@ pawned:
 ---
 ## Summary
 
+![[Pasted image 20260325161508.png]]
+
 | SECTION/TASK     | FLAG                             |
 | ---------------- | -------------------------------- |
 | Submit User Flag | 10d6319b7fb72f3e6a5f0792adb58d10 |
