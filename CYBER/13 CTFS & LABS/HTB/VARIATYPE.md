@@ -2157,12 +2157,6 @@ root_key  root_key.pub
 
 `mkdir -p ./root/.ssh/`: Creates the nested folder structure. The `-p` flag ensures parent directories are created if they don't exist.
 
-**Output:**
-
-```shell
-
-```
-
 `cp root_key.pub ...`: Renames and moves the public key to `authorized_keys`, the specific filename the SSH daemon looks for to grant access.
 
 **Output:**
