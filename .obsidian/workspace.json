@@ -565,13 +565,12 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "CYBER/13 CTFS & LABS/HTB/VARIATYPE.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of VARIATYPE"
+              "title": "Outline"
             }
           },
           {
@@ -636,11 +635,11 @@
       "iconic:Open rulebook": false
     }
   },
-  "active": "cd22a45ae9ef0c95",
+  "active": "3b8b4b24d88a173c",
   "lastOpenFiles": [
+    "CYBER/13 CTFS & LABS/HTB/VARIATYPE.md",
     "CYBER/04 EXPLOITATION/METASPLOIT FRAMEWORK/05 PAYLOADS.md",
     "CYBER/02 SECURITY FOUNDATIONS/VULNERABILITY_ASSESSMENT/02 VULNERABILITY ASSESSMENT.md",
-    "CYBER/13 CTFS & LABS/HTB/VARIATYPE.md",
     "CYBER/13 CTFS & LABS/HTB/WINGDATA.md",
     "CYBER/13 CTFS & LABS/HTB/FACTS.md",
     "QUICK NOTES/WHITE-BOARD.md",
