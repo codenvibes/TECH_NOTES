@@ -1822,7 +1822,15 @@ font = fontforge.open('____')
 
 The script takes whatever the filename is and drops it into that blank space.
 
-In a "Normal" Scenario
+In a "Normal" Scenario if the filename is `font.ttf`, the computer sees:
+
+```python
+font = fontforge.open('coolfont.ttf')
+```
+
+**Result:** Python opens the file. Everything is fine.
+
+In the "Exploit" Scenario
 <div align="center">
 <br>
 <br>
