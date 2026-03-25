@@ -1985,7 +1985,7 @@ User steve may run the following commands on variatype:
 steve@variatype:/tmp/ffarchive-5725-1$ 
 ```
 
-The user **steve** can execute `/usr/bin/python3 /opt/font-tools/install_validator.py *` as **root** with `NOPASSWD`. The wildcard allows for arbitrary arguments to be passed to the Python script.
+The user **steve** can execute `/usr/bin/python3 /opt/font-tools/install_validator.py *` as **root** with `NOPASSWD`. The inclusion of the wildcard (`*`) indicates that any arguments passed to the script would also be executed with root privileges.
 <div align="center">
 <br>
 <br>
