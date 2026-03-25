@@ -1537,6 +1537,14 @@ www-data@variatype:~/portal.variatype.htb/public/files$
 <div align="center">
 <br>
 <br>
+</div>
+
+#### What do you gain from following these steps?
+
+
+<div align="center">
+<br>
+<br>
 ※※※※※※※※※※※※※※※※※※※※※※※※
 <br>
 <br>
