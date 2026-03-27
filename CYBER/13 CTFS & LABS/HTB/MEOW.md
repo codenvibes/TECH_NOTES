@@ -129,6 +129,60 @@ Nmap done: 1 IP address (1 host up) scanned in 31.43 seconds
 
 What username is able to log into the target over telnet with a blank password?
 ====
+
+```shell
+┌──(kali㉿kali)-[~/PUEMAN/HTB]
+└─$ telnet 10.129.60.19
+Trying 10.129.60.19...
+Connected to 10.129.60.19.
+Escape character is '^]'.
+
+  █  █         ▐▌     ▄█▄ █          ▄▄▄▄
+  █▄▄█ ▀▀█ █▀▀ ▐▌▄▀    █  █▀█ █▀█    █▌▄█ ▄▀▀▄ ▀▄▀
+  █  █ █▄█ █▄▄ ▐█▀▄    █  █ █ █▄▄    █▌▄█ ▀▄▄▀ █▀█
+
+
+Meow login: admin
+Password: 
+
+Login incorrect
+Meow login: root
+Welcome to Ubuntu 20.04.2 LTS (GNU/Linux 5.4.0-77-generic x86_64)
+
+ * Documentation:  https://help.ubuntu.com
+ * Management:     https://landscape.canonical.com
+ * Support:        https://ubuntu.com/advantage
+
+  System information as of Fri 27 Mar 2026 10:46:18 PM UTC
+
+  System load:           0.0
+  Usage of /:            41.7% of 7.75GB
+  Memory usage:          4%
+  Swap usage:            0%
+  Processes:             138
+  Users logged in:       0
+  IPv4 address for eth0: 10.129.60.19
+  IPv6 address for eth0: dead:beef::250:56ff:feb0:8b68
+
+ * Super-optimized for small spaces - read how we shrank the memory
+   footprint of MicroK8s to make it the smallest full K8s around.
+
+   https://ubuntu.com/blog/microk8s-memory-optimisation
+
+75 updates can be applied immediately.
+31 of these updates are standard security updates.
+To see these additional updates run: apt list --upgradable
+
+
+The list of available updates is more than a week old.
+To check for new updates run: sudo apt update
+Ubuntu comes with ABSOLUTELY NO WARRANTY, to the extent permitted by
+applicable law.
+
+
+Last login: Mon Sep  6 15:15:23 UTC 2021 from 10.10.14.18 on pts/0
+root@Meow:~# 
+```
 <div align="center">
 <br>
 <br>
