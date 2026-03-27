@@ -76,6 +76,7 @@ What tool do we use to test our connection to the target with an ICMP echo reque
 ## Task 5
 
 What is the name of the most common tool for finding open ports on a target?
+==nmap==
 <div align="center">
 <br>
 <br>
@@ -85,6 +86,9 @@ What is the name of the most common tool for finding open ports on a target?
 <!-- PAGE BREAK -->
 
 ## Task 6
+
+What service do we identify on port 23/tcp during our scans?
+====
 <div align="center">
 <br>
 <br>
