@@ -7,22 +7,6 @@ image: https://htb-mp-prod-public-storage.s3.eu-central-1.amazonaws.com/avatars/
 date: 2026-03-28
 pawned:
 ---
-## Summary
-
-| SECTION/TASK     | FLAG |
-| ---------------- | ---- |
-| Submit User Flag |      |
-| Submit Root Flag |      |
-
-<div align="center">
-<br>
-<br>
-※※※※※※※※※※※※※※※※※※※※※※※※※※※※※※※※※※※※※※※※※※※※※※※※
-<br>
-</div>
-<!-- PAGE BREAK -->
-<div style="page-break-after: always;"></div>
-
 ## 1. Connect to Hack The Box
 
 To attack the target machine, you must be on the same network. Connect to the Starting Point VPN using one of the following options.
@@ -38,6 +22,8 @@ To attack the target machine, you must be on the same network. Connect to the St
 <div style="page-break-after: always;"></div>
 
 ## Task 1
+
+What does the acronym VM stand for?
 <div align="center">
 <br>
 <br>
