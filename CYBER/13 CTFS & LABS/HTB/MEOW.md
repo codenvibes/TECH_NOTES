@@ -185,6 +185,18 @@ applicable law.
 Last login: Mon Sep  6 15:15:23 UTC 2021 from 10.10.14.18 on pts/0
 root@Meow:~# 
 ```
+
+Telnet allows users to connect to a server without needing a specific identity by utilizing a `passwordless` login feature. This method is commonly employed for accessing or downloading public files.
+
+```
+telnet X.X.X.X#provide username#do not provide any password
+```
+
+If anonymous login is disabled on the Telnet server, trying common usernames and passwords like `admin`, `administrator` , `root` , `user`, or `test` can be a good initial step. This approach is less aggressive than attempting to guess passwords through brute force and is recommended to try first when accessing a server.
+
+```
+telnet X.X.X.X#provide a common username#provide a common password
+```
 <div align="center">
 <br>
 <br>
