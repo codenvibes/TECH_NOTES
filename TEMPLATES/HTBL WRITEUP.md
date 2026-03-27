@@ -23,7 +23,7 @@ pawned:
 <div style="page-break-after: always;"></div>
 
 ## 1. Reconnaissance & Discovery
-### 1.1 Connecting to the HTB VPN
+### 1.1 Connect to Hack The Box
 
 First, download your personalized `.ovpn` file from Hack The Box.
 
