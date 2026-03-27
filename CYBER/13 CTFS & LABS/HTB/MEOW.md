@@ -62,7 +62,8 @@ What service do we use to form our VPN connection into HTB labs?
 
 ## Task 4
 
-
+What tool do we use to test our connection to the target with an ICMP echo request?
+==ping==
 <div align="center">
 <br>
 <br>
@@ -73,6 +74,8 @@ What service do we use to form our VPN connection into HTB labs?
 <div style="page-break-after: always;"></div>
 
 ## Task 5
+
+What is the name of the most common tool for finding open ports on a target?
 <div align="center">
 <br>
 <br>
