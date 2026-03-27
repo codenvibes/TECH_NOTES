@@ -27,15 +27,8 @@ pawned:
 
 To attack the target machine, you must be on the same network. Connect to the Starting Point VPN using one of the following options.
 
+![[Pasted image 20260328011829.png]]
 
-<div align="center">
-<br>
-※※※※※※※※※※※※※※※※※※※※※※※※
-<br>
-<br>
-</div>
-
-### 2.2 
 <div align="center">
 <br>
 <br>
