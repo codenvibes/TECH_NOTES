@@ -153,12 +153,12 @@
                     "state": {
                       "type": "markdown",
                       "state": {
-                        "file": "TEMPLATES/HTBL WRITEUP.md",
+                        "file": "CYBER/13 CTFS & LABS/HTB/FACTS.md",
                         "mode": "source",
                         "source": false
                       },
                       "icon": "lucide-file",
-                      "title": "HTBL WRITEUP"
+                      "title": "FACTS"
                     }
                   }
                 ],
@@ -404,9 +404,23 @@
                       "icon": "lucide-file",
                       "title": "VARIATYPE"
                     }
+                  },
+                  {
+                    "id": "8e3b5aadec3bdbcb",
+                    "type": "leaf",
+                    "state": {
+                      "type": "markdown",
+                      "state": {
+                        "file": "CYBER/13 CTFS & LABS/HTB/Untitled.md",
+                        "mode": "source",
+                        "source": false
+                      },
+                      "icon": "lucide-file",
+                      "title": "Untitled"
+                    }
                   }
                 ],
-                "currentTab": 7
+                "currentTab": 8
               }
             ],
             "direction": "horizontal"
@@ -552,13 +566,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "TEMPLATES/HTBL WRITEUP.md",
+                "file": "CYBER/13 CTFS & LABS/HTB/Untitled.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of HTBL WRITEUP"
+              "title": "Outline of Untitled"
             }
           },
           {
@@ -623,18 +637,19 @@
       "iconic:Open rulebook": false
     }
   },
-  "active": "7be10445e13112be",
+  "active": "8e3b5aadec3bdbcb",
   "lastOpenFiles": [
+    "CYBER/13 CTFS & LABS/HTB/VARIATYPE.md",
+    "CYBER/13 CTFS & LABS/HTB/Untitled.md",
     "CYBER/13 CTFS & LABS/HTB/FACTS.md",
+    "TEMPLATES/HTBL WRITEUP.md",
     "DEVOPS/12 CLOUD/GENERAL CLOUD CONCEPTS/01 CLOUD COMPUTING.md",
     "CYBER/13 CTFS & LABS/HTB/WINGDATA.md",
-    "CYBER/13 CTFS & LABS/HTB/VARIATYPE.md",
     "ASSETS/CVE-2025-66034.png",
     "ASSETS/Pasted image 20260325161508.png",
     "CYBER/04 EXPLOITATION/METASPLOIT FRAMEWORK/05 PAYLOADS.md",
     "CYBER/02 SECURITY FOUNDATIONS/VULNERABILITY_ASSESSMENT/02 VULNERABILITY ASSESSMENT.md",
     "QUICK NOTES/WHITE-BOARD.md",
-    "TEMPLATES/HTBL WRITEUP.md",
     "QUICK NOTES/TODO.md",
     "ASSETS/Pasted image 20260323161803.png",
     "ASSETS/Pasted image 20260323081024.png",
@@ -662,7 +677,6 @@
     "COURSES/MODULES.base",
     "CYBER/03 RECONNAISSANCE & ENUMERATION/00 ENUMERATION.md",
     "CYBER/08 TOOLS/BLOODHOUND.md",
-    "CYBER/08 TOOLS/PYTHON/IMPACKET.md",
     "COURSES/COURSES.base",
     "ASSETS/Unconfirmed 337402.crdownload",
     "CYBER/08 TOOLS/SQLMAP",
