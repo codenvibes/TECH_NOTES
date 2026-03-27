@@ -413,12 +413,12 @@
                     "state": {
                       "type": "markdown",
                       "state": {
-                        "file": "CYBER/13 CTFS & LABS/HTB/Untitled.md",
+                        "file": "CYBER/13 CTFS & LABS/HTB/MEOW.md",
                         "mode": "source",
                         "source": false
                       },
                       "icon": "lucide-file",
-                      "title": "Untitled"
+                      "title": "MEOW"
                     }
                   }
                 ],
@@ -568,13 +568,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "CYBER/13 CTFS & LABS/HTB/Untitled.md",
+                "file": "CYBER/13 CTFS & LABS/HTB/MEOW.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Untitled"
+              "title": "Outline of MEOW"
             }
           },
           {
@@ -641,7 +641,7 @@
   },
   "active": "8e3b5aadec3bdbcb",
   "lastOpenFiles": [
-    "CYBER/13 CTFS & LABS/HTB/Untitled.md",
+    "CYBER/13 CTFS & LABS/HTB/MEOW.md",
     "CYBER/13 CTFS & LABS/HTB/VARIATYPE.md",
     "CYBER/13 CTFS & LABS/HTB/FACTS.md",
     "TEMPLATES/HTBL WRITEUP.md",
