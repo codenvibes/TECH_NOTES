@@ -2,8 +2,8 @@
 tags:
   - THM_TIER0_FOUNDATIONS
 link: https://app.hackthebox.com/machines/Meow
-description:
-image:
+description: Very Easy·Linux
+image: https://htb-mp-prod-public-storage.s3.eu-central-1.amazonaws.com/avatars/61b5837dfdfe1fb1ca3750cf2712da44.png
 date:
 pawned:
 ---
@@ -13,8 +13,7 @@ pawned:
 | ---------------- | ---- |
 | Submit User Flag |      |
 | Submit Root Flag |      |
-Very Easy
-- ·Linux
+
 <div align="center">
 <br>
 <br>
