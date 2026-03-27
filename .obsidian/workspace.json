@@ -568,12 +568,13 @@
             "state": {
               "type": "outline",
               "state": {
+                "file": "CYBER/13 CTFS & LABS/HTB/MEOW.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline"
+              "title": "Outline of MEOW"
             }
           },
           {
@@ -638,10 +639,11 @@
       "iconic:Open rulebook": false
     }
   },
-  "active": "b3c018d836a73c76",
+  "active": "8e3b5aadec3bdbcb",
   "lastOpenFiles": [
-    "CYBER/13 CTFS & LABS/HTB/MEOW.md",
+    "ASSETS/Pasted image 20260328013715.png",
     "ASSETS/Pasted image 20260328011829.png",
+    "CYBER/13 CTFS & LABS/HTB/MEOW.md",
     "TEMPLATES/HTBL WRITEUP.md",
     "CYBER/13 CTFS & LABS/HTB/FACTS.md",
     "CYBER/13 CTFS & LABS/HTB/VARIATYPE.md",
