@@ -25,10 +25,8 @@ pawned:
 
 ## 1. Connect to Hack The Box
 
-| Port | **Service** | **Version** | **Analysis** |
-| ---- | ----------- | ----------- | ------------ |
-|      |             |             |              |
-|      |             |             |              |
+To attack the target machine, you must be on the same network. Connect to the Starting Point VPN using one of the following options.
+
 
 <div align="center">
 <br>
