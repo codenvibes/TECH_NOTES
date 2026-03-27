@@ -15,7 +15,7 @@
               {
                 "id": "eb7c5c7906b2a9d3",
                 "type": "tabs",
-                "dimension": 18.181818181818183,
+                "dimension": 75.71428571428571,
                 "children": [
                   {
                     "id": "10dd2c9178155b52",
@@ -40,27 +40,29 @@
                     "state": {
                       "type": "webviewer",
                       "state": {
-                        "url": "https://account.hackthebox.com/login",
-                        "title": "HTB Account",
+                        "url": "https://academy.hackthebox.com/app/dashboard",
+                        "title": "Dashboard | Hack The Box Academy",
                         "mode": "webview"
                       },
                       "pinned": true,
                       "icon": "globe-2",
-                      "title": "HTB Account"
+                      "title": "Dashboard | Hack The Box Academy"
                     }
                   },
                   {
-                    "id": "67bc1032adb5e955",
+                    "id": "b3c018d836a73c76",
                     "type": "leaf",
+                    "pinned": true,
                     "state": {
                       "type": "webviewer",
                       "state": {
-                        "url": "https://account.hackthebox.com/login",
-                        "title": "HTB Account",
+                        "url": "https://app.hackthebox.com/starting-point?tab=1",
+                        "title": "Hack The Box :: Starting Point",
                         "mode": "webview"
                       },
+                      "pinned": true,
                       "icon": "globe-2",
-                      "title": "HTB Account"
+                      "title": "Hack The Box :: Starting Point"
                     }
                   },
                   {
@@ -96,12 +98,12 @@
                     }
                   }
                 ],
-                "currentTab": 1
+                "currentTab": 2
               },
               {
                 "id": "0d9688c0329c8d14",
                 "type": "tabs",
-                "dimension": 81.81818181818183,
+                "dimension": 24.285714285714285,
                 "children": [
                   {
                     "id": "21fce08000a30866",
@@ -639,8 +641,8 @@
   },
   "active": "8e3b5aadec3bdbcb",
   "lastOpenFiles": [
-    "CYBER/13 CTFS & LABS/HTB/VARIATYPE.md",
     "CYBER/13 CTFS & LABS/HTB/Untitled.md",
+    "CYBER/13 CTFS & LABS/HTB/VARIATYPE.md",
     "CYBER/13 CTFS & LABS/HTB/FACTS.md",
     "TEMPLATES/HTBL WRITEUP.md",
     "DEVOPS/12 CLOUD/GENERAL CLOUD CONCEPTS/01 CLOUD COMPUTING.md",
