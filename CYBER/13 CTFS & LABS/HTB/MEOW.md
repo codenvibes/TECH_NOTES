@@ -90,7 +90,7 @@ What is the name of the most common tool for finding open ports on a target?
 What service do we identify on port 23/tcp during our scans?
 ==telnet==
 
-Output:
+**Output:**
 
 ```shell
 ┌──(kali㉿kali)-[~/PUEMAN/HTB]
@@ -126,6 +126,9 @@ Nmap done: 1 IP address (1 host up) scanned in 31.43 seconds
 <!-- PAGE BREAK -->
 
 ## Task 7
+
+What username is able to log into the target over telnet with a blank password?
+====
 <div align="center">
 <br>
 <br>

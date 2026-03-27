@@ -568,13 +568,12 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "CYBER/13 CTFS & LABS/HTB/MEOW.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of MEOW"
+              "title": "Outline"
             }
           },
           {
@@ -639,11 +638,11 @@
       "iconic:Open rulebook": false
     }
   },
-  "active": "8e3b5aadec3bdbcb",
+  "active": "b3c018d836a73c76",
   "lastOpenFiles": [
+    "CYBER/13 CTFS & LABS/HTB/MEOW.md",
     "ASSETS/Pasted image 20260328013715.png",
     "ASSETS/Pasted image 20260328011829.png",
-    "CYBER/13 CTFS & LABS/HTB/MEOW.md",
     "TEMPLATES/HTBL WRITEUP.md",
     "CYBER/13 CTFS & LABS/HTB/FACTS.md",
     "CYBER/13 CTFS & LABS/HTB/VARIATYPE.md",
@@ -661,7 +660,6 @@
     "ASSETS/Pasted image 20260323072630.png",
     "ASSETS/Pasted image 20260322183239.png",
     "ASSETS/Pasted image 20260322172725.png",
-    "ASSETS/Pasted image 20260322124112.png",
     "CYBER/13 CTFS & LABS/THM/OPERATION ENDGAME.md",
     "CYBER/13 CTFS & LABS/HTB/MONITORSFOUR.md",
     "CYBER/13 CTFS & LABS/HTB/PIRATE.md",
