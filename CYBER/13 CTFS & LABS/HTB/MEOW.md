@@ -128,7 +128,9 @@ Nmap done: 1 IP address (1 host up) scanned in 31.43 seconds
 ## Task 7
 
 What username is able to log into the target over telnet with a blank password?
-====
+==root==
+
+**Output:**
 
 ```shell
 ┌──(kali㉿kali)-[~/PUEMAN/HTB]
