@@ -15,7 +15,7 @@
               {
                 "id": "eb7c5c7906b2a9d3",
                 "type": "tabs",
-                "dimension": 87.01298701298701,
+                "dimension": 44.54545454545455,
                 "children": [
                   {
                     "id": "10dd2c9178155b52",
@@ -40,13 +40,13 @@
                     "state": {
                       "type": "webviewer",
                       "state": {
-                        "url": "https://academy.hackthebox.com/app/module/58/section/517",
-                        "title": "Running SQLMap on an HTTP Request | Hack The Box Academy",
+                        "url": "https://account.hackthebox.com/login",
+                        "title": "HTB Account",
                         "mode": "webview"
                       },
                       "pinned": true,
                       "icon": "globe-2",
-                      "title": "Running SQLMap on an HTTP Request | Hack The Box Academy"
+                      "title": "HTB Account"
                     }
                   },
                   {
@@ -88,7 +88,7 @@
                       "state": {
                         "url": "https://gemini.google.com/app/05080201d082773a",
                         "title": "Google Gemini",
-                        "mode": "blank"
+                        "mode": "webview"
                       },
                       "pinned": true,
                       "icon": "globe-2",
@@ -96,12 +96,12 @@
                     }
                   }
                 ],
-                "currentTab": 4
+                "currentTab": 1
               },
               {
                 "id": "0d9688c0329c8d14",
                 "type": "tabs",
-                "dimension": 12.987012987012985,
+                "dimension": 55.45454545454545,
                 "children": [
                   {
                     "id": "21fce08000a30866",
@@ -134,20 +134,6 @@
                     }
                   },
                   {
-                    "id": "2b2caeec6788473b",
-                    "type": "leaf",
-                    "state": {
-                      "type": "webviewer",
-                      "state": {
-                        "url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhap_GQeaE6xieluGrEC7XzBgStnltc-AhJaOj2bjnp2DZOLzsViM7j4PVcICSJ7P4pikT31SVOh6RA6l-TNdD9q6uAQnyhVmcEisrzCp0VD8E75KdjbEt6frIKp9qvQdMkrkONUYv-WfAiYi6-iq6w8VNcYM5yp1FPiGXBcdqdQ2MrZz3YFYjAysq1UtOZ/s1846/bandicam%202026-03-21%2010-01-16-445.jpg",
-                        "title": "bandicam 2026-03-21 10-01-16-445.jpg (1846×132)",
-                        "mode": "webview"
-                      },
-                      "icon": "globe-2",
-                      "title": "bandicam 2026-03-21 10-01-16-445.jpg (1846×132)"
-                    }
-                  },
-                  {
                     "id": "3dbdf2692670b270",
                     "type": "leaf",
                     "state": {
@@ -176,7 +162,7 @@
                     }
                   }
                 ],
-                "currentTab": 4
+                "currentTab": 1
               }
             ],
             "direction": "horizontal"
@@ -566,13 +552,12 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "CYBER/13 CTFS & LABS/HTB/VARIATYPE.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of VARIATYPE"
+              "title": "Outline"
             }
           },
           {
@@ -637,13 +622,14 @@
       "iconic:Open rulebook": false
     }
   },
-  "active": "cd22a45ae9ef0c95",
+  "active": "1829a2d1d4c98997",
   "lastOpenFiles": [
+    "DEVOPS/12 CLOUD/GENERAL CLOUD CONCEPTS/01 CLOUD COMPUTING.md",
+    "CYBER/13 CTFS & LABS/HTB/WINGDATA.md",
     "CYBER/13 CTFS & LABS/HTB/VARIATYPE.md",
     "CYBER/13 CTFS & LABS/HTB/FACTS.md",
     "ASSETS/CVE-2025-66034.png",
     "ASSETS/Pasted image 20260325161508.png",
-    "CYBER/13 CTFS & LABS/HTB/WINGDATA.md",
     "CYBER/04 EXPLOITATION/METASPLOIT FRAMEWORK/05 PAYLOADS.md",
     "CYBER/02 SECURITY FOUNDATIONS/VULNERABILITY_ASSESSMENT/02 VULNERABILITY ASSESSMENT.md",
     "QUICK NOTES/WHITE-BOARD.md",
