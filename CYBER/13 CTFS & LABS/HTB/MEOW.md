@@ -88,7 +88,35 @@ What is the name of the most common tool for finding open ports on a target?
 ## Task 6
 
 What service do we identify on port 23/tcp during our scans?
-====
+==telnet==
+
+Output:
+
+```shell
+┌──(kali㉿kali)-[~/PUEMAN/HTB]
+└─$ nmap -A -p 23 10.129.60.19
+Starting Nmap 7.98 ( https://nmap.org ) at 2026-03-27 18:39 -0400
+Nmap scan report for 10.129.60.19
+Host is up (0.28s latency).
+
+PORT   STATE SERVICE VERSION
+23/tcp open  telnet  Linux telnetd
+Warning: OSScan results may be unreliable because we could not find at least 1 open and 1 closed port
+Device type: general purpose|router
+Running: Linux 4.X|5.X, MikroTik RouterOS 7.X
+OS CPE: cpe:/o:linux:linux_kernel:4 cpe:/o:linux:linux_kernel:5 cpe:/o:mikrotik:routeros:7 cpe:/o:linux:linux_kernel:5.6.3
+OS details: Linux 4.15 - 5.19, MikroTik RouterOS 7.2 - 7.5 (Linux 5.6.3)
+Network Distance: 2 hops
+Service Info: OS: Linux; CPE: cpe:/o:linux:linux_kernel
+
+TRACEROUTE (using port 23/tcp)
+HOP RTT       ADDRESS
+1   279.47 ms 10.10.14.1
+2   279.79 ms 10.129.60.19
+
+OS and Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+Nmap done: 1 IP address (1 host up) scanned in 31.43 seconds
+```
 <div align="center">
 <br>
 <br>
