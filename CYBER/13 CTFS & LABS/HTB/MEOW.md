@@ -206,6 +206,13 @@ telnet X.X.X.X#provide a common username#provide a common password
 <!-- PAGE BREAK -->
 
 ## Submit Flag
+
+**Output:**
+
+```shell
+root@Meow:~# cat flag.txt 
+b40abdfe23665f766f9c61ecba8a4c19
+```
 <div align="center">
 <br>
 <br>
