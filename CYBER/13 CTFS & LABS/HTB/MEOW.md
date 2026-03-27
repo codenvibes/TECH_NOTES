@@ -28,7 +28,6 @@ pawned:
 To attack the target machine, you must be on the same network. Connect to the Starting Point VPN using one of the following options.
 
 ![[Pasted image 20260328011829.png]]
-
 <div align="center">
 <br>
 <br>
@@ -38,7 +37,7 @@ To attack the target machine, you must be on the same network. Connect to the St
 <!-- PAGE BREAK -->
 <div style="page-break-after: always;"></div>
 
-## 3. Exploitation
+## 2. Task 1
 <div align="center">
 <br>
 <br>
@@ -48,7 +47,7 @@ To attack the target machine, you must be on the same network. Connect to the St
 <!-- PAGE BREAK -->
 <div style="page-break-after: always;"></div>
 
-## 4. Post-Exploitation
+## 3. Post-Exploitation
 <div align="center">
 <br>
 <br>
