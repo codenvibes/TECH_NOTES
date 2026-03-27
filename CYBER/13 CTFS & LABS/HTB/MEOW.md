@@ -24,6 +24,7 @@ To attack the target machine, you must be on the same network. Connect to the St
 ## Task 1
 
 What does the acronym VM stand for?
+==Virtual Machine==
 <div align="center">
 <br>
 <br>
@@ -34,6 +35,8 @@ What does the acronym VM stand for?
 <div style="page-break-after: always;"></div>
 
 ## Task 2
+
+What tool do we use to interact with the operating system in order to issue commands via the command line, such as the one to start our VPN connection? It's also known as a console or shell.
 <div align="center">
 <br>
 <br>
