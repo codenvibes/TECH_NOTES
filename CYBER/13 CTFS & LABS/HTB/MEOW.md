@@ -37,6 +37,7 @@ What does the acronym VM stand for?
 ## Task 2
 
 What tool do we use to interact with the operating system in order to issue commands via the command line, such as the one to start our VPN connection? It's also known as a console or shell.
+==terminal==
 <div align="center">
 <br>
 <br>
@@ -47,6 +48,9 @@ What tool do we use to interact with the operating system in order to issue comm
 <div style="page-break-after: always;"></div>
 
 ## Task 3
+
+What service do we use to form our VPN connection into HTB labs?
+==openvpn==
 <div align="center">
 <br>
 <br>
@@ -57,6 +61,8 @@ What tool do we use to interact with the operating system in order to issue comm
 <div style="page-break-after: always;"></div>
 
 ## Task 4
+
+
 <div align="center">
 <br>
 <br>
