@@ -1,7 +1,7 @@
 ---
 tags:
   - THM_TIER0_FOUNDATIONS
-link:
+link: https://app.hackthebox.com/machines/Meow
 description:
 image:
 date:
@@ -13,7 +13,8 @@ pawned:
 | ---------------- | ---- |
 | Submit User Flag |      |
 | Submit Root Flag |      |
-
+Very Easy
+- ·Linux
 <div align="center">
 <br>
 <br>
