@@ -47,7 +47,7 @@ To attack the target machine, you must be on the same network. Connect to the St
 <!-- PAGE BREAK -->
 <div style="page-break-after: always;"></div>
 
-## 3. Post-Exploitation
+## 3. Task 2
 <div align="center">
 <br>
 <br>
@@ -57,7 +57,7 @@ To attack the target machine, you must be on the same network. Connect to the St
 <!-- PAGE BREAK -->
 <div style="page-break-after: always;"></div>
 
-## 5. PrivEsc
+## 4. Task 3
 <div align="center">
 <br>
 <br>
@@ -67,7 +67,7 @@ To attack the target machine, you must be on the same network. Connect to the St
 <!-- PAGE BREAK -->
 <div style="page-break-after: always;"></div>
 
-## 6. Conclusion & Remediation
+## 5. Task 4
 <div align="center">
 <br>
 <br>
