@@ -224,5 +224,16 @@ b40abdfe23665f766f9c61ecba8a4c19
 </div>
 <!-- PAGE BREAK -->
 
+## Final Steps
+
+Submit exploitation characteristics, rate this machine and leave your feedback.
+<div align="center">
+<br>
+<br>
+※※※※※※※※※※※※※※※※※※※※※※※※※※※※※※※※※※※※※※※※※※※※※※※※
+<br>
+</div>
+<!-- PAGE BREAK -->
+
 ## References
 
