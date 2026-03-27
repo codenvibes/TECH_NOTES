@@ -207,6 +207,9 @@ telnet X.X.X.X#provide a common username#provide a common password
 
 ## Submit Flag
 
+Submit root flag.
+==b40abdfe23665f766f9c61ecba8a4c19==
+
 **Output:**
 
 ```shell
