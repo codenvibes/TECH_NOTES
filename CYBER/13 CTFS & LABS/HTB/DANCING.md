@@ -92,7 +92,23 @@ What is the 'flag' or 'switch' that we can use with the smbclient utility to 'li
 How many shares are there on Dancing?
 ==4==
 
-Output:
+**Output:**
+
+```shell
+┌──(kali㉿kali)-[~/PUEMAN/HTB]
+└─$ smbclient -L 10.129.18.40              
+Password for [WORKGROUP\kali]:
+
+        Sharename       Type      Comment
+        ---------       ----      -------
+        ADMIN$          Disk      Remote Admin
+        C$              Disk      Default share
+        IPC$            IPC       Remote IPC
+        WorkShares      Disk      
+Reconnecting with SMB1 for workgroup listing.
+do_connect: Connection to 10.129.18.40 failed (Error NT_STATUS_RESOURCE_NAME_NOT_FOUND)
+Unable to connect with SMB1 -- no workgroup available
+```
 <div align="center">
 <br>
 <br>
@@ -103,7 +119,7 @@ Output:
 
 ## Task 6
 
-
+What is the name of the share we are able to access in the end with a blank password?
 == ==
 <div align="center">
 <br>
