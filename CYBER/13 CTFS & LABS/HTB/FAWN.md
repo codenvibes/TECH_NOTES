@@ -48,8 +48,8 @@ Which port does the FTP service listen on usually?
 
 ## Task 3
 
-
-====
+FTP sends data in the clear, without any encryption. What acronym is used for a later protocol designed to provide similar functionality to FTP but securely, as an extension of the SSH protocol?
+== ==
 <div align="center">
 <br>
 <br>
@@ -62,7 +62,7 @@ Which port does the FTP service listen on usually?
 ## Task 4
 
 
-====
+== ==
 <div align="center">
 <br>
 <br>
@@ -75,7 +75,7 @@ Which port does the FTP service listen on usually?
 ## Task 5
 
 
-====
+== ==
 <div align="center">
 <br>
 <br>
@@ -87,7 +87,7 @@ Which port does the FTP service listen on usually?
 ## Task 6
 
 
-====
+== ==
 <div align="center">
 <br>
 <br>
