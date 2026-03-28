@@ -203,7 +203,7 @@ ftp> dir
 ## Task 11
 
 What is the command used to download the file we found on the FTP server?
-== ==
+==get==
 
 **Output:**
 
@@ -233,6 +233,23 @@ ftp> exit
 ## Final Steps
 
 
+**Output:**
+
+```shell
+ftp> get flag.txt
+local: flag.txt remote: flag.txt
+229 Entering Extended Passive Mode (|||46866|)
+150 Opening BINARY mode data connection for flag.txt (32 bytes).
+100% |*********************************************|    32       18.46 KiB/s    00:00 ETA
+226 Transfer complete.
+32 bytes received in 00:00 (0.05 KiB/s)
+ftp> exit
+221 Goodbye.
+
+┌──(kali㉿kali)-[~/PUEMAN/HTB]
+└─$ cat  flag.txt             
+035db21c881520061c53e0536e44f815                                                                                          
+```
 <div align="center">
 <br>
 <br>
