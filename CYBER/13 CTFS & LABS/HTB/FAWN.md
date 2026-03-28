@@ -131,7 +131,17 @@ What is username that is used over FTP when you want to log in without having an
 ==anonymous==
 
 ```shell
-
+┌──(kali㉿kali)-[~/PUEMAN/HTB]
+└─$ ftp 10.129.61.67
+Connected to 10.129.61.67.
+220 (vsFTPd 3.0.3)
+Name (10.129.61.67:kali): anonymous
+331 Please specify the password.
+Password: 
+230 Login successful.
+Remote system type is UNIX.
+Using binary mode to transfer files.
+ftp> 
 ```
 <div align="center">
 <br>
