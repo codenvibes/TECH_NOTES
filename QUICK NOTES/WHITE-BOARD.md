@@ -1,7 +1,7 @@
 ## Cyber Journey
 
-🛡️ DAY 49 of my #CYBERSECURITY Journey!
-Completed the ## Dancing machine on Hack The Box.
+🛡️ DAY 50 of my #CYBERSECURITY Journey!
+Pawned the Dancing machine on Hack The Box.
 
 
 AD4MPU3MAN
