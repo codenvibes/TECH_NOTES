@@ -48,7 +48,13 @@ What port does SMB use to operate at?
 ## Task 3
 
 What is the service name for port 445 that came up in our Nmap scan?
-== ==
+==microsoft-ds==
+
+**Output:**
+
+```shell
+
+```
 <div align="center">
 <br>
 <br>
