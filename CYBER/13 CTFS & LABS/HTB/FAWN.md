@@ -163,7 +163,7 @@ ftp>
 
 ## Task 9
 
-
+What is the response code we get for the FTP message 'Login successful'?
 == ==
 <div align="center">
 <br>
