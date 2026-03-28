@@ -105,27 +105,6 @@ Nmap done: 1 IP address (1 host up) scanned in 5.77 seconds
 
 From your scans, what OS type is running on the target?
 ==Unix==
-
-**Output:**
-
-```shell
-┌──(kali㉿kali)-[~/PUEMAN/HTB]
-└─$ nmap -O 10.129.61.67       
-Starting Nmap 7.98 ( https://nmap.org ) at 2026-03-28 10:12 -0400
-Nmap scan report for 10.129.61.67
-Host is up (0.57s latency).
-Not shown: 999 closed tcp ports (reset)
-PORT   STATE SERVICE
-21/tcp open  ftp
-Device type: general purpose|router
-Running: Linux 4.X|5.X, MikroTik RouterOS 7.X
-OS CPE: cpe:/o:linux:linux_kernel:4 cpe:/o:linux:linux_kernel:5 cpe:/o:mikrotik:routeros:7 cpe:/o:linux:linux_kernel:5.6.3
-OS details: Linux 4.15 - 5.19, MikroTik RouterOS 7.2 - 7.5 (Linux 5.6.3)
-Network Distance: 2 hops
-
-OS detection performed. Please report any incorrect results at https://nmap.org/submit/ .
-Nmap done: 1 IP address (1 host up) scanned in 11.73 seconds
-```
 <div align="center">
 <br>
 <br>
@@ -136,7 +115,7 @@ Nmap done: 1 IP address (1 host up) scanned in 11.73 seconds
 
 ## Task 7
 
-
+What is the command we need to run in order to display the 'ftp' client help menu?
 == ==
 <div align="center">
 <br>
