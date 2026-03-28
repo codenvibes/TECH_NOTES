@@ -176,7 +176,20 @@ What is the response code we get for the FTP message 'Login successful'?
 ## Task 10
 
 There are a couple of commands we can use to list the files and directories available on the FTP server. One is dir. What is the other that is a common way to list files on a Linux system.
-== ==
+==ls==
+
+```shell
+ftp> ls
+229 Entering Extended Passive Mode (|||49134|)
+150 Here comes the directory listing.
+-rw-r--r--    1 0        0              32 Jun 04  2021 flag.txt
+226 Directory send OK.
+ftp> dir
+229 Entering Extended Passive Mode (|||20937|)
+150 Here comes the directory listing.
+-rw-r--r--    1 0        0              32 Jun 04  2021 flag.txt
+226 Directory send OK.
+```
 <div align="center">
 <br>
 <br>
@@ -187,7 +200,7 @@ There are a couple of commands we can use to list the files and directories avai
 
 ## Task 11
 
-
+What is the command used to download the file we found on the FTP server?
 == ==
 <div align="center">
 <br>
