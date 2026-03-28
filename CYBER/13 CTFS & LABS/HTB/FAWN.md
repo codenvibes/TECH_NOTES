@@ -103,7 +103,7 @@ Nmap done: 1 IP address (1 host up) scanned in 5.77 seconds
 
 ## Task 6
 
-
+From your scans, what OS type is running on the target?
 == ==
 <div align="center">
 <br>
@@ -149,7 +149,19 @@ Nmap done: 1 IP address (1 host up) scanned in 5.77 seconds
 </div>
 <!-- PAGE BREAK -->
 
-## Task 
+## Task 10
+
+
+== ==
+<div align="center">
+<br>
+<br>
+※※※※※※※※※※※※※※※※※※※※※※※※※※※※※※※※※※※※※※※※※※※※※※※※
+<br>
+</div>
+<!-- PAGE BREAK -->
+
+## Task 11
 
 
 == ==
