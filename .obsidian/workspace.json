@@ -56,13 +56,13 @@
                     "state": {
                       "type": "webviewer",
                       "state": {
-                        "url": "https://app.hackthebox.com/machines/Fawn?sort_by=created_at&sort_type=desc",
-                        "title": "Hack The Box :: Fawn Machine",
+                        "url": "https://app.hackthebox.com/starting-point?tab=1",
+                        "title": "Hack The Box :: Starting Point",
                         "mode": "webview"
                       },
                       "pinned": true,
                       "icon": "globe-2",
-                      "title": "Hack The Box :: Fawn Machine"
+                      "title": "Hack The Box :: Starting Point"
                     }
                   },
                   {
@@ -568,13 +568,12 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "CYBER/13 CTFS & LABS/HTB/FAWN.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of FAWN"
+              "title": "Outline"
             }
           },
           {
@@ -639,10 +638,10 @@
       "iconic:Open rulebook": false
     }
   },
-  "active": "14af5cdf7aec8450",
+  "active": "b3c018d836a73c76",
   "lastOpenFiles": [
-    "CYBER/13 CTFS & LABS/HTB/MEOW.md",
     "CYBER/13 CTFS & LABS/HTB/FAWN.md",
+    "CYBER/13 CTFS & LABS/HTB/MEOW.md",
     "CYBER/13 CTFS & LABS/HTB/FACTS.md",
     "ASSETS/Pasted image 20260328013715.png",
     "ASSETS/Pasted image 20260328011829.png",
