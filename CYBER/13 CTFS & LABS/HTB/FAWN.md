@@ -130,6 +130,8 @@ What is the command we need to run in order to display the 'ftp' client help men
 What is username that is used over FTP when you want to log in without having an account?
 ==anonymous==
 
+**Output:**
+
 ```shell
 ┌──(kali㉿kali)-[~/PUEMAN/HTB]
 └─$ ftp 10.129.61.67
