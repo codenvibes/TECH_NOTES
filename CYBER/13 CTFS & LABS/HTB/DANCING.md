@@ -157,9 +157,10 @@ What is the command we can use within the SMB shell to download the files we fin
 </div>
 <!-- PAGE BREAK -->
 
-## Final Steps
+## Submit Flag
 
-
+Submit root flag
+==get==
 <div align="center">
 <br>
 <br>
