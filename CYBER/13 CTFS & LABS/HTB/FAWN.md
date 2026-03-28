@@ -116,7 +116,7 @@ From your scans, what OS type is running on the target?
 ## Task 7
 
 What is the command we need to run in order to display the 'ftp' client help menu?
-== ==
+`ftp -?`
 <div align="center">
 <br>
 <br>
@@ -127,7 +127,7 @@ What is the command we need to run in order to display the 'ftp' client help men
 
 ## Task 8
 
-
+What is username that is used over FTP when you want to log in without having an account?
 == ==
 <div align="center">
 <br>
