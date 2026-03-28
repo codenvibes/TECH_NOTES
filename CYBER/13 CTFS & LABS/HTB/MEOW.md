@@ -7,7 +7,7 @@ image: https://htb-mp-prod-public-storage.s3.eu-central-1.amazonaws.com/avatars/
 date: 2026-03-28
 pawned:
 ---
-## 1. Connect to Hack The Box
+## Connect to Hack The Box
 
 To attack the target machine, you must be on the same network. Connect to the Starting Point VPN using one of the following options.
 
