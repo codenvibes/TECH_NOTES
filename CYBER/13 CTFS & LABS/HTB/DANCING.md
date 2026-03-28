@@ -21,7 +21,7 @@ pawned:
 
 ## Task 1
 
-
+What does the 3-letter acronym SMB stand for?
 == ==
 <div align="center">
 <br>

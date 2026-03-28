@@ -470,12 +470,13 @@
             "state": {
               "type": "outline",
               "state": {
+                "file": "CYBER/13 CTFS & LABS/HTB/DANCING.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline"
+              "title": "Outline of DANCING"
             }
           },
           {
@@ -540,11 +541,11 @@
       "iconic:Open rulebook": false
     }
   },
-  "active": "b3c018d836a73c76",
+  "active": "e9fa32eca0f1f585",
   "lastOpenFiles": [
+    "CYBER/13 CTFS & LABS/HTB/FAWN.md",
     "CYBER/13 CTFS & LABS/HTB/DANCING.md",
     "CYBER/13 CTFS & LABS/HTB/MEOW.md",
-    "CYBER/13 CTFS & LABS/HTB/FAWN.md",
     "CYBER/13 CTFS & LABS/CTFS & LABS.base",
     "CYBER/13 CTFS & LABS/HTB/FACTS.md",
     "ASSETS/Pasted image 20260328013715.png",
