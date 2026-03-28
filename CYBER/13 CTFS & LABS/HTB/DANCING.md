@@ -53,7 +53,17 @@ What is the service name for port 445 that came up in our Nmap scan?
 **Output:**
 
 ```shell
+┌──(kali㉿kali)-[~/PUEMAN/HTB]
+└─$ nmap -sV -p 445 10.129.18.40
+Starting Nmap 7.98 ( https://nmap.org ) at 2026-03-28 11:08 -0400
+Nmap scan report for 10.129.18.40
+Host is up (0.57s latency).
 
+PORT    STATE SERVICE       VERSION
+445/tcp open  microsoft-ds?
+
+Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+Nmap done: 1 IP address (1 host up) scanned in 48.10 seconds
 ```
 <div align="center">
 <br>
@@ -66,7 +76,7 @@ What is the service name for port 445 that came up in our Nmap scan?
 
 ## Task 4
 
-
+What is the 'flag' or 'switch' that we can use with the smbclient utility to 'list' the available shares on Dancing?
 == ==
 <div align="center">
 <br>
