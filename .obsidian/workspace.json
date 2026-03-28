@@ -568,12 +568,13 @@
             "state": {
               "type": "outline",
               "state": {
+                "file": "CYBER/13 CTFS & LABS/HTB/FAWN.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline"
+              "title": "Outline of FAWN"
             }
           },
           {
@@ -638,10 +639,10 @@
       "iconic:Open rulebook": false
     }
   },
-  "active": "b3c018d836a73c76",
+  "active": "14af5cdf7aec8450",
   "lastOpenFiles": [
-    "CYBER/13 CTFS & LABS/HTB/FAWN.md",
     "CYBER/13 CTFS & LABS/HTB/MEOW.md",
+    "CYBER/13 CTFS & LABS/HTB/FAWN.md",
     "CYBER/13 CTFS & LABS/HTB/FACTS.md",
     "ASSETS/Pasted image 20260328013715.png",
     "ASSETS/Pasted image 20260328011829.png",

@@ -1,10 +1,11 @@
 ---
 tags:
+  - THM_TIER0_FOUNDATIONS
 link:
 description:
 image:
 date:
-pawned:
+pawned: true
 ---
 ## Connect to Hack The Box
 
