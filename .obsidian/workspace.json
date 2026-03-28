@@ -363,7 +363,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "ports",
+                "query": "\"ports\"",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": true,
