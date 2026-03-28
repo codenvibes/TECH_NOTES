@@ -35,7 +35,7 @@ What does the 3-letter acronym SMB stand for?
 ## Task 2
 
 What port does SMB use to operate at?
-== ==
+==445==
 <div align="center">
 <br>
 <br>
@@ -47,7 +47,7 @@ What port does SMB use to operate at?
 
 ## Task 3
 
-
+What is the service name for port 445 that came up in our Nmap scan?
 == ==
 <div align="center">
 <br>
