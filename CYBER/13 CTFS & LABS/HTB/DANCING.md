@@ -77,7 +77,7 @@ Nmap done: 1 IP address (1 host up) scanned in 48.10 seconds
 ## Task 4
 
 What is the 'flag' or 'switch' that we can use with the smbclient utility to 'list' the available shares on Dancing?
-== ==
+==-L==
 <div align="center">
 <br>
 <br>
@@ -89,7 +89,7 @@ What is the 'flag' or 'switch' that we can use with the smbclient utility to 'li
 
 ## Task 5
 
-
+How many shares are there on Dancing?
 == ==
 <div align="center">
 <br>
