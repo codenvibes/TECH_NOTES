@@ -23,7 +23,7 @@ To attack the target machine, you must be on the same network. Connect to the St
 ## Task 1
 
 What does the 3-letter acronym FTP stand for?
-== ==
+==File Transfer Protocol==
 <div align="center">
 <br>
 <br>
@@ -35,8 +35,8 @@ What does the 3-letter acronym FTP stand for?
 
 ## Task 2
 
-
-====
+Which port does the FTP service listen on usually?
+==21==
 <div align="center">
 <br>
 <br>
