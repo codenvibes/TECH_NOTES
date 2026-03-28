@@ -90,7 +90,9 @@ What is the 'flag' or 'switch' that we can use with the smbclient utility to 'li
 ## Task 5
 
 How many shares are there on Dancing?
-== ==
+==4==
+
+Output:
 <div align="center">
 <br>
 <br>
