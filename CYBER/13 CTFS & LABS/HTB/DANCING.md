@@ -160,7 +160,7 @@ What is the command we can use within the SMB shell to download the files we fin
 ## Submit Flag
 
 Submit root flag
-==get==
+==5f61c10dffbc77a704d76016a22f1664==
 <div align="center">
 <br>
 <br>
