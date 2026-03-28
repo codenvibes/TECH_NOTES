@@ -9,8 +9,6 @@ pawned: true
 ---
 ## Connect to Hack The Box
 
-To attack the target machine, you must be on the same network. Connect to the Starting Point VPN using one of the following options.
-
 ![[Pasted image 20260328013715.png|1093]]
 <div align="center">
 <br>

@@ -1,9 +1,10 @@
 ---
 tags:
-link:
+  - THM_TIER0_FOUNDATIONS
+link: https://app.hackthebox.com/machines/Dancing
 description:
 image:
-date:
+date: 2026-03-28
 pawned:
 ---
 ## Connect to Hack The Box
