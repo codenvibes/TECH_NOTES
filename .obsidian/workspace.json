@@ -455,13 +455,12 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "CYBER/13 CTFS & LABS/HTB/DANCING.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of DANCING"
+              "title": "Outline"
             }
           },
           {
@@ -526,11 +525,12 @@
       "iconic:Open rulebook": false
     }
   },
-  "active": "8089db5984bed9f9",
+  "active": "b3c018d836a73c76",
   "lastOpenFiles": [
+    "DEVOPS/12 CLOUD/GENERAL CLOUD CONCEPTS/01 CLOUD COMPUTING.md",
+    "CYBER/13 CTFS & LABS/HTB/DANCING.md",
     "CYBER/13 CTFS & LABS/HTB/MEOW.md",
     "CYBER/13 CTFS & LABS/HTB/FAWN.md",
-    "CYBER/13 CTFS & LABS/HTB/DANCING.md",
     "CYBER/08 TOOLS/NMAP/NMAP BASIC PORT SCANS.md",
     "CYBER/08 TOOLS/NMAP/NMAP LIVE HOST DISCOVERY.md",
     "CYBER/01 CORE CONCEPTS/NETWORKING FUNDAMENTALS/PACKETS & FRAMES.md",
@@ -542,7 +542,6 @@
     "ASSETS/Pasted image 20260328011829.png",
     "TEMPLATES/HTBL WRITEUP.md",
     "CYBER/13 CTFS & LABS/HTB/VARIATYPE.md",
-    "DEVOPS/12 CLOUD/GENERAL CLOUD CONCEPTS/01 CLOUD COMPUTING.md",
     "CYBER/13 CTFS & LABS/HTB/WINGDATA.md",
     "ASSETS/CVE-2025-66034.png",
     "ASSETS/Pasted image 20260325161508.png",
