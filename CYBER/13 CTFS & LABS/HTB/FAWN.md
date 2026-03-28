@@ -75,7 +75,13 @@ What is the command we can use to send an ICMP echo request to test our connecti
 ## Task 5
 
 From your scans, what version is FTP running on the target?
-== ==
+==vsftpd 3.0.3==
+
+**Output:**
+
+```shell
+
+```
 <div align="center">
 <br>
 <br>
