@@ -62,7 +62,7 @@ FTP sends data in the clear, without any encryption. What acronym is used for a 
 ## Task 4
 
 What is the command we can use to send an ICMP echo request to test our connection to the target?
-== ==
+==ping==
 <div align="center">
 <br>
 <br>
@@ -74,7 +74,7 @@ What is the command we can use to send an ICMP echo request to test our connecti
 
 ## Task 5
 
-
+From your scans, what version is FTP running on the target?
 == ==
 <div align="center">
 <br>
