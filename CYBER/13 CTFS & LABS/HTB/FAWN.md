@@ -130,6 +130,14 @@ What is the command we need to run in order to display the 'ftp' client help men
 What is username that is used over FTP when you want to log in without having an account?
 ==anonymous==
 
+FTP allows users to connect to a server without needing a specific identity by using an `anonymous` login feature. This method is widely used for accessing or downloading public files.
+
+```
+ftp X.X.X.X
+#provide anonymous as username
+#provide any password
+```
+
 **Output:**
 
 ```shell
