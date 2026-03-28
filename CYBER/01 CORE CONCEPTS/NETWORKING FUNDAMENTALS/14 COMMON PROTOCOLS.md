@@ -10,50 +10,50 @@ We need to deal with and know the different and most used protocols. As we have 
 
 For example, When we enter a URL into our web browser, the browser sends an HTTP request to the server hosting the website using `TCP`. The server responds by sending the HTML code for the website back to the browser using `TCP`. The browser then uses this code to render the website on our screen. This process relies on a `TCP` connection being established between the browser and the web server and maintained until the data transfer is complete. As a result, `TCP` is reliable but slower than UDP because it requires additional overhead for establishing and maintaining the connection.
 
-|**Protocol**|**Acronym**|**Port**|**Description**|
-|---|---|---|---|
-|Telnet|`Telnet`|`23`|Remote login service|
-|Secure Shell|`SSH`|`22`|Secure remote login service|
-|Simple Network Management Protocol|`SNMP`|`161-162`|Manage network devices|
-|Hyper Text Transfer Protocol|`HTTP`|`80`|Used to transfer webpages|
-|Hyper Text Transfer Protocol Secure|`HTTPS`|`443`|Used to transfer secure webpages|
-|Domain Name System|`DNS`|`53`|Lookup domain names|
-|File Transfer Protocol|`FTP`|`20-21`|Used to transfer files|
-|Trivial File Transfer Protocol|`TFTP`|`69`|Used to transfer files|
-|Network Time Protocol|`NTP`|`123`|Synchronize computer clocks|
-|Simple Mail Transfer Protocol|`SMTP`|`25`|Used for email transfer|
-|Post Office Protocol|`POP3`|`110`|Used to retrieve emails|
-|Internet Message Access Protocol|`IMAP`|`143`|Used to access emails|
-|Server Message Block|`SMB`|`445`|Used to transfer files|
-|Network File System|`NFS`|`111`, `2049`|Used to mount remote systems|
-|Bootstrap Protocol|`BOOTP`|`67`, `68`|Used to bootstrap computers|
-|Kerberos|`Kerberos`|`88`|Used for authentication and authorization|
-|Lightweight Directory Access Protocol|`LDAP`|`389`|Used for directory services|
-|Remote Authentication Dial-In User Service|`RADIUS`|`1812`, `1813`|Used for authentication and authorization|
-|Dynamic Host Configuration Protocol|`DHCP`|`67`, `68`|Used to configure IP addresses|
-|Remote Desktop Protocol|`RDP`|`3389`|Used for remote desktop access|
-|Network News Transfer Protocol|`NNTP`|`119`|Used to access newsgroups|
-|Remote Procedure Call|`RPC`|`135`, `137-139`|Used to call remote procedures|
-|Identification Protocol|`Ident`|`113`|Used to identify user processes|
-|Internet Control Message Protocol|`ICMP`|`0-255`|Used to troubleshoot network issues|
-|Internet Group Management Protocol|`IGMP`|`0-255`|Used for multicasting|
-|Oracle DB (Default/Alternative) Listener|`oracle-tns`|`1521`/`1526`|The Oracle database default/alternative listener is a service that runs on the database host and receives requests from Oracle clients.|
-|Ingres Lock|`ingreslock`|`1524`|Ingres database is commonly used for large commercial applications and as a backdoor that can execute commands remotely via RPC.|
-|Squid Web Proxy|`http-proxy`|`3128`|Squid web proxy is a caching and forwarding HTTP web proxy used to speed up a web server by caching repeated requests.|
-|Secure Copy Protocol|`SCP`|`22`|Securely copy files between systems|
-|Session Initiation Protocol|`SIP`|`5060`|Used for VoIP sessions|
-|Simple Object Access Protocol|`SOAP`|`80`, `443`|Used for web services|
-|Secure Socket Layer|`SSL`|`443`|Securely transfer files|
-|TCP Wrappers|`TCPW`|`113`|Used for access control|
-|Internet Security Association and Key Management Protocol|`ISAKMP`|`500`|Used for VPN connections|
-|Microsoft SQL Server|`ms-sql-s`|`1433`|Used for client connections to the Microsoft SQL Server.|
-|Kerberized Internet Negotiation of Keys|`KINK`|`892`|Used for authentication and authorization|
-|Open Shortest Path First|`OSPF`|`89`|Used for routing|
-|Point-to-Point Tunneling Protocol|`PPTP`|`1723`|Is used to create VPNs|
-|Remote Execution|`REXEC`|`512`|This protocol is used to execute commands on remote computers and send the output of commands back to the local computer.|
-|Remote Login|`RLOGIN`|`513`|This protocol starts an interactive shell session on a remote computer.|
-|X Window System|`X11`|`6000`|It is a computer software system and network protocol that provides a graphical user interface (GUI) for networked computers.|
-|Relational Database Management System|`DB2`|`50000`|RDBMS is designed to store, retrieve and manage data in a structured format for enterprise applications such as financial systems, customer relationship management (CRM) systems.|
+| **Protocol**                                              | **Acronym**  | **Port**         | **Description**                                                                                                                                                                    |
+| --------------------------------------------------------- | ------------ | ---------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Telnet                                                    | `Telnet`     | `23`             | Remote login service                                                                                                                                                               |
+| Secure Shell                                              | `SSH`        | `22`             | Secure remote login service                                                                                                                                                        |
+| Simple Network Management Protocol                        | `SNMP`       | `161-162`        | Manage network devices                                                                                                                                                             |
+| Hyper Text Transfer Protocol                              | `HTTP`       | `80`             | Used to transfer webpages                                                                                                                                                          |
+| Hyper Text Transfer Protocol Secure                       | `HTTPS`      | `443`            | Used to transfer secure webpages                                                                                                                                                   |
+| Domain Name System                                        | `DNS`        | `53`             | Lookup domain names                                                                                                                                                                |
+| File Transfer Protocol                                    | `FTP`        | `20-21`          | Used to transfer files                                                                                                                                                             |
+| Trivial File Transfer Protocol                            | `TFTP`       | `69`             | Used to transfer files                                                                                                                                                             |
+| Network Time Protocol                                     | `NTP`        | `123`            | Synchronize computer clocks                                                                                                                                                        |
+| Simple Mail Transfer Protocol                             | `SMTP`       | `25`             | Used for email transfer                                                                                                                                                            |
+| Post Office Protocol                                      | `POP3`       | `110`            | Used to retrieve emails                                                                                                                                                            |
+| Internet Message Access Protocol                          | `IMAP`       | `143`            | Used to access emails                                                                                                                                                              |
+| Server Message Block                                      | `SMB`        | `445`            | Used to transfer files                                                                                                                                                             |
+| Network File System                                       | `NFS`        | `111`, `2049`    | Used to mount remote systems                                                                                                                                                       |
+| Bootstrap Protocol                                        | `BOOTP`      | `67`, `68`       | Used to bootstrap computers                                                                                                                                                        |
+| Kerberos                                                  | `Kerberos`   | `88`             | Used for authentication and authorization                                                                                                                                          |
+| Lightweight Directory Access Protocol                     | `LDAP`       | `389`            | Used for directory services                                                                                                                                                        |
+| Remote Authentication Dial-In User Service                | `RADIUS`     | `1812`, `1813`   | Used for authentication and authorization                                                                                                                                          |
+| Dynamic Host Configuration Protocol                       | `DHCP`       | `67`, `68`       | Used to configure IP addresses                                                                                                                                                     |
+| Remote Desktop Protocol                                   | `RDP`        | `3389`           | Used for remote desktop access                                                                                                                                                     |
+| Network News Transfer Protocol                            | `NNTP`       | `119`            | Used to access newsgroups                                                                                                                                                          |
+| Remote Procedure Call                                     | `RPC`        | `135`, `137-139` | Used to call remote procedures                                                                                                                                                     |
+| Identification Protocol                                   | `Ident`      | `113`            | Used to identify user processes                                                                                                                                                    |
+| Internet Control Message Protocol                         | `ICMP`       | `0-255`          | Used to troubleshoot network issues                                                                                                                                                |
+| Internet Group Management Protocol                        | `IGMP`       | `0-255`          | Used for multicasting                                                                                                                                                              |
+| Oracle DB (Default/Alternative) Listener                  | `oracle-tns` | `1521`/`1526`    | The Oracle database default/alternative listener is a service that runs on the database host and receives requests from Oracle clients.                                            |
+| Ingres Lock                                               | `ingreslock` | `1524`           | Ingres database is commonly used for large commercial applications and as a backdoor that can execute commands remotely via RPC.                                                   |
+| Squid Web Proxy                                           | `http-proxy` | `3128`           | Squid web proxy is a caching and forwarding HTTP web proxy used to speed up a web server by caching repeated requests.                                                             |
+| Secure Copy Protocol                                      | `SCP`        | `22`             | Securely copy files between systems                                                                                                                                                |
+| Session Initiation Protocol                               | `SIP`        | `5060`           | Used for VoIP sessions                                                                                                                                                             |
+| Simple Object Access Protocol                             | `SOAP`       | `80`, `443`      | Used for web services                                                                                                                                                              |
+| Secure Socket Layer                                       | `SSL`        | `443`            | Securely transfer files                                                                                                                                                            |
+| TCP Wrappers                                              | `TCPW`       | `113`            | Used for access control                                                                                                                                                            |
+| Internet Security Association and Key Management Protocol | `ISAKMP`     | `500`            | Used for VPN connections                                                                                                                                                           |
+| Microsoft SQL Server                                      | `ms-sql-s`   | `1433`           | Used for client connections to the Microsoft SQL Server.                                                                                                                           |
+| Kerberized Internet Negotiation of Keys                   | `KINK`       | `892`            | Used for authentication and authorization                                                                                                                                          |
+| Open Shortest Path First                                  | `OSPF`       | `89`             | Used for routing                                                                                                                                                                   |
+| Point-to-Point Tunneling Protocol                         | `PPTP`       | `1723`           | Is used to create VPNs                                                                                                                                                             |
+| Remote Execution                                          | `REXEC`      | `512`            | This protocol is used to execute commands on remote computers and send the output of commands back to the local computer.                                                          |
+| Remote Login                                              | `RLOGIN`     | `513`            | This protocol starts an interactive shell session on a remote computer.                                                                                                            |
+| X Window System                                           | `X11`        | `6000`           | It is a computer software system and network protocol that provides a graphical user interface (GUI) for networked computers.                                                      |
+| Relational Database Management System                     | `DB2`        | `50000`          | RDBMS is designed to store, retrieve and manage data in a structured format for enterprise applications such as financial systems, customer relationship management (CRM) systems. |
 
 ---
 
