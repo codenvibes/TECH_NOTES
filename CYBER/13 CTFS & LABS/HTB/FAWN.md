@@ -224,6 +224,23 @@ local: flag.txt remote: flag.txt
 </div>
 <!-- PAGE BREAK -->
 
+## Submit Flag
+
+**Output:**
+
+```shell
+┌──(kali㉿kali)-[~/PUEMAN/HTB]
+└─$ cat  flag.txt             
+035db21c881520061c53e0536e44f815                                                                                          
+```
+<div align="center">
+<br>
+<br>
+※※※※※※※※※※※※※※※※※※※※※※※※※※※※※※※※※※※※※※※※※※※※※※※※
+<br>
+</div>
+<!-- PAGE BREAK -->
+
 ## Final Steps
 
 
