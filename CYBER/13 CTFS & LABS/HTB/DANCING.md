@@ -8,8 +8,6 @@ pawned:
 ---
 ## Connect to Hack The Box
 
-To attack the target machine, you must be on the same network. Connect to the Starting Point VPN using one of the following options.
-
 ![[Pasted image 20260328013715.png|1093]]
 <div align="center">
 <br>
@@ -22,8 +20,8 @@ To attack the target machine, you must be on the same network. Connect to the St
 
 ## Task 1
 
-What does the acronym VM stand for?
-==Virtual Machine==
+
+== ==
 <div align="center">
 <br>
 <br>
@@ -35,8 +33,8 @@ What does the acronym VM stand for?
 
 ## Task 2
 
-What tool do we use to interact with the operating system in order to issue commands via the command line, such as the one to start our VPN connection? It's also known as a console or shell.
-==terminal==
+
+== ==
 <div align="center">
 <br>
 <br>
@@ -48,7 +46,7 @@ What tool do we use to interact with the operating system in order to issue comm
 
 ## Task 3
 
-What service do we use to form our VPN connection into HTB labs?
+
 == ==
 <div align="center">
 <br>
