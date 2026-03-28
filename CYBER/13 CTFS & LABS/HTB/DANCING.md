@@ -121,6 +121,22 @@ Unable to connect with SMB1 -- no workgroup available
 
 What is the name of the share we are able to access in the end with a blank password?
 ==WorkShares==
+
+**Output:**
+
+```
+┌──(kali㉿kali)-[~/PUEMAN/HTB]
+└─$ smbclient //10.129.18.40/WorkShares -N
+Try "help" to get a list of possible commands.
+smb: \> ls
+  .                                   D        0  Mon Mar 29 04:22:01 2021
+  ..                                  D        0  Mon Mar 29 04:22:01 2021
+  Amy.J                               D        0  Mon Mar 29 05:08:24 2021
+  James.P                             D        0  Thu Jun  3 04:38:03 2021
+
+                5114111 blocks of size 4096. 1753004 blocks available
+smb: \> 
+```
 <div align="center">
 <br>
 <br>
