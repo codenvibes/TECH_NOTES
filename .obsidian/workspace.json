@@ -15,7 +15,7 @@
               {
                 "id": "eb7c5c7906b2a9d3",
                 "type": "tabs",
-                "dimension": 41.36363636363637,
+                "dimension": 64.93506493506493,
                 "children": [
                   {
                     "id": "10dd2c9178155b52",
@@ -103,7 +103,7 @@
               {
                 "id": "0d9688c0329c8d14",
                 "type": "tabs",
-                "dimension": 58.63636363636363,
+                "dimension": 35.064935064935064,
                 "children": [
                   {
                     "id": "21fce08000a30866",
@@ -454,12 +454,13 @@
             "state": {
               "type": "outline",
               "state": {
+                "file": "QUICK NOTES/WHITE-BOARD.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline"
+              "title": "Outline of WHITE-BOARD"
             }
           },
           {
@@ -524,7 +525,7 @@
       "iconic:Open rulebook": false
     }
   },
-  "active": "b3c018d836a73c76",
+  "active": "21fce08000a30866",
   "lastOpenFiles": [
     "QUICK NOTES/WHITE-BOARD.md",
     "DEVOPS/12 CLOUD/GENERAL CLOUD CONCEPTS/01 CLOUD COMPUTING.md",
