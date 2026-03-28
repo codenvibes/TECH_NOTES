@@ -80,7 +80,18 @@ From your scans, what version is FTP running on the target?
 **Output:**
 
 ```shell
+┌──(kali㉿kali)-[~/PUEMAN/HTB]
+└─$ nmap -sV -p 21 10.129.61.67
+Starting Nmap 7.98 ( https://nmap.org ) at 2026-03-28 10:06 -0400
+Nmap scan report for 10.129.61.67
+Host is up (0.57s latency).
 
+PORT   STATE SERVICE VERSION
+21/tcp open  ftp     vsftpd 3.0.3
+Service Info: OS: Unix
+
+Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+Nmap done: 1 IP address (1 host up) scanned in 5.77 seconds
 ```
 <div align="center">
 <br>
@@ -102,6 +113,17 @@ From your scans, what version is FTP running on the target?
 </div>
 <!-- PAGE BREAK -->
 
+## Task 6
+
+
+== ==
+<div align="center">
+<br>
+<br>
+※※※※※※※※※※※※※※※※※※※※※※※※※※※※※※※※※※※※※※※※※※※※※※※※
+<br>
+</div>
+<!-- PAGE BREAK -->
 ## Final Steps
 
 
