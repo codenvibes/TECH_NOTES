@@ -49,7 +49,7 @@ Which port does the FTP service listen on usually?
 ## Task 3
 
 FTP sends data in the clear, without any encryption. What acronym is used for a later protocol designed to provide similar functionality to FTP but securely, as an extension of the SSH protocol?
-== ==
+==SFTP==
 <div align="center">
 <br>
 <br>
@@ -61,7 +61,7 @@ FTP sends data in the clear, without any encryption. What acronym is used for a 
 
 ## Task 4
 
-
+What is the command we can use to send an ICMP echo request to test our connection to the target?
 == ==
 <div align="center">
 <br>
