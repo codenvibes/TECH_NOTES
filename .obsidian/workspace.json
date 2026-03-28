@@ -15,7 +15,7 @@
               {
                 "id": "eb7c5c7906b2a9d3",
                 "type": "tabs",
-                "dimension": 75.71428571428571,
+                "dimension": 41.36363636363637,
                 "children": [
                   {
                     "id": "10dd2c9178155b52",
@@ -103,7 +103,7 @@
               {
                 "id": "0d9688c0329c8d14",
                 "type": "tabs",
-                "dimension": 24.285714285714285,
+                "dimension": 58.63636363636363,
                 "children": [
                   {
                     "id": "21fce08000a30866",
@@ -135,8 +135,7 @@
                       "title": "01 CLOUD COMPUTING"
                     }
                   }
-                ],
-                "currentTab": 1
+                ]
               }
             ],
             "direction": "horizontal"
@@ -527,6 +526,7 @@
   },
   "active": "b3c018d836a73c76",
   "lastOpenFiles": [
+    "QUICK NOTES/WHITE-BOARD.md",
     "DEVOPS/12 CLOUD/GENERAL CLOUD CONCEPTS/01 CLOUD COMPUTING.md",
     "CYBER/13 CTFS & LABS/HTB/DANCING.md",
     "CYBER/13 CTFS & LABS/HTB/MEOW.md",
@@ -547,7 +547,6 @@
     "ASSETS/Pasted image 20260325161508.png",
     "CYBER/04 EXPLOITATION/METASPLOIT FRAMEWORK/05 PAYLOADS.md",
     "CYBER/02 SECURITY FOUNDATIONS/VULNERABILITY_ASSESSMENT/02 VULNERABILITY ASSESSMENT.md",
-    "QUICK NOTES/WHITE-BOARD.md",
     "QUICK NOTES/TODO.md",
     "ASSETS/Pasted image 20260323161803.png",
     "ASSETS/Pasted image 20260323081024.png",

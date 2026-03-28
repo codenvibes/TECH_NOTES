@@ -1,7 +1,7 @@
 ## Cyber Journey
 
 🛡️ DAY 49 of my #CYBERSECURITY Journey!
-Completed the VariaType machine on Hack The Box.
+Completed the ## Dancing machine on Hack The Box.
 
 
 AD4MPU3MAN
