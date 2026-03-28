@@ -120,7 +120,7 @@ Unable to connect with SMB1 -- no workgroup available
 ## Task 6
 
 What is the name of the share we are able to access in the end with a blank password?
-== ==
+==WorkShares==
 <div align="center">
 <br>
 <br>
