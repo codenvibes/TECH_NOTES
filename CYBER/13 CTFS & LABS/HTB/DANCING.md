@@ -34,7 +34,7 @@ What does the 3-letter acronym SMB stand for?
 
 ## Task 2
 
-
+What port does SMB use to operate at?
 == ==
 <div align="center">
 <br>
