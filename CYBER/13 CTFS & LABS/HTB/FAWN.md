@@ -164,7 +164,7 @@ ftp>
 ## Task 9
 
 What is the response code we get for the FTP message 'Login successful'?
-== ==
+==230==
 <div align="center">
 <br>
 <br>
@@ -175,7 +175,7 @@ What is the response code we get for the FTP message 'Login successful'?
 
 ## Task 10
 
-
+There are a couple of commands we can use to list the files and directories available on the FTP server. One is dir. What is the other that is a common way to list files on a Linux system.
 == ==
 <div align="center">
 <br>
