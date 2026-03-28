@@ -147,8 +147,8 @@ smb: \>
 
 ## Task 7
 
-
-== ==
+What is the command we can use within the SMB shell to download the files we find?
+==get==
 <div align="center">
 <br>
 <br>
