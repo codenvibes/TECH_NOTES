@@ -57,12 +57,12 @@
                       "type": "webviewer",
                       "state": {
                         "url": "https://app.hackthebox.com/machines/Dancing?sort_by=created_at&sort_type=desc",
-                        "title": "Hack The Box",
-                        "mode": "blank"
+                        "title": "Hack The Box :: Dancing Machine",
+                        "mode": "webview"
                       },
                       "pinned": true,
                       "icon": "globe-2",
-                      "title": "Hack The Box"
+                      "title": "Hack The Box :: Dancing Machine"
                     }
                   },
                   {
