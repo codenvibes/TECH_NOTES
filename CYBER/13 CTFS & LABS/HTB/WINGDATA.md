@@ -9,6 +9,7 @@ pawned: true
 ---
 ## Summary
 
+![[Pasted image 20260330200410.png]]
 
 | SECTION/TASK     | FLAG                             |
 | ---------------- | -------------------------------- |

@@ -307,9 +307,21 @@
                       "icon": "lucide-file",
                       "title": "WINGDATA"
                     }
+                  },
+                  {
+                    "id": "5ea6bb449aa3b061",
+                    "type": "leaf",
+                    "state": {
+                      "type": "image",
+                      "state": {
+                        "file": "ASSETS/Pasted image 20260330200410.png"
+                      },
+                      "icon": "lucide-image",
+                      "title": "Pasted image 20260330200410"
+                    }
                   }
                 ],
-                "currentTab": 2
+                "currentTab": 3
               }
             ],
             "direction": "horizontal"
@@ -454,13 +466,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "CYBER/13 CTFS & LABS/HTB/WINGDATA.md",
+                "file": "ASSETS/Pasted image 20260330200410.png",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of WINGDATA"
+              "title": "Outline of Pasted image 20260330200410"
             }
           },
           {
@@ -525,8 +537,10 @@
       "iconic:Open rulebook": false
     }
   },
-  "active": "e9fa32eca0f1f585",
+  "active": "5ea6bb449aa3b061",
   "lastOpenFiles": [
+    "CYBER/13 CTFS & LABS/HTB/WINGDATA.md",
+    "ASSETS/Pasted image 20260330200410.png",
     "CYBER/13 CTFS & LABS/CTFS & LABS.base",
     "CYBER/13 CTFS & LABS/HTB/DANCING.md",
     "QUICK NOTES/WHITE-BOARD.md",
@@ -543,7 +557,6 @@
     "ASSETS/Pasted image 20260328011829.png",
     "TEMPLATES/HTBL WRITEUP.md",
     "CYBER/13 CTFS & LABS/HTB/VARIATYPE.md",
-    "CYBER/13 CTFS & LABS/HTB/WINGDATA.md",
     "ASSETS/CVE-2025-66034.png",
     "ASSETS/Pasted image 20260325161508.png",
     "CYBER/04 EXPLOITATION/METASPLOIT FRAMEWORK/05 PAYLOADS.md",
@@ -554,7 +567,6 @@
     "ASSETS/Pasted image 20260323080214.png",
     "ASSETS/Pasted image 20260323072630.png",
     "ASSETS/Pasted image 20260322183239.png",
-    "ASSETS/Pasted image 20260322172725.png",
     "CYBER/13 CTFS & LABS/THM/OPERATION ENDGAME.md",
     "CYBER/13 CTFS & LABS/HTB/MONITORSFOUR.md",
     "CYBER/13 CTFS & LABS/HTB/PIRATE.md",
