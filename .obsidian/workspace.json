@@ -307,21 +307,9 @@
                       "icon": "lucide-file",
                       "title": "WINGDATA"
                     }
-                  },
-                  {
-                    "id": "5ea6bb449aa3b061",
-                    "type": "leaf",
-                    "state": {
-                      "type": "image",
-                      "state": {
-                        "file": "ASSETS/Pasted image 20260330200410.png"
-                      },
-                      "icon": "lucide-image",
-                      "title": "Pasted image 20260330200410"
-                    }
                   }
                 ],
-                "currentTab": 3
+                "currentTab": 2
               }
             ],
             "direction": "horizontal"
@@ -466,13 +454,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "ASSETS/Pasted image 20260330200410.png",
+                "file": "CYBER/13 CTFS & LABS/HTB/WINGDATA.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Pasted image 20260330200410"
+              "title": "Outline of WINGDATA"
             }
           },
           {
@@ -537,10 +525,10 @@
       "iconic:Open rulebook": false
     }
   },
-  "active": "5ea6bb449aa3b061",
+  "active": "e9fa32eca0f1f585",
   "lastOpenFiles": [
+    "ASSETS/WingDataHTBSN10.png",
     "CYBER/13 CTFS & LABS/HTB/WINGDATA.md",
-    "ASSETS/Pasted image 20260330200410.png",
     "CYBER/13 CTFS & LABS/CTFS & LABS.base",
     "CYBER/13 CTFS & LABS/HTB/DANCING.md",
     "QUICK NOTES/WHITE-BOARD.md",
