@@ -454,12 +454,13 @@
             "state": {
               "type": "outline",
               "state": {
+                "file": "CYBER/13 CTFS & LABS/HTB/DANCING.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline"
+              "title": "Outline of DANCING"
             }
           },
           {
@@ -524,7 +525,7 @@
       "iconic:Open rulebook": false
     }
   },
-  "active": "b3c018d836a73c76",
+  "active": "e9fa32eca0f1f585",
   "lastOpenFiles": [
     "QUICK NOTES/WHITE-BOARD.md",
     "DEVOPS/12 CLOUD/GENERAL CLOUD CONCEPTS/01 CLOUD COMPUTING.md",
