@@ -73,6 +73,7 @@
                   {
                     "id": "def16fa223656dcd",
                     "type": "leaf",
+                    "pinned": true,
                     "state": {
                       "type": "markdown",
                       "state": {
@@ -80,6 +81,7 @@
                         "mode": "source",
                         "source": false
                       },
+                      "pinned": true,
                       "icon": "lucide-file",
                       "title": "BUG BOUNTY ROADMAP"
                     }
@@ -476,6 +478,8 @@
   },
   "active": "def16fa223656dcd",
   "lastOpenFiles": [
+    "ASSETS/Pasted image 20260509094359.png",
+    "ASSETS/Pasted image 20260509094344.png",
     "ASSETS/Pasted image 20260509094317.png",
     "ASSETS/Pasted image 20260509094229.png",
     "ASSETS/Pasted image 20260509094154.png",
@@ -485,13 +489,11 @@
     "ASSETS/Pasted image 20260509093659.png",
     "ASSETS/Pasted image 20260509093606.png",
     "ASSETS/Pasted image 20260509093536.png",
-    "ASSETS/Pasted image 20260509093507.png",
     "DEVOPS/12 CLOUD/GENERAL CLOUD CONCEPTS/01 CLOUD COMPUTING.md",
     "CYBER/14 BUG BOUNTY/BUG BOUNTY ROADMAP.md",
     "QUICK NOTES/TODO.md",
     "CYBER/14 BUG BOUNTY",
     "CYBER/13 CTFS & LABS/HTB/WINGDATA.md",
-    "ASSETS/WingDataHTBSN10.png",
     "CYBER/13 CTFS & LABS/CTFS & LABS.base",
     "CYBER/13 CTFS & LABS/HTB/DANCING.md",
     "QUICK NOTES/WHITE-BOARD.md",
