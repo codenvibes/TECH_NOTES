@@ -58,7 +58,7 @@
                       "state": {
                         "url": "https://account.hackthebox.com/login",
                         "title": "HTB Account",
-                        "mode": "blank"
+                        "mode": "webview"
                       },
                       "pinned": true,
                       "icon": "globe-2",
